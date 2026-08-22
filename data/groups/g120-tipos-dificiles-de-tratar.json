@@ -1,0 +1,91 @@
+{
+  "id": "g120",
+  "name": "tipos difíciles de tratar",
+  "axis": {
+    "lo": "el problema es que se aparta de todos",
+    "hi": "el problema es que impone su norma a todos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "recluse",
+      "pos": "n",
+      "def": "person who lives shut away from other people",
+      "disc": "Su rasgo es el <b>encierro</b>, no el mal carácter: puede ser amable y aun así no abrir la puerta en años. Va con casas cerradas, correo sin recoger y vecinos que solo saben rumores.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "After his wife died he saw no one for eleven years and let the mail pile up at the gate: the town's one true ___.",
+      "twin": "curmudgeon",
+      "whyNotTwin": "el recluse <b>no está</b> — se retira y desaparece; el curmudgeon <b>sí está</b>, y desde ahí gruñe. Uno evita el trato, el otro lo hace desagradable.",
+      "root": "recludere (encerrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "curmudgeon",
+      "pos": "n",
+      "def": "bad-tempered person who complains about everything",
+      "disc": "Vive entre la gente y se queja de ella: el café, la música, los jóvenes, el clima. Tiene un aire <b>casi cariñoso</b> — suele decirse de un viejo al que se aguanta con afecto.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "He grumbled about the coffee, the music and the young, and rather enjoyed his reputation as the department's resident ___.",
+      "twin": "recluse",
+      "whyNotTwin": "al curmudgeon hay que <b>oírlo</b>: su queja necesita público; el recluse no se queja de nadie porque <b>ya no ve a nadie</b>.",
+      "root": "origen oscuro, siglo XVI",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "hypocrite",
+      "pos": "n",
+      "def": "person who pretends to virtues they do not have",
+      "disc": "La distancia está entre <b>lo que predica y lo que hace</b>. Del griego <i>hypokrites</i>, <b>actor</b>: el que habla tras una máscara. Va con púlpitos, sermones y una vida privada que los desmiente.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "He preached thrift from a pulpit paid for with the collection he was quietly spending, which made him, at the very least, a ___.",
+      "twin": "ideologue",
+      "whyNotTwin": "el hypocrite <b>no cree</b> lo que exige: por eso lo incumple; el ideologue <b>cree demasiado</b> y es el primero en cumplirlo. Uno finge la doctrina, el otro la padece.",
+      "root": "hypokrites (actor)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ideologue",
+      "pos": "n",
+      "def": "person who follows a doctrine regardless of evidence",
+      "disc": "El dogma va primero y los hechos se acomodan después: lo que contradice la teoría se explica como sabotaje o casualidad. Aparece en política, economía y crítica, siempre con reproche.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "Every figure that contradicted the doctrine was explained away as sabotage: the reflex of the ___ rather than of the economist he had trained to be.",
+      "twin": "martinet",
+      "whyNotTwin": "el ideologue impone <b>una idea</b> y discute; el martinet impone <b>un reglamento</b> y no discute nada — le basta con que la hebilla brille.",
+      "root": "idea + logos (discurso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "martinet",
+      "pos": "n",
+      "def": "person who demands strict obedience to petty rules",
+      "disc": "Viene del <b>cuartel</b> — el coronel Martinet, instructor de Luis XIV — y conserva el olor a formación y uniforme. Lo suyo es el detalle sin importancia elevado a falta grave.",
+      "tone": "neg",
+      "axisPos": 93,
+      "ej": "The new sergeant sent men back to barracks over an unpolished buckle, and within a week they had him marked as a ___.",
+      "twin": "ideologue",
+      "whyNotTwin": "el martinet defiende <b>la forma</b> — el horario, la hebilla, el margen — sin creer en nada más; el ideologue defiende <b>el contenido</b> de una doctrina.",
+      "root": "coronel Martinet, instructor francés",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

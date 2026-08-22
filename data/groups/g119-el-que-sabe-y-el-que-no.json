@@ -1,0 +1,91 @@
+{
+  "id": "g119",
+  "name": "el que sabe y el que no",
+  "axis": {
+    "lo": "el saber le es ajeno o le estorba",
+    "hi": "domina y su juicio hace autoridad"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "philistine",
+      "pos": "n",
+      "def": "person indifferent or hostile to art and ideas",
+      "disc": "No está abajo por ignorante sino por <b>desdeñoso</b>: para él el arte es gasto y adorno. Aparece cuando alguien sacrifica una obra o un edificio por algo práctico — un estacionamiento, un presupuesto.",
+      "tone": "neg",
+      "axisPos": 6,
+      "ej": "The council voted to sell the Rembrandt and widen the car park, and the letters page called every one of them a ___.",
+      "twin": "dilettante",
+      "whyNotTwin": "el philistine <b>desprecia</b> el arte y no quiere saber nada; el dilettante lo <b>quiere y lo toca</b>, solo que sin profundidad. Uno rechaza, el otro juega.",
+      "root": "Filisteo, enemigo bíblico de Israel",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "neophyte",
+      "pos": "n",
+      "def": "person who has just begun something",
+      "disc": "Lo que lo define es <b>la fecha de entrada</b>, no la falta de talento: acaba de llegar y todavía no conoce los usos de la casa. Neutra — el neophyte de hoy es el maestro de mañana.",
+      "tone": "neu",
+      "axisPos": 24,
+      "ej": "He had taken his vows a month earlier and was still enough of a ___ to need telling when to stand and when to kneel.",
+      "twin": "dilettante",
+      "whyNotTwin": "el neophyte lleva <b>poco tiempo</b> y va camino de saber; el dilettante puede llevar veinte años y sigue en la superficie porque <b>no quiere bajar</b>.",
+      "root": "neo (nuevo) + phytos (plantado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dilettante",
+      "pos": "n",
+      "def": "person who dabbles in an art without serious commitment",
+      "disc": "Del italiano <i>dilettare</i>, <b>deleitarse</b>: se mete por gusto y se sale antes de que empiece el trabajo duro. Casi siempre despectiva, y se opone en la frase al profesional: <i>a ___ rather than a musician</i>.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "He had picked up and abandoned six instruments in as many years, liking the idea of playing far more than the practice it costs: a ___ rather than a musician.",
+      "twin": "neophyte",
+      "whyNotTwin": "al dilettante no le falta tiempo sino <b>constancia</b>: abandona una y otra vez; el neophyte todavía no ha tenido tiempo de abandonar nada.",
+      "root": "dilettare (deleitarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "connoisseur",
+      "pos": "n",
+      "def": "expert judge in matters of taste",
+      "disc": "Su terreno es <b>el gusto</b> — vino, pintura, música — y su oficio es <b>discriminar</b>: distinguir la cosecha buena de la mediocre. Profundidad en un solo campo, y autoridad reconocida al juzgarlo.",
+      "tone": "pos",
+      "axisPos": 76,
+      "ej": "She could name the vineyard and the year from a single sip, and the auction houses trusted her verdict as they trust no other ___.",
+      "twin": "polymath",
+      "whyNotTwin": "el connoisseur va <b>hondo en un campo</b> y su virtud es el juicio afinado; el polymath va <b>ancho por muchos</b> y su virtud es la extensión del saber.",
+      "root": "connoscere (conocer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "polymath",
+      "pos": "n",
+      "def": "person of wide learning across many fields",
+      "disc": "Lo notable es la <b>extensión</b>: publica de óptica y de gramática persa el mismo año. La palabra la usan los obituarios y las presentaciones, no el interesado.",
+      "tone": "pos",
+      "axisPos": 93,
+      "ej": "He published on optics, on Persian grammar and on the anatomy of the eel, and every obituary reached for the word ___.",
+      "twin": "connoisseur",
+      "whyNotTwin": "el polymath se mide por <b>cuántas disciplinas</b> abarca; el connoisseur por <b>lo fino de su juicio</b> dentro de una. Nadie es polymath de una sola cosa.",
+      "root": "poly (mucho) + manthanein (aprender)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

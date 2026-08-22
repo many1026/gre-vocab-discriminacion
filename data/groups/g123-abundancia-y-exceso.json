@@ -1,0 +1,91 @@
+{
+  "id": "g123",
+  "name": "abundancia y exceso",
+  "axis": {
+    "lo": "produce mucho porque es fértil",
+    "hi": "pasa de lo que se puede justificar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "fecund",
+      "pos": "adj",
+      "def": "highly fertile; producing much",
+      "disc": "Habla de la <b>capacidad de producir</b>, no de la cantidad ya producida. Su terreno propio es el <b>suelo y lo vivo</b>, y de ahí pasa por metáfora a la imaginación o a un periodo artístico.",
+      "tone": "pos",
+      "axisPos": 12,
+      "ej": "The valley's soil is so ___ that a second crop comes up in autumn without anyone having planted it.",
+      "twin": "copious",
+      "whyNotTwin": "fecund es la <b>fuente</b>: la tierra que puede dar; copious es <b>lo que ya hay sobre la mesa</b>, la cantidad contada. Una tierra fecund produce copious grano.",
+      "root": "fecundus (fértil)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "copious",
+      "pos": "adj",
+      "def": "large in quantity; plentiful",
+      "disc": "Es la palabra <b>neutra del volumen</b>: mucho material y nada más. Va con lo que se acumula y se puede contar — <i>___ notes</i>, <i>___ amounts of data</i>, <i>___ rainfall</i>.",
+      "tone": "neu",
+      "axisPos": 38,
+      "ej": "She left every lecture with ___ notes, forty pages of them a term, and read almost nothing else.",
+      "twin": "profuse",
+      "whyNotTwin": "copious es <b>cantidad acumulada</b> y no juzga a nadie; profuse es <b>derrame</b>: algo que sale a chorros y por lo general de más.",
+      "root": "copia (abundancia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "profuse",
+      "pos": "adj",
+      "def": "pouring out freely, often too freely",
+      "disc": "De <i>profundere</i>, <b>derramar</b>. Va con lo que <b>brota o se derrama</b>: sangre, sudor, y sobre todo disculpas y agradecimientos — <i>___ apologies</i>, <i>___ in his thanks</i>. Rige <b>in</b> ante la efusión.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "He knocked the glass over and was ___ in his apologies, still repeating them long after anyone at the table cared.",
+      "twin": "copious",
+      "whyNotTwin": "profuse describe algo que <b>mana</b> — sangre, sudor, disculpas — y sugiere que sobra; copious describe <b>un montón quieto</b> de material, y no sobra nada.",
+      "root": "profundere (derramar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prodigious",
+      "pos": "adj",
+      "def": "so great in size or power as to cause wonder",
+      "disc": "Lleva dentro el <b>asombro</b> (<i>prodigium</i>, prodigio): no es mucho, es increíble que sea tanto. Va con facultades y capacidades — <i>a ___ memory</i>, <i>a ___ appetite</i>, <i>___ strength</i>.",
+      "tone": "pos",
+      "axisPos": 78,
+      "ej": "His memory was so ___ that he could recite any page of the ledgers from the year he joined the firm.",
+      "twin": "exorbitant",
+      "whyNotTwin": "prodigious admira: la magnitud <b>maravilla</b>; exorbitant reprocha: la magnitud <b>no se justifica</b>. Una memoria es prodigious; un alquiler, exorbitant.",
+      "root": "prodigium (prodigio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exorbitant",
+      "pos": "adj",
+      "def": "far beyond what is reasonable, especially in price",
+      "disc": "Literalmente <b>fuera de la órbita</b>. Casi siempre de <b>precios, tarifas y exigencias</b>: lo que se cobra excede lo que la cosa vale, y por eso admite corrección — se rebaja, se recorta, se impugna.",
+      "tone": "neg",
+      "axisPos": 94,
+      "ej": "The landlord wanted three thousand a month for two unheated rooms, a rent so ___ that the tribunal ruled it above any defensible market value and cut it by half.",
+      "twin": "prodigious",
+      "whyNotTwin": "exorbitant necesita una <b>medida justa contra la que compararse</b> — el valor del piso, la tarifa normal; prodigious no compara con nada: solo dice que la magnitud <b>asombra</b>.",
+      "root": "ex + orbita (fuera del camino)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -5501,5 +5501,205 @@
   "basis": "semantic",
   "nearMiss": "intrinsic",
   "note": "las tablas crujen bajo su peso, o sea que aquello tiene materia; ningun hermano afirma existencia fisica"
+ },
+ "4fe31dfd99c09fd5": {
+  "w": "philistine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dilettante",
+  "note": "vender un Rembrandt por un estacionamiento es desprecio por el arte, no afición superficial (dilettante) ni novatez (neophyte); connoisseur y polymath son elogios"
+ },
+ "be2f3b33f7160bb6": {
+  "w": "neophyte",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dilettante",
+  "note": "'a month earlier' y 'need telling when to stand' fijan recien llegado; el dilettante no ignora la rutina, le falta constancia, y philistine desprecia"
+ },
+ "53b81b36e0eefbc3": {
+  "w": "dilettante",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "neophyte",
+  "note": "'seis instrumentos abandonados' y 'le gusta la idea mas que la practica' excluyen al neophyte, que aun no tuvo tiempo de abandonar nada"
+ },
+ "ebef8a6907c3ec02": {
+  "w": "connoisseur",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "polymath",
+  "note": "'nombrar vinedo y ano de un sorbo' es juicio hondo en un solo campo; polymath exige varias disciplinas y las tres restantes niegan la pericia"
+ },
+ "43090d6381e44113": {
+  "w": "polymath",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "connoisseur",
+  "note": "optica + gramatica persa + anatomia del pez es extension entre disciplinas; el connoisseur es de un campo solo"
+ },
+ "b6665029f48726b9": {
+  "w": "recluse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "curmudgeon",
+  "note": "once anos sin ver a nadie es encierro; el curmudgeon esta presente y grune, y hypocrite/ideologue/martinet exigen doctrina, mascara o reglamento"
+ },
+ "63e3b983d7dda6a6": {
+  "w": "curmudgeon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "recluse",
+  "note": "grunir por el cafe, la musica y los jovenes ante testigos ('resident') pide publico; el recluse ya no ve a nadie"
+ },
+ "8ee8361a3a1b93a1": {
+  "w": "hypocrite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ideologue",
+  "note": "predicar austeridad gastando la colecta es la distancia entre decir y hacer; el ideologue si cumple su doctrina"
+ },
+ "85a395a8571758e9": {
+  "w": "ideologue",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hypocrite",
+  "note": "explicar como sabotaje todo dato que contradice la doctrina es anteponer el dogma; el hypocrite no cree en lo que exige y el martinet solo exige forma"
+ },
+ "6895d5735381cc27": {
+  "w": "martinet",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ideologue",
+  "note": "mandar de vuelta al cuartel por una hebilla es disciplina de detalle; el curmudgeon se quejaria sin castigar y el ideologue defenderia una idea"
+ },
+ "4f9b503f917d470e": {
+  "w": "officious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impertinent",
+  "note": "'help nobody had asked him for' es servicio no pedido; impertinent y brazen exigen irrespeto o desverguenza, no ayuda"
+ },
+ "5d70c819beb4b8d7": {
+  "w": "impertinent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "brazen",
+  "note": "'not knowing he had crossed any line' mata a brazen, que exige saberlo y no importarle; no hay norma violada (flagrant) ni ayuda (officious)"
+ },
+ "72ecc17ab72eaca1": {
+  "w": "brazen",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impertinent",
+  "note": "rige 'about the theft' y pide desverguenza tras ser pillado; flagrant califica la falta, no la actitud, y no admite 'about'"
+ },
+ "9a148ebc56b1f26f": {
+  "w": "flagrant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "egregious",
+  "note": "colocacion fija 'in ___ disregard of' mas 'in full view': norma pisada a la vista; egregious mide grado y no desobediencia"
+ },
+ "98be5e5de783cdc2": {
+  "w": "egregious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flagrant",
+  "note": "'many small faults, but this one' abre escala de grado; un error de traduccion no desobedece norma alguna, asi que flagrant no encaja"
+ },
+ "299604eb5f1d60e9": {
+  "w": "dawdle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vacillate",
+  "note": "mirar cada escaparate y llegar tarde es lentitud, no eleccion entre opciones (vacillate) ni flaqueza a mitad (falter)"
+ },
+ "7d57c78153aefb49": {
+  "w": "vacillate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "falter",
+  "note": "rige 'between selling and renovating' y remata en 'did neither': oscilacion entre dos opciones; falter no admite 'between'"
+ },
+ "13122fa23339c8dc": {
+  "w": "falter",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vacillate",
+  "note": "la voz es sujeto propio de falter; nadie dice que una voz vacillates, dawdles, demurs o forbears"
+ },
+ "641dc406707a1902": {
+  "w": "demur",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "forbear",
+  "note": "'dared to ___, politely asking whether' es objecion hablada ante una propuesta; forbear seria callarse, lo contrario de lo que hace"
+ },
+ "14d801beddded3c8": {
+  "w": "forbear",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "demur",
+  "note": "rige 'from naming anyone' y renuncia a una accion propia; demur necesita una propuesta ajena que objetar y no admite 'from'"
+ },
+ "002ba8fc56611c8a": {
+  "w": "fecund",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "copious",
+  "note": "el suelo que da una segunda cosecha sin sembrar es capacidad de producir; copious contaria lo producido y profuse pide derrame"
+ },
+ "984ffcc174df266b": {
+  "w": "copious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "profuse",
+  "note": "'___ notes, forty pages' es volumen de material acumulado; profuse va con lo que mana y prodigious con lo que asombra"
+ },
+ "53f36a6ce5b5f97b": {
+  "w": "profuse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "copious",
+  "note": "colocacion fija '___ in his apologies': solo profuse rige 'in' ante la efusion; copious no se dice de una persona"
+ },
+ "9150128bbc481061": {
+  "w": "prodigious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exorbitant",
+  "note": "una memoria que recita cualquier pagina asombra por magnitud; exorbitant solo califica precios y exigencias injustificadas"
+ },
+ "48fff090ae6d411d": {
+  "w": "exorbitant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prodigious",
+  "note": "'above any defensible market value' introduce la medida justa contra la que se compara; prodigious admira la magnitud y no la reprocha"
  }
 }

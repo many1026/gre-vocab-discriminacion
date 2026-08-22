@@ -20,10 +20,10 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **118 grupos, 687/1112 palabras (61.8%)**, `run_all.py` en verde, 0 errores
+- **123 grupos, 712/1112 palabras (64.0%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
-- No es un repo git: no hay historial del que recuperar `data/groups/*.json`
+- Ya es repo git (`main`): cada lote se comitea al cerrar
 
 ## Anatomía
 
@@ -124,6 +124,16 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   pero ninguna oración excluye a la otra sin sonar forzada. Y el campo "inclinación (n)"
   solo tiene esas dos más `proclivity`, `propensity` y `affinity` — es decir, no llega a 5
   sin meterlas juntas. Ese grupo queda bloqueado hasta que aparezca un sustantivo más.
+- **El artículo delante del hueco delata la respuesta.** En grupos de sustantivos, `an ___`
+  descarta de un vistazo a los cuatro hermanos que empiezan por consonante: el ítem se
+  resuelve por gramática y no enseña nada (le pasó a `ideologue` en g120). La salida es
+  poner el hueco tras `the` o tras un plural — `the reflex of the ___` — que sirve para
+  los cinco.
+- **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
+  o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
+  hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.
+  Quedan libres para un grupo futuro `miscreant`, `reprobate` y `libertine`, pero son solo
+  tres: hacen falta dos personajes reprobables más.
 
 ## Qué NO hacer
 

@@ -1,0 +1,91 @@
+{
+  "id": "g122",
+  "name": "dudar y demorarse",
+  "axis": {
+    "lo": "pierde el tiempo sin decidir nada",
+    "hi": "se contiene a propósito y calla"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "dawdle",
+      "pos": "v",
+      "def": "move or work too slowly, wasting time",
+      "disc": "No hay duda ninguna: hay <b>lentitud</b>. Se camina despacio, se mira el escaparate, se llega tarde. Va con niños, recados y trayectos, y el reproche es por el tiempo perdido, no por la indecisión.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "Told to be home by six, the children ___d at every shop window and turned up well after dark.",
+      "twin": "vacillate",
+      "whyNotTwin": "el que dawdle <b>ya sabe adónde va</b> y solo tarda; el que vacillate <b>no ha elegido</b> destino. Uno pierde tiempo andando, el otro parado entre dos puertas.",
+      "root": "origen dialectal inglés",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "vacillate",
+      "pos": "v",
+      "def": "keep swinging between two courses of action",
+      "disc": "De <i>vacillare</i>, <b>bambolearse</b>: la oscilación es lo esencial, y se repite. Rige <b>between</b> — <i>___ between selling and renovating</i> — y el final típico es que no se hace ni una cosa ni la otra.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "For three months the board ___d between selling the building and renovating it, and in the end did neither.",
+      "twin": "falter",
+      "whyNotTwin": "vacillate es <b>ir y volver entre dos opciones</b>, y necesita las dos; falter es <b>flaquear una vez</b> a mitad de algo ya empezado, sin que haya alternativa a la vista.",
+      "root": "vacillare (bambolearse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "falter",
+      "pos": "v",
+      "def": "lose strength or steadiness in the middle of something",
+      "disc": "Lo que flaquea es <b>la voz, el paso o la resolución</b>, y flaquea <b>a mitad de camino</b>: la acción ya iba en marcha. Es la palabra del titubeo físico — se usa de voces, de piernas y de economías.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "Halfway through the eulogy his voice began to ___ and he had to stop and look at the floor.",
+      "twin": "vacillate",
+      "whyNotTwin": "falter le pasa <b>al cuerpo o al impulso</b> — la voz se quiebra, las piernas ceden; vacillate le pasa <b>a la decisión</b>, y nadie diría que una voz vacillates.",
+      "root": "falter (tropezar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "demur",
+      "pos": "v",
+      "def": "politely object or hesitate to agree",
+      "disc": "Es una <b>objeción cortés</b>: no se niega en redondo, se pone un pero. Necesita una <b>propuesta encima de la mesa</b> — una firma, un voto, un ofrecimiento — y suele ir con <i>politely</i> o <i>at first</i>.",
+      "tone": "neu",
+      "axisPos": 74,
+      "ej": "When the merger came to a vote, one partner alone dared to ___, politely asking whether anyone had checked the figures.",
+      "twin": "forbear",
+      "whyNotTwin": "demur <b>habla</b>: pone la objeción por delante; forbear <b>calla</b> y se guarda lo que tendría derecho a hacer o decir.",
+      "root": "demorari (demorarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "forbear",
+      "pos": "v",
+      "def": "hold back from doing what one could do",
+      "disc": "Hay <b>autocontrol</b>, no duda: se tiene el derecho y la ocasión, y aun así no se usa. Es la única del grupo con brillo moral — la contención es una virtud, y suele ir con <b>from</b>.",
+      "tone": "pos",
+      "axisPos": 93,
+      "ej": "He could have named the colleague who lied about him and would have been believed, but he chose to ___ from naming anyone and said only that mistakes had been made.",
+      "twin": "demur",
+      "whyNotTwin": "forbear renuncia a <b>una acción propia</b> que estaba en su mano; demur responde a <b>una propuesta ajena</b> objetándola. Sin propuesta no hay nada que demur.",
+      "root": "for (abstenerse) + bear (llevar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g121",
+  "name": "pasarse de la raya",
+  "axis": {
+    "lo": "estorba metiéndose donde no lo llaman",
+    "hi": "escandaliza por el tamaño de la falta"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "officious",
+      "pos": "adj",
+      "def": "offering unwanted help or interfering with petty authority",
+      "disc": "El daño lo hace <b>ayudando</b>: nadie pidió esa corrección, ese sello, esa supervisión. Ojo, <b>no</b> significa oficial — esa es <i>official</i>, y el examen se apoya en la confusión.",
+      "tone": "neg",
+      "axisPos": 14,
+      "ej": "He returned the manuscript with a page of corrections nobody had asked him for, help so ___ that the author felt supervised rather than served.",
+      "twin": "impertinent",
+      "whyNotTwin": "el officious cree que <b>está sirviendo</b> y por eso se entromete; el impertinent sabe que está siendo <b>irrespetuoso</b>. Uno sobra por servicial, el otro por atrevido.",
+      "root": "officium (servicio, deber)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "impertinent",
+      "pos": "adj",
+      "def": "rude in a way that ignores rank or distance",
+      "disc": "Lo que se salta es <b>la distancia debida</b>: el niño al adulto, el empleado al director, el desconocido al que pregunta de más. Va con <i>question</i>, <i>remark</i>, y a menudo con niños.",
+      "tone": "neg",
+      "axisPos": 36,
+      "ej": "The boy asked the guest what she earned, not knowing he had crossed any line, and his mother apologized for the ___ question.",
+      "twin": "brazen",
+      "whyNotTwin": "el impertinent puede no <b>darse cuenta</b> de que se pasó — el niño no lo sabía; el brazen se da cuenta perfectamente y <b>no le importa</b>.",
+      "root": "in + pertinere (no venir al caso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "brazen",
+      "pos": "adj",
+      "def": "boldly shameless about wrongdoing",
+      "disc": "De <i>brass</i>, <b>bronce</b>: cara dura que no se sonroja. Se dice de <b>la persona y su actitud</b>, y rige <b>about</b> — <i>___ about the theft</i>. Que lo hayan pillado no lo detiene: repite.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "Caught on camera with the cash in his hand, he shrugged and did it again the next day, so ___ about the theft that the auditors were unnerved.",
+      "twin": "impertinent",
+      "whyNotTwin": "brazen exige <b>falta de vergüenza ante una falta propia</b>; impertinent exige solo <b>irrespeto</b>, y sirve para una pregunta indiscreta que no delinque nada.",
+      "root": "brass (bronce)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "flagrant",
+      "pos": "adj",
+      "def": "openly breaking a rule for everyone to see",
+      "disc": "De <i>flagrare</i>, <b>arder</b> — la falta arde a la vista, como en <i>in flagrante</i>. Lo suyo es <b>violar una norma existente y hacerlo a plena luz</b>: <i>in ___ disregard of</i>, <i>a ___ breach</i>.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "He went on building in ___ disregard of the injunction, in full view of the inspectors who had served it on him.",
+      "twin": "egregious",
+      "whyNotTwin": "flagrant mide <b>lo visible y lo desafiante</b>: hay una norma y se pisa delante de todos; egregious mide <b>el tamaño del daño</b>, aunque no haya norma ni testigos.",
+      "root": "flagrare (arder)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "egregious",
+      "pos": "adj",
+      "def": "outstandingly bad; shocking in degree",
+      "disc": "Literalmente <b>fuera del rebaño</b> (<i>e + grex</i>): sobresale por lo malo. Es una palabra de <b>grado</b>, no de desobediencia — va con <i>error</i>, <i>example</i>, <i>failure</i>, y suele aparecer en superlativo.",
+      "tone": "neg",
+      "axisPos": 93,
+      "ej": "The translation had many small faults, but this one reversed the meaning of a whole paragraph and was so ___ that the publisher recalled the run.",
+      "twin": "flagrant",
+      "whyNotTwin": "egregious contesta <b>cuánto de malo</b>; flagrant contesta <b>cuán a la vista y contra qué norma</b>. Un error de traducción puede ser egregious sin ser flagrant: no desobedece a nadie.",
+      "root": "e (fuera de) + grex (rebaño)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}
