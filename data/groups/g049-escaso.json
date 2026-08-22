@@ -1,0 +1,91 @@
+{
+  "id": "g049",
+  "name": "escaso",
+  "axis": {
+    "lo": "hay poco, y se dice sin juzgarlo",
+    "hi": "hay tan poco que da desprecio"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "scant",
+      "pos": "adj",
+      "def": "barely sufficient in amount",
+      "disc": "<b>Apenas alcanza</b>, y la palabra no se indigna por ello: es medición, no juicio. Va casi siempre delante del sustantivo — <i>scant evidence</i>, <i>scant attention</i>.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "The committee gave ___ attention to the objection: four minutes, and no minute of it written down.",
+      "twin": "sparse",
+      "whyNotTwin": "scant mide la <b>cantidad total</b>: hay poco. sparse describe la <b>distribución</b>: lo que hay está muy repartido y por eso se ve ralo.",
+      "root": "skamt (corto, escaso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sparse",
+      "pos": "adj",
+      "def": "thinly scattered over an area",
+      "disc": "Lo que importa es el <b>reparto en el espacio</b>: los elementos están separados unos de otros. Población sparse, vegetación sparse, pelo sparse. Se ve, no solo se cuenta.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "Vegetation on the plateau is ___: a shrub every twenty metres, and bare rock in between.",
+      "twin": "scant",
+      "whyNotTwin": "sparse habla del <b>espacio entre las cosas</b>; scant, de <b>cuántas hay</b>. Si la oración da distancias o describe un paisaje, es sparse.",
+      "root": "spargere (esparcir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "wanting",
+      "pos": "adj",
+      "def": "falling short of a required standard",
+      "disc": "Aquí ya hay un <b>criterio contra el que se mide</b> y no se alcanza. Su forma estelar en el GRE es <i>found wanting</i>: se le puso a prueba y no dio la talla.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Measured against the standard the company itself had published, the safety record was found ___.",
+      "twin": "paltry",
+      "whyNotTwin": "wanting es <b>insuficiente frente a un criterio</b>, que la oración suele nombrar; paltry es <b>ridículamente pequeño</b> y no necesita criterio ninguno, solo desprecio.",
+      "root": "want (carecer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "paltry",
+      "pos": "adj",
+      "def": "contemptibly small in amount",
+      "disc": "Ya no mide: <b>desprecia</b>. Casi siempre acompaña una cifra, y la cifra resulta insultante en su contexto — <i>a paltry sum</i>, <i>a paltry increase</i>.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "A ___ nine hundred pounds in compensation, after eleven years and two operations.",
+      "twin": "trifling",
+      "whyNotTwin": "paltry es una <b>cantidad insultante</b> — hay una cifra y ofende. trifling es algo <b>sin importancia</b>, que ni merece discutirse. Uno indigna, el otro aburre.",
+      "root": "paltry (harapo, pingajo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "trifling",
+      "pos": "adj",
+      "def": "of negligible importance",
+      "disc": "El extremo, y ya no es cuestión de cantidad sino de <b>importancia</b>: no vale la pena ocuparse de ello. Comparte raíz con <i>trifle</i>, la fruslería.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "He resigned over a ___ matter — a parking space — which everyone understood to be about something else entirely.",
+      "twin": "paltry",
+      "whyNotTwin": "trifling es <b>irrelevante</b>: da igual. paltry es <b>miserablemente escaso</b>: hay una cantidad y es una ofensa. Si no hay cifra, es trifling.",
+      "root": "trifle (fruslería, cosa de poca monta)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

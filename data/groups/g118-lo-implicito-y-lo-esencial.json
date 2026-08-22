@@ -1,0 +1,91 @@
+{
+  "id": "g118",
+  "name": "lo implícito y lo esencial",
+  "axis": {
+    "lo": "se nace con ello",
+    "hi": "tiene cuerpo y se puede tocar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "inborn",
+      "pos": "adj",
+      "def": "present from birth rather than learned",
+      "disc": "El origen es <b>el nacimiento</b>: no se enseñó ni se adquirió. Se dice de aptitudes y de rasgos — el oído, el sentido del equilibrio, cierta desconfianza — y suele oponerse a lo que da el entrenamiento.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "She has an ___ sense of balance that ten years of lessons does not give anyone.",
+      "twin": "intrinsic",
+      "whyNotTwin": "inborn se dice de <b>seres vivos</b> y mira al origen: se nació con ello; intrinsic se dice de <b>cosas y conceptos</b> y mira a la naturaleza: le pertenece por lo que es.",
+      "root": "in + born (nacido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intrinsic",
+      "pos": "adj",
+      "def": "belonging to a thing by its own nature",
+      "disc": "<b>Por dentro</b> (<i>intrinsecus</i>): la propiedad es de la cosa misma y no de lo que otros le atribuyan. Su contraste clásico es con el <b>valor de mercado</b> — lo que algo vale frente a lo que pagan por ello.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "The coin's ___ value is the weight of the silver, quite apart from what a collector will pay for it.",
+      "twin": "inborn",
+      "whyNotTwin": "intrinsic es de <b>la cosa</b>: la plata pesa lo que pesa; inborn es de <b>quien nace</b>. Una moneda no puede ser inborn, y una persona rara vez es intrinsic.",
+      "root": "intrinsecus (hacia dentro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "implicit",
+      "pos": "adj",
+      "def": "contained in something without being stated",
+      "disc": "Está <b>plegado dentro</b> (<i>implicare</i>): no se dijo, pero se deduce de lo que sí se dijo. Rige <b>in</b> y señala dónde está plegado — <i>___ in the contract</i>, <i>___ in the argument</i>.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The promise was never made aloud, but it is ___ in every paragraph of the letter.",
+      "twin": "tacit",
+      "whyNotTwin": "implicit está <b>dentro de un texto o un razonamiento</b> y se puede señalar con el dedo; tacit está <b>en la cabeza de dos personas</b> que se entienden sin decirlo.",
+      "root": "implicare (plegar dentro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tacit",
+      "pos": "adj",
+      "def": "understood between people without being spoken",
+      "disc": "De <i>tacere</i>, <b>callar</b>. Lo suyo son los <b>acuerdos y consentimientos</b> que funcionan porque nadie los menciona: <i>a ___ agreement</i>, <i>___ consent</i>, <i>___ approval</i>.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "The practice went on for years with the ___ approval of everyone senior enough to have stopped it.",
+      "twin": "implicit",
+      "whyNotTwin": "tacit necesita <b>dos partes que se entienden</b> en silencio; implicit necesita <b>un texto o una idea</b> que lo contenga sin decirlo. Uno es un pacto, el otro un contenido.",
+      "root": "tacere (callar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "corporeal",
+      "pos": "adj",
+      "def": "having a physical body",
+      "disc": "El extremo opuesto del grupo: aquí no hay nada implícito ni interior — <b>hay cuerpo</b> (<i>corpus</i>). Aparece en filosofía y en historias de fantasmas, siempre oponiéndose a lo espiritual.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "Whatever came up the stairs that night was ___: the boards creaked under its weight.",
+      "twin": "intrinsic",
+      "whyNotTwin": "corporeal afirma que algo <b>tiene materia</b>; intrinsic afirma que una propiedad <b>le pertenece por naturaleza</b>. Uno habla del cuerpo, el otro de la esencia.",
+      "root": "corpus (cuerpo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

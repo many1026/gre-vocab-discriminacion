@@ -1,0 +1,94 @@
+{
+  "id": "g045",
+  "name": "ceder y rendirse",
+  "axis": {
+    "lo": "hace lo que se le pide, sin drama",
+    "hi": "se rinde del todo tras resistir"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "comply",
+      "pos": "verb",
+      "def": "to act in accordance with a rule or request",
+      "disc": "Es puro <b>hecho</b>: se cumplió lo pedido. No dice absolutamente nada del ánimo del sujeto — se puede comply de buena gana o rabiando. Lleva <i>with</i>.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Ordered to produce the files within ten days, the ministry chose to ___ on the ninth, in full and without comment.",
+      "twin": "acquiesce",
+      "whyNotTwin": "comply es <b>hacer</b> lo pedido; acquiesce es <b>aceptar en silencio</b> algo con lo que no estás de acuerdo. El segundo no exige que hagas nada.",
+      "root": "complere (completar, cumplir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "acquiesce",
+      "pos": "verb",
+      "def": "to accept reluctantly without protest",
+      "disc": "La <b>reticencia va dentro de la palabra</b>: acepta sin estar de acuerdo y sin discutirlo. Es un silencio, no un acto. Lleva <i>in</i> o <i>to</i>.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "She thought the decision was wrong, said so once, and then chose to ___: there was nothing to be gained by saying it twice.",
+      "twin": "comply",
+      "whyNotTwin": "acquiesce es <b>callarse</b> pese al desacuerdo; comply es <b>ejecutar</b> lo mandado. Si en la oración no se hace nada, solo se deja pasar, es acquiesce.",
+      "root": "acquiescere (quedarse quieto, descansar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "yield",
+      "pos": "verb",
+      "def": "to give way under pressure",
+      "disc": "Cede ante una <b>fuerza</b>, y puede ceder <b>solo en parte</b>: se entrega terreno, no la guerra. Ojo con su otro sentido, muy del GRE: <i>yield</i> también es producir o dar un resultado.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The union would ___ on pay but not on hours, and the strike went on another three weeks.",
+      "twin": "capitulate",
+      "whyNotTwin": "yield puede ser <b>parcial</b>; capitulate es <b>total</b>. Si la oración dice en qué no se cedió, la palabra es yield.",
+      "root": "gieldan (pagar, entregar)",
+      "tier": 1,
+      "sense2": {
+        "def": "to produce or give as a result",
+        "ej": "Six months of digging would ___ two coins and a broken comb."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "relent",
+      "pos": "verb",
+      "def": "to soften after being harsh or firm",
+      "disc": "El único donde <b>la dureza era propia</b>: el sujeto estaba negándose o castigando, y afloja. Necesita una negativa previa en la oración — sin ella, la palabra no tiene de qué aflojar.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "A month of refusing, and then — because the child asked once more — he began to ___.",
+      "twin": "yield",
+      "whyNotTwin": "yield cede ante una <b>fuerza externa</b>; relent afloja una <b>severidad propia</b>. Uno es empujado, el otro se ablanda solo.",
+      "root": "re + lentus (blando, lento)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "capitulate",
+      "pos": "verb",
+      "def": "to surrender completely on agreed terms",
+      "disc": "El extremo: <b>rendición total</b>, y con un dejo militar que la palabra nunca pierde. Curiosamente viene de los <i>capítulos</i> del documento de rendición.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Surrounded, out of water and out of argument, the garrison had no choice but to ___ before dawn.",
+      "twin": "yield",
+      "whyNotTwin": "capitulate entrega <b>todo</b> y suele haber resistido antes; yield entrega <b>lo que la presión arranca</b>, que puede ser poco. La totalidad los separa.",
+      "root": "capitulum (capítulo del acuerdo de rendición)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "g115",
+  "name": "contención y sobriedad",
+  "axis": {
+    "lo": "no se atribuye más de lo que tiene",
+    "hi": "no se permite nada que alegre"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "modest",
+      "pos": "adj",
+      "def": "not claiming more than one has or is",
+      "disc": "Dos usos y los dos caen: la <b>persona</b> que no se atribuye méritos y la <b>cantidad</b> que es pequeña sin ser ridícula — <i>a ___ salary</i>, <i>a ___ improvement</i>. En el segundo no hay virtud ninguna, solo tamaño.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "The rise was ___ — four per cent — but it was the first in six years.",
+      "twin": "understated",
+      "whyNotTwin": "modest mide <b>cuánto hay</b> o cuánto se reclama; understated mide <b>cómo se presenta</b> lo que hay. Un sueldo es modest; un vestido es understated.",
+      "root": "modestus (moderado, comedido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "understated",
+      "pos": "adj",
+      "def": "presented with deliberate restraint",
+      "disc": "Aquí hay <b>decisión estética</b>: se tiene con qué lucirse y se elige no hacerlo. Por eso suele ser <b>elogio</b> — el efecto llega, solo que tarda un momento en notarse.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "The dress was ___: no pattern, no jewellery, and it took the room ten minutes to notice how good it was.",
+      "twin": "modest",
+      "whyNotTwin": "understated supone <b>que había más y se contuvo</b>; modest supone que <b>no hay tanto</b>, o que quien lo tiene no lo proclama.",
+      "root": "under + state (decir de menos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "discreet",
+      "pos": "adj",
+      "def": "careful not to attract notice or reveal what one knows",
+      "disc": "Su terreno es <b>la información y la mirada ajena</b>: no se cuenta lo que se sabe, no se monta escena. Ojo con <i>discrete</i>, con te final, que significa <b>separado</b> y es otra palabra.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "A ___ word in the right ear settled the matter before anyone else knew there was a matter.",
+      "twin": "understated",
+      "whyNotTwin": "discreet cuida <b>que no se sepa ni se note</b>; understated cuida <b>que no se recargue</b>. Uno protege un secreto, el otro modera un estilo.",
+      "root": "discretus (separado, que sabe distinguir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sober",
+      "pos": "adj",
+      "def": "serious and unexcited in judgment",
+      "disc": "Fuera del sentido de no estar bebido, califica <b>juicios y valoraciones</b>: <i>a ___ assessment</i>, <i>a ___ reminder</i>. Lo que aporta es la <b>ausencia de entusiasmo</b> — se mira el asunto sin adornarlo.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "After a week of celebration came a ___ assessment: the debt was still there and nothing had been repaid.",
+      "twin": "staid",
+      "whyNotTwin": "sober se dice de <b>un juicio</b> en un momento dado; staid se dice de <b>un carácter o una institución</b> que son así siempre. Uno es una actitud, el otro una condición.",
+      "root": "sobrius (no ebrio)",
+      "tier": 1,
+      "sense2": {
+        "def": "not affected by alcohol",
+        "ej": "He had been ___ for eleven years and counted every one of them.",
+        "note": "El sentido literal. Si la oración habla de bebida, no está diciendo que alguien sea serio."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "staid",
+      "pos": "adj",
+      "def": "respectable and settled to the point of dullness",
+      "disc": "Es un <b>participio antiguo de stay</b>: lo que se quedó quieto. Describe <b>personas e instituciones</b> que no cambian nunca, y el reproche no es moral sino de <b>aburrimiento</b>.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "It is a ___ firm: nobody has changed the carpet, the letterhead or the opening hours since 1970.",
+      "twin": "sober",
+      "whyNotTwin": "staid implica que <b>nunca pasa nada</b> y suena a reproche; sober solo implica que <b>en esto no hay euforia</b>, y puede ser un elogio.",
+      "root": "participio antiguo de stay (quedarse)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g112",
+  "name": "difícil y pesado",
+  "axis": {
+    "lo": "asusta nada más de verlo",
+    "hi": "aprieta y no admite demora"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "daunting",
+      "pos": "adj",
+      "def": "intimidating to face before you begin",
+      "disc": "El efecto es <b>psicológico y previo</b>: la cosa acobarda cuando se mira entera. Por eso convive con la sorpresa de que luego no era para tanto — lo daunting está en la <b>expectativa</b>.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The reading list is ___ — eleven hundred pages before the first seminar — but the seminars themselves turn out to be gentle.",
+      "twin": "arduous",
+      "whyNotTwin": "daunting es lo que <b>intimida antes</b> de empezar; arduous es lo que <b>cansa mientras</b> se hace. Una lista puede ser daunting y luego resultar llevadera; una subida arduous lo es en cada paso.",
+      "root": "domitare (domar, amedrentar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cumbersome",
+      "pos": "adj",
+      "def": "awkward to handle or to operate",
+      "disc": "El problema es <b>la forma del artefacto</b>, no el esfuerzo: pesa, estorba, tiene demasiadas piezas. Se dice igual de un mueble que de un procedimiento con cuatro firmas y tres ventanillas.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The procedure is ___: four signatures, two of them from an office that shuts at noon.",
+      "twin": "onerous",
+      "whyNotTwin": "cumbersome es <b>torpe de manejar</b> — sobran pasos y piezas; onerous es <b>gravoso</b> — pesa como obligación aunque el trámite sea simple. Uno molesta, el otro carga.",
+      "root": "cumber (estorbo, embarazo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "arduous",
+      "pos": "adj",
+      "def": "requiring sustained hard effort",
+      "disc": "De <i>arduus</i>, <b>empinado</b>. Lo que describe es <b>el esfuerzo continuado</b>: horas, kilómetros, años. No dice que sea peligroso ni injusto — dice que agota.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The ascent is ___ rather than dangerous: nine hours of it, and nowhere flat enough to sit down.",
+      "twin": "daunting",
+      "whyNotTwin": "arduous se mide <b>durante</b>: el cansancio acumulado; daunting se mide <b>antes</b>: el miedo a empezar. La oración suele decir cuál de los dos momentos describe.",
+      "root": "arduus (empinado, escarpado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "onerous",
+      "pos": "adj",
+      "def": "burdensome as an obligation",
+      "disc": "De <i>onus</i>, <b>carga</b>. Lo pesado aquí es <b>el deber</b>: condiciones, cláusulas, responsabilidades que alguien impuso. Casi siempre hay una parte que sale beneficiada de esa carga.",
+      "tone": "neg",
+      "axisPos": 75,
+      "ej": "The terms were ___: he had to file monthly accounts for a debt he had already paid off.",
+      "twin": "cumbersome",
+      "whyNotTwin": "onerous pesa porque <b>obliga</b>, y suele haber quien lo impuso; cumbersome pesa porque <b>está mal hecho</b>. Un contrato es onerous; un formulario es cumbersome.",
+      "root": "onus (carga)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exigent",
+      "pos": "adj",
+      "def": "pressing and admitting no delay",
+      "disc": "De <i>exigere</i>, <b>exigir</b>. Añade <b>urgencia</b> a la dificultad: no solo cuesta, es que además no puede esperar. Su colocación técnica es <i>___ circumstances</i>, la excepción que permite actuar sin orden judicial.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "In ___ circumstances an officer may enter the premises without a warrant.",
+      "twin": "onerous",
+      "whyNotTwin": "exigent aprieta por <b>el reloj</b>: hay que actuar ya; onerous aprieta por <b>el peso</b>: la obligación es dura pero puede durar años.",
+      "root": "exigere (exigir, apremiar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

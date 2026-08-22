@@ -1,0 +1,95 @@
+{
+  "id": "g081",
+  "name": "doctrina y herejía",
+  "axis": {
+    "lo": "abraza la doctrina recibida",
+    "hi": "la derriba a propósito"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "pious",
+      "pos": "adj",
+      "def": "devoutly religious in practice",
+      "disc": "El polo <b>devoto</b>: cumple con lo que la fe pide, sin discutirlo. Ojo con el segundo sentido, que el GRE prefiere — <i>___ platitudes</i>, <i>a ___ hope</i>: moralina hueca o buen deseo que nadie piensa cumplir.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "She was ___ in a quiet, unremarkable way: mass on Sundays, and never a word about it to anyone.",
+      "twin": "dogmatic",
+      "whyNotTwin": "pious describe <b>la práctica</b> de una fe; dogmatic, <b>el modo de sostener</b> una opinión. Se puede ser pious sin imponerle nada a nadie, que es justo lo que el dogmatic no sabe hacer.",
+      "root": "pius (devoto, cumplidor)",
+      "tier": 1,
+      "sense2": {
+        "def": "morally self-satisfied in a hollow, showy way",
+        "ej": "The speech ended in the usual ___ platitudes about hard work.",
+        "note": "En el GRE este sentido es más frecuente que el religioso, y es <b>negativo</b>. Si la oración trae <i>platitudes</i>, <i>hope</i> o <i>sentiments</i>, la palabra está criticando, no elogiando."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "dogmatic",
+      "pos": "adj",
+      "def": "asserting opinions as if they could not be questioned",
+      "disc": "Lo que define no es <b>qué</b> cree sino <b>cómo</b> lo sostiene: sin admitir réplica. El síntoma que lo delata en una oración es que <b>la objeción no se responde</b>, se repite la afirmación.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "He was too ___ to argue with, and it was never clear he had a theory at all: every objection was answered by repeating the claim more loudly.",
+      "twin": "doctrinaire",
+      "whyNotTwin": "dogmatic no tolera que <b>lo contradigan</b>; doctrinaire no tolera que <b>la realidad no encaje</b> con su teoría. Uno pelea con el interlocutor, el otro con los hechos.",
+      "root": "dogma (opinión sentada, decreto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "doctrinaire",
+      "pos": "adj",
+      "def": "applying a theory rigidly, whatever the circumstances",
+      "disc": "El problema es la <b>aplicación sin ajuste</b>: el plan se ejecuta igual donde funciona y donde no. Aparece en política y economía, siempre con el mismo reproche — la doctrina pesó más que el caso concreto.",
+      "tone": "neg",
+      "axisPos": 48,
+      "ej": "The reforms failed for ___ reasons: the model was applied unchanged in villages where none of its assumptions held.",
+      "twin": "dogmatic",
+      "whyNotTwin": "doctrinaire supone <b>una doctrina explícita</b> que se aplica al pie de la letra; dogmatic puede no tener doctrina ninguna — le basta con no dejarse contradecir.",
+      "root": "doctrina (enseñanza, cuerpo de ideas)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "heterodox",
+      "pos": "adj",
+      "def": "departing from the accepted doctrine in a field",
+      "disc": "<b>Otra opinión</b> (<i>heteros</i> + <i>doxa</i>), y nada más: se aparta de lo aceptado sin proponerse escandalizar a nadie. Es el término neutro, y por eso lo usan los propios especialistas para describirse.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "Nothing in the paper attacked anyone: it was simply ___, taking the one position the field had stopped considering.",
+      "twin": "iconoclastic",
+      "whyNotTwin": "heterodox solo está <b>fuera</b> de la ortodoxia; iconoclastic además <b>va contra ella</b> y disfruta el escándalo. Si la oración niega la intención de derribar, la palabra es heterodox.",
+      "root": "heteros (otro) + doxa (opinión)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "iconoclastic",
+      "pos": "adj",
+      "def": "attacking the beliefs and institutions others revere",
+      "disc": "La raíz es literal: <b>romper imágenes</b> de culto. Añade a heterodox el ingrediente que la define — <b>la intención de derribar</b> lo venerado, y a menudo el gusto por el escándalo que provoca.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "He was ___ in the strict sense: he set out to break the images the profession revered, and enjoyed the noise it made.",
+      "twin": "heterodox",
+      "whyNotTwin": "iconoclastic es heterodox <b>más el ataque</b>: no basta pensar distinto, hay que ir contra los ídolos. Si en la oración hay blanco elegido y ganas de tirarlo, es iconoclastic.",
+      "root": "eikon (imagen) + klan (romper)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g101",
+  "name": "lo que viene al caso y lo que hace falta",
+  "axis": {
+    "lo": "viene a cuento en este momento",
+    "hi": "sin ello no se puede seguir"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "apropos",
+      "pos": "adj",
+      "def": "coming at just the right moment; to the point",
+      "disc": "Del francés <i>à propos</i>. Lo que aporta es el <b>momento</b>: llega cuando tocaba. Su forma más frecuente en el examen es la locución <i>___ of nothing</i>, que significa justo lo contrario — venir a cuento de nada.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "___ of nothing, he asked whether the building had ever been a hotel.",
+      "twin": "apposite",
+      "whyNotTwin": "apropos mide <b>la oportunidad</b> — si el momento era el bueno; apposite mide <b>el ajuste</b> — si el ejemplo ilumina el asunto. Uno depende del reloj, el otro del contenido.",
+      "root": "à propos (a propósito, oportunamente)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "apposite",
+      "pos": "adj",
+      "def": "strikingly well suited to the point being made",
+      "disc": "Literalmente <b>puesto al lado</b> (<i>ad</i> + <i>ponere</i>): la cita, el ejemplo o la comparación que encaja tan bien que <b>ahorra la explicación</b>. No es solo pertinente: es certero.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "The quotation was ___: eight words that said what the previous three pages had failed to say.",
+      "twin": "germane",
+      "whyNotTwin": "apposite es <b>certero</b>: el ejemplo aclara de golpe; germane es solo <b>del asunto</b>: toca el tema que se está tratando, sin prometer brillantez.",
+      "root": "ad- (junto a) + ponere (poner)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "germane",
+      "pos": "adj",
+      "def": "relevant to the matter under discussion",
+      "disc": "De <i>germanus</i>, <b>del mismo germen</b> — hermano de sangre. Rige <b>to</b> y su trabajo casi siempre es <b>negativo</b>: sirve para decir que algo, por interesante que sea, <b>no toca</b> el asunto que se debate.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "Under the rules of the house an amendment must be ___ to the bill it amends, and this one plainly was not.",
+      "twin": "apposite",
+      "whyNotTwin": "germane pregunta <b>si es del tema</b>, sí o no; apposite pregunta <b>si además ilustra bien</b>. Un dato puede ser germane y aburridísimo.",
+      "root": "germanus (del mismo germen, hermano)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "indispensable",
+      "pos": "adj",
+      "def": "impossible to do without",
+      "disc": "Se predica de <b>personas y cosas</b>: quítalo y aquello deja de funcionar. Viene de <i>dispensar</i> en su sentido antiguo, <b>eximir</b> — lo indispensable es aquello de lo que nadie te exime.",
+      "tone": "pos",
+      "axisPos": 75,
+      "ej": "Within a year she had made herself ___: nobody else knew how the payments system actually worked.",
+      "twin": "imperative",
+      "whyNotTwin": "indispensable califica <b>algo o alguien</b> sin lo cual no se puede seguir; imperative califica <b>una acción</b> que hay que hacer ya. Uno es una pieza, el otro una orden.",
+      "root": "in- (no) + dispensare (eximir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "imperative",
+      "pos": "adj",
+      "def": "so urgent that it must be done at once",
+      "disc": "De <i>imperare</i>, <b>mandar</b>: la palabra trae orden dentro. Su construcción típica pide <b>subjuntivo</b> — <i>it is ___ that the valve be closed</i> — y ese <i>be</i> desnudo es la pista de que hay imperativo.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "It is ___ that the valve be closed before the pressure reaches nine bar.",
+      "twin": "indispensable",
+      "whyNotTwin": "imperative se dice de <b>lo que hay que hacer</b> y corre prisa; indispensable, de <b>lo que no se puede quitar</b>. Cerrar la válvula es imperative; la válvula misma es indispensable.",
+      "root": "imperare (mandar, ordenar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

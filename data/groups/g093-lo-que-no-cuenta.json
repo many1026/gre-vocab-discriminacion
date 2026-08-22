@@ -1,0 +1,91 @@
+{
+  "id": "g093",
+  "name": "lo que existe pero no cuenta",
+  "axis": {
+    "lo": "es tan pequeño que no se ve",
+    "hi": "se hizo solo para poder decir que se hizo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "minute",
+      "pos": "adj",
+      "def": "extremely small in size or amount",
+      "disc": "Aquí no se juzga la importancia: se mide el <b>tamaño</b>. Es la palabra del laboratorio — <i>___ traces</i>, <i>___ quantities</i>. Se pronuncia <b>my-NYOOT</b>, distinto del minuto del reloj.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "The lab found ___ traces of the metal, parts per billion, in every sample they tested.",
+      "twin": "trivial",
+      "whyNotTwin": "minute mide <b>cantidad</b>: es diminuto; trivial juzga <b>importancia</b>: da igual. Un rastro minute puede ser la prueba decisiva del caso, y entonces de trivial no tiene nada.",
+      "root": "minutus (disminuido, menudo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "trivial",
+      "pos": "adj",
+      "def": "of no importance or consequence",
+      "disc": "Del <b>trivium</b>, el cruce de tres caminos: lo que se habla en cualquier esquina. Lo que niega es <b>el peso</b> del asunto, y el que lo usa casi siempre está descartando algo que a otro sí le importa.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "He treats every objection as ___, which is why nobody in the room raises them any more.",
+      "twin": "minute",
+      "whyNotTwin": "trivial es un <b>juicio</b>: no vale la pena; minute es una <b>medida</b>: es diminuto. Una objeción se descarta por trivial, no por minute.",
+      "root": "trivium (cruce de tres caminos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "nominal",
+      "pos": "adj",
+      "def": "existing in name only, without the reality",
+      "disc": "<b>El nombre sin la cosa</b> (<i>nomen</i>): el jefe que no manda, el precio que no cubre el costo. Hay una discrepancia declarada entre <b>el título y lo que de verdad ocurre</b>.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "She remained the ___ head of the department for two more years while her deputy signed everything.",
+      "twin": "token",
+      "whyNotTwin": "nominal es <b>el título vacío</b>: en el papel manda ella; token es <b>el gesto de escaparate</b>: se hace algo pequeño para aparentar que se cumplió. Uno es un cargo, el otro una concesión.",
+      "root": "nomen (nombre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "perfunctory",
+      "pos": "adj",
+      "def": "done as a routine, with no care or interest",
+      "disc": "Del que <b>cumple el trámite y se va</b> (<i>per-</i> + <i>fungi</i>). La cosa sí se hizo — la inspección, el saludo, la disculpa — pero <b>sin poner nada</b>, y se nota.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "The nod he gave her was ___, the kind you give a stranger who has held a door.",
+      "twin": "token",
+      "whyNotTwin": "perfunctory juzga <b>cómo se hizo</b>: sin ganas; token juzga <b>para qué se hizo</b>: para aparentar. Una inspección perfunctory puede ser sincera y perezosa; una token está calculada.",
+      "root": "per- (del todo) + fungi (cumplir, despachar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "token",
+      "pos": "adj",
+      "def": "done only as a symbol, to appear to comply",
+      "disc": "Es <b>la señal en lugar de la cosa</b>: una concesión mínima que sirve de nota de prensa. Siempre hay <b>cálculo</b> detrás — se da lo justo para que no se pueda decir que no se dio nada.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The consultation produced one ___ concession, enough for a press release and nothing more.",
+      "twin": "nominal",
+      "whyNotTwin": "token es <b>un gesto que se ofrece</b> para quedar bien; nominal es <b>un nombre que se conserva</b> sin contenido. Uno se concede, el otro se ostenta.",
+      "root": "tacen (señal, prenda)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

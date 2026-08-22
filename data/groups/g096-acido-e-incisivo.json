@@ -1,0 +1,95 @@
+{
+  "id": "g096",
+  "name": "ácido e incisivo",
+  "axis": {
+    "lo": "es seco, pero no ataca a nadie",
+    "hi": "está hecho para destruir al blanco"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "astringent",
+      "pos": "adj",
+      "def": "severe and unsentimental, offering no comfort",
+      "disc": "Literalmente <b>lo que contrae los tejidos</b> — de ahí el tónico y el vino que reseca la boca. En figurado califica prosa, crítica o humor <b>sin azúcar</b>: no ataca a nadie, simplemente no consuela.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "The eulogy was oddly ___: no consolation offered, and not one soft adjective in ten minutes.",
+      "twin": "trenchant",
+      "whyNotTwin": "astringent es <b>sequedad</b>: quita lo sentimental; trenchant es <b>filo</b>: corta hasta el fondo del asunto. Uno se abstiene, el otro penetra.",
+      "root": "ad- + stringere (apretar, contraer)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "trenchant",
+      "pos": "adj",
+      "def": "sharply penetrating and clear in its judgment",
+      "disc": "El único del grupo que es <b>elogio</b>: corta como una trinchera abierta de un tajo y <b>deja el asunto más claro</b> que antes. Se dice de análisis, críticas y observaciones, nunca de personas iracundas.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "A ___ ten-page analysis cut through thirty years of confusion, and nobody has improved on it since.",
+      "twin": "scathing",
+      "whyNotTwin": "trenchant <b>ilumina</b>: la crítica es aguda y deja ver mejor; scathing <b>arrasa</b>: el objetivo es dejar al blanco por los suelos. Uno se admira, el otro se teme.",
+      "root": "trenchier (cortar), de donde trinchera",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "caustic",
+      "pos": "adj",
+      "def": "able to burn or corrode what it touches",
+      "disc": "Primero es <b>química</b> (<i>kaustikos</i>, que quema): la sosa cáustica. De ahí sale el uso figurado — comentarios que <b>corroen</b> a quien los recibe, dichos con acidez y no necesariamente con gracia.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The spill was ___ enough to take the paint off the concrete in under a minute.",
+      "twin": "scathing",
+      "whyNotTwin": "caustic describe <b>el tono</b> — ácido, corrosivo, de quien habla así siempre; scathing describe <b>el efecto</b> — el blanco queda destrozado. Uno quema al contacto, el otro deja escombros.",
+      "root": "kaustikos (que quema)",
+      "tier": 1,
+      "sense2": {
+        "def": "bitingly sarcastic in a way that stings",
+        "ej": "Her ___ reply to the toast was quoted for years afterwards.",
+        "note": "El sentido figurado, y el que más cae en el examen. La imagen se conserva: lo que dice quema como el ácido."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "acrimonious",
+      "pos": "adj",
+      "def": "bitter and angry, as a dispute between two sides is",
+      "disc": "El único que no califica a una crítica sino a <b>un intercambio</b>: un divorcio, una negociación, una ruptura entre socios. Hacen falta <b>dos partes</b> y un rencor que va creciendo.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "The divorce was ___: four years, two changes of solicitor, and a final hearing about custody of a dog.",
+      "twin": "caustic",
+      "whyNotTwin": "acrimonious se dice de <b>una disputa entre dos</b>; caustic, de <b>lo que dice uno</b>. Un comentario nunca es acrimonious por sí solo: hace falta la pelea entera.",
+      "root": "acer (agudo, acre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "scathing",
+      "pos": "adj",
+      "def": "so severely critical that it damages its target",
+      "disc": "De una raíz nórdica que significa <b>daño</b>. Lo que la define es <b>la consecuencia</b>: tras una crítica scathing, algo se cae — la obra cierra, el libro no se reedita, el candidato se retira.",
+      "tone": "neg",
+      "axisPos": 95,
+      "ej": "The report was ___: it found not one thing the department had done correctly, and two directors resigned the week it appeared.",
+      "twin": "trenchant",
+      "whyNotTwin": "scathing se mide por <b>el destrozo</b> que deja; trenchant, por <b>la claridad</b> que aporta. Una crítica puede ser trenchant y elogiosa; scathing nunca lo es.",
+      "root": "skatha nórdico (daño, perjuicio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

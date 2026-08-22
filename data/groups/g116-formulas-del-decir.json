@@ -1,0 +1,91 @@
+{
+  "id": "g116",
+  "name": "fórmulas del decir",
+  "axis": {
+    "lo": "no dice nada aunque suene a sabiduría",
+    "hi": "dice algo que queda como norma"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "platitude",
+      "pos": "noun",
+      "def": "a flat remark offered as if it were wisdom",
+      "disc": "La raíz es <b>plano</b>: lo que se dice no tiene relieve ninguno, pero se pronuncia con solemnidad. Su hábitat son los discursos y los pésames, donde nadie espera que se diga nada nuevo.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "Forty minutes of ___s about hard work and the future, and not a single number in the whole speech.",
+      "twin": "aphorism",
+      "whyNotTwin": "la platitude es <b>breve y hueca</b>; el aphorism es <b>breve y afilado</b>. Los dos caben en una línea, pero uno se olvida al oírlo y el otro se cita durante siglos.",
+      "root": "plat (plano)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "euphemism",
+      "pos": "noun",
+      "def": "a mild expression standing in for a harsh one",
+      "disc": "<b>Hablar bien</b> (<i>eu</i> + <i>phemi</i>) de algo que no lo es: se sustituye la palabra dura por otra tibia. Rige <b>for</b>, y el examen lo usa para señalar que alguien está tapando lo que hace.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "\"Restructuring\" turned out to be a ___ for closing two plants and dismissing four hundred people.",
+      "twin": "hyperbole",
+      "whyNotTwin": "el euphemism <b>dice menos</b> de lo que hay, para suavizar; la hyperbole <b>dice más</b>, para impresionar. Son los dos desajustes opuestos entre la palabra y el hecho.",
+      "root": "eu (bien) + phemi (hablar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "hyperbole",
+      "pos": "noun",
+      "def": "deliberate exaggeration, not meant to be taken literally",
+      "disc": "<b>Arrojar por encima</b> (<i>hyper</i> + <i>ballein</i>). Nadie pretende engañar: se exagera para dar énfasis, y quien escucha lo sabe. Se pronuncia <b>hai-PER-bo-li</b>, cuatro sílabas.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The advertisement was pure ___: the greatest discovery, it said, since the taming of fire.",
+      "twin": "euphemism",
+      "whyNotTwin": "la hyperbole <b>infla</b> y se nota que infla; el euphemism <b>rebaja</b> y busca que no se note. Uno quiere impresionar, el otro que no se pregunten.",
+      "root": "hyper (por encima) + ballein (arrojar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "aphorism",
+      "pos": "noun",
+      "def": "a short saying that packs a sharp truth",
+      "disc": "Era una <b>definición breve</b> en medicina (<i>apo</i> + <i>horizein</i>, delimitar). Hoy es la frase corta y bien cortada que se recuerda: pocas palabras, filo, y casi siempre un autor detrás.",
+      "tone": "pos",
+      "axisPos": 72,
+      "ej": "The book is made of ___s: eight words each, and half of them worth copying out.",
+      "twin": "dictum",
+      "whyNotTwin": "el aphorism vale por su <b>ingenio</b> y lo firma un escritor; el dictum vale por <b>la autoridad</b> de quien lo pronunció — un juez, un maestro, una escuela.",
+      "root": "apo- + horizein (delimitar, definir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dictum",
+      "pos": "noun",
+      "def": "an authoritative pronouncement that others go on citing",
+      "disc": "Literalmente <b>lo dicho</b>, y lo dicho por alguien con autoridad para decirlo. Sirve de referencia después: se cita en sentencias, en manuales y en discusiones donde alguien quiere zanjar.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The court still quotes the old ___ that no one may profit from his own wrong.",
+      "twin": "aphorism",
+      "whyNotTwin": "el dictum <b>obliga o zanja</b> porque viene de quien manda en la materia; el aphorism <b>ilumina</b> porque está bien dicho. Uno se acata, el otro se admira.",
+      "root": "dictum (lo dicho), de dicere",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "g056",
+  "name": "emoción justa o empalagosa",
+  "axis": {
+    "lo": "conmueve con razón y sin insistir",
+    "hi": "empalaga hasta dar vergüenza ajena"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "poignant",
+      "pos": "adj",
+      "def": "keenly moving, often through a small detail",
+      "disc": "El único <b>elogioso</b>: conmueve de verdad, y casi siempre <b>por contención</b>, no por insistencia. Viene de <i>punzar</i>: la emoción pincha, no ahoga.",
+      "tone": "pos",
+      "axisPos": 12,
+      "ej": "The most ___ thing in the exhibition was a shopping list, written for a Tuesday that never came.",
+      "twin": "woeful",
+      "whyNotTwin": "poignant <b>conmueve</b> y se admira; woeful <b>está lleno de pena</b> y se compadece. Uno es una cualidad de la obra, el otro un estado del sujeto.",
+      "root": "pungere (punzar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "woeful",
+      "pos": "adj",
+      "def": "full of sorrow; also lamentably bad",
+      "disc": "<b>Dos sentidos y el segundo cae mucho</b>: <i>a woeful performance</i> no está triste, está lamentablemente mal. Cuando modifica una capacidad o un resultado, significa deficiente.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "A ___ face at the door, and behind it the news that the dog had not survived the night.",
+      "twin": "poignant",
+      "whyNotTwin": "woeful describe a <b>quien sufre</b>; poignant, a <b>lo que conmueve al espectador</b>. La cara está triste; la lista de la compra es poignant.",
+      "root": "woe (aflicción)",
+      "tier": 1,
+      "sense2": {
+        "def": "lamentably bad or inadequate",
+        "ej": "The safety training was ___: one slide, shown once, in 2011."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "sentimental",
+      "pos": "adj",
+      "def": "indulging emotion beyond what the occasion warrants",
+      "disc": "Aquí empieza el <b>reproche</b>: la emoción es real pero <b>desproporcionada</b> o fácil. Ojo, tiene un uso neutro frecuente — <i>sentimental value</i> es sencillamente valor afectivo.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "He kept the broken watch for ___ reasons and would not hear of having it repaired.",
+      "twin": "mawkish",
+      "whyNotTwin": "sentimental es <b>emoción de más</b>, y puede ser sincera y hasta entrañable; mawkish es <b>emoción falsa y espesa</b>, que produce rechazo.",
+      "root": "sentire (sentir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cloying",
+      "pos": "adj",
+      "def": "excessively sweet to the point of disgust",
+      "disc": "El único que funciona <b>en sentido literal</b>: un postre puede ser cloying. De ahí pasa a lo figurado — un tono, una amabilidad, una banda sonora que empalaga.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "The dessert was ___: three spoonfuls in, nobody at the table wanted a fourth.",
+      "twin": "mawkish",
+      "whyNotTwin": "cloying empalaga por <b>exceso de dulzura</b>, incluida la del azúcar; mawkish empalaga por <b>exceso de sentimiento falso</b>. Solo cloying sirve para comida.",
+      "root": "cloy (saciar, hartar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "mawkish",
+      "pos": "adj",
+      "def": "sickeningly sentimental and insincere",
+      "disc": "El extremo, y lleva <b>náusea</b> dentro: viene de <i>mawk</i>, el gusano. No solo es sentimental de más — es falso, y da vergüenza ajena leerlo o verlo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The eulogy was ___: eleven minutes of invented tenderness from a man who had not called in twenty years.",
+      "twin": "sentimental",
+      "whyNotTwin": "sentimental puede ser <b>sincero</b> y solo excesivo; mawkish es <b>falso además de excesivo</b>. Si la oración expone la impostura, es mawkish.",
+      "root": "mawk (gusano, larva)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

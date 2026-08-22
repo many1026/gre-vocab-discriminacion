@@ -1,0 +1,91 @@
+{
+  "id": "g110",
+  "name": "pulir, reforzar y adornar",
+  "axis": {
+    "lo": "lo trabaja hasta que queda exacto",
+    "hi": "le pone encima lo que nunca tuvo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "refine",
+      "pos": "verb",
+      "def": "to improve something by removing what is imprecise",
+      "disc": "Es el verbo de la <b>refinería</b> y del laboratorio: se quita impureza y se gana precisión. Su objeto son <b>métodos, técnicas y estimaciones</b>, y el resultado es más exacto, no más vistoso.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "Three more seasons of measurements ___d the estimate until the error fell below one per cent.",
+      "twin": "elaborate",
+      "whyNotTwin": "refine <b>quita</b> lo impreciso y deja lo mismo, más afinado; elaborate <b>añade</b> desarrollo a lo que estaba dicho a medias. Uno depura, el otro despliega.",
+      "root": "re- + fin (fino, puro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "elaborate",
+      "pos": "verb",
+      "def": "to develop something further, in more detail",
+      "disc": "En este sentido es <b>intransitivo y rige on</b>: <i>___ on a point</i>. Lo que se pide es <b>más desarrollo</b> de algo apenas esbozado, no que se adorne ni que se corrija — solo que se cuente entero.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "Asked to ___ on the point, he repeated the same sentence more slowly.",
+      "twin": "embellish",
+      "whyNotTwin": "elaborate añade <b>desarrollo verdadero</b>: lo que faltaba por decir; embellish añade <b>adorno</b>, y muchas veces adorno inventado. Uno completa, el otro decora.",
+      "root": "elaborare (trabajar a fondo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "bolster",
+      "pos": "verb",
+      "def": "to strengthen something by adding support to it",
+      "disc": "Era <b>el travesaño que sostiene</b> — de ahí la almohada larga. Lo que refuerza viene <b>de fuera</b>: más pruebas para una tesis, más tropas para una posición, buenas noticias para la moral.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "Two further surveys ___ the claim, which until then had rested on a single dig.",
+      "twin": "refine",
+      "whyNotTwin": "bolster <b>arrima apoyos externos</b> y la cosa sigue igual por dentro; refine <b>mejora la cosa misma</b> quitándole imprecisión.",
+      "root": "bolster (travesaño, almohadón de refuerzo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "burnish",
+      "pos": "verb",
+      "def": "to polish something until it shines",
+      "disc": "Literalmente <b>bruñir</b> un metal. Lo que cae en el examen es el figurado, y va con un objeto casi fijo: <i>___ a reputation</i>, <i>___ one's credentials</i> — sacarle brillo a lo que ya se tiene.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The prize did nothing for the book's sales but ___ed his credentials for the committee he wanted to join.",
+      "twin": "embellish",
+      "whyNotTwin": "burnish <b>saca brillo a algo real</b> — una reputación que ya existe; embellish <b>añade lo que no había</b>. Uno pule, el otro inventa.",
+      "root": "brunir (dar brillo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "embellish",
+      "pos": "verb",
+      "def": "to add decorative or invented details to something",
+      "disc": "Dos usos y los dos caen: <b>adornar</b> un objeto y <b>adornar un relato</b> con detalles que no ocurrieron. En el segundo, la palabra es una acusación cortés de mentira.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Each retelling ___ed the escape a little more, until there were dogs in it that no report had ever mentioned.",
+      "twin": "burnish",
+      "whyNotTwin": "embellish <b>agrega</b> lo que no estaba, a veces falso; burnish <b>frota</b> lo que ya estaba para que luzca. Si en la oración aparecen detalles nuevos, es embellish.",
+      "root": "embellir, de bel (bello)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

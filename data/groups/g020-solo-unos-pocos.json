@@ -1,0 +1,111 @@
+{
+  "id": "g020",
+  "name": "que solo unos pocos conocen o consiguen leer",
+  "axis": {
+    "lo": "poca gente lo conoce, sin más misterio",
+    "hi": "no hay forma de leer lo que hay dentro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "obscure",
+      "pos": "adj",
+      "def": "little known or hard to make out",
+      "disc": "La más <b>llana y más amplia</b>: poco conocido, y ya. Un poeta obscure no es difícil, es que nadie lo ha leído. También funciona como <b>verbo</b>: tapar, oscurecer.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "She built the whole argument on an ___ pamphlet that had sold ninety copies in 1847.",
+      "twin": "esoteric",
+      "whyNotTwin": "obscure significa <b>poco conocido</b> y punto; esoteric añade que hay un <b>círculo de iniciados</b> que sí lo conoce. Uno no tiene público, el otro tiene un público cerrado.",
+      "root": "obscurus (oscuro, cubierto)",
+      "tier": 1,
+      "sense2": {
+        "def": "to make something hard to see or understand",
+        "ej": "The fog ___d the far bank of the river until nearly midday.",
+        "note": "Como verbo: tapar u ocultar. El GRE lo usa mucho en la fórmula \"obscures the fact that…\", donde significa que algo impide ver una verdad."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "esoteric",
+      "pos": "adj",
+      "def": "understood only by a small group of initiates",
+      "disc": "Hay un <b>grupo que sí lo entiende</b>: la palabra presupone iniciados. No dice que sea difícil, dice que es <i>para pocos</i> — una broma interna es esoteric.",
+      "tone": "neu",
+      "axisPos": 40,
+      "ej": "The jokes were ___: funny to the eleven people who had worked there in 1998 and to nobody else alive.",
+      "twin": "arcane",
+      "whyNotTwin": "esoteric es para un <b>círculo cerrado que existe ahora</b>; arcane es conocimiento <b>antiguo y medio perdido</b>. Uno es exclusivo, el otro es remoto.",
+      "root": "esotero (más interior, hacia dentro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "arcane",
+      "pos": "adj",
+      "def": "mysterious and known from long ago",
+      "disc": "Añade <b>antigüedad y secreto</b>: reglas arcanas, saberes arcanos. Suele haber polvo encima — cosas que alguna vez se supieron y ya casi nadie recuerda.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "Parliamentary procedure is full of ___ rules that have survived untouched from the seventeenth century.",
+      "twin": "esoteric",
+      "whyNotTwin": "esoteric lo entiende un círculo <b>vivo</b> de iniciados; arcane viene de <b>muy atrás</b> y quizá ya no lo entienda del todo nadie.",
+      "root": "arca (cofre): arcanus, guardado bajo llave",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "recondite",
+      "pos": "adj",
+      "def": "dealing with matters too deep for most readers",
+      "disc": "Su terreno es la <b>erudición</b>: de especialistas para especialistas. La dificultad viene de la <i>profundidad</i>, no del secreto ni de la antigüedad.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "His footnotes are so ___ that checking a single one requires a decade of training in three dead languages.",
+      "twin": "esoteric",
+      "whyNotTwin": "esoteric es para un grupo <b>por pertenencia</b>; recondite es para un grupo <b>por preparación</b>. A uno entras si te admiten, al otro si estudias veinte años.",
+      "root": "recondere (guardar en lo hondo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "enigmatic",
+      "pos": "adj",
+      "def": "puzzling and inviting interpretation",
+      "disc": "<b>Invita a descifrar</b>: hay algo ahí y no sabes qué. Su objeto típico es una persona, una sonrisa, una respuesta, y suele resultar atractivo más que frustrante.",
+      "tone": "neu",
+      "axisPos": 82,
+      "ej": "Her ___ reply kept the reporters guessing for a week about which way she would vote.",
+      "twin": "inscrutable",
+      "whyNotTwin": "enigmatic <b>invita</b> a interpretar, y por eso intriga; inscrutable <b>no da nada</b> con lo que trabajar. Uno es un acertijo, el otro una pared.",
+      "root": "aenigma (acertijo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inscrutable",
+      "pos": "adj",
+      "def": "impossible to read or interpret at all",
+      "disc": "El extremo: <b>no se puede escrutar</b>. Casi siempre una cara o una expresión de la que no se saca absolutamente nada. Frustra en vez de intrigar.",
+      "tone": "neu",
+      "axisPos": 93,
+      "ej": "He listened to the verdict with an ___ face, and nobody in the courtroom could tell whether he had expected it.",
+      "twin": "enigmatic",
+      "whyNotTwin": "enigmatic deja pistas que dan ganas de seguir; inscrutable <b>no deja ninguna</b>. Si en la oración alguien intenta leerlo y no saca nada, es inscrutable.",
+      "root": "in- + scrutari (escudriñar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

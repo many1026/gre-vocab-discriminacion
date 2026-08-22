@@ -1,0 +1,111 @@
+{
+  "id": "g019",
+  "name": "difícil de entender",
+  "axis": {
+    "lo": "se entiende a la primera lectura",
+    "hi": "no hay forma de entrar por mucho que insistas"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "lucid",
+      "pos": "adj",
+      "def": "clear and easy to understand",
+      "disc": "El opuesto del grupo. Y además significa <b>lúcido</b> en sentido mental: a lucid interval es un momento de claridad en alguien confundido.",
+      "tone": "pos",
+      "axisPos": 5,
+      "ej": "His explanation was so ___ that the committee understood the whole proposal in a single reading.",
+      "twin": "opaque",
+      "whyNotTwin": "Son los dos polos exactos, y la metáfora es óptica en ambas direcciones: lucid deja pasar la luz, opaque la bloquea.",
+      "root": "lux, lucis (luz)",
+      "tier": 1,
+      "sense2": {
+        "def": "mentally clear and rational",
+        "ej": "He was ___ for an hour that morning and recognized everyone in the room.",
+        "note": "Aplicado a la mente y no a un texto: lúcido. La colocación clásica es \"a lucid interval\", y el GRE la usa en textos de medicina y biografía."
+      },
+      "contrast": true,
+      "polysemous": true
+    },
+    {
+      "w": "opaque",
+      "pos": "adj",
+      "def": "impossible to see through or make sense of",
+      "disc": "La <b>metáfora óptica</b>: no deja pasar la luz. Aplicado a un texto dice que no se ve nada dentro, pero no dice por qué — puede ser hasta mala redacción.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "The regulation is deliberately ___: no one can tell from reading it who is actually liable.",
+      "twin": "abstruse",
+      "whyNotTwin": "opaque no explica <b>por qué</b> no se entiende; abstruse afirma que la dificultad viene de la <b>complejidad real</b> del asunto.",
+      "root": "opacus (sombrío, no transparente)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "convoluted",
+      "pos": "adj",
+      "def": "twisted and hard to follow",
+      "disc": "El problema es la <b>estructura</b>: da vueltas, se enreda, vuelve sobre sí misma. Y se puede desenredar — un argumento convoluted admite una versión simple.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The plot was so ___ that by the third act no one could say who had betrayed whom.",
+      "twin": "byzantine",
+      "whyNotTwin": "convoluted está <b>enredado</b>; byzantine además está lleno de <b>reglas ocultas y facciones</b>. Una frase puede ser convoluted, pero solo un sistema es byzantine.",
+      "root": "con- + volvere (enrollar juntos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "byzantine",
+      "pos": "adj",
+      "def": "excessively complex, with hidden rules and intrigue",
+      "disc": "Su objeto son los <b>sistemas</b>, no los textos: burocracias, reglamentos, cortes. Añade a la complejidad un tufo de <i>intriga</i>: hay facciones y reglas no escritas.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The permit process is ___: eleven offices, four of which exist only to authorize the other seven.",
+      "twin": "convoluted",
+      "whyNotTwin": "convoluted describe algo enredado que <b>se podría desenredar</b>; byzantine describe un sistema cuya complejidad <b>protege a alguien</b>. Uno es torpeza, el otro es diseño.",
+      "root": "Bizancio, por la complejidad proverbial de su corte",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abstruse",
+      "pos": "adj",
+      "def": "hard to understand because it is genuinely complex",
+      "disc": "La dificultad es <b>legítima</b>: el asunto es difícil de verdad, no está mal explicado. Su terreno es la matemática, la filosofía, la teoría. No la confundas con obtuse, que califica al lector torpe y no al texto.",
+      "tone": "neg",
+      "axisPos": 84,
+      "ej": "The proof is ___ rather than badly written: three specialists needed a week each to check it.",
+      "twin": "opaque",
+      "whyNotTwin": "opaque puede serlo por mala redacción; abstruse lo es porque <b>el contenido es difícil</b>. Un texto abstruse perfectamente escrito sigue siendo abstruse.",
+      "root": "abs- + trudere (empujar lejos, esconder)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "impenetrable",
+      "pos": "adj",
+      "def": "impossible to understand at all",
+      "disc": "El extremo: no es que cueste, es que <b>no se entra</b>. Y conserva el sentido físico — an impenetrable forest — que las demás del grupo ya perdieron.",
+      "tone": "neg",
+      "axisPos": 94,
+      "ej": "After three readings the chapter remained ___; she could not extract a single claim from it.",
+      "twin": "abstruse",
+      "whyNotTwin": "abstruse cuesta pero <b>se puede</b> con esfuerzo y preparación; impenetrable <b>no cede</b> por mucho que insistas. Es la diferencia entre difícil e imposible.",
+      "root": "in- + penetrare (penetrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g073",
+  "name": "claro al expresarse",
+  "axis": {
+    "lo": "apenas se deja entender",
+    "hi": "se entiende y además conmueve"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "intelligible",
+      "pos": "adj",
+      "def": "able to be understood at all",
+      "disc": "Marca el <b>umbral mínimo</b>: se entiende o no se entiende. No dice nada de elegancia ni de facilidad — un manuscrito borroso o una grabación con viento son apenas intelligible.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "The recording was barely ___: over the wind you could make out three or four words in each sentence.",
+      "twin": "accessible",
+      "whyNotTwin": "intelligible es <b>que llegue a entenderse</b>; accessible es <b>que se entienda sin preparación previa</b>. Un tratado puede ser perfectamente intelligible y no ser accessible para nadie de fuera.",
+      "root": "inter (entre) + legere (leer, escoger)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "accessible",
+      "pos": "adj",
+      "def": "easy for a non-specialist to understand",
+      "disc": "Mide la <b>distancia al lector</b>, no la calidad de la prosa: no hace falta ser del gremio para entrar. Es elogio de divulgación — decir que un libro es accessible no dice nada de su belleza.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "A history of quantum theory ___ to readers who never took a physics course, and honest about what it leaves out.",
+      "twin": "limpid",
+      "whyNotTwin": "accessible mira a <b>quién lo lee</b>: no se exige preparación. limpid mira a <b>cómo está escrito</b>: la frase es transparente aunque el asunto sea difícil.",
+      "root": "accedere (acercarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "limpid",
+      "pos": "adj",
+      "def": "clear and transparent, especially of prose",
+      "disc": "Viene del <b>agua limpia</b> y eso describe: una prosa por la que se ve el fondo, sin turbiedad ni esfuerzo. Es elogio de estilo, y suele ir con la idea de que el escritor no se hace notar.",
+      "tone": "pos",
+      "axisPos": 55,
+      "ej": "A ___ style that drew no attention to itself: the sentences went down like clear water and left the argument standing.",
+      "twin": "accessible",
+      "whyNotTwin": "limpid elogia <b>la frase</b>; accessible elogia <b>la elección del nivel</b>. Un texto accessible puede estar mal escrito y cumplir igual; uno limpid, no.",
+      "root": "limpidus (claro, transparente)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "articulate",
+      "pos": "adj",
+      "def": "able to put thought into precise words",
+      "disc": "Es una <b>capacidad de la persona</b>, no una cualidad del texto: sabe decir exactamente lo que piensa, y por eso se entiende a la primera. No promete emoción ninguna.",
+      "tone": "pos",
+      "axisPos": 75,
+      "ej": "She was not moving, and did not try to be, but she was the most ___ of the witnesses: four minutes, and the commission understood what an hour of testimony had failed to convey.",
+      "twin": "eloquent",
+      "whyNotTwin": "articulate es <b>precisión</b>: pone el pensamiento en palabras exactas. eloquent es <b>fuerza</b>: además mueve a quien escucha. Si la oración niega la emoción, es articulate.",
+      "root": "articulare (dividir en articulaciones, pronunciar con nitidez)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "eloquent",
+      "pos": "adj",
+      "def": "expressing oneself so as to move an audience",
+      "disc": "Añade a la claridad el <b>efecto sobre quien escucha</b>: persuade, emociona, se recuerda. Se dice también de un silencio o de una mirada — cuando algo dice mucho sin palabras, es eloquent.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The eulogy was so ___ that people who had never met the man left the church in tears.",
+      "twin": "articulate",
+      "whyNotTwin": "eloquent se mide en <b>lo que le pasa al público</b>; articulate, en <b>lo bien que quedó dicho</b>. Nadie llora por una declaración articulate.",
+      "root": "eloqui (hablar afuera, expresarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "g027",
+  "name": "afirmar o probar",
+  "axis": {
+    "lo": "lo aventura sin ninguna base",
+    "hi": "lo confirma con una fuente independiente"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "speculate",
+      "pos": "verb",
+      "def": "to form a view without evidence",
+      "disc": "El opuesto del grupo: <b>no hay base</b>, y la palabra lo reconoce. Suele ir con \"about\" y con una marca de incertidumbre — one can only speculate.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "With the logbook missing, historians can only ___ about what happened during those four days.",
+      "twin": "contend",
+      "whyNotTwin": "contend <b>afirma</b> una posición y la defiende; speculate solo <b>aventura</b> una posibilidad. Uno se compromete, el otro deja la puerta abierta.",
+      "root": "specula (atalaya): mirar a lo lejos",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "contend",
+      "pos": "verb",
+      "def": "to assert a position in a debate",
+      "disc": "Afirma <b>dentro de una discusión</b> y contra alguien: hay una tesis rival. No promete pruebas, promete defensa.",
+      "tone": "neu",
+      "axisPos": 25,
+      "ej": "Three historians ___ that the letter is a forgery; three others insist that it is genuine.",
+      "twin": "aver",
+      "whyNotTwin": "contend afirma <b>frente a una posición contraria</b>; aver afirma <b>con solemnidad</b> y sin necesitar rival. Uno discute, el otro declara.",
+      "root": "com- + tendere (tender contra)",
+      "tier": 1,
+      "sense2": {
+        "def": "to compete for something",
+        "ej": "Four candidates are ___ing for the two open seats on the board.",
+        "note": "Sentido de competir, frecuentísimo en \"contend for\" y en el sustantivo contender. Si hay un premio o un puesto en disputa, es este."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "aver",
+      "pos": "verb",
+      "def": "to state firmly as a fact",
+      "disc": "Registro <b>formal, casi jurídico</b>: se afirma con solemnidad y bajo responsabilidad. No aporta prueba, aporta <i>compromiso</i> con lo dicho.",
+      "tone": "neu",
+      "axisPos": 40,
+      "ej": "The defendant ___red under oath that he had never once entered the building.",
+      "twin": "contend",
+      "whyNotTwin": "contend supone que <b>alguien sostiene lo contrario</b>; aver no necesita rival, solo solemnidad. En un juzgado se aver, en una revista académica se contend.",
+      "root": "ad- + verus (verdadero)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ascertain",
+      "pos": "verb",
+      "def": "to find something out with certainty",
+      "disc": "El único que describe <b>averiguar</b> y no afirmar: se ascertain un dato que no se sabía. Lo que produce es conocimiento, no una postura que defender.",
+      "tone": "neu",
+      "axisPos": 58,
+      "ej": "It took three weeks to ___ how many of the boxes had actually left the warehouse.",
+      "twin": "substantiate",
+      "whyNotTwin": "ascertain <b>descubre</b> un dato que se desconocía; substantiate <b>respalda</b> una afirmación que ya se hizo. Uno va antes de la tesis, el otro después.",
+      "root": "ad- + certus (cierto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "substantiate",
+      "pos": "verb",
+      "def": "to back a claim with evidence",
+      "disc": "Aporta la <b>prueba de lo ya afirmado</b>: primero se dice algo, después se substantiate. Muy frecuente en negativo — the claim was never substantiated.",
+      "tone": "pos",
+      "axisPos": 74,
+      "ej": "He repeated the accusation for months and never once ___d it with a single document.",
+      "twin": "corroborate",
+      "whyNotTwin": "substantiate aporta <b>la prueba propia</b> de lo que uno mismo afirmó; corroborate aporta <b>confirmación de otra fuente</b>. Uno respalda lo tuyo, el otro confirma lo ajeno.",
+      "root": "substantia: darle sustancia a algo",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "corroborate",
+      "pos": "verb",
+      "def": "to confirm a claim with independent evidence",
+      "disc": "El extremo, y lo que aporta es <b>una segunda fuente</b>: alguien o algo <i>distinto</i> confirma lo ya dicho. Su terreno natural es el testimonio y el laboratorio.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "A second witness, who had no connection whatever to the family, ___d every detail of her account.",
+      "twin": "substantiate",
+      "whyNotTwin": "substantiate lo respalda <b>quien lo afirmó</b>; corroborate lo confirma <b>alguien independiente</b>. Si en la oración aparece una segunda fuente, es corroborate.",
+      "root": "com- + roborare (fortalecer), de robur (roble)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g107",
+  "name": "evidente y palpable",
+  "axis": {
+    "lo": "salta a la vista porque destaca",
+    "hi": "está tan presente que casi se toca"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "conspicuous",
+      "pos": "adj",
+      "def": "easily seen because it stands out from its surroundings",
+      "disc": "Lo que la define es <b>el contraste</b>: destaca sobre el fondo. Su colocación estrella es <i>___ by his absence</i> — se nota justo lo que no está — y también <i>___ consumption</i>, el lujo exhibido para que se vea.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "He was ___ by his absence: the only chair left empty was the one with his name on it.",
+      "twin": "patent",
+      "whyNotTwin": "conspicuous es <b>visible</b>: destaca entre lo demás; patent es <b>innegable</b>: cualquiera lo reconoce en cuanto lo piensa. Uno se ve, el otro se admite.",
+      "root": "com- + spicere (mirar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "overt",
+      "pos": "adj",
+      "def": "done openly, without any attempt to conceal it",
+      "disc": "Vive de su <b>antónimo covert</b>: lo overt es lo que se hace <b>a la vista y sin disimulo</b>. No dice que sea llamativo ni que sea obvio — dice que <b>nadie lo está escondiendo</b>.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "What had been quiet pressure became ___ threat once the contract was signed.",
+      "twin": "conspicuous",
+      "whyNotTwin": "overt se opone a <b>lo oculto</b>: la marca es que se dejó de disimular; conspicuous se opone a <b>lo discreto</b>: la marca es que destaca. Algo puede ser overt y pasar desapercibido.",
+      "root": "ouvert (abierto), de aperire",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "patent",
+      "pos": "adj",
+      "def": "so plain that it cannot be denied",
+      "disc": "Registro <b>jurídico y polémico</b>: se usa para cerrar una discusión — <i>___ nonsense</i>, <i>a ___ absurdity</i>, <i>a ___ falsehood</i>. Va casi siempre delante de un sustantivo despectivo.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The reply was ___ nonsense, and the committee said so in a single sentence.",
+      "twin": "manifest",
+      "whyNotTwin": "patent se usa para <b>descartar</b> algo por evidente que es falso o absurdo; manifest describe algo que <b>se muestra</b> con claridad, sin ese filo polémico.",
+      "root": "patere (estar abierto, a la vista)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "manifest",
+      "pos": "adj",
+      "def": "showing itself clearly in what can be observed",
+      "disc": "Lo que hay es <b>una manifestación</b>: algo interno que se hace visible en signos concretos. Por eso funciona con <i>in</i> — la ansiedad, la hostilidad o el talento <b>se hacen manifest en</b> algo que se puede señalar.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The strain was ___ in every line of the accounts, though the directors kept saying the year had gone well.",
+      "twin": "patent",
+      "whyNotTwin": "manifest señala <b>dónde se ve</b> aquello: se manifiesta en tal sitio, en tal signo; patent solo declara que <b>es innegable</b>, sin señalar nada.",
+      "root": "manifestus (palpable, cogido con la mano)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "palpable",
+      "pos": "adj",
+      "def": "so strongly present that it seems physical",
+      "disc": "Literalmente <b>que se puede palpar</b>. Se reserva para <b>atmósferas y emociones colectivas</b>: la tensión, el alivio, el silencio de una sala. La gracia está en que algo intangible se describe como si tuviera cuerpo.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The relief in the room was ___ the moment the numbers went up on the screen.",
+      "twin": "manifest",
+      "whyNotTwin": "palpable se dice de <b>lo que se siente en el ambiente</b> — tensión, alivio, miedo; manifest se dice de <b>lo que se comprueba en signos</b>. Una atmósfera es palpable; una tendencia es manifest.",
+      "root": "palpare (tocar, acariciar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

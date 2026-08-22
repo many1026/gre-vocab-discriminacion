@@ -1,0 +1,91 @@
+{
+  "id": "g058",
+  "name": "vanidad exhibida",
+  "axis": {
+    "lo": "un gesto fingido para causar efecto",
+    "hi": "el yo entero puesto en el centro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "affectation",
+      "pos": "noun",
+      "def": "an artificial manner adopted to impress",
+      "disc": "Es un <b>rasgo concreto y postizo</b>: un acento, un monóculo, una manera de firmar. Se puede señalar con el dedo. No juzga a la persona entera, solo ese detalle.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "The pause before every answer was an ___: he had known what he thought since before the question.",
+      "twin": "posturing",
+      "whyNotTwin": "affectation es <b>un rasgo</b> adoptado, aislable; posturing es una <b>conducta sostenida</b> montada para la galería. Uno es el monóculo, el otro toda la escena.",
+      "root": "affectare (aspirar a, fingir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "posturing",
+      "pos": "noun",
+      "def": "behaviour adopted for effect rather than sincerity",
+      "disc": "<b>Conducta entera montada para que la vean</b>, y sin intención de cumplir nada de lo que se aparenta. Su terreno favorito es la política: amenazas que nadie va a ejecutar.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "Both sides knew the ultimatum was ___: the deadline passed on a Friday and nobody mentioned it on Monday.",
+      "twin": "bravado",
+      "whyNotTwin": "posturing finge una <b>posición</b> — firmeza, indignación, principios; bravado finge específicamente <b>valor</b>. Si lo que se aparenta es coraje, es bravado.",
+      "root": "postura (posición del cuerpo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "bravado",
+      "pos": "noun",
+      "def": "a show of courage one does not actually feel",
+      "disc": "Lo que se finge es <b>valentía</b>, y por debajo hay miedo. Ese hueco entre lo que se muestra y lo que se siente es toda la palabra: sin miedo debajo, no es bravado.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "It was pure ___: he sang all the way down the tunnel, and his hands did not stop shaking for an hour.",
+      "twin": "posturing",
+      "whyNotTwin": "bravado tapa <b>miedo</b>; posturing tapa <b>indiferencia o cálculo</b>. Si la oración deja ver el temblor debajo, es bravado.",
+      "root": "bravo (valiente, bravucón)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pomposity",
+      "pos": "noun",
+      "def": "self-important solemnity of manner or speech",
+      "disc": "Ya no finge nada: <b>se cree importante de verdad</b>, y lo manifiesta en la solemnidad — el tono grave, la palabra larga, el cargo repetido. Es ridículo sin saberlo.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The ___ of the reply was its own answer: four paragraphs of office and title before a single word about the leak.",
+      "twin": "narcissism",
+      "whyNotTwin": "pomposity se infla en el <b>trato y el lenguaje</b>, hacia fuera; narcissism es una <b>estructura del carácter</b>: todo vuelve al yo, hable o calle.",
+      "root": "pompa (procesión solemne)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "narcissism",
+      "pos": "noun",
+      "def": "obsessive absorption in oneself",
+      "disc": "El extremo, y el único que es un <b>rasgo clínico del carácter</b>, no una conducta: todo lo que ocurre se convierte en materia sobre uno mismo. Viene de Narciso y su reflejo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Such was his ___ that a friend's diagnosis became, within two sentences, a story about how badly he had taken the news.",
+      "twin": "pomposity",
+      "whyNotTwin": "narcissism <b>lo reduce todo al yo</b>, incluso una desgracia ajena; pomposity solo <b>se da importancia</b> en el modo de hablar. Uno es carácter, el otro estilo.",
+      "root": "Narciso, enamorado de su reflejo",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

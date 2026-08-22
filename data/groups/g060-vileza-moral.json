@@ -1,0 +1,91 @@
+{
+  "id": "g060",
+  "name": "vileza moral",
+  "axis": {
+    "lo": "un acto que rompe una norma",
+    "hi": "un carácter podrido de raíz"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "transgression",
+      "pos": "noun",
+      "def": "an act that breaks a rule or boundary",
+      "disc": "El más neutro y el más <b>contable</b>: es <b>un acto</b>, y puede ser leve. La palabra no juzga la gravedad, solo constata que se cruzó una línea. Literalmente, <i>pasar al otro lado</i>.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "The ___ was minor — a form submitted late — but it was the third that year.",
+      "twin": "malfeasance",
+      "whyNotTwin": "transgression es <b>cualquier infracción</b>, de quien sea; malfeasance es la cometida por <b>alguien con un cargo</b>, en el ejercicio de ese cargo.",
+      "root": "trans (al otro lado) + gradi (pasar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "malfeasance",
+      "pos": "noun",
+      "def": "wrongdoing by someone holding public office",
+      "disc": "Término <b>jurídico</b>, y exige un <b>cargo</b>: es el mal uso del poder confiado. Sin funcionario, administrador o fiduciario de por medio, la palabra no se puede usar.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "Two counts of ___ in office: he had awarded the contract to a company his brother-in-law had registered that month.",
+      "twin": "perfidy",
+      "whyNotTwin": "malfeasance abusa de un <b>cargo</b> y se juzga en un tribunal; perfidy traiciona una <b>confianza personal</b> y no siempre es delito.",
+      "root": "male (mal) + facere (hacer)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "perfidy",
+      "pos": "noun",
+      "def": "deliberate betrayal of trust",
+      "disc": "Lo esencial es que <b>había confianza y se rompió a propósito</b>. Sin una lealtad previa, no hay perfidy — por eso se usa para aliados, amigos y cónyuges, no para enemigos.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The ___ was in the timing: he waited until she had signed before telling the other side what she would accept.",
+      "twin": "malfeasance",
+      "whyNotTwin": "perfidy rompe una <b>lealtad</b>; malfeasance incumple un <b>deber del cargo</b>. Uno hiere a una persona, el otro defrauda a una institución.",
+      "root": "per (contra) + fides (fe, confianza)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "turpitude",
+      "pos": "noun",
+      "def": "depraved wickedness, especially as a legal category",
+      "disc": "Vive casi siempre en una <b>fórmula fija</b>: <i>moral turpitude</i>, la categoría con que el derecho migratorio y disciplinario clasifica ciertos delitos. Fuera de esa fórmula es rara.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "The visa was refused on grounds of moral ___, a phrase the consulate declined to explain further.",
+      "twin": "depravity",
+      "whyNotTwin": "turpitude es una <b>etiqueta jurídica</b> aplicada desde fuera; depravity describe el <b>estado real</b> de un carácter corrompido. Uno lo dice la ley, el otro lo dice el testigo.",
+      "root": "turpis (vergonzoso, feo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "depravity",
+      "pos": "noun",
+      "def": "utter moral corruption of character",
+      "disc": "El extremo, y ya no es un acto sino un <b>estado del carácter</b>: está corrompido entero, y de forma duradera. La palabra no admite grados — no hay depravity leve.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "What the diaries revealed was not weakness but ___: he had enjoyed it, and had written down how much.",
+      "twin": "turpitude",
+      "whyNotTwin": "depravity es <b>lo que alguien es</b>; turpitude es <b>cómo lo clasifica un código</b>. Si la oración retrata a la persona por dentro, es depravity.",
+      "root": "de + pravus (torcido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

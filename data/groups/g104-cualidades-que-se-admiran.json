@@ -1,0 +1,91 @@
+{
+  "id": "g104",
+  "name": "cualidades que se admiran",
+  "axis": {
+    "lo": "aguanta lo que le echen",
+    "hi": "ve lo que los demás no ven"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "fortitude",
+      "pos": "noun",
+      "def": "courage in bearing pain or hardship",
+      "disc": "Es la entereza <b>pasiva</b>: no se trata de hacer nada, sino de <b>soportar</b> — una enfermedad, una pérdida, un cautiverio. Se admira precisamente porque no hay acción heroica que contar.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "She went through eleven months of treatment with a ___ that embarrassed everyone who visited her.",
+      "twin": "perseverance",
+      "whyNotTwin": "la fortitude <b>aguanta</b> lo que le viene encima; la perseverance <b>insiste</b> en algo que uno mismo se propuso. Una es resistencia ante el dolor, la otra constancia en un empeño.",
+      "root": "fortis (fuerte)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "perseverance",
+      "pos": "noun",
+      "def": "persistence in an effort despite failures",
+      "disc": "Lo que la define es <b>volver a intentarlo</b>: hay una meta propia y una cadena de fracasos por el camino. Se opone al talento en el tópico — el que persevera compensa lo que no tiene.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "It was ___ rather than talent that got him through: he sat the examination four times.",
+      "twin": "fortitude",
+      "whyNotTwin": "la perseverance supone <b>intentos repetidos</b> hacia un objetivo; la fortitude supone <b>golpes recibidos</b> sin objetivo ninguno. Fíjate en si hay meta o solo adversidad.",
+      "root": "per- (hasta el final) + severus (firme)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "valor",
+      "pos": "noun",
+      "def": "great courage in the face of danger, especially in battle",
+      "disc": "Registro <b>militar y ceremonial</b>: aparece en citaciones, medallas y monumentos. No sirve para el aguante cotidiano — pide <b>peligro físico</b> y, casi siempre, alguien que lo condecore.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "The citation was for ___ under fire, and he never once talked about what he had done.",
+      "twin": "fortitude",
+      "whyNotTwin": "el valor se muestra <b>haciendo algo</b> ante el peligro; la fortitude, <b>soportando</b> lo que ya no se puede evitar. Uno carga contra la ametralladora, la otra aguanta el hospital.",
+      "root": "valere (tener fuerza, valer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prowess",
+      "pos": "noun",
+      "def": "outstanding skill at something",
+      "disc": "No es coraje sino <b>destreza</b>: lo que uno sabe hacer mejor que los demás. Va con un campo delante — <i>athletic ___</i>, <i>military ___</i>, <i>technical ___</i> — y se puede medir.",
+      "tone": "pos",
+      "axisPos": 70,
+      "ej": "His ___ on the field was never in doubt; his judgment off it was another matter entirely.",
+      "twin": "valor",
+      "whyNotTwin": "la prowess es <b>habilidad</b> y se demuestra ganando; el valor es <b>coraje</b> y se demuestra exponiéndose. Un cobarde puede tener prowess, y un torpe, valor.",
+      "root": "prou (valiente, provechoso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "acumen",
+      "pos": "noun",
+      "def": "sharpness of judgment in practical matters",
+      "disc": "De <i>acuere</i>, <b>afilar</b>: la mente que corta fino donde otros no ven nada. Su colocación de manual es <i>business ___</i>, y siempre se refiere al <b>juicio aplicado</b>, no al saber acumulado.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "Her business ___ was the only reason the family kept the firm through two recessions.",
+      "twin": "prowess",
+      "whyNotTwin": "el acumen está en <b>la cabeza</b>: ver la jugada antes que nadie; la prowess está en <b>las manos</b>: ejecutarla mejor que nadie.",
+      "root": "acuere (afilar), de acus (aguja)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

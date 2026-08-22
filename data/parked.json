@@ -1,0 +1,83 @@
+{
+ "_note": "Palabras sacadas de un grupo por reagrupamiento, a la espera de destino definitivo. No cuentan como huérfanas por descuido: están aquí a propósito y con razón registrada.",
+ "parked": [
+  {
+   "w": "objurgation",
+   "destino": "sacada de g084: como reprension severa a una persona no se separa de tirade ni de harangue; rara en el GRE, esperar a un grupo de registro arcaico",
+   "con": [
+    "tirade",
+    "harangue"
+   ]
+  },
+  {
+   "w": "placate",
+   "destino": "trio de sinonimos verdaderos con mollify y appease: no se pueden distinguir entre si con un cloze. Necesitan grupos separados o un diseno por dominios",
+   "con": [
+    "mollify",
+    "appease"
+   ]
+  },
+  {
+   "w": "mollify",
+   "destino": "trio de sinonimos verdaderos con placate y appease: mismo motivo",
+   "con": [
+    "placate",
+    "appease"
+   ]
+  },
+  {
+   "w": "appease",
+   "destino": "trio de sinonimos verdaderos con placate y mollify; su unico anclaje propio es historico (appeasement, Munich)",
+   "con": [
+    "placate",
+    "mollify"
+   ]
+  },
+  {
+   "w": "phony",
+   "destino": "sacada de g089: sinonimo informal de bogus, sin dominio propio que la separe (los dos van con documentos y credenciales falsos)",
+   "con": [
+    "bogus"
+   ]
+  },
+  {
+   "w": "quirky",
+   "destino": "sacada de g095: se solapa con eccentric (rareza simpatica) sin firma colocacional propia; esperar a un grupo de tono ligero",
+   "con": [
+    "eccentric"
+   ]
+  },
+  {
+   "w": "mordant",
+   "destino": "sacada de g096: 'mordant wit' y 'caustic wit' son ambas colocaciones fijas y ninguna oracion separa a las dos",
+   "con": [
+    "caustic"
+   ]
+  },
+  {
+   "w": "bromide",
+   "destino": "sinonimo practico de platitude: la frase consoladora tambien es perogrullada. El campo del topico gastado queda pendiente de un quinto sustantivo",
+   "con": [
+    "platitude"
+   ]
+  }
+ ],
+ "_resueltos": [
+  {
+   "w": "entitled",
+   "colocada_en": "g015 arrogante o irrespetuoso"
+  },
+  {
+   "w": "sinecure",
+   "colocada_en": "g100 dádiva y carga: el campo llegó a cinco al sumar remuneration (lo que sí se gana) y liability (lo que resta, como polo de contraste)"
+  },
+  {
+   "w": "boon",
+   "colocada_en": "g100 dádiva y carga"
+  },
+  {
+   "w": "largesse",
+   "colocada_en": "g100 dádiva y carga"
+  }
+ ]
+}

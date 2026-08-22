@@ -1,0 +1,91 @@
+{
+  "id": "g076",
+  "name": "ferviente y entusiasta",
+  "axis": {
+    "lo": "quiere más de algo que le gusta",
+    "hi": "arde tanto que ya incomoda"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "avid",
+      "pos": "adj",
+      "def": "eager for more of something one enjoys or consumes",
+      "disc": "Es el <b>apetito</b>, no la devoción: el que lee, colecta o mira mucho de algo. Tiene una construcción propia que ningún hermano comparte — <i>___ for</i> + lo que se quiere obtener (<i>___ for news</i>, <i>___ for praise</i>).",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "The crowd outside the courthouse was ___ for any scrap of news.",
+      "twin": "ardent",
+      "whyNotTwin": "avid mira <b>lo que consume</b> — libros, partidas, noticias; ardent mira <b>a quién o a qué se entrega</b>. Un <i>___ reader</i> es avid; un <i>___ nationalist</i> es ardent.",
+      "root": "avidus, de avere (ansiar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ardent",
+      "pos": "adj",
+      "def": "burning with devotion to a person or a cause",
+      "disc": "Se pega a <b>la persona que se entrega</b>: <i>an ___ admirer</i>, <i>an ___ supporter</i>, <i>an ___ suitor</i>. Arrastra el calor del amor y de la política, y por eso es el único del grupo que sirve para el cortejo.",
+      "tone": "pos",
+      "axisPos": 40,
+      "ej": "Three ___ suitors wrote to her that spring, and she answered none of them.",
+      "twin": "fervent",
+      "whyNotTwin": "ardent califica al <b>devoto</b> (admirer, supporter, suitor); fervent califica a la <b>emoción que se expresa</b> (hope, thanks, prayer). Fíjate en el sustantivo del hueco: ¿es una persona o un sentimiento?",
+      "root": "ardere (arder)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fervent",
+      "pos": "adj",
+      "def": "felt with great sincerity and warmth",
+      "disc": "Va con <b>sentimientos que se expresan</b>: <i>a ___ hope</i>, <i>___ thanks</i>, <i>a ___ plea</i>. La intensidad es sincera y no molesta a nadie — en cuanto se pasa de la raya, la palabra pasa a ser fervid.",
+      "tone": "pos",
+      "axisPos": 56,
+      "ej": "Her thanks were ___ but not in the least theatrical: she took his hand in both of hers and said it again at the door.",
+      "twin": "fervid",
+      "whyNotTwin": "fervid es fervent <b>más el exceso</b>: la misma temperatura, pero ya recalentada y con público. Si la oración niega la teatralidad o el exceso, la palabra que queda es fervent.",
+      "root": "fervere (hervir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "zealous",
+      "pos": "adj",
+      "def": "energetic in pursuing a cause or enforcing a duty",
+      "disc": "Lo suyo es <b>la actividad</b>, no la temperatura del sentimiento: el que persigue una causa o aplica un reglamento sin descanso. Casi siempre insinúa que se está aplicando <b>de más</b> — de ahí <i>overzealous</i>.",
+      "tone": "neu",
+      "axisPos": 74,
+      "ej": "Enforcement had become so ___ that residents were fined for putting the bins out an hour early.",
+      "twin": "ardent",
+      "whyNotTwin": "zealous se ve en <b>lo que hace</b> — persigue, vigila, sanciona; ardent se ve en <b>lo que siente</b> por alguien o algo. Un inspector es zealous; un enamorado es ardent.",
+      "root": "zelus, del griego zelos (celo, emulación)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fervid",
+      "pos": "adj",
+      "def": "so intense that it seems overheated",
+      "disc": "Es el hermano <b>desaprobado</b>: la misma raíz de fervent, pero el hablante señala el exceso. Su colocación fija es <i>a ___ imagination</i>, y también califica prosa, retórica y admiradores que ya cansan.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The plot came out of some ___ imagination that could not leave a single coincidence alone.",
+      "twin": "fervent",
+      "whyNotTwin": "fervent es intensidad <b>que se acepta</b>; fervid es intensidad <b>que sobra</b>. La misma esperanza es fervent si conmueve y fervid si da vergüenza ajena.",
+      "root": "fervidus, de fervere (hervir)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g069",
+  "name": "enredo y aprieto",
+  "axis": {
+    "lo": "un tropiezo social pasajero",
+    "hi": "un problema que resiste toda explicación"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "contretemps",
+      "pos": "noun",
+      "def": "an awkward minor mishap or clash",
+      "disc": "El más <b>leve y más social</b> del grupo: un roce embarazoso que después se cuenta como anécdota. Es francés y suena a salón — nadie pierde nada serio, solo el momento se vuelve incómodo.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "A small ___ at the reception — two guests seated where a third had been promised — was smoothed over before the soup arrived.",
+      "twin": "imbroglio",
+      "whyNotTwin": "el contretemps se <b>resuelve en el momento</b> y no deja rastro; el imbroglio <b>crece</b>, enreda a más gente y sale del salón.",
+      "root": "contre-temps (francés: a destiempo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "imbroglio",
+      "pos": "noun",
+      "def": "a confused and embarrassing entanglement of parties",
+      "disc": "Exige <b>varias partes enredadas</b> y algo de escándalo: acusaciones cruzadas, versiones que no cuadran, público mirando. La confusión es parte del sentido — la palabra es la misma que 'embrollo'.",
+      "tone": "neg",
+      "axisPos": 38,
+      "ej": "What began as a disputed invoice grew into a full ___, with three departments, two lawyers and a leaked email chain.",
+      "twin": "predicament",
+      "whyNotTwin": "el imbroglio es un <b>enredo entre varios</b>, y la maraña es lo que lo define; el predicament es una <b>situación difícil</b> que puede tener a una sola persona dentro y estar perfectamente clara.",
+      "root": "imbrogliare (italiano: enredar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "predicament",
+      "pos": "noun",
+      "def": "a difficult situation that is hard to get out of",
+      "disc": "La palabra llana del grupo: <b>la situación es mala</b> y salir cuesta. No dice nada sobre confusión ni sobre elegir — solo que uno está atrapado en algo incómodo.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "Stranded between a job that had ended and a lease that had not, she explained her ___ to the loan officer without much hope.",
+      "twin": "quandary",
+      "whyNotTwin": "el predicament es la <b>situación</b>: sigue ahí aunque no haya nada que decidir. El quandary es la <b>indecisión</b>: existe solo porque hay que elegir.",
+      "root": "praedicamentum (lo que se afirma de algo, categoría)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "quandary",
+      "pos": "noun",
+      "def": "a state of uncertainty about what to choose",
+      "disc": "El problema está en la <b>cabeza de quien decide</b>: hay dos caminos y ninguno convence, así que no se avanza. Va con <i>in a ___</i>, y siempre hay una elección pendiente.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "Both offers expired on Friday, and by Thursday night she was still in a ___, unable to decide: taking either one meant closing a door she had spent years keeping open.",
+      "twin": "predicament",
+      "whyNotTwin": "el quandary se disuelve <b>en cuanto uno decide</b>; el predicament sigue ahí después de decidir. Si en la oración hay dos opciones sobre la mesa, es quandary.",
+      "root": "quando (¿cuándo?), formación tardía y oscura",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "conundrum",
+      "pos": "noun",
+      "def": "a problem with no obvious solution",
+      "disc": "El único <b>intelectual</b>: un problema que resiste el análisis, no una situación en la que uno esté metido. Puede no afectarle a nadie — el enigma existe aunque nadie sufra por él.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "Why the same compound cures mice and does nothing in humans remains a ___ that three laboratories have failed to explain.",
+      "twin": "quandary",
+      "whyNotTwin": "el conundrum pide <b>una explicación</b>; el quandary pide <b>una decisión</b>. Nadie está atrapado en un conundrum: se estudia desde fuera.",
+      "root": "conundrum (origen incierto, jerga universitaria de Oxford)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

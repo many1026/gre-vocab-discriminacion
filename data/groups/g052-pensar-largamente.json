@@ -1,0 +1,97 @@
+{
+  "id": "g052",
+  "name": "pensar largamente",
+  "axis": {
+    "lo": "vuelve sobre lo ya vivido",
+    "hi": "pesa opciones para decidir"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "reflect",
+      "pos": "verb",
+      "def": "to think back calmly on something past",
+      "disc": "Mira <b>hacia atrás</b> y con calma, y suele sacar algo en claro. Es el único del grupo que puede terminar en conclusión serena. Lleva <i>on</i> o <i>upon</i>.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "Twenty years later he could ___ on the decision without wincing, which he had not been able to do at fifty.",
+      "twin": "ruminate",
+      "whyNotTwin": "reflect piensa <b>con calma y llega a alguna parte</b>; ruminate <b>da vueltas</b> y no llega a ninguna. La serenidad de la oración decide.",
+      "root": "re + flectere (doblar hacia atrás)",
+      "tier": 1,
+      "sense2": {
+        "def": "to throw back light or an image",
+        "ej": "The lake will ___ the whole ridge, upside down and perfectly still."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "ruminate",
+      "pos": "verb",
+      "def": "to turn something over obsessively without resolving it",
+      "disc": "<b>Rumiar</b>, literalmente: el ganado que vuelve a masticar lo mismo. Da vueltas al mismo asunto y no avanza. En psicología es el término técnico del pensamiento circular.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "He would ___ on the same remark for a fortnight, turning it over at three in the morning and arriving nowhere.",
+      "twin": "reflect",
+      "whyNotTwin": "ruminate es <b>circular y estéril</b>; reflect es <b>reposado y productivo</b>. Si la oración dice que no llegó a nada, es ruminate.",
+      "root": "rumen (panza del rumiante)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "contemplate",
+      "pos": "verb",
+      "def": "to consider at length, or to consider doing something",
+      "disc": "Dos usos, y el segundo es el que cae en el examen: <b>contemplate + gerundio</b> significa plantearse hacer algo. Ese matiz de intención futura no lo tiene ningún otro del grupo.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "She had begun to ___ leaving, though she had said so to nobody and had merely looked twice at the job listings.",
+      "twin": "cogitate",
+      "whyNotTwin": "contemplate <b>sostiene</b> el pensamiento, a menudo sobre algo que podría hacer; cogitate <b>se esfuerza</b> visiblemente en pensar. Uno es sereno, el otro suda.",
+      "root": "contemplari (observar un espacio sagrado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cogitate",
+      "pos": "verb",
+      "def": "to ponder with visible mental effort",
+      "disc": "El <b>esfuerzo se nota</b>: pasear, murmurar, llenar hojas. La palabra suena algo pomposa y por eso se usa mucho <b>con sorna</b> — el GRE la mete cuando el tono es burlón.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "Left alone with the problem, he would ___ noisily for an hour: pacing, muttering, and filling three pages with arrows.",
+      "twin": "contemplate",
+      "whyNotTwin": "cogitate es <b>trabajo mental visible</b>, casi cómico; contemplate es <b>quietud</b>. Si la oración describe al sujeto moviéndose y refunfuñando, es cogitate.",
+      "root": "cogitare (pensar, agitar juntos)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "deliberate",
+      "pos": "verb",
+      "def": "to weigh options carefully in order to decide",
+      "disc": "El extremo, porque <b>termina en una decisión</b> y muchas veces la toma un cuerpo colegiado — un jurado, un comité. <b>Ojo con el adjetivo</b>, que es otra cosa: <i>deliberate</i> = intencionado.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The jury retired to ___ and came back nine hours later unable to agree.",
+      "twin": "contemplate",
+      "whyNotTwin": "deliberate <b>pesa para decidir</b>, con un veredicto al final; contemplate solo <b>considera</b>, sin obligación de concluir nada.",
+      "root": "de + librare (pesar en la balanza)",
+      "tier": 1,
+      "sense2": {
+        "def": "done on purpose, intentional",
+        "ej": "The omission was ___: three people had asked for that paragraph and it went in the bin."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

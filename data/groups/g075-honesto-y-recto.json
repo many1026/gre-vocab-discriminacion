@@ -1,0 +1,131 @@
+{
+  "id": "g075",
+  "name": "honesto al hablar y recto al obrar",
+  "axis": {
+    "lo": "no oculta lo que piensa",
+    "hi": "obra como debe y se gana el respeto"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "candid",
+      "pos": "adj",
+      "def": "openly honest about what one would normally hide",
+      "disc": "Lo que sale a la luz es <b>algo que uno se guardaría</b>: un error propio, una cifra incómoda, una duda sobre su propio bando. La segunda acepción, que ningún hermano tiene, es la de la <b>foto no posada</b>, tomada sin que el sujeto lo supiera.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The best photographs in the exhibition were ___: the subjects had no idea the shutter was open.",
+      "twin": "frank",
+      "whyNotTwin": "candid es <b>destapar</b> lo que uno callaría; frank es <b>no suavizar</b> lo que se le dice a otro. Uno confiesa, el otro no endulza.",
+      "root": "candidus (blanco, sin mancha)",
+      "tier": 1,
+      "sense2": {
+        "def": "photographed without the subject posing or noticing",
+        "ej": "A ___ shot of the two of them laughing ended up on the cover.",
+        "note": "Solo candid tiene este sentido. Si la oración habla de cámaras, retratos o de alguien que no sabía que lo miraban, es candid y ningún hermano compite."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "frank",
+      "pos": "adj",
+      "def": "open and direct, with nothing softened or concealed",
+      "disc": "Mira hacia <b>afuera</b>: es la persona que le dice a otro lo que no quiere oír. Y tiene un uso que conviene reconocer — califica a la <b>emoción que se muestra sin disimulo</b>: <i>___ curiosity</i>, <i>___ admiration</i>, <i>___ envy</i>.",
+      "tone": "neu",
+      "axisPos": 20,
+      "ej": "He stared at the winner's car with ___ envy and did not trouble to hide it.",
+      "twin": "candid",
+      "whyNotTwin": "frank puede calificar a una <b>emoción exhibida</b> (<i>___ curiosity</i>); candid no entra ahí, porque candid es hablar de lo que se callaría, no mostrar lo que se siente.",
+      "root": "francus (libre; del pueblo franco)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disinterested",
+      "pos": "adj",
+      "def": "having no personal stake in the outcome; impartial",
+      "disc": "La trampa clásica del GRE: <b>no significa \"sin interés\"</b> — eso es <i>uninterested</i>. Significa que <b>nada gana ni pierde</b> con el resultado, por eso se le puede confiar el juicio.",
+      "tone": "pos",
+      "axisPos": 36,
+      "ej": "The dispute needed a ___ referee: someone with no money riding on which firm won the contract.",
+      "twin": "equitable",
+      "whyNotTwin": "disinterested califica a <b>quien juzga</b> — no tiene nada que ganar; equitable califica al <b>reparto</b> — a cada quien le toca lo suyo. Un árbitro con acciones en una de las empresas puede repartir equitable sin ser disinterested.",
+      "root": "dis- (no) + interest (participación, parte)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "equitable",
+      "pos": "adj",
+      "def": "fair to each side, given what each one is owed",
+      "disc": "No es \"por partes iguales\" sino <b>lo que a cada quien le corresponde</b>: dos herederos que no pusieron lo mismo no reciben lo mismo, y el reparto sigue siendo equitable. Califica <b>arreglos</b>, no personas.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "The estate was divided on ___ terms: each sibling's share matched the years spent caring for their mother.",
+      "twin": "disinterested",
+      "whyNotTwin": "equitable se dice del <b>resultado</b> del reparto; disinterested, de la <b>posición</b> de quien decide. Fíjate en qué califica el hueco: si es un acuerdo o unos términos, es equitable.",
+      "root": "aequus (igual, justo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "meritorious",
+      "pos": "adj",
+      "def": "deserving reward or official recognition",
+      "disc": "Vive en el registro de las <b>condecoraciones y los expedientes</b>: <i>___ service</i>, <i>___ conduct</i>. Lo que describe es algo <b>hecho</b>, acumulado, que alguien tiene que premiar — no una cualidad del carácter.",
+      "tone": "pos",
+      "axisPos": 70,
+      "ej": "The medal is awarded for ___ service over many years, not for a single act of courage.",
+      "twin": "estimable",
+      "whyNotTwin": "meritorious se gana un <b>premio</b> por lo que se hizo; estimable se gana <b>respeto</b> por lo que se es. A uno lo condecoran, al otro lo saludan con deferencia.",
+      "root": "meritum (lo merecido)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "estimable",
+      "pos": "adj",
+      "def": "worthy of respect, if not of enthusiasm",
+      "disc": "Elogio <b>tibio y formal</b>: reconoce el valor de alguien sin entusiasmarse. Casi siempre viene con un \"pero\" detrás — las virtudes que describe son la puntualidad y el ahorro, no el heroísmo.",
+      "tone": "pos",
+      "axisPos": 82,
+      "ej": "Every one of his ambitions was ___ — thrift, punctuality, steady work — and every one of them bored his children.",
+      "twin": "meritorious",
+      "whyNotTwin": "estimable califica a <b>la persona o sus cualidades</b>; meritorious, a <b>los actos que merecen premio</b>. <i>___ conduct</i> en una mención militar pide meritorious; <i>an ___ scholar</i> pide estimable.",
+      "root": "aestimare (valorar, tasar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "noble",
+      "pos": "adj",
+      "def": "morally admirable in a way that costs the person something",
+      "disc": "Es el polo <b>alto y caro</b> del grupo: exige grandeza y casi siempre <b>sacrificio</b>. Ojo con el segundo sentido, el de la cuna aristocrática, que en textos históricos es el que aparece.",
+      "tone": "pos",
+      "axisPos": 94,
+      "ej": "The obituaries called it a ___ death: he had given up his place in the last boat and told no one why.",
+      "twin": "estimable",
+      "whyNotTwin": "noble pide <b>grandeza y renuncia</b>; estimable se conforma con <b>respetabilidad</b>. El ahorro y la puntualidad son estimable; morir por otro es noble.",
+      "root": "nobilis (conocido, de renombre)",
+      "tier": 1,
+      "sense2": {
+        "def": "belonging by birth to the aristocracy",
+        "ej": "The younger sons of ___ families were sent into the church.",
+        "note": "En prosa histórica este sentido es el frecuente. Si el hueco va con <i>family</i>, <i>birth</i>, <i>title</i> o <i>houses</i>, no habla de moral sino de linaje."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

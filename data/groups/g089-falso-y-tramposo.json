@@ -1,0 +1,91 @@
+{
+  "id": "g089",
+  "name": "falso y tramposo",
+  "axis": {
+    "lo": "lo que dice no es sincero",
+    "hi": "la cosa entera es un montaje"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "disingenuous",
+      "pos": "adj",
+      "def": "pretending to be more innocent or sincere than one is",
+      "disc": "El truco está en <b>fingir que no se sabe</b> lo que se sabe perfectamente. Casi siempre califica <b>un argumento o una afirmación</b>, no a una persona, y su fórmula típica es <i>it is ___ to claim that…</i>",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "It is ___ to call the change purely technical when its only effect was to remove the deadline.",
+      "twin": "duplicitous",
+      "whyNotTwin": "disingenuous es <b>una sola declaración</b> que finge candor; duplicitous es <b>una conducta sostenida</b> con dos caras. Uno miente en una frase, el otro vive en dos bandos.",
+      "root": "in- (no) + ingenuus (franco, nacido libre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "duplicitous",
+      "pos": "adj",
+      "def": "acting two-faced, dealing with both sides at once",
+      "disc": "La raíz es <b>doble</b> (<i>duplex</i>): se le dice una cosa a uno y la contraria a otro, y las dos parecen ciertas mientras nadie compare. Lo que se describe es <b>la persona y su conducta</b>.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "He was ___ from the start: the same afternoon he signed with us, he signed with the other side.",
+      "twin": "disingenuous",
+      "whyNotTwin": "duplicitous exige <b>dos compromisos incompatibles</b> a la vez; disingenuous se conforma con <b>una frase</b> que finge inocencia. Fíjate si hay dos partes engañadas o solo un argumento torcido.",
+      "root": "duplex (doble, de dos pliegues)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "devious",
+      "pos": "adj",
+      "def": "reaching its goal by indirect, underhand routes",
+      "disc": "Literalmente <b>fuera del camino</b> (<i>de via</i>): en vez de ir de frente, da rodeos, usa intermediarios y puertas traseras. Lo que se juzga no es la mentira sino <b>el trazado</b>.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "He got hold of the papers by a ___ route: three intermediaries, none of whom knew the other two existed.",
+      "twin": "duplicitous",
+      "whyNotTwin": "devious describe <b>el camino</b> — torcido, con rodeos; duplicitous describe <b>la doblez</b> — dos caras al mismo tiempo. Se puede ser devious con un solo interlocutor.",
+      "root": "de- (fuera de) + via (camino)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "bogus",
+      "pos": "adj",
+      "def": "not genuine; faked or forged",
+      "disc": "Se dice de <b>lo que pretende ser auténtico y no lo es</b>: un título, una factura, una credencial, una reclamación. Nació en la jerga de los falsificadores del XIX y conserva ese tufo a papel falso.",
+      "tone": "neg",
+      "axisPos": 75,
+      "ej": "He had been practising for eleven years on a ___ degree from a university that turned out not to exist.",
+      "twin": "sham",
+      "whyNotTwin": "bogus se dice de <b>una cosa que se hace pasar por auténtica</b> — un documento, una credencial; sham se dice de <b>un procedimiento escenificado</b> — un juicio, una consulta. Uno se falsifica, el otro se representa.",
+      "root": "jerga de falsificadores del s. XIX, origen incierto",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sham",
+      "pos": "adj",
+      "def": "gone through for show, with the outcome fixed beforehand",
+      "disc": "Lo que hay es <b>un montaje completo</b>: se cumplen todos los pasos — anuncios, sesiones, actas — y ninguno cuenta. Va delante del sustantivo (<i>a ___ trial</i>) y también funciona como sustantivo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The election was a ___ of the most careful kind: real ballots, real observers, and a result agreed on beforehand.",
+      "twin": "bogus",
+      "whyNotTwin": "el sham <b>se representa</b>: hay puesta en escena y público; lo bogus <b>se falsifica</b>: hay un objeto que imita a otro. Un juicio amañado es sham, un diploma comprado es bogus.",
+      "root": "quizá variante dialectal de shame (vergüenza)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

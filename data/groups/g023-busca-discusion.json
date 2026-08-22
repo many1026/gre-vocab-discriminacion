@@ -1,0 +1,111 @@
+{
+  "id": "g023",
+  "name": "que busca discusión",
+  "axis": {
+    "lo": "discute por el gusto de discutir",
+    "hi": "está a punto de llegar a las manos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "contentious",
+      "pos": "adj",
+      "def": "likely to cause argument; or given to arguing",
+      "disc": "<b>Polisémica, y ahí está la trampa</b>: describe una <i>persona</i> peleona o un <i>tema</i> que provoca pelea. El sustantivo decide — a contentious man discute, a contentious issue divide.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "Land reform remained the most ___ item on the agenda, and they postponed it for the fourth year running.",
+      "twin": "captious",
+      "whyNotTwin": "captious siempre describe a una <b>persona</b> que busca fallos; contentious puede describir <b>el asunto</b> que se discute. Si el sujeto no es humano, no puede ser captious.",
+      "root": "contendere (contender, disputar)",
+      "tier": 1,
+      "sense2": {
+        "def": "given to arguing",
+        "ej": "A ___ colleague, he opposed every proposal on principle and enjoyed doing it.",
+        "note": "Aplicado a personas: pendenciero. El sustantivo al que acompaña te dice cuál de los dos sentidos está en juego."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "captious",
+      "pos": "adj",
+      "def": "eager to find fault over petty points",
+      "disc": "Critica <b>buscando el fallo</b>, y siempre en cosas menores: una coma, un dato de nota al pie. La palabra acusa de mezquindad, no de rigor.",
+      "tone": "neg",
+      "axisPos": 42,
+      "ej": "A ___ reviewer, he spent two paragraphs on a misplaced comma and none at all on the argument.",
+      "twin": "contentious",
+      "whyNotTwin": "contentious discute <b>el fondo</b>; captious se agarra a <b>menudencias</b>. Uno quiere ganar la discusión, el otro solo quiere señalar un error.",
+      "root": "captiosus (capcioso), de capere (atrapar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abrasive",
+      "pos": "adj",
+      "def": "harsh in manner, rubbing people the wrong way",
+      "disc": "Es cuestión de <b>trato</b>, no de opinión: raspa. Puede tener razón en todo y aun así resultar insoportable. La metáfora es el papel de lija.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "Nobody questioned her judgment; it was her ___ way of delivering it that emptied the room.",
+      "twin": "contentious",
+      "whyNotTwin": "contentious discrepa del <b>contenido</b>; abrasive molesta por la <b>forma</b>. Se puede estar completamente de acuerdo con alguien abrasive y aun así no soportarlo.",
+      "root": "ab- + radere (raspar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "factious",
+      "pos": "adj",
+      "def": "creating division into rival groups",
+      "disc": "Su efecto es <b>partir un grupo en bandos</b>. No describe el carácter de una persona sino lo que provoca en un colectivo — un partido, una asamblea, una iglesia.",
+      "tone": "neg",
+      "axisPos": 68,
+      "ej": "The reform proved so ___ that the party had split into three separate blocs within a month.",
+      "twin": "contentious",
+      "whyNotTwin": "contentious provoca <b>discusión</b>; factious provoca <b>facciones</b>. Uno hace que se griten, el otro hace que se separen.",
+      "root": "factio (facción), de facere (hacer)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pugnacious",
+      "pos": "adj",
+      "def": "eager to pick verbal fights",
+      "disc": "Busca pelea, pero <b>con palabras</b>: la imagen es el boxeador (pugnus, puño) trasladada al debate. Suele haber cierta admiración por la energía.",
+      "tone": "neg",
+      "axisPos": 80,
+      "ej": "A ___ debater who seemed happiest when outnumbered, he took on all three opponents at once and enjoyed every minute.",
+      "twin": "belligerent",
+      "whyNotTwin": "pugnacious pelea en el <b>terreno verbal</b> y hasta puede caer simpático; belligerent es <b>hostil de verdad</b>. Uno busca el combate, el otro busca daño.",
+      "root": "pugnus (puño)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "belligerent",
+      "pos": "adj",
+      "def": "openly hostile and ready to fight",
+      "disc": "El extremo, y el único con eco <b>bélico</b>: en derecho internacional a belligerent es una parte en guerra. Aplicado a una persona, la hostilidad ya no es un juego.",
+      "tone": "neg",
+      "axisPos": 93,
+      "ej": "Three drinks in he turned ___, and the barman called security before anyone had said a word to him.",
+      "twin": "pugnacious",
+      "whyNotTwin": "pugnacious <b>disfruta</b> discutiendo; belligerent está <b>a punto de agredir</b>. La diferencia es si la pelea sigue siendo verbal.",
+      "root": "bellum (guerra) + gerere (llevar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

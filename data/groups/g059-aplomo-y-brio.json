@@ -1,0 +1,91 @@
+{
+  "id": "g059",
+  "name": "aplomo y brío",
+  "axis": {
+    "lo": "serenidad hacia dentro, que no se nota",
+    "hi": "energía hacia fuera, que se contagia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "equanimity",
+      "pos": "noun",
+      "def": "calmness of mind under strain",
+      "disc": "Es <b>interior y silenciosa</b>: no se altera por dentro. No dice nada de cómo se ve desde fuera — se puede tener equanimity a solas, sin público. Su prueba es una mala noticia.",
+      "tone": "pos",
+      "axisPos": 12,
+      "ej": "She received the diagnosis with an ___ that the consultant found almost unnerving.",
+      "twin": "poise",
+      "whyNotTwin": "equanimity es <b>calma interior</b>, que puede no verse; poise es <b>compostura visible</b> en el porte y el trato. Uno se siente, el otro se observa.",
+      "root": "aequus (igual) + animus (ánimo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "poise",
+      "pos": "noun",
+      "def": "composed and graceful self-assurance in bearing",
+      "disc": "Se <b>ve</b>: está en el porte, la voz, las manos quietas. Es la palabra de quien no se descompone delante de gente, y arrastra un matiz de elegancia física.",
+      "tone": "pos",
+      "axisPos": 32,
+      "ej": "At nineteen she had the ___ of someone twice her age: she waited for the room to quieten before she began.",
+      "twin": "aplomb",
+      "whyNotTwin": "poise es <b>compostura general</b>, incluso sin dificultad ninguna; aplomb es la seguridad de quien <b>sale airoso de un apuro</b>. El segundo necesita un problema.",
+      "root": "peser (pesar, estar equilibrado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "aplomb",
+      "pos": "noun",
+      "def": "self-confidence shown in a difficult situation",
+      "disc": "Necesita un <b>aprieto del que salir</b>: sin dificultad, la palabra no aplica. Viene de la plomada del albañil — lo que sigue a plomo aunque tiemble todo lo demás.",
+      "tone": "pos",
+      "axisPos": 52,
+      "ej": "The microphone failed twice and she carried on with such ___ that half the hall assumed it was planned.",
+      "twin": "poise",
+      "whyNotTwin": "aplomb exige que <b>algo salga mal</b> y el sujeto lo resuelva sin inmutarse; poise puede lucirse en una velada perfectamente tranquila.",
+      "root": "à plomb (a plomo, vertical)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "panache",
+      "pos": "noun",
+      "def": "flamboyant confidence and stylish flair",
+      "disc": "Ya no es serenidad: es <b>vistosidad</b>. Se hace bien y además se hace lucir. Viene del penacho de plumas del casco, y esa imagen de ostentación no la pierde nunca.",
+      "tone": "pos",
+      "axisPos": 74,
+      "ej": "He signed the contract with a ___ that was entirely wasted on a room of four accountants.",
+      "twin": "verve",
+      "whyNotTwin": "panache es <b>estilo vistoso</b> — cómo se hace; verve es <b>energía y entusiasmo</b> — con cuánta fuerza. Uno luce, el otro empuja.",
+      "root": "pinnaculum (penacho de plumas)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "verve",
+      "pos": "noun",
+      "def": "energy and enthusiasm in performance or expression",
+      "disc": "El extremo, y lo que abunda es la <b>energía</b>: vigor, ímpetu, ganas. Su terreno es la ejecución — una interpretación, una prosa, una defensa hechas con brío.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The orchestra played the last movement with a ___ that had been missing from the whole first half.",
+      "twin": "panache",
+      "whyNotTwin": "verve es <b>energía</b>: la fuerza que se pone. panache es <b>estilo</b>: la elegancia con que se pone. Se puede tocar con verve y sin ninguna elegancia.",
+      "root": "verve (fantasía, capricho; antes 'palabrería')",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

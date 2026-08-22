@@ -1,0 +1,91 @@
+{
+  "id": "g111",
+  "name": "modos de trabajar mal",
+  "axis": {
+    "lo": "no hay plan ninguno detrás",
+    "hi": "hay plan, pero ni brío ni gracia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "haphazard",
+      "pos": "adj",
+      "def": "done without any order or system",
+      "disc": "Lo que falta es <b>el criterio</b>: las cosas quedaron donde cayeron. Su raíz lo dice — <i>hap</i>, azar. No juzga el esfuerzo ni la profundidad, solo señala que <b>no hubo sistema</b>.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The filing was ___: invoices in with the photographs, and three whole years missing.",
+      "twin": "desultory",
+      "whyNotTwin": "haphazard es <b>desorden</b>: no hay criterio que ordene las cosas; desultory es <b>discontinuidad</b>: se salta de un asunto a otro sin quedarse en ninguno.",
+      "root": "hap (azar) + hazard",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "desultory",
+      "pos": "adj",
+      "def": "moving from one thing to another without staying with any",
+      "disc": "Del <b>saltimbanqui romano</b> (<i>desultor</i>) que iba brincando de caballo en caballo. Describe conversaciones, lecturas y esfuerzos <b>sin hilo</b>: se empieza, se deja, se empieza otra cosa.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The conversation was ___: the weather, then a cousin's divorce, then the weather again.",
+      "twin": "haphazard",
+      "whyNotTwin": "desultory necesita <b>una secuencia</b> que salta de tema en tema; haphazard necesita <b>un conjunto</b> sin orden. Una charla es desultory; un archivo es haphazard.",
+      "root": "desultor (el que salta de caballo en caballo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "superficial",
+      "pos": "adj",
+      "def": "dealing only with the surface of something",
+      "disc": "Lo que falta es <b>profundidad</b>: se toca lo de encima y no lo que hay debajo. Puede ser perfectamente ordenado y hasta laborioso — y seguir sin llegar a lo que importa.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "His reading of the report was ___: he had the numbers but not the footnote that explained them.",
+      "twin": "desultory",
+      "whyNotTwin": "superficial se queda <b>arriba</b> aunque recorra todo el asunto; desultory <b>no recorre nada entero</b> porque se va a otra cosa. Uno no baja, el otro no sigue.",
+      "root": "super + facies (superficie)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dilatory",
+      "pos": "adj",
+      "def": "inclined to delay and put things off",
+      "disc": "El defecto es <b>el tiempo</b>: no que se haga mal, sino que no se haga todavía. Registro formal y con frecuencia acusatorio — <i>___ tactics</i> es retrasar a propósito para ganar tiempo.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The council's response was ___: four months to acknowledge a letter, and another six to answer it.",
+      "twin": "plodding",
+      "whyNotTwin": "dilatory <b>no empieza</b>: aplaza; plodding <b>ya está trabajando</b>, solo que despacio y sin gracia. Uno pierde el tiempo, el otro lo emplea mal.",
+      "root": "dilatare (aplazar, diferir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "plodding",
+      "pos": "adj",
+      "def": "slow and laborious, without flair",
+      "disc": "El caballo que avanza pesadamente. Es el único del grupo que <b>no niega el trabajo</b>: se llega al final, paso a paso, y lo que falta es <b>ligereza</b>. Casi siempre se dice de prosa y de razonamientos.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "The prose is ___ but honest: every step spelled out, and never a sentence you have to read twice.",
+      "twin": "dilatory",
+      "whyNotTwin": "plodding <b>llega</b>, aunque cansando; dilatory <b>no llega</b> porque siempre lo deja para después. La marca es si el trabajo se hizo o solo se retrasó.",
+      "root": "plod (andar pesadamente)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

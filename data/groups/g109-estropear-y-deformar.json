@@ -1,0 +1,91 @@
+{
+  "id": "g109",
+  "name": "estropear y deformar",
+  "axis": {
+    "lo": "le mete algo que no era suyo",
+    "hi": "lo deja pudrirse por dentro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "adulterate",
+      "pos": "verb",
+      "def": "to spoil something by adding an inferior substance",
+      "disc": "Siempre hay <b>una mezcla</b> y casi siempre hay <b>lucro</b>: leche con agua, aceite con otro aceite, un vino con azúcar. La sustancia añadida es peor que la original y va escondida.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "The oil had been ___d with something cheaper, and only the laboratory could tell.",
+      "twin": "distort",
+      "whyNotTwin": "adulterate <b>añade</b> algo ajeno a una sustancia; distort <b>cambia la forma</b> de algo sin añadir nada. Uno rebaja el producto, el otro tuerce la imagen.",
+      "root": "adulterare (falsificar, corromper)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "distort",
+      "pos": "verb",
+      "def": "to twist something out of its true shape or meaning",
+      "disc": "<b>Torcer</b> (<i>torquere</i>): la cosa sigue siendo la misma, pero deformada. Sirve igual para una imagen, un sonido o una cita — y en el examen suele ser <b>una versión torcida de lo que alguien dijo</b>.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The summary ___s his position by quoting the one sentence he spent the rest of the page qualifying.",
+      "twin": "adulterate",
+      "whyNotTwin": "distort deforma <b>la forma o el sentido</b> de algo que sigue completo; adulterate <b>mete dentro</b> una sustancia peor. Una cita se distorts; un aceite se adulterates.",
+      "root": "dis- + torquere (torcer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "desiccate",
+      "pos": "verb",
+      "def": "to dry something out completely",
+      "disc": "Es <b>quitar toda el agua</b>: fruta, suelo, un cadáver. En figurado se dice de una prosa o de una disciplina a las que se les ha secado la vida — quedan los huesos y el polvo.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Two summers without rain ___d the topsoil until it blew away in sheets.",
+      "twin": "enervate",
+      "whyNotTwin": "desiccate quita <b>humedad</b>; enervate quita <b>energía</b>. El suelo se desiccates; una persona se enervates.",
+      "root": "de- + siccus (seco)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "enervate",
+      "pos": "verb",
+      "def": "to drain someone of energy and will",
+      "disc": "Ojo con la trampa: <b>no significa poner nervioso</b> ni dar energía — significa lo contrario, <b>dejar sin fuerzas</b>. Sus sujetos típicos son el calor, la humedad, una espera larga.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The heat ___s the whole city by mid-afternoon: shops shut, and nobody argues about anything.",
+      "twin": "desiccate",
+      "whyNotTwin": "enervate afecta a <b>seres con fuerzas</b> — personas, ejércitos, una economía; desiccate afecta a <b>lo que tiene agua</b>. La pista es si el objeto se cansa o se seca.",
+      "root": "e- (fuera) + nervus (nervio, tendón)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fester",
+      "pos": "verb",
+      "def": "to grow worse while left untreated",
+      "disc": "Primero es <b>la herida que se infecta</b> por no curarse. De ahí el uso que cae en el examen: un rencor, un agravio o un conflicto que <b>empeora con el tiempo</b> justamente porque nadie lo atiende.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "The grievance was left to ___ for eleven years, and by then nobody remembered what had started it.",
+      "twin": "enervate",
+      "whyNotTwin": "fester necesita <b>tiempo y abandono</b>: empeora solo porque nadie lo atiende; enervate actúa <b>ahora</b> y por una causa presente — el calor, el esfuerzo.",
+      "root": "fistula (úlcera, llaga)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

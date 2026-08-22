@@ -1,0 +1,91 @@
+{
+  "id": "g046",
+  "name": "odio y hostilidad",
+  "axis": {
+    "lo": "rechazo sentido, que puede no salir nunca a la luz",
+    "hi": "enemistad declarada y de años"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "aversion",
+      "pos": "noun",
+      "def": "strong dislike or reluctance toward something",
+      "disc": "El único que admite <b>objetos triviales</b>: se puede tener aversion a las setas o a las reuniones. No exige personas ni gravedad moral. Lleva <i>to</i>.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "Her ___ to committee work was so complete that she took a pay cut to avoid it.",
+      "twin": "antipathy",
+      "whyNotTwin": "aversion puede dirigirse a <b>cosas y tareas</b>; antipathy apunta casi siempre a <b>personas o ideas</b> y es más honda. Si el objeto es trivial, es aversion.",
+      "root": "avertere (apartar, volver la cara)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "antipathy",
+      "pos": "noun",
+      "def": "deep-seated dislike, often unexpressed",
+      "disc": "Sentimiento <b>hondo y frío</b>, que puede no manifestarse jamás. Es la antipatía instintiva, la que no necesita motivo ni escena. Lleva <i>toward</i> o <i>for</i>.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "A quiet, thirty-year ___ that neither of them ever named and everyone in the department could feel.",
+      "twin": "animosity",
+      "whyNotTwin": "antipathy es un <b>sentimiento</b> que puede quedarse dentro; animosity ya es <b>hostilidad visible</b>. Si la oración dice que nunca se manifestó, es antipathy.",
+      "root": "anti (contra) + pathos (sentimiento)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "animus",
+      "pos": "noun",
+      "def": "hostile intent behind a specific act",
+      "disc": "Es la <b>intención hostil que mueve una acción</b>, y por eso vive en el lenguaje jurídico: se prueba o no se prueba que hubo animus detrás de un despido, un veto, una denuncia.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The judge found no ___ behind the dismissal: the post had simply been abolished.",
+      "twin": "animosity",
+      "whyNotTwin": "animus es hostilidad <b>como motivo de un acto concreto</b>; animosity es el <b>clima</b> de hostilidad, que no necesita que se haga nada. Si hay un acto que explicar, es animus.",
+      "root": "animus (ánimo, intención)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "animosity",
+      "pos": "noun",
+      "def": "strong, openly felt hostility",
+      "disc": "Hostilidad <b>abierta y caliente</b>: se nota en la sala. No exige que sea antigua ni mutua — puede nacer en una tarde y notarse en la siguiente.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Open ___ by the second session: they stopped addressing each other and spoke only to the chair.",
+      "twin": "enmity",
+      "whyNotTwin": "animosity es hostilidad <b>sentida ahora</b> y puede ser reciente y de uno solo; enmity es la <b>condición de ser enemigos</b>, mutua y duradera.",
+      "root": "animositas (vehemencia del ánimo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "enmity",
+      "pos": "noun",
+      "def": "the settled condition of being enemies",
+      "disc": "El extremo, y el único que es un <b>estado, no un sentimiento</b>: son enemigos, y suele ser <b>mutuo y de años</b>. Comparte raíz con <i>enemy</i>.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Two centuries of ___ between the valleys, kept alive by a boundary nobody could now find on a map.",
+      "twin": "animosity",
+      "whyNotTwin": "enmity es una <b>relación establecida</b> entre dos bandos; animosity es un <b>sentimiento</b> que uno tiene. Si la oración da siglos o dos bandos, es enmity.",
+      "root": "inimicus (enemigo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

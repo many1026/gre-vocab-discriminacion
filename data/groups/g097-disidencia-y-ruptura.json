@@ -1,0 +1,91 @@
+{
+  "id": "g097",
+  "name": "disidencia y ruptura",
+  "axis": {
+    "lo": "una voz discrepa y queda anotada",
+    "hi": "el cuerpo entero queda partido en dos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "dissent",
+      "pos": "noun",
+      "def": "open disagreement with an official or majority position",
+      "disc": "Es <b>el desacuerdo declarado</b>, no la pelea: se expresa, se registra y ahí queda. Su casa natural es el <b>voto particular</b> de un tribunal o el que se aparta de la línea de su partido.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "Her ___ was recorded in a footnote and ignored for thirty years, until it became the majority view.",
+      "twin": "schism",
+      "whyNotTwin": "el dissent <b>convive</b> con la institución: se anota y la institución sigue entera; el schism la <b>parte en dos</b>. Uno es una nota al pie, el otro dos jerarquías.",
+      "root": "dis- (aparte) + sentire (sentir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dissident",
+      "pos": "noun",
+      "def": "a person who publicly opposes an authoritarian regime",
+      "disc": "El único del grupo que es <b>una persona</b>. Su contexto es político y suele traer cárcel, exilio o vigilancia — se disiente contra un Estado que no admite que se le lleve la contraria.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "The ___ had been in and out of prison for a decade before the prize made him untouchable.",
+      "twin": "dissent",
+      "whyNotTwin": "el dissident es <b>quien disiente</b>; el dissent es <b>el desacuerdo mismo</b>. Si el hueco lleva artículo y hace de sujeto que va a la cárcel, es la persona.",
+      "root": "dis- (aparte) + sedere (sentarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "strife",
+      "pos": "noun",
+      "def": "prolonged open conflict between groups",
+      "disc": "No es un choque puntual: es <b>el estado de pelea</b> que dura años. Su colocación fija es <i>civil ___</i>, y lo que describe es un país o una comunidad donde el conflicto ya es el clima de fondo.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Ten years of civil ___ left the province without a functioning court or a usable road.",
+      "twin": "mutiny",
+      "whyNotTwin": "la strife es <b>difusa y larga</b>: no hay un mando contra el que se vaya; la mutiny es <b>concreta</b>: unos subordinados se niegan a obedecer a alguien en particular.",
+      "root": "estrif (contienda, porfía)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "mutiny",
+      "pos": "noun",
+      "def": "a refusal by subordinates to obey those in command",
+      "disc": "Exige <b>jerarquía</b>: tripulación contra capitán, tropa contra oficiales. Es un delito con nombre propio en los códigos militares, y por eso la palabra arrastra consejo de guerra.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Three weeks without pay and the crew was close to ___.",
+      "twin": "strife",
+      "whyNotTwin": "la mutiny va <b>de abajo contra el que manda</b>, dentro de una cadena de mando; la strife es <b>entre bandos</b> que no se deben obediencia. Sin superior al que desobedecer, no hay mutiny.",
+      "root": "meute (motín), de movere (mover)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "schism",
+      "pos": "noun",
+      "def": "a split that divides an institution into two bodies",
+      "disc": "Del griego <b>corte</b>. No es discrepar dentro de una casa: es que <b>la casa se parte</b> y quedan dos, cada una con su jerarquía. Nació en la historia de la Iglesia y de ahí pasó a partidos y disciplinas.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The dispute over the liturgy ended in ___: two churches, two hierarchies, and no communion between them.",
+      "twin": "dissent",
+      "whyNotTwin": "el schism deja <b>dos cuerpos separados</b> donde había uno; el dissent deja <b>un cuerpo con una minoría anotada</b>. La prueba es si al final hay una institución o dos.",
+      "root": "schisma (corte, escisión)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

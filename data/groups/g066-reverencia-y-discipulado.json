@@ -1,0 +1,91 @@
+{
+  "id": "g066",
+  "name": "reverencia y discipulado",
+  "axis": {
+    "lo": "una muestra puntual de respeto",
+    "hi": "una identidad entera puesta al servicio de otro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "deference",
+      "pos": "noun",
+      "def": "respectful yielding to another's judgment",
+      "disc": "No es admiración ni miedo: es <b>ceder la decisión</b> a quien uno reconoce con más autoridad o más años. Es cortés y voluntaria, y vive en una fórmula fija — <i>in ___ to</i>, <i>out of ___ to</i>.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "Out of ___ to a colleague who had held the chair for thirty years, she withdrew her proposal without pressing the point.",
+      "twin": "obeisance",
+      "whyNotTwin": "deference es una <b>actitud</b>: se cede el juicio y se calla. obeisance es un <b>gesto visible</b> — la inclinación, la genuflexión. Una se tiene, la otra se hace.",
+      "root": "deferre (llevar hacia otro, remitir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "obeisance",
+      "pos": "noun",
+      "def": "a gesture of submissive respect, such as a bow",
+      "disc": "Lo definitorio es el <b>cuerpo</b>: la inclinación, la reverencia, el ritual con que se reconoce a un superior delante de todos. Por eso se <i>hace</i> (<i>make ___</i>) y se puede fotografiar.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "Each visitor made a low ___ before the throne, hands crossed and eyes on the floor.",
+      "twin": "deference",
+      "whyNotTwin": "obeisance se <b>ejecuta</b> con el cuerpo; deference solo se nota en que alguien cede y no insiste. Si la oración describe una postura, es obeisance.",
+      "root": "oboedire (obedecer)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "acolyte",
+      "pos": "noun",
+      "def": "a devoted assistant who attends an important figure",
+      "disc": "Define la <b>cercanía y el servicio</b>, no las ideas: acompaña, prepara y carga con las cosas. Viene del ayudante que asiste al sacerdote en el altar, y conserva ese aire de séquito.",
+      "tone": "neu",
+      "axisPos": 58,
+      "ej": "The senator arrived flanked by three ___s, one carrying his briefcase and another holding the door.",
+      "twin": "disciple",
+      "whyNotTwin": "el acolyte <b>sirve</b> y está al lado; el disciple <b>aprende</b> una doctrina y puede no haber visto nunca al maestro.",
+      "root": "akolouthos (el que acompaña)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disciple",
+      "pos": "noun",
+      "def": "a follower who takes up a teacher's doctrine",
+      "disc": "Lo que lo define es la <b>doctrina recibida</b>: sigue un método o una enseñanza y la lleva consigo. La cercanía física es irrelevante — se puede ser disciple de alguien muerto hace un siglo.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "He never met Freud, but he was a ___ all the same: every case he wrote up was read through the master's categories.",
+      "twin": "acolyte",
+      "whyNotTwin": "el disciple sigue <b>una enseñanza</b>; el acolyte sigue <b>a una persona</b> y su tarea es asistirla. Aquí no hay servicio, hay método heredado.",
+      "root": "discipulus (alumno), de discere (aprender)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "apologist",
+      "pos": "noun",
+      "def": "one who publicly defends a doctrine or a figure",
+      "disc": "No pide perdón: <b>defiende</b>, y casi siempre lo difícil de defender. La palabra lleva sospecha incorporada — se usa para quien justifica ante el público lo que otros ya condenaron.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "For every new accusation there was a ready ___ on the op-ed page, explaining why the practice was legal, ordinary and misunderstood.",
+      "twin": "disciple",
+      "whyNotTwin": "el disciple <b>cree y aplica</b> la doctrina; el apologist <b>sale a defenderla</b> ante quien la ataca. Uno mira hacia adentro; el otro, hacia el público.",
+      "root": "apologia (defensa ante un tribunal)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

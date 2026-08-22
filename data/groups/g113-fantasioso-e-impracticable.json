@@ -1,0 +1,91 @@
+{
+  "id": "g113",
+  "name": "fantasioso e impracticable",
+  "axis": {
+    "lo": "no va en serio",
+    "hi": "va en serio, y puede que tenga razón"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "frivolous",
+      "pos": "adj",
+      "def": "not serious enough to deserve attention",
+      "disc": "Lo que se le reprocha es <b>la falta de seriedad</b>, no el error: se ocupa de bagatelas o se presenta sin fundamento. En derecho es término técnico — una demanda ___ se desestima y con costas.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The judge dismissed the claim as ___ and ordered the firm to pay the other side's costs.",
+      "twin": "futile",
+      "whyNotTwin": "frivolous es <b>indigno de atención</b>: no merecía plantearse; futile es <b>incapaz de lograr nada</b>: podía ser serio y aun así no llevar a ninguna parte.",
+      "root": "frivolus (de poco valor, insustancial)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "futile",
+      "pos": "adj",
+      "def": "incapable of producing any result",
+      "disc": "La raíz es una <b>vasija agujereada</b> (<i>futilis</i>): lo que se echa dentro se pierde. El esfuerzo puede ser serio y hasta heroico — lo que la palabra niega es que <b>vaya a servir de algo</b>.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "Three further appeals were ___: the deadline had passed before the first one was even written.",
+      "twin": "frivolous",
+      "whyNotTwin": "futile puede ser <b>del todo serio</b> y aun así inútil; frivolous ni siquiera se toma en serio a sí mismo. Uno fracasa, el otro no merecía intentarse.",
+      "root": "futilis (vasija que se derrama)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fanciful",
+      "pos": "adj",
+      "def": "invented rather than based on fact",
+      "disc": "Lo que falla es <b>la base</b>: la historia es bonita y no se sostiene en nada comprobable. Se dice de relatos, teorías y decoraciones — y de las explicaciones que alguien se inventa sobre la marcha.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "His account of the meeting is ___: a private jet nobody else remembers and a contract nobody has seen.",
+      "twin": "quixotic",
+      "whyNotTwin": "fanciful describe <b>lo que se cuenta</b>: no ocurrió; quixotic describe <b>lo que se emprende</b>: es real, y por eso mismo va a estrellarse. Uno inventa, el otro se lanza.",
+      "root": "fancy, de fantasy (imaginación)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "quixotic",
+      "pos": "adj",
+      "def": "nobly idealistic but hopelessly impractical",
+      "disc": "Por <b>don Quijote</b>, y conserva las dos mitades del personaje: <b>los motivos son admirables y el plan es imposible</b>. El que lo intenta se toma su empresa completamente en serio, y ahí está la gracia.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "It was a ___ campaign: one man, a bicycle, and a plan to reopen every village post office in the county.",
+      "twin": "visionary",
+      "whyNotTwin": "quixotic <b>no va a salir</b> y el hablante ya lo sabe; visionary <b>puede salir</b> y el tiempo suele darle la razón. La diferencia la pone el resultado, no la ambición.",
+      "root": "de don Quijote",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "visionary",
+      "pos": "adj",
+      "def": "seeing far ahead of what others can imagine",
+      "disc": "El único <b>elogioso</b> del grupo, y por eso el que rompe el patrón: describe a quien imaginó algo que entonces sonaba absurdo y <b>resultó ser cierto</b>. Suele decirse en retrospectiva.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The plan was dismissed as science fiction in 1962; today the man who drew it is called ___ in every history of the network.",
+      "twin": "quixotic",
+      "whyNotTwin": "visionary <b>acertó</b>: lo que parecía delirio se cumplió; quixotic <b>no acierta</b>: la nobleza está en intentarlo, no en lograrlo.",
+      "root": "visio (visión)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

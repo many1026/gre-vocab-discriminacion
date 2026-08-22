@@ -1,0 +1,111 @@
+{
+  "id": "g011",
+  "name": "que gasta poco o vive sin lujos",
+  "axis": {
+    "lo": "no suelta el dinero por avaricia",
+    "hi": "renuncia a toda comodidad por disciplina"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "miserly",
+      "pos": "adj",
+      "def": "hoarding money and hating to spend it",
+      "disc": "El más <b>llano y más duro</b>: acumula y sufre al gastar. Es el único con la imagen del <i>avaro</i> contando monedas, y nunca es admirable.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "___ in the storybook sense, he counted his coins twice each night and let the fire go out to save coal.",
+      "twin": "parsimonious",
+      "whyNotTwin": "parsimonious es más <b>culto y más neutro</b>: puede describir una prudencia razonable, incluso un elogio. miserly siempre condena.",
+      "root": "miser (desdichado, avaro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "penurious",
+      "pos": "adj",
+      "def": "extremely stingy; or extremely poor",
+      "disc": "<b>Polisémica, y ahí está la trampa</b>: puede significar tacaño o pobrísimo. El contexto decide — si la persona <i>tiene</i> dinero es tacañería, si no lo tiene es miseria.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "The word ___ cut both ways in his case: he had money, and he lived as though he had none.",
+      "twin": "miserly",
+      "whyNotTwin": "miserly solo significa tacaño; penurious además puede significar <b>indigente</b>. Cuando veas penurious, pregúntate primero si el sujeto tiene dinero o no lo tiene.",
+      "root": "penuria (escasez)",
+      "tier": 1,
+      "sense2": {
+        "def": "living in extreme poverty",
+        "ej": "They grew up in ___ circumstances, three families to a single room.",
+        "note": "Sentido opuesto en culpa: aquí no hay tacañería sino carencia. Si el sustantivo es circumstances, conditions o childhood, es este."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "parsimonious",
+      "pos": "adj",
+      "def": "unwilling to spend or grant more than the minimum",
+      "disc": "Registro <b>culto</b> y puede ser elogio: en ciencia, la explicación parsimonious es la mejor — la que gasta menos supuestos. También sirve fuera del dinero: parsimonious with praise.",
+      "tone": "neg",
+      "axisPos": 40,
+      "ej": "The simpler model was preferred as the more ___: it explained the same data with two fewer assumptions.",
+      "twin": "stinting",
+      "whyNotTwin": "stinting se refiere a <b>racionar lo que se le da a otro</b> y casi siempre aparece en negativo (unstinting); parsimonious describe el carácter de quien no gasta, y admite objetos abstractos como supuestos o elogios.",
+      "root": "parcere (ahorrar, perdonar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "stinting",
+      "pos": "adj",
+      "def": "giving less than is deserved or expected",
+      "disc": "Mide lo que se <b>da a otro</b>, no lo que se guarda. En la práctica la vas a ver casi siempre en negativo: <i>unstinting</i> support es apoyo sin reservas.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "She was never ___ in her help: whatever a student needed, she found the hours somewhere.",
+      "twin": "parsimonious",
+      "whyNotTwin": "parsimonious es no <b>gastar</b>; stinting es no <b>dar lo que corresponde</b>. Si ves un \"never\" o un \"un-\" delante del hueco, sospecha de esta.",
+      "root": "del inglés antiguo styntan (embotar, acortar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "austere",
+      "pos": "adj",
+      "def": "plain and without comfort or ornament",
+      "disc": "Ya <b>no habla de dinero</b> sino de estilo de vida: sin adornos, sin comodidad. Y es la única del grupo que además describe <b>carácter</b> — an austere man es severo y sin calidez.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "___ in manner as well as in dress, he had not been heard to laugh in forty years.",
+      "twin": "spartan",
+      "whyNotTwin": "austere puede calificar a una <b>persona</b> además de un entorno; spartan solo califica <b>condiciones materiales</b>. Un hombre no es spartan, su cuarto sí.",
+      "root": "austerus (áspero, seco)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "spartan",
+      "pos": "adj",
+      "def": "severely simple, lacking all comfort",
+      "disc": "El extremo del despojo, y solo para <b>condiciones materiales</b>: un cuarto, un régimen, una dieta. Viene de Esparta, así que arrastra disciplina impuesta.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The training camp was deliberately ___: bunk beds, cold showers, lights out at nine, all of it meant to harden them.",
+      "twin": "austere",
+      "whyNotTwin": "spartan describe solo el <b>entorno</b> y sugiere disciplina con un propósito; austere es despojo sin más y puede describir a una persona.",
+      "root": "Sparta, por la dureza proverbial de sus ciudadanos",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

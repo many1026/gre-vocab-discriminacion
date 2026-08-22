@@ -1,0 +1,91 @@
+{
+  "id": "g037",
+  "name": "desagradable en el trato",
+  "axis": {
+    "lo": "torpe socialmente, sin mala intención",
+    "hi": "aversión activa hacia la gente"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "gauche",
+      "pos": "adj",
+      "def": "socially awkward through inexperience",
+      "disc": "El único <b>sin culpa</b>: mete la pata porque no sabe, no porque no le importe. Es del francés <i>izquierdo</i>, y siempre apunta a torpeza social, nunca a grosería deliberada.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "Her question about his salary was merely ___ — she was nineteen, and had genuinely not been told it was rude.",
+      "twin": "boorish",
+      "whyNotTwin": "gauche <b>no sabe</b>; boorish <b>no le importa</b>. Si la oración perdona al sujeto por ignorancia o juventud, es gauche.",
+      "root": "gauche (izquierdo, torcido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "boorish",
+      "pos": "adj",
+      "def": "coarse and ill-mannered",
+      "disc": "Grosería por <b>tosquedad</b>: modales de patán, sin refinamiento ninguno. El boor era el campesino, y la palabra conserva ese desprecio de clase. Ojo: no implica mal humor.",
+      "tone": "neg",
+      "axisPos": 34,
+      "ej": "___ from the moment he sat down, he talked with his mouth full, interrupted the host twice, and left without a word — and none of it from nerves.",
+      "twin": "churlish",
+      "whyNotTwin": "boorish es grosero por <b>tosco</b>, y muchas veces ni se entera; churlish es grosero por <b>mal humor</b>, y sabe perfectamente lo que hace.",
+      "root": "boor (campesino, del neerlandés boer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "churlish",
+      "pos": "adj",
+      "def": "surly and ungracious, especially in refusing",
+      "disc": "Grosería con <b>mal humor y desagradecimiento</b>. Su colocación estrella en el GRE es <i>it would be churlish to…</i>: sería mezquino quejarse de algo que te dieron.",
+      "tone": "neg",
+      "axisPos": 52,
+      "ej": "It would be ___ to complain about a gift, however useless, so he thanked her and put it in a drawer.",
+      "twin": "boorish",
+      "whyNotTwin": "boorish rompe las <b>formas</b>: come mal, habla fuerte. churlish rompe la <b>gratitud</b>: recibe algo y responde con mezquindad. Si hay un favor de por medio, es churlish.",
+      "root": "churl (villano, hombre de baja condición)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "callous",
+      "pos": "adj",
+      "def": "unfeeling toward the suffering of others",
+      "disc": "Ya no es cuestión de modales sino de <b>insensibilidad ante el dolor</b>. Viene del callo: la piel que se endureció de tanto roce. Necesita que en la oración alguien esté sufriendo.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The manager's ___ reply to the bereavement request — 'other people manage' — was quoted at the tribunal.",
+      "twin": "churlish",
+      "whyNotTwin": "churlish te <b>trata mal</b>; callous <b>no siente</b> que estés mal. Sin sufrimiento en la oración, callous no aplica.",
+      "root": "callus (callo, piel endurecida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "misanthropic",
+      "pos": "adj",
+      "def": "hating humankind in general",
+      "disc": "El extremo, y el único que es una <b>postura sobre la especie entera</b>, no sobre nadie en particular. No es timidez ni mal carácter: es una conclusión razonada sobre la gente.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Thirty years in a cabin with no road to it: not shyness, he insisted, but a settled ___ conviction that people were not worth the trouble.",
+      "twin": "callous",
+      "whyNotTwin": "callous es <b>no sentir</b> el dolor ajeno; misanthropic es <b>sentir aversión</b> por la humanidad. Uno es indiferencia, el otro es una opinión firme.",
+      "root": "misein (odiar) + anthropos (hombre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

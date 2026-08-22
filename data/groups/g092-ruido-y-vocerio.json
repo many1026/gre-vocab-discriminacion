@@ -1,0 +1,91 @@
+{
+  "id": "g092",
+  "name": "ruido y vocerío",
+  "axis": {
+    "lo": "es ruido y nadie quiere decir nada con él",
+    "hi": "el ruido es una exigencia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "cacophonous",
+      "pos": "adj",
+      "def": "made of sounds that clash with one another",
+      "disc": "<b>Mal sonido</b> (<i>kakos</i> + <i>phone</i>): lo que molesta no es el volumen sino <b>la mezcla</b>. Hacen falta varias fuentes a la vez y que ninguna encaje con las demás.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "An orchestra tuning up is briefly ___: thirty instruments and no two on the same note.",
+      "twin": "boisterous",
+      "whyNotTwin": "cacophonous juzga <b>la mezcla</b> — suena mal porque no casa; boisterous juzga <b>la energía</b> — suena fuerte porque hay alegría. Uno chirría, el otro retumba.",
+      "root": "kakos (malo) + phone (sonido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "boisterous",
+      "pos": "adj",
+      "def": "noisy and lively in a cheerful way",
+      "disc": "El único del grupo con <b>buen ánimo</b>: niños, fiestas, mesas de estudiantes. Es ruido de <b>energía</b>, no de queja ni de discordancia, y quien lo describe suele estar más divertido que molesto.",
+      "tone": "neu",
+      "axisPos": 25,
+      "ej": "A ___ table of students at the back made the waiter give up on reciting the wine list.",
+      "twin": "clamorous",
+      "whyNotTwin": "boisterous <b>no pide nada</b>: es alboroto alegre; clamorous <b>reclama</b>: son muchas voces exigiendo lo mismo. Uno celebra, el otro protesta.",
+      "root": "origen incierto; ligado a lo tosco y corpulento",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "shrill",
+      "pos": "adj",
+      "def": "high and piercing in pitch",
+      "disc": "Lo suyo es <b>la frecuencia</b>, no el volumen: silbatos, chillidos, timbres. En figurado califica <b>críticas y campañas</b> que insisten en un tono tan agudo que dejan de convencer.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "The whistle was ___ enough to be heard over the engines.",
+      "twin": "cacophonous",
+      "whyNotTwin": "shrill describe <b>un solo sonido agudo</b>; cacophonous necesita <b>varios sonidos que chocan</b>. Un silbato es shrill; treinta instrumentos desafinando son cacophonous.",
+      "root": "imitativa, del bajo alemán",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "clamorous",
+      "pos": "adj",
+      "def": "loud with many voices demanding something",
+      "disc": "Son <b>muchos a la vez y quieren algo</b>: peticionarios, acreedores, una prensa entera. El ruido aquí tiene contenido — de la misma raíz sale <i>clamour for</i>, reclamar a gritos.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "By noon the corridor outside was ___ — fifty families all asking the same question at once.",
+      "twin": "vociferous",
+      "whyNotTwin": "clamorous se dice de <b>una multitud</b> que reclama; vociferous se dice de <b>una persona</b> que no deja de opinar en voz alta. Uno es coral, el otro es solista.",
+      "root": "clamare (gritar, reclamar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "vociferous",
+      "pos": "adj",
+      "def": "insistently loud in expressing one's opinions",
+      "disc": "<b>Llevar la voz</b> (<i>vox</i> + <i>ferre</i>). Califica a <b>quien se hace oír sin parar</b> — el crítico, el opositor, el defensor. No dice si tiene razón, solo que no se calla.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "He was the scheme's most ___ opponent, and the only one who wrote to the minister every single week.",
+      "twin": "clamorous",
+      "whyNotTwin": "vociferous califica a <b>un individuo</b> por su insistencia; clamorous califica al <b>ruido de muchos</b>. Si el hueco va con <i>opponent</i>, <i>critic</i> o <i>supporter</i>, es vociferous.",
+      "root": "vox (voz) + ferre (llevar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

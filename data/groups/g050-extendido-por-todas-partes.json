@@ -1,0 +1,91 @@
+{
+  "id": "g050",
+  "name": "extendido por todas partes",
+  "axis": {
+    "lo": "arraigado en un sitio concreto",
+    "hi": "presente en todas partes a la vez"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "endemic",
+      "pos": "adj",
+      "def": "regularly found in a particular place or group",
+      "disc": "Está <b>atado a un lugar</b> y suele ser <b>estable</b>, no creciente: así es como está, siempre. Es la palabra de la epidemiología y de la biología. Lleva casi siempre <i>to</i> o <i>in</i>.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "Malaria is ___ in the region: not an outbreak, just a permanent fact of the place.",
+      "twin": "rampant",
+      "whyNotTwin": "endemic está <b>arraigado y quieto</b>; rampant está <b>desatado y creciendo</b>. Si la oración dice que no es un brote sino lo normal, es endemic.",
+      "root": "en (en) + demos (pueblo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rampant",
+      "pos": "adj",
+      "def": "spreading unchecked and out of control",
+      "disc": "Lo que define no es la extensión sino la <b>falta de freno</b>: crece y nadie lo detiene. Siempre negativo. En heráldica es el león erguido sobre las patas traseras, a punto de saltar.",
+      "tone": "neg",
+      "axisPos": 38,
+      "ej": "Inflation was ___ by August, doubling prices in a fortnight while the ministry printed more notes.",
+      "twin": "pervasive",
+      "whyNotTwin": "rampant <b>crece sin control</b> y siempre es malo; pervasive ya <b>está en todas partes</b> y puede ser neutro. Si la oración da una velocidad, es rampant.",
+      "root": "ramper (trepar, encabritarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pervasive",
+      "pos": "adj",
+      "def": "spread through every part of something",
+      "disc": "<b>Penetra</b> un cuerpo entero: una institución, una cultura, un olor en una casa. Lo característico es que no se puede señalar dónde está, porque está en todo.",
+      "tone": "neu",
+      "axisPos": 58,
+      "ej": "A ___ assumption, never stated in any document, that the job would go to someone from the London office.",
+      "twin": "ubiquitous",
+      "whyNotTwin": "pervasive <b>impregna un solo cuerpo</b> por dentro; ubiquitous <b>aparece en muchos sitios</b> separados y contables. Uno se cuela, el otro se repite.",
+      "root": "per (a través) + vadere (ir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ubiquitous",
+      "pos": "adj",
+      "def": "found everywhere one looks",
+      "disc": "<b>Aparece en todos los sitios</b>, y esos sitios se pueden contar: cada escritorio, cada bolsillo, cada esquina. Su prueba en la oración suele ser una enumeración de lugares.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "By 2004 the things were ___: on every desk, in every pocket, and in the hand of the man ahead of you in the queue.",
+      "twin": "pervasive",
+      "whyNotTwin": "ubiquitous se <b>repite en sitios distintos</b>; pervasive <b>impregna uno solo</b>. Si la oración enumera lugares, es ubiquitous.",
+      "root": "ubique (en todas partes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "omnipresent",
+      "pos": "adj",
+      "def": "present everywhere at the same time",
+      "disc": "El extremo, y el único con <b>aire teológico</b>: no es que se repita, es que <b>está</b>, entero, en todas partes a la vez. Se usa para Dios y, en tono grave, para una influencia que no se puede esquivar.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The founder had been dead nine years and was still ___ in that building: not remembered, exactly, but present in the room whenever a decision was made.",
+      "twin": "ubiquitous",
+      "whyNotTwin": "ubiquitous es que <b>lo encuentras dondequiera que mires</b>; omnipresent es que <b>está en todas partes a la vez</b>, como una presencia. El segundo no se cuenta, se siente.",
+      "root": "omnis (todo) + praesens (presente)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

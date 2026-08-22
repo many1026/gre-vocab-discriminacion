@@ -1,0 +1,91 @@
+{
+  "id": "g051",
+  "name": "descifrar y deducir",
+  "axis": {
+    "lo": "convertir en legible lo que no se leía",
+    "hi": "proyectar más allá de lo que hay"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "decipher",
+      "pos": "verb",
+      "def": "to convert something illegible or coded into readable form",
+      "disc": "El obstáculo es <b>material</b>: una letra imposible, un código, una inscripción gastada. Una vez descifrado, el sentido suele ser obvio — el trabajo estaba en leerlo.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "It took the archivist a fortnight to ___ the marginal notes: the hand was eighteenth-century and half the words were abbreviated.",
+      "twin": "construe",
+      "whyNotTwin": "decipher hace <b>legible</b> lo que no se podía leer; construe le da <b>sentido</b> a algo que ya se lee perfectamente. Uno resuelve la letra, el otro la intención.",
+      "root": "des + cifra (cero, código)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "construe",
+      "pos": "verb",
+      "def": "to interpret something in a particular way",
+      "disc": "El texto se lee sin problema; lo que está en juego es <b>cuál de las lecturas posibles</b> vale. Por eso vive en el derecho: una cláusula se construe de un modo u otro.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "There are two ways to ___ the clause, and the company has spent four years arguing for the second.",
+      "twin": "decipher",
+      "whyNotTwin": "construe elige entre <b>varias interpretaciones</b> de algo legible; decipher <b>vuelve legible</b> lo que no lo era. Si la oración dice 'de dos maneras', es construe.",
+      "root": "construere (construir, ordenar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fathom",
+      "pos": "verb",
+      "def": "to get to the bottom of something puzzling",
+      "disc": "Lo que se entiende es un <b>porqué que se resistía</b>, no un texto. Casi siempre aparece en negativo: <i>could not fathom</i>. Viene de la braza con que se medía la profundidad del mar.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "Nobody could ___ why she had resigned the week before the promotion was announced.",
+      "twin": "construe",
+      "whyNotTwin": "construe interpreta un <b>texto</b> que admite lecturas; fathom penetra una <b>conducta o un misterio</b> que no las admite — o se entiende o no.",
+      "root": "fæðm (braza, brazos extendidos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "correlate",
+      "pos": "verb",
+      "def": "to show a mutual relationship between two sets of data",
+      "disc": "Necesita <b>dos series que ya tienes</b> y las empareja. Ojo, es la trampa estadística favorita del GRE: correlacionar no es causar, y los textos lo dicen constantemente.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The study set out to ___ hours of sunlight with reported mood across eleven years of records.",
+      "twin": "extrapolate",
+      "whyNotTwin": "correlate empareja <b>dos series existentes</b>; extrapolate estira <b>una sola</b> más allá de donde termina. Uno mira lo que hay, el otro inventa lo que sigue.",
+      "root": "con (juntos) + relatus (referido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "extrapolate",
+      "pos": "verb",
+      "def": "to extend known data beyond the range observed",
+      "disc": "El extremo, porque <b>sale de los datos</b>: proyecta hacia donde no se ha medido. Por eso siempre carga un riesgo, y el GRE suele usarlo para señalar una conclusión frágil.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "From four years of data they were willing to ___ a forty-year trend, which is a great deal to ask of four years.",
+      "twin": "correlate",
+      "whyNotTwin": "extrapolate va <b>más allá de lo observado</b>; correlate se queda <b>dentro</b>, emparejando lo que ya se midió. Si la oración señala un salto arriesgado, es extrapolate.",
+      "root": "extra (fuera) + interpolare (intercalar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

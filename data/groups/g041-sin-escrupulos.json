@@ -1,0 +1,94 @@
+{
+  "id": "g041",
+  "name": "sin escrúpulos",
+  "axis": {
+    "lo": "toma la ventaja que se le presenta",
+    "hi": "el dinero le compra el deber"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "opportunistic",
+      "pos": "adj",
+      "def": "exploiting chances as they arise, without principle",
+      "disc": "El más leve: <b>puede no romper ninguna regla</b>. Solo aprovecha la ocasión sin que ningún principio se lo impida. El GRE lo usa cuando quiere censurar sin acusar de nada concreto.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "___ rather than dishonest: he broke no rule, but he had signed the lease the same week the new station was announced.",
+      "twin": "unscrupulous",
+      "whyNotTwin": "opportunistic <b>aprovecha</b>, y a veces dentro de la ley; unscrupulous <b>rompe</b> lo que haga falta. Si la oración dice que no infringió nada, es opportunistic.",
+      "root": "opportunus (favorable, con buen viento a puerto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "unscrupulous",
+      "pos": "adj",
+      "def": "without moral restraint of any kind",
+      "disc": "Le falta el <b>escrúpulo</b>: esa piedrecita en el zapato que hace dudar antes de hacer algo mal. Es la palabra general del grupo — no dice qué hizo, solo que nada lo detiene.",
+      "tone": "neg",
+      "axisPos": 38,
+      "ej": "An ___ operator who forged one signature, backdated two invoices and slept perfectly well.",
+      "twin": "exploitative",
+      "whyNotTwin": "unscrupulous no tiene frenos <b>en general</b>; exploitative se aprovecha de <b>alguien concreto que está en desventaja</b>. El segundo necesita una víctima nombrada.",
+      "root": "scrupulus (piedrecita que molesta en el zapato)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exploitative",
+      "pos": "adj",
+      "def": "taking unfair advantage of the vulnerable",
+      "disc": "Necesita una <b>víctima en desventaja</b>: alguien que no puede irse, no puede quejarse o no tiene alternativa. Sin ese desequilibrio de poder, la palabra no aplica.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "The contracts were ___: twelve-hour shifts, no sick pay, and workers whose visas depended on not complaining.",
+      "twin": "unscrupulous",
+      "whyNotTwin": "unscrupulous describe al <b>sujeto</b> y su falta de frenos; exploitative describe la <b>relación</b> y el abuso de poder dentro de ella.",
+      "root": "exploitare (sacar provecho de)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "mercenary",
+      "pos": "adj",
+      "def": "motivated solely by money",
+      "disc": "El <b>motivo entero es el pago</b>. No hay traición de por medio: simplemente no habría movido un dedo gratis. Como sustantivo es el soldado a sueldo, y de ahí viene todo.",
+      "tone": "neg",
+      "axisPos": 78,
+      "ej": "His interest in the cause was frankly ___: he asked what the speaking fee was before he asked what the cause was.",
+      "twin": "venal",
+      "whyNotTwin": "mercenary hace algo <b>solo por dinero</b>; venal <b>vende lo que no debería venderse</b> — un voto, un fallo, una inspección. El segundo traiciona un deber.",
+      "root": "merces (paga, salario)",
+      "tier": 1,
+      "sense2": {
+        "def": "a soldier who fights for whoever pays",
+        "ej": "The republic collapsed the month it could no longer pay a single ___."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "venal",
+      "pos": "adj",
+      "def": "open to bribery; able to be bought",
+      "disc": "El extremo, porque hay un <b>deber que se traiciona</b>: quien es venal tenía algo que proteger y lo vendió. <b>Trampa de forma</b>: <i>venial</i> es todo lo contrario — un pecado leve, perdonable.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "A ___ inspector could be relied on to find the kitchen spotless for the price of a good dinner.",
+      "twin": "mercenary",
+      "whyNotTwin": "mercenary <b>cobra por trabajar</b>, lo cual no traiciona nada; venal <b>cobra por incumplir</b>. Si la oración nombra un cargo, un deber o una firma, es venal.",
+      "root": "venum (cosa puesta en venta)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g013",
+  "name": "que habla poco",
+  "axis": {
+    "lo": "calla por temperamento, siempre y con todos",
+    "hi": "dice mucho en muy pocas palabras"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "taciturn",
+      "pos": "adj",
+      "def": "habitually silent by temperament",
+      "disc": "Es un <b>rasgo permanente</b>: no es que hoy no hable, es que nunca habla. No dice nada sobre cómo habla en las raras ocasiones en que lo hace.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "Thirty years behind the same bar and ___ as ever, he had never once volunteered an opinion about anything.",
+      "twin": "reticent",
+      "whyNotTwin": "taciturn calla <b>siempre y con todos</b>, por naturaleza; reticent calla <b>sobre algo</b> concreto. Uno es un carácter, el otro una reserva puntual.",
+      "root": "tacere (callar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "reticent",
+      "pos": "adj",
+      "def": "unwilling to speak about something",
+      "disc": "Su silencio tiene <b>objeto</b>: se es reticent <i>about</i> algo. Suele haber un motivo — pudor, prudencia, un secreto — y en los demás temas la persona habla normal.",
+      "tone": "neu",
+      "axisPos": 35,
+      "ej": "Voluble about everything else, she grew ___ the moment anyone mentioned her first marriage.",
+      "twin": "taciturn",
+      "whyNotTwin": "taciturn no habla nunca; reticent no habla <b>de eso</b>. Si la oración nombra un tema concreto, la palabra es reticent.",
+      "root": "re- + tacere (callar sobre algo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "terse",
+      "pos": "adj",
+      "def": "brief to the point of seeming curt",
+      "disc": "Breve <b>y con filo</b>: la brevedad se lee como frialdad o impaciencia. Es la única del grupo que puede ofender justamente por lo corta.",
+      "tone": "neu",
+      "axisPos": 58,
+      "ej": "The reply was a ___ \"Noted.\" and nothing more, and everyone understood that he was furious.",
+      "twin": "laconic",
+      "whyNotTwin": "laconic es brevedad <b>sin carga</b>, casi un estilo; terse es brevedad que <b>corta</b>. Una respuesta laconic es económica, una terse es seca.",
+      "root": "tersus (pulido, limpio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "laconic",
+      "pos": "adj",
+      "def": "using very few words",
+      "disc": "Brevedad como <b>estilo</b>, sin frialdad necesaria. Viene de Laconia, la región de Esparta, cuyos habitantes eran famosos por responder con una sola palabra.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "Asked what would happen if they entered the city, the ___ Spartans sent back a single word: \"If.\"",
+      "twin": "terse",
+      "whyNotTwin": "terse suena impaciente o cortante; laconic solo suena económico. Es la misma brevedad con filo o sin él.",
+      "root": "Laconia, la región de Esparta",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pithy",
+      "pos": "adj",
+      "def": "brief and full of meaning",
+      "disc": "El único <b>elogioso</b>: no solo dice poco, dice <i>mucho</i> en poco. Sus objetos típicos son frases, máximas y observaciones — nunca personas.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "Her one-sentence summary was more ___ than the forty-page report it replaced.",
+      "twin": "laconic",
+      "whyNotTwin": "laconic describe a <b>quien habla</b> y solo mide cantidad; pithy describe <b>lo dicho</b> y promete densidad. Una persona no es pithy, su frase sí.",
+      "root": "pith (médula, meollo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

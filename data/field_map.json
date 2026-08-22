@@ -1,0 +1,1566 @@
+{
+ "_note": "Plan de campos semanticos pendientes. Cada lote toma los primeros campos con >=5 candidatos libres. Los candidatos estan verificados contra words.json.",
+ "fields": [
+  {
+   "name": "sociable y agradable",
+   "candidates": [
+    "congenial",
+    "convivial",
+    "cordial",
+    "amicable",
+    "gregarious",
+    "urbane",
+    "chivalrous",
+    "comity"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "desagradable en el trato",
+   "candidates": [
+    "boorish",
+    "churlish",
+    "curmudgeon",
+    "misanthropic",
+    "callous",
+    "sordid",
+    "gauche",
+    "slovenly",
+    "dowdy"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "servil y reverente",
+   "candidates": [
+    "obsequious",
+    "subservient",
+    "deference",
+    "obeisance",
+    "acolyte",
+    "disciple",
+    "apologist",
+    "beholden"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "ingenuo o inexperto",
+   "candidates": [
+    "artless",
+    "ingenuous",
+    "naive",
+    "gullible",
+    "callow",
+    "neophyte",
+    "fledgling",
+    "puerile",
+    "dilettante"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "astuto y habil",
+   "candidates": [
+    "canny",
+    "shrewd",
+    "wily",
+    "crafty",
+    "cunning",
+    "artful",
+    "adroit",
+    "deft",
+    "dexterous",
+    "nimble",
+    "adept"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sin escrupulos",
+   "candidates": [
+    "unscrupulous",
+    "mercenary",
+    "venal",
+    "rapacious",
+    "acquisitive",
+    "avaricious",
+    "opportunistic",
+    "exploitative",
+    "reprobate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "honesto y recto",
+   "candidates": [
+    "candid",
+    "frank",
+    "probity",
+    "veracity",
+    "noble",
+    "estimable",
+    "meritorious",
+    "equitable",
+    "disinterested"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "vanidad y aplomo",
+   "candidates": [
+    "narcissism",
+    "bravado",
+    "posturing",
+    "affectation",
+    "pomposity",
+    "effrontery",
+    "temerity",
+    "panache",
+    "aplomb",
+    "poise",
+    "verve"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "docil y manejable",
+   "candidates": [
+    "amenable",
+    "pliant",
+    "malleable",
+    "supple",
+    "acquiesce",
+    "comply",
+    "capitulate",
+    "relent",
+    "subordinate",
+    "dutiful"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "vileza moral",
+   "candidates": [
+    "depravity",
+    "turpitude",
+    "miscreant",
+    "libertine",
+    "prurient",
+    "sadistic",
+    "bawdy"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "alegria y euforia",
+   "candidates": [
+    "ebullient",
+    "euphoric",
+    "elated",
+    "jocund",
+    "buoyant",
+    "vivacious",
+    "exhilarating",
+    "heady"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "odio y hostilidad",
+   "candidates": [
+    "animosity",
+    "animus",
+    "enmity",
+    "antipathy",
+    "aversion",
+    "abhor",
+    "loathe",
+    "contempt",
+    "scorn",
+    "disdain"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "repulsion",
+   "candidates": [
+    "repugnant",
+    "odious",
+    "spurn",
+    "umbrage",
+    "affront"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "miedo y cautela",
+   "candidates": [
+    "apprehension",
+    "qualm",
+    "chary",
+    "wary",
+    "vigilant",
+    "circumspect",
+    "prudent",
+    "judicious",
+    "aghast"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "cansancio y desgana",
+   "candidates": [
+    "lassitude",
+    "torpor",
+    "ennui",
+    "languid",
+    "lethargic",
+    "sluggish",
+    "somnolent",
+    "soporific",
+    "weary",
+    "languish",
+    "apathy"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "asombro y desconcierto",
+   "candidates": [
+    "nonplussed",
+    "flummoxed",
+    "befuddled",
+    "confound",
+    "discomfit",
+    "disconcerting",
+    "flustered",
+    "quandary",
+    "predicament",
+    "conundrum",
+    "imbroglio",
+    "contretemps"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "pena y remordimiento",
+   "candidates": [
+    "contrite",
+    "lament",
+    "chagrin",
+    "vexation",
+    "grievance",
+    "woeful",
+    "poignant",
+    "cathartic",
+    "dirge"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "afecto y devocion",
+   "candidates": [
+    "cherish",
+    "relish",
+    "covet",
+    "penchant",
+    "predilection",
+    "proclivity",
+    "propensity",
+    "affinity",
+    "inclined",
+    "avid",
+    "ardent",
+    "fervent",
+    "fervid",
+    "fervor",
+    "zealous"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "abundante y extendido",
+   "candidates": [
+    "abound",
+    "copious",
+    "profuse",
+    "prodigious",
+    "rampant",
+    "pervasive",
+    "ubiquitous",
+    "omnipresent",
+    "endemic",
+    "proliferate",
+    "surfeit",
+    "inundate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "escaso y agotado",
+   "candidates": [
+    "dearth",
+    "scant",
+    "sparse",
+    "paltry",
+    "trifling",
+    "barren",
+    "fallow",
+    "bereft",
+    "wanting",
+    "feeble",
+    "frailty",
+    "tenuous"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "aumentar",
+   "candidates": [
+    "augment",
+    "amplify",
+    "accentuate",
+    "escalate",
+    "compound",
+    "distend",
+    "aggrandize",
+    "burgeon",
+    "crescendo"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "cumbre y sima",
+   "candidates": [
+    "apogee",
+    "zenith",
+    "nadir",
+    "echelon",
+    "fulcrum",
+    "benchmark"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "disminuir y agotar",
+   "candidates": [
+    "dwindling",
+    "wane",
+    "subside",
+    "abate",
+    "curtail",
+    "retrench",
+    "curb",
+    "stanch",
+    "squander",
+    "vestigial",
+    "residual"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "antiguo y obsoleto",
+   "candidates": [
+    "archaic",
+    "anachronistic",
+    "obsolete",
+    "antedate",
+    "erstwhile",
+    "onetime",
+    "extant",
+    "contemporary",
+    "temporal"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "incipiente",
+   "candidates": [
+    "nascent",
+    "inchoate",
+    "commence",
+    "precocious",
+    "unprecedented"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "presagiar",
+   "candidates": [
+    "harbinger",
+    "prefigure",
+    "presage",
+    "portend",
+    "forebode",
+    "prescient",
+    "prophetic"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "constante o intermitente",
+   "candidates": [
+    "incessant",
+    "interminable",
+    "sporadic",
+    "fitful",
+    "intermittent",
+    "monotonous",
+    "dormant",
+    "quiescent",
+    "recrudescent"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sabio y perspicaz",
+   "candidates": [
+    "erudite",
+    "sagacious",
+    "astute",
+    "acumen",
+    "polymath",
+    "encyclopedic",
+    "omniscient",
+    "penetrating",
+    "perspicacious"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "torpe o incapaz",
+   "candidates": [
+    "inept",
+    "feckless",
+    "fallible",
+    "gawky",
+    "hapless",
+    "impolitic",
+    "negligent"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "razonar y deducir",
+   "candidates": [
+    "construe",
+    "extrapolate",
+    "correlate",
+    "cogitate",
+    "ruminate",
+    "contemplate",
+    "reflect",
+    "fathom",
+    "decipher"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "argumento solido",
+   "candidates": [
+    "cogent",
+    "compelling",
+    "plausible",
+    "tenable",
+    "conclusive",
+    "incontrovertible",
+    "axiomatic",
+    "empirical",
+    "rational",
+    "coherent",
+    "intelligible"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "argumento falso",
+   "candidates": [
+    "fallacious",
+    "specious",
+    "spurious",
+    "sophistry",
+    "dubious",
+    "conjectural",
+    "illusory",
+    "delusion",
+    "suspect"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "dogma y ortodoxia",
+   "candidates": [
+    "dogmatic",
+    "doctrinaire",
+    "ideologue",
+    "heterodox",
+    "iconoclastic",
+    "sacrosanct",
+    "conventional",
+    "entrenched",
+    "ingrained",
+    "inveterate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "claro de expresion",
+   "candidates": [
+    "limpid",
+    "pellucid",
+    "accessible",
+    "articulate",
+    "eloquent",
+    "elucidate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "impedir y estorbar",
+   "candidates": [
+    "hamper",
+    "hinder",
+    "impede",
+    "impediment",
+    "inhibit",
+    "preclude",
+    "forestall",
+    "obviate",
+    "deter",
+    "foil",
+    "occlude",
+    "circumscribe",
+    "manacle",
+    "immure",
+    "quarantine"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "atacar y destruir",
+   "candidates": [
+    "assail",
+    "ravage",
+    "eradicate",
+    "vanquish",
+    "barrage",
+    "conflagration",
+    "cataclysmic",
+    "catastrophic",
+    "calamitous",
+    "jeopardize",
+    "debilitating",
+    "impair",
+    "debase",
+    "blighted"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "rebelion y disidencia",
+   "candidates": [
+    "mutiny",
+    "dissent",
+    "dissident",
+    "schism",
+    "strife",
+    "polarize",
+    "antagonize",
+    "retaliate",
+    "contravene",
+    "transgression"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "escapar y ocultar",
+   "candidates": [
+    "evade",
+    "evasive",
+    "eschew",
+    "abstain",
+    "forgo",
+    "shirk",
+    "skirt",
+    "abscond",
+    "elusive",
+    "furtive",
+    "clandestine",
+    "covert",
+    "surreptitious",
+    "ulterior",
+    "cloak"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "conspirar y enganar",
+   "candidates": [
+    "collude",
+    "conspire",
+    "skullduggery",
+    "chicanery",
+    "malfeasance",
+    "perfidy",
+    "duplicitous",
+    "devious",
+    "disingenuous",
+    "sham",
+    "bogus",
+    "phony",
+    "mendacity"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "incitar y provocar",
+   "candidates": [
+    "incite",
+    "foment",
+    "goad",
+    "exhort",
+    "induce",
+    "galvanize",
+    "agitate",
+    "provocative",
+    "incendiary"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "calmar y reconciliar",
+   "candidates": [
+    "placate",
+    "mollify",
+    "appease",
+    "propitiate",
+    "pacify",
+    "conciliatory",
+    "reconcile",
+    "mediate",
+    "detente",
+    "lull"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "perdonar y absolver",
+   "candidates": [
+    "exculpate",
+    "exonerate",
+    "condone",
+    "extenuating",
+    "remedial",
+    "amend"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "acusar y difamar",
+   "candidates": [
+    "indictment",
+    "aspersion",
+    "calumny",
+    "stigmatize",
+    "decry",
+    "deprecate",
+    "censure",
+    "opprobrium",
+    "diatribe",
+    "tirade",
+    "harangue",
+    "objurgation"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "quitar y renunciar",
+   "candidates": [
+    "renounce",
+    "relinquish",
+    "repudiate",
+    "recant",
+    "forsake",
+    "jettison",
+    "dispense",
+    "divulge",
+    "sever",
+    "dismantle",
+    "disentangle"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "forma y estructura",
+   "candidates": [
+    "amorphous",
+    "sinuous",
+    "tortuous",
+    "homogeneous",
+    "heterogeneous",
+    "disparate",
+    "analogous",
+    "interchangeable",
+    "fungible",
+    "commensurate",
+    "tantamount",
+    "complementary",
+    "incongruous"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "aspero e incisivo",
+   "candidates": [
+    "astringent",
+    "caustic",
+    "mordant",
+    "trenchant",
+    "scathing",
+    "acrimonious",
+    "stringent",
+    "exacting",
+    "draconian",
+    "despotic"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "importante o trivial",
+   "candidates": [
+    "imperative",
+    "indispensable",
+    "germane",
+    "pertinent",
+    "apposite",
+    "apropos",
+    "trivial",
+    "nominal",
+    "token",
+    "slight",
+    "minute"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "bello y seductor",
+   "candidates": [
+    "aesthetic",
+    "picturesque",
+    "exotic",
+    "arresting",
+    "scintillating",
+    "enchant",
+    "enthrall",
+    "tantalizing",
+    "piquant"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "empalagoso",
+   "candidates": [
+    "cloying",
+    "mawkish",
+    "sentimental",
+    "unalloyed",
+    "immaculate",
+    "pristine"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sonido",
+   "candidates": [
+    "cacophonous",
+    "clangor",
+    "clamorous",
+    "vociferous",
+    "shrill",
+    "boisterous",
+    "croon"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "peligro e inestabilidad",
+   "candidates": [
+    "perilous",
+    "precarious",
+    "precipitous",
+    "turbulent",
+    "tempestuous",
+    "fraught",
+    "restive"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "dinero y riqueza",
+   "candidates": [
+    "affluent",
+    "lucrative",
+    "remuneration",
+    "exorbitant",
+    "economy",
+    "liability",
+    "endow",
+    "largesse",
+    "boon",
+    "sinecure"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "leyes y normas",
+   "candidates": [
+    "sanction",
+    "prescribe",
+    "dictate",
+    "warranted",
+    "inviolate",
+    "inalienable",
+    "arbitrary",
+    "latitude",
+    "proxy",
+    "surrogate",
+    "intermediary"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "ensenanza y modelo",
+   "candidates": [
+    "didactic",
+    "pedantic",
+    "edify",
+    "expatiate",
+    "treatise",
+    "exegesis",
+    "paradigmatic",
+    "archetype",
+    "paragon"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "anomalia y rareza",
+   "candidates": [
+    "anomalous",
+    "aberrant",
+    "idiosyncratic",
+    "peculiar",
+    "quirky",
+    "eccentric",
+    "outlandish",
+    "discrepancy"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "figuras del lenguaje",
+   "candidates": [
+    "allegorical",
+    "allusive",
+    "figurative",
+    "metaphorical",
+    "euphemism",
+    "hyperbole",
+    "aphorism",
+    "dictum",
+    "allude"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "topico gastado",
+   "candidates": [
+    "platitude",
+    "bromide",
+    "pastiche",
+    "caricature",
+    "lampoon",
+    "banal",
+    "hackneyed",
+    "derivative"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "burla y humor",
+   "candidates": [
+    "satirical",
+    "facetious",
+    "droll",
+    "levity",
+    "raillery",
+    "quibble",
+    "gloat",
+    "deride"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "elegir y distinguir",
+   "candidates": [
+    "discernible",
+    "indiscriminate",
+    "eclectic",
+    "partial",
+    "subtle"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "apoyar y respaldar",
+   "candidates": [
+    "bolster",
+    "buttress",
+    "underscore",
+    "advocate",
+    "countenance"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "esparcir y difundir",
+   "candidates": [
+    "disseminate",
+    "disperse",
+    "diffuse",
+    "propagate",
+    "perpetuate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "unir y fusionar",
+   "candidates": [
+    "coalesce",
+    "amalgamate",
+    "cluster",
+    "intertwined",
+    "subsume",
+    "accord",
+    "consensus"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "ocultar o tergiversar",
+   "candidates": [
+    "obfuscate",
+    "distort",
+    "belie",
+    "feint",
+    "ploy",
+    "deflect",
+    "eclipse"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "refutar y desmentir",
+   "candidates": [
+    "debunk",
+    "refute",
+    "gainsay",
+    "demur",
+    "denounce"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "valor y firmeza",
+   "candidates": [
+    "fortitude",
+    "valor",
+    "mettlesome",
+    "resolute",
+    "steadfast",
+    "perseverance",
+    "resilient",
+    "redoubtable",
+    "robust"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sereno y sobrio",
+   "candidates": [
+    "placid",
+    "tranquil",
+    "serene",
+    "sober",
+    "staid",
+    "subdued",
+    "equanimity",
+    "modest",
+    "understated"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "impulsivo e irreflexivo",
+   "candidates": [
+    "impetuous",
+    "impulsive",
+    "precipitate",
+    "frenetic",
+    "hysterical",
+    "alacrity"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "indeciso y titubeante",
+   "candidates": [
+    "irresolute",
+    "vacillate",
+    "ambivalent",
+    "tentative",
+    "indefinite",
+    "falter"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "evidente y palpable",
+   "candidates": [
+    "conspicuous",
+    "overt",
+    "patent",
+    "manifest",
+    "palpable",
+    "tangible",
+    "flagrant",
+    "egregious"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "implicito y esencial",
+   "candidates": [
+    "implicit",
+    "tacit",
+    "intrinsic",
+    "inborn",
+    "corporeal",
+    "abstract"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "eficaz y viable",
+   "candidates": [
+    "efficacious",
+    "expedient",
+    "feasible",
+    "viable",
+    "conducive",
+    "fruitful",
+    "potent",
+    "expedite"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "competente y capaz",
+   "candidates": [
+    "competent",
+    "proficient",
+    "versatile",
+    "resourceful",
+    "facility",
+    "prowess"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "molestia e irritacion",
+   "candidates": [
+    "irksome",
+    "nettlesome",
+    "grumble",
+    "fret",
+    "resent",
+    "indignant",
+    "exasperated"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "pesado y engorroso",
+   "candidates": [
+    "cumbersome",
+    "onerous",
+    "ponderous",
+    "tedious",
+    "arduous",
+    "daunting",
+    "exigent",
+    "rigor"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "superficial y somero",
+   "candidates": [
+    "superficial",
+    "perfunctory",
+    "glib",
+    "rudimentary",
+    "elementary",
+    "haphazard",
+    "desultory",
+    "dilatory"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "profundo y exhaustivo",
+   "candidates": [
+    "profound",
+    "profundity",
+    "thorough",
+    "exhaustive",
+    "all-encompassing",
+    "synoptic",
+    "multifaceted"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "mejorar y adornar",
+   "candidates": [
+    "embellish",
+    "elaborate",
+    "refine",
+    "burnish",
+    "gratify",
+    "coddle"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "renuncia y autocontrol",
+   "candidates": [
+    "ascetic",
+    "abjure",
+    "forbear",
+    "brook",
+    "abide",
+    "withstand",
+    "self-indulgent",
+    "decadent"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "atribuir y asignar",
+   "candidates": [
+    "ascribe",
+    "attribute",
+    "render",
+    "appropriate",
+    "delineate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "causar y desencadenar",
+   "candidates": [
+    "engender",
+    "evoke",
+    "elicit",
+    "ensue",
+    "repercussion",
+    "ramification",
+    "stem from"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "alejar y enemistar",
+   "candidates": [
+    "alienate",
+    "estranged",
+    "divorced",
+    "remote",
+    "itinerant",
+    "recluse"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "curioso y observador",
+   "candidates": [
+    "inquisitive",
+    "keen",
+    "empathetic",
+    "intuitive",
+    "oblivious"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "digno o indigno de respeto",
+   "candidates": [
+    "laudable",
+    "unseemly",
+    "indecorous",
+    "propriety",
+    "decorum",
+    "deportment"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "extremo y radical",
+   "candidates": [
+    "radical",
+    "utterly",
+    "sensational",
+    "brazen",
+    "stern"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "moderado y tibio",
+   "candidates": [
+    "tepid",
+    "passable",
+    "diminutive",
+    "lax",
+    "innocuous",
+    "passive",
+    "content"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sano y en forma",
+   "candidates": [
+    "convalescent",
+    "vitality",
+    "desiccate",
+    "fecund",
+    "invigorate",
+    "replenish",
+    "enervate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "acuerdo y compromiso",
+   "candidates": [
+    "compromise",
+    "collaborate",
+    "yield",
+    "approbation",
+    "commiserate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "prevalecer y superar",
+   "candidates": [
+    "prevail",
+    "surmount",
+    "transcend",
+    "outstrip",
+    "resolve"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "suprimir y contener",
+   "candidates": [
+    "suppress",
+    "neutralize",
+    "bridle",
+    "omit",
+    "check",
+    "censor",
+    "coercion",
+    "duress"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "repetir y recapitular",
+   "candidates": [
+    "reiterate",
+    "recapitulate",
+    "repertoire",
+    "rhapsody",
+    "soliloquy"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "revertir y deshacer",
+   "candidates": [
+    "unravel",
+    "regress",
+    "renege",
+    "exorcise",
+    "avert",
+    "deviate",
+    "detract",
+    "discount"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "adecuado o inadecuado",
+   "candidates": [
+    "apt",
+    "infelicity",
+    "gaffe",
+    "peccadillo",
+    "impertinent",
+    "irreverent"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "extranjero y ajeno",
+   "candidates": [
+    "chauvinistic",
+    "elitist",
+    "egalitarian",
+    "altruistic",
+    "philistine"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "misterioso y sobrenatural",
+   "candidates": [
+    "numinous",
+    "macabre",
+    "harrowing",
+    "intrigue",
+    "anoint",
+    "abject"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "advertir y percibir",
+   "candidates": [
+    "heed",
+    "apprise",
+    "inform",
+    "foreseeable",
+    "premeditate",
+    "deliberate"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "adherirse y comprometerse",
+   "candidates": [
+    "adhere",
+    "conviction",
+    "pious",
+    "complacent",
+    "assertive",
+    "credible"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "logica y contradiccion",
+   "candidates": [
+    "paradoxical",
+    "antithesis",
+    "dichotomy",
+    "divergent",
+    "incredulous",
+    "ineluctable"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "esperar y demorar",
+   "candidates": [
+    "abeyance",
+    "dawdle",
+    "imminent",
+    "cease",
+    "abreast"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "improvisado y provisional",
+   "candidates": [
+    "makeshift",
+    "improvise",
+    "extemporize",
+    "auxiliary",
+    "ad hoc"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "malicia y corrupcion",
+   "candidates": [
+    "adulterate",
+    "fester",
+    "ossify",
+    "malevolent",
+    "invidious"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "entrometido e irrespetuoso",
+   "candidates": [
+    "officious",
+    "martinet",
+    "flout",
+    "intimate",
+    "impervious"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "fantasioso y utopico",
+   "candidates": [
+    "fanciful",
+    "quixotic",
+    "visionary",
+    "frivolous",
+    "futile"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "solido y fiable",
+   "candidates": [
+    "ironclad",
+    "sound",
+    "veritable",
+    "universal",
+    "remarkable",
+    "prime"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "retorica y digresion",
+   "candidates": [
+    "rhetoric",
+    "polemical",
+    "tendentious",
+    "digression",
+    "ramble",
+    "brevity",
+    "verisimilitude"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "danar por los flancos",
+   "candidates": [
+    "abet",
+    "betray",
+    "encroach",
+    "invasive",
+    "marginalize",
+    "patronize",
+    "perpetrate",
+    "adverse"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "mezcla y desorden",
+   "candidates": [
+    "hodgepodge",
+    "misnomer",
+    "pejorative",
+    "plastic",
+    "wayward"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "remedio y recurso",
+   "candidates": [
+    "panacea",
+    "recourse",
+    "distill",
+    "emulate",
+    "mimic"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "sofisticado o rudo",
+   "candidates": [
+    "sophisticated",
+    "cerebral",
+    "utilitarian",
+    "documentary",
+    "subjective"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "circunstancia y matiz",
+   "candidates": [
+    "circumstantial",
+    "explicable",
+    "discreet",
+    "turbid",
+    "distressed"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "figuras sociales",
+   "candidates": [
+    "connoisseur",
+    "hypocrite",
+    "ingenious",
+    "base",
+    "coin"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "restos y sobras",
+   "candidates": [
+    "fringe",
+    "plodding",
+    "valedictory",
+    "ire",
+    "tact"
+   ],
+   "status": "pending"
+  },
+  {
+   "name": "campo y naturaleza (loose)",
+   "candidates": [
+    "bucolic"
+   ],
+   "status": "pending",
+   "loose": true
+  }
+ ],
+ "residual": [],
+ "_stats": {
+  "fields": 112,
+  "placed": 879,
+  "residual": 0,
+  "undersized": 1,
+  "estimatedGroups": 130,
+  "estimatedBatches": 32
+ }
+}

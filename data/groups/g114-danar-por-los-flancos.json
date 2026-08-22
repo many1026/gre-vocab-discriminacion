@@ -1,0 +1,95 @@
+{
+  "id": "g114",
+  "name": "dañar por los flancos",
+  "axis": {
+    "lo": "es un acto único que alguien comete",
+    "hi": "es un desplazamiento lento hasta dejar a alguien fuera"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "perpetrate",
+      "pos": "verb",
+      "def": "to carry out a crime or a deception",
+      "disc": "Su objeto es siempre <b>algo malo y con nombre</b>: un fraude, un engaño, una masacre. No se perpetran cosas buenas, y la palabra pone el foco en <b>quién lo cometió</b>, no en quién lo sufrió.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The hoax was ___d by two students who never expected the museum to believe them.",
+      "twin": "abet",
+      "whyNotTwin": "perpetrate lo comete <b>uno mismo</b>; abet es <b>ayudar a que otro lo cometa</b>. La ley distingue exactamente eso: el autor y el que le echa una mano.",
+      "root": "per- + patrare (llevar a cabo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abet",
+      "pos": "verb",
+      "def": "to help or encourage someone to do wrong",
+      "disc": "Vive casi pegado a su fórmula legal, <i>aid and ___</i>. La imagen original es <b>azuzar a un perro</b>: uno no muerde, pero sin uno no habría mordisco. El objeto puede ser el delito o el que lo comete.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "The statute punishes anyone who moves to ___ a fraud, even without touching the money.",
+      "twin": "perpetrate",
+      "whyNotTwin": "abet <b>colabora</b> desde un costado y puede no tocar nada; perpetrate <b>ejecuta</b>. Si en la oración alguien queda a un paso del acto, es abet.",
+      "root": "a- + beter (azuzar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "betray",
+      "pos": "verb",
+      "def": "to break the trust of someone who relied on you",
+      "disc": "Hace falta <b>confianza previa</b>: se traiciona a quien te abrió la puerta. Ojo con el segundo sentido, muy del examen: <b>delatar sin querer</b> — un gesto, un temblor de voz, un detalle que se escapa.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "He ___ed the men who had hidden him, and then lived forty years in a country where nobody knew it.",
+      "twin": "abet",
+      "whyNotTwin": "betray rompe <b>un vínculo de confianza</b> y por eso duele a alguien en concreto; abet solo <b>ayuda</b> a que se cometa un daño, sin que hubiera lealtad de por medio.",
+      "root": "be- + tradere (entregar)",
+      "tier": 1,
+      "sense2": {
+        "def": "to reveal something unintentionally",
+        "ej": "Her face ___ed nothing, but her hands would not keep still.",
+        "note": "Sentido frecuente en el GRE y sin traición ninguna: lo que se delata es un sentimiento, y quien lo delata no quería hacerlo."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "encroach",
+      "pos": "verb",
+      "def": "to advance gradually onto what belongs to another",
+      "disc": "Rige <b>on</b> y su marca es <b>la lentitud</b>: se avanza un poco cada vez, y ninguna de las veces parece grave. Sirve para terrenos y también para derechos, atribuciones y tiempo libre.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The car park has ___ed on the meadow year by year, a metre at a time.",
+      "twin": "marginalize",
+      "whyNotTwin": "encroach <b>gana terreno</b> sobre lo ajeno; marginalize <b>empuja a alguien al borde</b> del suyo. Uno se mete, el otro echa.",
+      "root": "en- + croc (gancho): echar el gancho encima",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "marginalize",
+      "pos": "verb",
+      "def": "to push a group to the edge, where it counts for less",
+      "disc": "El daño es <b>de posición</b>: no se prohíbe nada, se deja fuera del centro. Su objeto son <b>personas y grupos</b>, y el efecto se mide en a quién se consulta, a quién se cita y a quién se escucha.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The reform ___d the very people it was written for: they were consulted last and heard least.",
+      "twin": "encroach",
+      "whyNotTwin": "marginalize actúa sobre <b>gente</b> a la que se relega; encroach actúa sobre <b>un espacio o un derecho</b> que se invade poco a poco.",
+      "root": "margo (borde, margen)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

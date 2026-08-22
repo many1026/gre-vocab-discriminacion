@@ -1,0 +1,91 @@
+{
+  "id": "g105",
+  "name": "lo que no cuadra",
+  "axis": {
+    "lo": "dos cifras que deberían coincidir y no coinciden",
+    "hi": "un montón donde nada casa con nada"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "discrepancy",
+      "pos": "noun",
+      "def": "a difference between two accounts that should agree",
+      "disc": "Exige <b>dos versiones de lo mismo</b> — dos libros de cuentas, dos declaraciones, dos mediciones — que no cuadran. Es cuantificable, y por eso vive en auditorías e informes.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "There is a ___ of nine hundred pounds between the two ledgers, and nobody can account for it.",
+      "twin": "misnomer",
+      "whyNotTwin": "la discrepancy está entre <b>dos datos</b> que deberían coincidir; el misnomer está entre <b>un nombre y la cosa</b> que nombra. Una se mide, el otro se corrige cambiando la etiqueta.",
+      "root": "dis- + crepare (sonar distinto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "misnomer",
+      "pos": "noun",
+      "def": "a name that describes its thing wrongly",
+      "disc": "El desajuste está <b>en la etiqueta</b>: el nombre promete una cosa y hay otra. Se usa mucho para desarmar un debate — decir que un término es un ___ es decir que la discusión empezó mal.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "\"Greenland\" is a ___, and a deliberate one: the name was chosen to attract settlers.",
+      "twin": "discrepancy",
+      "whyNotTwin": "el misnomer es un problema de <b>nombre</b>: la cosa está bien, mal está cómo se la llama; la discrepancy es un problema de <b>cuentas</b> entre dos registros.",
+      "root": "mes- (mal) + nommer (nombrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dichotomy",
+      "pos": "noun",
+      "def": "a division into two options presented as the only ones",
+      "disc": "<b>Cortado en dos</b> (<i>dicha</i> + <i>temnein</i>). Su colocación más frecuente en el examen es <i>a false ___</i>: alguien plantea dos alternativas como si no hubiera terceras, y ahí está la trampa.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The debate rests on a false ___ between growth and safety, as though a country could not have both.",
+      "twin": "antithesis",
+      "whyNotTwin": "la dichotomy son <b>dos categorías</b> en que se reparte un campo; la antithesis es <b>el opuesto exacto</b> de algo concreto. Una divide, la otra contrapone.",
+      "root": "dicha (en dos) + temnein (cortar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "antithesis",
+      "pos": "noun",
+      "def": "the exact opposite of something",
+      "disc": "Rige <b>of</b> y señala <b>el reverso completo</b>: no algo distinto, sino lo contrario punto por punto. En retórica es además la figura que enfrenta dos ideas en la misma frase.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "The new building is the ___ of everything the founder ever wrote about architecture.",
+      "twin": "dichotomy",
+      "whyNotTwin": "la antithesis necesita <b>un término del que ser el reverso</b> y rige <i>of</i>; la dichotomy necesita <b>un campo que se parte en dos</b> y rige <i>between</i>. La preposición ya te lo dice.",
+      "root": "anti- (contra) + thesis (posición)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "hodgepodge",
+      "pos": "noun",
+      "def": "a confused mixture of unrelated things",
+      "disc": "Era un <b>guiso de sobras</b> (<i>hochepot</i>). Aquí no hay dos partes enfrentadas: hay <b>muchas y ninguna encaja</b>, y el desorden es del conjunto entero. Siempre despectivo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The final act is a ___: a farce, a sermon and a musical number, all in twenty minutes.",
+      "twin": "dichotomy",
+      "whyNotTwin": "el hodgepodge tiene <b>muchos elementos revueltos</b> y ningún orden; la dichotomy tiene <b>exactamente dos</b> y demasiado orden. Son los dos extremos del desajuste.",
+      "root": "hochepot (guiso de sobras revueltas)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

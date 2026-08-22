@@ -1,0 +1,95 @@
+{
+  "id": "g068",
+  "name": "desprecio y agravio",
+  "axis": {
+    "lo": "un desaire pequeño, casi descuidado",
+    "hi": "la deshonra pública que cae sobre alguien"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "slight",
+      "pos": "noun",
+      "def": "a small insult, often unintended",
+      "disc": "Es la ofensa <b>menor</b>: no invitar a alguien, olvidar su nombre, saludarlo con prisa. Muchas veces ni siquiera hubo intención — el daño está en que la víctima lo nota y lo guarda.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "She kept a private ledger of ___s: an invitation that never came, a name left off a list, a greeting returned too briskly.",
+      "twin": "affront",
+      "whyNotTwin": "el slight es <b>pequeño y a menudo involuntario</b>; el affront es <b>deliberado y de frente</b>. Un olvido puede ser slight; nunca un affront.",
+      "root": "sléttr (nórdico antiguo: liso, de poca cosa)",
+      "tier": 1,
+      "sense2": {
+        "def": "small in amount or degree",
+        "ej": "A ___ improvement, well within the margin of error.",
+        "note": "El sentido adjetivo es el común fuera del examen. Si califica una cantidad o un cambio, es este; si es algo que alguien 'te hizo', es el desaire."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "affront",
+      "pos": "noun",
+      "def": "a deliberate insult delivered openly",
+      "disc": "Lo definitorio es la <b>intención y la cara</b>: se comete a propósito, y para que se note. Se usa mucho en abstracto — <i>an ___ to the dignity of the court</i>, donde el ofendido es una institución.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "Seating the ambassador at the far end of the table was read across the region as a calculated ___.",
+      "twin": "slight",
+      "whyNotTwin": "el affront se comete <b>a propósito y en público</b>; el slight puede ser un descuido. Si la oración dice 'calculado' o 'deliberado', es affront.",
+      "root": "affrontare (dar en la frente, encarar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "umbrage",
+      "pos": "noun",
+      "def": "offense taken at someone else's words or acts",
+      "disc": "La única del grupo que está en el <b>ofendido</b>, no en la ofensa: es la molestia que uno <i>toma</i>. Vive en una fórmula fija — <i>take ___ at</i> — y suele insinuar que la reacción fue algo excesiva.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "He took ___ at the suggestion that the department needed supervision, and said so for twenty minutes.",
+      "twin": "affront",
+      "whyNotTwin": "el affront es lo que <b>se comete</b>; el umbrage es lo que <b>se siente</b> al recibirlo. Si el sujeto de la oración es quien se molestó, es umbrage.",
+      "root": "umbra (sombra: quedarse a la sombra de un desaire)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "contempt",
+      "pos": "noun",
+      "def": "the feeling that someone is worthless or beneath notice",
+      "disc": "Es el <b>sentimiento</b>, no el acto ni la reacción: la convicción de que algo o alguien no vale nada. Puede no salir nunca de dentro; cuando sale, envenena el trato entero.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "Twenty years of marriage had curdled into ___: she no longer argued with him, she simply waited for him to finish.",
+      "twin": "opprobrium",
+      "whyNotTwin": "el contempt vive <b>dentro de quien lo siente</b> y puede no expresarse nunca; el opprobrium es <b>público</b> y cae sobre alguien desde fuera.",
+      "root": "contemnere (tener en nada)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "opprobrium",
+      "pos": "noun",
+      "def": "public disgrace and harsh censure directed at someone",
+      "disc": "Es el desprecio <b>hecho público y colectivo</b>: la condena que cae encima y deja marca. No lo siente una persona — lo descarga una audiencia, y trae consecuencias visibles.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "He served his sentence and came back to a life of permanent ___: unemployable, uninvited, his name chiselled off the building.",
+      "twin": "contempt",
+      "whyNotTwin": "el opprobrium es un <b>hecho social</b> que se lleva encima como una condición; el contempt puede vivir entero dentro de una sola cabeza.",
+      "root": "opprobrium (reproche, deshonra), de probrum (infamia)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

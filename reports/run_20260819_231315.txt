@@ -1,0 +1,59 @@
+========================================================================
+CORRIDA COMPLETA  2026-08-19 23:13:15
+modo: parcial (backfill en curso)
+========================================================================
+
+--- etapa: extract  (exit 0) ---
+fuente        : Greg Mat Vocab List (37 Groups, 1,110 Words) - Word List.csv
+celdas leídas : 1113
+columnas grupo: 38 (Group 1..Group 38)
+espacios      : 24 celdas recortadas
+fixed         : all-ecompassing -> all-encompassing
+dedup         : cumbersome (descartada de Group 22, se queda en Group 11)
+escrito       : data/words.json
+1112 unique words
+
+--- etapa: build  (exit 0) ---
+grupos          : 39
+cobertura       : 257/1112 (23.1%)
+trampas de forma: 18
+cloze pendientes: 0
+escrito         : data/data.json, data/data.js, data/cloze_pending.json
+
+--- etapa: validate  (exit 1) ---
+
+[stderr]
+Traceback (most recent call last):
+  File "/Users/mny_1026/Downloads/GRE/scripts/validate.py", line 447, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/Users/mny_1026/Downloads/GRE/scripts/validate.py", line 356, in main
+    check_word_fields(word, gid, report)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/mny_1026/Downloads/GRE/scripts/validate.py", line 150, in check_word_fields
+    if not sense2.get("def") or not sense2.get("ej"):
+           ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+========================================================================
+QUÉ QUEDA
+========================================================================
+palabras sin grupo: 855
+primeras 40       : abound, amorphous, belie, cerebral, conspicuous, daunting, didactic, disseminate, feasible, flout, homogeneous, misnomer, negligent, obsequious, placate, proclivity, quixotic, wary, adulterate, advocate, aggrandize, alacrity, ambivalent, amenable, anachronistic, avaricious, banal, brazen, calumny, candid, caustic, construe, contrite, covet, decorum, deft, demur, derivative, desiccate, diatribe
+
+campos planificados pendientes: 108
+  - servil y reverente  (8 libres)
+  - astuto y habil  (5 libres)
+  - sin escrupulos  (9 libres)
+  - honesto y recto  (9 libres)
+  - vanidad y aplomo  (11 libres)
+  - docil y manejable  (10 libres)
+  - vileza moral  (7 libres)
+  - alegria y euforia  (8 libres)
+  - odio y hostilidad  (10 libres)
+  - repulsion  (5 libres)
+  - miedo y cautela  (9 libres)
+  - cansancio y desgana  (11 libres)
+  - asombro y desconcierto  (12 libres)
+  - pena y remordimiento  (9 libres)
+  - afecto y devocion  (15 libres)

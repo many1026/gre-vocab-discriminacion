@@ -1,0 +1,111 @@
+{
+  "id": "g071",
+  "name": "argumento falso",
+  "axis": {
+    "lo": "no hay con qué respaldarlo",
+    "hi": "está armado para engañar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "conjectural",
+      "pos": "adj",
+      "def": "based on guesswork rather than evidence",
+      "disc": "No acusa de falso: acusa de <b>no tener base</b>. Lo conjetural puede acabar siendo verdad — lo único que dice la palabra es que todavía nadie lo ha comprobado.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Everything before the fossil record is ___: we can reason about it, but there is nothing left to check it against.",
+      "twin": "dubious",
+      "whyNotTwin": "conjectural dice que <b>falta evidencia</b>, sin juzgar el contenido; dubious dice que la cosa <b>no inspira confianza</b>. Una conjetura puede ser excelente; algo dubious ya huele mal.",
+      "root": "coniectura (deducción, interpretación)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "dubious",
+      "pos": "adj",
+      "def": "of doubtful quality, truth or legitimacy",
+      "disc": "Marca <b>desconfianza</b>: la cosa no acaba de dar la talla, pero nadie ha probado nada. Su terreno son orígenes, méritos y negocios — <i>of ___ provenance</i>, <i>a ___ distinction</i>.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The painting arrived with a ___ provenance: three owners in twelve years, and paperwork for none of them.",
+      "twin": "spurious",
+      "whyNotTwin": "dubious <b>sospecha</b>; spurious <b>dictamina</b>. Un cuadro de origen dubious todavía puede resultar auténtico; uno spurious ya se sabe que no lo es.",
+      "root": "dubium (duda)",
+      "tier": 1,
+      "sense2": {
+        "def": "feeling doubt about something",
+        "ej": "She was ___ about the plan from the start, and said so twice.",
+        "note": "El segundo sentido va con 'about' y describe a la persona que duda, no a la cosa dudosa. Fíjate en quién ocupa el sujeto."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "illusory",
+      "pos": "adj",
+      "def": "seeming real but having no existence",
+      "disc": "No hay engaño ajeno ni error de lógica: <b>lo que se ve no está ahí</b>. Se dice de ventajas, seguridades y mejoras que se deshacen en cuanto se miran de cerca.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "The gains were ___: adjusted for inflation, the average wage had not moved in a decade.",
+      "twin": "specious",
+      "whyNotTwin": "lo illusory <b>parece existir y no existe</b>; lo specious <b>parece correcto y está mal armado</b>. Uno es un espejismo; el otro, un razonamiento tramposo.",
+      "root": "illudere (burlarse, jugar con)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fallacious",
+      "pos": "adj",
+      "def": "containing a mistake in reasoning",
+      "disc": "El defecto está en el <b>razonamiento</b>, no en los datos: las premisas pueden ser ciertas y la conclusión no seguirse igual. Es el término técnico de la lógica, y por eso el más frío del grupo.",
+      "tone": "neg",
+      "axisPos": 68,
+      "ej": "Nobody was taken in for long, but the inference is ___: that the two curves rise together tells you nothing about which one moves the other.",
+      "twin": "specious",
+      "whyNotTwin": "fallacious solo dice que el <b>razonamiento falla</b>, aunque el fallo salte a la vista. specious añade que <b>convenció</b>: tiene que resultar atractivo antes de que se vea el truco.",
+      "root": "fallere (engañar, fallar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "spurious",
+      "pos": "adj",
+      "def": "not genuine, though presented as authentic",
+      "disc": "Ataca el <b>origen</b>: la cosa no es lo que dice ser — una firma fabricada, una cita atribuida a quien nunca la dijo. En estadística, una correlación spurious está en los números y no en las causas.",
+      "tone": "neg",
+      "axisPos": 82,
+      "ej": "A ___ correlation: ice-cream sales and drownings climb together every July, and neither one causes the other.",
+      "twin": "dubious",
+      "whyNotTwin": "spurious es un <b>veredicto ya emitido</b>: no es auténtico. dubious es una <b>sospecha</b> que todavía no se ha resuelto.",
+      "root": "spurius (de origen ilegítimo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "specious",
+      "pos": "adj",
+      "def": "attractive on the surface but actually wrong",
+      "disc": "Su marca es la <b>trampa que funciona</b>: suena tan razonable que se acepta, y solo al mirar de cerca aparece el error. Si no convenció a nadie, no era specious — era simplemente falso.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "It was a ___ argument and it carried the meeting: everyone nodded, and only afterwards did somebody notice that the second premise assumed the conclusion.",
+      "twin": "fallacious",
+      "whyNotTwin": "specious <b>seduce y luego falla</b>; fallacious solo <b>falla</b>. Si la oración cuenta que el argumento convenció a alguien, es specious.",
+      "root": "speciosus (de buena apariencia), de species (aspecto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

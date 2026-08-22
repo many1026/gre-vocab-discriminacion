@@ -1,0 +1,131 @@
+{
+  "id": "g009",
+  "name": "que sobra o que no viene al caso",
+  "axis": {
+    "lo": "pertenece al asunto pero está en el borde",
+    "hi": "repite algo que ya estaba dicho"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "peripheral",
+      "pos": "adj",
+      "def": "at the edge, not central to the matter",
+      "disc": "Es cuestión de <b>posición</b>, no de valor: lo peripheral pertenece al asunto pero está en la orilla. Puede ser útil, solo no es lo principal.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "Her role in the merger was ___: she reviewed two contracts and never sat in a single negotiation.",
+      "twin": "tangential",
+      "whyNotTwin": "peripheral está <b>dentro</b> del asunto pero en el borde; tangential <b>se sale</b> por un costado. Uno es marginal, el otro es una desviación.",
+      "root": "peri- (alrededor) + pherein (llevar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "incidental",
+      "pos": "adj",
+      "def": "occurring as a minor side effect",
+      "disc": "Llegó <b>de paso</b>, sin que nadie lo buscara: es subproducto. Muy usada con gastos y con consecuencias — incidental expenses, incidental damage.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "The discovery was ___ to the study's real aim; they had been measuring something else entirely.",
+      "twin": "extraneous",
+      "whyNotTwin": "incidental <b>surge del asunto</b> como efecto lateral; extraneous <b>viene de fuera</b> y no pertenece. Uno es hijo del proceso, el otro es un intruso.",
+      "root": "incidere (caer sobre, sobrevenir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tangential",
+      "pos": "adj",
+      "def": "only slightly related, going off to the side",
+      "disc": "La imagen es la <b>tangente</b>: toca el tema en un punto y se va. Es la palabra para el comentario que desvía la conversación y no vuelve.",
+      "tone": "neu",
+      "axisPos": 40,
+      "ej": "He answered with a ___ anecdote about his uncle and never came back to the question.",
+      "twin": "peripheral",
+      "whyNotTwin": "peripheral sigue dentro del tema, en el margen; tangential lo <b>abandona</b> tras rozarlo. Por eso se divaga en tangentes y no en periferias.",
+      "root": "tangere (tocar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "extraneous",
+      "pos": "adj",
+      "def": "coming from outside and not belonging",
+      "disc": "Su marca es el <b>origen externo</b>: no salió del asunto, se metió. Muy usada en ciencia — extraneous variables son las que contaminan un experimento.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "Shielding the chamber removed the ___ vibration that had been coming from the road outside.",
+      "twin": "incidental",
+      "whyNotTwin": "incidental nace <b>dentro</b> del proceso como efecto lateral; extraneous entra <b>desde fuera</b>. La pregunta que los separa es de dónde vino.",
+      "root": "extra (fuera)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "gratuitous",
+      "pos": "adj",
+      "def": "uncalled for and without justification",
+      "disc": "El único con <b>juicio moral</b> del grupo: no solo sobraba, <i>no había derecho</i>. Sus colocaciones fijas son gratuitous violence y gratuitous insult.",
+      "tone": "neg",
+      "axisPos": 68,
+      "ej": "The violence was not merely unnecessary but ___: the camera lingered on it for its own sake.",
+      "twin": "superfluous",
+      "whyNotTwin": "superfluous solo dice que <b>no hacía falta</b>; gratuitous dice que <b>no había derecho</b>. Uno señala ineficiencia, el otro señala una ofensa.",
+      "root": "gratuitus (dado gratis, sin causa)",
+      "tier": 1,
+      "sense2": {
+        "def": "given free of charge",
+        "ej": "The hotel offered ___ breakfast to anyone staying three nights or more.",
+        "note": "Sentido literal y sin carga negativa: gratis. Raro en el GRE, pero explica la raíz — algo gratuito es algo que nadie pidió ni pagó."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "superfluous",
+      "pos": "adj",
+      "def": "more than is needed",
+      "disc": "Sobra por <b>cantidad</b>: ya había bastante sin eso. La raíz es un vaso que se desborda. No juzga la intención, solo el exceso.",
+      "tone": "neg",
+      "axisPos": 80,
+      "ej": "The report was complete at forty pages; the twelve appendices were ___.",
+      "twin": "redundant",
+      "whyNotTwin": "superfluous es <b>de más</b>; redundant es <b>repetido</b>. Algo superfluous puede aportar información nueva que simplemente no hacía falta; algo redundant no aporta nada.",
+      "root": "super + fluere (desbordarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "redundant",
+      "pos": "adj",
+      "def": "repeating what is already there",
+      "disc": "El extremo, y el único que exige <b>duplicación</b>: repite algo que ya estaba. Para que algo sea redundant tiene que existir el original que repite.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "\"Free gift\" is ___: a gift is free by definition.",
+      "twin": "superfluous",
+      "whyNotTwin": "superfluous sobra sin más; redundant sobra <b>porque ya se dijo</b>. Si no puedes señalar qué está repitiendo, no es redundant.",
+      "root": "re- + undare (desbordar de nuevo)",
+      "tier": 1,
+      "sense2": {
+        "def": "dismissed because the job no longer exists",
+        "ej": "Two hundred workers were made ___ when the plant closed.",
+        "note": "Sentido británico: despedido por supresión del puesto, no por mal desempeño. Aparece en textos de economía y la construcción fija es \"made redundant\"."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

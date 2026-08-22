@@ -1,0 +1,91 @@
+{
+  "id": "g044",
+  "name": "moldeable y flexible",
+  "axis": {
+    "lo": "cede y recupera su forma",
+    "hi": "se aviene a lo que le propongan"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "supple",
+      "pos": "adj",
+      "def": "bending easily without losing shape",
+      "disc": "El único que <b>vuelve a su forma</b>: es elasticidad, no docilidad. Su terreno es el cuerpo (una bailarina, el cuero) y, por extensión, una mente que se adapta sin dejar de ser la misma.",
+      "tone": "pos",
+      "axisPos": 15,
+      "ej": "Sixty years old and still ___ enough to put both palms flat on the floor without bending a knee.",
+      "twin": "pliant",
+      "whyNotTwin": "supple cede y <b>regresa</b>; pliant cede y <b>se queda doblado</b>. Uno es elástico, el otro sumiso.",
+      "root": "supplex (que se dobla, suplicante)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "plastic",
+      "pos": "adj",
+      "def": "capable of being formed and holding the new form",
+      "disc": "En el GRE <b>casi nunca es el material</b>: es el adjetivo técnico de lo que admite forma nueva y la conserva. <i>Plasticity</i> del cerebro es el uso estrella. Registro neutro, científico.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "Neuroscientists call the young brain ___ because it does not merely learn but physically reorganises itself around what it learns.",
+      "twin": "malleable",
+      "whyNotTwin": "plastic dice que <b>admite forma</b>, y suele ser término técnico sin juicio; malleable, aplicado a personas, insinúa que <b>alguien se la está dando</b>.",
+      "root": "plassein (modelar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "malleable",
+      "pos": "adj",
+      "def": "able to be shaped by an outside force",
+      "disc": "Viene del <b>martillo</b> sobre el metal, y esa imagen manda: hay <b>alguien que da la forma</b>. Con personas es un reproche velado — el sujeto acabó siendo lo que otro quiso.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "He picked assistants who were young and ___, and after a year each of them argued exactly as he did.",
+      "twin": "pliant",
+      "whyNotTwin": "malleable queda <b>transformado de forma duradera</b>; pliant solo <b>cede en el momento</b> y mañana cede a otro. Uno cambia de forma, el otro solo de dirección.",
+      "root": "malleus (martillo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pliant",
+      "pos": "adj",
+      "def": "readily yielding to the wishes of others",
+      "disc": "<b>Cede a quien tenga delante</b>, y no necesariamente queda cambiado por ello. Es el único claramente peyorativo del grupo: describe falta de resistencia, no flexibilidad útil.",
+      "tone": "neg",
+      "axisPos": 68,
+      "ej": "___ in every meeting and immovable afterwards, he agreed to whatever was asked and did none of it.",
+      "twin": "amenable",
+      "whyNotTwin": "pliant cede <b>porque no resiste</b>; amenable acepta <b>porque le convencieron</b>. Si la oración muestra que el acuerdo era hueco, es pliant.",
+      "root": "plicare (doblar, plegar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "amenable",
+      "pos": "adj",
+      "def": "willing to agree when given reason",
+      "disc": "El extremo, y el único <b>positivo con voluntad propia</b>: acepta porque le parece razonable, no porque no sepa negarse. Lleva casi siempre <i>to</i>.",
+      "tone": "pos",
+      "axisPos": 88,
+      "ej": "___ to the change once the reasons were explained, she asked two questions and signed.",
+      "twin": "pliant",
+      "whyNotTwin": "amenable implica <b>convencimiento</b>: hubo razones y las aceptó. pliant implica <b>rendición</b>: no hubo razones, solo presión.",
+      "root": "amener (conducir, traer hacia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

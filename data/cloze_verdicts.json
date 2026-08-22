@@ -1,0 +1,5505 @@
+{
+ "_schema": {
+  "verdict": "unique | ambiguous — 'ambiguous' hace fallar el build",
+  "alsoFits": "hermanos del grupo que también encajan; debe estar vacío si verdict es 'unique'",
+  "basis": "semantic | grammatical — 'grammatical' significa que la oración se resuelve solo por categoría gramatical, lo que la vuelve un ejercicio débil. No falla el build pero sale listado en el reporte.",
+  "nearMiss": "el hermano más cercano a encajar, para alimentar la cola de par contrastivo",
+  "_note": "Las claves que empiezan con guion bajo se ignoran al validar."
+ },
+ "0350e8d6085816d7": {
+  "w": "exacerbate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": null,
+  "note": "La coordinación 'and delay healing' obliga a lectura de empeoramiento: cualquier hermano produce una oración contradictoria."
+ },
+ "e39e67446f214e81": {
+  "w": "assuage",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "alleviate",
+  "note": "El objeto es un apetito individual. 'assuage hunger' es la colocación fija; alleviate toma sufrimiento o poblaciones, no el hambre de una persona hasta la cena."
+ },
+ "2929df597ff3aca6": {
+  "w": "alleviate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "assuage",
+  "note": "Dolor físico causado por morfina. assuage queda bloqueado porque su objeto es emoción o apetito, no dolor corporal tratado con fármaco."
+ },
+ "90d9bef32418b287": {
+  "w": "temper",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mitigate",
+  "note": "El marco 'X ___ed Y with Z' es exclusivo de temper. mitigate no admite complemento con 'with'."
+ },
+ "dad267ab2e1d54bc": {
+  "w": "mitigate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "attenuate",
+  "note": "Objeto = damage, y el daño es futuro y medible. Ningún hermano toma 'damage' de forma idiomática."
+ },
+ "a514fc42f08bd228": {
+  "w": "attenuate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mitigate",
+  "note": "Objeto = signal, magnitud física inofensiva. mitigate exige daño; aquí no lo hay."
+ },
+ "dfffdf62b46a4c56": {
+  "w": "ameliorate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mitigate",
+  "note": "La cláusula 'not merely to make them bearable' rechaza de forma explícita la lectura de mero alivio, que es la de alleviate y mitigate."
+ },
+ "1af967df535e3999": {
+  "w": "voluble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "loquacious",
+  "note": "'the words came without effort' marca fluidez, no cantidad. 'Normally halting' fija el contraste en el eje de facilidad, que es el de voluble."
+ },
+ "5c57941200c6ce57": {
+  "w": "loquacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "voluble",
+  "note": "'always relevant and never dull' bloquea garrulous, verbose y prolix. Lo que mide la oración es volumen de salida (respuesta de veinte minutos), no fluidez, lo que descarta voluble."
+ },
+ "45a699bd6afc229c": {
+  "w": "garrulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "loquacious",
+  "note": "'Calling him merely talkative misses it' rechaza explícitamente loquacious, que es justo 'talkative'. El contenido trivial (el clima, un seto) fija garrulous."
+ },
+ "95a70c21852d3428": {
+  "w": "verbose",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prolix",
+  "note": "'perfectly clear but' bloquea prolix, que por definición implica que el lector se pierde."
+ },
+ "c04b609803f11765": {
+  "w": "prolix",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "verbose",
+  "note": "'merely wordy is generous' rechaza verbose por su nombre llano. Técnica necesaria porque prolix incluye a verbose: sin rechazo explícito del término débil, el par no se separa."
+ },
+ "dad8fd1a6bca5b80": {
+  "w": "ominous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "auspicious",
+  "note": "'layoffs' fija la valencia negativa. Los seis hermanos son neutros o positivos, así que ninguno sobrevive al contexto."
+ },
+ "dee4cee5ee12f73a": {
+  "w": "fortuitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "serendipitous",
+  "note": "Un choque no es un hallazgo afortunado, así que serendipitous queda excluido. Este ítem es el que enseña la trampa: fortuitous no significa 'afortunado'."
+ },
+ "5ee14e708b0ef749": {
+  "w": "felicitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "auspicious",
+  "note": "'it caught exactly what the report had done' es elogio de acierto expresivo, no presagio. Bloquea ominous (que sí colocaría con 'phrase') y auspicious."
+ },
+ "df41f82843180d36": {
+  "w": "auspicious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "propitious",
+  "note": "'start to her first season' es un comienzo leído como signo, que es la colocación de auspicious. propitious pide condiciones para actuar, y aquí no hay acción pendiente."
+ },
+ "8d7ba28e586599b0": {
+  "w": "propitious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "auspicious",
+  "note": "La cláusula 'with rates low and inventory high' da condiciones y el infinitivo 'to buy' da la acción pendiente: las dos marcas de propitious. auspicious leería un signo, y aquí no hay ninguno."
+ },
+ "7f87a0c3e1b85608": {
+  "w": "providential",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fortuitous",
+  "note": "'more than lucky' rechaza fortuitous por su nombre llano. El contenido es oportunidad temporal y rescate, no hallazgo, así que serendipitous tampoco entra."
+ },
+ "8c8db3274271b066": {
+  "w": "serendipitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fortuitous",
+  "note": "'not just lucky' rechaza fortuitous. 'stumbled on a better one' es hallazgo, no oportunidad de tiempo, lo que descarta providential."
+ },
+ "c546fcfa1c1e370e": {
+  "w": "admonish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "reproach",
+  "note": "Advertencia previa a un jurado: todavía no hay falta cometida. Los otros siete exigen un hecho consumado que reprender."
+ },
+ "a6c7900c48578fe7": {
+  "w": "reproach",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "admonish",
+  "note": "'Without ever raising her voice' bloquea berate y lambaste; 'for forgetting' es falta ya ocurrida, lo que bloquea admonish."
+ },
+ "2ecdfe27d1c2d5df": {
+  "w": "chastise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "berate",
+  "note": "'Rather than shout' bloquea berate y lambaste; 'made them run the drill again' añade la sanción correctiva que admonish y reproach no tienen."
+ },
+ "b46880a04353367b": {
+  "w": "upbraid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "berate",
+  "note": "'In a level voice' bloquea el volumen. Lo que queda como marca es la enumeración de faltas, que es el perfil exacto de upbraid."
+ },
+ "fd9ed87ec9fbda44": {
+  "w": "berate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lambaste",
+  "note": "'at full volume for ten minutes' fija volumen y duración; la desproporción con 'a bowl of cold soup' completa el retrato."
+ },
+ "9c6c943a902ded36": {
+  "w": "castigate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "excoriate",
+  "note": "'the editorial' fija el canal público e impreso, que bloquea chastise, berate y upbraid; 'In measured language' bloquea excoriate y lambaste."
+ },
+ "8a47c7f36b28d50b": {
+  "w": "lambaste",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "excoriate",
+  "note": "'tabloids' y un titular llamándolo fraude fijan el registro tosco. castigate sería formal y excoriate culto."
+ },
+ "52bc281aed4f1eb4": {
+  "w": "excoriate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lambaste",
+  "note": "'Calling the review harsh understates it' rechaza el término débil por su nombre llano; 'line by line' fija el registro analítico frente al bruto de lambaste."
+ },
+ "10f6c246ff85c46c": {
+  "w": "belittle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "denigrate",
+  "note": "El objeto es el logro, no la persona, y el método es minimizarlo con un dato real. Ninguna acusación, lo que descarta impugn, defame y slander."
+ },
+ "0523f51bb04266e1": {
+  "w": "impugn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malign",
+  "note": "El objeto es 'the motives', una cualidad y no la persona. 'did not deny the facts' deja claro que se siembra duda, no se afirma nada falso."
+ },
+ "8ad7718b87cb8abd": {
+  "w": "tarnish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "denigrate",
+  "note": "El sujeto es inanimado, 'a single audit'. Todos los demás exigen alguien que hable; tarnish es el único que ocurre sin lengua de por medio."
+ },
+ "657f2e771598bba6": {
+  "w": "denigrate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malign",
+  "note": "'without ever naming a single specific failure' bloquea impugn (necesita una cualidad concreta) y defame y slander (necesitan afirmaciones falsas)."
+ },
+ "4444503e2b2b05c5": {
+  "w": "malign",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "denigrate",
+  "note": "'much-___ed' es colocación fija de malign, y el objeto es una reforma, no una persona. La segunda mitad confirma que la mala fama era injusta."
+ },
+ "ef0d587afabf733b": {
+  "w": "defame",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "slander",
+  "note": "'sued' y 'fabricated quotes' fijan el marco legal con falsedad. El canal es un blog, o sea escrito, lo que bloquea slander: eso sería libel."
+ },
+ "9ac5abc4474056a8": {
+  "w": "slander",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "defame",
+  "note": "'not libel but ___' rechaza el término escrito, y 'aloud' fija el canal oral. Sin ese contraste, defame cabría por inclusión."
+ },
+ "03d495514be2df6e": {
+  "w": "grovel",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "supplicate",
+  "note": "'before the board' con la idea de arrastrarse una semana entera. supplicate sería ritual ante un poder sagrado, no ante un consejo de administración."
+ },
+ "a935f4f60c75d733": {
+  "w": "supplicate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "entreat",
+  "note": "'at the shrine' y los peregrinos fijan el registro litúrgico. entreat pide a una persona presente, no ante un santuario."
+ },
+ "af004c3500319b6d": {
+  "w": "entreat",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "supplicate",
+  "note": "Ruego urgente y personal entre dos personas, sin halago ni ceremonia. Ni cajole ni wheedle caben porque no hay lisonja."
+ },
+ "e46d6f2aa0cb0d10": {
+  "w": "fawn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wheedle",
+  "note": "La colocación 'fawn over' y, sobre todo, que no se pide nada: solo se adula. wheedle y cajole exigen un objetivo concreto a la vista."
+ },
+ "a8b258b6b21efd5d": {
+  "w": "wheedle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cajole",
+  "note": "El marco '___ something out of someone' es exclusivo de wheedle; cajole toma 'into'. Y el objeto arrancado es concreto: veinte libras."
+ },
+ "272a988fe49847f3": {
+  "w": "cajole",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inveigle",
+  "note": "El marco '___ him into doing' con persuasión larga pero honesta. inveigle también toma 'into' pero exige engaño, y aquí no se oculta nada."
+ },
+ "83c9da7cb52de690": {
+  "w": "inveigle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cajole",
+  "note": "'Calling it persuasion is too kind' rechaza cajole por su nombre llano, y 'before anyone had read the second page' introduce el engaño que inveigle exige."
+ },
+ "f1cb7487f9ed1e06": {
+  "w": "beguile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inveigle",
+  "note": "El encanto actúa solo: nadie pide nada y la víctima deja de verificar por su cuenta. inveigle necesitaría arrastrarlos a una acción concreta con mentiras."
+ },
+ "f54938d1ac9e55e6": {
+  "w": "perennial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transient",
+  "note": "'at every town meeting for the last fifteen years' es recurrencia, lo contrario del grupo. Ninguna de las otras cinco admite quince años de repetición."
+ },
+ "f895138e5c9c2a16": {
+  "w": "momentary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transitory",
+  "note": "'of perhaps two seconds' y un apagón eléctrico fijan la escala y el registro llano. ephemeral y evanescent son literarias y no describen cortes de luz."
+ },
+ "c9c51ea2ad59d5ae": {
+  "w": "transitory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transient",
+  "note": "'unpleasant for a month, then gone for good' es demasiado largo para momentary y no hay desplazamiento, lo que descarta transient. Es pasajero por naturaleza."
+ },
+ "4917d5bddf5307af": {
+  "w": "transient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transitory",
+  "note": "'population' con cuadrillas que llegan y se van es desplazamiento físico. transitory no colocaría con población: describe estados, no gente de paso."
+ },
+ "314353fc3a2a7094": {
+  "w": "ephemeral",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transitory",
+  "note": "'Like the mayfly it is named for' apunta directo a la etimología (epi + hemera, la efímera). Ninguna otra palabra del grupo tiene esa raíz."
+ },
+ "f39997531d6c97e8": {
+  "w": "evanescent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ephemeral",
+  "note": "'did not end so much as thin away' rechaza de forma explícita la idea de terminar, que es la de ephemeral, y exige la de desvanecerse."
+ },
+ "ff102950d0243319": {
+  "w": "tractable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obstinate",
+  "note": "'far more ___ than the veterans, who questioned every order' pide docilidad. Los otros siete son grados de resistencia y producirían una oración contradictoria."
+ },
+ "f30f39e56629b601": {
+  "w": "willful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "headstrong",
+  "note": "'she wanted what she wanted' y el rechazo de todo sustituto fijan el capricho. headstrong exigiría un consejo desoído y una acción, y aquí no hay ninguna de las dos."
+ },
+ "3b8362b3aa1098db": {
+  "w": "headstrong",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "willful",
+  "note": "'Every adviser told him to wait' más una acción inmediata es el perfil exacto: desoír consejo y arrancar. willful se plantaría en un deseo en vez de lanzarse."
+ },
+ "f559b9ec2dd3e6ed": {
+  "w": "obstinate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obdurate",
+  "note": "'once he had said no, no argument ever reopened the question' es negativa a mover una postura. No hay súplica (obdurate) ni negociación (intransigent) ni tradición (hidebound)."
+ },
+ "279aa23bcc1e7573": {
+  "w": "hidebound",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obstinate",
+  "note": "'a curriculum written after 1970' fija el apego a lo antiguo, que es lo único que añade hidebound sobre obstinate."
+ },
+ "ab80c3ec1c78f8e1": {
+  "w": "intransigent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obdurate",
+  "note": "'Three rounds of talks' y 'would not move on a single clause' fijan el marco de negociación. obdurate necesitaría un ruego, no una cláusula."
+ },
+ "e9da134888756133": {
+  "w": "obdurate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "implacable",
+  "note": "'The mother pleaded with him for an hour' introduce la súplica, que es lo que obdurate resiste. implacable exigiría hostilidad permanente y aquí es una sola ocasión."
+ },
+ "8d3b458be6c90d1e": {
+  "w": "implacable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obdurate",
+  "note": "'Nothing the company offered ever mattered' más 'outlasted three chief executives' dan las dos marcas: nada la aplaca y dura para siempre."
+ },
+ "a008e3612f985305": {
+  "w": "peripheral",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tangential",
+  "note": "Ella sí participó en la fusión, solo que en el margen. tangential exigiría que se saliera del asunto, y revisar contratos está dentro."
+ },
+ "a71817eec48011c6": {
+  "w": "incidental",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "extraneous",
+  "note": "El hallazgo salió <b>del propio estudio</b> como efecto lateral. extraneous exigiría origen externo, y aquí el origen es el proceso mismo."
+ },
+ "9158215f83751fa1": {
+  "w": "tangential",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "peripheral",
+  "note": "'never came back to the question' es el abandono del tema tras rozarlo, que es lo que peripheral no hace: lo periférico se queda dentro."
+ },
+ "7f83d560d26a4626": {
+  "w": "extraneous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "incidental",
+  "note": "'coming from the road outside' nombra el origen externo de forma literal. incidental habría nacido dentro del experimento."
+ },
+ "5f027a80f505f4e9": {
+  "w": "gratuitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "superfluous",
+  "note": "'not merely unnecessary but ___' rechaza superfluous por su significado llano, y 'for its own sake' añade el reproche moral que solo gratuitous carga."
+ },
+ "5725fd58d4708f75": {
+  "w": "superfluous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "redundant",
+  "note": "Los apéndices sobran por cantidad, pero no repiten el informe: no hay duplicación, así que redundant queda excluido."
+ },
+ "efee12a32aad2ea4": {
+  "w": "redundant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "superfluous",
+  "note": "'a gift is free by definition' señala exactamente qué se está repitiendo. Sin un original identificable no habría redundancia."
+ },
+ "53050aaf731ada58": {
+  "w": "munificent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lavish",
+  "note": "'Nothing about the gift was showy or excessive' bloquea lavish, extravagant, prodigal, spendthrift y profligate de un golpe, y deja solo el elogio."
+ },
+ "068aa0b08686d346": {
+  "w": "lavish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "extravagant",
+  "note": "'No one thought the wedding wasteful' bloquea todo lo que lleva juicio negativo y deja la abundancia neutra. munificent no cabe porque no se está dando a otros."
+ },
+ "d152b009788c7bb3": {
+  "w": "extravagant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lavish",
+  "note": "El objeto es 'claims', no dinero. Es la única del grupo que califica afirmaciones; las otras cinco solo hablan de gasto."
+ },
+ "a5dafa6ea16c5776": {
+  "w": "prodigal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "profligate",
+  "note": "'The ___ son' es alusión bíblica fija y el regreso arruinado completa la historia. Ninguna otra del grupo tiene esa colocación."
+ },
+ "2e9b244d4ff7ede5": {
+  "w": "spendthrift",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prodigal",
+  "note": "'A lifelong ___' pide un rasgo permanente y uso sustantivo. prodigal describe un episodio con final, no un carácter de por vida."
+ },
+ "bc2aa7060a283031": {
+  "w": "profligate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prodigal",
+  "note": "'Calling the spending merely wasteful is generous' rechaza el término débil, y el sujeto son ministerios: profligate se aplica a gobiernos, prodigal a un hijo."
+ },
+ "7b1c587cf6e53e54": {
+  "w": "miserly",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "penurious",
+  "note": "'in the storybook sense' apunta al avaro de cuento, que es la imagen que solo miserly carga. Contar monedas y ahorrar carbón completa el retrato."
+ },
+ "83f0ddddb7e3c79d": {
+  "w": "penurious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "miserly",
+  "note": "'cut both ways' señala la polisemia de forma explícita, y la oración despliega los dos sentidos. Es la única palabra del grupo que significa a la vez tacaño y pobrísimo."
+ },
+ "ad1f2649052c3334": {
+  "w": "parsimonious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stinting",
+  "note": "'explained the same data with two fewer assumptions' es la parsimonia científica, un uso elogioso que ninguna otra del grupo admite."
+ },
+ "028c251cbbf0d3b0": {
+  "w": "stinting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "parsimonious",
+  "note": "El marco 'never ___ in her help' es la construcción negada donde vive esta palabra. Y el objeto es lo que se le da a otro, no lo que se ahorra."
+ },
+ "7b272ec743c4cea5": {
+  "w": "austere",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "spartan",
+  "note": "'in manner as well as in dress' obliga a que la palabra califique a una persona. spartan solo califica condiciones materiales."
+ },
+ "05ebecf4e19a3729": {
+  "w": "spartan",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "austere",
+  "note": "'all of it meant to harden them' añade el propósito disciplinario que austere no lleva: austere es despojo, spartan es despojo con intención."
+ },
+ "9348c91e2f609640": {
+  "w": "equivocate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prevaricate",
+  "note": "'an answer that could be read either way' es ambiguedad deliberada. prevaricate no habria contestado: habria cambiado de tema."
+ },
+ "6156f8a8e3459055": {
+  "w": "prevaricate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "equivocate",
+  "note": "'talking at length about the weather and the traffic' es el cambio de tema, marca exclusiva de prevaricate. equivocate si contesta, aunque en clave."
+ },
+ "883161a459d764b2": {
+  "w": "feign",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dissemble",
+  "note": "El objeto es 'surprise', un estado que se muestra. dissemble no admite ese complemento: oculta, no exhibe."
+ },
+ "23373636d7244287": {
+  "w": "counterfeit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fabricate",
+  "note": "'The plates' y 'the notes' fijan un objeto fisico con un original autentico. fabricate inventaria informacion, no copiaria billetes."
+ },
+ "76b295786979408c": {
+  "w": "fabricate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "counterfeit",
+  "note": "'the source he named had never spoken to him' confirma que no habia original: las citas se inventaron enteras."
+ },
+ "582dfd0802c9be87": {
+  "w": "dupe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "swindle",
+  "note": "'readers' y 'hoax' dejan el engano en la pura creencia, sin dinero de por medio. swindle exige un botin."
+ },
+ "04be4e1f85b57b3c": {
+  "w": "swindle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dupe",
+  "note": "'out of forty thousand pounds' nombra el botin. dupe se habria quedado en que la viuda creyera algo."
+ },
+ "bae7b5f103ee3d84": {
+  "w": "taciturn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "reticent",
+  "note": "'never once volunteered an opinion about anything' en treinta anos: silencio permanente y universal. reticent necesitaria un tema concreto."
+ },
+ "008ff9cdb25f6f77": {
+  "w": "reticent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "taciturn",
+  "note": "'Voluble about everything else' bloquea taciturn de forma explicita, y 'her first marriage' da el tema unico sobre el que calla."
+ },
+ "c22d9b7684d3f284": {
+  "w": "terse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "laconic",
+  "note": "'everyone understood that he was furious' anade el filo. laconic seria la misma brevedad sin carga emocional."
+ },
+ "5f5d329f178ab51e": {
+  "w": "laconic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "terse",
+  "note": "Los espartanos y la respuesta de una sola palabra apuntan a la etimologia (Laconia). Ninguna otra del grupo tiene ese origen."
+ },
+ "525b6718efee0c19": {
+  "w": "pithy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "laconic",
+  "note": "El sujeto es 'summary', una cosa dicha y no quien la dice, y la comparacion es elogiosa. laconic califica al hablante; terse seria un reproche."
+ },
+ "7250148e365502af": {
+  "w": "aloof",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "retiring",
+  "note": "'not shy but ___' rechaza de forma explicita retiring, diffident y timorous, y 'could have joined them' confirma que fue eleccion."
+ },
+ "a4d0b3290a84ac15": {
+  "w": "coy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "retiring",
+  "note": "'dropping hints for months without ever naming one' es reticencia calculada. Y el sujeto es una empresa: no hay temperamento, hay tactica."
+ },
+ "1c523b51e5999ac4": {
+  "w": "retiring",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "diffident",
+  "note": "'no doubts about his work' bloquea diffident; 'no appetite for attention' deja la simple preferencia. aloof implicaria desden por la gente."
+ },
+ "51423ecfff69e038": {
+  "w": "diffident",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "timorous",
+  "note": "'apologized before every question he asked' es duda sobre el propio valor, no miedo a algo externo."
+ },
+ "0483f36f97b7941c": {
+  "w": "timorous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "diffident",
+  "note": "'certain that whoever opened the door would be angry' pone la amenaza afuera. diffident dudaria de si misma, no del otro."
+ },
+ "9a4bb4b4026ea0cb": {
+  "w": "skittish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "timorous",
+  "note": "El sujeto son los mercados y la reaccion es un respingo ante un rumor. timorous no colocaria con mercados: describe un estado, no una reaccion."
+ },
+ "d90311dff34d58bb": {
+  "w": "entitled",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "presumptuous",
+  "note": "'a gift rather than something owed to him' nombra la expectativa de merecimiento, que es lo unico que entitled aporta sobre el resto."
+ },
+ "785408f33672c73d": {
+  "w": "pretentious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "entitled",
+  "note": "'in a way the kitchen could not back up' mide la distancia entre lo que aparenta y lo que es. El sujeto es un menu, no una persona."
+ },
+ "8ba21023c74d6cf9": {
+  "w": "presumptuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impudent",
+  "note": "'as though her opinion were his to give' nombra la linea cruzada: se tomo algo que no le correspondia. impudent seria descaro, no usurpacion."
+ },
+ "be855a747dd3f495": {
+  "w": "cavalier",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "presumptuous",
+  "note": "'attitude toward the safety checks' con consecuencias reales: despreocupacion ante algo serio, no descaro ni superioridad."
+ },
+ "37dca2bbde2e5f74": {
+  "w": "haughty",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "imperious",
+  "note": "'took in no one in particular' quita cualquier destinatario, y no hay orden. Queda solo el porte altivo."
+ },
+ "56e3ee032550d630": {
+  "w": "imperious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "haughty",
+  "note": "'sent three waiters across the room' es una orden ejecutada. haughty se habria quedado en la postura sin mandar a nadie."
+ },
+ "60ac670d8a6eb46e": {
+  "w": "impudent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "insolent",
+  "note": "'half the room struggled not to laugh' fija el tono de desfachatez con gracia. insolent habria ofendido, no divertido."
+ },
+ "8f39472acd6724a0": {
+  "w": "insolent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impudent",
+  "note": "'earned him a week of extra duty' muestra que ofendio de verdad, y la direccion es de recluta a sargento: hacia arriba."
+ },
+ "ffcba0b85c2ce7f8": {
+  "w": "craven",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "plucky",
+  "note": "'cost him every friend' marca el desprecio ajeno. Los otros cinco son grados de valor y producirian una oracion contradictoria."
+ },
+ "0f8954c08564c0df": {
+  "w": "plucky",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intrepid",
+  "note": "'underdog' fija la desventaja, que es lo que plucky exige. intrepid no necesita ser el pequeno, necesita peligro."
+ },
+ "b97fdb0cea36fd38": {
+  "w": "stalwart",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intrepid",
+  "note": "'A ___ of the party' es uso sustantivo con 'of', y 'stayed when everyone else resigned' es lealtad bajo presion social, no peligro."
+ },
+ "c6d4bc46edb4a423": {
+  "w": "intrepid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "audacious",
+  "note": "Ocho meses en el hielo sin poder pedir ayuda es peligro fisico puro. No hay norma rota (audacious) ni error de calculo (foolhardy)."
+ },
+ "c317671e55b5171c": {
+  "w": "audacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "foolhardy",
+  "note": "'and it worked' bloquea foolhardy, que por definicion sale mal. Queda la ruptura de convencion con calculo detras."
+ },
+ "269d89fbf1d32c61": {
+  "w": "foolhardy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "audacious",
+  "note": "'the rescue team said so in the report' confirma que salio mal y que el riesgo era evitable. audacious habria medido el riesgo."
+ },
+ "6bf0f949637ff0be": {
+  "w": "indolent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "industrious",
+  "note": "Pedir un taxi para cruzar una plaza es pereza de caracter. Los otros cinco describen grados de trabajo."
+ },
+ "1361135da6df8d3d": {
+  "w": "industrious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sedulous",
+  "note": "'simply put in more hours than anyone else' aisla el volumen. sedulous anadiria cuidado, indefatigable energia, dogged obstaculos."
+ },
+ "b74a987dd1e11d3f": {
+  "w": "dogged",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pertinacious",
+  "note": "Nueve anos y cuatro ordenes judiciales son obstaculos vencidos, y 'finally forced the archive open' pone el tono admirativo."
+ },
+ "d08cbb204ce0abed": {
+  "w": "pertinacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dogged",
+  "note": "'after she had asked him to stop' traslada la molestia a la victima. dogged habria sido admirable, esto es acoso comercial."
+ },
+ "23308c758f27e4cd": {
+  "w": "sedulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "industrious",
+  "note": "'collation' durante treinta anos es atencion sostenida al detalle, no volumen. Y el resultado es una edicion fiable, no mucha cantidad."
+ },
+ "e7b31eaf35d0e9a8": {
+  "w": "indefatigable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sedulous",
+  "note": "'At eighty' con dos comites y viajes semanales mide resistencia fisica, no metodo ni cuidado."
+ },
+ "b1e2de7c4391630c": {
+  "w": "cursory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "painstaking",
+  "note": "'would have caught the error' con una sola mirada rapida: el minimo esfuerzo habria bastado y no se dio ni eso."
+ },
+ "497ab83d2d12d486": {
+  "w": "painstaking",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "meticulous",
+  "note": "'rather than clever' opone esfuerzo bruto a habilidad, que es el eje de painstaking. meticulous mediria precision."
+ },
+ "c43d16617a50a69f": {
+  "w": "meticulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scrupulous",
+  "note": "La enumeracion completa (hora, temperatura, observador, cada ensayo) es exhaustividad en el detalle, sin componente moral ni formal."
+ },
+ "d27e8e53411ed66b": {
+  "w": "scrupulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "meticulous",
+  "note": "'even the ideas he had arrived at independently' es ir mas alla de la obligacion: conciencia moral, no precision."
+ },
+ "a113ec42a01823cd": {
+  "w": "punctilious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "meticulous",
+  "note": "'protocol' y el orden de asientos acordado son forma pura. No hay dato que verificar ni obligacion moral en juego."
+ },
+ "0ee864b6aa85253f": {
+  "w": "fastidious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "finicky",
+  "note": "'would not eat from a plate someone else had touched' es asco por contaminacion, que es el matiz de fastidium. finicky seria manias con la comida, no con el plato ajeno."
+ },
+ "e4d8019d6b7fa71a": {
+  "w": "finicky",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fastidious",
+  "note": "El sujeto es un motor. fastidious no califica maquinas: exige un sujeto con criterio propio."
+ },
+ "6b88e172ada2fbe9": {
+  "w": "lucid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "opaque",
+  "note": "'understood the whole proposal in a single reading' es el unico resultado positivo posible. Los otros cinco son grados de dificultad."
+ },
+ "a9138b305327cf22": {
+  "w": "opaque",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impenetrable",
+  "note": "'no one can tell who is actually liable' es no ver nada dentro, y 'deliberately' no dice si la culpa es del contenido o de la redaccion, que es justo lo que opaque deja abierto."
+ },
+ "4bdfadfc84992ced": {
+  "w": "convoluted",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "byzantine",
+  "note": "'who had betrayed whom' tras tres actos es enredo narrativo. byzantine exigiria un sistema con reglas ocultas, no una trama."
+ },
+ "3eb8fb4867029073": {
+  "w": "byzantine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "convoluted",
+  "note": "'four of which exist only to authorize the other seven' describe una complejidad que se sostiene a si misma: diseno, no torpeza."
+ },
+ "c55d18d1969078e7": {
+  "w": "abstruse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "opaque",
+  "note": "'rather than badly written' rechaza de forma explicita la lectura de opaque y atribuye la dificultad al contenido."
+ },
+ "4ccb7d1a24b350a1": {
+  "w": "impenetrable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abstruse",
+  "note": "'After three readings' con esfuerzo real y cero resultado: no cedio nada. abstruse habria dado algo tras ese esfuerzo."
+ },
+ "4592065d33f51e1d": {
+  "w": "obscure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "esoteric",
+  "note": "'sold ninety copies in 1847' es falta de publico, no circulo cerrado. esoteric exigiria iniciados que si lo entienden."
+ },
+ "0a3b5b1261bf19ad": {
+  "w": "esoteric",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "arcane",
+  "note": "'the eleven people who had worked there in 1998' nombra el circulo cerrado y vivo. arcane exigiria antiguedad, no una oficina de hace veinticinco anos."
+ },
+ "5f7f89ed909ccbc0": {
+  "w": "arcane",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "esoteric",
+  "note": "'survived untouched from the seventeenth century' fija la antiguedad, que es lo unico que arcane anade sobre esoteric."
+ },
+ "05219b5a3c1f8d7a": {
+  "w": "recondite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "esoteric",
+  "note": "'a decade of training in three dead languages' es acceso por preparacion, no por pertenencia. Esa es la linea que separa recondite de esoteric."
+ },
+ "e17fc30122feceec": {
+  "w": "enigmatic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inscrutable",
+  "note": "'kept the reporters guessing' significa que si daba material para interpretar. inscrutable no habria dejado nada que adivinar."
+ },
+ "4ccb7bf3d4ba2ce6": {
+  "w": "inscrutable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "enigmatic",
+  "note": "'nobody could tell whether he had expected it' es el fracaso total de la lectura. enigmatic habria dejado alguna pista."
+ },
+ "18ac4e8b619f6678": {
+  "w": "cosmopolitan",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "provincial",
+  "note": "Cuatro lenguas en el mismo mercado y ninguna mayoria: es apertura, no estrechez. Las otras cinco producirian una contradiccion."
+ },
+ "6ee35775fe0caa56": {
+  "w": "myopic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "provincial",
+  "note": "'saved eight million that year and cost the company its next decade' opone corto y largo plazo. Es ceguera temporal, no geografica ni de grupo."
+ },
+ "703ba9b92f690482": {
+  "w": "provincial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "parochial",
+  "note": "'never once eaten a meal outside the county where he was born' es estrechez por lugar. parochial exigiria un interes de grupo que defender."
+ },
+ "773410dc57108c55": {
+  "w": "parochial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "provincial",
+  "note": "'each faculty argued for its own building' es interes de camarilla, no ignorancia del exterior: cada facultad sabe que existen las demas."
+ },
+ "41ba8488fa2e56f3": {
+  "w": "insular",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "parochial",
+  "note": "'not turned away, simply never expected' bloquea xenophobic y describe aislamiento sin hostilidad ni defensa de intereses."
+ },
+ "50059b104e5cc44c": {
+  "w": "xenophobic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "insular",
+  "note": "'blaming immigrants' es hostilidad activa dirigida a gente de fuera. insular seria distancia sin ataque."
+ },
+ "bebfc5dbc2decab3": {
+  "w": "querulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "petulant",
+  "note": "'a ___ stream of complaint' es queja continua y lastimera. petulant seria un arranque, no un goteo."
+ },
+ "af6e736157760ace": {
+  "w": "petulant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "querulous",
+  "note": "'sulked for the rest of the morning' por un cambio de quince minutos: berrinche infantil desproporcionado y puntual."
+ },
+ "a23fe438866ddabf": {
+  "w": "fractious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obstreperous",
+  "note": "El sujeto es una coalicion y el resultado son tres dimisiones: fragmentacion en bandos, no escandalo."
+ },
+ "e95f3fa7e810d4c6": {
+  "w": "irascible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "petulant",
+  "note": "'from calm to shouting in the time it took to read an email' es mecha corta, o sea temperamento. petulant seria un episodio."
+ },
+ "0830b443a2c29a29": {
+  "w": "obstreperous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fractious",
+  "note": "'escorted out after refusing to sit down' es alboroto ruidoso. No hay bandos que se separen, que es lo que pediria fractious."
+ },
+ "4acd8488889932d0": {
+  "w": "truculent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obstreperous",
+  "note": "'as though the interview itself were an insult he meant to avenge' anade blanco y amenaza. obstreperous alborota sin destinatario."
+ },
+ "994d9724f3ae1c55": {
+  "w": "contentious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "captious",
+  "note": "El sujeto es 'land reform', un asunto y no una persona. captious solo califica personas, asi que queda excluida de entrada."
+ },
+ "f392a2927b1c120c": {
+  "w": "captious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contentious",
+  "note": "'two paragraphs on a misplaced comma and none on the argument' es mezquindad en el detalle, no discusion del fondo."
+ },
+ "1cff12040970e6c6": {
+  "w": "abrasive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contentious",
+  "note": "'Nobody questioned her judgment' bloquea todo lo que discrepa del contenido y deja solo el problema de forma."
+ },
+ "336989f6a0c3c1dd": {
+  "w": "factious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contentious",
+  "note": "'split into three separate blocs' es el efecto exacto de factious: no discusion, sino division en facciones."
+ },
+ "74bd7f1974655d1d": {
+  "w": "pugnacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "belligerent",
+  "note": "'seemed happiest when outnumbered' y 'enjoyed every minute' marcan disfrute del combate verbal. belligerent no disfruta, amenaza."
+ },
+ "949b142470424458": {
+  "w": "belligerent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pugnacious",
+  "note": "'the barman called security' indica peligro fisico inminente. pugnacious se habria quedado en lo verbal."
+ },
+ "c5623a6b9a4857ea": {
+  "w": "tout",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "champion",
+  "note": "'which turned out to be a strip of gravel' revela que el elogio era interesado y falso. champion defenderia por conviccion, no vendiendo un resort."
+ },
+ "be945cac9550ac7a": {
+  "w": "champion",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "acclaim",
+  "note": "'while every newspaper opposed it' aporta la oposicion que champion exige. acclaim necesitaria aplauso, no seis anos de pelea en solitario."
+ },
+ "d3ea8fa5d205d390": {
+  "w": "acclaim",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "extol",
+  "note": "La pasiva 'was ___ed at three festivals' es coral y publica. extol pediria una voz singular con argumentos."
+ },
+ "eb20402b86eded06": {
+  "w": "lionize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "acclaim",
+  "note": "'for a single season' y 'nobody returned his letters' describen fama de la persona, no premio a una obra: moda pasajera."
+ },
+ "eb83bc6a3fc21b50": {
+  "w": "venerate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lionize",
+  "note": "'quietly for forty years' es lo contrario de la temporada ruidosa de lionize: respeto callado y sostenido."
+ },
+ "fc49951d477d46f1": {
+  "w": "canonize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "venerate",
+  "note": "'no undergraduate could admit to finding it dull' es intocabilidad institucional, no sentimiento personal."
+ },
+ "2e827f92fa136208": {
+  "w": "deify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "venerate",
+  "note": "'every failure turns out to be somebody else's fault' marca el exceso, y 'stops just short of' confirma que el autor lo reprocha."
+ },
+ "7930e10c90125bf7": {
+  "w": "relegate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "supplant",
+  "note": "'an office with no window and a title' significa que sigue dentro, solo que abajo. Nadie ocupo su lugar, que es lo que pediria supplant."
+ },
+ "74754c9231fd8bbe": {
+  "w": "supplant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "supersede",
+  "note": "'the deputy had ___ed her mentor' es persona sustituyendo a persona en un ano: hay maniobra. supersede no acusa a nadie."
+ },
+ "4d7882a95ef8bd08": {
+  "w": "supersede",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "supplant",
+  "note": "El sujeto y el objeto son normas, y 'may now be discarded' marca obsolescencia sin culpa. supplant exigiria personas."
+ },
+ "096ee586c872c3bf": {
+  "w": "oust",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "depose",
+  "note": "'The board ___ed him in a Tuesday-morning vote' es un puesto corporativo. depose exigiria poder soberano, no un consejo de administracion."
+ },
+ "bfc311b30a6be9ba": {
+  "w": "depose",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "oust",
+  "note": "'The general' tras 'eleven years in the palace' es poder soberano derrocado por sus propios oficiales."
+ },
+ "9371b471f19be7ba": {
+  "w": "banish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "depose",
+  "note": "'from the city under pain of death' actua sobre el territorio, no sobre el cargo. Un depuesto puede quedarse en el pais."
+ },
+ "c7e0e476b9088fb0": {
+  "w": "undercut",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "undermine",
+  "note": "'her own diary' contra 'the testimony she had given that same morning' es un golpe unico y visible, no erosion lenta."
+ },
+ "f1592684286feeb9": {
+  "w": "undermine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "undercut",
+  "note": "'Two years of small public disagreements' da el plazo largo y la acumulacion invisible que undercut no tiene."
+ },
+ "238ec1e43842fef7": {
+  "w": "subvert",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "undermine",
+  "note": "El objeto es un genero literario y el metodo es usar sus propias reglas al reves. undermine erosionaria, no invertiria."
+ },
+ "e77de0401351463a": {
+  "w": "vitiate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nullify",
+  "note": "'A single undisclosed conflict of interest' es un defecto interno que invalida el concurso entero: viciado, no compensado."
+ },
+ "2da7945fddf38ff7": {
+  "w": "quash",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nullify",
+  "note": "'The appeals court' es la autoridad que actua de un golpe. nullify puede ocurrir sin que nadie lo ejerza."
+ },
+ "7e225ea34f9bd2fd": {
+  "w": "abrogate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quash",
+  "note": "El objeto es un tratado, o sea una norma general vigente. quash operaria sobre un caso concreto, no sobre el texto que lo regula."
+ },
+ "5f1c172765a24ebe": {
+  "w": "speculate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contend",
+  "note": "'With the logbook missing' y 'can only ___' declaran la ausencia de base. Todas las demas afirman o prueban algo."
+ },
+ "9ed59f1c8470d08f": {
+  "w": "contend",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aver",
+  "note": "Tres historiadores contra otros tres: hay tesis rival explicita, que es lo que contend exige y aver no."
+ },
+ "904bf20d41e3424f": {
+  "w": "aver",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contend",
+  "note": "'under oath' fija el registro juridico y solemne. No hay rival en la oracion, asi que contend pierde su marca."
+ },
+ "c282685107559021": {
+  "w": "ascertain",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "substantiate",
+  "note": "'It took three weeks to ___ how many' es averiguar un dato que se desconocia, no respaldar una afirmacion ya hecha."
+ },
+ "1b8de29a86bd1cea": {
+  "w": "substantiate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "corroborate",
+  "note": "'never once ___d it with a single document' es la prueba que debia aportar quien acuso. corroborate exigiria una segunda fuente."
+ },
+ "93a7bb9a334162d8": {
+  "w": "corroborate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "substantiate",
+  "note": "'A second witness, who had no connection whatever to the family' es literalmente la fuente independiente que define corroborate."
+ },
+ "389306894d868e48": {
+  "w": "nonchalant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "phlegmatic",
+  "note": "'though his hands were shaking' delata que la calma es fachada. phlegmatic y los demas describen calma real, no fingida."
+ },
+ "97f651b89779e729": {
+  "w": "blithe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nonchalant",
+  "note": "'assumption that somebody else would file the paperwork' con consecuencias es despreocupacion irresponsable, no pose ni temperamento."
+ },
+ "d85e564c91379038": {
+  "w": "sanguine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "phlegmatic",
+  "note": "'about the drug's chances' mira al futuro y espera algo bueno. Los demas describen no reaccionar al presente, no confiar en lo que viene."
+ },
+ "5d71cf639a61a5c5": {
+  "w": "phlegmatic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stolid",
+  "note": "'received the promotion and the lawsuit with the same expression' es indiferencia ante lo bueno y lo malo por igual: temperamento, no disimulo."
+ },
+ "e60624facbcbcf53": {
+  "w": "stolid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "phlegmatic",
+  "note": "'the jury took it for indifference rather than shock' implica que si habia conmocion y no se vio. Eso es opacidad expresiva, no ausencia de emocion."
+ },
+ "cd6aeb54ca1bd379": {
+  "w": "stoic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stolid",
+  "note": "'eleven months of treatment' y 'never once mentioned the pain' exigen sufrimiento real callado a proposito."
+ },
+ "321039b820d1fa2e": {
+  "w": "imperturbable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stoic",
+  "note": "La acumulacion de cuatro desastres seguidos sin efecto es la prueba de que nada lo perturba. stoic exigiria dolor propio, no incidentes de trabajo."
+ },
+ "959fcd735ab2c12c": {
+  "w": "pensive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wistful",
+  "note": "'did not speak again until the coffee had gone cold' describe absorcion, no perdida. wistful exigiria algo concreto que se echa de menos."
+ },
+ "c3e8ab7012315b63": {
+  "w": "wistful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pensive",
+  "note": "'as though it were still standing and still his' nombra lo perdido y lo irrecuperable, que es lo que wistful anade sobre pensive."
+ },
+ "9573df5321b08818": {
+  "w": "plaintive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lugubrious",
+  "note": "El sujeto es una nota de violin: la palabra califica un sonido, no a una persona ni a un estado de animo."
+ },
+ "c83aea2581f6dc4b": {
+  "w": "glum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "morose",
+  "note": "'Three days of rain' es causa banal y pasajera. morose exigiria caracter permanente, crestfallen un golpe concreto."
+ },
+ "136ac47f67e39880": {
+  "w": "crestfallen",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "glum",
+  "note": "'after the rejection letter' nombra el golpe reciente y concreto que crestfallen exige. glum no necesita causa identificable."
+ },
+ "2ae245ee4ac10abb": {
+  "w": "morose",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "glum",
+  "note": "'by temperament rather than by circumstance' descarta de forma explicita la causa externa y fija la disposicion permanente."
+ },
+ "d6f34c7812ede4cf": {
+  "w": "lugubrious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "plaintive",
+  "note": "'had to study the floor to keep from laughing' revela que la pena resulto comica de puro exagerada."
+ },
+ "b0c9b55ade5d06fc": {
+  "w": "unadorned",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ornate",
+  "note": "'without a single adjective' es ausencia total de adorno, lo contrario del resto del grupo."
+ },
+ "254bb08432b0ca64": {
+  "w": "modish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flamboyant",
+  "note": "'dated it precisely to the spring of 2014' es la caducidad de la moda, que es lo unico que modish mide."
+ },
+ "ac7e286812bce7bd": {
+  "w": "ornate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "baroque",
+  "note": "'four years and eleven craftsmen' para un techo mide cantidad de adorno en una superficie, no complejidad estructural."
+ },
+ "948c4c601188ec6f": {
+  "w": "baroque",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ornate",
+  "note": "'ownership structure' a traves de seis paises y dos fideicomisos es complejidad de estructura, no decoracion de superficie."
+ },
+ "a9c7d761091c93ef": {
+  "w": "florid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ornate",
+  "note": "El objeto es 'prose' y el exceso son metaforas. ornate no califica lenguaje, califica objetos."
+ },
+ "94c4df3323a24c4e": {
+  "w": "flamboyant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ostentatious",
+  "note": "'wore yellow to funerals' es atrevimiento personal sin exhibicion de riqueza ni publico al que impresionar."
+ },
+ "c47241d7c3f72654": {
+  "w": "ostentatious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flamboyant",
+  "note": "'designed to be visible from the motorway' nombra al publico y el gasto desproporcionado: existe para ser visto."
+ },
+ "0ca2edab7a305a57": {
+  "w": "immutable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "erratic",
+  "note": "'nothing anyone does will alter it' es invariabilidad absoluta, lo contrario de las otras seis."
+ },
+ "727d31d319800587": {
+  "w": "whimsical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "capricious",
+  "note": "Una puerta a ninguna parte y una escalera que acaba en un seto divierten y no perjudican a nadie. capricious necesitaria una victima."
+ },
+ "00d0dba3d430f6ab": {
+  "w": "capricious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "whimsical",
+  "note": "'promoted people on Monday for exactly the reason she demoted them on Friday' es arbitrariedad con victimas y con poder de por medio."
+ },
+ "1450055089c126d5": {
+  "w": "fickle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "capricious",
+  "note": "'had chanted his name in June' y 'calling for his resignation by August' es cambio de lealtad, no de decisiones arbitrarias."
+ },
+ "d31c65e94efb3052": {
+  "w": "mercurial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "volatile",
+  "note": "'charming and furious inside a single meeting' es oscilacion de humor en las dos direcciones, no amenaza de estallido."
+ },
+ "e6611a4baf8b98d5": {
+  "w": "erratic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mercurial",
+  "note": "El sujeto es 'attendance': un patron de comportamiento sin regularidad. mercurial solo califica estados de animo de personas."
+ },
+ "48b48c4381cbcb71": {
+  "w": "volatile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mercurial",
+  "note": "'both embassies advised against any travel' introduce riesgo y advertencia: puede estallar, no solo oscilar."
+ },
+ "19109e348de70a45": {
+  "w": "mundane",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "humdrum",
+  "note": "'reassuringly ___' hace explicito que lo cotidiano aqui es un alivio. humdrum y las demas son reproches."
+ },
+ "4eb4f3af80ad8a81": {
+  "w": "humdrum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mundane",
+  "note": "'mornings that started and ended exactly the same way' durante una decada marca la repeticion, que es lo unico que humdrum anade."
+ },
+ "de942d636970741b": {
+  "w": "prosaic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pedestrian",
+  "note": "'more ___ than the rumours suggested' opone la verdad aburrida a la version imaginativa: falta de vuelo, no falta de merito."
+ },
+ "a5955c14b90aab7b": {
+  "w": "pedestrian",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prosaic",
+  "note": "'technically flawless and entirely ___' separa correccion de merito, que es exactamente el reproche de pedestrian."
+ },
+ "7a7d547fa3a76c77": {
+  "w": "insipid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vapid",
+  "note": "El sujeto es una sopa, y la metafora del sabor se extiende luego al discurso. vapid no califica comida."
+ },
+ "9708796e5b46eb81": {
+  "w": "vapid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vacuous",
+  "note": "'small talk' sin nada memorable es falta de chispa, no ausencia total de contenido: si se dijeron cosas."
+ },
+ "2d6c3ca7781ef096": {
+  "w": "vacuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vapid",
+  "note": "'forty pages that committed the party to nothing at all' senala la ausencia de contenido, no la falta de gracia."
+ },
+ "2220a7a457602e64": {
+  "w": "detrimental",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deleterious",
+  "note": "'to the project' con registro de comite mide desventaja practica, no dano a un organismo."
+ },
+ "dd23e34cbe689427": {
+  "w": "deleterious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "detrimental",
+  "note": "'effects on the liver' que ningun test revela es dano acumulado a la salud, no perjuicio a un interes."
+ },
+ "c00c35603b9ca946": {
+  "w": "noxious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deleterious",
+  "note": "'fumes' que cruzan un patio son toxicidad fisica e inmediata, perceptible por el aire."
+ },
+ "bf97dfa85a93a53a": {
+  "w": "inimical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "detrimental",
+  "note": "'to the kind of research that takes ten years' bloquea que algo llegue a existir, no dana algo existente."
+ },
+ "64413dbb344577b3": {
+  "w": "insidious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pernicious",
+  "note": "'by the time the first symptom appears, half the tissue is already gone' es la definicion del sigilo: avanza sin verse."
+ },
+ "ebc790b9059ba0d7": {
+  "w": "pernicious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "insidious",
+  "note": "'the idea, now general, that nothing could be done' mide alcance y profundidad social, no ocultamiento."
+ },
+ "b16fe1630ce1f0b6": {
+  "w": "virulent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pernicious",
+  "note": "'the ward was sealed within thirty-six hours' fija la velocidad y la violencia del dano."
+ },
+ "42a1515c1b262b76": {
+  "w": "salubrious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "salutary",
+  "note": "'the coast for its more ___ air' es beneficio fisico del entorno, sin intencion ni desagrado de por medio."
+ },
+ "971013c3e0d0e500": {
+  "w": "salutary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "salubrious",
+  "note": "'nobody has offered those terms again' es el buen resultado de algo desagradable: una quiebra. salubrious no puede describir una quiebra."
+ },
+ "e5a4bd09c48c2f56": {
+  "w": "benign",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "benevolent",
+  "note": "El sujeto es un tumor: ausencia de dano. benevolent exigiria voluntad, y un tumor no tiene intenciones."
+ },
+ "425c4176504d6d3a": {
+  "w": "benevolent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "beneficent",
+  "note": "'had still not repaired a single roof' bloquea beneficent, que exige hechos, y deja solo la buena voluntad declarada."
+ },
+ "b88b8660012ac72c": {
+  "w": "magnanimous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "benevolent",
+  "note": "'in victory' y elogiar al rival recien vencido dan la posicion de ventaja desde la que se cede, que magnanimous exige."
+ },
+ "e32ca49e16c0fa2c": {
+  "w": "beneficent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "benevolent",
+  "note": "'a library, two clinics and a scholarship that still runs' son obras enumerables. benevolent se habria quedado en la intencion."
+ },
+ "820197943355aa51": {
+  "w": "august",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "magisterial",
+  "note": "'three centuries old' y 'never advertised for members' es prestigio heredado, no dominio de un tema."
+ },
+ "7dbbcefec4c139b6": {
+  "w": "magisterial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "august",
+  "note": "'has not been superseded in forty years' elogia una obra por su dominio del asunto, no por su antiguedad."
+ },
+ "0e771990ebaa6385": {
+  "w": "sanctimonious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bombastic",
+  "note": "'on public honesty' justo antes de que estalle el escandalo de gastos fija la superioridad moral y su hipocresia."
+ },
+ "c0bf207ee496999f": {
+  "w": "histrionic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bombastic",
+  "note": "'half the platform staring and the other half filming' es espectaculo emocional visible, no lenguaje hinchado."
+ },
+ "ea7557db3c170a48": {
+  "w": "turgid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bombastic",
+  "note": "'Three pages of ___ preamble stand between the reader and the first finding' mide peso y estorbo, no altisonancia."
+ },
+ "8e4442cc2de9d763": {
+  "w": "bombastic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "turgid",
+  "note": "'a call to destiny, and not one word about the budget' es la desproporcion exacta entre grandilocuencia y contenido."
+ },
+ "4bc4522c60aca9b9": {
+  "w": "chivalrous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "urbane",
+  "note": ""
+ },
+ "2ccdbd1ca57eea57": {
+  "w": "urbane",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cordial",
+  "note": ""
+ },
+ "284db0f340cff7f6": {
+  "w": "cordial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "amicable",
+  "note": ""
+ },
+ "ba93e19fae2f1695": {
+  "w": "amicable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cordial",
+  "note": ""
+ },
+ "a2ca741eba839fb7": {
+  "w": "congenial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cordial",
+  "note": ""
+ },
+ "e6644e9970b9c174": {
+  "w": "convivial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gregarious",
+  "note": ""
+ },
+ "9dd5e043abee32ff": {
+  "w": "gregarious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "convivial",
+  "note": ""
+ },
+ "1c4075ed8a58530b": {
+  "w": "gauche",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "boorish",
+  "note": ""
+ },
+ "c4972237bc0aba62": {
+  "w": "boorish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "churlish",
+  "note": ""
+ },
+ "e7f9d3de560c5107": {
+  "w": "churlish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "boorish",
+  "note": ""
+ },
+ "ac0fbc6b710b132e": {
+  "w": "callous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "churlish",
+  "note": ""
+ },
+ "79574efdf26a484f": {
+  "w": "misanthropic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "callous",
+  "note": ""
+ },
+ "dca7f7118ecb03bd": {
+  "w": "artless",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ingenuous",
+  "note": "la oración fija el objeto en la PROSA, que ingenuous no puede modificar"
+ },
+ "cceff6984b7752c4": {
+  "w": "ingenuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "artless",
+  "note": "cláusula de rechazo explícita — par de inclusión"
+ },
+ "55e505ae460a0074": {
+  "w": "naive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gullible",
+  "note": "'not deceived by anyone' excluye gullible"
+ },
+ "0e21519299e12498": {
+  "w": "gullible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "naive",
+  "note": ""
+ },
+ "8a58dbd2904d95dd": {
+  "w": "callow",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "naive",
+  "note": ""
+ },
+ "5f63382978bf1f32": {
+  "w": "puerile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "callow",
+  "note": ""
+ },
+ "ac0eefb4e54a811f": {
+  "w": "canny",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "shrewd",
+  "note": "la nota de ahorro ('with every pound') es exclusiva de canny"
+ },
+ "c691378a7b45e86a": {
+  "w": "shrewd",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "canny",
+  "note": ""
+ },
+ "fd35dcefd22badb6": {
+  "w": "wily",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cunning",
+  "note": ""
+ },
+ "5d03d8f307e09b69": {
+  "w": "artful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "crafty",
+  "note": ""
+ },
+ "8c42b9e42cc80f01": {
+  "w": "cunning",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "crafty",
+  "note": ""
+ },
+ "de8ddb4e86d844be": {
+  "w": "crafty",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cunning",
+  "note": ""
+ },
+ "4f017b65f0d36067": {
+  "w": "nimble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deft",
+  "note": ""
+ },
+ "fe87cea11752d923": {
+  "w": "dexterous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deft",
+  "note": "'Slow, but' excluye deft y nimble, que llevan rapidez dentro"
+ },
+ "6a9a705be7a57fc2": {
+  "w": "deft",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dexterous",
+  "note": ""
+ },
+ "941957f5560752e9": {
+  "w": "adroit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deft",
+  "note": "cláusula de rechazo explícita — par de inclusión"
+ },
+ "12cfecbafebf3900": {
+  "w": "adept",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "adroit",
+  "note": ""
+ },
+ "5244761c972ffb14": {
+  "w": "opportunistic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unscrupulous",
+  "note": "'broke no rule' excluye unscrupulous"
+ },
+ "8a290d4d6dcaa19d": {
+  "w": "unscrupulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exploitative",
+  "note": ""
+ },
+ "c16c6484936d5836": {
+  "w": "exploitative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unscrupulous",
+  "note": "la vulnerabilidad del visado es la marca de exploitative"
+ },
+ "6abe3969554f9103": {
+  "w": "mercenary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "venal",
+  "note": ""
+ },
+ "1c97c2bdc75c65d5": {
+  "w": "venal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mercenary",
+  "note": "hay un cargo con un deber que se vende"
+ },
+ "bf67007249f5a8dd": {
+  "w": "wary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "circumspect",
+  "note": ""
+ },
+ "20a2c116b3fda62e": {
+  "w": "vigilant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wary",
+  "note": ""
+ },
+ "85ab15ac59c6c29a": {
+  "w": "chary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wary",
+  "note": "el marco 'chary of + algo bueno' es exclusivo"
+ },
+ "8692ae510d17e481": {
+  "w": "circumspect",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wary",
+  "note": ""
+ },
+ "de701eb13187bfec": {
+  "w": "prudent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "judicious",
+  "note": ""
+ },
+ "c92e0b8396db949a": {
+  "w": "judicious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prudent",
+  "note": "gastar casi todo en una cosa excluye prudent"
+ },
+ "60618934f7d397ea": {
+  "w": "astute",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "perspicacious",
+  "note": ""
+ },
+ "f6ae52e67791a867": {
+  "w": "perspicacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "penetrating",
+  "note": ""
+ },
+ "68c64a2d674d27cb": {
+  "w": "penetrating",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "perspicacious",
+  "note": "el objeto es la reseña, no la persona"
+ },
+ "f5b61acebd64ddad": {
+  "w": "sagacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "astute",
+  "note": ""
+ },
+ "c19b7d8834e484f9": {
+  "w": "erudite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "encyclopedic",
+  "note": ""
+ },
+ "e2bde462a02a384b": {
+  "w": "encyclopedic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "erudite",
+  "note": ""
+ },
+ "cc3e19c3ac629816": {
+  "w": "omniscient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "encyclopedic",
+  "note": ""
+ },
+ "1340e6c9b7b4baf1": {
+  "w": "supple",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pliant",
+  "note": "elasticidad física, no docilidad"
+ },
+ "af5b7b24e54c6fb9": {
+  "w": "plastic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malleable",
+  "note": "registro técnico ('neuroscientists call')"
+ },
+ "01ff4b3b8d61b272": {
+  "w": "malleable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pliant",
+  "note": "el cambio duradero excluye pliant"
+ },
+ "50b6a62662de502f": {
+  "w": "pliant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "amenable",
+  "note": "'did none of it' excluye amenable"
+ },
+ "b30d95ed3cf18151": {
+  "w": "amenable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pliant",
+  "note": "'once the reasons were explained' excluye pliant"
+ },
+ "3ddd28cbac19fe8f": {
+  "w": "aversion",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "antipathy",
+  "note": "el objeto es una tarea, no una persona"
+ },
+ "6f10b868e3b68ad3": {
+  "w": "antipathy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "animosity",
+  "note": "'never named' excluye animosity"
+ },
+ "8d4f9360feaef2cf": {
+  "w": "animus",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "animosity",
+  "note": "registro jurídico, motivo de un acto"
+ },
+ "d8925a67de2fe0be": {
+  "w": "animosity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "enmity",
+  "note": ""
+ },
+ "c182b8ca105eb997": {
+  "w": "enmity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "animosity",
+  "note": ""
+ },
+ "b08511d9036729d8": {
+  "w": "weary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lethargic",
+  "note": "la causa está nombrada"
+ },
+ "6fdd488627fdbbd9": {
+  "w": "sluggish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lethargic",
+  "note": "el sujeto es un motor"
+ },
+ "8454e195c8b59302": {
+  "w": "lethargic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "weary",
+  "note": "'for no reason he could name' excluye weary"
+ },
+ "d941cb67ba6e1494": {
+  "w": "languid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lethargic",
+  "note": "la escena es agradable"
+ },
+ "a03439f0e43ac356": {
+  "w": "somnolent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "soporific",
+  "note": ""
+ },
+ "2de62dadeade58a9": {
+  "w": "soporific",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "somnolent",
+  "note": "duermen los estudiantes, no la conferencia"
+ },
+ "559b263aab6863a4": {
+  "w": "befuddled",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flummoxed",
+  "note": "la causa es física (sin dormir), no un problema difícil"
+ },
+ "ef74d4a0c9e917dd": {
+  "w": "flustered",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "befuddled",
+  "note": "nervios, no confusión"
+ },
+ "f2613cf7c9eb8cb1": {
+  "w": "flummoxed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "befuddled",
+  "note": "el enigma es concreto y la mente está clara"
+ },
+ "fce181ce8fd4875e": {
+  "w": "nonplussed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flummoxed",
+  "note": "'understood the sentence perfectly' excluye flummoxed"
+ },
+ "b590221d099531cc": {
+  "w": "incredulous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nonplussed",
+  "note": "preguntar tres veces ya es reacción"
+ },
+ "09420dd8b2996968": {
+  "w": "scant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sparse",
+  "note": ""
+ },
+ "7350fdd6ba955f57": {
+  "w": "sparse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scant",
+  "note": "la oración da distancias"
+ },
+ "1f1258734d36b74f": {
+  "w": "wanting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "paltry",
+  "note": "el marco 'found wanting' contra un criterio nombrado"
+ },
+ "2e82d65b3fbb7b84": {
+  "w": "paltry",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "trifling",
+  "note": "hay cifra y ofende"
+ },
+ "ff1b172bff4d7fe0": {
+  "w": "trifling",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "paltry",
+  "note": "no hay cifra, solo irrelevancia"
+ },
+ "019ac092a4153563": {
+  "w": "comply",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "acquiesce",
+  "note": ""
+ },
+ "633a76df3ca930f4": {
+  "w": "acquiesce",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "comply",
+  "note": "no se ejecuta nada, solo se calla"
+ },
+ "ce4488910b60b596": {
+  "w": "yield",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "capitulate",
+  "note": "cesión parcial ('but not on hours')"
+ },
+ "e78a0c1d1ca3165f": {
+  "w": "relent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "yield",
+  "note": "la dureza previa era propia"
+ },
+ "45a9542694233cb4": {
+  "w": "capitulate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "yield",
+  "note": "rendición total, registro militar"
+ },
+ "96efd57b4258b61a": {
+  "w": "dissemble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feign",
+  "note": "uso intransitivo; feign exige objeto ('feign surprise')"
+ },
+ "eec6cbfe7e7d97e0": {
+  "w": "nullify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vitiate",
+  "note": "'entirely' + 'identical to the month before' exige anulación completa"
+ },
+ "75c3cd010dcfd599": {
+  "w": "vilify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "defame",
+  "note": "la construcción 'into a national villain' pide vilify"
+ },
+ "bfe673b9846e027d": {
+  "w": "extol",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tout",
+  "note": "'nothing to sell and nobody to sell it to' excluye tout"
+ },
+ "70eb82141946a834": {
+  "w": "endemic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rampant",
+  "note": "'not an outbreak, just a permanent fact'"
+ },
+ "ba99a508563cc8d1": {
+  "w": "rampant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pervasive",
+  "note": "hay velocidad de crecimiento"
+ },
+ "06a6685c89a1794b": {
+  "w": "pervasive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ubiquitous",
+  "note": "'never stated in any document' — impregna sin estar en ningún sitio"
+ },
+ "1e1a6525cc0f3185": {
+  "w": "ubiquitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pervasive",
+  "note": "la oración enumera lugares contables"
+ },
+ "2265f944486a6d58": {
+  "w": "omnipresent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ubiquitous",
+  "note": "presencia sentida, no contada"
+ },
+ "69c52916fab8aa9b": {
+  "w": "decipher",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "construe",
+  "note": "el obstáculo es la letra, no el sentido"
+ },
+ "88539cdb85fa86bc": {
+  "w": "construe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decipher",
+  "note": "'two ways to' pide interpretación"
+ },
+ "4995aa4c11beb60c": {
+  "w": "fathom",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "construe",
+  "note": "el objeto es una conducta, no un texto"
+ },
+ "c2ac07f0d7a89ac3": {
+  "w": "correlate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "extrapolate",
+  "note": "dos series existentes"
+ },
+ "33e39c45f3e974d3": {
+  "w": "extrapolate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "correlate",
+  "note": "el salto fuera de los datos está señalado"
+ },
+ "0dce488cf6a6d4a8": {
+  "w": "reflect",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ruminate",
+  "note": "'without wincing' marca la calma"
+ },
+ "9c4a099befffdbc0": {
+  "w": "ruminate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "reflect",
+  "note": "'arriving nowhere' excluye reflect"
+ },
+ "844cb79e3cc0aa79": {
+  "w": "contemplate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cogitate",
+  "note": "marco 'contemplate + gerundio'"
+ },
+ "f3ecc16b2c104f4a": {
+  "w": "cogitate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contemplate",
+  "note": "el esfuerzo es visible y algo cómico"
+ },
+ "16cc2e8428227678": {
+  "w": "deliberate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contemplate",
+  "note": "un jurado y un veredicto"
+ },
+ "c508ae1f4a39cfd6": {
+  "w": "augment",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "amplify",
+  "note": "suma unidades a un total"
+ },
+ "e3aae25c50c12080": {
+  "w": "amplify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "augment",
+  "note": "objeto retórico ('the point')"
+ },
+ "50db6bc8d48073cc": {
+  "w": "accentuate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "amplify",
+  "note": "'without changing a single dimension' excluye amplify"
+ },
+ "af8ee71e82e2c4f4": {
+  "w": "burgeon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "escalate",
+  "note": "valencia positiva"
+ },
+ "11ac9caa634319ab": {
+  "w": "escalate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "compound",
+  "note": "sube por su propia dinámica"
+ },
+ "3d5014dfbfbe2f0b": {
+  "w": "compound",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "escalate",
+  "note": "alguien añade un error nuevo"
+ },
+ "b5bdc99bce71c5d2": {
+  "w": "aggrandize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "compound",
+  "note": "lo que crece es el poder"
+ },
+ "4c99b3eb28f12a4d": {
+  "w": "distend",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aggrandize",
+  "note": "hinchazón física"
+ },
+ "d101e6c1c320fa20": {
+  "w": "incessant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "interminable",
+  "note": "el goteo no cesa hasta que lo cortan"
+ },
+ "e588b34225ca7494": {
+  "w": "interminable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "incessant",
+  "note": "la reunión sí termina; se hace eterna"
+ },
+ "21393d8d94c58e01": {
+  "w": "monotonous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "interminable",
+  "note": "'the same four movements' es falta de variedad"
+ },
+ "209e06ed1fa3de68": {
+  "w": "intermittent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sporadic",
+  "note": "la oración da un ritmo reconocible"
+ },
+ "49974732b570c503": {
+  "w": "sporadic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intermittent",
+  "note": "'none of it near enough to place' marca la impredecibilidad"
+ },
+ "5fc5ce00b6058e20": {
+  "w": "fitful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sporadic",
+  "note": "colocación 'fitful sleep' con agitación"
+ },
+ "7226f20d87610211": {
+  "w": "dormant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quiescent",
+  "note": "'four centuries' y la amenaza de volver"
+ },
+ "b18c6e576e9a2217": {
+  "w": "quiescent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dormant",
+  "note": "estado presente, registro médico"
+ },
+ "b9a6df552812f9d2": {
+  "w": "subdued",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quiescent",
+  "note": "la luz sigue alumbrando, atenuada"
+ },
+ "11612eaa97091499": {
+  "w": "residual",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vestigial",
+  "note": "el riesgo todavía obra"
+ },
+ "d20c4bb4d0b947c1": {
+  "w": "vestigial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "residual",
+  "note": "'has not changed an outcome since 1998' — forma sin función"
+ },
+ "4fbe2e849c638a04": {
+  "w": "poignant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "woeful",
+  "note": "conmueve al espectador por contención"
+ },
+ "e8ebb44c86ac84bf": {
+  "w": "woeful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "poignant",
+  "note": "describe a quien sufre"
+ },
+ "41423c93719b9286": {
+  "w": "sentimental",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mawkish",
+  "note": "marco 'for sentimental reasons', sincero"
+ },
+ "56ba089d57ba028e": {
+  "w": "cloying",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mawkish",
+  "note": "objeto literal, un postre"
+ },
+ "ad97da78c00598e4": {
+  "w": "mawkish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sentimental",
+  "note": "'invented tenderness' expone la impostura"
+ },
+ "34760eee2decf6df": {
+  "w": "wane",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subside",
+  "note": "declive gradual sin crecida previa"
+ },
+ "281e49ca9eb12ca7": {
+  "w": "subside",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wane",
+  "note": "hubo crecida y el agua baja de nivel"
+ },
+ "be80abbbb876d35c": {
+  "w": "abate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subside",
+  "note": "uso transitivo y jurídico ('abate the nuisance')"
+ },
+ "7897dacac6ef6a7b": {
+  "w": "curb",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "curtail",
+  "note": "pone tope sin quitar nada"
+ },
+ "5cdf956803156622": {
+  "w": "curtail",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "curb",
+  "note": "'by a week' cuantifica el recorte"
+ },
+ "4b071b9c8bb7776d": {
+  "w": "retrench",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "curtail",
+  "note": "el objeto es gasto propio"
+ },
+ "d79b2d0943716a14": {
+  "w": "stanch",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "curb",
+  "note": "corta en seco un flujo"
+ },
+ "b480951252179420": {
+  "w": "affectation",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "posturing",
+  "note": "un rasgo aislable, la pausa"
+ },
+ "638cc9184f690a2d": {
+  "w": "posturing",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bravado",
+  "note": "se finge firmeza, no valor"
+ },
+ "7a2dc08b393f9433": {
+  "w": "bravado",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "posturing",
+  "note": "'his hands did not stop shaking' expone el miedo debajo"
+ },
+ "d89de8336c055172": {
+  "w": "pomposity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "narcissism",
+  "note": "cargo y título antes que el asunto"
+ },
+ "6af55d742fad09d5": {
+  "w": "narcissism",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pomposity",
+  "note": "la desgracia ajena se convierte en materia propia"
+ },
+ "da038e93a38294b6": {
+  "w": "equanimity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "poise",
+  "note": "calma interior ante una mala noticia"
+ },
+ "b2f032b75080e77e": {
+  "w": "poise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aplomb",
+  "note": "compostura visible sin que nada salga mal"
+ },
+ "13803b7aac623826": {
+  "w": "aplomb",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "poise",
+  "note": "el micrófono falla — hay apuro del que salir"
+ },
+ "8b6c6a481caa5b38": {
+  "w": "panache",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "verve",
+  "note": "estilo vistoso al firmar"
+ },
+ "6686d5c08507895a": {
+  "w": "verve",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "panache",
+  "note": "energía en la ejecución musical"
+ },
+ "77825e0a0fe0d15e": {
+  "w": "transgression",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malfeasance",
+  "note": "infracción menor, sin cargo de por medio"
+ },
+ "25f29618775cedb0": {
+  "w": "malfeasance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transgression",
+  "note": "'in office' exige el cargo"
+ },
+ "97b5a389b4f05e0d": {
+  "w": "perfidy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malfeasance",
+  "note": "se traiciona una lealtad personal"
+ },
+ "85d2d65f4b586f4e": {
+  "w": "turpitude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "depravity",
+  "note": "fórmula fija 'moral turpitude'"
+ },
+ "951759a11976d59c": {
+  "w": "depravity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "turpitude",
+  "note": "retrato del carácter, no etiqueta legal"
+ },
+ "ac5b47a4a1ca0db1": {
+  "w": "extant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contemporary",
+  "note": "solo dice que sobreviven tres copias"
+ },
+ "270b95c81f3e7ec0": {
+  "w": "contemporary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "extant",
+  "note": "'with the events it describes' fija el sentido de simultaneidad"
+ },
+ "e34bb5e6d737138d": {
+  "w": "onetime",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "erstwhile",
+  "note": "cláusula de rechazo explícita — solo los separa el registro"
+ },
+ "e48c2b4aee001e2b": {
+  "w": "erstwhile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "onetime",
+  "note": "'keeps to its own register' junto a formas elevadas"
+ },
+ "4516bb0bf9a0c350": {
+  "w": "obsolete",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "archaic",
+  "note": "hubo relevo tecnológico"
+ },
+ "2fdeb99c2323cb6d": {
+  "w": "archaic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obsolete",
+  "note": "el estatuto se sigue aplicando"
+ },
+ "02508d55ec9ff993": {
+  "w": "anachronistic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "archaic",
+  "note": "error de época, no antigüedad"
+ },
+ "e6e5935ca7574860": {
+  "w": "buoyant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ebullient",
+  "note": "resiste tres rechazos, sin causa alegre"
+ },
+ "50e60cfc531584d4": {
+  "w": "jocund",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vivacious",
+  "note": "escena bucólica, registro literario"
+ },
+ "fd417514fdfb78b0": {
+  "w": "vivacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ebullient",
+  "note": "'as she was at every dinner' marca la permanencia"
+ },
+ "07c757e94023603a": {
+  "w": "ebullient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elated",
+  "note": "invita a un piso entero — desborde visible"
+ },
+ "b8f588dfbf64840c": {
+  "w": "elated",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ebullient",
+  "note": "'before telling anyone' lo vuelve interior"
+ },
+ "16c33229b5a205a8": {
+  "w": "euphoric",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elated",
+  "note": "seis semanas desproporcionadas y luego el olvido"
+ },
+ "460787e1a48811b1": {
+  "w": "heady",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "euphoric",
+  "note": "los meses embriagan; el sujeto no siente, causa"
+ },
+ "ac1e6b58595ea9e0": {
+  "w": "gawky",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inept",
+  "note": "torpeza física adolescente"
+ },
+ "050b8b25f4923e35": {
+  "w": "hapless",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inept",
+  "note": "víctima de lo que le cayó encima"
+ },
+ "038a6b68bb30af18": {
+  "w": "inept",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feckless",
+  "note": "'after three trainings' prueba que sí lo intentó"
+ },
+ "9f622e0dbe03a615": {
+  "w": "impolitic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inept",
+  "note": "'however true' — el fallo es de momento, no de destreza"
+ },
+ "3a14a24788a7c4a0": {
+  "w": "feckless",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "negligent",
+  "note": "ni paga ni se va ni contesta; carácter, no deber legal"
+ },
+ "f1a56039aedadb26": {
+  "w": "negligent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feckless",
+  "note": "hay tribunal, plazo y deber de cuidado"
+ },
+ "b7218c12f695c634": {
+  "w": "nadir",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "zenith",
+  "note": "fondo de una trayectoria con fecha"
+ },
+ "2f8c5e5ee1d994b2": {
+  "w": "benchmark",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fulcrum",
+  "note": "referencia de comparación"
+ },
+ "abc510d529e7b3f1": {
+  "w": "fulcrum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "benchmark",
+  "note": "'move it and every other term shifted' — dependencia"
+ },
+ "5c7325bcec091246": {
+  "w": "echelon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fulcrum",
+  "note": "marco 'upper ___s' de jerarquía"
+ },
+ "456217d342ca6e07": {
+  "w": "zenith",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "apogee",
+  "note": "sentido literal astronómico, sin sombra"
+ },
+ "29a75dd0baf3b6a6": {
+  "w": "apogee",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "zenith",
+  "note": "cláusula de rechazo explícita — el declive posterior"
+ },
+ "2bffe897129a7973": {
+  "w": "nascent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inchoate",
+  "note": "once empleados y un producto: forma definida"
+ },
+ "b5db2d134c23df3b": {
+  "w": "inchoate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nascent",
+  "note": "'could not yet say what' — informe"
+ },
+ "762e9e65036b9e39": {
+  "w": "rudimentary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elementary",
+  "note": "un grifo de agua fría; tosco, no didáctico"
+ },
+ "43f5c0f9038f6cb0": {
+  "w": "elementary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rudimentary",
+  "note": "'covered in the first week' — nivel de enseñanza"
+ },
+ "58e9ecb7f599eb62": {
+  "w": "precocious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elementary",
+  "note": "'at eleven' exige la comparación con la edad"
+ },
+ "0710821f382c6d83": {
+  "w": "deference",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obeisance",
+  "note": "obeisance es el gesto fisico; aqui lo que hay es ceder el juicio y retirar la propuesta"
+ },
+ "392795afbdd94fff": {
+  "w": "obeisance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deference",
+  "note": "'made a low ___ before the throne' describe un cuerpo doblandose, y deference no se hace con el cuerpo"
+ },
+ "07ca172b2df2cc51": {
+  "w": "acolyte",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disciple",
+  "note": "cargar el maletin y abrir la puerta es servicio de sequito, no doctrina aprendida"
+ },
+ "8d2e27355207b9b4": {
+  "w": "disciple",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "acolyte",
+  "note": "'never met Freud' excluye al acolyte, que por definicion acompana"
+ },
+ "35de819ba1c5ac55": {
+  "w": "apologist",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disciple",
+  "note": "defender en la pagina de opinion lo que otros acusan es apologist; el disciple solo aplica la doctrina"
+ },
+ "a8fd3482c4696e76": {
+  "w": "subordinate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subservient",
+  "note": "'two levels below her old title' es rango, no conducta"
+ },
+ "7a22a3746c9a2044": {
+  "w": "dutiful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subservient",
+  "note": "la llamada puntual y sin contenido es cumplimiento de un deber reconocido"
+ },
+ "edfb8b9665de30e0": {
+  "w": "beholden",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subservient",
+  "note": "el favor previo ('having taken their money') es lo que ata; sin deuda no seria beholden"
+ },
+ "18a07e385a6bbc94": {
+  "w": "subservient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obsequious",
+  "note": "la oracion descarta el halago y la deuda de forma explicita, y los reviewers no estan en la jerarquia del sponsor"
+ },
+ "92f58b8472317531": {
+  "w": "obsequious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subservient",
+  "note": "'praising every choice aloud' es halago activo, que subservient no cubre"
+ },
+ "e1791bf8dadca990": {
+  "w": "slight",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "affront",
+  "note": "los tres ejemplos son omisiones menores y probablemente involuntarias"
+ },
+ "ca54681994f34813": {
+  "w": "affront",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "slight",
+  "note": "'calculated' excluye al slight, que puede ser un descuido"
+ },
+ "e5daceb34b5af75b": {
+  "w": "umbrage",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "affront",
+  "note": "'take ___ at' es la formula fija, y el sujeto es quien se ofende, no quien ofende"
+ },
+ "a103c0708830387e": {
+  "w": "contempt",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "opprobrium",
+  "note": "es un sentimiento privado dentro de un matrimonio; no hay publico que condene"
+ },
+ "58bf557046a7707b": {
+  "w": "opprobrium",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "contempt",
+  "note": "'a life of permanent ___' con consecuencias sociales visibles es una condicion publica, no un sentimiento"
+ },
+ "09ad488a085f2a5f": {
+  "w": "contretemps",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "imbroglio",
+  "note": "se arregla antes de la sopa; el imbroglio por definicion crece"
+ },
+ "c3cdc28d33fc6348": {
+  "w": "imbroglio",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "predicament",
+  "note": "tres departamentos, dos abogados y correos filtrados son varias partes enredadas"
+ },
+ "e9c4b1c511ce11e9": {
+  "w": "predicament",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quandary",
+  "note": "esta atrapada entre dos hechos consumados y no hay nada que elegir"
+ },
+ "8852a49444cacd62": {
+  "w": "quandary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "predicament",
+  "note": "'unable to decide' pone la dificultad en la eleccion, que es lo que predicament no nombra"
+ },
+ "0cbdad110b031f6c": {
+  "w": "conundrum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quandary",
+  "note": "se pide una explicacion, no una decision, y nadie esta metido dentro"
+ },
+ "ace3fe8a9ef48784": {
+  "w": "plausible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tenable",
+  "note": "tres excusas menudas que suenan bien de una en una; el final dice que no resistieron el examen, asi que no eran tenable"
+ },
+ "6e7b72b403e354c2": {
+  "w": "tenable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "plausible",
+  "note": "una politica se sostiene o deja de sostenerse; nunca es plausible"
+ },
+ "a5840f7dd3df680b": {
+  "w": "cogent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "compelling",
+  "note": "'no adjectives, every step following from the one before' es merito de estructura logica"
+ },
+ "e7260f00b3452d40": {
+  "w": "compelling",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cogent",
+  "note": "'the evidence was thin' cierra la puerta a cogent y deja solo la fuerza de arrastre del relato"
+ },
+ "7b4dd0a1040376a3": {
+  "w": "conclusive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "incontrovertible",
+  "note": "el disenio busca cerrar la disputa entre dos teorias, que es lo propio de conclusive"
+ },
+ "d83821a8fab0f289": {
+  "w": "incontrovertible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "conclusive",
+  "note": "el dato no cierra nada — lo que significa sigue discutiendose — asi que conclusive queda excluido"
+ },
+ "cf0bcef1e4f56e6f": {
+  "w": "conjectural",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dubious",
+  "note": "'nothing left to check it against' senala falta de evidencia, no desconfianza en el contenido"
+ },
+ "225438b09cbd6a97": {
+  "w": "dubious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "spurious",
+  "note": "falta el papeleo pero nadie ha probado que sea falso; es sospecha, no veredicto"
+ },
+ "c8a59338767bed49": {
+  "w": "illusory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "spurious",
+  "note": "la mejora se deshace al medirla bien; los numeros no estaban falsificados, la ganancia no existia"
+ },
+ "b937c0baf1fd2f45": {
+  "w": "fallacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "specious",
+  "note": "'nobody was taken in for long' quita el atractivo que specious exige, y deja el puro fallo logico"
+ },
+ "3ff4a6a569cc5f25": {
+  "w": "spurious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "illusory",
+  "note": "la correlacion si esta en los datos y lo falso es la causa: es la colocacion tecnica 'spurious correlation'"
+ },
+ "9e103737ea3e8016": {
+  "w": "specious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fallacious",
+  "note": "'it carried the meeting' es el requisito de specious — convencio antes de que se viera el error"
+ },
+ "e1e840d58d789b60": {
+  "w": "deter",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "forestall",
+  "note": "lo que falla es disuadir a alguien que decide; los conductores siguieron decidiendo aparcar ahi"
+ },
+ "6e0254ae686c628e": {
+  "w": "foil",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "forestall",
+  "note": "'already under way' excluye a forestall, que actua antes de que el plan empiece"
+ },
+ "600242e1eb650c3c": {
+  "w": "forestall",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "preclude",
+  "note": "se adelanta al lunes; nada queda prohibido, solo llega antes"
+ },
+ "1362dc916a62495c": {
+  "w": "preclude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "obviate",
+  "note": "una clausula que hace imposible demandar es cerrar la puerta, no volverla innecesaria"
+ },
+ "78fd5da898bea11b": {
+  "w": "obviate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "preclude",
+  "note": "'you may still go if you like' descarta preclude de forma explicita"
+ },
+ "8bd833083debc3b9": {
+  "w": "intelligible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "accessible",
+  "note": "el problema es el ruido, no el nivel del lector: se trata de si llegan las palabras"
+ },
+ "c29779edba2934f6": {
+  "w": "accessible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "limpid",
+  "note": "'to readers who never took a physics course' es la distancia al lector, que es lo que accessible mide"
+ },
+ "ddd89206dd48a2b3": {
+  "w": "limpid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "accessible",
+  "note": "se elogia la frase misma ('went down like clear water'), no el nivel exigido al lector"
+ },
+ "3b4099a669b72299": {
+  "w": "articulate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eloquent",
+  "note": "'she was not moving, and did not try to be' niega la emocion que eloquent exige"
+ },
+ "88694db7a202fc1c": {
+  "w": "eloquent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "articulate",
+  "note": "el efecto esta en el publico — desconocidos salieron llorando"
+ },
+ "bcebda8658ec90b3": {
+  "w": "conventional",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "entrenched",
+  "note": "una apertura de manual es lo acostumbrado; nadie la defiende ni cuesta abandonarla"
+ },
+ "209bb6a6f7297ff1": {
+  "w": "entrenched",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ingrained",
+  "note": "un subsidio con intereses que lo defienden en comite es posicion atrincherada, no habito interiorizado"
+ },
+ "1e9dc2cc3c058da2": {
+  "w": "ingrained",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "entrenched",
+  "note": "'nobody noticed they were doing it' es la marca de ingrained: invisible para quien lo practica"
+ },
+ "cc6311150a800ba2": {
+  "w": "inveterate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ingrained",
+  "note": "inveterate califica a la persona ('an ___ collector'); ingrained no modifica personas asi"
+ },
+ "0ea0918c429fe0c3": {
+  "w": "sacrosanct",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "entrenched",
+  "note": "lo protege un tabu — 'nobody ever asked why' —, no unos intereses que lo defiendan"
+ },
+ "ad666a1af40066c9": {
+  "w": "candid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "frank",
+  "note": "la acepción de foto no posada es exclusiva de candid; frank no califica retratos y los demás no tocan el campo de la imagen"
+ },
+ "f08155ffb5bbfbd5": {
+  "w": "frank",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "candid",
+  "note": "solo frank califica una emoción exhibida sin disimulo (___ envy); candid habla de lo que se confiesa, no de lo que se muestra; disinterested envy seria una contradiccion"
+ },
+ "9d441ed5e16f53d8": {
+  "w": "disinterested",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "equitable",
+  "note": "el aposito 'no money riding on it' define exactamente 'sin parte en el resultado'; equitable califica el reparto, no la posicion de quien arbitra"
+ },
+ "501130272f209469": {
+  "w": "equitable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disinterested",
+  "note": "el hueco califica 'terms', y unos terminos no pueden ser disinterested; ademas el reparto proporcional al esfuerzo es la firma de equitable"
+ },
+ "381be976354a4812": {
+  "w": "meritorious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "estimable",
+  "note": "registro de condecoraciones (awarded for ___ service); 'not for a single act of courage' bloquea a noble, que exige el acto heroico; estimable no colocaria con service en una citacion"
+ },
+ "8f78288e48a36ee5": {
+  "w": "estimable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "noble",
+  "note": "thrift y punctuality son virtudes respetables, no grandiosas: noble queda excluido por la lista y por el remate aburrido; meritorious pide actos premiables, no ambiciones"
+ },
+ "1e483adb9cf61d11": {
+  "w": "noble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "estimable",
+  "note": "'a ___ death' con sacrificio y sin testigos es solo noble; meritorious death y estimable death no existen como colocacion"
+ },
+ "92690048c1bd6d38": {
+  "w": "avid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ardent",
+  "note": "la construccion '___ for + lo que se quiere obtener' es exclusiva de avid en ingles moderno; ardent/fervent no rigen ese for"
+ },
+ "b6790e68878aabac": {
+  "w": "ardent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fervent",
+  "note": "'___ suitor' es la colocacion fija del cortejo; fervent va con la emocion expresada, no con la persona que corteja, y zealous arrastra deber o causa"
+ },
+ "77f6a10165052cda": {
+  "w": "fervent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fervid",
+  "note": "par de inclusion (fervid = fervent + exceso): la clausula 'but not in the least theatrical' niega el ingrediente extra y deja solo fervent; ardent thanks no es colocacion"
+ },
+ "69b8f46e67f5c0d0": {
+  "w": "zealous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ardent",
+  "note": "aplicar un reglamento hasta multar por una hora es actividad, no temperatura del sentimiento; ardent/fervent/fervid no califican enforcement"
+ },
+ "a274d31b7eb217e4": {
+  "w": "fervid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fervent",
+  "note": "'a ___ imagination' es colocacion fija de fervid; fervent imagination no se dice, y el exceso ('no dejar una sola coincidencia') es justo lo que fervid anade"
+ },
+ "24d6d0e1fd339bfe": {
+  "w": "hamper",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inhibit",
+  "note": "el objeto son personas que trabajan (search parties); inhibit exige un proceso, circumscribe un alcance, occlude un conducto — ninguno rige un equipo de rescate"
+ },
+ "f4a7ec0d42acbab0": {
+  "w": "inhibit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hamper",
+  "note": "'___ the enzyme' es el verbo tecnico de la farmacologia; hamper no colocaria con una enzima y occlude tapa conductos, no reacciones"
+ },
+ "b64717b6fd43d71e": {
+  "w": "circumscribe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inhibit",
+  "note": "'so narrowly that she cannot appoint' pide un verbo de perimetro; hamper estorba una actividad y no fija limites de competencia"
+ },
+ "560815cf8d8d9aa5": {
+  "w": "occlude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inhibit",
+  "note": "deposito de grasa que cierra una arteria es tapon fisico; inhibit frenaria una reaccion, no un conducto, y hamper no se dice de una arteria"
+ },
+ "c08e45b764855832": {
+  "w": "quarantine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "immure",
+  "note": "barcos aislados cuarenta dias por puertos afectados: motivo sanitario y plazo, firma exclusiva de quarantine; un barco no se immure ni se manacle"
+ },
+ "aec394df0d6891e7": {
+  "w": "manacle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "immure",
+  "note": "esposar durante el traslado exige que el preso camine, lo que contradice immure; sin contagio de por medio quarantine queda fuera"
+ },
+ "d5b6cb746fd0776b": {
+  "w": "immure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quarantine",
+  "note": "'not for anyone's safety' niega el motivo sanitario y deja fuera a quarantine; manacle ata las manos, no encierra en una celda por un ano"
+ },
+ "5b5f1a973baa6619": {
+  "w": "elusive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "furtive",
+  "note": "nadie esconde la causa de la falla, se escapa sola; furtive y surreptitious exigen un agente que oculte, ulterior un motivo, covert un patrocinador"
+ },
+ "e4bf14eb47debf8c": {
+  "w": "furtive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "surreptitious",
+  "note": "el hueco califica 'manner' — la actitud delatora; surreptitious califica actos, no el modo de estar de alguien"
+ },
+ "ae666ed676a67313": {
+  "w": "surreptitious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "furtive",
+  "note": "el hueco califica el acto/producto (photograph) aprovechando un descuido puntual; furtive es el modo del cuerpo y clandestine exige empresa sostenida"
+ },
+ "5e52f4eb30305c49": {
+  "w": "ulterior",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "covert",
+  "note": "'___ purpose' detras del motivo declarado es solo ulterior; los demas ocultan el hecho o al patrocinador, no la intencion"
+ },
+ "5e5a7fac10fe2b92": {
+  "w": "covert",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "clandestine",
+  "note": "la oracion opone explicitamente operacion oculta vs patrocinador oculto y pide la segunda: esa es la definicion doctrinal de covert frente a clandestine"
+ },
+ "683c82d17a8d80d7": {
+  "w": "clandestine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "covert",
+  "note": "correspondencia sostenida once anos con buzon muerto es empresa organizada de particulares; covert pide patrocinador institucional y surreptitious un acto unico"
+ },
+ "4f30c4189137abe0": {
+  "w": "skirt",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "evade",
+  "note": "el sentido físico de bordear un lago es exclusivo de skirt; 'the path evades the lake' no es ingles"
+ },
+ "14d96b032225ab1f": {
+  "w": "evade",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "skirt",
+  "note": "'___ capture' exige perseguidor: skirt no lo tiene, shirk pide un deber propio y abscond rige with + botin"
+ },
+ "828bcb5767cad7bc": {
+  "w": "shirk",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "evade",
+  "note": "el turno recae en los companeros que lo cubren — la firma de shirk; evade pide perseguidor y forgo un beneficio al que se tenia derecho"
+ },
+ "91eab9e89dbe055c": {
+  "w": "abstain",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "forgo",
+  "note": "el uso parlamentario intransitivo (votar ni si ni no) solo lo tiene abstain; forgo y eschew exigen objeto directo"
+ },
+ "65bddc467cf6c2b6": {
+  "w": "forgo",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abstain",
+  "note": "el bono es un beneficio al que se tiene derecho y hay trueque explicito (conservar el derecho a demandar): eso es forgo; abstain exigiria from"
+ },
+ "9909582f2af23f76": {
+  "w": "eschew",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "forgo",
+  "note": "renunciar a la violencia por principio incluso en defensa propia es eschew; la violencia no es un beneficio que se pierda, asi que forgo no aplica, y abstain pediria from"
+ },
+ "10454960d4296bb2": {
+  "w": "abscond",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "evade",
+  "note": "'___ with the entire fund' + huida a Lisboa es la construccion propia de abscond; evade se queda en la ciudad zafandose"
+ },
+ "92d89f0073e197c0": {
+  "w": "jeopardize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impair",
+  "note": "la negociacion sigue viva y solo queda expuesta a perderse; impair exige una funcion que ya rinde menos"
+ },
+ "afc127c40e755f08": {
+  "w": "impair",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "jeopardize",
+  "note": "los reflejos son una facultad cuyo rendimiento baja de forma medible; jeopardize dejaria el dano en potencia y no encaja con 'enough to matter at that speed'"
+ },
+ "baecc89f13d8591b": {
+  "w": "assail",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ravage",
+  "note": "criticos que atacan desde todos lados es la embestida sin resultado declarado; vanquish exigiria derrota consumada y ravage un territorio arrasado"
+ },
+ "be73dd32b6d22ed2": {
+  "w": "vanquish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "assail",
+  "note": "la tierra pasa a quien gano el combate, o sea que hace falta derrota consumada; assail solo diria que lo ataco, sin decidir el pleito"
+ },
+ "a3b11e1e05221abb": {
+  "w": "ravage",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eradicate",
+  "note": "dos generaciones para recuperarse marca devastacion sobre un territorio; eradicate exigiria que no quedara nada y assail solo describiria la embestida"
+ },
+ "f8e35dd621ddae06": {
+  "w": "eradicate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ravage",
+  "note": "'not merely to control it: one case anywhere counts as failure' es la definicion tecnica de erradicacion; vanquish pediria adversario en combate"
+ },
+ "e0217b1569fe9895": {
+  "w": "pious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dogmatic",
+  "note": "practica religiosa callada y sin imponer nada a nadie; dogmatic y doctrinaire describen como se sostiene una opinion, no como se vive una fe"
+ },
+ "e8f7c1b8f7d76fde": {
+  "w": "dogmatic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "doctrinaire",
+  "note": "la oracion niega que haya teoria alguna, que es justo lo que doctrinaire exige; lo unico que se describe es la negativa a ser contradicho"
+ },
+ "a358657726194c94": {
+  "w": "doctrinaire",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dogmatic",
+  "note": "aplicar el modelo sin cambiarlo donde no se cumplen sus supuestos es la firma de doctrinaire — hay doctrina explicita y choca con los hechos, no con un interlocutor"
+ },
+ "e3b35a8a4ad4215c": {
+  "w": "heterodox",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "iconoclastic",
+  "note": "par de inclusion (iconoclastic = heterodox + ataque): 'nothing attacked anyone' niega el ingrediente extra y deja solo heterodox"
+ },
+ "7bb525a1b89d0737": {
+  "w": "iconoclastic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "heterodox",
+  "note": "romper a proposito las imagenes que la profesion venera, y disfrutarlo, es el ingrediente que heterodox no tiene"
+ },
+ "eaadb378d730157a": {
+  "w": "exhort",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "induce",
+  "note": "'offering nothing in return but the asking' bloquea a induce, que exige incentivo; goad pincha a una persona y incite pide delito inmediato"
+ },
+ "23987490dba0e367": {
+  "w": "induce",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exhort",
+  "note": "el sujeto es un descuento, no alguien que hable: exhort exige un orador que apele al deber; galvanize pediria inercia previa"
+ },
+ "046cca1bbae739ec": {
+  "w": "goad",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "incite",
+  "note": "hostigamiento repetido a una persona concreta con la construccion '___ her into'; incite se dirige a multitudes y exige acto ilicito inmediato"
+ },
+ "4dd43a3357907997": {
+  "w": "galvanize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "agitate",
+  "note": "un cuerpo inerte que lleva anos sin reunirse y una descarga unica que lo despierta; agitate seria campana sostenida y va con for"
+ },
+ "ffed27ce38c109b2": {
+  "w": "agitate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "foment",
+  "note": "construccion intransitiva '___ for shorter hours' durante una decada, a la vista de todos; foment es transitivo y trabaja en la sombra"
+ },
+ "7fd16d9a42b6f70d": {
+  "w": "foment",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "incite",
+  "note": "'slowly, over years, without leaving fingerprints' contradice la inmediatez que exige incite; agitate pediria for y luz publica"
+ },
+ "c2a96e6efb9e738f": {
+  "w": "incite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "foment",
+  "note": "el disturbio estalla 'within the hour' — la inmediatez es lo que la ley mide en incitement; foment describe siembra paciente"
+ },
+ "48f85e5962862afd": {
+  "w": "lull",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pacify",
+  "note": "la construccion '___ into believing' con el peligro todavia ahi es exclusiva de lull; pacify somete por la fuerza y propitiate exige ofrenda a un superior"
+ },
+ "f5120acbe067cea8": {
+  "w": "propitiate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pacify",
+  "note": "ofrenda en el altar a un dios: el aplacado esta por encima, que es lo contrario de pacify, donde se somete a quien esta por debajo"
+ },
+ "dc6b8e137b65f64f": {
+  "w": "pacify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "propitiate",
+  "note": "guarniciones e inviernos sobre una provincia rebelde: paz impuesta desde fuera; una provincia no es un poder superior al que se propicie"
+ },
+ "40ebed72d37d8691": {
+  "w": "mediate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "reconcile",
+  "note": "'___ between the two families' rechaza a reconcile por la preposicion y porque el obispo no toma partido: aporta el proceso, no el resultado"
+ },
+ "3fcaf7d67e4b0abb": {
+  "w": "reconcile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mediate",
+  "note": "el objeto son dos versiones que no cuadran, no dos partes con voluntad; mediate necesita gente entre la cual ponerse"
+ },
+ "d1fef14b36b4cd59": {
+  "w": "tirade",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "harangue",
+  "note": "explosion oral inmediata ante una pregunta inocua y a gritos; harangue pediria publico al que exhortar y diatribe un texto compuesto con blanco"
+ },
+ "f803deaf0b0d16c9": {
+  "w": "harangue",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tirade",
+  "note": "publico cautivo mas contenido exhortativo (lo que deben a la empresa, como han de llegar): la tirade no pide nada y la diatribe no es oral"
+ },
+ "b3c1f150f01d9849": {
+  "w": "diatribe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "harangue",
+  "note": "veinte paginas contra un blanco, con notas e indice y reimpresas: ataque compuesto por escrito; la tirade es desahogo oral y la harangue exhorta a un publico"
+ },
+ "f12295fc07342dbd": {
+  "w": "aspersion",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "calumny",
+  "note": "'cast ___s on' es colocacion fija, y 'never accused anyone outright' descarta a calumny e indictment, que si afirman"
+ },
+ "6453fe4d16e7359d": {
+  "w": "calumny",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aspersion",
+  "note": "una historia inventada de cabo a rabo es afirmacion falsa, no insinuacion: aspersion se queda en el sobreentendido"
+ },
+ "10724409ecc00ca7": {
+  "w": "indictment",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "diatribe",
+  "note": "la preposicion of y el objeto institucional (the way the trials were run) son de indictment; diatribe rige against y calumny exigiria falsedad"
+ },
+ "8134e5c3234a656b": {
+  "w": "deprecate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decry",
+  "note": "quitarle importancia a lo propio hasta que nadie le atribuye el merito: es el uso reflexivo de deprecate; decry exige queja publica sobre un mal ajeno"
+ },
+ "dfbcdea4dfb08dec": {
+  "w": "denounce",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "censure",
+  "note": "el que acusa es un testigo, no el organo: el inciso descarta censure, que exige cuerpo con potestad; hay nombres y consecuencias"
+ },
+ "e55570fe2642862c": {
+  "w": "censure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "denounce",
+  "note": "hay votacion de la camara y constancia formal — el acto institucional que denounce no requiere; stigmatize marcaria a una categoria, no a un individuo"
+ },
+ "96ed28ff1b4f2351": {
+  "w": "stigmatize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "censure",
+  "note": "la marca recae sobre una enfermedad y dura generaciones; censure sancionaria a una persona en un acta con fecha"
+ },
+ "9e3b6beac900db70": {
+  "w": "disperse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "diffuse",
+  "note": "la policia separa a una multitud reunida en un acto brusco y con agente; diffuse describe reparto gradual y homogeneo dentro de un medio"
+ },
+ "63eab633b5407390": {
+  "w": "diffuse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disperse",
+  "note": "'until no part of the cloth is darker than another' es homogeneizacion, la firma de diffuse; disperse dejaria elementos yendose cada uno por su lado"
+ },
+ "45a4185a3cab2cf9": {
+  "w": "disseminate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "propagate",
+  "note": "hallazgos repartidos desde un emisor a cada clinica: reparto de informacion; propagate exigiria multiplicacion y diffuse un proceso sin agente"
+ },
+ "b75466f49a91a9f4": {
+  "w": "propagate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disseminate",
+  "note": "multiplicar variedades a partir de esquejes es reproduccion literal, el sentido horticola exclusivo de propagate"
+ },
+ "d64cbd52636be6bb": {
+  "w": "perpetuate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "propagate",
+  "note": "tres generaciones despues de refutado y el mito sigue vivo: continuidad en el tiempo, no reparto ni multiplicacion"
+ },
+ "96add33b9832e562": {
+  "w": "decry",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "denounce",
+  "note": "el objeto es una tendencia y la queja es publica y en letra impresa; denounce necesitaria un culpable senalado y deprecate seria demasiado tibio y privado"
+ },
+ "61145e8511188f77": {
+  "w": "analogous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "interchangeable",
+  "note": "mismo oficio sin parentesco es la definicion de analogia funcional, y rige to; tantamount equipara efectos de acciones y commensurate rige with"
+ },
+ "e7a424d989e4ad43": {
+  "w": "commensurate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "analogous",
+  "note": "la preposicion with mas la proporcion sueldo/experiencia; analogous y tantamount rigen to y no miden cantidades"
+ },
+ "1dc4f85c8b03f7ec": {
+  "w": "interchangeable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fungible",
+  "note": "dos palabras que se usan indistintamente no son mercancia: fungible exige bienes o unidades de una clase, no vocabulario"
+ },
+ "46ce23ff741b4c7b": {
+  "w": "fungible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "interchangeable",
+  "note": "'in law' y 'good' fijan el termino juridico; interchangeable no es categoria legal ni se predica de mercancias por unidades"
+ },
+ "996213d4cc964362": {
+  "w": "tantamount",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "commensurate",
+  "note": "equivalencia de efecto entre callarse y admitir, con to; commensurate exigiria proporcion cuantitativa y analogous semejanza de funcion"
+ },
+ "f6ba1743fbb95721": {
+  "w": "homogeneous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "heterogeneous",
+  "note": "mismas escuelas, mismos barrios, mismos apellidos: cero variedad interna; heterogeneous seria justo lo contrario"
+ },
+ "be6fb68edbc80f97": {
+  "w": "complementary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "heterogeneous",
+  "note": "las dos piezas cubren lo que a la otra le falta — hay encaje, que es lo que heterogeneous y disparate no afirman"
+ },
+ "791c948f981d17d4": {
+  "w": "heterogeneous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "homogeneous",
+  "note": "la oracion opone explicitamente las dos cohortes y pide el antonimo de homogeneous; disparate diria que ni se pueden comparar"
+ },
+ "c557dcae58efa485": {
+  "w": "disparate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "heterogeneous",
+  "note": "tres materias enumeradas que no casan entre si; heterogeneous califica el conjunto variado, no elementos contados que no pegan"
+ },
+ "753b231cd6c5a3f5": {
+  "w": "incongruous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disparate",
+  "note": "una sola pieza que choca con su entorno; disparate exigiria varias cosas comparadas entre si"
+ },
+ "9d25a992a584169c": {
+  "w": "disingenuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "duplicitous",
+  "note": "hay una sola afirmacion que finge inocencia, sin segunda parte enganada; duplicitous exige dos compromisos simultaneos"
+ },
+ "98dd50749db3cecd": {
+  "w": "duplicitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disingenuous",
+  "note": "firmar con los dos bandos la misma tarde son dos compromisos incompatibles a la vez; devious describiria el rodeo, no la doblez"
+ },
+ "38cd4f90246eedff": {
+  "w": "devious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "duplicitous",
+  "note": "'by a ___ route' con tres intermediarios es el trazado torcido; se puede ser devious con un solo interlocutor, sin doblez"
+ },
+ "dc0c1f3be06a79c5": {
+  "w": "bogus",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sham",
+  "note": "un titulo de una universidad inexistente es objeto falsificado; sham exigiria un procedimiento escenificado, no un papel falso"
+ },
+ "da08af3cf20335d5": {
+  "w": "sham",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bogus",
+  "note": "'real ballots, real observers' descarta la falsificacion: nada es falso salvo el proposito, que es exactamente lo que sham nombra"
+ },
+ "517bb359473d38e5": {
+  "w": "relinquish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "renounce",
+  "note": "soltar el mando a regana dientes: objeto que se ejerce y pasa a otras manos; renounce se proclama y no se dice del mando"
+ },
+ "4c7a683c1ddb3ac6": {
+  "w": "jettison",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "relinquish",
+  "note": "el esquema se tira por la borda tras la fusion, sin ceremonia y sin que nadie lo reciba; relinquish supondria entrega a otro"
+ },
+ "a1e2f60c3819e298": {
+  "w": "forsake",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "repudiate",
+  "note": "dejar tirados a los amigos en cuanto llega la investigacion es abandono, no declaracion; repudiate exigiria acto publico que niegue validez"
+ },
+ "064eaadd442845b1": {
+  "w": "renounce",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "relinquish",
+  "note": "renuncia voluntaria y declarada a una practica por un tiempo (la carne, el tabaco); relinquish y repudiate no rigen ese objeto"
+ },
+ "05b9442705e1d36a": {
+  "w": "repudiate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "recant",
+  "note": "una deuda contraida por otro gobierno se declara no obligatoria: el termino tecnico es repudiation; recant exigiria palabras propias"
+ },
+ "3223975f77ec7bde": {
+  "w": "recant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "repudiate",
+  "note": "retractarse bajo amenaza de hoguera, en uso intransitivo y sobre lo que uno mismo enseno; repudiate rompe vinculos, no declaraciones propias"
+ },
+ "7195e71b56f47159": {
+  "w": "precarious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fraught",
+  "note": "una mayoria de dos votos, uno de ellos a punto de irse: lo que hay es poco sosten, no carga de riesgo; 'a ___ majority' es colocacion de precarious"
+ },
+ "d84e993f3e620c89": {
+  "w": "fraught",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "precarious",
+  "note": "la construccion '___ with' seguida de algo malo es exclusiva de fraught en este grupo"
+ },
+ "c64ad65b18457190": {
+  "w": "perilous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "precarious",
+  "note": "un tratamiento que mata a uno de cada cuarenta amenaza dano grave, no equilibrio inestable; precipitous hablaria de pendiente"
+ },
+ "3ffe82c0fadadeb1": {
+  "w": "precipitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "perilous",
+  "note": "caida del cuarenta por ciento en dos dias: pendiente y velocidad; perilous mediria la amenaza y precarious el sosten"
+ },
+ "bd28b8d1346bf6a4": {
+  "w": "turbulent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tempestuous",
+  "note": "una decada con tres gobiernos y dos golpes es desorden publico; tempestuous se reserva a relaciones y temperamentos"
+ },
+ "54860ef6cf05f82d": {
+  "w": "tempestuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "turbulent",
+  "note": "'___ temperament' con adoracion el lunes y silencio el jueves es oscilacion emocional; turbulent describiria epocas o lugares, no un caracter"
+ },
+ "0250cf4d36c56f42": {
+  "w": "restive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "turbulent",
+  "note": "caballos que no se dejan sujetar mientras se acerca la tormenta: impaciencia bajo contencion, todavia sin desorden desatado"
+ },
+ "ab10916e81b4745a": {
+  "w": "cacophonous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "boisterous",
+  "note": "treinta instrumentos y ninguno en la misma nota es mezcla discordante; shrill exigiria un solo sonido agudo y boisterous alegria"
+ },
+ "24cd6973fcdd6e8e": {
+  "w": "boisterous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "clamorous",
+  "note": "una mesa de estudiantes alborotando no reclama nada: es energia alegre, no exigencia coral"
+ },
+ "4a0fe24d33aad482": {
+  "w": "shrill",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cacophonous",
+  "note": "un silbato es una sola fuente aguda que atraviesa el ruido del motor; cacophonous necesita varias fuentes que choquen entre si"
+ },
+ "257941b2dc6872f1": {
+  "w": "clamorous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vociferous",
+  "note": "cincuenta familias preguntando lo mismo a la vez es exigencia coral; vociferous califica a un individuo y boisterous seria alegre"
+ },
+ "daeb67558558f104": {
+  "w": "vociferous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "clamorous",
+  "note": "el hueco califica a 'opponent', una sola persona que no deja de hacerse oir; clamorous exigiria una multitud"
+ },
+ "683605bca15ae4f6": {
+  "w": "minute",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "trivial",
+  "note": "'parts per billion' es una medida de cantidad, no un juicio de importancia: trivial descartaria el asunto, no mediria el rastro"
+ },
+ "c42108cd07644d00": {
+  "w": "trivial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "minute",
+  "note": "tratar una objecion como si no valiera la pena es juicio de importancia; minute mediria su tamano, que no aplica a una objecion"
+ },
+ "42bc0fa28cf901c6": {
+  "w": "nominal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "token",
+  "note": "conserva el titulo mientras otro firma todo: nombre sin contenido; token exigiria un gesto calculado de cara a la galeria"
+ },
+ "1f74d0f2a02bbb56": {
+  "w": "perfunctory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "token",
+  "note": "un saludo dado sin ganas a un desconocido no es concesion calculada: token pediria proposito de aparentar cumplimiento"
+ },
+ "8356747142d98694": {
+  "w": "token",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nominal",
+  "note": "una concesion minima que da justo para una nota de prensa es el gesto de escaparate; nominal describiria un titulo vacio, no una concesion"
+ },
+ "648864e6c53703ce": {
+  "w": "stringent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exacting",
+  "note": "controles fronterizos con certificados, inspecciones y fianza: la dureza esta en la norma escrita; exacting mira a quien debe cumplir y draconian exigiria castigo desproporcionado"
+ },
+ "065f2b0d1cdc8f7c": {
+  "w": "exacting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stringent",
+  "note": "un maestro que hace repetir la misma frase cuatrocientas veces exige esfuerzo a la persona; stringent se predica de reglamentos, no de maestros"
+ },
+ "ced8ab8f22fd1b7c": {
+  "w": "draconian",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stringent",
+  "note": "diez anos por una primera falta es desproporcion entre pena y delito, que es justo lo que draconian nombra; stringent solo diria que la norma aprieta"
+ },
+ "c5f471a1c56f3c22": {
+  "w": "arbitrary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "despotic",
+  "note": "que la promocion dependa del humor del director tras la comida es ausencia de criterio; despotic hablaria de cuanto poder concentra, no de con que criterio decide"
+ },
+ "5765f94c8aa58b55": {
+  "w": "despotic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "arbitrary",
+  "note": "ninguna institucion puede actuar sin el palacio: poder personal sin contrapesos; arbitrary describiria decisiones sin criterio, que la oracion no menciona"
+ },
+ "8750e424e35447d1": {
+  "w": "anomalous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aberrant",
+  "note": "el criterio explicito es 'no encaja con el modelo', que es la definicion de anomalia; aberrant exigiria desviacion patologica y peculiar sin to seria juicio coloquial"
+ },
+ "1fc9f04da3d4dc8d": {
+  "w": "aberrant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eccentric",
+  "note": "'in clinical language, as if it were a symptom' fija el registro patologico; eccentric nunca es clinico y anomalous no diagnostica"
+ },
+ "dc972f9f015ff966": {
+  "w": "idiosyncratic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eccentric",
+  "note": "'every editor has an ___ set of rules' implica que todos tienen la suya: eso es propio de cada uno, no rareza — eccentric no lo tiene todo el mundo"
+ },
+ "2f0abe1e241b32be": {
+  "w": "peculiar",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "idiosyncratic",
+  "note": "'___ to those two valleys' es la construccion exclusiva de peculiar; ningun hermano rige to con sentido de pertenencia"
+ },
+ "ee34da4d631a41ac": {
+  "w": "eccentric",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aberrant",
+  "note": "rareza tolerada de una persona entera, con simpatia y sin informe; aberrant seria clinico y outlandish exigiria afirmaciones absurdas"
+ },
+ "8d91fdb2d97a63c3": {
+  "w": "outlandish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eccentric",
+  "note": "las afirmaciones llegan al punto en que la propia revista las rechaza: absurdo, no simple rareza de caracter"
+ },
+ "72d08370bb1f7666": {
+  "w": "astringent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "trenchant",
+  "note": "lo que describe es la ausencia de consuelo y de adjetivos blandos, no un ataque ni un corte esclarecedor"
+ },
+ "5c1c70b0e3bac540": {
+  "w": "trenchant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scathing",
+  "note": "analisis que aclara treinta anos de confusion y que nadie ha mejorado: elogio por claridad, no destrozo del blanco"
+ },
+ "d990c832c93eaac7": {
+  "w": "caustic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scathing",
+  "note": "sentido literal, un derrame que se come la pintura; ningun hermano tiene acepcion quimica"
+ },
+ "f2e52981f169b6d5": {
+  "w": "acrimonious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "caustic",
+  "note": "una disputa entre dos partes que dura cuatro anos; caustic y scathing califican lo que dice o escribe uno solo"
+ },
+ "545625989a14efb9": {
+  "w": "scathing",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "trenchant",
+  "note": "severidad total del juicio (ni una sola cosa bien hecha) con consecuencias inmediatas; trenchant seria elogio y caustic describiria el tono, no el veredicto"
+ },
+ "cd91ca5201f746fa": {
+  "w": "dissent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "schism",
+  "note": "un voto particular anotado al pie que treinta anos despues es mayoria: la institucion sigue entera; schism dejaria dos cuerpos"
+ },
+ "c37fa5763dac1725": {
+  "w": "strife",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mutiny",
+  "note": "diez anos de conflicto difuso en una provincia, sin mando al que desobedecer; mutiny exige cadena de mando y schism una institucion partida"
+ },
+ "c56b245df68b717d": {
+  "w": "mutiny",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "strife",
+  "note": "tripulacion sin paga a punto de negarse a obedecer: hay superior concreto, que es lo que strife no tiene"
+ },
+ "67f1b17966028415": {
+  "w": "schism",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dissent",
+  "note": "dos iglesias, dos jerarquias y sin comunion entre ellas: la institucion quedo partida en dos, no con una minoria anotada"
+ },
+ "e64e0b16ec05071e": {
+  "w": "barren",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fallow",
+  "note": "'nothing had grown in living memory' descarta el descanso deliberado de fallow: es esterilidad sin plazo"
+ },
+ "8a563d83c5294145": {
+  "w": "fallow",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "barren",
+  "note": "se deja descansar una temporada para que el suelo se recupere: pausa elegida con regreso previsto, lo contrario de barren"
+ },
+ "4811f32c74e042b3": {
+  "w": "bereft",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "barren",
+  "note": "'___ of every idea it had in the first' exige la construccion con of y la perdida de algo que antes se tenia"
+ },
+ "5d53ccd3f14c6fbe": {
+  "w": "feeble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tenuous",
+  "note": "una voz sin fuerza que no llega a la primera fila; tenuous se dice de vinculos y pruebas, no del volumen de alguien"
+ },
+ "9544ffd0d11c71ed": {
+  "w": "tenuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feeble",
+  "note": "una conexion entre dos hechos que se sostiene solo de coincidir el mes: es lo que une lo que es delgado, no la fuerza de nada"
+ },
+ "f6ad093da5a62a5f": {
+  "w": "dissident",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "dissent",
+  "note": "unico sustantivo de persona del grupo; la oracion pide alguien que entra y sale de la carcel, asi que la unicidad la decide la gramatica, no el matiz"
+ },
+ "92378fb6ad83b052": {
+  "w": "picturesque",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "arresting",
+  "note": "bonito de postal y algo detenido en el tiempo; arresting exigiria que la vista se pare en seco y exotic, procedencia lejana"
+ },
+ "81578b8593c158cf": {
+  "w": "exotic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "picturesque",
+  "note": "lo que define a los ingredientes es que hay que traerlos en avion desde lejos, no que sean bonitos ni picantes"
+ },
+ "1920ba39d3c93159": {
+  "w": "arresting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scintillating",
+  "note": "'everybody stops in front of it' es literalmente lo que arresting significa; scintillating seria brillo verbal, no una imagen que frena"
+ },
+ "0c3d06e5fa97e116": {
+  "w": "piquant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scintillating",
+  "note": "vinagre y pimiento verde que despiertan el plato: el punto acido del gusto, terreno exclusivo de piquant"
+ },
+ "11968ff821793f6c": {
+  "w": "scintillating",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "arresting",
+  "note": "dos horas de conversacion que chispea; arresting seria visual y de golpe, y piquant solo un puntito"
+ },
+ "1b78e5836247dd96": {
+  "w": "tantalizing",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "piquant",
+  "note": "'a ___ glimpse' seguido de tres cartas y nada mas: se ensena y se retira, que es el castigo de Tantalo"
+ },
+ "4ecbd782037c7d9d": {
+  "w": "liability",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "remuneration",
+  "note": "la oposicion explicita con asset fija el termino contable; remuneration seria dinero que entra, no una carga"
+ },
+ "85aece7eb7bf8330": {
+  "w": "remuneration",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sinecure",
+  "note": "pago atado al resultado auditado, es decir contraprestacion por trabajo; sinecure seria el puesto sin obligaciones"
+ },
+ "5928443259b88711": {
+  "w": "sinecure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "boon",
+  "note": "un puesto con titulo, estipendio y ninguna obligacion: eso es literalmente un sinecure, y boon no es un cargo"
+ },
+ "a9aa24d7ad014fd4": {
+  "w": "boon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "largesse",
+  "note": "la lluvia tardia no la regala nadie: es un golpe de suerte sin donante, que es lo que largesse si exige"
+ },
+ "09b4bcfe568673ad": {
+  "w": "largesse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "boon",
+  "note": "una sola familia sosteniendo la biblioteca desde 1890 es donante con nombre y en el tiempo; el boon no tiene quien lo firme"
+ },
+ "08b4984f7957a01d": {
+  "w": "apropos",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "apposite",
+  "note": "'___ of nothing' es locucion fija y ningun hermano la admite; ademas la oracion dice justo que no venia a cuento"
+ },
+ "15d2065074a380f4": {
+  "w": "apposite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "germane",
+  "note": "ocho palabras que dicen lo que tres paginas no lograron: el elogio es al ajuste certero, no a la mera pertenencia al tema"
+ },
+ "21b4b9f1a1b90a7a": {
+  "w": "germane",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "apposite",
+  "note": "la regla parlamentaria de germaneness es termino tecnico: una enmienda debe ser germane al proyecto que enmienda, y apposite no es la formula"
+ },
+ "952606fb6e4f9800": {
+  "w": "indispensable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "imperative",
+  "note": "se predica de una persona sin la cual el sistema no funciona; imperative calificaria una accion urgente, no a alguien"
+ },
+ "64c7125874fdf92a": {
+  "w": "imperative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "indispensable",
+  "note": "'it is ___ that the valve be closed' con subjuntivo desnudo es la construccion de imperative; lo urgente es la accion, no la pieza"
+ },
+ "ca4b9ea7c608e8ff": {
+  "w": "omit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "censor",
+  "note": "'whether by accident or by design nobody could tell' admite el descuido, y eso descarta a censor y a suppress, que exigen intencion y autoridad"
+ },
+ "a42f780d208a4b6a": {
+  "w": "censor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "omit",
+  "note": "hay un lector del consejo que corta capitulos antes de autorizar el libro: instancia con potestad de tachar contenido ya escrito"
+ },
+ "f46fd10d4f154927": {
+  "w": "check",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "suppress",
+  "note": "una helada que frena el crecimiento 'just enough' para concentrar el fruto es freno parcial y benefico, no aplastamiento"
+ },
+ "a6ed774a442a3d95": {
+  "w": "neutralize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "check",
+  "note": "el aditivo anula el efecto del acido y la corrosion cesa: dejar en cero, no detener un avance"
+ },
+ "2832b5d062221a23": {
+  "w": "suppress",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "check",
+  "note": "tropas enviadas contra un alzamiento y represalias posteriores: se termina con aquello por la fuerza, que es mas que frenarlo"
+ },
+ "9c2877937a4e10cd": {
+  "w": "elicit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "evoke",
+  "note": "tres horas de interrogatorio que solo sacan cuatro palabras: hay quien pregunta y quien suelta, que es la firma de elicit; evoke pediria recuerdo o ambiente"
+ },
+ "cabe9cc09782c9ff": {
+  "w": "evoke",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elicit",
+  "note": "el sujeto es un olor y lo que aparece es un internado recordado: estimulo que llama a la memoria, no interrogador que arranca respuestas"
+ },
+ "25251b97a1352593": {
+  "w": "underscore",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elucidate",
+  "note": "el derrumbe recalca algo que los ingenieros ya venian diciendo y todos entendian; elucidate exigiria oscuridad previa"
+ },
+ "1f7704f1ad9f50d5": {
+  "w": "elucidate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "distill",
+  "note": "'that four commentaries had left dark' declara la oscuridad previa; underscore solo subrayaria lo ya entendido y distill exigiria masa que reducir"
+ },
+ "58c1111e3ec81a01": {
+  "w": "distill",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elucidate",
+  "note": "'___ thirty years into forty pages' es la construccion de destilar: mucho material que se concentra en poco"
+ },
+ "0e9e7641e03da706": {
+  "w": "edify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elucidate",
+  "note": "'meant to ___ as much as to entertain' con el remate de que nadie lo veia apunta a la mejora moral del espectador, no a aclarar un contenido"
+ },
+ "bdb67883e9bfb9c5": {
+  "w": "fortitude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "perseverance",
+  "note": "once meses de tratamiento soportados, sin meta propia ni intentos repetidos: aguante ante lo inevitable"
+ },
+ "e676b6d92fb92c35": {
+  "w": "perseverance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fortitude",
+  "note": "cuatro veces el mismo examen es insistencia hacia una meta propia; fortitude no supone objetivo, solo golpes recibidos"
+ },
+ "e2dd82a8e1d4fac8": {
+  "w": "valor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fortitude",
+  "note": "'___ under fire' en una citacion militar es coraje activo ante el peligro fisico, no aguante de una adversidad"
+ },
+ "e43f6afb866a3822": {
+  "w": "prowess",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "valor",
+  "note": "destreza en el campo de juego contrapuesta al juicio fuera de el: habilidad medible, no coraje"
+ },
+ "bcfa2946fc46fc8a": {
+  "w": "acumen",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prowess",
+  "note": "'business ___' es colocacion fija y lo que salva a la empresa es el juicio, no la destreza fisica"
+ },
+ "0d1fc5b818848a7b": {
+  "w": "discrepancy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "misnomer",
+  "note": "novecientas libras de diferencia entre dos libros que deberian coincidir: desajuste cuantificable entre dos registros"
+ },
+ "ee8c0e27e1510f08": {
+  "w": "misnomer",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "discrepancy",
+  "note": "el problema esta en el nombre elegido frente a la cosa nombrada, no entre dos datos ni entre dos categorias"
+ },
+ "7177c5c282246a90": {
+  "w": "dichotomy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "antithesis",
+  "note": "'a false ___ between' es colocacion fija; antithesis rige of y seria el reverso de algo, no una particion en dos opciones"
+ },
+ "9a22e1c09aa8971e": {
+  "w": "antithesis",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dichotomy",
+  "note": "'the ___ of everything the founder wrote' exige un termino del que ser el reverso exacto, con of; dichotomy pediria between"
+ },
+ "6831c92bd98847e9": {
+  "w": "hodgepodge",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dichotomy",
+  "note": "farsa, sermon y numero musical en veinte minutos son muchos elementos revueltos sin orden, no dos categorias enfrentadas"
+ },
+ "0fc307c2ec6221b1": {
+  "w": "loathe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abhor",
+  "note": "asco sensorial ante un olor, con reaccion fisica y sin principio moral de por medio"
+ },
+ "726bdcd685b4834c": {
+  "w": "abhor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "loathe",
+  "note": "una orden religiosa que rechaza toda violencia por doctrina, hasta el punto de no llevar un palo: conviccion, no asco"
+ },
+ "6277988e4ab3e17f": {
+  "w": "deride",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disdain",
+  "note": "'___d as naive' con burla publica y el matiz de que luego lo adoptaron: el desprecio aqui se oye, y disdain callaria"
+ },
+ "4605c305caa7edac": {
+  "w": "spurn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disdain",
+  "note": "'was ___ed' en pasiva con un pretendiente rechazado es la construccion propia de spurn; disdain no admite esa pasiva con naturalidad"
+ },
+ "a1d765b2eb933fd0": {
+  "w": "disdain",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "spurn",
+  "note": "'___ to answer' rige infinitivo: no es rechazar algo ofrecido sino no rebajarse a contestar"
+ },
+ "d0ebdf93490c7af2": {
+  "w": "conspicuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "patent",
+  "note": "'___ by his absence' es locucion fija; ningun hermano entra en ella"
+ },
+ "e7d6aa3b07334ff4": {
+  "w": "overt",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "conspicuous",
+  "note": "la oposicion es entre presion callada y amenaza declarada, es decir oculto frente a abierto: el eje de overt frente a covert"
+ },
+ "7d849a8ded7ccda8": {
+  "w": "patent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "manifest",
+  "note": "'___ nonsense' es la colocacion fija del registro polemico; manifest pediria 'manifest in' con algo donde se muestre"
+ },
+ "906985ecd18248a1": {
+  "w": "manifest",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "patent",
+  "note": "'___ in every line of the accounts' senala donde se muestra la cosa, que es la construccion de manifest; palpable se reserva a atmosferas"
+ },
+ "1dfc3580487d5711": {
+  "w": "palpable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "manifest",
+  "note": "el alivio de una sala es atmosfera colectiva que casi se toca, terreno propio de palpable; manifest exigiria signos concretos donde comprobarlo"
+ },
+ "4ebc0cbed1e94313": {
+  "w": "mendacity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "chicanery",
+  "note": "mentir de forma tan consistente que hay que verificar hasta el lugar de nacimiento: es cuestion de lo que se dice, no de maniobras"
+ },
+ "53e671f3d2886295": {
+  "w": "chicanery",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "skullduggery",
+  "note": "'not one illegal act' descarta a skullduggery: son clausulas y plazos usados dentro de la ley"
+ },
+ "ed275f83183ecad4": {
+  "w": "skullduggery",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "chicanery",
+  "note": "urnas que nunca salieron del despacho del alcalde son manejos ilegales a escondidas, no argucias legales"
+ },
+ "553786151ed09340": {
+  "w": "delusion",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mendacity",
+  "note": "'under the ___ that' con una creencia sostenida contra dos negativas previas: el enganado es el mismo sujeto"
+ },
+ "f950ffe144abea91": {
+  "w": "verisimilitude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "delusion",
+  "note": "papel, tinta y letra correctos son la apariencia de verdad fabricada en el objeto, no una creencia en la cabeza de nadie"
+ },
+ "142c0942fff56e6d": {
+  "w": "adulterate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "distort",
+  "note": "'___d with something cheaper' es la construccion de mezclar una sustancia peor; distort deformaria la forma sin anadir nada"
+ },
+ "792fa69906a09cf4": {
+  "w": "distort",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "adulterate",
+  "note": "citar una frase suelta para torcer la posicion de alguien es deformacion del sentido, no mezcla de sustancias"
+ },
+ "5af6de7810c0eddf": {
+  "w": "desiccate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "enervate",
+  "note": "dos veranos sin lluvia sobre la capa de suelo: se quita agua, y enervate quitaria energia a un ser vivo"
+ },
+ "4f04d0394fe1f129": {
+  "w": "enervate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "desiccate",
+  "note": "el calor deja sin fuerzas a una ciudad entera; una ciudad no se seca, y fester exigiria abandono prolongado de una herida"
+ },
+ "6b96430351a52890": {
+  "w": "fester",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "enervate",
+  "note": "un agravio dejado once anos sin atender que empeora solo: la firma de fester es el tiempo mas el abandono"
+ },
+ "4ce5b0c2334f77c4": {
+  "w": "refine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "elaborate",
+  "note": "mas temporadas de medicion que bajan el error por debajo del uno por ciento: se gana precision quitando imprecision"
+ },
+ "b8fb9b8b74d796aa": {
+  "w": "elaborate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "embellish",
+  "note": "'asked to ___ on the point' es la construccion intransitiva con on; los demas rigen objeto directo"
+ },
+ "4d3635bfcc2bced9": {
+  "w": "bolster",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "refine",
+  "note": "dos estudios mas que apuntalan una tesis que solo tenia una excavacion: apoyo externo anadido, la cosa no cambia por dentro"
+ },
+ "f825e14941b6ea25": {
+  "w": "burnish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "embellish",
+  "note": "el premio es real y lo que hace es sacarle brillo a unas credenciales existentes; embellish implicaria anadir lo que no habia"
+ },
+ "c24cee7141c4749a": {
+  "w": "embellish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "burnish",
+  "note": "en cada version aparecen perros que ningun informe menciono: son detalles nuevos e inventados"
+ },
+ "230db9b1c1ca491a": {
+  "w": "haphazard",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "desultory",
+  "note": "facturas mezcladas con fotografias y tres anos que faltan: es un conjunto sin criterio, no una secuencia que salta de tema"
+ },
+ "c3d622b4fd830a7e": {
+  "w": "desultory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "haphazard",
+  "note": "la charla salta del tiempo al divorcio y vuelve al tiempo: discontinuidad en una secuencia, no desorden de un conjunto"
+ },
+ "7001505eebc3fd8b": {
+  "w": "superficial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "desultory",
+  "note": "tiene los numeros pero no la nota que los explica: recorrio el asunto y se quedo arriba, que es justo lo que desultory no hace"
+ },
+ "e81983d1ff3ccd88": {
+  "w": "dilatory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "plodding",
+  "note": "cuatro meses para acusar recibo y seis para contestar: el defecto es el aplazamiento, no la lentitud del trabajo hecho"
+ },
+ "1edf362d267c885f": {
+  "w": "plodding",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dilatory",
+  "note": "la prosa llega al final paso a paso y sin repeticion: hay trabajo hecho, solo que sin ligereza"
+ },
+ "dba72c786635b70f": {
+  "w": "daunting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "arduous",
+  "note": "'but the seminars turn out to be gentle' revela que el miedo estaba en la expectativa, no en el esfuerzo posterior"
+ },
+ "db2e033cb99b2204": {
+  "w": "cumbersome",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "onerous",
+  "note": "cuatro firmas y una oficina que cierra a mediodia describen un mecanismo torpe; onerous pediria una obligacion que pesa"
+ },
+ "99b79322f627beb0": {
+  "w": "arduous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "daunting",
+  "note": "nueve horas de subida sin sitio donde sentarse es cansancio durante el trayecto, no intimidacion previa"
+ },
+ "10b9e239697f907b": {
+  "w": "onerous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cumbersome",
+  "note": "presentar cuentas mensuales por una deuda ya pagada es carga impuesta por unos terminos, no un procedimiento mal disenado"
+ },
+ "278a66026676db84": {
+  "w": "exigent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "onerous",
+  "note": "'___ circumstances' con entrada sin orden judicial es termino tecnico y significa urgencia, no gravamen"
+ },
+ "b0c81043be643b33": {
+  "w": "frivolous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "futile",
+  "note": "desestimar una demanda con costas es el uso tecnico de frivolous: no merecia plantearse; futile diria que no podia prosperar"
+ },
+ "7e71efd2b2cad587": {
+  "w": "futile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "frivolous",
+  "note": "el plazo ya habia vencido antes de escribir el primer recurso, o sea imposibilidad de resultado, no falta de seriedad"
+ },
+ "dfd24ff7a6bceabc": {
+  "w": "fanciful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quixotic",
+  "note": "un jet que nadie recuerda y un contrato que nadie ha visto: lo que se cuenta no tiene base, y no hay empresa emprendida"
+ },
+ "f88fd6427bb2cb11": {
+  "w": "quixotic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "visionary",
+  "note": "un hombre, una bicicleta y todas las oficinas de correos del condado: nobleza mas desproporcion comica, y el hablante ya sabe que no saldra"
+ },
+ "18eb07c0ee0cbd90": {
+  "w": "visionary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quixotic",
+  "note": "hoy se le llama asi en las historias del proyecto porque acerto; quixotic exigiria que la empresa hubiera fracasado y fanciful describiria el plan como invento"
+ },
+ "aa87ab1db3b8b88a": {
+  "w": "perpetrate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abet",
+  "note": "el enganno lo cometen dos estudiantes: autores del acto, no colaboradores"
+ },
+ "e9ce8341270a2056": {
+  "w": "abet",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "perpetrate",
+  "note": "'even without touching the money' deja al sujeto a un paso del acto, que es exactamente la posicion del que ayuda"
+ },
+ "3defabe010d32d0b": {
+  "w": "betray",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abet",
+  "note": "traicionar a los hombres que lo habian escondido exige confianza previa rota; abet solo ayudaria a cometer un dano sin lealtad de por medio"
+ },
+ "32e5d3f95e81a784": {
+  "w": "encroach",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "marginalize",
+  "note": "'___ed on the meadow, a metre at a time' es avance gradual sobre un espacio ajeno; marginalize actuaria sobre personas"
+ },
+ "d7eb32f7ffc36f38": {
+  "w": "marginalize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "encroach",
+  "note": "a las personas se las consulta al final y se las escucha menos: se las empuja al borde, no se invade su terreno"
+ },
+ "7615bfdd7b6a62f0": {
+  "w": "modest",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "understated",
+  "note": "un aumento del cuatro por ciento es cantidad pequena; understated calificaria la presentacion de algo, no una cifra"
+ },
+ "095f62d42c0ae86a": {
+  "w": "understated",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "modest",
+  "note": "habia con que lucirse y se eligio no hacerlo, y el efecto tarda en notarse: contencion estetica deliberada"
+ },
+ "2f1cf3a64cf3abc9": {
+  "w": "discreet",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "understated",
+  "note": "una palabra al oido que resuelve el asunto antes de que nadie sepa que lo habia: no llamar la atencion ni divulgar"
+ },
+ "0ce577670f3c926e": {
+  "w": "sober",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "staid",
+  "note": "una valoracion sin euforia tras una semana de celebracion; staid calificaria un caracter permanente, no un juicio puntual"
+ },
+ "37a40a2916a1ebb6": {
+  "w": "staid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sober",
+  "note": "ni la alfombra ni el membrete han cambiado desde 1970: condicion permanente y aburrida de una institucion"
+ },
+ "1f72deef36e6f2c5": {
+  "w": "platitude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aphorism",
+  "note": "cuarenta minutos sobre el trabajo duro y el futuro sin una sola cifra: solemnidad hueca, lo contrario del filo del aphorism"
+ },
+ "f035a6b4b86b035c": {
+  "w": "euphemism",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hyperbole",
+  "note": "'___ for' seguido del hecho duro que la palabra suave sustituye es la construccion propia de euphemism"
+ },
+ "9f3e0b6eed9c11d4": {
+  "w": "hyperbole",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "euphemism",
+  "note": "'el mayor descubrimiento desde el fuego' infla a sabiendas y sin enganar a nadie: exageracion retorica"
+ },
+ "a75fe1157839a39f": {
+  "w": "aphorism",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dictum",
+  "note": "ocho palabras cada una y la mitad dignas de copiarse: brevedad con filo y merito literario, no autoridad institucional"
+ },
+ "db99d8015613d724": {
+  "w": "dictum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "aphorism",
+  "note": "un tribunal que sigue citando la maxima de que nadie puede beneficiarse de su propio ilicito: autoridad que zanja, registro juridico"
+ },
+ "20f736c2d2748a1e": {
+  "w": "scorn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "patronize",
+  "note": "rechazar el aventon y caminar cuatro millas bajo la lluvia es desprecio en acto; ningun hermano significa rechazar algo ofrecido"
+ },
+ "c519da4461346bc1": {
+  "w": "patronize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "scorn",
+  "note": "explicar el chiste dos veces y mas despacio es superioridad envuelta en amabilidad, no rechazo frontal"
+ },
+ "ba4ffdf59ee3a98c": {
+  "w": "quibble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lampoon",
+  "note": "discutir la redaccion de una clausula mientras el edificio arde es pelea por menudencias, en serio y sin publico"
+ },
+ "ff14335e0c7b1f06": {
+  "w": "lampoon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "quibble",
+  "note": "un caricaturista que ridiculiza al ministro cada jueves con el mismo sombrero: satira publicada con blanco publico"
+ },
+ "5cc8a00d7bf357b3": {
+  "w": "gloat",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lampoon",
+  "note": "repetir el marcador a quien no lo ha pedido tras un desenlace ya ocurrido es regodeo personal, no satira ni discusion"
+ },
+ "2bdfe8545dffc554": {
+  "w": "inborn",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intrinsic",
+  "note": "un sentido del equilibrio que diez anos de clases no dan: se nace con el, y el sujeto es una persona"
+ },
+ "24d9b987237b3405": {
+  "w": "intrinsic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inborn",
+  "note": "el valor es el peso de la plata, propiedad de la cosa misma frente a lo que pague un coleccionista; una moneda no nace"
+ },
+ "d573920c61913c6e": {
+  "w": "implicit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tacit",
+  "note": "'___ in every paragraph of the letter' senala el texto que lo contiene plegado; tacit describiria un entendimiento entre personas"
+ },
+ "d69897aa5016863a": {
+  "w": "tacit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "implicit",
+  "note": "el silencio de quienes podian pararlo equivale a consentimiento: eso es tacere, callar y con ello aprobar"
+ },
+ "f7c9bf68aecd66da": {
+  "w": "corporeal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intrinsic",
+  "note": "las tablas crujen bajo su peso, o sea que aquello tiene materia; ningun hermano afirma existencia fisica"
+ }
+}

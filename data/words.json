@@ -1,0 +1,5562 @@
+[
+ {
+  "w": "abound",
+  "gmGroup": "Group 1",
+  "gmRow": 0
+ },
+ {
+  "w": "amorphous",
+  "gmGroup": "Group 1",
+  "gmRow": 1
+ },
+ {
+  "w": "austere",
+  "gmGroup": "Group 1",
+  "gmRow": 2
+ },
+ {
+  "w": "belie",
+  "gmGroup": "Group 1",
+  "gmRow": 3
+ },
+ {
+  "w": "capricious",
+  "gmGroup": "Group 1",
+  "gmRow": 4
+ },
+ {
+  "w": "cerebral",
+  "gmGroup": "Group 1",
+  "gmRow": 5
+ },
+ {
+  "w": "congenial",
+  "gmGroup": "Group 1",
+  "gmRow": 6
+ },
+ {
+  "w": "conspicuous",
+  "gmGroup": "Group 1",
+  "gmRow": 7
+ },
+ {
+  "w": "cursory",
+  "gmGroup": "Group 1",
+  "gmRow": 8
+ },
+ {
+  "w": "daunting",
+  "gmGroup": "Group 1",
+  "gmRow": 9
+ },
+ {
+  "w": "deify",
+  "gmGroup": "Group 1",
+  "gmRow": 10
+ },
+ {
+  "w": "didactic",
+  "gmGroup": "Group 1",
+  "gmRow": 11
+ },
+ {
+  "w": "disseminate",
+  "gmGroup": "Group 1",
+  "gmRow": 12
+ },
+ {
+  "w": "feasible",
+  "gmGroup": "Group 1",
+  "gmRow": 13
+ },
+ {
+  "w": "flout",
+  "gmGroup": "Group 1",
+  "gmRow": 14
+ },
+ {
+  "w": "homogeneous",
+  "gmGroup": "Group 1",
+  "gmRow": 15
+ },
+ {
+  "w": "humdrum",
+  "gmGroup": "Group 1",
+  "gmRow": 16
+ },
+ {
+  "w": "insipid",
+  "gmGroup": "Group 1",
+  "gmRow": 17
+ },
+ {
+  "w": "loquacious",
+  "gmGroup": "Group 1",
+  "gmRow": 18
+ },
+ {
+  "w": "misanthropic",
+  "gmGroup": "Group 1",
+  "gmRow": 19
+ },
+ {
+  "w": "misnomer",
+  "gmGroup": "Group 1",
+  "gmRow": 20
+ },
+ {
+  "w": "negligent",
+  "gmGroup": "Group 1",
+  "gmRow": 21
+ },
+ {
+  "w": "obsequious",
+  "gmGroup": "Group 1",
+  "gmRow": 22
+ },
+ {
+  "w": "placate",
+  "gmGroup": "Group 1",
+  "gmRow": 23
+ },
+ {
+  "w": "proclivity",
+  "gmGroup": "Group 1",
+  "gmRow": 24
+ },
+ {
+  "w": "puerile",
+  "gmGroup": "Group 1",
+  "gmRow": 25
+ },
+ {
+  "w": "quixotic",
+  "gmGroup": "Group 1",
+  "gmRow": 26
+ },
+ {
+  "w": "spendthrift",
+  "gmGroup": "Group 1",
+  "gmRow": 27
+ },
+ {
+  "w": "taciturn",
+  "gmGroup": "Group 1",
+  "gmRow": 28
+ },
+ {
+  "w": "wary",
+  "gmGroup": "Group 1",
+  "gmRow": 29
+ },
+ {
+  "w": "adulterate",
+  "gmGroup": "Group 2",
+  "gmRow": 0
+ },
+ {
+  "w": "advocate",
+  "gmGroup": "Group 2",
+  "gmRow": 1
+ },
+ {
+  "w": "aggrandize",
+  "gmGroup": "Group 2",
+  "gmRow": 2
+ },
+ {
+  "w": "alacrity",
+  "gmGroup": "Group 2",
+  "gmRow": 3
+ },
+ {
+  "w": "ambivalent",
+  "gmGroup": "Group 2",
+  "gmRow": 4
+ },
+ {
+  "w": "ameliorate",
+  "gmGroup": "Group 2",
+  "gmRow": 5
+ },
+ {
+  "w": "amenable",
+  "gmGroup": "Group 2",
+  "gmRow": 6
+ },
+ {
+  "w": "anachronistic",
+  "gmGroup": "Group 2",
+  "gmRow": 7
+ },
+ {
+  "w": "audacious",
+  "gmGroup": "Group 2",
+  "gmRow": 8
+ },
+ {
+  "w": "avaricious",
+  "gmGroup": "Group 2",
+  "gmRow": 9
+ },
+ {
+  "w": "banal",
+  "gmGroup": "Group 2",
+  "gmRow": 10
+ },
+ {
+  "w": "benign",
+  "gmGroup": "Group 2",
+  "gmRow": 11
+ },
+ {
+  "w": "brazen",
+  "gmGroup": "Group 2",
+  "gmRow": 12
+ },
+ {
+  "w": "calumny",
+  "gmGroup": "Group 2",
+  "gmRow": 13
+ },
+ {
+  "w": "candid",
+  "gmGroup": "Group 2",
+  "gmRow": 14
+ },
+ {
+  "w": "castigate",
+  "gmGroup": "Group 2",
+  "gmRow": 15
+ },
+ {
+  "w": "caustic",
+  "gmGroup": "Group 2",
+  "gmRow": 16
+ },
+ {
+  "w": "construe",
+  "gmGroup": "Group 2",
+  "gmRow": 17
+ },
+ {
+  "w": "contrite",
+  "gmGroup": "Group 2",
+  "gmRow": 18
+ },
+ {
+  "w": "convoluted",
+  "gmGroup": "Group 2",
+  "gmRow": 19
+ },
+ {
+  "w": "covet",
+  "gmGroup": "Group 2",
+  "gmRow": 20
+ },
+ {
+  "w": "craven",
+  "gmGroup": "Group 2",
+  "gmRow": 21
+ },
+ {
+  "w": "decorum",
+  "gmGroup": "Group 2",
+  "gmRow": 22
+ },
+ {
+  "w": "deft",
+  "gmGroup": "Group 2",
+  "gmRow": 23
+ },
+ {
+  "w": "demur",
+  "gmGroup": "Group 2",
+  "gmRow": 24
+ },
+ {
+  "w": "derivative",
+  "gmGroup": "Group 2",
+  "gmRow": 25
+ },
+ {
+  "w": "desiccate",
+  "gmGroup": "Group 2",
+  "gmRow": 26
+ },
+ {
+  "w": "diatribe",
+  "gmGroup": "Group 2",
+  "gmRow": 27
+ },
+ {
+  "w": "incredulous",
+  "gmGroup": "Group 2",
+  "gmRow": 28
+ },
+ {
+  "w": "ingenuous",
+  "gmGroup": "Group 2",
+  "gmRow": 29
+ },
+ {
+  "w": "abate",
+  "gmGroup": "Group 3",
+  "gmRow": 0
+ },
+ {
+  "w": "abjure",
+  "gmGroup": "Group 3",
+  "gmRow": 1
+ },
+ {
+  "w": "anomalous",
+  "gmGroup": "Group 3",
+  "gmRow": 2
+ },
+ {
+  "w": "antipathy",
+  "gmGroup": "Group 3",
+  "gmRow": 3
+ },
+ {
+  "w": "arcane",
+  "gmGroup": "Group 3",
+  "gmRow": 4
+ },
+ {
+  "w": "arduous",
+  "gmGroup": "Group 3",
+  "gmRow": 5
+ },
+ {
+  "w": "artless",
+  "gmGroup": "Group 3",
+  "gmRow": 6
+ },
+ {
+  "w": "ascetic",
+  "gmGroup": "Group 3",
+  "gmRow": 7
+ },
+ {
+  "w": "assuage",
+  "gmGroup": "Group 3",
+  "gmRow": 8
+ },
+ {
+  "w": "betray",
+  "gmGroup": "Group 3",
+  "gmRow": 9
+ },
+ {
+  "w": "bucolic",
+  "gmGroup": "Group 3",
+  "gmRow": 10
+ },
+ {
+  "w": "burgeon",
+  "gmGroup": "Group 3",
+  "gmRow": 11
+ },
+ {
+  "w": "cacophonous",
+  "gmGroup": "Group 3",
+  "gmRow": 12
+ },
+ {
+  "w": "canonize",
+  "gmGroup": "Group 3",
+  "gmRow": 13
+ },
+ {
+  "w": "censure",
+  "gmGroup": "Group 3",
+  "gmRow": 14
+ },
+ {
+  "w": "chicanery",
+  "gmGroup": "Group 3",
+  "gmRow": 15
+ },
+ {
+  "w": "coalesce",
+  "gmGroup": "Group 3",
+  "gmRow": 16
+ },
+ {
+  "w": "cogent",
+  "gmGroup": "Group 3",
+  "gmRow": 17
+ },
+ {
+  "w": "compelling",
+  "gmGroup": "Group 3",
+  "gmRow": 18
+ },
+ {
+  "w": "contend",
+  "gmGroup": "Group 3",
+  "gmRow": 19
+ },
+ {
+  "w": "copious",
+  "gmGroup": "Group 3",
+  "gmRow": 20
+ },
+ {
+  "w": "cosmopolitan",
+  "gmGroup": "Group 3",
+  "gmRow": 21
+ },
+ {
+  "w": "deference",
+  "gmGroup": "Group 3",
+  "gmRow": 22
+ },
+ {
+  "w": "desultory",
+  "gmGroup": "Group 3",
+  "gmRow": 23
+ },
+ {
+  "w": "diffident",
+  "gmGroup": "Group 3",
+  "gmRow": 24
+ },
+ {
+  "w": "dilatory",
+  "gmGroup": "Group 3",
+  "gmRow": 25
+ },
+ {
+  "w": "equivocate",
+  "gmGroup": "Group 3",
+  "gmRow": 26
+ },
+ {
+  "w": "polarize",
+  "gmGroup": "Group 3",
+  "gmRow": 27
+ },
+ {
+  "w": "prodigal",
+  "gmGroup": "Group 3",
+  "gmRow": 28
+ },
+ {
+  "w": "verbose",
+  "gmGroup": "Group 3",
+  "gmRow": 29
+ },
+ {
+  "w": "abstain",
+  "gmGroup": "Group 4",
+  "gmRow": 0
+ },
+ {
+  "w": "approbation",
+  "gmGroup": "Group 4",
+  "gmRow": 1
+ },
+ {
+  "w": "cherish",
+  "gmGroup": "Group 4",
+  "gmRow": 2
+ },
+ {
+  "w": "corroborate",
+  "gmGroup": "Group 4",
+  "gmRow": 3
+ },
+ {
+  "w": "disparate",
+  "gmGroup": "Group 4",
+  "gmRow": 4
+ },
+ {
+  "w": "emulate",
+  "gmGroup": "Group 4",
+  "gmRow": 5
+ },
+ {
+  "w": "enervate",
+  "gmGroup": "Group 4",
+  "gmRow": 6
+ },
+ {
+  "w": "ephemeral",
+  "gmGroup": "Group 4",
+  "gmRow": 7
+ },
+ {
+  "w": "fervid",
+  "gmGroup": "Group 4",
+  "gmRow": 8
+ },
+ {
+  "w": "garrulous",
+  "gmGroup": "Group 4",
+  "gmRow": 9
+ },
+ {
+  "w": "incendiary",
+  "gmGroup": "Group 4",
+  "gmRow": 10
+ },
+ {
+  "w": "inimical",
+  "gmGroup": "Group 4",
+  "gmRow": 11
+ },
+ {
+  "w": "intimate",
+  "gmGroup": "Group 4",
+  "gmRow": 12
+ },
+ {
+  "w": "invigorate",
+  "gmGroup": "Group 4",
+  "gmRow": 13
+ },
+ {
+  "w": "mitigate",
+  "gmGroup": "Group 4",
+  "gmRow": 14
+ },
+ {
+  "w": "obsolete",
+  "gmGroup": "Group 4",
+  "gmRow": 15
+ },
+ {
+  "w": "opaque",
+  "gmGroup": "Group 4",
+  "gmRow": 16
+ },
+ {
+  "w": "paradigmatic",
+  "gmGroup": "Group 4",
+  "gmRow": 17
+ },
+ {
+  "w": "pedantic",
+  "gmGroup": "Group 4",
+  "gmRow": 18
+ },
+ {
+  "w": "placid",
+  "gmGroup": "Group 4",
+  "gmRow": 19
+ },
+ {
+  "w": "polemical",
+  "gmGroup": "Group 4",
+  "gmRow": 20
+ },
+ {
+  "w": "precipitate",
+  "gmGroup": "Group 4",
+  "gmRow": 21
+ },
+ {
+  "w": "profundity",
+  "gmGroup": "Group 4",
+  "gmRow": 22
+ },
+ {
+  "w": "prophetic",
+  "gmGroup": "Group 4",
+  "gmRow": 23
+ },
+ {
+  "w": "prudent",
+  "gmGroup": "Group 4",
+  "gmRow": 24
+ },
+ {
+  "w": "punctilious",
+  "gmGroup": "Group 4",
+  "gmRow": 25
+ },
+ {
+  "w": "recondite",
+  "gmGroup": "Group 4",
+  "gmRow": 26
+ },
+ {
+  "w": "scrupulous",
+  "gmGroup": "Group 4",
+  "gmRow": 27
+ },
+ {
+  "w": "tranquil",
+  "gmGroup": "Group 4",
+  "gmRow": 28
+ },
+ {
+  "w": "vacillate",
+  "gmGroup": "Group 4",
+  "gmRow": 29
+ },
+ {
+  "w": "aloof",
+  "gmGroup": "Group 5",
+  "gmRow": 0
+ },
+ {
+  "w": "clangor",
+  "gmGroup": "Group 5",
+  "gmRow": 1
+ },
+ {
+  "w": "conventional",
+  "gmGroup": "Group 5",
+  "gmRow": 2
+ },
+ {
+  "w": "debunk",
+  "gmGroup": "Group 5",
+  "gmRow": 3
+ },
+ {
+  "w": "diminutive",
+  "gmGroup": "Group 5",
+  "gmRow": 4
+ },
+ {
+  "w": "discernible",
+  "gmGroup": "Group 5",
+  "gmRow": 5
+ },
+ {
+  "w": "enigmatic",
+  "gmGroup": "Group 5",
+  "gmRow": 6
+ },
+ {
+  "w": "estranged",
+  "gmGroup": "Group 5",
+  "gmRow": 7
+ },
+ {
+  "w": "extravagant",
+  "gmGroup": "Group 5",
+  "gmRow": 8
+ },
+ {
+  "w": "fanciful",
+  "gmGroup": "Group 5",
+  "gmRow": 9
+ },
+ {
+  "w": "frivolous",
+  "gmGroup": "Group 5",
+  "gmRow": 10
+ },
+ {
+  "w": "heterogeneous",
+  "gmGroup": "Group 5",
+  "gmRow": 11
+ },
+ {
+  "w": "imperious",
+  "gmGroup": "Group 5",
+  "gmRow": 12
+ },
+ {
+  "w": "impertinent",
+  "gmGroup": "Group 5",
+  "gmRow": 13
+ },
+ {
+  "w": "invasive",
+  "gmGroup": "Group 5",
+  "gmRow": 14
+ },
+ {
+  "w": "irresolute",
+  "gmGroup": "Group 5",
+  "gmRow": 15
+ },
+ {
+  "w": "laudable",
+  "gmGroup": "Group 5",
+  "gmRow": 16
+ },
+ {
+  "w": "lax",
+  "gmGroup": "Group 5",
+  "gmRow": 17
+ },
+ {
+  "w": "marginalize",
+  "gmGroup": "Group 5",
+  "gmRow": 18
+ },
+ {
+  "w": "panache",
+  "gmGroup": "Group 5",
+  "gmRow": 19
+ },
+ {
+  "w": "plodding",
+  "gmGroup": "Group 5",
+  "gmRow": 20
+ },
+ {
+  "w": "prosaic",
+  "gmGroup": "Group 5",
+  "gmRow": 21
+ },
+ {
+  "w": "remedial",
+  "gmGroup": "Group 5",
+  "gmRow": 22
+ },
+ {
+  "w": "restive",
+  "gmGroup": "Group 5",
+  "gmRow": 23
+ },
+ {
+  "w": "sporadic",
+  "gmGroup": "Group 5",
+  "gmRow": 24
+ },
+ {
+  "w": "stigmatize",
+  "gmGroup": "Group 5",
+  "gmRow": 25
+ },
+ {
+  "w": "undermine",
+  "gmGroup": "Group 5",
+  "gmRow": 26
+ },
+ {
+  "w": "utterly",
+  "gmGroup": "Group 5",
+  "gmRow": 27
+ },
+ {
+  "w": "weary",
+  "gmGroup": "Group 5",
+  "gmRow": 28
+ },
+ {
+  "w": "zealous",
+  "gmGroup": "Group 5",
+  "gmRow": 29
+ },
+ {
+  "w": "admonish",
+  "gmGroup": "Group 6",
+  "gmRow": 0
+ },
+ {
+  "w": "aesthetic",
+  "gmGroup": "Group 6",
+  "gmRow": 1
+ },
+ {
+  "w": "affectation",
+  "gmGroup": "Group 6",
+  "gmRow": 2
+ },
+ {
+  "w": "alleviate",
+  "gmGroup": "Group 6",
+  "gmRow": 3
+ },
+ {
+  "w": "analogous",
+  "gmGroup": "Group 6",
+  "gmRow": 4
+ },
+ {
+  "w": "bolster",
+  "gmGroup": "Group 6",
+  "gmRow": 5
+ },
+ {
+  "w": "chauvinistic",
+  "gmGroup": "Group 6",
+  "gmRow": 6
+ },
+ {
+  "w": "connoisseur",
+  "gmGroup": "Group 6",
+  "gmRow": 7
+ },
+ {
+  "w": "dissemble",
+  "gmGroup": "Group 6",
+  "gmRow": 8
+ },
+ {
+  "w": "dogged",
+  "gmGroup": "Group 6",
+  "gmRow": 9
+ },
+ {
+  "w": "dupe",
+  "gmGroup": "Group 6",
+  "gmRow": 10
+ },
+ {
+  "w": "empirical",
+  "gmGroup": "Group 6",
+  "gmRow": 11
+ },
+ {
+  "w": "engender",
+  "gmGroup": "Group 6",
+  "gmRow": 12
+ },
+ {
+  "w": "entitled",
+  "gmGroup": "Group 6",
+  "gmRow": 13
+ },
+ {
+  "w": "pertinacious",
+  "gmGroup": "Group 6",
+  "gmRow": 14
+ },
+ {
+  "w": "presumptuous",
+  "gmGroup": "Group 6",
+  "gmRow": 15
+ },
+ {
+  "w": "probity",
+  "gmGroup": "Group 6",
+  "gmRow": 16
+ },
+ {
+  "w": "proliferate",
+  "gmGroup": "Group 6",
+  "gmRow": 17
+ },
+ {
+  "w": "specious",
+  "gmGroup": "Group 6",
+  "gmRow": 18
+ },
+ {
+  "w": "spurious",
+  "gmGroup": "Group 6",
+  "gmRow": 19
+ },
+ {
+  "w": "subjective",
+  "gmGroup": "Group 6",
+  "gmRow": 20
+ },
+ {
+  "w": "subvert",
+  "gmGroup": "Group 6",
+  "gmRow": 21
+ },
+ {
+  "w": "timorous",
+  "gmGroup": "Group 6",
+  "gmRow": 22
+ },
+ {
+  "w": "tortuous",
+  "gmGroup": "Group 6",
+  "gmRow": 23
+ },
+ {
+  "w": "tractable",
+  "gmGroup": "Group 6",
+  "gmRow": 24
+ },
+ {
+  "w": "transient",
+  "gmGroup": "Group 6",
+  "gmRow": 25
+ },
+ {
+  "w": "ubiquitous",
+  "gmGroup": "Group 6",
+  "gmRow": 26
+ },
+ {
+  "w": "underscore",
+  "gmGroup": "Group 6",
+  "gmRow": 27
+ },
+ {
+  "w": "venal",
+  "gmGroup": "Group 6",
+  "gmRow": 28
+ },
+ {
+  "w": "venerate",
+  "gmGroup": "Group 6",
+  "gmRow": 29
+ },
+ {
+  "w": "appease",
+  "gmGroup": "Group 7",
+  "gmRow": 0
+ },
+ {
+  "w": "arbitrary",
+  "gmGroup": "Group 7",
+  "gmRow": 1
+ },
+ {
+  "w": "archaic",
+  "gmGroup": "Group 7",
+  "gmRow": 2
+ },
+ {
+  "w": "clamorous",
+  "gmGroup": "Group 7",
+  "gmRow": 3
+ },
+ {
+  "w": "dearth",
+  "gmGroup": "Group 7",
+  "gmRow": 4
+ },
+ {
+  "w": "explicable",
+  "gmGroup": "Group 7",
+  "gmRow": 5
+ },
+ {
+  "w": "hyperbole",
+  "gmGroup": "Group 7",
+  "gmRow": 6
+ },
+ {
+  "w": "immutable",
+  "gmGroup": "Group 7",
+  "gmRow": 7
+ },
+ {
+  "w": "indefatigable",
+  "gmGroup": "Group 7",
+  "gmRow": 8
+ },
+ {
+  "w": "indolent",
+  "gmGroup": "Group 7",
+  "gmRow": 9
+ },
+ {
+  "w": "insular",
+  "gmGroup": "Group 7",
+  "gmRow": 10
+ },
+ {
+  "w": "intransigent",
+  "gmGroup": "Group 7",
+  "gmRow": 11
+ },
+ {
+  "w": "intrepid",
+  "gmGroup": "Group 7",
+  "gmRow": 12
+ },
+ {
+  "w": "irreverent",
+  "gmGroup": "Group 7",
+  "gmRow": 13
+ },
+ {
+  "w": "loathe",
+  "gmGroup": "Group 7",
+  "gmRow": 14
+ },
+ {
+  "w": "malign",
+  "gmGroup": "Group 7",
+  "gmRow": 15
+ },
+ {
+  "w": "malleable",
+  "gmGroup": "Group 7",
+  "gmRow": 16
+ },
+ {
+  "w": "neophyte",
+  "gmGroup": "Group 7",
+  "gmRow": 17
+ },
+ {
+  "w": "plastic",
+  "gmGroup": "Group 7",
+  "gmRow": 18
+ },
+ {
+  "w": "platitude",
+  "gmGroup": "Group 7",
+  "gmRow": 19
+ },
+ {
+  "w": "prescient",
+  "gmGroup": "Group 7",
+  "gmRow": 20
+ },
+ {
+  "w": "pristine",
+  "gmGroup": "Group 7",
+  "gmRow": 21
+ },
+ {
+  "w": "reproach",
+  "gmGroup": "Group 7",
+  "gmRow": 22
+ },
+ {
+  "w": "robust",
+  "gmGroup": "Group 7",
+  "gmRow": 23
+ },
+ {
+  "w": "salubrious",
+  "gmGroup": "Group 7",
+  "gmRow": 24
+ },
+ {
+  "w": "sanction",
+  "gmGroup": "Group 7",
+  "gmRow": 25
+ },
+ {
+  "w": "sedulous",
+  "gmGroup": "Group 7",
+  "gmRow": 26
+ },
+ {
+  "w": "soporific",
+  "gmGroup": "Group 7",
+  "gmRow": 27
+ },
+ {
+  "w": "stern",
+  "gmGroup": "Group 7",
+  "gmRow": 28
+ },
+ {
+  "w": "tendentious",
+  "gmGroup": "Group 7",
+  "gmRow": 29
+ },
+ {
+  "w": "accentuate",
+  "gmGroup": "Group 8",
+  "gmRow": 0
+ },
+ {
+  "w": "conjectural",
+  "gmGroup": "Group 8",
+  "gmRow": 1
+ },
+ {
+  "w": "convivial",
+  "gmGroup": "Group 8",
+  "gmRow": 2
+ },
+ {
+  "w": "decadent",
+  "gmGroup": "Group 8",
+  "gmRow": 3
+ },
+ {
+  "w": "egregious",
+  "gmGroup": "Group 8",
+  "gmRow": 4
+ },
+ {
+  "w": "evanescent",
+  "gmGroup": "Group 8",
+  "gmRow": 5
+ },
+ {
+  "w": "flamboyant",
+  "gmGroup": "Group 8",
+  "gmRow": 6
+ },
+ {
+  "w": "forestall",
+  "gmGroup": "Group 8",
+  "gmRow": 7
+ },
+ {
+  "w": "gainsay",
+  "gmGroup": "Group 8",
+  "gmRow": 8
+ },
+ {
+  "w": "galvanize",
+  "gmGroup": "Group 8",
+  "gmRow": 9
+ },
+ {
+  "w": "indiscriminate",
+  "gmGroup": "Group 8",
+  "gmRow": 10
+ },
+ {
+  "w": "innocuous",
+  "gmGroup": "Group 8",
+  "gmRow": 11
+ },
+ {
+  "w": "momentary",
+  "gmGroup": "Group 8",
+  "gmRow": 12
+ },
+ {
+  "w": "mundane",
+  "gmGroup": "Group 8",
+  "gmRow": 13
+ },
+ {
+  "w": "nettlesome",
+  "gmGroup": "Group 8",
+  "gmRow": 14
+ },
+ {
+  "w": "nullify",
+  "gmGroup": "Group 8",
+  "gmRow": 15
+ },
+ {
+  "w": "obviate",
+  "gmGroup": "Group 8",
+  "gmRow": 16
+ },
+ {
+  "w": "omnipresent",
+  "gmGroup": "Group 8",
+  "gmRow": 17
+ },
+ {
+  "w": "oust",
+  "gmGroup": "Group 8",
+  "gmRow": 18
+ },
+ {
+  "w": "palpable",
+  "gmGroup": "Group 8",
+  "gmRow": 19
+ },
+ {
+  "w": "perfidy",
+  "gmGroup": "Group 8",
+  "gmRow": 20
+ },
+ {
+  "w": "profuse",
+  "gmGroup": "Group 8",
+  "gmRow": 21
+ },
+ {
+  "w": "pugnacious",
+  "gmGroup": "Group 8",
+  "gmRow": 22
+ },
+ {
+  "w": "sagacious",
+  "gmGroup": "Group 8",
+  "gmRow": 23
+ },
+ {
+  "w": "sanguine",
+  "gmGroup": "Group 8",
+  "gmRow": 24
+ },
+ {
+  "w": "scant",
+  "gmGroup": "Group 8",
+  "gmRow": 25
+ },
+ {
+  "w": "skullduggery",
+  "gmGroup": "Group 8",
+  "gmRow": 26
+ },
+ {
+  "w": "trivial",
+  "gmGroup": "Group 8",
+  "gmRow": 27
+ },
+ {
+  "w": "utilitarian",
+  "gmGroup": "Group 8",
+  "gmRow": 28
+ },
+ {
+  "w": "vapid",
+  "gmGroup": "Group 8",
+  "gmRow": 29
+ },
+ {
+  "w": "boorish",
+  "gmGroup": "Group 9",
+  "gmRow": 0
+ },
+ {
+  "w": "brook",
+  "gmGroup": "Group 9",
+  "gmRow": 1
+ },
+ {
+  "w": "circumspect",
+  "gmGroup": "Group 9",
+  "gmRow": 2
+ },
+ {
+  "w": "comity",
+  "gmGroup": "Group 9",
+  "gmRow": 3
+ },
+ {
+  "w": "commensurate",
+  "gmGroup": "Group 9",
+  "gmRow": 4
+ },
+ {
+  "w": "cordial",
+  "gmGroup": "Group 9",
+  "gmRow": 5
+ },
+ {
+  "w": "deleterious",
+  "gmGroup": "Group 9",
+  "gmRow": 6
+ },
+ {
+  "w": "dichotomy",
+  "gmGroup": "Group 9",
+  "gmRow": 7
+ },
+ {
+  "w": "edify",
+  "gmGroup": "Group 9",
+  "gmRow": 8
+ },
+ {
+  "w": "elicit",
+  "gmGroup": "Group 9",
+  "gmRow": 9
+ },
+ {
+  "w": "erudite",
+  "gmGroup": "Group 9",
+  "gmRow": 10
+ },
+ {
+  "w": "fecund",
+  "gmGroup": "Group 9",
+  "gmRow": 11
+ },
+ {
+  "w": "feeble",
+  "gmGroup": "Group 9",
+  "gmRow": 12
+ },
+ {
+  "w": "felicitous",
+  "gmGroup": "Group 9",
+  "gmRow": 13
+ },
+ {
+  "w": "forbear",
+  "gmGroup": "Group 9",
+  "gmRow": 14
+ },
+ {
+  "w": "haphazard",
+  "gmGroup": "Group 9",
+  "gmRow": 15
+ },
+ {
+  "w": "hodgepodge",
+  "gmGroup": "Group 9",
+  "gmRow": 16
+ },
+ {
+  "w": "impede",
+  "gmGroup": "Group 9",
+  "gmRow": 17
+ },
+ {
+  "w": "impetuous",
+  "gmGroup": "Group 9",
+  "gmRow": 18
+ },
+ {
+  "w": "irascible",
+  "gmGroup": "Group 9",
+  "gmRow": 19
+ },
+ {
+  "w": "mercenary",
+  "gmGroup": "Group 9",
+  "gmRow": 20
+ },
+ {
+  "w": "meticulous",
+  "gmGroup": "Group 9",
+  "gmRow": 21
+ },
+ {
+  "w": "mordant",
+  "gmGroup": "Group 9",
+  "gmRow": 22
+ },
+ {
+  "w": "outstrip",
+  "gmGroup": "Group 9",
+  "gmRow": 23
+ },
+ {
+  "w": "precarious",
+  "gmGroup": "Group 9",
+  "gmRow": 24
+ },
+ {
+  "w": "quirky",
+  "gmGroup": "Group 9",
+  "gmRow": 25
+ },
+ {
+  "w": "repudiate",
+  "gmGroup": "Group 9",
+  "gmRow": 26
+ },
+ {
+  "w": "tact",
+  "gmGroup": "Group 9",
+  "gmRow": 27
+ },
+ {
+  "w": "trifling",
+  "gmGroup": "Group 9",
+  "gmRow": 28
+ },
+ {
+  "w": "turbulent",
+  "gmGroup": "Group 9",
+  "gmRow": 29
+ },
+ {
+  "w": "acumen",
+  "gmGroup": "Group 10",
+  "gmRow": 0
+ },
+ {
+  "w": "antithesis",
+  "gmGroup": "Group 10",
+  "gmRow": 1
+ },
+ {
+  "w": "ascribe",
+  "gmGroup": "Group 10",
+  "gmRow": 2
+ },
+ {
+  "w": "befuddled",
+  "gmGroup": "Group 10",
+  "gmRow": 3
+ },
+ {
+  "w": "eschew",
+  "gmGroup": "Group 10",
+  "gmRow": 4
+ },
+ {
+  "w": "esoteric",
+  "gmGroup": "Group 10",
+  "gmRow": 5
+ },
+ {
+  "w": "evasive",
+  "gmGroup": "Group 10",
+  "gmRow": 6
+ },
+ {
+  "w": "exculpate",
+  "gmGroup": "Group 10",
+  "gmRow": 7
+ },
+ {
+  "w": "expedite",
+  "gmGroup": "Group 10",
+  "gmRow": 8
+ },
+ {
+  "w": "fastidious",
+  "gmGroup": "Group 10",
+  "gmRow": 9
+ },
+ {
+  "w": "feign",
+  "gmGroup": "Group 10",
+  "gmRow": 10
+ },
+ {
+  "w": "furtive",
+  "gmGroup": "Group 10",
+  "gmRow": 11
+ },
+ {
+  "w": "hamper",
+  "gmGroup": "Group 10",
+  "gmRow": 12
+ },
+ {
+  "w": "indispensable",
+  "gmGroup": "Group 10",
+  "gmRow": 13
+ },
+ {
+  "w": "lament",
+  "gmGroup": "Group 10",
+  "gmRow": 14
+ },
+ {
+  "w": "myopic",
+  "gmGroup": "Group 10",
+  "gmRow": 15
+ },
+ {
+  "w": "nonchalant",
+  "gmGroup": "Group 10",
+  "gmRow": 16
+ },
+ {
+  "w": "partial",
+  "gmGroup": "Group 10",
+  "gmRow": 17
+ },
+ {
+  "w": "pensive",
+  "gmGroup": "Group 10",
+  "gmRow": 18
+ },
+ {
+  "w": "portend",
+  "gmGroup": "Group 10",
+  "gmRow": 19
+ },
+ {
+  "w": "provincial",
+  "gmGroup": "Group 10",
+  "gmRow": 20
+ },
+ {
+  "w": "rudimentary",
+  "gmGroup": "Group 10",
+  "gmRow": 21
+ },
+ {
+  "w": "salutary",
+  "gmGroup": "Group 10",
+  "gmRow": 22
+ },
+ {
+  "w": "sever",
+  "gmGroup": "Group 10",
+  "gmRow": 23
+ },
+ {
+  "w": "slight",
+  "gmGroup": "Group 10",
+  "gmRow": 24
+ },
+ {
+  "w": "somnolent",
+  "gmGroup": "Group 10",
+  "gmRow": 25
+ },
+ {
+  "w": "stoic",
+  "gmGroup": "Group 10",
+  "gmRow": 26
+ },
+ {
+  "w": "supersede",
+  "gmGroup": "Group 10",
+  "gmRow": 27
+ },
+ {
+  "w": "tout",
+  "gmGroup": "Group 10",
+  "gmRow": 28
+ },
+ {
+  "w": "wane",
+  "gmGroup": "Group 10",
+  "gmRow": 29
+ },
+ {
+  "w": "abhor",
+  "gmGroup": "Group 11",
+  "gmRow": 0
+ },
+ {
+  "w": "boisterous",
+  "gmGroup": "Group 11",
+  "gmRow": 1
+ },
+ {
+  "w": "chivalrous",
+  "gmGroup": "Group 11",
+  "gmRow": 2
+ },
+ {
+  "w": "churlish",
+  "gmGroup": "Group 11",
+  "gmRow": 3
+ },
+ {
+  "w": "clandestine",
+  "gmGroup": "Group 11",
+  "gmRow": 4
+ },
+ {
+  "w": "complacent",
+  "gmGroup": "Group 11",
+  "gmRow": 5
+ },
+ {
+  "w": "cumbersome",
+  "gmGroup": "Group 11",
+  "gmRow": 6
+ },
+ {
+  "w": "debilitating",
+  "gmGroup": "Group 11",
+  "gmRow": 7
+ },
+ {
+  "w": "deliberate",
+  "gmGroup": "Group 11",
+  "gmRow": 8
+ },
+ {
+  "w": "droll",
+  "gmGroup": "Group 11",
+  "gmRow": 9
+ },
+ {
+  "w": "eccentric",
+  "gmGroup": "Group 11",
+  "gmRow": 10
+ },
+ {
+  "w": "fractious",
+  "gmGroup": "Group 11",
+  "gmRow": 11
+ },
+ {
+  "w": "limpid",
+  "gmGroup": "Group 11",
+  "gmRow": 12
+ },
+ {
+  "w": "mawkish",
+  "gmGroup": "Group 11",
+  "gmRow": 13
+ },
+ {
+  "w": "obeisance",
+  "gmGroup": "Group 11",
+  "gmRow": 14
+ },
+ {
+  "w": "ostentatious",
+  "gmGroup": "Group 11",
+  "gmRow": 15
+ },
+ {
+  "w": "panacea",
+  "gmGroup": "Group 11",
+  "gmRow": 16
+ },
+ {
+  "w": "perfunctory",
+  "gmGroup": "Group 11",
+  "gmRow": 17
+ },
+ {
+  "w": "perilous",
+  "gmGroup": "Group 11",
+  "gmRow": 18
+ },
+ {
+  "w": "pervasive",
+  "gmGroup": "Group 11",
+  "gmRow": 19
+ },
+ {
+  "w": "preclude",
+  "gmGroup": "Group 11",
+  "gmRow": 20
+ },
+ {
+  "w": "predilection",
+  "gmGroup": "Group 11",
+  "gmRow": 21
+ },
+ {
+  "w": "rapacious",
+  "gmGroup": "Group 11",
+  "gmRow": 22
+ },
+ {
+  "w": "relish",
+  "gmGroup": "Group 11",
+  "gmRow": 23
+ },
+ {
+  "w": "satirical",
+  "gmGroup": "Group 11",
+  "gmRow": 24
+ },
+ {
+  "w": "sham",
+  "gmGroup": "Group 11",
+  "gmRow": 25
+ },
+ {
+  "w": "skirt",
+  "gmGroup": "Group 11",
+  "gmRow": 26
+ },
+ {
+  "w": "sluggish",
+  "gmGroup": "Group 11",
+  "gmRow": 27
+ },
+ {
+  "w": "spartan",
+  "gmGroup": "Group 11",
+  "gmRow": 28
+ },
+ {
+  "w": "truculent",
+  "gmGroup": "Group 11",
+  "gmRow": 29
+ },
+ {
+  "w": "acrimonious",
+  "gmGroup": "Group 12",
+  "gmRow": 0
+ },
+ {
+  "w": "belligerent",
+  "gmGroup": "Group 12",
+  "gmRow": 1
+ },
+ {
+  "w": "beneficent",
+  "gmGroup": "Group 12",
+  "gmRow": 2
+ },
+ {
+  "w": "canny",
+  "gmGroup": "Group 12",
+  "gmRow": 3
+ },
+ {
+  "w": "cavalier",
+  "gmGroup": "Group 12",
+  "gmRow": 4
+ },
+ {
+  "w": "distressed",
+  "gmGroup": "Group 12",
+  "gmRow": 5
+ },
+ {
+  "w": "dwindling",
+  "gmGroup": "Group 12",
+  "gmRow": 6
+ },
+ {
+  "w": "eclipse",
+  "gmGroup": "Group 12",
+  "gmRow": 7
+ },
+ {
+  "w": "encyclopedic",
+  "gmGroup": "Group 12",
+  "gmRow": 8
+ },
+ {
+  "w": "exacerbate",
+  "gmGroup": "Group 12",
+  "gmRow": 9
+ },
+ {
+  "w": "exasperated",
+  "gmGroup": "Group 12",
+  "gmRow": 10
+ },
+ {
+  "w": "fungible",
+  "gmGroup": "Group 12",
+  "gmRow": 11
+ },
+ {
+  "w": "hackneyed",
+  "gmGroup": "Group 12",
+  "gmRow": 12
+ },
+ {
+  "w": "incongruous",
+  "gmGroup": "Group 12",
+  "gmRow": 13
+ },
+ {
+  "w": "interchangeable",
+  "gmGroup": "Group 12",
+  "gmRow": 14
+ },
+ {
+  "w": "laconic",
+  "gmGroup": "Group 12",
+  "gmRow": 15
+ },
+ {
+  "w": "lucrative",
+  "gmGroup": "Group 12",
+  "gmRow": 16
+ },
+ {
+  "w": "magisterial",
+  "gmGroup": "Group 12",
+  "gmRow": 17
+ },
+ {
+  "w": "onerous",
+  "gmGroup": "Group 12",
+  "gmRow": 18
+ },
+ {
+  "w": "opprobrium",
+  "gmGroup": "Group 12",
+  "gmRow": 19
+ },
+ {
+  "w": "parsimonious",
+  "gmGroup": "Group 12",
+  "gmRow": 20
+ },
+ {
+  "w": "peripheral",
+  "gmGroup": "Group 12",
+  "gmRow": 21
+ },
+ {
+  "w": "provocative",
+  "gmGroup": "Group 12",
+  "gmRow": 22
+ },
+ {
+  "w": "renounce",
+  "gmGroup": "Group 12",
+  "gmRow": 23
+ },
+ {
+  "w": "tempestuous",
+  "gmGroup": "Group 12",
+  "gmRow": 24
+ },
+ {
+  "w": "tenable",
+  "gmGroup": "Group 12",
+  "gmRow": 25
+ },
+ {
+  "w": "transgression",
+  "gmGroup": "Group 12",
+  "gmRow": 26
+ },
+ {
+  "w": "urbane",
+  "gmGroup": "Group 12",
+  "gmRow": 27
+ },
+ {
+  "w": "verisimilitude",
+  "gmGroup": "Group 12",
+  "gmRow": 28
+ },
+ {
+  "w": "vitiate",
+  "gmGroup": "Group 12",
+  "gmRow": 29
+ },
+ {
+  "w": "affinity",
+  "gmGroup": "Group 13",
+  "gmRow": 0
+ },
+ {
+  "w": "altruistic",
+  "gmGroup": "Group 13",
+  "gmRow": 1
+ },
+ {
+  "w": "baroque",
+  "gmGroup": "Group 13",
+  "gmRow": 2
+ },
+ {
+  "w": "byzantine",
+  "gmGroup": "Group 13",
+  "gmRow": 3
+ },
+ {
+  "w": "compromise",
+  "gmGroup": "Group 13",
+  "gmRow": 4
+ },
+ {
+  "w": "conciliatory",
+  "gmGroup": "Group 13",
+  "gmRow": 5
+ },
+ {
+  "w": "countenance",
+  "gmGroup": "Group 13",
+  "gmRow": 6
+ },
+ {
+  "w": "covert",
+  "gmGroup": "Group 13",
+  "gmRow": 7
+ },
+ {
+  "w": "credible",
+  "gmGroup": "Group 13",
+  "gmRow": 8
+ },
+ {
+  "w": "diffuse",
+  "gmGroup": "Group 13",
+  "gmRow": 9
+ },
+ {
+  "w": "documentary",
+  "gmGroup": "Group 13",
+  "gmRow": 10
+ },
+ {
+  "w": "exhaustive",
+  "gmGroup": "Group 13",
+  "gmRow": 11
+ },
+ {
+  "w": "exhilarating",
+  "gmGroup": "Group 13",
+  "gmRow": 12
+ },
+ {
+  "w": "extraneous",
+  "gmGroup": "Group 13",
+  "gmRow": 13
+ },
+ {
+  "w": "fervor",
+  "gmGroup": "Group 13",
+  "gmRow": 14
+ },
+ {
+  "w": "futile",
+  "gmGroup": "Group 13",
+  "gmRow": 15
+ },
+ {
+  "w": "illusory",
+  "gmGroup": "Group 13",
+  "gmRow": 16
+ },
+ {
+  "w": "invidious",
+  "gmGroup": "Group 13",
+  "gmRow": 17
+ },
+ {
+  "w": "lethargic",
+  "gmGroup": "Group 13",
+  "gmRow": 18
+ },
+ {
+  "w": "metaphorical",
+  "gmGroup": "Group 13",
+  "gmRow": 19
+ },
+ {
+  "w": "mimic",
+  "gmGroup": "Group 13",
+  "gmRow": 20
+ },
+ {
+  "w": "numinous",
+  "gmGroup": "Group 13",
+  "gmRow": 21
+ },
+ {
+  "w": "obscure",
+  "gmGroup": "Group 13",
+  "gmRow": 22
+ },
+ {
+  "w": "overt",
+  "gmGroup": "Group 13",
+  "gmRow": 23
+ },
+ {
+  "w": "pellucid",
+  "gmGroup": "Group 13",
+  "gmRow": 24
+ },
+ {
+  "w": "perpetuate",
+  "gmGroup": "Group 13",
+  "gmRow": 25
+ },
+ {
+  "w": "rational",
+  "gmGroup": "Group 13",
+  "gmRow": 26
+ },
+ {
+  "w": "scathing",
+  "gmGroup": "Group 13",
+  "gmRow": 27
+ },
+ {
+  "w": "subtle",
+  "gmGroup": "Group 13",
+  "gmRow": 28
+ },
+ {
+  "w": "superficial",
+  "gmGroup": "Group 13",
+  "gmRow": 29
+ },
+ {
+  "w": "acquiesce",
+  "gmGroup": "Group 14",
+  "gmRow": 0
+ },
+ {
+  "w": "adroit",
+  "gmGroup": "Group 14",
+  "gmRow": 1
+ },
+ {
+  "w": "amend",
+  "gmGroup": "Group 14",
+  "gmRow": 2
+ },
+ {
+  "w": "animus",
+  "gmGroup": "Group 14",
+  "gmRow": 3
+ },
+ {
+  "w": "apologist",
+  "gmGroup": "Group 14",
+  "gmRow": 4
+ },
+ {
+  "w": "astringent",
+  "gmGroup": "Group 14",
+  "gmRow": 5
+ },
+ {
+  "w": "collaborate",
+  "gmGroup": "Group 14",
+  "gmRow": 6
+ },
+ {
+  "w": "competent",
+  "gmGroup": "Group 14",
+  "gmRow": 7
+ },
+ {
+  "w": "correlate",
+  "gmGroup": "Group 14",
+  "gmRow": 8
+ },
+ {
+  "w": "deride",
+  "gmGroup": "Group 14",
+  "gmRow": 9
+ },
+ {
+  "w": "dictate",
+  "gmGroup": "Group 14",
+  "gmRow": 10
+ },
+ {
+  "w": "discreet",
+  "gmGroup": "Group 14",
+  "gmRow": 11
+ },
+ {
+  "w": "divorced",
+  "gmGroup": "Group 14",
+  "gmRow": 12
+ },
+ {
+  "w": "elitist",
+  "gmGroup": "Group 14",
+  "gmRow": 13
+ },
+ {
+  "w": "exacting",
+  "gmGroup": "Group 14",
+  "gmRow": 14
+ },
+ {
+  "w": "flummoxed",
+  "gmGroup": "Group 14",
+  "gmRow": 15
+ },
+ {
+  "w": "fruitful",
+  "gmGroup": "Group 14",
+  "gmRow": 16
+ },
+ {
+  "w": "inborn",
+  "gmGroup": "Group 14",
+  "gmRow": 17
+ },
+ {
+  "w": "polymath",
+  "gmGroup": "Group 14",
+  "gmRow": 18
+ },
+ {
+  "w": "reticent",
+  "gmGroup": "Group 14",
+  "gmRow": 19
+ },
+ {
+  "w": "stringent",
+  "gmGroup": "Group 14",
+  "gmRow": 20
+ },
+ {
+  "w": "subservient",
+  "gmGroup": "Group 14",
+  "gmRow": 21
+ },
+ {
+  "w": "surreptitious",
+  "gmGroup": "Group 14",
+  "gmRow": 22
+ },
+ {
+  "w": "tantalizing",
+  "gmGroup": "Group 14",
+  "gmRow": 23
+ },
+ {
+  "w": "tantamount",
+  "gmGroup": "Group 14",
+  "gmRow": 24
+ },
+ {
+  "w": "torpor",
+  "gmGroup": "Group 14",
+  "gmRow": 25
+ },
+ {
+  "w": "trenchant",
+  "gmGroup": "Group 14",
+  "gmRow": 26
+ },
+ {
+  "w": "umbrage",
+  "gmGroup": "Group 14",
+  "gmRow": 27
+ },
+ {
+  "w": "versatile",
+  "gmGroup": "Group 14",
+  "gmRow": 28
+ },
+ {
+  "w": "wayward",
+  "gmGroup": "Group 14",
+  "gmRow": 29
+ },
+ {
+  "w": "alienate",
+  "gmGroup": "Group 15",
+  "gmRow": 0
+ },
+ {
+  "w": "apathy",
+  "gmGroup": "Group 15",
+  "gmRow": 1
+ },
+ {
+  "w": "apropos",
+  "gmGroup": "Group 15",
+  "gmRow": 2
+ },
+ {
+  "w": "apt",
+  "gmGroup": "Group 15",
+  "gmRow": 3
+ },
+ {
+  "w": "cloak",
+  "gmGroup": "Group 15",
+  "gmRow": 4
+ },
+ {
+  "w": "consensus",
+  "gmGroup": "Group 15",
+  "gmRow": 5
+ },
+ {
+  "w": "distort",
+  "gmGroup": "Group 15",
+  "gmRow": 6
+ },
+ {
+  "w": "divergent",
+  "gmGroup": "Group 15",
+  "gmRow": 7
+ },
+ {
+  "w": "elated",
+  "gmGroup": "Group 15",
+  "gmRow": 8
+ },
+ {
+  "w": "enchant",
+  "gmGroup": "Group 15",
+  "gmRow": 9
+ },
+ {
+  "w": "entrenched",
+  "gmGroup": "Group 15",
+  "gmRow": 10
+ },
+ {
+  "w": "exotic",
+  "gmGroup": "Group 15",
+  "gmRow": 11
+ },
+ {
+  "w": "exploitative",
+  "gmGroup": "Group 15",
+  "gmRow": 12
+ },
+ {
+  "w": "foreseeable",
+  "gmGroup": "Group 15",
+  "gmRow": 13
+ },
+ {
+  "w": "forsake",
+  "gmGroup": "Group 15",
+  "gmRow": 14
+ },
+ {
+  "w": "gratify",
+  "gmGroup": "Group 15",
+  "gmRow": 15
+ },
+ {
+  "w": "heed",
+  "gmGroup": "Group 15",
+  "gmRow": 16
+ },
+ {
+  "w": "judicious",
+  "gmGroup": "Group 15",
+  "gmRow": 17
+ },
+ {
+  "w": "lucid",
+  "gmGroup": "Group 15",
+  "gmRow": 18
+ },
+ {
+  "w": "pertinent",
+  "gmGroup": "Group 15",
+  "gmRow": 19
+ },
+ {
+  "w": "propriety",
+  "gmGroup": "Group 15",
+  "gmRow": 20
+ },
+ {
+  "w": "scintillating",
+  "gmGroup": "Group 15",
+  "gmRow": 21
+ },
+ {
+  "w": "sensational",
+  "gmGroup": "Group 15",
+  "gmRow": 22
+ },
+ {
+  "w": "sophisticated",
+  "gmGroup": "Group 15",
+  "gmRow": 23
+ },
+ {
+  "w": "strife",
+  "gmGroup": "Group 15",
+  "gmRow": 24
+ },
+ {
+  "w": "understated",
+  "gmGroup": "Group 15",
+  "gmRow": 25
+ },
+ {
+  "w": "unscrupulous",
+  "gmGroup": "Group 15",
+  "gmRow": 26
+ },
+ {
+  "w": "veracity",
+  "gmGroup": "Group 15",
+  "gmRow": 27
+ },
+ {
+  "w": "virulent",
+  "gmGroup": "Group 15",
+  "gmRow": 28
+ },
+ {
+  "w": "volatile",
+  "gmGroup": "Group 15",
+  "gmRow": 29
+ },
+ {
+  "w": "antedate",
+  "gmGroup": "Group 16",
+  "gmRow": 0
+ },
+ {
+  "w": "banish",
+  "gmGroup": "Group 16",
+  "gmRow": 1
+ },
+ {
+  "w": "bridle",
+  "gmGroup": "Group 16",
+  "gmRow": 2
+ },
+ {
+  "w": "comply",
+  "gmGroup": "Group 16",
+  "gmRow": 3
+ },
+ {
+  "w": "crestfallen",
+  "gmGroup": "Group 16",
+  "gmRow": 4
+ },
+ {
+  "w": "curtail",
+  "gmGroup": "Group 16",
+  "gmRow": 5
+ },
+ {
+  "w": "elucidate",
+  "gmGroup": "Group 16",
+  "gmRow": 6
+ },
+ {
+  "w": "evade",
+  "gmGroup": "Group 16",
+  "gmRow": 7
+ },
+ {
+  "w": "feckless",
+  "gmGroup": "Group 16",
+  "gmRow": 8
+ },
+ {
+  "w": "fester",
+  "gmGroup": "Group 16",
+  "gmRow": 9
+ },
+ {
+  "w": "iconoclastic",
+  "gmGroup": "Group 16",
+  "gmRow": 10
+ },
+ {
+  "w": "immure",
+  "gmGroup": "Group 16",
+  "gmRow": 11
+ },
+ {
+  "w": "improvise",
+  "gmGroup": "Group 16",
+  "gmRow": 12
+ },
+ {
+  "w": "inhibit",
+  "gmGroup": "Group 16",
+  "gmRow": 13
+ },
+ {
+  "w": "inscrutable",
+  "gmGroup": "Group 16",
+  "gmRow": 14
+ },
+ {
+  "w": "lionize",
+  "gmGroup": "Group 16",
+  "gmRow": 15
+ },
+ {
+  "w": "monotonous",
+  "gmGroup": "Group 16",
+  "gmRow": 16
+ },
+ {
+  "w": "peculiar",
+  "gmGroup": "Group 16",
+  "gmRow": 17
+ },
+ {
+  "w": "premeditate",
+  "gmGroup": "Group 16",
+  "gmRow": 18
+ },
+ {
+  "w": "profligate",
+  "gmGroup": "Group 16",
+  "gmRow": 19
+ },
+ {
+  "w": "reconcile",
+  "gmGroup": "Group 16",
+  "gmRow": 20
+ },
+ {
+  "w": "refine",
+  "gmGroup": "Group 16",
+  "gmRow": 21
+ },
+ {
+  "w": "relinquish",
+  "gmGroup": "Group 16",
+  "gmRow": 22
+ },
+ {
+  "w": "ruminate",
+  "gmGroup": "Group 16",
+  "gmRow": 23
+ },
+ {
+  "w": "skittish",
+  "gmGroup": "Group 16",
+  "gmRow": 24
+ },
+ {
+  "w": "superfluous",
+  "gmGroup": "Group 16",
+  "gmRow": 25
+ },
+ {
+  "w": "synoptic",
+  "gmGroup": "Group 16",
+  "gmRow": 26
+ },
+ {
+  "w": "thorough",
+  "gmGroup": "Group 16",
+  "gmRow": 27
+ },
+ {
+  "w": "visionary",
+  "gmGroup": "Group 16",
+  "gmRow": 28
+ },
+ {
+  "w": "vociferous",
+  "gmGroup": "Group 16",
+  "gmRow": 29
+ },
+ {
+  "w": "acclaim",
+  "gmGroup": "Group 17",
+  "gmRow": 0
+ },
+ {
+  "w": "ascertain",
+  "gmGroup": "Group 17",
+  "gmRow": 1
+ },
+ {
+  "w": "assertive",
+  "gmGroup": "Group 17",
+  "gmRow": 2
+ },
+ {
+  "w": "bogus",
+  "gmGroup": "Group 17",
+  "gmRow": 3
+ },
+ {
+  "w": "cataclysmic",
+  "gmGroup": "Group 17",
+  "gmRow": 4
+ },
+ {
+  "w": "circumscribe",
+  "gmGroup": "Group 17",
+  "gmRow": 5
+ },
+ {
+  "w": "complementary",
+  "gmGroup": "Group 17",
+  "gmRow": 6
+ },
+ {
+  "w": "contentious",
+  "gmGroup": "Group 17",
+  "gmRow": 7
+ },
+ {
+  "w": "disingenuous",
+  "gmGroup": "Group 17",
+  "gmRow": 8
+ },
+ {
+  "w": "divulge",
+  "gmGroup": "Group 17",
+  "gmRow": 9
+ },
+ {
+  "w": "dogmatic",
+  "gmGroup": "Group 17",
+  "gmRow": 10
+ },
+ {
+  "w": "fallacious",
+  "gmGroup": "Group 17",
+  "gmRow": 11
+ },
+ {
+  "w": "foolhardy",
+  "gmGroup": "Group 17",
+  "gmRow": 12
+ },
+ {
+  "w": "hinder",
+  "gmGroup": "Group 17",
+  "gmRow": 13
+ },
+ {
+  "w": "impair",
+  "gmGroup": "Group 17",
+  "gmRow": 14
+ },
+ {
+  "w": "impugn",
+  "gmGroup": "Group 17",
+  "gmRow": 15
+ },
+ {
+  "w": "incessant",
+  "gmGroup": "Group 17",
+  "gmRow": 16
+ },
+ {
+  "w": "inclined",
+  "gmGroup": "Group 17",
+  "gmRow": 17
+ },
+ {
+  "w": "inveterate",
+  "gmGroup": "Group 17",
+  "gmRow": 18
+ },
+ {
+  "w": "miserly",
+  "gmGroup": "Group 17",
+  "gmRow": 19
+ },
+ {
+  "w": "patent",
+  "gmGroup": "Group 17",
+  "gmRow": 20
+ },
+ {
+  "w": "petulant",
+  "gmGroup": "Group 17",
+  "gmRow": 21
+ },
+ {
+  "w": "pithy",
+  "gmGroup": "Group 17",
+  "gmRow": 22
+ },
+ {
+  "w": "pliant",
+  "gmGroup": "Group 17",
+  "gmRow": 23
+ },
+ {
+  "w": "sanctimonious",
+  "gmGroup": "Group 17",
+  "gmRow": 24
+ },
+ {
+  "w": "sound",
+  "gmGroup": "Group 17",
+  "gmRow": 25
+ },
+ {
+  "w": "tarnish",
+  "gmGroup": "Group 17",
+  "gmRow": 26
+ },
+ {
+  "w": "tepid",
+  "gmGroup": "Group 17",
+  "gmRow": 27
+ },
+ {
+  "w": "upbraid",
+  "gmGroup": "Group 17",
+  "gmRow": 28
+ },
+ {
+  "w": "vexation",
+  "gmGroup": "Group 17",
+  "gmRow": 29
+ },
+ {
+  "w": "abet",
+  "gmGroup": "Group 18",
+  "gmRow": 0
+ },
+ {
+  "w": "accessible",
+  "gmGroup": "Group 18",
+  "gmRow": 1
+ },
+ {
+  "w": "acquisitive",
+  "gmGroup": "Group 18",
+  "gmRow": 2
+ },
+ {
+  "w": "amalgamate",
+  "gmGroup": "Group 18",
+  "gmRow": 3
+ },
+ {
+  "w": "attenuate",
+  "gmGroup": "Group 18",
+  "gmRow": 4
+ },
+ {
+  "w": "augment",
+  "gmGroup": "Group 18",
+  "gmRow": 5
+ },
+ {
+  "w": "aversion",
+  "gmGroup": "Group 18",
+  "gmRow": 6
+ },
+ {
+  "w": "blithe",
+  "gmGroup": "Group 18",
+  "gmRow": 7
+ },
+ {
+  "w": "contempt",
+  "gmGroup": "Group 18",
+  "gmRow": 8
+ },
+ {
+  "w": "dawdle",
+  "gmGroup": "Group 18",
+  "gmRow": 9
+ },
+ {
+  "w": "deflect",
+  "gmGroup": "Group 18",
+  "gmRow": 10
+ },
+ {
+  "w": "discount",
+  "gmGroup": "Group 18",
+  "gmRow": 11
+ },
+ {
+  "w": "dissident",
+  "gmGroup": "Group 18",
+  "gmRow": 12
+ },
+ {
+  "w": "efficacious",
+  "gmGroup": "Group 18",
+  "gmRow": 13
+ },
+ {
+  "w": "equitable",
+  "gmGroup": "Group 18",
+  "gmRow": 14
+ },
+ {
+  "w": "erratic",
+  "gmGroup": "Group 18",
+  "gmRow": 15
+ },
+ {
+  "w": "industrious",
+  "gmGroup": "Group 18",
+  "gmRow": 16
+ },
+ {
+  "w": "inform",
+  "gmGroup": "Group 18",
+  "gmRow": 17
+ },
+ {
+  "w": "irksome",
+  "gmGroup": "Group 18",
+  "gmRow": 18
+ },
+ {
+  "w": "manacle",
+  "gmGroup": "Group 18",
+  "gmRow": 19
+ },
+ {
+  "w": "modest",
+  "gmGroup": "Group 18",
+  "gmRow": 20
+ },
+ {
+  "w": "noxious",
+  "gmGroup": "Group 18",
+  "gmRow": 21
+ },
+ {
+  "w": "pernicious",
+  "gmGroup": "Group 18",
+  "gmRow": 22
+ },
+ {
+  "w": "predicament",
+  "gmGroup": "Group 18",
+  "gmRow": 23
+ },
+ {
+  "w": "proficient",
+  "gmGroup": "Group 18",
+  "gmRow": 24
+ },
+ {
+  "w": "prolix",
+  "gmGroup": "Group 18",
+  "gmRow": 25
+ },
+ {
+  "w": "scorn",
+  "gmGroup": "Group 18",
+  "gmRow": 26
+ },
+ {
+  "w": "subordinate",
+  "gmGroup": "Group 18",
+  "gmRow": 27
+ },
+ {
+  "w": "unseemly",
+  "gmGroup": "Group 18",
+  "gmRow": 28
+ },
+ {
+  "w": "veritable",
+  "gmGroup": "Group 18",
+  "gmRow": 29
+ },
+ {
+  "w": "acolyte",
+  "gmGroup": "Group 19",
+  "gmRow": 0
+ },
+ {
+  "w": "anoint",
+  "gmGroup": "Group 19",
+  "gmRow": 1
+ },
+ {
+  "w": "base",
+  "gmGroup": "Group 19",
+  "gmRow": 2
+ },
+ {
+  "w": "coercion",
+  "gmGroup": "Group 19",
+  "gmRow": 3
+ },
+ {
+  "w": "coin",
+  "gmGroup": "Group 19",
+  "gmRow": 4
+ },
+ {
+  "w": "cunning",
+  "gmGroup": "Group 19",
+  "gmRow": 5
+ },
+ {
+  "w": "discomfit",
+  "gmGroup": "Group 19",
+  "gmRow": 6
+ },
+ {
+  "w": "dissent",
+  "gmGroup": "Group 19",
+  "gmRow": 7
+ },
+ {
+  "w": "distill",
+  "gmGroup": "Group 19",
+  "gmRow": 8
+ },
+ {
+  "w": "dubious",
+  "gmGroup": "Group 19",
+  "gmRow": 9
+ },
+ {
+  "w": "ebullient",
+  "gmGroup": "Group 19",
+  "gmRow": 10
+ },
+ {
+  "w": "facetious",
+  "gmGroup": "Group 19",
+  "gmRow": 11
+ },
+ {
+  "w": "fallible",
+  "gmGroup": "Group 19",
+  "gmRow": 12
+ },
+ {
+  "w": "florid",
+  "gmGroup": "Group 19",
+  "gmRow": 13
+ },
+ {
+  "w": "gawky",
+  "gmGroup": "Group 19",
+  "gmRow": 14
+ },
+ {
+  "w": "inveigle",
+  "gmGroup": "Group 19",
+  "gmRow": 15
+ },
+ {
+  "w": "jettison",
+  "gmGroup": "Group 19",
+  "gmRow": 16
+ },
+ {
+  "w": "mendacity",
+  "gmGroup": "Group 19",
+  "gmRow": 17
+ },
+ {
+  "w": "munificent",
+  "gmGroup": "Group 19",
+  "gmRow": 18
+ },
+ {
+  "w": "naive",
+  "gmGroup": "Group 19",
+  "gmRow": 19
+ },
+ {
+  "w": "noble",
+  "gmGroup": "Group 19",
+  "gmRow": 20
+ },
+ {
+  "w": "parochial",
+  "gmGroup": "Group 19",
+  "gmRow": 21
+ },
+ {
+  "w": "pedestrian",
+  "gmGroup": "Group 19",
+  "gmRow": 22
+ },
+ {
+  "w": "prevaricate",
+  "gmGroup": "Group 19",
+  "gmRow": 23
+ },
+ {
+  "w": "prime",
+  "gmGroup": "Group 19",
+  "gmRow": 24
+ },
+ {
+  "w": "radical",
+  "gmGroup": "Group 19",
+  "gmRow": 25
+ },
+ {
+  "w": "recrudescent",
+  "gmGroup": "Group 19",
+  "gmRow": 26
+ },
+ {
+  "w": "temporal",
+  "gmGroup": "Group 19",
+  "gmRow": 27
+ },
+ {
+  "w": "transitory",
+  "gmGroup": "Group 19",
+  "gmRow": 28
+ },
+ {
+  "w": "viable",
+  "gmGroup": "Group 19",
+  "gmRow": 29
+ },
+ {
+  "w": "abreast",
+  "gmGroup": "Group 20",
+  "gmRow": 0
+ },
+ {
+  "w": "confound",
+  "gmGroup": "Group 20",
+  "gmRow": 1
+ },
+ {
+  "w": "digression",
+  "gmGroup": "Group 20",
+  "gmRow": 2
+ },
+ {
+  "w": "discrepancy",
+  "gmGroup": "Group 20",
+  "gmRow": 3
+ },
+ {
+  "w": "duplicitous",
+  "gmGroup": "Group 20",
+  "gmRow": 4
+ },
+ {
+  "w": "expedient",
+  "gmGroup": "Group 20",
+  "gmRow": 5
+ },
+ {
+  "w": "fabricate",
+  "gmGroup": "Group 20",
+  "gmRow": 6
+ },
+ {
+  "w": "glum",
+  "gmGroup": "Group 20",
+  "gmRow": 7
+ },
+ {
+  "w": "harbinger",
+  "gmGroup": "Group 20",
+  "gmRow": 8
+ },
+ {
+  "w": "intrinsic",
+  "gmGroup": "Group 20",
+  "gmRow": 9
+ },
+ {
+  "w": "largesse",
+  "gmGroup": "Group 20",
+  "gmRow": 10
+ },
+ {
+  "w": "libertine",
+  "gmGroup": "Group 20",
+  "gmRow": 11
+ },
+ {
+  "w": "malfeasance",
+  "gmGroup": "Group 20",
+  "gmRow": 12
+ },
+ {
+  "w": "manifest",
+  "gmGroup": "Group 20",
+  "gmRow": 13
+ },
+ {
+  "w": "minute",
+  "gmGroup": "Group 20",
+  "gmRow": 14
+ },
+ {
+  "w": "modish",
+  "gmGroup": "Group 20",
+  "gmRow": 15
+ },
+ {
+  "w": "nascent",
+  "gmGroup": "Group 20",
+  "gmRow": 16
+ },
+ {
+  "w": "perennial",
+  "gmGroup": "Group 20",
+  "gmRow": 17
+ },
+ {
+  "w": "pious",
+  "gmGroup": "Group 20",
+  "gmRow": 18
+ },
+ {
+  "w": "providential",
+  "gmGroup": "Group 20",
+  "gmRow": 19
+ },
+ {
+  "w": "prowess",
+  "gmGroup": "Group 20",
+  "gmRow": 20
+ },
+ {
+  "w": "schism",
+  "gmGroup": "Group 20",
+  "gmRow": 21
+ },
+ {
+  "w": "slander",
+  "gmGroup": "Group 20",
+  "gmRow": 22
+ },
+ {
+  "w": "stalwart",
+  "gmGroup": "Group 20",
+  "gmRow": 23
+ },
+ {
+  "w": "supplicate",
+  "gmGroup": "Group 20",
+  "gmRow": 24
+ },
+ {
+  "w": "terse",
+  "gmGroup": "Group 20",
+  "gmRow": 25
+ },
+ {
+  "w": "tirade",
+  "gmGroup": "Group 20",
+  "gmRow": 26
+ },
+ {
+  "w": "universal",
+  "gmGroup": "Group 20",
+  "gmRow": 27
+ },
+ {
+  "w": "vanquish",
+  "gmGroup": "Group 20",
+  "gmRow": 28
+ },
+ {
+  "w": "woeful",
+  "gmGroup": "Group 20",
+  "gmRow": 29
+ },
+ {
+  "w": "abject",
+  "gmGroup": "Group 21",
+  "gmRow": 0
+ },
+ {
+  "w": "amicable",
+  "gmGroup": "Group 21",
+  "gmRow": 1
+ },
+ {
+  "w": "animosity",
+  "gmGroup": "Group 21",
+  "gmRow": 2
+ },
+ {
+  "w": "aver",
+  "gmGroup": "Group 21",
+  "gmRow": 3
+ },
+ {
+  "w": "barrage",
+  "gmGroup": "Group 21",
+  "gmRow": 4
+ },
+ {
+  "w": "cathartic",
+  "gmGroup": "Group 21",
+  "gmRow": 5
+ },
+ {
+  "w": "decipher",
+  "gmGroup": "Group 21",
+  "gmRow": 6
+ },
+ {
+  "w": "delusion",
+  "gmGroup": "Group 21",
+  "gmRow": 7
+ },
+ {
+  "w": "dispense",
+  "gmGroup": "Group 21",
+  "gmRow": 8
+ },
+ {
+  "w": "eloquent",
+  "gmGroup": "Group 21",
+  "gmRow": 9
+ },
+ {
+  "w": "enthrall",
+  "gmGroup": "Group 21",
+  "gmRow": 10
+ },
+ {
+  "w": "eradicate",
+  "gmGroup": "Group 21",
+  "gmRow": 11
+ },
+ {
+  "w": "fledgling",
+  "gmGroup": "Group 21",
+  "gmRow": 12
+ },
+ {
+  "w": "fortitude",
+  "gmGroup": "Group 21",
+  "gmRow": 13
+ },
+ {
+  "w": "fortuitous",
+  "gmGroup": "Group 21",
+  "gmRow": 14
+ },
+ {
+  "w": "goad",
+  "gmGroup": "Group 21",
+  "gmRow": 15
+ },
+ {
+  "w": "imminent",
+  "gmGroup": "Group 21",
+  "gmRow": 16
+ },
+ {
+  "w": "incontrovertible",
+  "gmGroup": "Group 21",
+  "gmRow": 17
+ },
+ {
+  "w": "itinerant",
+  "gmGroup": "Group 21",
+  "gmRow": 18
+ },
+ {
+  "w": "magnanimous",
+  "gmGroup": "Group 21",
+  "gmRow": 19
+ },
+ {
+  "w": "meritorious",
+  "gmGroup": "Group 21",
+  "gmRow": 20
+ },
+ {
+  "w": "mutiny",
+  "gmGroup": "Group 21",
+  "gmRow": 21
+ },
+ {
+  "w": "paradoxical",
+  "gmGroup": "Group 21",
+  "gmRow": 22
+ },
+ {
+  "w": "perseverance",
+  "gmGroup": "Group 21",
+  "gmRow": 23
+ },
+ {
+  "w": "render",
+  "gmGroup": "Group 21",
+  "gmRow": 24
+ },
+ {
+  "w": "repertoire",
+  "gmGroup": "Group 21",
+  "gmRow": 25
+ },
+ {
+  "w": "resilient",
+  "gmGroup": "Group 21",
+  "gmRow": 26
+ },
+ {
+  "w": "resolute",
+  "gmGroup": "Group 21",
+  "gmRow": 27
+ },
+ {
+  "w": "supple",
+  "gmGroup": "Group 21",
+  "gmRow": 28
+ },
+ {
+  "w": "valor",
+  "gmGroup": "Group 21",
+  "gmRow": 29
+ },
+ {
+  "w": "arresting",
+  "gmGroup": "Group 22",
+  "gmRow": 0
+ },
+ {
+  "w": "chastise",
+  "gmGroup": "Group 22",
+  "gmRow": 1
+ },
+ {
+  "w": "economy",
+  "gmGroup": "Group 22",
+  "gmRow": 3
+ },
+ {
+  "w": "elementary",
+  "gmGroup": "Group 22",
+  "gmRow": 4
+ },
+ {
+  "w": "embellish",
+  "gmGroup": "Group 22",
+  "gmRow": 5
+ },
+ {
+  "w": "euphoric",
+  "gmGroup": "Group 22",
+  "gmRow": 6
+ },
+ {
+  "w": "exonerate",
+  "gmGroup": "Group 22",
+  "gmRow": 7
+ },
+ {
+  "w": "extrapolate",
+  "gmGroup": "Group 22",
+  "gmRow": 8
+ },
+ {
+  "w": "falter",
+  "gmGroup": "Group 22",
+  "gmRow": 9
+ },
+ {
+  "w": "fervent",
+  "gmGroup": "Group 22",
+  "gmRow": 10
+ },
+ {
+  "w": "foment",
+  "gmGroup": "Group 22",
+  "gmRow": 11
+ },
+ {
+  "w": "gaffe",
+  "gmGroup": "Group 22",
+  "gmRow": 12
+ },
+ {
+  "w": "heterodox",
+  "gmGroup": "Group 22",
+  "gmRow": 13
+ },
+ {
+  "w": "histrionic",
+  "gmGroup": "Group 22",
+  "gmRow": 14
+ },
+ {
+  "w": "implicit",
+  "gmGroup": "Group 22",
+  "gmRow": 15
+ },
+ {
+  "w": "inviolate",
+  "gmGroup": "Group 22",
+  "gmRow": 16
+ },
+ {
+  "w": "liability",
+  "gmGroup": "Group 22",
+  "gmRow": 17
+ },
+ {
+  "w": "obstinate",
+  "gmGroup": "Group 22",
+  "gmRow": 18
+ },
+ {
+  "w": "painstaking",
+  "gmGroup": "Group 22",
+  "gmRow": 19
+ },
+ {
+  "w": "phlegmatic",
+  "gmGroup": "Group 22",
+  "gmRow": 20
+ },
+ {
+  "w": "prodigious",
+  "gmGroup": "Group 22",
+  "gmRow": 21
+ },
+ {
+  "w": "propensity",
+  "gmGroup": "Group 22",
+  "gmRow": 22
+ },
+ {
+  "w": "qualm",
+  "gmGroup": "Group 22",
+  "gmRow": 23
+ },
+ {
+  "w": "renege",
+  "gmGroup": "Group 22",
+  "gmRow": 24
+ },
+ {
+  "w": "stinting",
+  "gmGroup": "Group 22",
+  "gmRow": 25
+ },
+ {
+  "w": "temper",
+  "gmGroup": "Group 22",
+  "gmRow": 26
+ },
+ {
+  "w": "tentative",
+  "gmGroup": "Group 22",
+  "gmRow": 27
+ },
+ {
+  "w": "unprecedented",
+  "gmGroup": "Group 22",
+  "gmRow": 28
+ },
+ {
+  "w": "vivacious",
+  "gmGroup": "Group 22",
+  "gmRow": 29
+ },
+ {
+  "w": "allusive",
+  "gmGroup": "Group 23",
+  "gmRow": 0
+ },
+ {
+  "w": "astute",
+  "gmGroup": "Group 23",
+  "gmRow": 1
+ },
+ {
+  "w": "commence",
+  "gmGroup": "Group 23",
+  "gmRow": 2
+ },
+ {
+  "w": "convalescent",
+  "gmGroup": "Group 23",
+  "gmRow": 3
+ },
+ {
+  "w": "curb",
+  "gmGroup": "Group 23",
+  "gmRow": 4
+ },
+ {
+  "w": "decry",
+  "gmGroup": "Group 23",
+  "gmRow": 5
+ },
+ {
+  "w": "duress",
+  "gmGroup": "Group 23",
+  "gmRow": 6
+ },
+ {
+  "w": "evoke",
+  "gmGroup": "Group 23",
+  "gmRow": 7
+ },
+ {
+  "w": "fawn",
+  "gmGroup": "Group 23",
+  "gmRow": 8
+ },
+ {
+  "w": "fret",
+  "gmGroup": "Group 23",
+  "gmRow": 9
+ },
+ {
+  "w": "glib",
+  "gmGroup": "Group 23",
+  "gmRow": 10
+ },
+ {
+  "w": "headstrong",
+  "gmGroup": "Group 23",
+  "gmRow": 11
+ },
+ {
+  "w": "intermittent",
+  "gmGroup": "Group 23",
+  "gmRow": 12
+ },
+ {
+  "w": "ire",
+  "gmGroup": "Group 23",
+  "gmRow": 13
+ },
+ {
+  "w": "languid",
+  "gmGroup": "Group 23",
+  "gmRow": 14
+ },
+ {
+  "w": "lull",
+  "gmGroup": "Group 23",
+  "gmRow": 15
+ },
+ {
+  "w": "mettlesome",
+  "gmGroup": "Group 23",
+  "gmRow": 16
+ },
+ {
+  "w": "mollify",
+  "gmGroup": "Group 23",
+  "gmRow": 17
+ },
+ {
+  "w": "neutralize",
+  "gmGroup": "Group 23",
+  "gmRow": 18
+ },
+ {
+  "w": "nonplussed",
+  "gmGroup": "Group 23",
+  "gmRow": 19
+ },
+ {
+  "w": "precipitous",
+  "gmGroup": "Group 23",
+  "gmRow": 20
+ },
+ {
+  "w": "pretentious",
+  "gmGroup": "Group 23",
+  "gmRow": 21
+ },
+ {
+  "w": "profound",
+  "gmGroup": "Group 23",
+  "gmRow": 22
+ },
+ {
+  "w": "propagate",
+  "gmGroup": "Group 23",
+  "gmRow": 23
+ },
+ {
+  "w": "recourse",
+  "gmGroup": "Group 23",
+  "gmRow": 24
+ },
+ {
+  "w": "refute",
+  "gmGroup": "Group 23",
+  "gmRow": 25
+ },
+ {
+  "w": "regress",
+  "gmGroup": "Group 23",
+  "gmRow": 26
+ },
+ {
+  "w": "repercussion",
+  "gmGroup": "Group 23",
+  "gmRow": 27
+ },
+ {
+  "w": "replenish",
+  "gmGroup": "Group 23",
+  "gmRow": 28
+ },
+ {
+  "w": "vigilant",
+  "gmGroup": "Group 23",
+  "gmRow": 29
+ },
+ {
+  "w": "assail",
+  "gmGroup": "Group 24",
+  "gmRow": 0
+ },
+ {
+  "w": "benevolent",
+  "gmGroup": "Group 24",
+  "gmRow": 1
+ },
+ {
+  "w": "berate",
+  "gmGroup": "Group 24",
+  "gmRow": 2
+ },
+ {
+  "w": "buoyant",
+  "gmGroup": "Group 24",
+  "gmRow": 3
+ },
+ {
+  "w": "buttress",
+  "gmGroup": "Group 24",
+  "gmRow": 4
+ },
+ {
+  "w": "condone",
+  "gmGroup": "Group 24",
+  "gmRow": 5
+ },
+ {
+  "w": "contravene",
+  "gmGroup": "Group 24",
+  "gmRow": 6
+ },
+ {
+  "w": "denounce",
+  "gmGroup": "Group 24",
+  "gmRow": 7
+ },
+ {
+  "w": "despotic",
+  "gmGroup": "Group 24",
+  "gmRow": 8
+ },
+ {
+  "w": "deviate",
+  "gmGroup": "Group 24",
+  "gmRow": 9
+ },
+ {
+  "w": "disinterested",
+  "gmGroup": "Group 24",
+  "gmRow": 10
+ },
+ {
+  "w": "escalate",
+  "gmGroup": "Group 24",
+  "gmRow": 11
+ },
+ {
+  "w": "exorcise",
+  "gmGroup": "Group 24",
+  "gmRow": 12
+ },
+ {
+  "w": "finicky",
+  "gmGroup": "Group 24",
+  "gmRow": 13
+ },
+ {
+  "w": "foil",
+  "gmGroup": "Group 24",
+  "gmRow": 14
+ },
+ {
+  "w": "intertwined",
+  "gmGroup": "Group 24",
+  "gmRow": 15
+ },
+ {
+  "w": "inundate",
+  "gmGroup": "Group 24",
+  "gmRow": 16
+ },
+ {
+  "w": "ironclad",
+  "gmGroup": "Group 24",
+  "gmRow": 17
+ },
+ {
+  "w": "jeopardize",
+  "gmGroup": "Group 24",
+  "gmRow": 18
+ },
+ {
+  "w": "mercurial",
+  "gmGroup": "Group 24",
+  "gmRow": 19
+ },
+ {
+  "w": "oblivious",
+  "gmGroup": "Group 24",
+  "gmRow": 20
+ },
+ {
+  "w": "perpetrate",
+  "gmGroup": "Group 24",
+  "gmRow": 21
+ },
+ {
+  "w": "plaintive",
+  "gmGroup": "Group 24",
+  "gmRow": 22
+ },
+ {
+  "w": "poignant",
+  "gmGroup": "Group 24",
+  "gmRow": 23
+ },
+ {
+  "w": "quiescent",
+  "gmGroup": "Group 24",
+  "gmRow": 24
+ },
+ {
+  "w": "reiterate",
+  "gmGroup": "Group 24",
+  "gmRow": 25
+ },
+ {
+  "w": "subside",
+  "gmGroup": "Group 24",
+  "gmRow": 26
+ },
+ {
+  "w": "subsume",
+  "gmGroup": "Group 24",
+  "gmRow": 27
+ },
+ {
+  "w": "surmount",
+  "gmGroup": "Group 24",
+  "gmRow": 28
+ },
+ {
+  "w": "tangential",
+  "gmGroup": "Group 24",
+  "gmRow": 29
+ },
+ {
+  "w": "adept",
+  "gmGroup": "Group 25",
+  "gmRow": 0
+ },
+ {
+  "w": "adverse",
+  "gmGroup": "Group 25",
+  "gmRow": 1
+ },
+ {
+  "w": "appropriate",
+  "gmGroup": "Group 25",
+  "gmRow": 2
+ },
+ {
+  "w": "archetype",
+  "gmGroup": "Group 25",
+  "gmRow": 3
+ },
+ {
+  "w": "articulate",
+  "gmGroup": "Group 25",
+  "gmRow": 4
+ },
+ {
+  "w": "auspicious",
+  "gmGroup": "Group 25",
+  "gmRow": 5
+ },
+ {
+  "w": "bereft",
+  "gmGroup": "Group 25",
+  "gmRow": 6
+ },
+ {
+  "w": "captious",
+  "gmGroup": "Group 25",
+  "gmRow": 7
+ },
+ {
+  "w": "conclusive",
+  "gmGroup": "Group 25",
+  "gmRow": 8
+ },
+ {
+  "w": "conspire",
+  "gmGroup": "Group 25",
+  "gmRow": 9
+ },
+ {
+  "w": "delineate",
+  "gmGroup": "Group 25",
+  "gmRow": 10
+ },
+ {
+  "w": "disentangle",
+  "gmGroup": "Group 25",
+  "gmRow": 11
+ },
+ {
+  "w": "exhort",
+  "gmGroup": "Group 25",
+  "gmRow": 12
+ },
+ {
+  "w": "frailty",
+  "gmGroup": "Group 25",
+  "gmRow": 13
+ },
+ {
+  "w": "grievance",
+  "gmGroup": "Group 25",
+  "gmRow": 14
+ },
+ {
+  "w": "harangue",
+  "gmGroup": "Group 25",
+  "gmRow": 15
+ },
+ {
+  "w": "ploy",
+  "gmGroup": "Group 25",
+  "gmRow": 16
+ },
+ {
+  "w": "poise",
+  "gmGroup": "Group 25",
+  "gmRow": 17
+ },
+ {
+  "w": "pomposity",
+  "gmGroup": "Group 25",
+  "gmRow": 18
+ },
+ {
+  "w": "proxy",
+  "gmGroup": "Group 25",
+  "gmRow": 19
+ },
+ {
+  "w": "relent",
+  "gmGroup": "Group 25",
+  "gmRow": 20
+ },
+ {
+  "w": "rhetoric",
+  "gmGroup": "Group 25",
+  "gmRow": 21
+ },
+ {
+  "w": "rigor",
+  "gmGroup": "Group 25",
+  "gmRow": 22
+ },
+ {
+  "w": "sparse",
+  "gmGroup": "Group 25",
+  "gmRow": 23
+ },
+ {
+  "w": "steadfast",
+  "gmGroup": "Group 25",
+  "gmRow": 24
+ },
+ {
+  "w": "suspect",
+  "gmGroup": "Group 25",
+  "gmRow": 25
+ },
+ {
+  "w": "tedious",
+  "gmGroup": "Group 25",
+  "gmRow": 26
+ },
+ {
+  "w": "vitality",
+  "gmGroup": "Group 25",
+  "gmRow": 27
+ },
+ {
+  "w": "whimsical",
+  "gmGroup": "Group 25",
+  "gmRow": 28
+ },
+ {
+  "w": "yield",
+  "gmGroup": "Group 25",
+  "gmRow": 29
+ },
+ {
+  "w": "apprehension",
+  "gmGroup": "Group 26",
+  "gmRow": 0
+ },
+ {
+  "w": "ardent",
+  "gmGroup": "Group 26",
+  "gmRow": 1
+ },
+ {
+  "w": "axiomatic",
+  "gmGroup": "Group 26",
+  "gmRow": 2
+ },
+ {
+  "w": "cease",
+  "gmGroup": "Group 26",
+  "gmRow": 3
+ },
+ {
+  "w": "conducive",
+  "gmGroup": "Group 26",
+  "gmRow": 4
+ },
+ {
+  "w": "corporeal",
+  "gmGroup": "Group 26",
+  "gmRow": 5
+ },
+ {
+  "w": "doctrinaire",
+  "gmGroup": "Group 26",
+  "gmRow": 6
+ },
+ {
+  "w": "eclectic",
+  "gmGroup": "Group 26",
+  "gmRow": 7
+ },
+ {
+  "w": "equanimity",
+  "gmGroup": "Group 26",
+  "gmRow": 8
+ },
+ {
+  "w": "exorbitant",
+  "gmGroup": "Group 26",
+  "gmRow": 9
+ },
+ {
+  "w": "fickle",
+  "gmGroup": "Group 26",
+  "gmRow": 10
+ },
+ {
+  "w": "figurative",
+  "gmGroup": "Group 26",
+  "gmRow": 11
+ },
+ {
+  "w": "flustered",
+  "gmGroup": "Group 26",
+  "gmRow": 12
+ },
+ {
+  "w": "gullible",
+  "gmGroup": "Group 26",
+  "gmRow": 13
+ },
+ {
+  "w": "idiosyncratic",
+  "gmGroup": "Group 26",
+  "gmRow": 14
+ },
+ {
+  "w": "incidental",
+  "gmGroup": "Group 26",
+  "gmRow": 15
+ },
+ {
+  "w": "ingrained",
+  "gmGroup": "Group 26",
+  "gmRow": 16
+ },
+ {
+  "w": "insolent",
+  "gmGroup": "Group 26",
+  "gmRow": 17
+ },
+ {
+  "w": "lampoon",
+  "gmGroup": "Group 26",
+  "gmRow": 18
+ },
+ {
+  "w": "lavish",
+  "gmGroup": "Group 26",
+  "gmRow": 19
+ },
+ {
+  "w": "lugubrious",
+  "gmGroup": "Group 26",
+  "gmRow": 20
+ },
+ {
+  "w": "macabre",
+  "gmGroup": "Group 26",
+  "gmRow": 21
+ },
+ {
+  "w": "morose",
+  "gmGroup": "Group 26",
+  "gmRow": 22
+ },
+ {
+  "w": "officious",
+  "gmGroup": "Group 26",
+  "gmRow": 23
+ },
+ {
+  "w": "ramification",
+  "gmGroup": "Group 26",
+  "gmRow": 24
+ },
+ {
+  "w": "serene",
+  "gmGroup": "Group 26",
+  "gmRow": 25
+ },
+ {
+  "w": "supplant",
+  "gmGroup": "Group 26",
+  "gmRow": 26
+ },
+ {
+  "w": "tacit",
+  "gmGroup": "Group 26",
+  "gmRow": 27
+ },
+ {
+  "w": "transcend",
+  "gmGroup": "Group 26",
+  "gmRow": 28
+ },
+ {
+  "w": "treatise",
+  "gmGroup": "Group 26",
+  "gmRow": 29
+ },
+ {
+  "w": "antagonize",
+  "gmGroup": "Group 27",
+  "gmRow": 0
+ },
+ {
+  "w": "barren",
+  "gmGroup": "Group 27",
+  "gmRow": 1
+ },
+ {
+  "w": "bombastic",
+  "gmGroup": "Group 27",
+  "gmRow": 2
+ },
+ {
+  "w": "cajole",
+  "gmGroup": "Group 27",
+  "gmRow": 3
+ },
+ {
+  "w": "chary",
+  "gmGroup": "Group 27",
+  "gmRow": 4
+ },
+ {
+  "w": "curmudgeon",
+  "gmGroup": "Group 27",
+  "gmRow": 5
+ },
+ {
+  "w": "dirge",
+  "gmGroup": "Group 27",
+  "gmRow": 6
+ },
+ {
+  "w": "estimable",
+  "gmGroup": "Group 27",
+  "gmRow": 7
+ },
+ {
+  "w": "euphemism",
+  "gmGroup": "Group 27",
+  "gmRow": 8
+ },
+ {
+  "w": "excoriate",
+  "gmGroup": "Group 27",
+  "gmRow": 9
+ },
+ {
+  "w": "exigent",
+  "gmGroup": "Group 27",
+  "gmRow": 10
+ },
+ {
+  "w": "haughty",
+  "gmGroup": "Group 27",
+  "gmRow": 11
+ },
+ {
+  "w": "heady",
+  "gmGroup": "Group 27",
+  "gmRow": 12
+ },
+ {
+  "w": "imperturbable",
+  "gmGroup": "Group 27",
+  "gmRow": 13
+ },
+ {
+  "w": "implacable",
+  "gmGroup": "Group 27",
+  "gmRow": 14
+ },
+ {
+  "w": "lambaste",
+  "gmGroup": "Group 27",
+  "gmRow": 15
+ },
+ {
+  "w": "miscreant",
+  "gmGroup": "Group 27",
+  "gmRow": 16
+ },
+ {
+  "w": "peccadillo",
+  "gmGroup": "Group 27",
+  "gmRow": 17
+ },
+ {
+  "w": "philistine",
+  "gmGroup": "Group 27",
+  "gmRow": 18
+ },
+ {
+  "w": "relegate",
+  "gmGroup": "Group 27",
+  "gmRow": 19
+ },
+ {
+  "w": "repugnant",
+  "gmGroup": "Group 27",
+  "gmRow": 20
+ },
+ {
+  "w": "sentimental",
+  "gmGroup": "Group 27",
+  "gmRow": 21
+ },
+ {
+  "w": "squander",
+  "gmGroup": "Group 27",
+  "gmRow": 22
+ },
+ {
+  "w": "swindle",
+  "gmGroup": "Group 27",
+  "gmRow": 23
+ },
+ {
+  "w": "tangible",
+  "gmGroup": "Group 27",
+  "gmRow": 24
+ },
+ {
+  "w": "turpitude",
+  "gmGroup": "Group 27",
+  "gmRow": 25
+ },
+ {
+  "w": "unalloyed",
+  "gmGroup": "Group 27",
+  "gmRow": 26
+ },
+ {
+  "w": "undercut",
+  "gmGroup": "Group 27",
+  "gmRow": 27
+ },
+ {
+  "w": "wheedle",
+  "gmGroup": "Group 27",
+  "gmRow": 28
+ },
+ {
+  "w": "xenophobic",
+  "gmGroup": "Group 27",
+  "gmRow": 29
+ },
+ {
+  "w": "abeyance",
+  "gmGroup": "Group 28",
+  "gmRow": 0
+ },
+ {
+  "w": "abstract",
+  "gmGroup": "Group 28",
+  "gmRow": 1
+ },
+ {
+  "w": "affront",
+  "gmGroup": "Group 28",
+  "gmRow": 2
+ },
+ {
+  "w": "agitate",
+  "gmGroup": "Group 28",
+  "gmRow": 3
+ },
+ {
+  "w": "august",
+  "gmGroup": "Group 28",
+  "gmRow": 4
+ },
+ {
+  "w": "burnish",
+  "gmGroup": "Group 28",
+  "gmRow": 5
+ },
+ {
+  "w": "coy",
+  "gmGroup": "Group 28",
+  "gmRow": 6
+ },
+ {
+  "w": "deprecate",
+  "gmGroup": "Group 28",
+  "gmRow": 7
+ },
+ {
+  "w": "disdain",
+  "gmGroup": "Group 28",
+  "gmRow": 8
+ },
+ {
+  "w": "disperse",
+  "gmGroup": "Group 28",
+  "gmRow": 9
+ },
+ {
+  "w": "distend",
+  "gmGroup": "Group 28",
+  "gmRow": 10
+ },
+ {
+  "w": "endemic",
+  "gmGroup": "Group 28",
+  "gmRow": 11
+ },
+ {
+  "w": "enmity",
+  "gmGroup": "Group 28",
+  "gmRow": 12
+ },
+ {
+  "w": "gauche",
+  "gmGroup": "Group 28",
+  "gmRow": 13
+ },
+ {
+  "w": "hysterical",
+  "gmGroup": "Group 28",
+  "gmRow": 14
+ },
+ {
+  "w": "impudent",
+  "gmGroup": "Group 28",
+  "gmRow": 15
+ },
+ {
+  "w": "inchoate",
+  "gmGroup": "Group 28",
+  "gmRow": 16
+ },
+ {
+  "w": "penchant",
+  "gmGroup": "Group 28",
+  "gmRow": 17
+ },
+ {
+  "w": "quandary",
+  "gmGroup": "Group 28",
+  "gmRow": 18
+ },
+ {
+  "w": "quarantine",
+  "gmGroup": "Group 28",
+  "gmRow": 19
+ },
+ {
+  "w": "quash",
+  "gmGroup": "Group 28",
+  "gmRow": 20
+ },
+ {
+  "w": "quibble",
+  "gmGroup": "Group 28",
+  "gmRow": 21
+ },
+ {
+  "w": "ravage",
+  "gmGroup": "Group 28",
+  "gmRow": 22
+ },
+ {
+  "w": "recant",
+  "gmGroup": "Group 28",
+  "gmRow": 23
+ },
+ {
+  "w": "redoubtable",
+  "gmGroup": "Group 28",
+  "gmRow": 24
+ },
+ {
+  "w": "retiring",
+  "gmGroup": "Group 28",
+  "gmRow": 25
+ },
+ {
+  "w": "shrill",
+  "gmGroup": "Group 28",
+  "gmRow": 26
+ },
+ {
+  "w": "sophistry",
+  "gmGroup": "Group 28",
+  "gmRow": 27
+ },
+ {
+  "w": "substantiate",
+  "gmGroup": "Group 28",
+  "gmRow": 28
+ },
+ {
+  "w": "wily",
+  "gmGroup": "Group 28",
+  "gmRow": 29
+ },
+ {
+  "w": "abscond",
+  "gmGroup": "Group 29",
+  "gmRow": 0
+ },
+ {
+  "w": "apogee",
+  "gmGroup": "Group 29",
+  "gmRow": 1
+ },
+ {
+  "w": "aspersion",
+  "gmGroup": "Group 29",
+  "gmRow": 2
+ },
+ {
+  "w": "bawdy",
+  "gmGroup": "Group 29",
+  "gmRow": 3
+ },
+ {
+  "w": "chagrin",
+  "gmGroup": "Group 29",
+  "gmRow": 4
+ },
+ {
+  "w": "collude",
+  "gmGroup": "Group 29",
+  "gmRow": 5
+ },
+ {
+  "w": "commiserate",
+  "gmGroup": "Group 29",
+  "gmRow": 6
+ },
+ {
+  "w": "conflagration",
+  "gmGroup": "Group 29",
+  "gmRow": 7
+ },
+ {
+  "w": "contretemps",
+  "gmGroup": "Group 29",
+  "gmRow": 8
+ },
+ {
+  "w": "conviction",
+  "gmGroup": "Group 29",
+  "gmRow": 9
+ },
+ {
+  "w": "croon",
+  "gmGroup": "Group 29",
+  "gmRow": 10
+ },
+ {
+  "w": "depose",
+  "gmGroup": "Group 29",
+  "gmRow": 11
+ },
+ {
+  "w": "detente",
+  "gmGroup": "Group 29",
+  "gmRow": 12
+ },
+ {
+  "w": "dowdy",
+  "gmGroup": "Group 29",
+  "gmRow": 13
+ },
+ {
+  "w": "echelon",
+  "gmGroup": "Group 29",
+  "gmRow": 14
+ },
+ {
+  "w": "ennui",
+  "gmGroup": "Group 29",
+  "gmRow": 15
+ },
+ {
+  "w": "expatiate",
+  "gmGroup": "Group 29",
+  "gmRow": 16
+ },
+ {
+  "w": "fraught",
+  "gmGroup": "Group 29",
+  "gmRow": 17
+ },
+ {
+  "w": "fulcrum",
+  "gmGroup": "Group 29",
+  "gmRow": 18
+ },
+ {
+  "w": "imbroglio",
+  "gmGroup": "Group 29",
+  "gmRow": 19
+ },
+ {
+  "w": "jocund",
+  "gmGroup": "Group 29",
+  "gmRow": 20
+ },
+ {
+  "w": "languish",
+  "gmGroup": "Group 29",
+  "gmRow": 21
+ },
+ {
+  "w": "nadir",
+  "gmGroup": "Group 29",
+  "gmRow": 22
+ },
+ {
+  "w": "nimble",
+  "gmGroup": "Group 29",
+  "gmRow": 23
+ },
+ {
+  "w": "ominous",
+  "gmGroup": "Group 29",
+  "gmRow": 24
+ },
+ {
+  "w": "outlandish",
+  "gmGroup": "Group 29",
+  "gmRow": 25
+ },
+ {
+  "w": "propitious",
+  "gmGroup": "Group 29",
+  "gmRow": 26
+ },
+ {
+  "w": "prurient",
+  "gmGroup": "Group 29",
+  "gmRow": 27
+ },
+ {
+  "w": "sadistic",
+  "gmGroup": "Group 29",
+  "gmRow": 28
+ },
+ {
+  "w": "zenith",
+  "gmGroup": "Group 29",
+  "gmRow": 29
+ },
+ {
+  "w": "aberrant",
+  "gmGroup": "Group 30",
+  "gmRow": 0
+ },
+ {
+  "w": "abide",
+  "gmGroup": "Group 30",
+  "gmRow": 1
+ },
+ {
+  "w": "bravado",
+  "gmGroup": "Group 30",
+  "gmRow": 2
+ },
+ {
+  "w": "callow",
+  "gmGroup": "Group 30",
+  "gmRow": 3
+ },
+ {
+  "w": "capitulate",
+  "gmGroup": "Group 30",
+  "gmRow": 4
+ },
+ {
+  "w": "cogitate",
+  "gmGroup": "Group 30",
+  "gmRow": 5
+ },
+ {
+  "w": "deportment",
+  "gmGroup": "Group 30",
+  "gmRow": 6
+ },
+ {
+  "w": "extemporize",
+  "gmGroup": "Group 30",
+  "gmRow": 7
+ },
+ {
+  "w": "factious",
+  "gmGroup": "Group 30",
+  "gmRow": 8
+ },
+ {
+  "w": "fallow",
+  "gmGroup": "Group 30",
+  "gmRow": 9
+ },
+ {
+  "w": "feint",
+  "gmGroup": "Group 30",
+  "gmRow": 10
+ },
+ {
+  "w": "flagrant",
+  "gmGroup": "Group 30",
+  "gmRow": 11
+ },
+ {
+  "w": "gratuitous",
+  "gmGroup": "Group 30",
+  "gmRow": 12
+ },
+ {
+  "w": "grovel",
+  "gmGroup": "Group 30",
+  "gmRow": 13
+ },
+ {
+  "w": "indecorous",
+  "gmGroup": "Group 30",
+  "gmRow": 14
+ },
+ {
+  "w": "intrigue",
+  "gmGroup": "Group 30",
+  "gmRow": 15
+ },
+ {
+  "w": "nominal",
+  "gmGroup": "Group 30",
+  "gmRow": 16
+ },
+ {
+  "w": "obdurate",
+  "gmGroup": "Group 30",
+  "gmRow": 17
+ },
+ {
+  "w": "obstreperous",
+  "gmGroup": "Group 30",
+  "gmRow": 18
+ },
+ {
+  "w": "odious",
+  "gmGroup": "Group 30",
+  "gmRow": 19
+ },
+ {
+  "w": "plucky",
+  "gmGroup": "Group 30",
+  "gmRow": 20
+ },
+ {
+  "w": "precocious",
+  "gmGroup": "Group 30",
+  "gmRow": 21
+ },
+ {
+  "w": "remuneration",
+  "gmGroup": "Group 30",
+  "gmRow": 22
+ },
+ {
+  "w": "slovenly",
+  "gmGroup": "Group 30",
+  "gmRow": 23
+ },
+ {
+  "w": "soliloquy",
+  "gmGroup": "Group 30",
+  "gmRow": 24
+ },
+ {
+  "w": "spurn",
+  "gmGroup": "Group 30",
+  "gmRow": 25
+ },
+ {
+  "w": "stolid",
+  "gmGroup": "Group 30",
+  "gmRow": 26
+ },
+ {
+  "w": "temerity",
+  "gmGroup": "Group 30",
+  "gmRow": 27
+ },
+ {
+  "w": "tenuous",
+  "gmGroup": "Group 30",
+  "gmRow": 28
+ },
+ {
+  "w": "verve",
+  "gmGroup": "Group 30",
+  "gmRow": 29
+ },
+ {
+  "w": "abrogate",
+  "gmGroup": "Group 31",
+  "gmRow": 0
+ },
+ {
+  "w": "aghast",
+  "gmGroup": "Group 31",
+  "gmRow": 1
+ },
+ {
+  "w": "apprise",
+  "gmGroup": "Group 31",
+  "gmRow": 2
+ },
+ {
+  "w": "beguile",
+  "gmGroup": "Group 31",
+  "gmRow": 3
+ },
+ {
+  "w": "boon",
+  "gmGroup": "Group 31",
+  "gmRow": 4
+ },
+ {
+  "w": "callous",
+  "gmGroup": "Group 31",
+  "gmRow": 5
+ },
+ {
+  "w": "coddle",
+  "gmGroup": "Group 31",
+  "gmRow": 6
+ },
+ {
+  "w": "crescendo",
+  "gmGroup": "Group 31",
+  "gmRow": 7
+ },
+ {
+  "w": "extenuating",
+  "gmGroup": "Group 31",
+  "gmRow": 8
+ },
+ {
+  "w": "frenetic",
+  "gmGroup": "Group 31",
+  "gmRow": 9
+ },
+ {
+  "w": "fringe",
+  "gmGroup": "Group 31",
+  "gmRow": 10
+ },
+ {
+  "w": "hapless",
+  "gmGroup": "Group 31",
+  "gmRow": 11
+ },
+ {
+  "w": "immaculate",
+  "gmGroup": "Group 31",
+  "gmRow": 12
+ },
+ {
+  "w": "obfuscate",
+  "gmGroup": "Group 31",
+  "gmRow": 13
+ },
+ {
+  "w": "ossify",
+  "gmGroup": "Group 31",
+  "gmRow": 14
+ },
+ {
+  "w": "pastiche",
+  "gmGroup": "Group 31",
+  "gmRow": 15
+ },
+ {
+  "w": "perspicacious",
+  "gmGroup": "Group 31",
+  "gmRow": 16
+ },
+ {
+  "w": "ponderous",
+  "gmGroup": "Group 31",
+  "gmRow": 17
+ },
+ {
+  "w": "recluse",
+  "gmGroup": "Group 31",
+  "gmRow": 18
+ },
+ {
+  "w": "retaliate",
+  "gmGroup": "Group 31",
+  "gmRow": 19
+ },
+ {
+  "w": "rhapsody",
+  "gmGroup": "Group 31",
+  "gmRow": 20
+ },
+ {
+  "w": "serendipitous",
+  "gmGroup": "Group 31",
+  "gmRow": 21
+ },
+ {
+  "w": "shirk",
+  "gmGroup": "Group 31",
+  "gmRow": 22
+ },
+ {
+  "w": "sinecure",
+  "gmGroup": "Group 31",
+  "gmRow": 23
+ },
+ {
+  "w": "sinuous",
+  "gmGroup": "Group 31",
+  "gmRow": 24
+ },
+ {
+  "w": "sordid",
+  "gmGroup": "Group 31",
+  "gmRow": 25
+ },
+ {
+  "w": "stanch",
+  "gmGroup": "Group 31",
+  "gmRow": 26
+ },
+ {
+  "w": "surfeit",
+  "gmGroup": "Group 31",
+  "gmRow": 27
+ },
+ {
+  "w": "ulterior",
+  "gmGroup": "Group 31",
+  "gmRow": 28
+ },
+ {
+  "w": "voluble",
+  "gmGroup": "Group 31",
+  "gmRow": 29
+ },
+ {
+  "w": "abstruse",
+  "gmGroup": "Group 32",
+  "gmRow": 0
+ },
+ {
+  "w": "auxiliary",
+  "gmGroup": "Group 32",
+  "gmRow": 1
+ },
+ {
+  "w": "caricature",
+  "gmGroup": "Group 32",
+  "gmRow": 2
+ },
+ {
+  "w": "depravity",
+  "gmGroup": "Group 32",
+  "gmRow": 3
+ },
+ {
+  "w": "dilettante",
+  "gmGroup": "Group 32",
+  "gmRow": 4
+ },
+ {
+  "w": "effrontery",
+  "gmGroup": "Group 32",
+  "gmRow": 5
+ },
+ {
+  "w": "encroach",
+  "gmGroup": "Group 32",
+  "gmRow": 6
+ },
+ {
+  "w": "endow",
+  "gmGroup": "Group 32",
+  "gmRow": 7
+ },
+ {
+  "w": "entreat",
+  "gmGroup": "Group 32",
+  "gmRow": 8
+ },
+ {
+  "w": "gregarious",
+  "gmGroup": "Group 32",
+  "gmRow": 9
+ },
+ {
+  "w": "indictment",
+  "gmGroup": "Group 32",
+  "gmRow": 10
+ },
+ {
+  "w": "indignant",
+  "gmGroup": "Group 32",
+  "gmRow": 11
+ },
+ {
+  "w": "ineluctable",
+  "gmGroup": "Group 32",
+  "gmRow": 12
+ },
+ {
+  "w": "inquisitive",
+  "gmGroup": "Group 32",
+  "gmRow": 13
+ },
+ {
+  "w": "latitude",
+  "gmGroup": "Group 32",
+  "gmRow": 14
+ },
+ {
+  "w": "levity",
+  "gmGroup": "Group 32",
+  "gmRow": 15
+ },
+ {
+  "w": "malevolent",
+  "gmGroup": "Group 32",
+  "gmRow": 16
+ },
+ {
+  "w": "mediate",
+  "gmGroup": "Group 32",
+  "gmRow": 17
+ },
+ {
+  "w": "occlude",
+  "gmGroup": "Group 32",
+  "gmRow": 18
+ },
+ {
+  "w": "pacify",
+  "gmGroup": "Group 32",
+  "gmRow": 19
+ },
+ {
+  "w": "paragon",
+  "gmGroup": "Group 32",
+  "gmRow": 20
+ },
+ {
+  "w": "patronize",
+  "gmGroup": "Group 32",
+  "gmRow": 21
+ },
+ {
+  "w": "penurious",
+  "gmGroup": "Group 32",
+  "gmRow": 22
+ },
+ {
+  "w": "piquant",
+  "gmGroup": "Group 32",
+  "gmRow": 23
+ },
+ {
+  "w": "rampant",
+  "gmGroup": "Group 32",
+  "gmRow": 24
+ },
+ {
+  "w": "remote",
+  "gmGroup": "Group 32",
+  "gmRow": 25
+ },
+ {
+  "w": "reprobate",
+  "gmGroup": "Group 32",
+  "gmRow": 26
+ },
+ {
+  "w": "turbid",
+  "gmGroup": "Group 32",
+  "gmRow": 27
+ },
+ {
+  "w": "turgid",
+  "gmGroup": "Group 32",
+  "gmRow": 28
+ },
+ {
+  "w": "vacuous",
+  "gmGroup": "Group 32",
+  "gmRow": 29
+ },
+ {
+  "w": "affluent",
+  "gmGroup": "Group 33",
+  "gmRow": 0
+ },
+ {
+  "w": "allegorical",
+  "gmGroup": "Group 33",
+  "gmRow": 1
+ },
+ {
+  "w": "allude",
+  "gmGroup": "Group 33",
+  "gmRow": 2
+ },
+ {
+  "w": "amplify",
+  "gmGroup": "Group 33",
+  "gmRow": 3
+ },
+ {
+  "w": "catastrophic",
+  "gmGroup": "Group 33",
+  "gmRow": 4
+ },
+ {
+  "w": "contemporary",
+  "gmGroup": "Group 33",
+  "gmRow": 5
+ },
+ {
+  "w": "conundrum",
+  "gmGroup": "Group 33",
+  "gmRow": 6
+ },
+ {
+  "w": "defame",
+  "gmGroup": "Group 33",
+  "gmRow": 7
+ },
+ {
+  "w": "detract",
+  "gmGroup": "Group 33",
+  "gmRow": 8
+ },
+ {
+  "w": "detrimental",
+  "gmGroup": "Group 33",
+  "gmRow": 9
+ },
+ {
+  "w": "devious",
+  "gmGroup": "Group 33",
+  "gmRow": 10
+ },
+ {
+  "w": "dormant",
+  "gmGroup": "Group 33",
+  "gmRow": 11
+ },
+ {
+  "w": "draconian",
+  "gmGroup": "Group 33",
+  "gmRow": 12
+ },
+ {
+  "w": "egalitarian",
+  "gmGroup": "Group 33",
+  "gmRow": 13
+ },
+ {
+  "w": "elusive",
+  "gmGroup": "Group 33",
+  "gmRow": 14
+ },
+ {
+  "w": "erstwhile",
+  "gmGroup": "Group 33",
+  "gmRow": 15
+ },
+ {
+  "w": "gloat",
+  "gmGroup": "Group 33",
+  "gmRow": 16
+ },
+ {
+  "w": "harrowing",
+  "gmGroup": "Group 33",
+  "gmRow": 17
+ },
+ {
+  "w": "indefinite",
+  "gmGroup": "Group 33",
+  "gmRow": 18
+ },
+ {
+  "w": "ingenious",
+  "gmGroup": "Group 33",
+  "gmRow": 19
+ },
+ {
+  "w": "keen",
+  "gmGroup": "Group 33",
+  "gmRow": 20
+ },
+ {
+  "w": "multifaceted",
+  "gmGroup": "Group 33",
+  "gmRow": 21
+ },
+ {
+  "w": "omniscient",
+  "gmGroup": "Group 33",
+  "gmRow": 22
+ },
+ {
+  "w": "remarkable",
+  "gmGroup": "Group 33",
+  "gmRow": 23
+ },
+ {
+  "w": "sober",
+  "gmGroup": "Group 33",
+  "gmRow": 24
+ },
+ {
+  "w": "stem from",
+  "gmGroup": "Group 33",
+  "gmRow": 25
+ },
+ {
+  "w": "subdued",
+  "gmGroup": "Group 33",
+  "gmRow": 26
+ },
+ {
+  "w": "token",
+  "gmGroup": "Group 33",
+  "gmRow": 27
+ },
+ {
+  "w": "unravel",
+  "gmGroup": "Group 33",
+  "gmRow": 28
+ },
+ {
+  "w": "withstand",
+  "gmGroup": "Group 33",
+  "gmRow": 29
+ },
+ {
+  "w": "abrasive",
+  "gmGroup": "Group 34",
+  "gmRow": 0
+ },
+ {
+  "w": "artful",
+  "gmGroup": "Group 34",
+  "gmRow": 1
+ },
+ {
+  "w": "avert",
+  "gmGroup": "Group 34",
+  "gmRow": 2
+ },
+ {
+  "w": "avid",
+  "gmGroup": "Group 34",
+  "gmRow": 3
+ },
+ {
+  "w": "brevity",
+  "gmGroup": "Group 34",
+  "gmRow": 4
+ },
+ {
+  "w": "bromide",
+  "gmGroup": "Group 34",
+  "gmRow": 5
+ },
+ {
+  "w": "circumstantial",
+  "gmGroup": "Group 34",
+  "gmRow": 6
+ },
+ {
+  "w": "cloying",
+  "gmGroup": "Group 34",
+  "gmRow": 7
+ },
+ {
+  "w": "counterfeit",
+  "gmGroup": "Group 34",
+  "gmRow": 8
+ },
+ {
+  "w": "denigrate",
+  "gmGroup": "Group 34",
+  "gmRow": 9
+ },
+ {
+  "w": "disciple",
+  "gmGroup": "Group 34",
+  "gmRow": 10
+ },
+ {
+  "w": "extol",
+  "gmGroup": "Group 34",
+  "gmRow": 11
+ },
+ {
+  "w": "forebode",
+  "gmGroup": "Group 34",
+  "gmRow": 12
+ },
+ {
+  "w": "ideologue",
+  "gmGroup": "Group 34",
+  "gmRow": 13
+ },
+ {
+  "w": "impediment",
+  "gmGroup": "Group 34",
+  "gmRow": 14
+ },
+ {
+  "w": "imperative",
+  "gmGroup": "Group 34",
+  "gmRow": 15
+ },
+ {
+  "w": "impulsive",
+  "gmGroup": "Group 34",
+  "gmRow": 16
+ },
+ {
+  "w": "interminable",
+  "gmGroup": "Group 34",
+  "gmRow": 17
+ },
+ {
+  "w": "intuitive",
+  "gmGroup": "Group 34",
+  "gmRow": 18
+ },
+ {
+  "w": "lassitude",
+  "gmGroup": "Group 34",
+  "gmRow": 19
+ },
+ {
+  "w": "omit",
+  "gmGroup": "Group 34",
+  "gmRow": 20
+ },
+ {
+  "w": "ornate",
+  "gmGroup": "Group 34",
+  "gmRow": 21
+ },
+ {
+  "w": "paltry",
+  "gmGroup": "Group 34",
+  "gmRow": 22
+ },
+ {
+  "w": "pejorative",
+  "gmGroup": "Group 34",
+  "gmRow": 23
+ },
+ {
+  "w": "prefigure",
+  "gmGroup": "Group 34",
+  "gmRow": 24
+ },
+ {
+  "w": "presage",
+  "gmGroup": "Group 34",
+  "gmRow": 25
+ },
+ {
+  "w": "prescribe",
+  "gmGroup": "Group 34",
+  "gmRow": 26
+ },
+ {
+  "w": "prevail",
+  "gmGroup": "Group 34",
+  "gmRow": 27
+ },
+ {
+  "w": "propitiate",
+  "gmGroup": "Group 34",
+  "gmRow": 28
+ },
+ {
+  "w": "recapitulate",
+  "gmGroup": "Group 34",
+  "gmRow": 29
+ },
+ {
+  "w": "aplomb",
+  "gmGroup": "Group 35",
+  "gmRow": 0
+ },
+ {
+  "w": "apposite",
+  "gmGroup": "Group 35",
+  "gmRow": 1
+ },
+ {
+  "w": "beholden",
+  "gmGroup": "Group 35",
+  "gmRow": 2
+ },
+ {
+  "w": "belittle",
+  "gmGroup": "Group 35",
+  "gmRow": 3
+ },
+ {
+  "w": "cluster",
+  "gmGroup": "Group 35",
+  "gmRow": 4
+ },
+ {
+  "w": "coherent",
+  "gmGroup": "Group 35",
+  "gmRow": 5
+ },
+ {
+  "w": "contemplate",
+  "gmGroup": "Group 35",
+  "gmRow": 6
+ },
+ {
+  "w": "crafty",
+  "gmGroup": "Group 35",
+  "gmRow": 7
+ },
+ {
+  "w": "dismantle",
+  "gmGroup": "Group 35",
+  "gmRow": 8
+ },
+ {
+  "w": "elaborate",
+  "gmGroup": "Group 35",
+  "gmRow": 9
+ },
+ {
+  "w": "exegesis",
+  "gmGroup": "Group 35",
+  "gmRow": 10
+ },
+ {
+  "w": "forgo",
+  "gmGroup": "Group 35",
+  "gmRow": 11
+ },
+ {
+  "w": "impenetrable",
+  "gmGroup": "Group 35",
+  "gmRow": 12
+ },
+ {
+  "w": "impervious",
+  "gmGroup": "Group 35",
+  "gmRow": 13
+ },
+ {
+  "w": "inalienable",
+  "gmGroup": "Group 35",
+  "gmRow": 14
+ },
+ {
+  "w": "inept",
+  "gmGroup": "Group 35",
+  "gmRow": 15
+ },
+ {
+  "w": "martinet",
+  "gmGroup": "Group 35",
+  "gmRow": 16
+ },
+ {
+  "w": "narcissism",
+  "gmGroup": "Group 35",
+  "gmRow": 17
+ },
+ {
+  "w": "objurgation",
+  "gmGroup": "Group 35",
+  "gmRow": 18
+ },
+ {
+  "w": "passable",
+  "gmGroup": "Group 35",
+  "gmRow": 19
+ },
+ {
+  "w": "penetrating",
+  "gmGroup": "Group 35",
+  "gmRow": 20
+ },
+ {
+  "w": "picturesque",
+  "gmGroup": "Group 35",
+  "gmRow": 21
+ },
+ {
+  "w": "reflect",
+  "gmGroup": "Group 35",
+  "gmRow": 22
+ },
+ {
+  "w": "resourceful",
+  "gmGroup": "Group 35",
+  "gmRow": 23
+ },
+ {
+  "w": "retrench",
+  "gmGroup": "Group 35",
+  "gmRow": 24
+ },
+ {
+  "w": "self-indulgent",
+  "gmGroup": "Group 35",
+  "gmRow": 25
+ },
+ {
+  "w": "speculate",
+  "gmGroup": "Group 35",
+  "gmRow": 26
+ },
+ {
+  "w": "staid",
+  "gmGroup": "Group 35",
+  "gmRow": 27
+ },
+ {
+  "w": "suppress",
+  "gmGroup": "Group 35",
+  "gmRow": 28
+ },
+ {
+  "w": "vestigial",
+  "gmGroup": "Group 35",
+  "gmRow": 29
+ },
+ {
+  "w": "accord",
+  "gmGroup": "Group 36",
+  "gmRow": 0
+ },
+ {
+  "w": "ad hoc",
+  "gmGroup": "Group 36",
+  "gmRow": 1
+ },
+ {
+  "w": "adhere",
+  "gmGroup": "Group 36",
+  "gmRow": 2
+ },
+ {
+  "w": "all-encompassing",
+  "gmGroup": "Group 36",
+  "gmRow": 3
+ },
+ {
+  "w": "aphorism",
+  "gmGroup": "Group 36",
+  "gmRow": 4
+ },
+ {
+  "w": "benchmark",
+  "gmGroup": "Group 36",
+  "gmRow": 5
+ },
+ {
+  "w": "blighted",
+  "gmGroup": "Group 36",
+  "gmRow": 6
+ },
+ {
+  "w": "content",
+  "gmGroup": "Group 36",
+  "gmRow": 7
+ },
+ {
+  "w": "debase",
+  "gmGroup": "Group 36",
+  "gmRow": 8
+ },
+ {
+  "w": "disconcerting",
+  "gmGroup": "Group 36",
+  "gmRow": 9
+ },
+ {
+  "w": "extant",
+  "gmGroup": "Group 36",
+  "gmRow": 10
+ },
+ {
+  "w": "facility",
+  "gmGroup": "Group 36",
+  "gmRow": 11
+ },
+ {
+  "w": "fitful",
+  "gmGroup": "Group 36",
+  "gmRow": 12
+ },
+ {
+  "w": "incite",
+  "gmGroup": "Group 36",
+  "gmRow": 13
+ },
+ {
+  "w": "induce",
+  "gmGroup": "Group 36",
+  "gmRow": 14
+ },
+ {
+  "w": "infelicity",
+  "gmGroup": "Group 36",
+  "gmRow": 15
+ },
+ {
+  "w": "intelligible",
+  "gmGroup": "Group 36",
+  "gmRow": 16
+ },
+ {
+  "w": "makeshift",
+  "gmGroup": "Group 36",
+  "gmRow": 17
+ },
+ {
+  "w": "onetime",
+  "gmGroup": "Group 36",
+  "gmRow": 18
+ },
+ {
+  "w": "opportunistic",
+  "gmGroup": "Group 36",
+  "gmRow": 19
+ },
+ {
+  "w": "plausible",
+  "gmGroup": "Group 36",
+  "gmRow": 20
+ },
+ {
+  "w": "posturing",
+  "gmGroup": "Group 36",
+  "gmRow": 21
+ },
+ {
+  "w": "potent",
+  "gmGroup": "Group 36",
+  "gmRow": 22
+ },
+ {
+  "w": "redundant",
+  "gmGroup": "Group 36",
+  "gmRow": 23
+ },
+ {
+  "w": "sacrosanct",
+  "gmGroup": "Group 36",
+  "gmRow": 24
+ },
+ {
+  "w": "shrewd",
+  "gmGroup": "Group 36",
+  "gmRow": 25
+ },
+ {
+  "w": "unadorned",
+  "gmGroup": "Group 36",
+  "gmRow": 26
+ },
+ {
+  "w": "valedictory",
+  "gmGroup": "Group 36",
+  "gmRow": 27
+ },
+ {
+  "w": "warranted",
+  "gmGroup": "Group 36",
+  "gmRow": 28
+ },
+ {
+  "w": "wistful",
+  "gmGroup": "Group 36",
+  "gmRow": 29
+ },
+ {
+  "w": "attribute",
+  "gmGroup": "Group 37",
+  "gmRow": 0
+ },
+ {
+  "w": "calamitous",
+  "gmGroup": "Group 37",
+  "gmRow": 1
+ },
+ {
+  "w": "censor",
+  "gmGroup": "Group 37",
+  "gmRow": 2
+ },
+ {
+  "w": "champion",
+  "gmGroup": "Group 37",
+  "gmRow": 3
+ },
+ {
+  "w": "compound",
+  "gmGroup": "Group 37",
+  "gmRow": 4
+ },
+ {
+  "w": "deter",
+  "gmGroup": "Group 37",
+  "gmRow": 5
+ },
+ {
+  "w": "dexterous",
+  "gmGroup": "Group 37",
+  "gmRow": 6
+ },
+ {
+  "w": "dictum",
+  "gmGroup": "Group 37",
+  "gmRow": 7
+ },
+ {
+  "w": "dutiful",
+  "gmGroup": "Group 37",
+  "gmRow": 8
+ },
+ {
+  "w": "empathetic",
+  "gmGroup": "Group 37",
+  "gmRow": 9
+ },
+ {
+  "w": "ensue",
+  "gmGroup": "Group 37",
+  "gmRow": 10
+ },
+ {
+  "w": "fathom",
+  "gmGroup": "Group 37",
+  "gmRow": 11
+ },
+ {
+  "w": "frank",
+  "gmGroup": "Group 37",
+  "gmRow": 12
+ },
+ {
+  "w": "germane",
+  "gmGroup": "Group 37",
+  "gmRow": 13
+ },
+ {
+  "w": "grumble",
+  "gmGroup": "Group 37",
+  "gmRow": 14
+ },
+ {
+  "w": "hidebound",
+  "gmGroup": "Group 37",
+  "gmRow": 15
+ },
+ {
+  "w": "hypocrite",
+  "gmGroup": "Group 37",
+  "gmRow": 16
+ },
+ {
+  "w": "impolitic",
+  "gmGroup": "Group 37",
+  "gmRow": 17
+ },
+ {
+  "w": "insidious",
+  "gmGroup": "Group 37",
+  "gmRow": 18
+ },
+ {
+  "w": "intermediary",
+  "gmGroup": "Group 37",
+  "gmRow": 19
+ },
+ {
+  "w": "passive",
+  "gmGroup": "Group 37",
+  "gmRow": 20
+ },
+ {
+  "w": "raillery",
+  "gmGroup": "Group 37",
+  "gmRow": 21
+ },
+ {
+  "w": "ramble",
+  "gmGroup": "Group 37",
+  "gmRow": 22
+ },
+ {
+  "w": "resent",
+  "gmGroup": "Group 37",
+  "gmRow": 23
+ },
+ {
+  "w": "residual",
+  "gmGroup": "Group 37",
+  "gmRow": 24
+ },
+ {
+  "w": "resolve",
+  "gmGroup": "Group 37",
+  "gmRow": 25
+ },
+ {
+  "w": "surrogate",
+  "gmGroup": "Group 37",
+  "gmRow": 26
+ },
+ {
+  "w": "vilify",
+  "gmGroup": "Group 37",
+  "gmRow": 27
+ },
+ {
+  "w": "wanting",
+  "gmGroup": "Group 37",
+  "gmRow": 28
+ },
+ {
+  "w": "willful",
+  "gmGroup": "Group 37",
+  "gmRow": 29
+ },
+ {
+  "w": "querulous",
+  "gmGroup": "Group 38",
+  "gmRow": 0
+ },
+ {
+  "w": "phony",
+  "gmGroup": "Group 38",
+  "gmRow": 1
+ },
+ {
+  "w": "check",
+  "gmGroup": "Group 38",
+  "gmRow": 2
+ }
+]

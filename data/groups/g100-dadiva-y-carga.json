@@ -1,0 +1,91 @@
+{
+  "id": "g100",
+  "name": "dádiva y carga",
+  "axis": {
+    "lo": "cuesta dinero en vez de darlo",
+    "hi": "llueve de arriba sin pedir nada a cambio"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "liability",
+      "pos": "noun",
+      "def": "something that costs you rather than pays you",
+      "disc": "El <b>polo opuesto</b> del grupo, y el contrapeso contable de <i>asset</i>: una deuda, una obligación, alguien que ya solo da problemas. Su marca es que <b>resta</b>.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "What had been the firm's best asset became its worst ___ the month the rules changed.",
+      "twin": "remuneration",
+      "whyNotTwin": "la liability <b>sale</b> del bolsillo; la remuneration <b>entra</b>, y a cambio de un trabajo hecho. Uno es pasivo, el otro es pago.",
+      "root": "liable, de lier (atar, obligar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "remuneration",
+      "pos": "noun",
+      "def": "payment given in return for work or services",
+      "disc": "La palabra <b>formal</b> del sueldo: aparece en informes, contratos y comités. Lo que la define es la <b>contraprestación</b> — se paga porque algo se hizo. Ojo con la ortografía: <i>remun-</i>, no <i>renum-</i>.",
+      "tone": "neu",
+      "axisPos": 25,
+      "ej": "The committee recommends that ___ be tied to the audited result rather than to the share price.",
+      "twin": "sinecure",
+      "whyNotTwin": "la remuneration <b>se gana</b>: hay trabajo detrás; el sinecure <b>se cobra igual</b>: el puesto no exige nada. La diferencia está en si alguien tuvo que hacer algo.",
+      "root": "re- + munus (servicio, regalo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sinecure",
+      "pos": "noun",
+      "def": "a paid post that carries no real duties",
+      "disc": "Literalmente <b>sin cura de almas</b> (<i>sine cura</i>): el beneficio eclesiástico que se cobraba sin atender parroquia. Hoy es el cargo que sirve para <b>colocar a alguien</b>: título, sueldo y ninguna obligación.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The post was a ___: a title, a stipend, and no duty that anyone could name.",
+      "twin": "boon",
+      "whyNotTwin": "el sinecure es un <b>puesto</b> que se ocupa y se cobra; el boon es un <b>golpe de suerte</b> que le llega a alguien. Uno tiene nómina, el otro no.",
+      "root": "sine cura (sin cuidado de almas)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "boon",
+      "pos": "noun",
+      "def": "an unexpected benefit that arrives just in time",
+      "disc": "Era <b>la petición concedida</b>, y de ahí el favor que cae del cielo. No lo da nadie en particular: lo dan el clima, el mercado, la casualidad — y siempre <b>llega bien</b>.",
+      "tone": "pos",
+      "axisPos": 75,
+      "ej": "The late rain was a ___ for growers who had already written the season off.",
+      "twin": "largesse",
+      "whyNotTwin": "el boon <b>ocurre</b> — no hay quien lo regale; la largesse <b>la reparte alguien</b> con dinero y con nombre. Si en la oración hay un benefactor, es largesse.",
+      "root": "bón nórdico (ruego, petición concedida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "largesse",
+      "pos": "noun",
+      "def": "generous giving by someone with wealth or power",
+      "disc": "Es <b>la generosidad del de arriba</b>: el mecenas, el señor, el Estado. Trae siempre la sombra de la <b>asimetría</b> — quien recibe queda en deuda, y el que reparte queda por encima.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The library has existed on the ___ of a single family since 1890.",
+      "twin": "boon",
+      "whyNotTwin": "la largesse tiene <b>donante</b> y suele ser sostenida en el tiempo; el boon es <b>puntual y sin dueño</b>: un golpe de suerte que nadie firmó.",
+      "root": "largus (abundante, generoso)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

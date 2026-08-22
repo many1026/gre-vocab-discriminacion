@@ -1,0 +1,91 @@
+{
+  "id": "g055",
+  "name": "inactivo o restante",
+  "axis": {
+    "lo": "duerme y puede despertar entero",
+    "hi": "solo queda la huella inútil de lo que fue"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "dormant",
+      "pos": "adj",
+      "def": "temporarily inactive but able to revive fully",
+      "disc": "Duerme, <b>y puede despertar entero</b>: un volcán, una semilla, un virus, una cláusula. La capacidad sigue intacta — solo está apagada.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "The volcano had been ___ for four centuries, which the villages below had come to treat as a guarantee.",
+      "twin": "quiescent",
+      "whyNotTwin": "dormant subraya que <b>volverá</b>: la potencia sigue ahí. quiescent solo constata que <b>ahora está en reposo</b>, sin prometer nada sobre el futuro.",
+      "root": "dormire (dormir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "quiescent",
+      "pos": "adj",
+      "def": "in a state of inactivity or rest",
+      "disc": "Está <b>quieto ahora</b>, y la palabra no se compromete con nada más. Es el término técnico de la medicina y la física para 'sin actividad en este momento'. Registro más frío que dormant.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "The disease remains ___ in most carriers, detectable only because someone thought to look for it.",
+      "twin": "dormant",
+      "whyNotTwin": "quiescent describe el <b>estado presente</b>; dormant insinúa el <b>despertar futuro</b>. Si la oración anuncia que volverá, es dormant.",
+      "root": "quiescere (descansar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "subdued",
+      "pos": "adj",
+      "def": "reduced in force, brightness or spirit",
+      "disc": "No está apagado: está <b>bajado de volumen</b>. Sirve para luces, colores, ruidos y ánimos, y en personas significa apagado emocionalmente, no vencido del todo.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "___ lighting, a carpet, and voices that never rose above the level of the room.",
+      "twin": "quiescent",
+      "whyNotTwin": "quiescent está <b>del todo inactivo</b>; subdued sigue <b>funcionando, pero atenuado</b>. La luz tenue alumbra; la enfermedad quiescent no hace nada.",
+      "root": "subdere (someter, poner debajo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "residual",
+      "pos": "adj",
+      "def": "remaining after the main part is gone",
+      "disc": "Es lo que <b>sobra</b> tras un proceso, y <b>todavía sirve o todavía molesta</b>: calor residual, riesgo residual, ingresos residuales. Sigue siendo funcional.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "There is a ___ risk even after the recall: some of those parts were fitted by people who never registered them.",
+      "twin": "vestigial",
+      "whyNotTwin": "residual <b>todavía obra</b>: el riesgo residual puede matarte. vestigial <b>ya no hace nada</b>: es una huella sin función.",
+      "root": "residuum (lo que queda)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "vestigial",
+      "pos": "adj",
+      "def": "surviving as a functionless trace of what once was",
+      "disc": "El extremo: <b>queda la forma y se perdió la función</b>. Es la palabra de la biología — el apéndice, las alas del avestruz — y por extensión, de la norma que nadie aplica ya.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The committee's power is now ___: it still meets, still votes, and has not changed an outcome since 1998.",
+      "twin": "residual",
+      "whyNotTwin": "vestigial <b>ya no sirve para nada</b>, solo prueba que algo existió; residual <b>sigue teniendo efecto</b>. La pregunta es si todavía hace algo.",
+      "root": "vestigium (huella, pisada)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

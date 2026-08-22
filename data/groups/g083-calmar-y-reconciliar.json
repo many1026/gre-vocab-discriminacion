@@ -1,0 +1,91 @@
+{
+  "id": "g083",
+  "name": "calmar el conflicto y cerrarlo",
+  "axis": {
+    "lo": "lo adormece sin tocarlo",
+    "hi": "lo cierra de verdad"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "lull",
+      "pos": "verb",
+      "def": "to soothe someone into calm or false security",
+      "disc": "No resuelve nada: <b>adormece</b>. Su construcción fija es <i>___ someone into</i> + el estado en que quedan, y casi siempre ese estado es <b>equivocado</b> — <i>a false sense of security</i>.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The quiet first year ___ed the committee into believing the problem had gone away.",
+      "twin": "pacify",
+      "whyNotTwin": "lull <b>duerme</b> al que debería estar alerta, y el peligro sigue ahí; pacify <b>somete</b> lo que estaba revuelto. Uno engaña, el otro impone.",
+      "root": "voz de arrullo, imitativa",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "propitiate",
+      "pos": "verb",
+      "def": "to win the favour of an offended power with an offering",
+      "disc": "El que se aplaca es <b>superior</b>: un dios, un rey, una autoridad temida. Y hay <b>ofrenda</b> — sacrificio, regalo, gesto de sumisión. Sin esa asimetría de poder, la palabra no encaja.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "Offerings were left at the shrine each spring to ___ a god believed to control the floods.",
+      "twin": "pacify",
+      "whyNotTwin": "propitiate <b>compra</b> el favor de quien está por encima; pacify <b>impone</b> la calma sobre quien está por debajo. La dirección del poder es opuesta.",
+      "root": "propitius (favorable, propicio)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pacify",
+      "pos": "verb",
+      "def": "to bring a rebellious place or population under control",
+      "disc": "Registro <b>militar y colonial</b>: se pacifica una provincia, y el eufemismo tapa lo que costó. La paz resultante es <b>impuesta desde fuera</b> y suele durar lo que dure la guarnición.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "It took three winters and two garrisons to ___ the province, and the peace lasted five years.",
+      "twin": "propitiate",
+      "whyNotTwin": "pacify actúa <b>con fuerza y desde arriba</b>; propitiate actúa <b>con ofrendas y desde abajo</b>. Uno manda tropas, el otro deja regalos en el altar.",
+      "root": "pax (paz) + facere (hacer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "mediate",
+      "pos": "verb",
+      "def": "to act as go-between so two sides can reach an agreement",
+      "disc": "Exige <b>tres partes</b>: los dos que riñen y el que se pone en medio. Va con <i>between</i>. Lo que aporta es el <b>proceso</b>, no la solución — el mediador no decide ni toma partido.",
+      "tone": "pos",
+      "axisPos": 72,
+      "ej": "The bishop agreed to ___ between the two families, but refused to say which side he thought was right.",
+      "twin": "reconcile",
+      "whyNotTwin": "mediate es <b>el papel</b> de quien se pone en medio y puede fracasar; reconcile es <b>el resultado</b>: las partes quedaron efectivamente juntas de nuevo.",
+      "root": "medius (que está en medio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "reconcile",
+      "pos": "verb",
+      "def": "to bring two people or two conflicting facts into agreement",
+      "disc": "Tiene dos objetos posibles y los dos caen en el examen: <b>personas</b> que vuelven a hablarse, o <b>versiones y cifras</b> que no cuadraban y ahora sí. El segundo uso es el que suele sorprender.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "No one has managed to ___ the two accounts of the meeting: one has him present, the other has him in Lisbon.",
+      "twin": "mediate",
+      "whyNotTwin": "reconcile puede tener por objeto <b>datos, no gente</b> — dos versiones, dos balances; mediate siempre necesita <b>dos partes con voluntad</b> entre las que colocarse.",
+      "root": "re- (de nuevo) + conciliare (unir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

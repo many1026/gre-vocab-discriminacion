@@ -1,0 +1,91 @@
+{
+  "id": "g074",
+  "name": "arraigado y difícil de cambiar",
+  "axis": {
+    "lo": "es lo que se acostumbra hacer",
+    "hi": "no se toca porque nadie se atreve"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "conventional",
+      "pos": "adj",
+      "def": "following what is usually done or accepted",
+      "disc": "Solo dice que algo es <b>lo acostumbrado</b>. No implica resistencia al cambio: lo convencional se abandona sin drama. Cuando califica ideas o arte, arrastra un dejo de falta de imaginación.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "A ___ opening — two pawns and a knight, exactly what the manual recommends — and the crowd began to lose interest.",
+      "twin": "entrenched",
+      "whyNotTwin": "conventional es lo que <b>se suele hacer</b> y se cambia sin pelea; entrenched es lo que está <b>atrincherado</b>, y sacarlo cuesta una batalla.",
+      "root": "convenire (venir juntos, acordar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "entrenched",
+      "pos": "adj",
+      "def": "firmly established and hard to dislodge",
+      "disc": "La imagen es <b>militar</b>: una trinchera. Se dice de intereses, posiciones y prácticas que <b>resisten activamente</b> el cambio, casi siempre porque alguien sale ganando con ellas.",
+      "tone": "neg",
+      "axisPos": 45,
+      "ej": "The subsidy proved too ___ to remove: every attempt in thirty years died in the same committee.",
+      "twin": "ingrained",
+      "whyNotTwin": "entrenched describe <b>posiciones e intereses</b> que se defienden; ingrained describe <b>hábitos y actitudes</b> metidos en la fibra de alguien. Uno resiste porque conviene; el otro, porque ya es parte de uno.",
+      "root": "en- + trench (trinchera)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ingrained",
+      "pos": "adj",
+      "def": "fixed so deeply that it seems part of one's nature",
+      "disc": "La metáfora es la <b>veta de la madera</b>: el hábito o el prejuicio ya no está encima, está dentro. Nadie lo defiende porque nadie lo ve — se ha vuelto indistinguible de quien lo tiene.",
+      "tone": "neu",
+      "axisPos": 62,
+      "ej": "The deference to seniority was so ___ that nobody in the room noticed they were doing it.",
+      "twin": "inveterate",
+      "whyNotTwin": "ingrained califica <b>a la costumbre</b> (<i>an ___ habit</i>); inveterate califica sobre todo <b>a la persona que la tiene</b> (<i>an ___ gambler</i>). Fíjate en qué sustantivo va detrás.",
+      "root": "in- (dentro) + grain (veta, fibra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inveterate",
+      "pos": "adj",
+      "def": "having a long-established habit unlikely to change",
+      "disc": "Casi siempre califica <b>a la persona</b>, y por su vicio: <i>an ___ liar</i>, <i>an ___ gambler</i>. Lleva dentro los años acumulados — nadie se vuelve inveterate en un mes.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "An ___ collector, he had filled two apartments before he admitted that the habit had become a problem.",
+      "twin": "ingrained",
+      "whyNotTwin": "inveterate se pega a <b>quien tiene el hábito</b>; ingrained, <b>al hábito mismo</b>. <i>An ___ smoker</i> pide inveterate; <i>an ___ suspicion of outsiders</i> pide ingrained.",
+      "root": "inveterare (envejecer), de vetus (viejo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sacrosanct",
+      "pos": "adj",
+      "def": "regarded as too sacred to be criticized or changed",
+      "disc": "No habla de <b>fuerza</b> sino de <b>respeto</b>: nadie lo toca porque se considera intocable. Se usa casi siempre con ironía — la hora de la comida, el presupuesto de un departamento, una tradición del club.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "Friday lunch was ___: meetings were moved, clients were rescheduled, and nobody ever asked why.",
+      "twin": "entrenched",
+      "whyNotTwin": "lo sacrosanct <b>no se toca por respeto</b>; lo entrenched <b>no se puede mover</b> aunque se quiera. A uno lo protege un tabú; al otro, unos intereses.",
+      "root": "sacer (sagrado) + sanctus (consagrado)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "g117",
+  "name": "menospreciar y regodearse",
+  "axis": {
+    "lo": "rechaza al otro de frente",
+    "hi": "disfruta de la desgracia ajena"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "scorn",
+      "pos": "verb",
+      "def": "to reject something as beneath consideration",
+      "disc": "Es <b>desprecio en acto</b>: no solo se piensa que algo no vale, se le da la espalda. Sus objetos típicos son <b>ofertas, consejos y comodidades</b> que otro habría aceptado con gusto.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "She ___ed the offer of a lift and walked the four miles home in the rain.",
+      "twin": "patronize",
+      "whyNotTwin": "scorn <b>rechaza de frente</b> y no disimula; patronize <b>finge amabilidad</b> mientras deja claro que te considera menos. Uno da un portazo, el otro una palmadita.",
+      "root": "escarnir germánico (burlarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "patronize",
+      "pos": "verb",
+      "def": "to treat someone as if they were less capable than they are",
+      "disc": "La superioridad va <b>envuelta en amabilidad</b>: se explica lo obvio, se habla despacio, se felicita por lo mínimo. Ojo con el otro sentido, sin ofensa: <b>ser cliente habitual</b> de un local.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "He ___d the audience by explaining the joke twice, the second time more slowly.",
+      "twin": "scorn",
+      "whyNotTwin": "patronize <b>rebaja mientras sonríe</b> y se dirige a personas; scorn <b>rechaza abiertamente</b> y suele dirigirse a lo que le ofrecen a uno.",
+      "root": "patronus (patrón, protector)",
+      "tier": 1,
+      "sense2": {
+        "def": "to be a regular customer of a place",
+        "ej": "The café was ___d by every printer in the district.",
+        "note": "Sin carga negativa ninguna. Si el objeto es un negocio y el sujeto un cliente, no hay condescendencia."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "quibble",
+      "pos": "verb",
+      "def": "to argue over a trivial detail",
+      "disc": "La pelea es <b>por menudencias</b>: una coma, una fecha, la palabra exacta — mientras lo importante espera. Rige <i>about</i> o <i>over</i>, y quien lo usa está diciendo que el otro hace perder el tiempo.",
+      "tone": "neg",
+      "axisPos": 52,
+      "ej": "They ___d over the wording of the second clause while the building was still on fire.",
+      "twin": "lampoon",
+      "whyNotTwin": "quibble <b>discute</b> por algo diminuto, en serio y sin gracia; lampoon <b>ridiculiza</b> por escrito y con público. Uno es un pesado, el otro un satírico.",
+      "root": "quib (sutileza, juego de palabras)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "lampoon",
+      "pos": "verb",
+      "def": "to mock someone publicly in a satirical piece",
+      "disc": "Exige <b>una obra y un público</b>: una viñeta, una canción, un artículo. El blanco suele ser <b>alguien con poder</b>, y la burla se publica — es sátira, no un comentario en voz baja.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The cartoonist ___ed the minister every Thursday for eleven years, always with the same enormous hat.",
+      "twin": "quibble",
+      "whyNotTwin": "lampoon necesita <b>obra publicada y blanco público</b>; quibble se hace <b>en la mesa</b> y por un detalle. Uno sale en el periódico, el otro retrasa la reunión.",
+      "root": "lampons (bebamos), estribillo de canciones satíricas",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "gloat",
+      "pos": "verb",
+      "def": "to take open pleasure in another's misfortune or one's own win",
+      "disc": "El placer está en <b>que el otro lo vea</b>. Rige <i>over</i> o <i>about</i>, y lo que lo distingue del resto del grupo es que <b>ya hubo un desenlace</b>: se regodea el que ganó, delante del que perdió.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "He could not stop ___ing over the result, and repeated the score to people who had not asked.",
+      "twin": "lampoon",
+      "whyNotTwin": "gloat exige <b>una desgracia ya ocurrida</b> y disfrute personal; lampoon solo exige <b>un blanco</b> y ganas de ridiculizarlo, gane quien gane.",
+      "root": "glotta nórdico (mirar de reojo con sorna)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g087",
+  "name": "equivalencia y proporción",
+  "axis": {
+    "lo": "se parecen en cómo funcionan",
+    "hi": "a efectos prácticos es la misma cosa"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "analogous",
+      "pos": "adj",
+      "def": "similar in function or relation, though not in kind",
+      "disc": "Lo que se parece es <b>el papel</b>, no la sustancia: el corazón y una bomba, el ala del murciélago y la de la abeja. Rige <b>to</b>, y en biología marca justo lo contrario del parentesco.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "The wing of a bat is ___ to the wing of a bee: the same job, and no shared ancestry at all.",
+      "twin": "interchangeable",
+      "whyNotTwin": "analogous solo dice que <b>hacen lo mismo</b>, y siguen siendo cosas distintas; interchangeable dice que <b>uno sirve en lugar del otro</b>, que es mucho más fuerte.",
+      "root": "ana- (según) + logos (proporción, razón)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "commensurate",
+      "pos": "adj",
+      "def": "in proportion to something else in size or degree",
+      "disc": "Rige <b>with</b> y aparece en el lenguaje de los contratos: <i>a salary ___ with experience</i>. No dice que dos cosas sean iguales, sino que <b>una crece con la otra</b> en la misma medida.",
+      "tone": "neu",
+      "axisPos": 35,
+      "ej": "The post carries a salary ___ with experience, which in practice meant the youngest candidate was paid least.",
+      "twin": "analogous",
+      "whyNotTwin": "commensurate compara <b>cantidades</b> — sueldo y años, castigo y delito; analogous compara <b>funciones</b>. Uno mide, el otro asemeja.",
+      "root": "com- (junto) + mensura (medida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "interchangeable",
+      "pos": "adj",
+      "def": "able to be swapped one for the other with no difference",
+      "disc": "La prueba es práctica: <b>se cambia uno por otro y nada se nota</b>. Nació con la manufactura de piezas estandarizadas y de ahí pasó a personas y palabras que se usan indistintamente.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "In this office the two words are treated as ___, though the contract uses them to mean different things.",
+      "twin": "fungible",
+      "whyNotTwin": "interchangeable se dice de <b>piezas y elementos concretos</b> que encajan igual; fungible es el término <b>jurídico y económico</b> para bienes que se sustituyen por unidades del mismo tipo.",
+      "root": "inter- (entre) + change (cambiar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fungible",
+      "pos": "adj",
+      "def": "replaceable by any other unit of the same kind",
+      "disc": "Palabra <b>de derecho y de economía</b>: el dinero, el trigo, el petróleo. Da igual <b>qué unidad</b> concreta se entregue mientras sea de la misma clase y cantidad — nadie exige que le devuelvan el mismo billete.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "In law money is the classic ___ good: no one cares which particular note repays the debt.",
+      "twin": "interchangeable",
+      "whyNotTwin": "fungible vive en <b>contratos y mercancías</b> y habla de unidades de una misma clase; interchangeable habla de <b>objetos que encajan</b> en el mismo sitio. Si la oración huele a legislación o a materias primas, es fungible.",
+      "root": "fungi vice (hacer las veces de)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tantamount",
+      "pos": "adj",
+      "def": "equivalent in effect to something more serious",
+      "disc": "Rige <b>to</b> y siempre trae un salto de gravedad: lo que se hizo <b>equivale a</b> algo peor de lo que se admitió. Es la fórmula del comentarista y del abogado — <i>___ to an admission</i>.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Refusing to answer at that point was ___ to an admission, and everyone in the room understood it that way.",
+      "twin": "commensurate",
+      "whyNotTwin": "tantamount dice que dos cosas <b>tienen el mismo efecto</b> aunque no se parezcan en nada; commensurate dice que <b>guardan proporción</b> en cantidad. Uno equipara consecuencias, el otro mide.",
+      "root": "tant amunter (equivaler a), del anglonormando",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

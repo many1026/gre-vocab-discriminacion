@@ -1,0 +1,91 @@
+{
+  "id": "g048",
+  "name": "desconcierto",
+  "axis": {
+    "lo": "la mente no funciona con claridad",
+    "hi": "la mente funciona y se niega a aceptarlo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "befuddled",
+      "pos": "adj",
+      "def": "muddled and unable to think clearly",
+      "disc": "Hay <b>niebla en la cabeza</b>, y casi siempre una causa física: alcohol, cansancio, edad. No es que el problema sea difícil — es que el sujeto no puede pensar.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "Three days without sleep left him ___: he read the same paragraph four times and could not have said what it was about.",
+      "twin": "flummoxed",
+      "whyNotTwin": "befuddled tiene la <b>mente enturbiada</b> y fallaría con cualquier cosa; flummoxed tiene la mente <b>clara</b> y se estrella contra un problema concreto.",
+      "root": "fuddle (emborrachar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "flustered",
+      "pos": "adj",
+      "def": "agitated and flurried, having lost composure",
+      "disc": "El problema no es entender sino <b>los nervios</b>: se atropella, se le caen las cosas, pierde el hilo. Es el único del grupo que describe <b>agitación</b> y no confusión.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "___ by the interruption, she lost her place, apologised twice and knocked over the water.",
+      "twin": "befuddled",
+      "whyNotTwin": "befuddled es <b>niebla mental</b>; flustered es <b>agitación</b>. El flustered entiende todo perfectamente, solo que está nervioso.",
+      "root": "fluster (aturdir, azorar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "flummoxed",
+      "pos": "adj",
+      "def": "completely baffled by a problem",
+      "disc": "Mente clara, <b>problema imposible</b>. Es la palabra del enigma que no cede: se ha entendido el planteamiento y aun así no se ve la salida. Registro coloquial.",
+      "tone": "neg",
+      "axisPos": 52,
+      "ej": "The engineers were ___: the fault appeared only on Tuesdays, and nothing in the system knew what day it was.",
+      "twin": "befuddled",
+      "whyNotTwin": "flummoxed es un <b>problema que resiste</b>; befuddled es una <b>cabeza que no responde</b>. Si la oración presenta un enigma concreto, es flummoxed.",
+      "root": "origen dialectal inglés, sin étimo claro",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "nonplussed",
+      "pos": "adj",
+      "def": "so surprised that one cannot react",
+      "disc": "Entiende <b>perfectamente</b>; lo que no sabe es <b>qué hacer o decir</b>. <b>Aviso</b>: en EE.UU. mucha gente lo usa al revés, como 'imperturbable'. El GRE usa siempre el sentido correcto.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Told to his face that his life's work was a dead end, he was ___: he understood the sentence perfectly and had no idea what to say.",
+      "twin": "flummoxed",
+      "whyNotTwin": "flummoxed <b>no entiende</b>; nonplussed entiende y <b>no sabe responder</b>. La oración que diga 'lo entendió' está descartando flummoxed.",
+      "root": "non plus (no más allá) — hasta aquí y no se puede seguir",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "incredulous",
+      "pos": "adj",
+      "def": "unwilling to believe what one is told",
+      "disc": "El extremo, y el único que ya es una <b>reacción activa</b>: no se lo cree y lo demuestra. <b>Trampa de forma</b>: <i>incredulous</i> es quien no cree; <i>credulous</i>, quien se lo traga todo.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "___ that anyone would pay it, she asked the price a second time and then a third.",
+      "twin": "nonplussed",
+      "whyNotTwin": "nonplussed se queda <b>sin reacción</b>; incredulous reacciona claramente: <b>rechaza creerlo</b>. Preguntar tres veces ya es una reacción.",
+      "root": "in (no) + credere (creer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

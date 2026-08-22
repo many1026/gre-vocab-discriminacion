@@ -1,0 +1,91 @@
+{
+  "id": "g094",
+  "name": "severidad y mano dura",
+  "axis": {
+    "lo": "pone el listón muy alto, pero con regla",
+    "hi": "no hay regla, solo la voluntad de uno"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "stringent",
+      "pos": "adj",
+      "def": "strict and tightly drawn, as rules or standards are",
+      "disc": "De <i>stringere</i>, <b>apretar</b>. Califica <b>normas, controles y requisitos</b>: lo estricto está en el texto de la regla, no en quien la aplica. Registro regulatorio — aduanas, sanidad, contabilidad.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Imports face ___ controls at the border: three certificates, two inspections and a bond.",
+      "twin": "exacting",
+      "whyNotTwin": "stringent aprieta <b>la norma</b>; exacting aprieta <b>a la persona</b> que tiene que cumplirla. Los controles son stringent; el jefe que los supervisa es exacting.",
+      "root": "stringere (apretar, ceñir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exacting",
+      "pos": "adj",
+      "def": "demanding great care and effort from someone",
+      "disc": "Mira al <b>que tiene que cumplir</b>: el maestro, la tarea, el público que no perdona un error. Lo que exige es <b>esfuerzo y precisión</b>, y no tiene por qué ser injusto — solo agotador.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "He was an ___ teacher: one phrase repeated four hundred times, until the wrist stopped complaining.",
+      "twin": "stringent",
+      "whyNotTwin": "exacting se predica de <b>quien exige</b> o de <b>la tarea</b> que consume; stringent, de <b>la regla</b> que está escrita apretada. Un examen es exacting; un reglamento es stringent.",
+      "root": "exigere (exigir, llevar hasta el final)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "draconian",
+      "pos": "adj",
+      "def": "punishing far more harshly than the offence warrants",
+      "disc": "Por <b>Dracón</b>, el legislador ateniense cuyas leyes castigaban con la muerte casi todo. Lo que la define es la <b>desproporción</b>: el castigo no guarda relación con la falta.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "The ___ penalties — ten years inside for a first offence — were repealed within two years.",
+      "twin": "stringent",
+      "whyNotTwin": "draconian se juzga por <b>el castigo</b> y siempre es desproporcionado; stringent se juzga por <b>la exigencia</b> de la norma, que puede ser dura y razonable a la vez.",
+      "root": "de Dracón, legislador ateniense",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "arbitrary",
+      "pos": "adj",
+      "def": "decided by whim rather than by any reason or rule",
+      "disc": "Lo que falta aquí no es blandura sino <b>criterio</b>: la decisión pudo haber sido la contraria y nadie sabría por qué. Es el reproche que se le hace a un poder que <b>no se deja predecir</b>.",
+      "tone": "neg",
+      "axisPos": 75,
+      "ej": "Promotion was entirely ___: it depended on which day the director had had a good lunch.",
+      "twin": "despotic",
+      "whyNotTwin": "arbitrary describe <b>la decisión</b> — sin razón que la sostenga; despotic describe <b>el poder</b> — absoluto y de uno solo. Un burócrata sin mando puede ser arbitrary sin ser despotic.",
+      "root": "arbitrium (voluntad, fallo del árbitro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "despotic",
+      "pos": "adj",
+      "def": "wielding absolute personal power over others",
+      "disc": "Del <i>despotes</i> griego, <b>el amo de la casa</b>. Lo que describe es la <b>concentración del poder en una persona</b>, sin contrapesos: ni tribunales, ni consejo, ni nadie a quien apelar.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Thirty years of ___ rule left a country where no institution could act without a word from the palace.",
+      "twin": "arbitrary",
+      "whyNotTwin": "despotic es <b>cuánto poder</b> tiene uno solo; arbitrary es <b>con qué criterio</b> lo usa. Un déspota puede gobernar con reglas fijas, y sigue siendo despotic.",
+      "root": "despotes (amo de la casa)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

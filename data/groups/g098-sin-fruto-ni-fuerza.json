@@ -1,0 +1,91 @@
+{
+  "id": "g098",
+  "name": "sin fruto ni fuerza",
+  "axis": {
+    "lo": "no da nada y no lo dará",
+    "hi": "lo que queda apenas se sostiene"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "barren",
+      "pos": "adj",
+      "def": "producing nothing, and not able to",
+      "disc": "La esterilidad <b>definitiva</b>: tierra que no da, un periodo sin resultados, una discusión de la que no sale nada. Lo importante frente a su vecino: aquí <b>no hay descanso ni promesa</b> de que vaya a producir.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "Nothing had grown on that slope in living memory: the soil was ___ and the goats ate what little came up.",
+      "twin": "fallow",
+      "whyNotTwin": "barren <b>no producirá</b>; fallow <b>no está produciendo ahora</b>, y a propósito, para producir mejor después. La diferencia es si hay futuro.",
+      "root": "baraine (estéril)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fallow",
+      "pos": "adj",
+      "def": "left unplanted for a season so it can recover",
+      "disc": "El <b>barbecho</b>: se deja descansar <b>por decisión y por un tiempo</b>. En figurado, el periodo en que un artista no publica y se supone que está cargando pilas — nadie lo llama fracaso.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "The field was left ___ for a season so that the soil could recover before the next planting.",
+      "twin": "barren",
+      "whyNotTwin": "fallow es <b>una pausa elegida</b> con fecha de regreso; barren es <b>una condición</b> sin remedio. Un año fallow se planifica; una tierra barren se abandona.",
+      "root": "fealh (tierra arada y en descanso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "bereft",
+      "pos": "adj",
+      "def": "stripped of something one used to have",
+      "disc": "Rige <b>of</b> y siempre implica <b>una pérdida</b>: había algo y ya no está. Se dice de personas que perdieron a alguien y, más en el examen, de obras y argumentos <b>despojados</b> de aquello que los sostenía.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "By the third act the play is ___ of every idea it had in the first.",
+      "twin": "barren",
+      "whyNotTwin": "bereft supone que <b>antes lo tenía</b> y lo perdió; barren supone que <b>nunca dio nada</b>. Uno es despojo, el otro es esterilidad de origen.",
+      "root": "be- + reafian (despojar, arrebatar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "feeble",
+      "pos": "adj",
+      "def": "lacking physical strength or force",
+      "disc": "Aquí sí hay algo, pero <b>sin fuerza</b>: una voz, un pulso, una luz, un intento. También califica excusas y chistes — <i>a ___ excuse</i> es la que no aguanta ni el primer empujón.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "His voice had gone ___: the front row leaned in and still missed half of what he said.",
+      "twin": "tenuous",
+      "whyNotTwin": "feeble mide <b>la fuerza</b> de algo que está presente; tenuous mide <b>lo poco que lo sostiene</b>. Una voz es feeble; un vínculo entre dos hechos es tenuous.",
+      "root": "flebilis (digno de llorarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tenuous",
+      "pos": "adj",
+      "def": "so slight that it barely holds",
+      "disc": "De <i>tenuis</i>, <b>delgado</b>. Casi siempre califica <b>vínculos, conexiones y argumentos</b>: existen, pero de un hilo. Es la palabra con que un revisor desmonta una relación causal que no está probada.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "The connection between the two events is ___: they happened in the same month, and that is the whole of it.",
+      "twin": "feeble",
+      "whyNotTwin": "tenuous se dice de <b>lo que une</b> — un lazo, una prueba, una relación; feeble, de <b>lo que actúa</b> — una voz, un golpe, un intento. Uno es fino, el otro es flojo.",
+      "root": "tenuis (delgado, sutil)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

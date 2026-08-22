@@ -1,0 +1,95 @@
+{
+  "id": "g002",
+  "name": "que habla o escribe de más",
+  "axis": {
+    "lo": "fluidez que puede resultar agradable",
+    "hi": "exceso de palabras que agota al que recibe"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "voluble",
+      "pos": "adj",
+      "def": "speaking fluently and without pause",
+      "disc": "El menos condenatorio del grupo: describe <b>facilidad</b> para hablar, no exceso. Un orador voluble puede resultar encantador. Fíjate en si la oración elogia la fluidez o se queja del volumen.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "Normally halting and tongue-tied, he became unexpectedly ___ once the subject turned to birds: the words came without effort.",
+      "twin": "loquacious",
+      "whyNotTwin": "loquacious mide <b>cuánto</b> habla alguien; voluble mide con qué <b>facilidad</b> le sale. Un tímido nunca es loquacious, pero puede volverse voluble.",
+      "root": "volvere (girar, rodar)",
+      "tier": 1,
+      "sense2": {
+        "def": "readily changing opinions or loyalties",
+        "ej": "His ___ loyalties shifted with every new poll.",
+        "note": "Sentido GRE frecuente y de tono opuesto: aquí es un defecto de carácter, no una virtud de orador. Si el sustantivo es opinions, loyalties o temper, es este sentido."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "loquacious",
+      "pos": "adj",
+      "def": "given to talking a great deal",
+      "disc": "Mide <b>cantidad</b> y nada más: no juzga el contenido ni el estilo. Es la palabra neutra del grupo, la que usas cuando no quieres insultar a nadie.",
+      "tone": "neu",
+      "axisPos": 45,
+      "ej": "Her students found her ___: a question about the syllabus reliably produced a twenty-minute answer, always relevant and never dull.",
+      "twin": "garrulous",
+      "whyNotTwin": "garrulous añade un juicio sobre el contenido — habla de tonterías. loquacious solo constata que habla mucho, y por eso admite contextos elogiosos.",
+      "root": "loqui (hablar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "garrulous",
+      "pos": "adj",
+      "def": "talkative about trivial things",
+      "disc": "Negativa por el <b>contenido</b>, no por la cantidad: habla mucho <i>y de nada</i>. Casi siempre describe personas, con frecuencia mayores, y siempre habla, nunca escritura.",
+      "tone": "neg",
+      "axisPos": 62,
+      "ej": "Calling him merely talkative misses it: the ___ old man could spend twenty minutes on the weather and twenty more on a neighbor's hedge.",
+      "twin": "loquacious",
+      "whyNotTwin": "loquacious no juzga lo que se dice; garrulous sí. El desprecio está en el contenido, no en el volumen.",
+      "root": "garrire (parlotear)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "verbose",
+      "pos": "adj",
+      "def": "using more words than necessary",
+      "disc": "Se aplica sobre todo a <b>texto</b>: informes, contratos, prosa. Critica la <i>ineficiencia</i> — lo mismo podría decirse en menos — y es compatible con que el texto se entienda bien.",
+      "tone": "neg",
+      "axisPos": 76,
+      "ej": "Her prose is perfectly clear but ___; every paragraph could lose a third of its words and say the same thing.",
+      "twin": "prolix",
+      "whyNotTwin": "verbose señala palabras de sobra; prolix señala que además aburre. Un texto verbose puede ser clarísimo — uno prolix, por definición, no.",
+      "root": "verbum (palabra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prolix",
+      "pos": "adj",
+      "def": "so long and diffuse that it wearies the reader",
+      "disc": "El extremo del grupo y el de <b>registro más culto</b>. Añade tedio a la verbosidad: no solo sobran palabras, además el lector se pierde o se rinde.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Calling the introduction merely wordy is generous; it is ___, and readers abandon it by page thirty.",
+      "twin": "verbose",
+      "whyNotTwin": "verbose es un defecto de economía; prolix es un defecto de efecto — cansa. Todo texto prolix es verbose; al revés no.",
+      "root": "pro- (hacia adelante) + liquere (fluir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g072",
+  "name": "impedir de antemano",
+  "axis": {
+    "lo": "convence a alguien de no hacerlo",
+    "hi": "hace que ya ni haga falta"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "deter",
+      "pos": "verb",
+      "def": "to discourage someone from acting, usually by fear",
+      "disc": "Actúa sobre <b>una persona que decide</b>: lo que frena es el miedo al coste o al castigo, no una barrera. Si en la oración no hay alguien que se lo piense dos veces, no es deter.",
+      "tone": "neu",
+      "axisPos": 18,
+      "ej": "Higher fines did not ___ the drivers: they paid them and went on parking on the sidewalk.",
+      "twin": "forestall",
+      "whyNotTwin": "deter trabaja sobre <b>la voluntad</b> de alguien — lo hace desistir. forestall trabaja sobre <b>el reloj</b>: se adelanta y actúa antes de que el otro pueda.",
+      "root": "deterrere (apartar por el miedo), de terrere (aterrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "foil",
+      "pos": "verb",
+      "def": "to defeat a plan already under way",
+      "disc": "Llega <b>tarde a propósito</b>: el plan existe, está en marcha, y alguien lo desbarata. Su terreno son robos, complots y fugas — casi siempre hay un adversario dentro de la oración.",
+      "tone": "neu",
+      "axisPos": 42,
+      "ej": "The escape was already under way when it was ___ed: a guard had changed his rounds by ten minutes, and the tunnel came out at his feet.",
+      "twin": "forestall",
+      "whyNotTwin": "foil <b>derrota un plan en marcha</b>; forestall <b>se adelanta</b> para que no llegue a empezar. Si el plan ya estaba corriendo, es foil.",
+      "root": "fouler (francés antiguo: pisotear)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "forestall",
+      "pos": "verb",
+      "def": "to prevent something by acting first",
+      "disc": "Todo está en el <b>orden temporal</b>: uno se mueve antes de que el otro pueda moverse, y así el problema no llega a producirse. Suele haber una amenaza concreta viniéndose encima.",
+      "tone": "neu",
+      "axisPos": 62,
+      "ej": "The company announced the recall on Sunday night to ___ the story that two reporters were about to publish on Monday.",
+      "twin": "preclude",
+      "whyNotTwin": "forestall se <b>adelanta a algo que ya venía</b>; preclude <b>elimina la posibilidad</b> de que ocurra nunca. Uno gana por velocidad, el otro por regla.",
+      "root": "fore- (antes) + stall (interceptar en el camino al mercado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "preclude",
+      "pos": "verb",
+      "def": "to make something impossible in advance",
+      "disc": "No disuade ni frustra: <b>cierra la puerta</b>. Lo que impide suele ser una regla, una cláusula o un hecho estructural, y por eso va tantas veces con <i>from</i> + gerundio.",
+      "tone": "neu",
+      "axisPos": 80,
+      "ej": "The clause ___s any employee from suing the firm once the settlement has been signed.",
+      "twin": "obviate",
+      "whyNotTwin": "preclude hace que algo <b>no se pueda</b>; obviate hace que algo <b>no haga falta</b>. Uno prohíbe, el otro vuelve innecesario.",
+      "root": "prae (antes) + claudere (cerrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "obviate",
+      "pos": "verb",
+      "def": "to make something unnecessary",
+      "disc": "El giro que el examen adora: no impide nada — <b>quita la necesidad</b>. Se obvia un trámite, un viaje o una discusión porque, sencillamente, ya no hacen falta.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "Filing the form online ___s the trip to the registry: you may still go if you like, but there is no longer any reason to.",
+      "twin": "preclude",
+      "whyNotTwin": "obviate deja la puerta abierta y <b>vacía de sentido</b> el trámite; preclude la <b>cierra</b>. Si todavía se podría hacer pero ya no vale la pena, es obviate.",
+      "root": "obviare (salir al paso, ir al encuentro)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

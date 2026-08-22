@@ -1,0 +1,110 @@
+{
+  "id": "g064",
+  "name": "puntos de una escala",
+  "axis": {
+    "lo": "el fondo de una trayectoria",
+    "hi": "la cima de una trayectoria"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "nadir",
+      "pos": "noun",
+      "def": "the lowest point of a fortune or trajectory",
+      "disc": "El <b>fondo</b>, y siempre de una <b>trayectoria</b>: hubo un antes mejor. Viene del árabe <i>nazir</i>, el punto opuesto al cenit — es literalmente el antónimo astronómico de zenith.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "The ___ came in February: two staff left, the roof failed, and the funder wrote to say it was reconsidering.",
+      "twin": "zenith",
+      "whyNotTwin": "son <b>los dos extremos opuestos</b> de la misma escala: nadir es el punto más bajo, zenith el más alto. Comparten origen astronómico y sentido inverso.",
+      "root": "nazir (opuesto, al cenit)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "benchmark",
+      "pos": "noun",
+      "def": "a standard against which others are measured",
+      "disc": "No es un punto de una trayectoria sino una <b>referencia fija</b>: la vara con la que se mide lo demás. Viene de la marca que el carpintero dejaba en su banco para repetir medidas.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "The 1994 edition is still the ___ against which every later translation is judged.",
+      "twin": "fulcrum",
+      "whyNotTwin": "benchmark es aquello con lo que se <b>compara</b>; fulcrum es aquello sobre lo que todo <b>gira</b>. Uno mide, el otro sostiene el equilibrio.",
+      "root": "bench (banco de trabajo) + mark",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fulcrum",
+      "pos": "noun",
+      "def": "the pivot on which everything else turns",
+      "disc": "Es el <b>punto de apoyo</b> de una palanca, y en figurado, aquello de lo que depende todo lo demás: muévelo y se mueve el conjunto. Su prueba en la oración es esa dependencia.",
+      "tone": "neu",
+      "axisPos": 48,
+      "ej": "The arbitration clause was the ___ of the whole negotiation: move it, and every other term shifted with it.",
+      "twin": "benchmark",
+      "whyNotTwin": "fulcrum es <b>aquello de lo que depende el conjunto</b>; benchmark es <b>aquello con lo que se compara</b>. Si la oración dice que al moverlo cambia todo, es fulcrum.",
+      "root": "fulcire (apoyar, sostener)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "echelon",
+      "pos": "noun",
+      "def": "a level or rank within a hierarchy",
+      "disc": "Es <b>uno de varios peldaños</b> de una jerarquía, y por eso casi siempre aparece en plural y con <i>upper</i> o <i>lower</i>. Viene de <i>échelle</i>, la escalera.",
+      "tone": "neu",
+      "axisPos": 65,
+      "ej": "She reached the upper ___s of the department without ever having run a project of her own.",
+      "twin": "fulcrum",
+      "whyNotTwin": "echelon es un <b>escalón entre muchos</b> de una escala de rango; fulcrum es un <b>punto único</b> del que depende el equilibrio. Uno se cuenta, el otro no.",
+      "root": "échelle (escalera)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "zenith",
+      "pos": "noun",
+      "def": "the point of the sky directly overhead",
+      "disc": "Su sentido <b>literal es astronómico</b>: el punto justo encima de tu cabeza. De ahí sale el figurado, que es el que más cae: la cumbre de una fama o una carrera.",
+      "tone": "pos",
+      "axisPos": 82,
+      "ej": "The sun stood almost at its ___, and there was no shadow anywhere in the courtyard to stand in.",
+      "twin": "apogee",
+      "whyNotTwin": "zenith es el punto <b>más alto alcanzado</b>, sin más; apogee es el <b>más lejano de una órbita</b> y lleva dentro que después se vuelve a bajar.",
+      "root": "samt (camino, sobre la cabeza)",
+      "tier": 1,
+      "sense2": {
+        "def": "the peak of someone's fame or power",
+        "ej": "At the ___ of her fame she could not cross a station concourse without being stopped."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "apogee",
+      "pos": "noun",
+      "def": "the culminating point of a development, before decline",
+      "disc": "La cima <b>de un arco</b>: en astronomía, el punto de la órbita más lejano de la Tierra. Por eso, cuando se usa en figurado, casi siempre <b>viene implícita la caída posterior</b>.",
+      "tone": "pos",
+      "axisPos": 95,
+      "ej": "Zenith would suggest it simply stopped there. The 1911 season was the ___ of the style, and everything after it is a slow retreat from that year.",
+      "twin": "zenith",
+      "whyNotTwin": "zenith es <b>lo más alto</b> y se queda ahí; apogee es <b>lo más alto de una curva</b> que ya está bajando. Si la oración anuncia el declive, es apogee.",
+      "root": "apo (lejos de) + gaia (tierra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

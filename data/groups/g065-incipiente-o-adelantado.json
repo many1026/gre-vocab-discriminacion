@@ -1,0 +1,91 @@
+{
+  "id": "g065",
+  "name": "incipiente o adelantado",
+  "axis": {
+    "lo": "apenas ha empezado a existir",
+    "hi": "se desarrolló antes de lo que tocaba"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "nascent",
+      "pos": "adj",
+      "def": "just coming into existence",
+      "disc": "<b>Acaba de nacer y ya es algo</b>: pequeño, pero real y reconocible. Es neutro o incluso esperanzador — lo nascent promete. Comparte raíz con <i>nacer</i> y con <i>renacimiento</i>.",
+      "tone": "neu",
+      "axisPos": 15,
+      "ej": "A ___ industry in 1994: eleven employees, one product, and a market that did not yet know it existed.",
+      "twin": "inchoate",
+      "whyNotTwin": "nascent ya <b>tiene forma</b>, aunque sea diminuta: se puede contar y describir. inchoate <b>todavía no la tiene</b>: es informe.",
+      "root": "nasci (nacer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inchoate",
+      "pos": "adj",
+      "def": "just begun and therefore still formless",
+      "disc": "Lo definitorio es la <b>falta de forma</b>: existe pero no se puede articular todavía. Su terreno son las ideas, las sospechas y los sentimientos que aún no se dejan decir.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "His objection was ___: he knew something was wrong with the proposal and could not yet say what.",
+      "twin": "nascent",
+      "whyNotTwin": "inchoate es <b>informe</b> y por eso frustra; nascent es <b>pequeño pero definido</b> y por eso promete. La posibilidad de describirlo los separa.",
+      "root": "inchoare (empezar, poner manos a la obra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rudimentary",
+      "pos": "adj",
+      "def": "basic and undeveloped, barely adequate",
+      "disc": "Ya funciona, pero <b>apenas</b>: lo mínimo para cumplir. Su objeto son instalaciones, medios y conocimientos escasos. No es que empiece — es que se quedó ahí.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "___ plumbing: one cold tap, and a drain that emptied straight into the yard.",
+      "twin": "elementary",
+      "whyNotTwin": "rudimentary es <b>rudo e incompleto</b>: sirve a duras penas. elementary es <b>del primer nivel de una enseñanza</b>: sencillo, pero correcto y completo en lo suyo.",
+      "root": "rudis (tosco, sin desbastar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "elementary",
+      "pos": "adj",
+      "def": "of the simplest, first level of a subject",
+      "disc": "Es <b>lo primero que se enseña</b>, y por eso no tiene nada de defectuoso: es sencillo y correcto. Cuando califica un error, el reproche es que se falló en lo más básico.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "An ___ error, the kind covered in the first week: he had added the percentages instead of compounding them.",
+      "twin": "rudimentary",
+      "whyNotTwin": "elementary remite a un <b>nivel de aprendizaje</b> y es impecable en su nivel; rudimentary remite a algo <b>tosco e insuficiente</b>. Uno es el primer curso, el otro un grifo de agua fría.",
+      "root": "elementum (elemento, primera letra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "precocious",
+      "pos": "adj",
+      "def": "developed unusually early for one's age",
+      "disc": "El extremo opuesto del grupo: no va con retraso, va <b>adelantado</b>. Y exige una <b>edad</b> en la oración, porque todo el sentido está en la comparación con lo que tocaría.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "___ at eleven, she was reading the papers her father brought home and finding the mistakes in them.",
+      "twin": "elementary",
+      "whyNotTwin": "elementary es lo <b>básico</b>, propio de quien empieza; precocious es <b>estar por delante</b> de lo que corresponde a la edad. Son direcciones contrarias en el mismo eje.",
+      "root": "prae (antes) + coquere (madurar, cocer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

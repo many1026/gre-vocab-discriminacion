@@ -1,0 +1,91 @@
+{
+  "id": "g040",
+  "name": "destreza",
+  "axis": {
+    "lo": "ligereza del cuerpo en movimiento",
+    "hi": "dominio consolidado de una disciplina"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "nimble",
+      "pos": "adj",
+      "def": "quick and light in movement",
+      "disc": "Lo que se mueve es el <b>cuerpo entero</b>, con rapidez y ligereza. También califica la mente (<i>a nimble mind</i>), pero siempre con la idea de moverse rápido, no de saber mucho.",
+      "tone": "pos",
+      "axisPos": 12,
+      "ej": "___ enough at seventy to take the stairs two at a time, he arrived on the platform before the lift did.",
+      "twin": "deft",
+      "whyNotTwin": "nimble es <b>ligereza al desplazarse</b>; deft es <b>precisión en un gesto</b>. Uno sube escaleras, el otro corta con el cuchillo justo.",
+      "root": "næmel (rápido de aprehender)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dexterous",
+      "pos": "adj",
+      "def": "skillful with the hands",
+      "disc": "Habilidad <b>manual</b>, y es la única del grupo que no exige rapidez: se puede ser dexterous despacio. Viene de <i>dexter</i>, la mano derecha — de ahí también <i>ambidextrous</i>.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "Slow, but astonishingly ___: it took him an hour to thread the spring, and the spring never once bent.",
+      "twin": "deft",
+      "whyNotTwin": "deft lleva la <b>rapidez</b> dentro; dexterous no. Si la oración dice que fue lento y aun así preciso, la palabra es dexterous.",
+      "root": "dexter (mano derecha)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "deft",
+      "pos": "adj",
+      "def": "neat, quick and economical in execution",
+      "disc": "Lo característico es la <b>economía</b>: el gesto justo, rápido y sin desperdicio. Describe actos concretos — un movimiento deft, un toque deft — más que capacidades.",
+      "tone": "pos",
+      "axisPos": 48,
+      "ej": "One ___ movement of the knife and the fish was filleted: no sawing, no second cut, nothing wasted.",
+      "twin": "dexterous",
+      "whyNotTwin": "dexterous es una <b>capacidad</b> de las manos, que puede ejercerse con calma; deft es la <b>cualidad de un acto</b>: rápido, limpio y sin sobras.",
+      "root": "daft (apto, en su sentido antiguo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "adroit",
+      "pos": "adj",
+      "def": "skillful at handling difficult situations",
+      "disc": "La destreza se ha vuelto <b>social o política</b>: sortear una trampa, salir de un aprieto. Casi siempre hay un riesgo de meter la pata que el sujeto esquiva.",
+      "tone": "pos",
+      "axisPos": 68,
+      "ej": "Deft would suggest it was easy; it was ___: he had to concede one point, deny another and flatter a third, and he did all three in one sentence.",
+      "twin": "deft",
+      "whyNotTwin": "deft es <b>limpieza técnica</b> en la ejecución; adroit es <b>habilidad para salir bien parado</b> de algo delicado. Uno resuelve un gesto, el otro una situación.",
+      "root": "à droit (a lo correcto, hacia la derecha)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "adept",
+      "pos": "adj",
+      "def": "thoroughly proficient in a discipline",
+      "disc": "El extremo: ya no es un gesto ni una maniobra, sino el <b>dominio de un campo entero</b>. Suele llevar <i>at</i> o <i>in</i> y el nombre de la disciplina.",
+      "tone": "pos",
+      "axisPos": 88,
+      "ej": "___ in three of them and passable in two more, she was the only person in the building who could read the Ottoman registers.",
+      "twin": "adroit",
+      "whyNotTwin": "adroit resuelve <b>una situación</b> con habilidad; adept <b>domina una materia</b>. Uno se luce en un momento, el otro acumuló años.",
+      "root": "adeptus (el que ha alcanzado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

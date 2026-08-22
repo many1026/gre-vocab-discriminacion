@@ -1,0 +1,142 @@
+========================================================================
+CORRIDA COMPLETA  2026-08-19 23:29:44
+modo: parcial (backfill en curso)
+========================================================================
+
+--- etapa: extract  (exit 0) ---
+fuente        : Greg Mat Vocab List (37 Groups, 1,110 Words) - Word List.csv
+celdas leídas : 1113
+columnas grupo: 38 (Group 1..Group 38)
+espacios      : 24 celdas recortadas
+fixed         : all-ecompassing -> all-encompassing
+dedup         : cumbersome (descartada de Group 22, se queda en Group 11)
+escrito       : data/words.json
+1112 unique words
+
+--- etapa: build  (exit 0) ---
+grupos          : 49
+cobertura       : 311/1112 (28.0%)
+trampas de forma: 18
+cloze pendientes: 0
+escrito         : data/data.json, data/data.js, data/cloze_pending.json
+
+--- etapa: validate  (exit 0) ---
+==============================================================
+REPORTE DE VALIDACIÓN
+==============================================================
+
+Cobertura        : 311/1112 (28.0%)
+Grupos           : 49
+Grupos loose     : 0
+
+Tamaño por grupo:
+  g001   n=7  aliviar o reducir algo doloroso
+  g002   n=5  que habla o escribe de más
+  g003   n=7  lo que una circunstancia anuncia o entrega por azar
+  g004   n=8  reprender a alguien de palabra
+  g005   n=8  dañar la reputación de alguien
+  g006   n=8  conseguir algo con ruegos o con halagos
+  g007   n=6  que dura poco
+  g008   n=8  que no cede
+  g009   n=7  que sobra o que no viene al caso
+  g010   n=6  que da o gasta más de la cuenta
+  g011   n=6  que gasta poco o vive sin lujos
+  g012   n=8  engañar o esquivar la verdad
+  g013   n=5  que habla poco
+  g014   n=6  que se retrae del trato con otros
+  g015   n=8  arrogante o irrespetuoso
+  g016   n=6  valiente o temerario
+  g017   n=6  que no para de trabajar
+  g018   n=7  minucioso o descuidado
+  g019   n=6  difícil de entender
+  g020   n=6  que solo unos pocos conocen o consiguen leer
+  g021   n=6  corto de miras
+  g022   n=6  irritable o quejumbroso
+  g023   n=6  que busca discusión
+  g024   n=8  elogiar o venerar
+  g025   n=6  echar a alguien de su sitio
+  g026   n=7  debilitar o anular
+  g027   n=6  afirmar o probar
+  g028   n=7  que no se altera
+  g029   n=7  tristeza y desánimo
+  g030   n=7  recargado o llamativo
+  g031   n=7  que cambia sin previo aviso
+  g032   n=6  solemne o hinchado
+  g033   n=7  aburrido y sin distinción
+  g034   n=7  que hace daño
+  g035   n=6  que hace bien
+  g036   n=7  sociable y agradable
+  g037   n=5  desagradable en el trato
+  g038   n=6  ingenuo o inexperto
+  g039   n=6  astucia
+  g040   n=5  destreza
+  g041   n=5  sin escrúpulos
+  g042   n=6  cautela y buen juicio
+  g043   n=7  sagacidad y saber
+  g044   n=5  moldeable y flexible
+  g045   n=5  ceder y rendirse
+  g046   n=5  odio y hostilidad
+  g047   n=6  sin energía
+  g048   n=5  desconcierto
+  g049   n=5  escaso
+
+Distribución de tone:
+  neg   175  █████████████████
+  neu    67  ██████
+  pos    69  ███████
+
+Distribución de tier:
+  tier 1: 264
+  tier 2: 47
+
+Banco TC/SE auténtico: 24 ítems (SE=8, TC1=16) — meta 150
+
+Las 20 entradas con 'disc' más corta (candidatas a estar mal escritas):
+   113 car  g027/contend
+   118 car  g029/wistful
+   120 car  g006/entreat
+   123 car  g005/malign
+   125 car  g014/timorous
+   126 car  g016/foolhardy
+   126 car  g017/indefatigable
+   126 car  g029/plaintive
+   127 car  g014/retiring
+   128 car  g009/superfluous
+   128 car  g017/dogged
+   130 car  g004/upbraid
+   130 car  g017/indolent
+   130 car  g034/noxious
+   131 car  g006/supplicate
+   131 car  g033/prosaic
+   132 car  g004/chastise
+   132 car  g018/punctilious
+   132 car  g025/relegate
+   132 car  g025/oust
+
+AVISO: 801 palabras todavía sin grupo.
+
+--------------------------------------------------------------
+VERDE: todas las reglas duras pasan.
+
+========================================================================
+QUÉ QUEDA
+========================================================================
+palabras sin grupo: 801
+primeras 40       : abound, amorphous, belie, cerebral, conspicuous, daunting, didactic, disseminate, feasible, flout, homogeneous, misnomer, negligent, obsequious, placate, proclivity, quixotic, adulterate, advocate, aggrandize, alacrity, ambivalent, anachronistic, avaricious, banal, brazen, calumny, candid, caustic, construe, contrite, covet, decorum, demur, derivative, desiccate, diatribe, abate, abjure, anomalous
+
+campos planificados pendientes: 101
+  - servil y reverente  (8 libres)
+  - honesto y recto  (9 libres)
+  - vanidad y aplomo  (11 libres)
+  - vileza moral  (7 libres)
+  - alegria y euforia  (8 libres)
+  - odio y hostilidad  (5 libres)
+  - repulsion  (5 libres)
+  - cansancio y desgana  (5 libres)
+  - asombro y desconcierto  (8 libres)
+  - pena y remordimiento  (9 libres)
+  - afecto y devocion  (15 libres)
+  - abundante y extendido  (12 libres)
+  - escaso y agotado  (7 libres)
+  - aumentar  (9 libres)
+  - cumbre y sima  (6 libres)

@@ -1,0 +1,111 @@
+{
+  "id": "g095",
+  "name": "anomalía y rareza",
+  "axis": {
+    "lo": "no encaja en el patrón, y eso es todo",
+    "hi": "es tan raro que ya resulta absurdo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "anomalous",
+      "pos": "adj",
+      "def": "not fitting the pattern that was expected",
+      "disc": "Registro <b>técnico y sin juicio</b>: hay un modelo, y este caso no cuadra con él. No dice que esté mal — de hecho la anomalía puede ser el dato bueno y el modelo el equivocado.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "The software flags any reading that does not fit the model as ___ and sets it aside for review.",
+      "twin": "aberrant",
+      "whyNotTwin": "anomalous solo constata que <b>no cuadra con el patrón</b>; aberrant añade que la desviación es <b>anormal y preocupante</b>. Uno describe un dato, el otro diagnostica.",
+      "root": "an- (sin) + homalos (parejo, regular)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "aberrant",
+      "pos": "adj",
+      "def": "deviating from the normal in a troubling way",
+      "disc": "<b>Salirse del camino</b> (<i>ab-</i> + <i>errare</i>). Su registro es <b>clínico y forense</b>: se dice de conductas, células y resultados que se apartan de la norma y que alguien tendrá que explicar.",
+      "tone": "neg",
+      "axisPos": 28,
+      "ej": "The report described his ___ behaviour in clinical language, as if it were a symptom rather than a choice.",
+      "twin": "eccentric",
+      "whyNotTwin": "aberrant es <b>patología</b>: la desviación alarma; eccentric es <b>carácter</b>: la rareza divierte y no le hace daño a nadie. La misma conducta cambia de nombre según quién la mire.",
+      "root": "ab- (lejos) + errare (vagar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "idiosyncratic",
+      "pos": "adj",
+      "def": "particular to one individual and no one else",
+      "disc": "No dice <b>raro</b>, dice <b>propio de uno</b> (<i>idios</i>, propio): el método, la letra, la manía de un solo individuo. Puede funcionar de maravilla — para él.",
+      "tone": "neu",
+      "axisPos": 45,
+      "ej": "Every editor has an ___ set of rules; his was to delete the first paragraph of anything, and it usually worked.",
+      "twin": "eccentric",
+      "whyNotTwin": "idiosyncratic señala <b>de quién es</b> algo; eccentric señala <b>cuánto se aparta</b> de lo normal. Un sistema idiosyncratic puede ser sensatísimo y seguir siendo solo suyo.",
+      "root": "idios (propio) + synkrasis (temperamento)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "peculiar",
+      "pos": "adj",
+      "def": "belonging exclusively to one person, place, or group",
+      "disc": "Del <i>peculium</i>, el ganado que era de uno. En el GRE aparece más este sentido que el de \"raro\": rige <b>to</b> y significa <b>exclusivo de</b>. Si ves <i>___ to</i>, no está diciendo que sea extraño.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "The dialect is ___ to those two valleys and is spoken nowhere else in the country.",
+      "twin": "idiosyncratic",
+      "whyNotTwin": "peculiar rige <b>to</b> y marca <b>pertenencia exclusiva</b>, también de lugares y grupos; idiosyncratic marca la <b>manera propia de una persona</b>. Un dialecto es peculiar to un valle, no idiosyncratic.",
+      "root": "peculium (bienes propios, ganado de uno)",
+      "tier": 1,
+      "sense2": {
+        "def": "strange or hard to account for",
+        "ej": "There was a ___ smell in the corridor that nobody could place.",
+        "note": "El sentido coloquial. La marca es la ausencia de <i>to</i>: sin preposición significa raro; con <i>to</i> significa exclusivo de."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "eccentric",
+      "pos": "adj",
+      "def": "odd in a harmless, openly unconventional way",
+      "disc": "Literalmente <b>fuera del centro</b>. Describe a la <b>persona entera</b> y a su modo de vivir, no a un acto suelto — y arrastra cierta simpatía: el excéntrico no molesta, se le tolera.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "He was ___ in the way universities used to tolerate: three overcoats in June and a cabinet full of birds' eggs.",
+      "twin": "aberrant",
+      "whyNotTwin": "eccentric es rareza <b>tolerada y sin víctimas</b>; aberrant es desviación que <b>preocupa</b> y se anota en un informe. La diferencia está en si hace daño.",
+      "root": "ek- (fuera) + kentron (centro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "outlandish",
+      "pos": "adj",
+      "def": "so extravagant that it is hard to take seriously",
+      "disc": "Era <b>lo de tierras de fuera</b>, y de ahí lo estrafalario. Califica sobre todo <b>afirmaciones, teorías y atuendos</b> que se pasan tanto de la raya que ya provocan risa.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The claims grew steadily more ___ — a lost continent, then a lost continent with airships — until even the society's own journal refused them.",
+      "twin": "eccentric",
+      "whyNotTwin": "outlandish se dice de <b>lo que alguien afirma o exhibe</b> y llega al absurdo; eccentric se dice de <b>cómo alguien vive</b> y se queda en lo raro. Uno se descarta, al otro se le hace sitio.",
+      "root": "outland (tierra de fuera)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

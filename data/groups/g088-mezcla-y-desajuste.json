@@ -1,0 +1,91 @@
+{
+  "id": "g088",
+  "name": "mezcla y desajuste",
+  "axis": {
+    "lo": "todo es del mismo material",
+    "hi": "hay algo que desentona con el resto"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "homogeneous",
+      "pos": "adj",
+      "def": "made up of parts that are all of the same kind",
+      "disc": "<b>Un solo género</b> (<i>homos</i> + <i>genos</i>): no hay variedad interna que valga la pena mencionar. Es descriptivo en química y estadística, y suele volverse crítica cuando se dice de un grupo de personas.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The intake was strikingly ___: the same three schools, the same two suburbs, and half a dozen surnames.",
+      "twin": "heterogeneous",
+      "whyNotTwin": "son <b>antónimos exactos</b>: homogeneous es todo del mismo tipo, heterogeneous es de tipos distintos. Si la oración opone dos cohortes, cada polo se lleva una.",
+      "root": "homos (mismo) + genos (género)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "complementary",
+      "pos": "adj",
+      "def": "different in a way that completes the other",
+      "disc": "Las partes <b>no se parecen y por eso funcionan</b>: cada una aporta lo que a la otra le falta. Ojo con la ortografía — <i>complimentary</i>, con i, es \"halagador\" o \"de regalo\", y el examen lo aprovecha.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "The two appointments were ___: she knew the science and he knew the ministries.",
+      "twin": "heterogeneous",
+      "whyNotTwin": "complementary añade que las diferencias <b>encajan y suman</b>; heterogeneous solo constata que <b>las hay</b>, sin decir si sirven de algo.",
+      "root": "complere (llenar del todo, completar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "heterogeneous",
+      "pos": "adj",
+      "def": "made up of parts of clearly different kinds",
+      "disc": "El antónimo técnico de homogeneous, y como él vive en <b>registro descriptivo</b>: una muestra, una población, una mezcla. No juzga — solo dice que dentro hay <b>clases distintas</b>.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "The first cohort was homogeneous; the second was deliberately ___, with every age band and every income decile represented.",
+      "twin": "homogeneous",
+      "whyNotTwin": "heterogeneous es la cara opuesta de homogeneous y se limita a <b>constatar la variedad</b>; disparate iría más lejos y diría que las partes <b>ni siquiera son comparables</b>.",
+      "root": "heteros (otro) + genos (género)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disparate",
+      "pos": "adj",
+      "def": "so different that they cannot usefully be compared",
+      "disc": "No es solo variedad: es que <b>no hay medida común</b>. Se dice de cosas que alguien juntó y que no tenían por qué estar juntas — y siempre en <b>plural o de un conjunto contado</b>.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "The book tries to hold together three ___ subjects: canal law, Baroque opera and the history of the sardine trade.",
+      "twin": "heterogeneous",
+      "whyNotTwin": "disparate califica <b>elementos enumerados</b> que no casan entre sí; heterogeneous califica <b>el conjunto</b> y solo dice que es variado. Uno señala el abismo, el otro la mezcla.",
+      "root": "dis- (aparte) + par (igual)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "incongruous",
+      "pos": "adj",
+      "def": "out of place with what surrounds it",
+      "disc": "Aquí no se comparan varias partes entre sí: <b>una sola desentona</b> con su contexto. Por eso suele venir con un lugar o una escena, y muchas veces el efecto es cómico.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The chandelier looked ___ in a room with a concrete floor and thirty folding chairs.",
+      "twin": "disparate",
+      "whyNotTwin": "incongruous necesita <b>un entorno</b> con el que algo choca; disparate necesita <b>varias cosas</b> que no casan entre ellas. Uno es una pieza fuera de sitio, el otro una lista sin hilo.",
+      "root": "in- (no) + congruere (encajar, coincidir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

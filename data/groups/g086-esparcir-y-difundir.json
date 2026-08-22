@@ -1,0 +1,91 @@
+{
+  "id": "g086",
+  "name": "esparcir y difundir",
+  "axis": {
+    "lo": "los separa hasta que dejan de ser un grupo",
+    "hi": "lo mantiene vivo generación tras generación"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "disperse",
+      "pos": "verb",
+      "def": "to scatter a group so that it no longer holds together",
+      "disc": "Lo que se dispersa <b>estaba junto</b> y deja de estarlo: una multitud, un banco de peces, unas partículas. El foco está en la <b>separación</b>, no en llegar a ninguna parte.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Mounted police moved in at dusk to ___ the crowd outside the ministry.",
+      "twin": "diffuse",
+      "whyNotTwin": "disperse <b>separa</b> lo que estaba reunido y suele ser un acto brusco y con agente; diffuse <b>se extiende poco a poco</b> hasta repartirse parejo, y normalmente ocurre solo.",
+      "root": "dis- (en direcciones distintas) + spargere (esparcir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "diffuse",
+      "pos": "verb",
+      "def": "to spread gradually until it is evenly mixed through something",
+      "disc": "Es el verbo de la <b>física y la química</b>: el gas, el calor, la tinta en el agua. El proceso es <b>lento, sin agente y homogéneo</b> — al final no queda un foco, queda todo parejo.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "The dye ___s through the fibre until no part of the cloth is darker than another.",
+      "twin": "disperse",
+      "whyNotTwin": "en diffuse el material <b>se reparte hasta igualarse</b> dentro de un medio; en disperse los elementos <b>se van cada uno por su lado</b> y el conjunto desaparece.",
+      "root": "dis- + fundere (verter)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disseminate",
+      "pos": "verb",
+      "def": "to spread information widely and on purpose",
+      "disc": "La raíz es <i>semen</i>, semilla, pero hoy lo que se siembra es <b>información</b>: hallazgos, directrices, propaganda. Siempre hay <b>alguien que decide distribuirla</b> y un público al que llega.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "The findings were ___d to every clinic in the region within a week of publication.",
+      "twin": "propagate",
+      "whyNotTwin": "disseminate reparte <b>información</b> desde un centro que la emite; propagate hace que algo <b>se multiplique por sí mismo</b> — plantas, especies, una creencia que gana adeptos.",
+      "root": "dis- + seminare (sembrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "propagate",
+      "pos": "verb",
+      "def": "to multiply something by reproduction, or spread it that way",
+      "disc": "Primero es <b>jardinería y biología</b>: multiplicar plantas por esquejes, propagar una especie. De ahí salta a las creencias, que se propagan <b>de persona en persona</b> como se propaga un cultivo.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "Most varieties are ___d from cuttings rather than from seed.",
+      "twin": "disseminate",
+      "whyNotTwin": "propagate implica <b>reproducción</b>: cada copia genera la siguiente; disseminate implica <b>reparto</b>: un emisor manda lo mismo a muchos destinos.",
+      "root": "propago (esqueje, acodo de la vid)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "perpetuate",
+      "pos": "verb",
+      "def": "to make something continue indefinitely",
+      "disc": "No lo extiende en el <b>espacio</b> sino en el <b>tiempo</b>: lo que se perpetúa ya existía y sigue existiendo. Su objeto casi siempre es algo que convendría dejar morir — un mito, un privilegio, un ciclo.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Three generations after it was disproved, the textbook still ___s the same myth about the treaty.",
+      "twin": "propagate",
+      "whyNotTwin": "perpetuate lo mantiene <b>vivo en el tiempo</b> sin necesidad de que llegue a nadie nuevo; propagate lo hace <b>multiplicarse</b>. Uno es duración, el otro es número.",
+      "root": "perpetuus (continuo, sin interrupción)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

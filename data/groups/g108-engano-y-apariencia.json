@@ -1,0 +1,91 @@
+{
+  "id": "g108",
+  "name": "engaño y apariencia de verdad",
+  "axis": {
+    "lo": "es mentir por costumbre",
+    "hi": "es parecer verdad tan bien que convence"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "mendacity",
+      "pos": "noun",
+      "def": "the habit of lying",
+      "disc": "No es una mentira suelta: es <b>la disposición a mentir</b> como rasgo de carácter o de una institución. Registro alto y acusatorio — se le reprocha a un testigo, a un régimen, a un memorialista.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The biography documents a ___ so consistent that even his birthplace had to be checked twice.",
+      "twin": "chicanery",
+      "whyNotTwin": "la mendacity está en <b>lo que se dice</b>: se miente; la chicanery está en <b>lo que se hace</b>: se usan trampas y tecnicismos. Una es lengua, la otra maniobra.",
+      "root": "mendax (mentiroso)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "chicanery",
+      "pos": "noun",
+      "def": "the use of clever tricks, especially legal ones, to deceive",
+      "disc": "El terreno es <b>el procedimiento</b>: cláusulas, plazos, tecnicismos usados para conseguir lo que de frente no se conseguiría. Todo puede ser formalmente legal, y ese es justo el reproche.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "The estate was lost through pure ___: three clauses, two deadlines, and not one illegal act.",
+      "twin": "skullduggery",
+      "whyNotTwin": "la chicanery es <b>legalista</b>: se juega con las reglas sin romperlas; la skullduggery es <b>turbia</b>: sobres, favores y cosas que no se escriben. Una va con abogados, la otra con intermediarios.",
+      "root": "chicane (enredo, argucia)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "skullduggery",
+      "pos": "noun",
+      "def": "underhand scheming of a shady kind",
+      "disc": "Palabra <b>coloquial y algo divertida</b>: sugiere manejos entre bastidores — pucherazos, sobornos, papeles que desaparecen. Casi siempre en plural implícito y sin nombrar a nadie.",
+      "tone": "neg",
+      "axisPos": 52,
+      "ej": "The result was overturned after a year of quiet ___ came to light: two ballot boxes had never left the mayor's office.",
+      "twin": "chicanery",
+      "whyNotTwin": "la skullduggery <b>rompe las reglas</b> a escondidas; la chicanery <b>las retuerce</b> a plena luz. Si en la oración nada es ilegal, es chicanery.",
+      "root": "sculduddery escocés (indecencia, chanchullo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "delusion",
+      "pos": "noun",
+      "def": "a false belief held firmly despite the evidence",
+      "disc": "El único del grupo donde <b>el engañado es uno mismo</b>. No hay tramposo: hay una creencia que se sostiene contra los hechos, sea por locura clínica o por pura obstinación.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "He worked on under the ___ that the department would fund a second year, which it had already refused twice.",
+      "twin": "mendacity",
+      "whyNotTwin": "en la delusion <b>nadie miente</b>: el sujeto se cree lo que le conviene; en la mendacity <b>alguien miente a otro</b>. Fíjate en si hay víctima distinta del que se engaña.",
+      "root": "de- + ludere (burlar, jugar con)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "verisimilitude",
+      "pos": "noun",
+      "def": "the appearance of being true or real",
+      "disc": "Es <b>neutra</b>, y ahí está la trampa del grupo: nombra la <b>apariencia de verdad</b>, que en una novela o una película es una virtud. Solo se vuelve engaño cuando quien la fabrica quiere hacerla pasar por verdad.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The forger's letters had a ___ that fooled two archives: right paper, right ink, right handwriting.",
+      "twin": "delusion",
+      "whyNotTwin": "la verisimilitude está <b>en el objeto</b>: la cosa parece verdadera; la delusion está <b>en la cabeza de alguien</b>: la persona se lo cree. Una se fabrica, la otra se padece.",
+      "root": "verus (verdadero) + similis (parecido)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

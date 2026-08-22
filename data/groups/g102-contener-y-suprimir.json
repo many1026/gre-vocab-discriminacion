@@ -1,0 +1,95 @@
+{
+  "id": "g102",
+  "name": "contener y suprimir",
+  "axis": {
+    "lo": "ni siquiera llega a aparecer",
+    "hi": "se aplasta por la fuerza"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "omit",
+      "pos": "verb",
+      "def": "to leave something out of an account or a list",
+      "disc": "El más <b>silencioso</b> del grupo: nadie prohíbe nada, simplemente <b>no se incluye</b>. Puede ser descuido o puede ser cálculo, y la oración suele decir cuál de los dos con lo que deja caer después.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "The summary ___s the one figure that mattered, and whether by accident or by design nobody could tell.",
+      "twin": "censor",
+      "whyNotTwin": "omit lo decide <b>quien escribe</b>, y no hay autoridad de por medio; censor lo decide <b>alguien de fuera</b> con poder para tachar. Uno no lo pone, al otro se lo quitan.",
+      "root": "ob- + mittere (dejar ir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "censor",
+      "pos": "verb",
+      "def": "to remove content officially before it reaches the public",
+      "disc": "Hay <b>autoridad y tijera</b>: un censor lee y corta. No confundir con <i>censure</i>, que es reprobar formalmente a una persona — se parecen en la grafía y no comparten nada más.",
+      "tone": "neg",
+      "axisPos": 28,
+      "ej": "The board's reader ___ed three chapters before the book was allowed into the shops.",
+      "twin": "omit",
+      "whyNotTwin": "censor supone <b>una instancia con poder</b> que suprime contenido ya escrito; omit supone solo <b>que no se incluyó</b>. La marca es si hay alguien autorizado a tachar.",
+      "root": "censere (juzgar); del censor romano",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "check",
+      "pos": "verb",
+      "def": "to halt the advance or growth of something",
+      "disc": "Este es el sentido que cae en el examen, y viene del <b>ajedrez</b> (<i>jaque</i>): frenar el avance. Nada que ver con revisar — cuando el objeto es un crecimiento, una epidemia o un impulso, significa <b>detener</b>.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "A cold spring ___ed the growth of the vines just enough to concentrate the fruit.",
+      "twin": "suppress",
+      "whyNotTwin": "check <b>frena el avance</b> y lo que se frena sigue existiendo; suppress <b>lo aplasta</b>. Una helada checks la vid; un ejército suppresses una revuelta.",
+      "root": "del ajedrez, shah (jaque al rey)",
+      "tier": 1,
+      "sense2": {
+        "def": "to examine something in order to verify it",
+        "ej": "He stopped to ___ the figures against the original invoice.",
+        "note": "El sentido que todo el mundo conoce, y por eso el examen usa el otro. Si el objeto es un crecimiento, una emoción o un avance, no está revisando: está frenando."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "neutralize",
+      "pos": "verb",
+      "def": "to cancel out the effect of something",
+      "disc": "De <i>neuter</i>, <b>ni uno ni otro</b>: lo que se logra es <b>dejar en cero</b>. La cosa sigue ahí — el ácido, la ventaja del rival, la amenaza — pero ya no produce ningún efecto.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The additive ___s the acid, so the pipe stops corroding within the hour.",
+      "twin": "check",
+      "whyNotTwin": "neutralize <b>anula el efecto</b>, y suele bastar con una reacción química o una jugada; check <b>detiene un avance</b> que seguiría de no ser por el freno.",
+      "root": "neuter (ni el uno ni el otro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "suppress",
+      "pos": "verb",
+      "def": "to put something down by force, or hold it in",
+      "disc": "<b>Apretar por debajo</b> (<i>sub</i> + <i>premere</i>). Sus dos objetos típicos son <b>una revuelta</b> — se aplasta — y <b>una emoción o un informe</b> — se ahoga para que no salga a la luz.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Troops were sent to ___ the rising, and the reprisals lasted longer than the rising itself.",
+      "twin": "check",
+      "whyNotTwin": "suppress <b>termina</b> con aquello, y con fuerza; check solo <b>lo detiene</b> donde estaba. Las represalias posteriores son la firma de suppress.",
+      "root": "sub (debajo) + premere (apretar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

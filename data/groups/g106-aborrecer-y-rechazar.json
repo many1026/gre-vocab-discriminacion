@@ -1,0 +1,91 @@
+{
+  "id": "g106",
+  "name": "aborrecer y rechazar",
+  "axis": {
+    "lo": "es una repugnancia que se siente en el cuerpo",
+    "hi": "es una superioridad que ni se molesta en contestar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "loathe",
+      "pos": "verb",
+      "def": "to feel intense disgust for something",
+      "disc": "Es <b>visceral</b>: el estómago antes que el juicio. Sus objetos típicos son sensoriales y cotidianos — un olor, una comida, una voz — y no hace falta ninguna razón moral para justificarlo.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "He ___s the smell of aniseed so much that he leaves the room when the bottle is opened.",
+      "twin": "abhor",
+      "whyNotTwin": "loathe es <b>asco</b>, y puede ser por una tontería; abhor es <b>condena moral</b>, y necesita un principio detrás. Se loathe el regaliz; se abhor la tortura.",
+      "root": "lath (odioso, repugnante)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abhor",
+      "pos": "verb",
+      "def": "to reject something as morally intolerable",
+      "disc": "<b>Erizarse de horror</b> (<i>horrere</i>), pero por principio: lo que se abhorre choca con una convicción. Registro alto y a menudo institucional — una orden religiosa, una constitución, la naturaleza misma.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The order ___s violence in every form: its members will not carry so much as a stick.",
+      "twin": "loathe",
+      "whyNotTwin": "abhor supone <b>un principio</b> que se viola; loathe supone <b>una reacción del cuerpo</b>. Si en la oración hay doctrina, regla o convicción, es abhor.",
+      "root": "ab- + horrere (erizarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "deride",
+      "pos": "verb",
+      "def": "to mock something openly as worthless",
+      "disc": "De <i>ridere</i>, <b>reírse</b>: el desprecio aquí <b>se oye</b>. Casi siempre va con <i>as</i> y el insulto que se le cuelga al blanco — <i>___d as naive</i>, <i>___d as a fantasy</i>.",
+      "tone": "neg",
+      "axisPos": 52,
+      "ej": "The plan was ___d as naive by the very people who adopted it four years later.",
+      "twin": "disdain",
+      "whyNotTwin": "deride <b>se ríe en voz alta</b> y necesita público; disdain <b>calla</b> y ni se digna a responder. Uno hace ruido, el otro se da la vuelta.",
+      "root": "de- + ridere (reír)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "spurn",
+      "pos": "verb",
+      "def": "to reject contemptuously something that is offered",
+      "disc": "Era <b>apartar de una patada</b>. Exige que <b>haya una oferta sobre la mesa</b> — un puesto, un trato, una mano tendida, un pretendiente — y que se la rechace sin agradecerla.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "He proposed twice and was ___ed both times; the third year he did not bother to write.",
+      "twin": "disdain",
+      "whyNotTwin": "spurn exige <b>algo ofrecido</b> que se rechaza; disdain es <b>la actitud</b> de quien considera indigno hasta responder. Uno devuelve el regalo, el otro ni abre el sobre.",
+      "root": "spurnan (rechazar con el pie)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disdain",
+      "pos": "verb",
+      "def": "to consider something beneath one's notice",
+      "disc": "<b>No considerar digno</b> (<i>dis-</i> + <i>dignari</i>). Su construcción propia es <i>___ to</i> + verbo: no es que no pueda, es que <b>no se rebaja</b> a hacerlo. Desprecio desde arriba y en silencio.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "She ___ed to answer the letter at all, and had her secretary return it unopened.",
+      "twin": "spurn",
+      "whyNotTwin": "disdain rige <b>infinitivo</b> y describe a quien se cree por encima; spurn rige <b>objeto directo</b> y describe el rechazo de algo concreto que se ofrecía.",
+      "root": "dis- (no) + dignari (considerar digno)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

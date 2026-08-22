@@ -1,0 +1,91 @@
+{
+  "id": "g085",
+  "name": "reprobar en público",
+  "axis": {
+    "lo": "desaprueba en voz baja",
+    "hi": "marca con un estigma que ya no se quita"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "deprecate",
+      "pos": "verb",
+      "def": "to play something down or express mild disapproval of it",
+      "disc": "El más <b>tibio</b> del grupo, y el que más se usa <b>sobre uno mismo</b>: quitarle importancia a lo propio. De ahí <i>self-deprecating</i>. Ojo: no es <i>depreciate</i>, que es perder valor de mercado.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "She ___s her own achievements so consistently that strangers assume she had nothing to do with them.",
+      "twin": "decry",
+      "whyNotTwin": "deprecate <b>resta importancia</b>, a menudo a lo de uno mismo y con cortesía; decry <b>denuncia</b> en voz alta algo que le parece un mal público. Uno se encoge de hombros, el otro alza la voz.",
+      "root": "de- + precari (rogar que no)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "decry",
+      "pos": "verb",
+      "def": "to condemn something publicly as bad or worthless",
+      "disc": "Su objeto es <b>una práctica o una tendencia</b>, no una persona: la pérdida de algo, la moda de otra cosa, el estado del mundo. Es la queja pública del comentarista, y muchas veces no cambia nada.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "Critics ___ the decline of handwriting in print, as they have for two centuries, without slowing it down.",
+      "twin": "denounce",
+      "whyNotTwin": "decry se lamenta de <b>un fenómeno</b> y no señala culpables; denounce señala <b>a alguien</b> y busca que le pase algo. Fíjate en si hay un acusado con nombre.",
+      "root": "de- (abajo) + crier (gritar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "denounce",
+      "pos": "verb",
+      "def": "to accuse someone publicly of wrongdoing",
+      "disc": "Hay <b>acusado</b> y hay <b>consecuencias</b>: se denuncia a alguien ante una autoridad o ante el público, y de ahí sale un proceso, un despido, una purga. El registro es político y judicial.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "He ___d his former colleagues by name at the hearing — he was a witness, not a member of the panel — and three of them lost their jobs.",
+      "twin": "censure",
+      "whyNotTwin": "denounce lo hace <b>cualquiera</b>, desde fuera y a viva voz; censure lo hace <b>una institución</b>, por votación y por escrito. Uno acusa, el otro sanciona.",
+      "root": "de- + nuntiare (anunciar, notificar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "censure",
+      "pos": "verb",
+      "def": "to condemn someone formally, as an official body does",
+      "disc": "Es el <b>acto oficial</b>: un cuerpo colegiado vota y deja constancia. No expulsa ni encarcela — la sanción es <b>la constancia misma</b>. No confundir con <i>censor</i>, que es suprimir contenido.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The chamber voted to ___ him — the first time in ninety years it had done so — but he kept his seat.",
+      "twin": "denounce",
+      "whyNotTwin": "censure exige <b>un cuerpo con potestad</b> y un procedimiento; denounce solo exige alguien dispuesto a acusar en voz alta. Si en la oración hay votación o acta, es censure.",
+      "root": "censere (juzgar, tasar), del censor romano",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "stigmatize",
+      "pos": "verb",
+      "def": "to mark something as shameful in the public mind",
+      "disc": "Lo que deja no es una sanción sino <b>una marca</b> (<i>stigma</i>, el hierro con que se marcaba al esclavo). Recae sobre <b>condiciones y grupos</b> — una enfermedad, un oficio, una procedencia — y dura generaciones.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "The illness was long ___d as a moral failing, and families hid it for three generations.",
+      "twin": "censure",
+      "whyNotTwin": "stigmatize marca a <b>una categoría entera</b> y el efecto es social y duradero; censure sanciona a <b>un individuo</b> en un acta y con fecha.",
+      "root": "stigma griego (marca hecha a fuego)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

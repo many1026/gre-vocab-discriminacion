@@ -1,0 +1,95 @@
+{
+  "id": "g067",
+  "name": "sumiso y obediente",
+  "axis": {
+    "lo": "obedece porque su puesto lo pide",
+    "hi": "se humilla y adula para agradar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "subordinate",
+      "pos": "adj",
+      "def": "lower in rank and under another's authority",
+      "disc": "Es un hecho <b>de organigrama</b>, no de carácter: dice dónde está alguien en la jerarquía, no cómo se comporta. Un subordinate puede discutir todo y seguir siéndolo.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Two levels below her old title and ___ to a manager she had once trained, she found herself asking permission for decisions she used to make alone.",
+      "twin": "subservient",
+      "whyNotTwin": "subordinate describe la <b>posición</b> en la jerarquía; subservient describe la <b>conducta</b>: doblar la voluntad propia por costumbre. Si la oración habla de rango, es subordinate.",
+      "root": "sub (debajo) + ordinare (poner en orden)",
+      "tier": 1,
+      "sense2": {
+        "def": "to treat one thing as less important than another",
+        "ej": "The design ___s every other consideration to speed.",
+        "note": "Sentido verbal muy frecuente en el GRE, y va con 'to': se subordina X a Y. Si hay dos cosas abstractas unidas por ese 'to', es este sentido."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "dutiful",
+      "pos": "adj",
+      "def": "doing what one's role or duty requires",
+      "disc": "Cumple, y ahí se acaba: hace lo que su papel exige, con corrección y <b>sin entusiasmo</b>. Cuando el GRE la usa casi siempre hay una sombra de tibieza detrás — la visita dutiful es puntual y fría.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "A ___ son, he telephoned every Sunday at six, said the same four things and hung up.",
+      "twin": "subservient",
+      "whyNotTwin": "dutiful cumple <b>una obligación reconocida</b> y conserva su criterio; subservient <b>renuncia al criterio</b> y hace lo que el otro quiera, haya obligación o no.",
+      "root": "debere (deber)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "beholden",
+      "pos": "adj",
+      "def": "owing gratitude for a favor received",
+      "disc": "La sumisión viene de una <b>deuda concreta</b>: alguien hizo algo por ti y eso te ata las manos. Va con <i>to</i>, y siempre se puede señalar el favor. Sin favor previo, no es beholden.",
+      "tone": "neu",
+      "axisPos": 48,
+      "ej": "Having taken their money in the first campaign, he was ___ to those donors ever after, and they knew it.",
+      "twin": "subservient",
+      "whyNotTwin": "beholden explica <b>por qué</b> alguien no puede oponerse: debe un favor. subservient no necesita deuda ninguna — es su manera de estar en el mundo.",
+      "root": "behealdan (inglés antiguo: retener, tener sujeto)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "subservient",
+      "pos": "adj",
+      "def": "willing to put another's will above one's own",
+      "disc": "Aquí la obediencia es <b>carácter</b>, no puesto ni deuda: se subordina siempre, por hábito. También vale para cosas abstractas — <i>art ___ to politics</i> es el arte puesto al servicio de la política.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Nobody flattered anyone, and nobody owed anyone a favor: the reviewers had simply become ___ to the sponsor, approving whatever it proposed and asking nothing.",
+      "twin": "obsequious",
+      "whyNotTwin": "obsequious es subservient <b>más el halago</b>: sonrisas, elogios, atenciones que se hacen notar. Si en la oración nadie adula, es subservient.",
+      "root": "sub (debajo) + servire (servir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "obsequious",
+      "pos": "adj",
+      "def": "fawning and attentive in order to please",
+      "disc": "Añade al servilismo el <b>halago activo</b>: atenciones, sonrisas y elogios calculados que se le echan encima a quien conviene. Es servil y además <b>empalagoso</b>, y por eso siempre suena falso.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The waiter's ___ hovering — refilling a glass that was still full, praising every choice aloud — made the meal exhausting.",
+      "twin": "subservient",
+      "whyNotTwin": "el obsequious <b>corteja</b>: hace notar su servicio. El subservient solo obedece, y puede hacerlo en silencio y de mal humor.",
+      "root": "obsequi (plegarse a, complacer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
