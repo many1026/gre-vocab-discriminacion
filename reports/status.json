@@ -1,5 +1,5 @@
 {
- "timestamp": "2026-08-23T13:33:50",
+ "timestamp": "2026-08-23T08:12:52",
  "stages": {
   "extract": 0,
   "build": 0,
@@ -10,7 +10,7 @@
   "covered": 1027,
   "total": 1112,
   "groups": 184,
-  "looseGroups": 0
+  "looseGroups": 2
  },
  "errorCount": 0,
  "errors": [],

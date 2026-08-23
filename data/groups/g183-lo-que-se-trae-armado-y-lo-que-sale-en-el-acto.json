@@ -5,7 +5,8 @@
     "lo": "todo estaba decidido antes de empezar",
     "hi": "no había nada decidido: se hace aquí mismo"
   },
-  "loose": false,
+  "loose": true,
+  "looseReason": "Comparten el terreno de la preparación de un acto, pero no hay una sola dimensión que los gradúe: `coin` (acuñar un término) y `conspire` en su uso impersonal no ocupan una posición defendible entre «decidido de antemano» y «hecho en el acto». Se conservan juntos porque los cloze sí los separan limpiamente; el ejercicio de ordenar el eje no debe pedirse para este grupo.",
   "words": [
     {
       "w": "premeditate",

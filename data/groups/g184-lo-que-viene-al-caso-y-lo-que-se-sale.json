@@ -5,7 +5,8 @@
     "lo": "se ciñe al asunto y a la explicación corriente",
     "hi": "se aparta de ella hasta parecer contradecirse"
   },
-  "loose": false,
+  "loose": true,
+  "looseReason": "Los cinco describen cómo se sitúa una afirmación frente a lo esperado, pero por dimensiones distintas: `pertinent` mide pertinencia, `rational` fundamento, `divergent` diferencia entre dos cosas, `radical` alcance y `paradoxical` autocontradicción. No son grados de una misma escala. Los cloze discriminan bien; el eje no ordena.",
   "words": [
     {
       "w": "pertinent",
