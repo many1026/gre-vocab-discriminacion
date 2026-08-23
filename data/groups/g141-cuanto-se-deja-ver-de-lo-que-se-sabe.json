@@ -1,0 +1,111 @@
+{
+  "id": "g141",
+  "name": "cuánto se deja ver de lo que se sabe",
+  "axis": {
+    "lo": "se enturbia o se insinúa",
+    "hi": "se expone con todos sus contornos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "obfuscate",
+      "pos": "v",
+      "def": "to make something deliberately unclear",
+      "disc": "No es callar: es <b>hablar mucho para que no se entienda</b>. El truco es el volumen — anexos, jerga, cifras sin denominador — y el propósito es que quien pregunta se canse antes de encontrar la respuesta.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "The forty-page annex did not answer the question; it was written to ___ it, and three committees gave up before finding the number.",
+      "twin": "allude",
+      "whyNotTwin": "obfuscate <b>enturbia a propósito</b> y por eso es un reproche; allude solo <b>no nombra</b>, y suele ser elegancia o discreción, no engaño.",
+      "root": "ob + fuscare (oscurecer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "allude",
+      "pos": "v",
+      "def": "to refer to something without naming it",
+      "disc": "Apunta a algo <b>que el oyente ya conoce</b> — un poema, un escándalo, una fecha — y cuenta con que lo reconozca. Rige siempre <b>to</b>, y su sustantivo, <i>allusion</i>, es la figura literaria.",
+      "tone": "neu",
+      "axisPos": 22,
+      "ej": "The title ___s to a poem every child in the country had learned by heart, which is why nobody had to explain it.",
+      "twin": "intimate",
+      "whyNotTwin": "allude señala <b>algo ya sabido y ajeno</b> y necesita la preposición to; intimate deja caer <b>algo propio y todavía no sabido</b> — una intención — y lleva una oración con that.",
+      "root": "ad + ludere (jugar hacia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intimate",
+      "pos": "v",
+      "def": "to make something known indirectly",
+      "disc": "Se comunica <b>sin decirlo</b>: el oyente tiene que sacarlo de un gesto o de un rodeo, y por eso siempre queda margen para negarlo. Lo típico es una intención propia todavía no anunciada. Rige una oración con <b>that</b>.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "She would not say it outright, but over lunch she ___d that the department would not survive another budget.",
+      "twin": "allude",
+      "whyNotTwin": "intimate <b>no llega a decirlo</b>: la frase misma reconoce que no se dijo en voz alta; allude sí dice algo, pero sobre <b>otra cosa</b>, y confía en que el oyente ate el cabo.",
+      "root": "intimare (dar a entender, meter dentro)",
+      "tier": 2,
+      "sense2": {
+        "def": "closely personal or private",
+        "ej": "Only six people came: it was an ___ ceremony, and no photographs were taken.",
+        "note": "El adjetivo, mucho más frecuente en la lengua corriente que el verbo. Si va delante de un sustantivo — an intimate friend, an intimate detail — es este sentido; si lleva that detrás, es el verbo de insinuar."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "divulge",
+      "pos": "v",
+      "def": "to reveal information that should have been kept secret",
+      "disc": "Lo dicho <b>estaba guardado y tenía dueño</b>: una cifra confidencial, una fuente, un nombre. El verbo lleva implícito el deber roto — por eso su objeto suele ser un secreto y no una noticia cualquiera.",
+      "tone": "neu",
+      "axisPos": 58,
+      "ej": "The confidential figures were in two newspapers within a day; whoever ___d them had signed the same clause as everyone else in the room.",
+      "twin": "apprise",
+      "whyNotTwin": "divulge <b>rompe una reserva</b> y su objeto es la cosa guardada — las cifras, el nombre; apprise <b>cumple un deber</b> y su objeto es la persona que tiene derecho a saber: se apprise a alguien of algo.",
+      "root": "divulgare (echar al vulgo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "apprise",
+      "pos": "v",
+      "def": "to formally inform someone of something",
+      "disc": "Registro <b>formal y obligado</b>: reglamentos, hospitales, tribunales. La construcción es fija — <b>apprise somebody of something</b> — y el complemento directo es siempre la persona, nunca la noticia.",
+      "tone": "neu",
+      "axisPos": 76,
+      "ej": "Regulations require that the family be ___d of any change in his condition within the hour.",
+      "twin": "divulge",
+      "whyNotTwin": "apprise pide <b>persona + of</b>: se apprise a la familia; divulge pide <b>la cosa</b>: se divulgan las cifras. La frase «be apprised of» solo la llena apprise.",
+      "root": "apprendre (hacer saber)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "delineate",
+      "pos": "v",
+      "def": "to describe or mark out the exact limits of something",
+      "disc": "Traza <b>la línea</b> (<i>linea</i>): dónde empieza una cosa y dónde acaba la otra. Su objeto son fronteras, competencias, categorías — no personas ni secretos. Es el extremo claro del grupo: después de delinear no queda nada implícito.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The committee asked for a memo that would ___ exactly where the treasurer's authority ends and the trustees' begins — a boundary nobody had ever thought to fix.",
+      "twin": "apprise",
+      "whyNotTwin": "delineate dibuja <b>los límites de un asunto</b> y no necesita destinatario; apprise necesita <b>a quién</b> se le comunica, porque su objeto directo es la persona.",
+      "root": "de + linea (línea)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

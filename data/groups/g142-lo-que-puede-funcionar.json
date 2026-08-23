@@ -1,0 +1,111 @@
+{
+  "id": "g142",
+  "name": "lo que puede funcionar",
+  "axis": {
+    "lo": "sirve para salir del paso",
+    "hi": "produce el efecto y se sostiene solo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "expedient",
+      "pos": "adj",
+      "def": "useful for one's own purposes rather than right",
+      "disc": "La palabra no dice que algo funcione bien, sino que <b>le conviene a quien decide</b>. Casi siempre aparece enfrentada a lo justo o lo honesto — de ahí <i>politically expedient</i> —, y el que la usa está señalando esa renuncia.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The decision was fair to nobody, but for the minister it was ___: the inquiry closed, the budget passed, and she kept her post.",
+      "twin": "feasible",
+      "whyNotTwin": "expedient mide <b>a quién le conviene</b>; feasible mide <b>si se puede hacer</b>. Un plan imposible puede ser convenientísimo sobre el papel, y uno perfectamente factible puede no darle nada a nadie.",
+      "root": "expedire (soltar el pie, sacar del apuro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "passable",
+      "pos": "adj",
+      "def": "just good enough to be accepted",
+      "disc": "Está <b>en el umbral y no lo pasa por mucho</b>: aprueba, y ese es todo el elogio. Suele ir con una medida de hasta dónde llega — engañar a un desconocido un minuto, servir para una cena y no para más.",
+      "tone": "neu",
+      "axisPos": 22,
+      "ej": "His accent is ___ — good enough to be taken for a local for about a minute, and no longer.",
+      "twin": "sound",
+      "whyNotTwin": "passable <b>apenas cumple</b> y admite defectos mientras no lleguen al mínimo; sound <b>no tiene defecto</b>: aguanta que lo examinen viga por viga.",
+      "root": "passer (pasar, aprobar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "feasible",
+      "pos": "adj",
+      "def": "able to be done with the available means",
+      "disc": "Pregunta por <b>los medios</b>: tiempo, dinero, técnica. No dice nada de si vale la pena ni de si durará. Su marco propio es impersonal — <i>it is ___ to</i> + verbo —, y le acompañan siempre las condiciones materiales.",
+      "tone": "neu",
+      "axisPos": 42,
+      "ej": "Technically it is perfectly ___ to lay the cable in a single season; what nobody has explained is who pays for the ship.",
+      "twin": "viable",
+      "whyNotTwin": "feasible mira <b>el hacer</b> y admite el marco <i>it is ___ to</i> + verbo; viable mira <b>el después</b> — si la cosa se sostiene sola — y se dice de un ser o de una empresa, no de una acción.",
+      "root": "facere (hacer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "viable",
+      "pos": "adj",
+      "def": "able to survive or keep going on its own",
+      "disc": "De <i>vie</i>, <b>vida</b>: la prueba es si aguanta <b>sin ayuda de fuera</b>. Su casa es la biología — un feto viable — y de ahí pasó a la economía: una línea de tren que sobrevive sin subvención.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "Below about twenty-four weeks the foetus is not yet ___ outside the womb, whatever the machines in the ward can do.",
+      "twin": "feasible",
+      "whyNotTwin": "viable habla de <b>sobrevivir por su cuenta</b>: un feto o una empresa; feasible habla de <b>poder hacerse</b>: un tendido, una obra. Un feto no es feasible y un tendido no sobrevive a nada.",
+      "root": "vie (vida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sound",
+      "pos": "adj",
+      "def": "free of defect and able to withstand scrutiny",
+      "disc": "Nada le falla <b>por dentro</b>: se dice de vigas, de cuentas y de razonamientos. Aparece en pares fijos — <i>structurally ___</i>, <i>___ reasoning</i>, <i>of ___ mind</i> — y su prueba es que alguien lo examine entero sin encontrar nada.",
+      "tone": "pos",
+      "axisPos": 78,
+      "ej": "The roof timbers are two hundred years old and perfectly ___: the surveyor tested every beam and found no rot anywhere.",
+      "twin": "passable",
+      "whyNotTwin": "sound resiste <b>el examen completo</b> — no aparece ni un defecto; passable solo llega <b>al mínimo</b>, y quien lo dice está admitiendo los defectos que hay.",
+      "root": "gesund (sano)",
+      "tier": 1,
+      "sense2": {
+        "def": "a noise, or to seem a certain way",
+        "ej": "The explanation ___ed reasonable until somebody checked the dates.",
+        "note": "El sentido corriente — ruido, o sonar de cierta manera — no es el del GRE. Si va delante de un sustantivo o tras un verbo copulativo (structurally sound, the argument is sound), es el adjetivo de «sin fallas»."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "efficacious",
+      "pos": "adj",
+      "def": "producing the intended effect",
+      "disc": "Registro <b>técnico y casi siempre médico</b>: se dice del remedio que hace lo que se espera de él, medido contra algo. Rige <b>against</b> o <b>in</b>, y no se dice de personas — para eso está <i>efficient</i>.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The compound proved ___ against the parasite in every trial but one, though nobody yet knows why it works.",
+      "twin": "sound",
+      "whyNotTwin": "efficacious afirma que <b>produce el efecto buscado</b> y necesita un objetivo contra el que medirse; sound solo afirma que <b>no tiene fallas</b>, que es mucho menos: una viga sana no cura nada.",
+      "root": "efficere (llevar a cabo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

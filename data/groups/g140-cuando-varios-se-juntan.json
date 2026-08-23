@@ -1,0 +1,95 @@
+{
+  "id": "g140",
+  "name": "cuando varios se juntan",
+  "axis": {
+    "lo": "se juntan solos, sin que nadie lo decida",
+    "hi": "se ponen de acuerdo y lo esconden"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "cluster",
+      "pos": "v",
+      "def": "to gather closely around one point",
+      "disc": "Lo suyo es <b>la distribución en el espacio o en los datos</b>: las cosas aparecen apiñadas alrededor de un punto y esa concentración es el dato. No se funden ni se organizan — siguen siendo muchas, solo que juntas. Rige <b>around</b> y <b>near</b>.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Every case but two ___ed within four hundred metres of the same well, which is what first made the inspector suspect the water.",
+      "twin": "coalesce",
+      "whyNotTwin": "cluster deja <b>muchas cosas juntas</b> y contables: los casos siguen siendo casos; coalesce las funde en <b>una sola</b>, y al final ya no se pueden contar.",
+      "root": "cluster (racimo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "coalesce",
+      "pos": "v",
+      "def": "to come together and form one whole",
+      "disc": "Partes sueltas acaban siendo <b>una sola cosa</b>, y el proceso es <b>espontáneo</b>: nadie lo convoca ni lo firma. Vale para gotas, nubes y también para quejas o protestas que terminan teniendo un nombre. Rige <b>into</b>.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "By March the scattered strikes had ___d into something with one name and one list of demands, though nobody had planned it that way.",
+      "twin": "amalgamate",
+      "whyNotTwin": "coalesce <b>ocurre</b>: no tiene autor y el verbo no admite complemento — las cosas coalesce solas; amalgamate lo <b>hace alguien</b>, y por eso lleva objeto: un acta amalgama dos sociedades.",
+      "root": "coalescere (crecer juntos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "amalgamate",
+      "pos": "v",
+      "def": "to merge two organizations into a single body",
+      "disc": "Fusión <b>formal y decidida</b>: hay acta, estatuto y una sola tesorería al final. Viene de la metalurgia — la amalgama del mercurio — y su terreno moderno son empresas, sindicatos y sociedades. Es <b>transitivo</b>: alguien amalgama a otros.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The Act of 1931 ___d the two societies into a single body with one charter and one treasurer.",
+      "twin": "coalesce",
+      "whyNotTwin": "amalgamate necesita <b>quien lo firme</b> y entidades con nombre: una ley, dos sociedades; coalesce no tiene autor y sirve para lo informe — gotas, quejas, protestas.",
+      "root": "amalgama (aleación con mercurio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "collaborate",
+      "pos": "v",
+      "def": "to work jointly with someone on a piece of work",
+      "disc": "Hay <b>una obra</b> que sale del trabajo de dos: un libro, un disco, una edición. Rige <b>on</b> (la obra) y <b>with</b> (la persona). Guarda un segundo sentido histórico y negro: colaborar con el ocupante.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The two of them ___d on the dictionary for eleven years, one writing the entries and the other checking every quotation.",
+      "twin": "collude",
+      "whyNotTwin": "collaborate deja <b>algo hecho</b> y se puede firmar a la vista de todos; collude no produce nada: lo único que hay es un acuerdo que se oculta porque perjudica a un tercero.",
+      "root": "com + laborare (trabajar juntos)",
+      "tier": 1,
+      "sense2": {
+        "def": "to cooperate with an occupying enemy",
+        "ej": "The village never forgave the families that had ___d during the occupation.",
+        "note": "Sentido histórico y sin ambigüedad moral: aquí collaborate es una acusación, y de ahí sale collaborator. Si el complemento es un ocupante o un régimen, es este sentido."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "collude",
+      "pos": "v",
+      "def": "to cooperate secretly in order to deceive others",
+      "disc": "Acuerdo <b>escondido</b> entre quienes deberían ser independientes — dos licitadores, el auditor y su cliente —, y siempre a costa de un tercero. No hace falta obra ni plan detallado: basta con dejar de competir. Rige <b>with</b> y <b>in</b>.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Nobody produced a single joint document: the two heads had simply ___d, each leaving the other's overspending out of the minutes.",
+      "twin": "collaborate",
+      "whyNotTwin": "collude añade a collaborate <b>el secreto y el perjuicio</b>: por eso la oración empieza negando que hubiera trabajo en común. Si hay obra firmada, es collaborate; si solo hay silencio conveniente, es collude.",
+      "root": "com + ludere (jugar juntos, hacer la comedia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

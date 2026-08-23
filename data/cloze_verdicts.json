@@ -6373,5 +6373,189 @@
   "basis": "semantic",
   "nearMiss": "tentative",
   "note": "se pregunta dos veces quién firmó y se contesta con generalidades: hay respuesta y es esquiva a propósito — tentative sería provisional, no desviada; tepid y ambivalent miden temperatura de sentimientos"
+ },
+ "f11ff0fcd97a1a73": {
+  "w": "cluster",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "coalesce",
+  "note": "los casos siguen siendo muchos y contables; coalesce los fundiria en uno solo, amalgamate exige acta y entidades, collaborate/collude exigen acuerdo entre personas"
+ },
+ "4401cf42dcae4fd4": {
+  "w": "coalesce",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "amalgamate",
+  "note": "«though nobody had planned it that way» excluye a amalgamate, que es fusion decidida y firmada; cluster no rige «into» un solo cuerpo"
+ },
+ "878dcbfc6ba0078b": {
+  "w": "collaborate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "collude",
+  "note": "hay una obra firmada a la vista de todos — collude no produce nada y exige secreto; coalesce/amalgamate/cluster no rigen «on» una obra"
+ },
+ "16f5b90e0ee6bd06": {
+  "w": "collude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "collaborate",
+  "note": "par de inclusion (collude = collaborate + secreto + perjuicio), asi que la clausula de rechazo «Nobody produced a single joint document» es lo unico que los separa"
+ },
+ "4538b6afd3401115": {
+  "w": "amalgamate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "coalesce",
+  "note": "el marco transitivo con agente («The Act ___d the two societies») excluye a coalesce, que no admite complemento; collaborate y collude tampoco rigen objeto"
+ },
+ "bdb31889e2dad5ee": {
+  "w": "apprise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "divulge",
+  "note": "la construccion fija «be ___d of» pide persona como objeto directo: divulge rige la cosa guardada y delineate no admite destinatario"
+ },
+ "96e48bc1f12bc830": {
+  "w": "obfuscate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "allude",
+  "note": "ningun hermano significa enturbiar a proposito; allude no nombra pero no oscurece, y divulge/apprise/delineate van en direccion contraria"
+ },
+ "e8ba1ec20bef1606": {
+  "w": "allude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intimate",
+  "note": "«___s to a poem» exige la preposicion to sobre algo ya conocido: intimate rige oracion con that, divulge y apprise rigen objeto, delineate traza limites"
+ },
+ "601b084558e05138": {
+  "w": "intimate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "divulge",
+  "note": "«would not say it outright, but» excluye a divulge, que es decirlo; allude no admite oracion con that y apprise exige persona + of"
+ },
+ "8fd725173c427e38": {
+  "w": "divulge",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "apprise",
+  "note": "el objeto son las cifras guardadas y hay clausula de confidencialidad rota: apprise exigiria persona + of, intimate no rige objeto nominal, delineate no revela nada"
+ },
+ "0dba6e55fe20ebb3": {
+  "w": "delineate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "divulge",
+  "note": "«a boundary nobody had ever thought to fix» excluye a divulge — no se revela lo que aun no existe; apprise exigiria destinatario y allude no nombraria el limite"
+ },
+ "6af4337fab2c9aef": {
+  "w": "expedient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "passable",
+  "note": "«for the minister» nombra al beneficiario, que es lo propio de expedient: passable no se dice relativo a nadie y feasible/viable/sound no explican la lista de ventajas obtenidas"
+ },
+ "049540aa74ef92f4": {
+  "w": "passable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sound",
+  "note": "la medida explicita del umbral («un minuto y no mas») es lo propio de passable; sound no admite defectos, y feasible/viable/efficacious no se dicen de un acento"
+ },
+ "855416aec9bb6dbe": {
+  "w": "feasible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "viable",
+  "note": "el marco impersonal «it is ___ to» + verbo solo lo admite feasible; viable se predica de un ser o una empresa que sobrevive sola, no de una accion"
+ },
+ "abe7b66c6221bfb6": {
+  "w": "viable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feasible",
+  "note": "sobrevivir fuera del utero es el sentido nuclear de viable; un feto no es feasible (eso mide el hacer) ni sound ni efficacious"
+ },
+ "fe1fcab4d9b7e758": {
+  "w": "sound",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "passable",
+  "note": "«tested every beam and found no rot anywhere» es examen completo sin defecto: passable admitiria los defectos que hay, y feasible/viable/efficacious no se dicen de unas vigas"
+ },
+ "672c3490c688d1dd": {
+  "w": "efficacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sound",
+  "note": "«proved ___ against the parasite» exige efecto medido contra un objetivo: sound solo diria que no falla, y passable/feasible/viable no rigen against"
+ },
+ "fc154e54cbedcec2": {
+  "w": "levity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "brevity",
+  "note": "«no place for ___» en un funeral pide falta de gravedad: la brevedad ahi se agradece, y economy/facility/profundity/rigor no son tono"
+ },
+ "c7a4b7b9d156d4dc": {
+  "w": "brevity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "economy",
+  "note": "la medida son once minutos, duracion pura; economy juzga medios y no minutos, y una ceremonia no tiene facility ni rigor"
+ },
+ "4b48ffb46b5dd0de": {
+  "w": "facility",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "economy",
+  "note": "cuatrocientos versos en una tarde sin corregir es soltura de quien escribe — contradice a economy y a brevity, que miden lo poco que hay"
+ },
+ "b03ba690e3c6815d": {
+  "w": "economy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "facility",
+  "note": "la colocacion fija «___ of means» y «not a wasted stroke» es economy; facility mediria el esfuerzo del dibujante y brevity no se dice de un dibujo, que no transcurre"
+ },
+ "567c3f199a800be9": {
+  "w": "profundity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rigor",
+  "note": "la falta senalada es no preguntar que significa nada — hondura; la falta de rigor se demostraria con datos mal citados, no con superficies"
+ },
+ "71b581a79c1d8c4c": {
+  "w": "rigor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "profundity",
+  "note": "dos de los cuatro casos del apendice no dicen lo que el autor afirma: eso es metodo comprobable, no hondura, y economy/brevity/facility no se predican de un argumento asi"
  }
 }

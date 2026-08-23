@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **139 grupos, 796/1112 palabras (71.6%)**, `run_all.py` en verde, 0 errores
+- **143 grupos, 819/1112 palabras (73.7%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -198,6 +198,31 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
 - **Campo «codicia» bloqueado**: solo quedan tres adjetivos libres (`avaricious`, `rapacious`,
   `acquisitive`). `covet` es verbo, `affluent` es tener dinero y no desearlo, y no existen en la
   lista *venal*, *mercenary* ni *covetous*.
+- **`conspire` no puede ser hermana de `collude`.** En el sentido humano son el mismo verbo: los
+  tres licitadores que se reparten los contratos igual «colluded» que «conspired», y cualquier
+  cloze de acuerdo secreto lo llenan las dos. Lo único propio de conspire es el **sujeto que no
+  es nadie** — *the weather, the timetable and a burst main all conspired to…* —, y eso no basta
+  para un hermano: g140 se cerró con cinco (`cluster`, `coalesce`, `amalgamate`, `collaborate`,
+  `collude`) y `conspire` volvió al fondo libre, para un grupo futuro de «tramar» donde no esté
+  collude.
+- **`collude` ⊂ `collaborate` es par de inclusión**, y por eso admite cláusula de rechazo
+  (regla 3): collude es collaborate más el secreto y el perjuicio a un tercero. Sin ella no se
+  separan — «the three firms had collaborated for years, taking the contracts in turn» es inglés
+  corriente. El cloze de g140 empieza negando la obra en común: *Nobody produced a single joint
+  document: the two heads had simply ___d.*
+- **`divulge` se cuela en cualquier hueco de insinuar si el hueco admite «that».** «She divulged
+  that the department would not survive» es tan inglés como con `intimate`. Lo que lo excluye es
+  decir que **no se dijo en voz alta** — *would not say it outright, but…* —, porque divulgar es
+  decirlo. Al revés, un límite que **todavía no existe** («a boundary nobody had ever thought to
+  fix») deja fuera a divulge del cloze de `delineate`: no se revela lo que nadie ha fijado.
+- **`passable` se cuela en «no era justo pero servía».** El primer cloze de `expedient` en g142
+  («The decision was fair to nobody, but it was ___») lo llenaba igual de bien. La salida es
+  **nombrar al beneficiario**: *but for the minister it was ___*, más la lista de lo que ella
+  ganó. passable no se dice relativo a nadie; expedient siempre le conviene a alguien.
+- **`brevity` y `economy` solo se separan por lo que miden.** Brevity se mide con el **reloj o el
+  recuento** (once minutos, nueve palabras); economy mide **el desperdicio**, y su colocación fija
+  es *___ of means*. Un dibujo no tiene brevity — no transcurre —, y una ceremonia de once minutos
+  no demuestra economy de nada.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

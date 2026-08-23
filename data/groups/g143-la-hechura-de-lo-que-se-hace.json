@@ -1,0 +1,115 @@
+{
+  "id": "g143",
+  "name": "la hechura de lo que se hace",
+  "axis": {
+    "lo": "ligereza: pesa poco y dura poco",
+    "hi": "peso: hondura y exigencia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "levity",
+      "pos": "n",
+      "def": "lightness of manner where seriousness is expected",
+      "disc": "De <i>levis</i>, <b>ligero</b>: no es humor a secas, es humor <b>fuera de sitio</b>. La palabra casi siempre viene con la ocasión que se rompió — un funeral, un juicio, una sala de espera — y con alguien que se dio cuenta tarde.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "A memorial service is no place for ___, as the speaker discovered four sentences into his anecdote about the parrot.",
+      "twin": "brevity",
+      "whyNotTwin": "levity es <b>tono</b>: la falta de gravedad; brevity es <b>duración</b>: lo poco que algo dura. Las dos son «ligereza», pero una se oye en el registro y la otra se mide con el reloj.",
+      "root": "levis (ligero)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "brevity",
+      "pos": "n",
+      "def": "the quality of lasting or taking a short time",
+      "disc": "Mide <b>cuánto dura</b> — la visita, la ceremonia, la vida, la respuesta — y nada más. No dice si estuvo bien hecho: una carta puede ser breve y torpe. De ahí el refrán, <i>brevity is the soul of wit</i>.",
+      "tone": "neu",
+      "axisPos": 20,
+      "ej": "What the family remembered afterwards was the ___ of the ceremony: eleven minutes from the first hymn to the car doors closing.",
+      "twin": "economy",
+      "whyNotTwin": "brevity solo dice <b>que fue corto</b>, y se mide en minutos o en palabras; economy dice que <b>no sobró nada</b> — es un elogio de la hechura, y algo largo puede tenerla.",
+      "root": "brevis (breve)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "facility",
+      "pos": "n",
+      "def": "natural ease in doing something well",
+      "disc": "La <b>soltura de quien lo hace</b>: le sale sin esfuerzo aparente. El elogio viene casi siempre con sospecha — quien tiene facility no corrige, y la palabra suele aparecer cerca de <i>too easily</i>. Rige <b>for</b> y <b>with</b>.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "He wrote with such ___ that his editor grew suspicious: four hundred lines in an evening, and not one of them revised.",
+      "twin": "economy",
+      "whyNotTwin": "facility está en <b>quien hace</b> y se mide en esfuerzo: le cuesta poco; economy está en <b>lo hecho</b> y se mide en medios: no sobra un trazo. Se puede escribir con enorme facility y no tener ninguna economy.",
+      "root": "facilis (fácil)",
+      "tier": 1,
+      "sense2": {
+        "def": "a building or installation for a particular purpose",
+        "ej": "The new storage ___ opened two miles outside the town.",
+        "note": "El sentido corriente y administrativo — instalación, dependencias — que no tiene nada que ver con la destreza. Si lleva delante un adjetivo de uso (storage, medical, sports), es este."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "economy",
+      "pos": "n",
+      "def": "the achieving of much with very little",
+      "disc": "Nada sobra: el efecto se consigue con <b>el mínimo de medios</b>. Su colocación fija es <i>___ of means</i>, y también <i>of gesture</i>, <i>of expression</i>. Es siempre elogio, y de artesanía: mide el desperdicio, no el tamaño.",
+      "tone": "pos",
+      "axisPos": 48,
+      "ej": "There is not a wasted stroke in the drawing: three lines make the whole animal, and it is that ___ of means the students are meant to copy.",
+      "twin": "brevity",
+      "whyNotTwin": "economy juzga <b>la relación entre medios y efecto</b> — tres líneas y el animal entero; brevity solo cuenta <b>la extensión</b>. Un dibujo no tiene brevity porque no dura nada: se mira, no transcurre.",
+      "root": "oikonomia (administración de la casa)",
+      "tier": 1,
+      "sense2": {
+        "def": "the wealth and resources of a country",
+        "ej": "Two bad harvests were enough to wreck the ___ of the province.",
+        "note": "El sentido corriente. El del GRE es el otro: la parquedad de medios en una obra o un gesto, que se reconoce por la colocación economy of means."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "profundity",
+      "pos": "n",
+      "def": "depth of thought or meaning",
+      "disc": "Lo que hay <b>debajo</b>: la obra no se agota en lo que se ve y sigue preguntando cuando se cierra. Se dice de libros, de silencios y de observaciones; su negación es el reproche de quedarse en la superficie.",
+      "tone": "pos",
+      "axisPos": 75,
+      "ej": "Readers who came for ___ found a book that is very clever about surfaces and never once asks what anything means.",
+      "twin": "rigor",
+      "whyNotTwin": "profundity mide <b>hasta dónde llega la pregunta</b>; rigor mide <b>cómo se comprobó la respuesta</b>. Un libro hondo puede ser descuidado con las fuentes, y uno impecable puede no decir nada.",
+      "root": "profundus (hondo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rigor",
+      "pos": "n",
+      "def": "strictness of method and proof",
+      "disc": "La exigencia está en <b>el procedimiento</b>: cada paso comprobado, cada cita donde dice que está. Es la palabra de las reseñas académicas, y su falta se demuestra con ejemplos concretos, no con impresiones.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "The argument is charming and the prose is a pleasure, but the ___ is not there: two of the four cases in the appendix do not say what the author claims they say.",
+      "twin": "profundity",
+      "whyNotTwin": "rigor se comprueba <b>fuente por fuente</b> y se pierde con un dato mal citado; profundity no se comprueba: se echa de menos cuando la obra <b>no llega al fondo</b> de nada.",
+      "root": "rigor (rigidez)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
