@@ -1,0 +1,99 @@
+{
+  "id": "g146",
+  "name": "maniobras para salirse con la suya",
+  "axis": {
+    "lo": "un gesto que engaña al cuerpo",
+    "hi": "un aparato de palabras que convence"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "feint",
+      "pos": "n",
+      "def": "a movement made to draw an opponent's guard the wrong way",
+      "disc": "De <i>feindre</i>, <b>fingir</b>: el golpe que se enseña no es el que va a llegar. Vive en la esgrima, el boxeo y la guerra — dos divisiones marchan al norte para que el cruce se haga al sur — y siempre supone <b>un adversario que reacciona</b>.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "Half the blows he threw that round were never meant to land: they were ___s, and each one pulled the other man's guard a few inches to the wrong side.",
+      "twin": "ploy",
+      "whyNotTwin": "feint es un <b>movimiento del cuerpo o de las tropas</b>, y engaña sobre <b>por dónde</b> viene el golpe; ploy es una <b>jugada calculada</b>, y engaña sobre <b>para qué</b> se hace algo. Un hombro que baja es feint; una tarifa de reclamo, nunca.",
+      "root": "feindre (fingir)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ploy",
+      "pos": "n",
+      "def": "a calculated move meant to get someone to do something",
+      "disc": "La <b>jugada</b> del que sabe lo que quiere del otro: no es un plan largo ni un engaño elaborado, es un movimiento con un fin — y quien lo nombra suele haberlo calado. Colocaciones típicas: <i>a marketing ___</i>, <i>a delaying ___</i>, <i>the oldest ___ in the book</i>.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "Free parking for the first hour is the oldest ___ in the trade: it gets shoppers through the doors, and nobody has ever expected them to leave after sixty minutes.",
+      "twin": "feint",
+      "whyNotTwin": "ploy busca <b>que el otro haga algo</b> — entrar, firmar, esperar; feint busca <b>que el otro defienda donde no toca</b>. Uno atrae, el otro desvía, y por eso el feint necesita un adversario y el ploy solo necesita un incauto.",
+      "root": "employ (emplear), acortado",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intrigue",
+      "pos": "n",
+      "def": "sustained secret plotting inside a court or an institution",
+      "disc": "De <i>intricare</i>, <b>enredar</b>: no es una jugada, es <b>una temporada entera</b> de ellas — cartas, alianzas, primos casados a tiempo. Su colocación fija es <i>palace ___</i>, y siempre hay dentro un puesto o una corona que alguien quiere.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Three years of palace ___ — the letters, the cousin married off in a hurry, the appointment poisoned before it was announced — and the chancellor was finally out.",
+      "twin": "ploy",
+      "whyNotTwin": "intrigue <b>dura</b> y necesita varias manos que se entienden en secreto; ploy es <b>un solo movimiento</b> y puede hacerlo uno solo a plena luz. Tres años de intrigue; nunca tres años de ploy.",
+      "root": "intricare (enredar)",
+      "tier": 1,
+      "sense2": {
+        "def": "to arouse someone's curiosity",
+        "ej": "The gap in the ledger did not alarm her; it ___d her, and she stayed until midnight.",
+        "note": "El verbo, muy corriente y de tono positivo — despertar el interés. El sustantivo del GRE es el otro: la conspiración de pasillo."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "sophistry",
+      "pos": "n",
+      "def": "reasoning that looks valid but hides a false step",
+      "disc": "El engaño está <b>dentro del argumento</b>: la cadena parece encajar y no encaja, porque en algún eslabón una palabra cambió de significado. Se acusa de ella cuando la conclusión es cómoda para quien razona, y se refuta <b>señalando la premisa</b>.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Every step seemed to follow from the last, and the conclusion was that nobody could be blamed for the deaths; it took the committee two days to find the ___, in a third premise that had quietly changed what 'available' meant.",
+      "twin": "rhetoric",
+      "whyNotTwin": "la sophistry se <b>desmonta</b>: hay un paso concreto que está mal y se puede señalar con el dedo; la rhetoric no tiene pasos que desmontar — es lenguaje de efecto, y se le reprocha estar vacía, no ser falsa.",
+      "root": "sophistes (maestro de sabiduría)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rhetoric",
+      "pos": "n",
+      "def": "language chosen for its effect rather than its content",
+      "disc": "Palabras <b>montadas para mover al que escucha</b>. En el uso corriente el reproche es la distancia con los hechos: la fórmula típica del examen la enfrenta a lo que de verdad se hizo — <i>the gap between ___ and practice</i>.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "Nothing in the budget changed: the ___ of national renewal survived four speeches and never reached a single line of the finance bill.",
+      "twin": "sophistry",
+      "whyNotTwin": "la rhetoric se mide contra <b>los hechos</b> — se dijo mucho y no se hizo nada; la sophistry se mide contra <b>la lógica</b> — el razonamiento no se sostiene. Una decepciona, la otra engaña.",
+      "root": "rhetor (orador)",
+      "tier": 1,
+      "sense2": {
+        "def": "the art of persuasive speaking and writing",
+        "ej": "He taught ___ for thirty years and never once used the word as an insult.",
+        "note": "El sentido técnico y neutro, el de la disciplina clásica. El corriente — y el del GRE — es el reproche: palabras sin hechos detrás."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

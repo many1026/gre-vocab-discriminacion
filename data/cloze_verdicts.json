@@ -6557,5 +6557,165 @@
   "basis": "semantic",
   "nearMiss": "profundity",
   "note": "dos de los cuatro casos del apendice no dicen lo que el autor afirma: eso es metodo comprobable, no hondura, y economy/brevity/facility no se predican de un argumento asi"
+ },
+ "0909bf74b4c77f55": {
+  "w": "axiomatic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "intuitive",
+  "note": "«grants it ___ status» solo lo llena axiomatic — un postulado que el sistema concede sin prueba; intuitive no da status a nada, y no hay observacion, papel ni inferencia en la frase"
+ },
+ "108f8dcfb9165253": {
+  "w": "intuitive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "axiomatic",
+  "note": "se entiende sin manual y sin que nadie lo ensene: eso es intuitive; axiomatic seria una premisa concedida, y una pantalla no se concede"
+ },
+ "c4e4c7bbc6a1ca27": {
+  "w": "circumstantial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "documentary",
+  "note": "nadie lo vio y las piezas son barro, una llave y un horario — hay que inferir, que es justo lo que documentary no pide y lo que empirical no mide"
+ },
+ "13d00410858a1547": {
+  "w": "empirical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "documentary",
+  "note": "«the ___ work» de seiscientas trampas vaciadas dos inviernos: dato producido observando, no papel de archivo ni inferencia de indicios"
+ },
+ "1b4c97b692a14355": {
+  "w": "documentary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "circumstantial",
+  "note": "la frase niega la inferencia («nothing reconstructed or inferred») y ensena el recibo firmado: eso saca a circumstantial, y un recibo no es observacion, lo que saca a empirical"
+ },
+ "368ea89e63350474": {
+  "w": "synoptic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exhaustive",
+  "note": "se ve todo de una mirada y sin detalle — exhaustive pide justo lo contrario, no dejar fuera ni un caso; universal e indiscriminate no describen vistas"
+ },
+ "f41aa892f0937633": {
+  "w": "eclectic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "indiscriminate",
+  "note": "«but not careless» mas la razon de cada compra: hubo criterio, y sin criterio la palabra seria indiscriminate"
+ },
+ "b48f066d0de0a42d": {
+  "w": "universal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exhaustive",
+  "note": "lo que se afirma vale en los 190 casos sin excepcion; exhaustive describiria el trabajo, no el reflejo, y un reflejo no es sinoptico ni ecletico"
+ },
+ "d4a4c217322c90e9": {
+  "w": "exhaustive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "universal",
+  "note": "el alcance esta acotado a una ciudad y dos decadas — no es universal — y el merito es no dejarse ni el panfleto que sobrevive en un ejemplar"
+ },
+ "88b611f86812a0d8": {
+  "w": "indiscriminate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eclectic",
+  "note": "hospital, granero y ladera vacia en la misma hora y ningun blanco que nombrar: falto el criterio, que es lo que eclectic si tiene"
+ },
+ "aad7cd11371c1709": {
+  "w": "feint",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ploy",
+  "note": "los golpes mismos son la palabra («they were ___s»), y un golpe puede ser feint pero no puede ser un ploy, que es un plan y no un movimiento"
+ },
+ "4e8ecfce4c986aad": {
+  "w": "ploy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "feint",
+  "note": "un reclamo para que el otro entre por la puerta, sin adversario ni golpe que desviar; y la colocacion fija es «the oldest ploy in the trade»"
+ },
+ "03d70d4707497b69": {
+  "w": "intrigue",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ploy",
+  "note": "tres anos de maniobras de pasillo con varias manos dentro: «palace ___» es colocacion fija y ningun ploy dura tres anos"
+ },
+ "9b98f902d99e4286": {
+  "w": "sophistry",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rhetoric",
+  "note": "el fallo se encuentra en una premisa concreta que cambio el sentido de una palabra; la rhetoric no tiene premisas que desmontar"
+ },
+ "15a1869fc0e7d06e": {
+  "w": "rhetoric",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sophistry",
+  "note": "palabras que no llegaron al presupuesto — el reproche es la distancia con los hechos, no un razonamiento invalido"
+ },
+ "5e4318a4b53e85e2": {
+  "w": "avert",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "deflect",
+  "note": "el impago no llego a ocurrir; deflect exigiria que llegara y se fuera a otra parte, y withstand que se aguantara"
+ },
+ "b9473533264cd4c0": {
+  "w": "deflect",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "avert",
+  "note": "la pregunta ya se hizo y se manda «towards the committee's own record»: la preposicion de destino es de deflect, y lo ya ocurrido no se puede avert"
+ },
+ "6220666ca846de23": {
+  "w": "withstand",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "surmount",
+  "note": "«rated to ___ nine hundred degrees»: una fuerza que se aguanta quieto, no un obstaculo que se pasa ni un golpe que se desvia"
+ },
+ "e81cec65570b4313": {
+  "w": "surmount",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "withstand",
+  "note": "un obstaculo con nombre que se deja atras tras once anos; withstand pediria una fuerza que empuja y prevail no admite objeto"
+ },
+ "da725a0e216e0c57": {
+  "w": "prevail",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "surmount",
+  "note": "«___ over the government's» es la preposicion propia de prevail y el marco es un pleito que se gana al final, no un obstaculo que se pasa"
  }
 }

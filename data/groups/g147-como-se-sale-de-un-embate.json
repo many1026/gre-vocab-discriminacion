@@ -1,0 +1,95 @@
+{
+  "id": "g147",
+  "name": "cómo se sale de un embate",
+  "axis": {
+    "lo": "el golpe no llega a caer",
+    "hi": "el golpe cae entero y aun así se gana"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "avert",
+      "pos": "v",
+      "def": "to prevent something bad from happening at all",
+      "disc": "<b>Apartar antes</b> (<i>avertere</i>): lo malo estaba en camino y no llegó a ocurrir. Rige desastres y crisis — <i>___ a strike</i>, <i>___ a default</i>, <i>___ war</i> — y también los ojos, que es el único caso en que aparta a quien mira.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "A loan agreed at two in the morning was enough to ___ the default, and on Monday the markets opened as though the weekend had never happened.",
+      "twin": "deflect",
+      "whyNotTwin": "avert impide que <b>ocurra</b>: después no hay nada que contar; deflect no impide nada — la pregunta, el golpe o la culpa <b>llegan</b> y solo se los manda a otra parte.",
+      "root": "avertere (apartar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "deflect",
+      "pos": "v",
+      "def": "to turn something aside so it lands elsewhere",
+      "disc": "El objeto sigue viniendo y se le <b>cambia la dirección</b>. Su terreno favorito es la sala de prensa — <i>___ criticism</i>, <i>___ blame</i>, <i>___ the question</i> — y suele llevar detrás la preposición que dice adónde fue a parar: <b>onto</b>, <b>towards</b>.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "Every question about the missing year he managed to ___ towards the committee's own record, and by the end of the afternoon nobody had thought to ask it twice.",
+      "twin": "avert",
+      "whyNotTwin": "deflect supone que <b>el golpe existe y se reparte a otro sitio</b>; avert supone que <b>no hubo golpe</b>. Una pregunta se puede deflect hacia el comité; no se puede avert una pregunta que ya se hizo.",
+      "root": "deflectere (torcer hacia un lado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "withstand",
+      "pos": "v",
+      "def": "to take the full force of something without giving way",
+      "disc": "<b>Estar de pie contra</b>: aquí no se esquiva nada, se aguanta. Rige fuerzas y presiones — calor, asedio, escrutinio, viento — y su marco más frecuente es el de la capacidad certificada: <i>rated to ___</i>, <i>built to ___</i>.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The lining is rated to ___ nine hundred degrees for twenty minutes, which is exactly the time it takes to walk the tunnel end to end.",
+      "twin": "surmount",
+      "whyNotTwin": "withstand se <b>queda quieto</b> mientras la fuerza pasa por encima: el éxito es seguir entero; surmount se <b>mueve</b>: hay un obstáculo delante y el éxito es quedar del otro lado.",
+      "root": "with (contra) + stand (estar de pie)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "surmount",
+      "pos": "v",
+      "def": "to get past an obstacle that stands in the way",
+      "disc": "<b>Subir por encima</b> (<i>sur</i> + <i>monter</i>): hay una dificultad concreta atravesada en el camino y se la deja atrás. Rige <i>obstacle</i>, <i>difficulty</i>, <i>barrier</i>, y lleva casi siempre lo que costó — los años, el dinero, los intentos.",
+      "tone": "pos",
+      "axisPos": 74,
+      "ej": "Two of the three obstacles were money and money solved them; the third — that nobody left alive could read the script — took eleven years to ___.",
+      "twin": "withstand",
+      "whyNotTwin": "surmount necesita <b>un obstáculo con forma</b>, algo que estorba y se puede nombrar; withstand necesita <b>una fuerza que empuja</b>. Un muro se surmount, un incendio se withstand.",
+      "root": "sur + monter (subir por encima)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prevail",
+      "pos": "v",
+      "def": "to win out in the end after a long contest",
+      "disc": "<b>Valer más</b> (<i>praevalere</i>), y valer más al final. Es intransitiva: no lleva objeto, lleva <b>over</b> o <b>against</b>, y suele cerrar el relato — <i>common sense ___ed</i>, <i>the smaller party ___ed</i>. No dice cómo se ganó, solo que se ganó.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The vote was lost twice and the case was argued for nine years, but in the end the smaller party's reading of the clause ___ed over the government's.",
+      "twin": "surmount",
+      "whyNotTwin": "prevail no lleva objeto y mira al <b>resultado del pleito</b>: quedó por encima de la otra parte; surmount lleva objeto y mira al <b>estorbo</b> que había que pasar. Se prevail sobre un rival, se surmount una dificultad.",
+      "root": "praevalere (valer más)",
+      "tier": 1,
+      "sense2": {
+        "def": "to be the usual or current condition",
+        "ej": "The conditions that ___ on that coast in March make the crossing unreliable.",
+        "note": "El sentido de «ser lo que se estila o lo que hay»: prevailing winds, the prevailing view. No hay pleito ninguno; es la forma en participio la que casi siempre lo delata."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

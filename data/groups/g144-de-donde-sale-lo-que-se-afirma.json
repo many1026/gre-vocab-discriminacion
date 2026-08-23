@@ -1,0 +1,95 @@
+{
+  "id": "g144",
+  "name": "de dónde sale lo que se afirma",
+  "axis": {
+    "lo": "no se apoya en nada: se da por bueno",
+    "hi": "se apoya en material que se puede examinar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "axiomatic",
+      "pos": "adj",
+      "def": "taken as true without proof, as a starting point",
+      "disc": "No es que sea obvio: es que <b>el sistema lo concede de entrada</b> y construye encima. Se dice de postulados y de principios que una disciplina no discute, y de ahí la fórmula <i>it is ___ that…</i>, que significa «aquí eso no se demuestra».",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The postulate is never argued for anywhere in the thirteen books: Euclid grants it ___ status and derives four hundred propositions from what follows.",
+      "twin": "intuitive",
+      "whyNotTwin": "axiomatic es una <b>concesión del sistema</b>: se admite sin prueba porque de algo hay que partir; intuitive es un <b>hecho de la cabeza de alguien</b>: lo captó sin razonar. Un postulado no es intuitive por decreto, y una corazonada no tiene status.",
+      "root": "axioma (lo que se estima justo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intuitive",
+      "pos": "adj",
+      "def": "grasped at once, without conscious reasoning or instruction",
+      "disc": "Lo suyo es que <b>no hace falta explicarlo</b>: se entiende antes de razonarlo. Vale para la corazonada del que decide sin datos y, en su colocación moderna, para lo que se usa sin manual — <i>an ___ interface</i>, <i>___ to use</i>.",
+      "tone": "neu",
+      "axisPos": 26,
+      "ej": "Nobody had to be taught to use it: the layout is ___, and the testers found the export button in four seconds without once opening the manual.",
+      "twin": "axiomatic",
+      "whyNotTwin": "intuitive dice <b>cómo se llegó a saberlo</b> — sin pasar por el razonamiento; axiomatic dice <b>qué lugar ocupa en un sistema</b> — el de premisa que no se demuestra. Una pantalla puede ser intuitive; ninguna pantalla es axiomatic.",
+      "root": "intueri (mirar hacia dentro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "circumstantial",
+      "pos": "adj",
+      "def": "resting on inference from surrounding facts, not direct proof",
+      "disc": "Lo que está <b>alrededor</b> del hecho, nunca el hecho: nadie lo vio, pero todo apunta. Su colocación fija es <i>___ evidence</i>, y su fuerza está en la acumulación — el barro, la llave, el horario cambiado — porque ninguna pieza sola prueba nada.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "Nobody saw him within a mile of the house, and the case against him is entirely ___: the mud on his boots, the missing key, the timetable he changed that week.",
+      "twin": "documentary",
+      "whyNotTwin": "circumstantial obliga a <b>inferir</b>: hay que atar cabos y se puede estar atándolos mal; documentary <b>enseña el papel</b> y no pide inferencia ninguna — el recibo dice lo que dice.",
+      "root": "circumstare (estar alrededor)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "empirical",
+      "pos": "adj",
+      "def": "based on observation or experiment rather than theory",
+      "disc": "El apoyo es <b>haber ido a mirar</b>: muestras, mediciones, ensayos. Vive contrastada con lo teórico — <i>___ work</i>, <i>___ evidence</i>, <i>___ findings</i> — y su reproche típico es que un modelo elegante no se molestó en comprobar nada.",
+      "tone": "neu",
+      "axisPos": 76,
+      "ej": "The model predicted a fourfold rise in the population; the ___ work — six hundred traps emptied over two winters — found no rise at all.",
+      "twin": "documentary",
+      "whyNotTwin": "empirical mira <b>el mundo</b>: se sale a medirlo y el dato lo produce quien investiga; documentary mira <b>el archivo</b>: el dato ya existía escrito y solo hay que ir a buscarlo.",
+      "root": "empeiria (experiencia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "documentary",
+      "pos": "adj",
+      "def": "attested by written records that can be produced",
+      "disc": "El apoyo es <b>el papel</b>: registros, actas, recibos, cartas. Su colocación fija es <i>___ evidence</i>, y lo que la caracteriza es que se puede <b>enseñar</b> — el historiador la cita por signatura, el abogado la aporta al expediente.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "Nothing here is reconstructed or inferred: the claim rests on ___ evidence alone, a signed receipt that names the shipment and the day it left.",
+      "twin": "empirical",
+      "whyNotTwin": "documentary se apoya en lo que <b>alguien escribió en su momento</b> y se conserva; empirical se apoya en lo que <b>se observa ahora</b>. Un ledger de 1740 no es empirical; seiscientas trampas vaciadas este invierno no son documentary.",
+      "root": "documentum (prueba, enseñanza)",
+      "tier": 2,
+      "sense2": {
+        "def": "a film or programme presenting factual material",
+        "ej": "The ___ about the shipyard runs for two hours and uses no narration.",
+        "note": "El sentido corriente, y además sustantivo. El del GRE es el adjetivo de la prueba escrita, que se reconoce por la colocación documentary evidence."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

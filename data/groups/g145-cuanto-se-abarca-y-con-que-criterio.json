@@ -1,0 +1,91 @@
+{
+  "id": "g145",
+  "name": "cuánto se abarca y con qué criterio",
+  "axis": {
+    "lo": "el todo comprimido en una sola mirada",
+    "hi": "se lo lleva todo por delante, sin distinguir"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "synoptic",
+      "pos": "adj",
+      "def": "giving a view of the whole at a single glance",
+      "disc": "De <i>syn</i> + <i>opsis</i>, <b>ver junto</b>: no es que no falte nada, es que <b>cabe de una vez</b> — el cuadro, el mapa, la tabla que resume cuatro capítulos. Es palabra técnica: <i>___ chart</i> en meteorología, <i>the ___ gospels</i> en exégesis.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "What the atlas gives on that page is ___: the whole basin, four thousand kilometres of it, taken in at a glance and none of it in detail.",
+      "twin": "exhaustive",
+      "whyNotTwin": "synoptic <b>comprime</b>: para que quepa de una mirada hay que dejar fuera el detalle; exhaustive <b>no deja fuera nada</b>, y por eso suele ocupar doscientas páginas y no caber en ninguna mirada.",
+      "root": "syn + opsis (ver junto)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "eclectic",
+      "pos": "adj",
+      "def": "drawn deliberately from many different sources",
+      "disc": "De <i>eklegein</i>, <b>escoger de entre</b>: la variedad es enorme pero <b>hay una mano que eligió</b>. Se dice de gustos, colecciones, repertorios y métodos, y casi siempre es elogio — el que la merece puede explicar por qué está ahí cada pieza.",
+      "tone": "pos",
+      "axisPos": 32,
+      "ej": "Her library is ___ but not careless: Byzantine liturgy beside a shelf of pulp westerns, and she can say exactly why each one was bought.",
+      "twin": "indiscriminate",
+      "whyNotTwin": "eclectic supone <b>criterio</b>: se escogió de muchos sitios, uno por uno; indiscriminate supone <b>ausencia de criterio</b>: entró todo porque nadie separó nada. Las dos mezclan; solo una eligió.",
+      "root": "eklegein (escoger de entre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "universal",
+      "pos": "adj",
+      "def": "holding true of every case, with no exception",
+      "disc": "No mide lo que un trabajo cubre, sino <b>dónde vale lo que se afirma</b>: en todos los casos, en todas partes, para todo el mundo. De ahí <i>___ suffrage</i>, <i>a ___ rule</i>, y de ahí que su enemigo sea siempre <b>la excepción</b>: basta una para derribarla.",
+      "tone": "neu",
+      "axisPos": 56,
+      "ej": "The reflex appears to be ___: it has been recorded in every one of the 190 populations examined, and no exception has yet been reported anywhere.",
+      "twin": "exhaustive",
+      "whyNotTwin": "universal es una propiedad de <b>lo afirmado</b>: se cumple en todos los casos; exhaustive es una propiedad del <b>trabajo</b>: recorrió todos los casos. Un catálogo no es universal, y un reflejo no es exhaustive.",
+      "root": "universus (vuelto todo hacia uno)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exhaustive",
+      "pos": "adj",
+      "def": "leaving no item of its kind unlisted or untreated",
+      "disc": "De <i>exhaurire</i>, <b>vaciar del todo</b>: se agotó la materia y no queda un caso fuera. Se dice de listas, catálogos, bibliografías y búsquedas, y su uso más frecuente es la advertencia en negativo — <i>this list is not ___</i>.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "The bibliography runs to two hundred pages and claims to be ___: every pamphlet printed in the city between 1780 and 1799, down to the four that survive in a single copy.",
+      "twin": "synoptic",
+      "whyNotTwin": "exhaustive presume de <b>no dejarse ni una</b>, y se comprueba buscando la que falta; synoptic presume de <b>que se ve todo junto</b>, y se comprueba mirando una vez. Lo exhaustivo es largo por definición; lo sinóptico, corto.",
+      "root": "exhaurire (vaciar del todo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "indiscriminate",
+      "pos": "adj",
+      "def": "done without distinguishing between targets or cases",
+      "disc": "<b>No separa</b> (<i>discriminare</i>): lo mismo da lo que caiga. Su terreno es el daño — <i>___ shelling</i>, <i>___ arrests</i>, <i>___ felling</i> — y el reproche no es que abarque mucho, sino que <b>no distinga</b> entre lo que debía entrar y lo que no.",
+      "tone": "neg",
+      "axisPos": 94,
+      "ej": "The shelling that night was ___: the hospital, the grain store and an empty hillside were hit within the same hour, and no one afterwards could name a target.",
+      "twin": "eclectic",
+      "whyNotTwin": "indiscriminate es <b>reproche</b>: faltó el criterio que debía haber; eclectic es <b>elogio</b>: el criterio estaba y era ancho. Nadie alaba un bombardeo por eclectic ni describe una biblioteca querida como indiscriminate.",
+      "root": "in + discriminare (no separar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

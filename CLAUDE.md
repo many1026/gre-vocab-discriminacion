@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **143 grupos, 819/1112 palabras (73.7%)**, `run_all.py` en verde, 0 errores
+- **147 grupos, 839/1112 palabras (75.4%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -223,6 +223,24 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   recuento** (once minutos, nueve palabras); economy mide **el desperdicio**, y su colocación fija
   es *___ of means*. Un dibujo no tiene brevity — no transcurre —, y una ceremonia de once minutos
   no demuestra economy de nada.
+- **`thorough` no puede ser hermana de `exhaustive`.** Cualquier cloze de «no dejó nada fuera»
+  lo llenan las dos: *the appendix is thorough* y *the appendix is exhaustive* son las dos inglés
+  corriente, y la distinción teórica — thorough es el **cuidado del que lo hace**, exhaustive es la
+  **cobertura de lo hecho** — no sobrevive a ninguna oración natural. g145 se cerró poniendo
+  `universal` en su lugar (propiedad de **lo afirmado**: vale en todos los casos, y por eso un
+  catálogo no es universal ni un reflejo exhaustive). `thorough` sigue libre, pero para un grupo
+  donde no esté exhaustive.
+- **`ploy` se cuela en cualquier hueco de engaño con propósito.** El primer cloze de `feint` en g146
+  («He won the round on ___s: a dropped shoulder, a shift of weight») lo llenaba igual de bien, y
+  también lo llena la versión militar («two divisions moved north as a ___»). Lo que sí lo excluye es
+  **igualar el golpe con la palabra**: *Half the blows he threw were never meant to land: they were
+  ___s*. Un golpe puede ser un feint; no puede ser un ploy, que es un plan y no un movimiento.
+- **`empirical`, `documentary` y `circumstantial` comparten «evidence».** Los tres llenan *the case
+  rests on ___ evidence*, así que la palabra evidence no separa nada. Lo que separa en g144 es **de
+  dónde sale el dato**: empirical lo **produce quien investiga** (seiscientas trampas vaciadas),
+  documentary lo **encuentra escrito** y se puede enseñar (un recibo firmado), circumstantial **no
+  existe como dato** — hay que inferirlo del barro y la llave. El cloze de documentary necesita además
+  negar la inferencia explícitamente («nothing reconstructed or inferred») o circumstantial se cuela.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.
