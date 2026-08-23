@@ -1,0 +1,99 @@
+{
+  "id": "g183",
+  "name": "lo que se trae armado y lo que sale en el acto",
+  "axis": {
+    "lo": "todo estaba decidido antes de empezar",
+    "hi": "no había nada decidido: se hace aquí mismo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "premeditate",
+      "pos": "v",
+      "def": "to plan a wrongful act before carrying it out",
+      "disc": "Palabra de tribunal: casi siempre aparece en participio (<i>___d murder</i>) y su objeto es <b>el acto reprobable</b>, no una persona ni una idea. Lo que afirma es que <b>hubo un plan antes</b>, y por eso su contrario en el juicio es el arrebato.",
+      "tone": "neg",
+      "axisPos": 3,
+      "ej": "The whole charge turns on ten seconds: whether he ___d the killing or reached for a knife that happened to be lying on the table.",
+      "twin": "conspire",
+      "whyNotTwin": "premeditate lo hace <b>uno solo y por dentro</b>, y rige el acto como objeto directo; conspire exige <b>dos o más partes que se combinan</b> y va con <i>to</i> + infinitivo. Nadie «conspira un asesinato»: lo premedita.",
+      "root": "prae- (antes) + meditari (meditar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "conspire",
+      "pos": "v",
+      "def": "to act together, by plot or by chance, to bring something about",
+      "disc": "Además del complot humano tiene un uso que ninguna hermana admite: <b>el sujeto que no es nadie</b> — la lluvia, el calendario y una tubería rota <i>___ to</i> arruinar algo. Ahí no hay secreto ni culpables, sólo circunstancias que se suman.",
+      "tone": "neg",
+      "axisPos": 15,
+      "ej": "A burst water main, a rail strike and the wettest June on record all ___d to empty the exhibition in its opening week.",
+      "twin": "premeditate",
+      "whyNotTwin": "conspire admite <b>sujetos que no son personas</b> y siempre rige <i>to</i> + infinitivo; premeditate necesita <b>una persona que planea</b> y un acto por objeto. Una tubería rota no premedita nada.",
+      "root": "con- (juntos) + spirare (respirar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prime",
+      "pos": "v",
+      "def": "to prepare someone in advance by telling them what to expect",
+      "disc": "La preparación <b>se la hace otro</b>: el objeto es la persona, no el acto, y suele ir en pasiva (<i>had been ___d</i>). Viene de cebar un arma o una bomba de agua — se carga antes para que luego funcione a la primera.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "By the time she took the stand she had been thoroughly ___d: three sessions with counsel, and she knew exactly which dates not to volunteer.",
+      "twin": "premeditate",
+      "whyNotTwin": "prime tiene por objeto <b>a la persona que va a actuar</b>, y quien prepara es otro; premeditate tiene por objeto <b>el acto</b>, y quien planea es el mismo que lo comete.",
+      "root": "primus (primero); cebar antes del primer uso",
+      "tier": 1,
+      "sense2": {
+        "def": "chief, or of the best quality",
+        "ej": "He remained the ___ suspect for a year, mostly because he was the only one without an alibi.",
+        "note": "El adjetivo es el uso más corriente: a ___ suspect, ___ beef, ___ minister. Si va delante de un sustantivo y no lleva objeto, no está preparando a nadie."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "coin",
+      "pos": "v",
+      "def": "to invent a word or phrase that then stays in use",
+      "disc": "Su objeto es siempre <b>una palabra, un término o una frase</b> — nunca una acción ni una persona. Y lo acuñado <b>queda</b>: la imagen es la de la moneda, que se troquela una vez y luego circula durante décadas.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "Nobody had needed a name for the practice until a Chicago lawyer ___ed the term in 1974; it now appears in the statutes of forty states.",
+      "twin": "improvise",
+      "whyNotTwin": "coin <b>deja algo que dura</b> y su objeto es una palabra; improvise <b>no deja nada</b> y su objeto es lo que se está haciendo en ese momento. Lo improvisado se olvida; lo acuñado entra en el diccionario.",
+      "root": "cuneus (cuña, el troquel con que se acuñaba la moneda)",
+      "tier": 1,
+      "sense2": {
+        "def": "a piece of metal money (noun)",
+        "ej": "He kept a jar of foreign ___s that no bank would change.",
+        "note": "El sustantivo explica al verbo: acuñar una palabra es troquelarla como se troquela una moneda."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "improvise",
+      "pos": "v",
+      "def": "to perform or produce something with no preparation at all",
+      "disc": "Lo que afirma es <b>la ausencia de guion</b>: sin notas, sin partitura, sin ensayo. Por eso su prueba en la oración es <b>lo que falló</b> — el proyector, el orador previsto — y el hecho de que nadie lo notara.",
+      "tone": "neu",
+      "axisPos": 95,
+      "ej": "The projector died nine minutes in and he ___d the remaining fifty: no notes, no slides, and nobody in the room could tell.",
+      "twin": "coin",
+      "whyNotTwin": "improvise se refiere a <b>toda la ejecución hecha sobre la marcha</b>; coin, a <b>una sola palabra que se inventa y queda</b>. Se improvisa una charla; no se improvisa un término que acaba en cuarenta códigos.",
+      "root": "in- (no) + providere (prever)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

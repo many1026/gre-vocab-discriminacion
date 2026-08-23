@@ -1,0 +1,95 @@
+{
+  "id": "g184",
+  "name": "lo que viene al caso y lo que se sale de él",
+  "axis": {
+    "lo": "se ciñe al asunto y a la explicación corriente",
+    "hi": "se aparta de ella hasta parecer contradecirse"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "pertinent",
+      "pos": "adj",
+      "def": "bearing directly on the matter under discussion",
+      "disc": "No juzga si algo es verdad ni si es razonable: sólo si <b>toca el asunto que se está tratando</b>. Su marco propio es <i>___ to</i> + el asunto, y por eso se mide siempre contra algo — una acusación, una pregunta, un expediente.",
+      "tone": "pos",
+      "axisPos": 5,
+      "ej": "Half the questions were about his divorce; only two of the twenty were ___ to the charge before the court.",
+      "twin": "rational",
+      "whyNotTwin": "pertinent dice que algo <b>viene al caso</b> y exige nombrar el caso con <i>to</i>; rational dice que algo <b>se sostiene en razones</b>, y no se mide contra ningún asunto. Una pregunta impecablemente razonada puede no ser pertinent.",
+      "root": "per- (del todo) + tenere (tener, atañer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rational",
+      "pos": "adj",
+      "def": "based on reason rather than emotion or superstition",
+      "disc": "Su escena típica es <b>la explicación corriente que deshace el misterio</b>: la colocación fija es <i>a perfectly ___ explanation</i>. Califica tanto al que razona como a lo razonado, y su contrario no es lo falso sino lo irracional.",
+      "tone": "pos",
+      "axisPos": 22,
+      "ej": "There is a perfectly ___ explanation for the noise upstairs: the pipes contract when the heating shuts off at eleven.",
+      "twin": "pertinent",
+      "whyNotTwin": "rational se comprueba <b>viendo si hay razones detrás</b>; pertinent, <b>viendo si toca el asunto</b>. La explicación de las tuberías es rational; sería pertinent sólo si alguien estuviera discutiendo las tuberías.",
+      "root": "ratio (cálculo, razón)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "divergent",
+      "pos": "adj",
+      "def": "differing markedly, said of two or more things",
+      "disc": "Necesita <b>dos cosas que salen del mismo punto y se van separando</b>: dos encuestas, dos relatos, dos tradiciones. Nunca se dice de una sola, y su colocación de refuerzo es <i>wildly ___</i>.",
+      "tone": "neu",
+      "axisPos": 62,
+      "ej": "Both surveys were taken in the same week, but the samples came from different registers, and the figures are wildly ___: 31 per cent in one and 58 in the other.",
+      "twin": "radical",
+      "whyNotTwin": "divergent describe <b>la distancia entre dos cosas</b> y no puede predicarse de una; radical describe <b>hasta dónde baja una sola propuesta</b>, hasta la raíz. Dos cifras son divergent; un plan es radical.",
+      "root": "dis- (aparte) + vergere (inclinarse, dirigirse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "radical",
+      "pos": "adj",
+      "def": "going to the root; sweeping rather than partial",
+      "disc": "De <i>radix</i>, raíz: no retoca la superficie, <b>baja hasta el fundamento</b>. Su prueba en la oración es la <b>negación del retoque</b> — no se ajustó el horario, se rehízo el examen entero, desde quién lo pone hasta para qué sirve.",
+      "tone": "neu",
+      "axisPos": 80,
+      "ej": "The committee did not tinker with the timetable: what it proposed was a ___ redesign of the examination, from who sets it to what it is for.",
+      "twin": "divergent",
+      "whyNotTwin": "radical mide <b>la profundidad de un solo cambio</b>; divergent mide <b>la separación entre dos cosas</b>. Un rediseño que baja a los cimientos es radical aunque no se compare con nada.",
+      "root": "radix (raíz)",
+      "tier": 1,
+      "sense2": {
+        "def": "favouring extreme political change (adjective or noun)",
+        "ej": "The pamphlet was written by a ___ who had been expelled from three parties in five years.",
+        "note": "Sentido político, el más frecuente fuera del examen. Es la misma imagen: quien quiere cambiarlo desde la raíz. Si el sustantivo es una persona o un partido, es éste."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "paradoxical",
+      "pos": "adj",
+      "def": "self-contradictory on its face and yet true",
+      "disc": "Exige <b>dos hechos que no deberían darse juntos y se dan</b>: cuanto más se gastó, menos gente vino. La contradicción es <b>aparente</b> — lo paradójico está documentado, y por eso sorprende: si fuera falso sería un error, no una paradoja.",
+      "tone": "neu",
+      "axisPos": 95,
+      "ej": "The result is ___ but thoroughly documented: the more the company spent on advertising, the fewer people came through the door.",
+      "twin": "divergent",
+      "whyNotTwin": "paradoxical señala <b>una sola cosa que se contradice a sí misma</b> y aun así ocurre; divergent señala <b>dos cosas distintas que se apartan</b>. Aquí no hay dos cifras enfrentadas, sino una relación que va al revés de lo esperado.",
+      "root": "para- (contra) + doxa (opinión recibida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

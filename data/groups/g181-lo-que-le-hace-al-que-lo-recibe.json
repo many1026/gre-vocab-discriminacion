@@ -1,0 +1,91 @@
+{
+  "id": "g181",
+  "name": "lo que la cosa le hace al que la recibe",
+  "axis": {
+    "lo": "no le pasa nada por dentro: solo lo anota",
+    "hi": "sale descargado de algo que llevaba dentro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "remarkable",
+      "pos": "adj",
+      "def": "worth noticing; unusual enough to be commented on",
+      "disc": "Literalmente <b>digno de que se haga notar</b>. No promete emoción ninguna: lo que afirma es que <b>merece mención</b>, y por eso convive con lo aburrido — <i>___ only for its length</i>. Su marco propio es <i>___ for</i> + aquello por lo que llama la atención.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "Nobody was moved and nobody was unsettled: the ceremony was ___ only for its brevity — four minutes, and the couple were in the car.",
+      "twin": "disconcerting",
+      "whyNotTwin": "remarkable solo pide que la cosa <b>merezca mencionarse</b>; disconcerting exige que a alguien <b>se le descoloque el paso</b>. Una ceremonia de cuatro minutos se comenta; no desconcierta a nadie.",
+      "root": "re- (intensivo) + marcare (marcar, señalar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "disconcerting",
+      "pos": "adj",
+      "def": "unsettling in a way that breaks one's composure",
+      "disc": "No asusta ni ofende: <b>le quita a uno el hilo</b>. El daño es a la compostura, y es pequeño y momentáneo — de ahí que su colocación más frecuente sea <i>faintly ___</i>, que ningún hermano admite.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The explanation is dull enough — the man works for her brother — and there is nothing in it worth repeating to anybody afterwards; but it is faintly ___ to be greeted by name, and asked after one's mother, by someone one has never met.",
+      "twin": "provocative",
+      "whyNotTwin": "disconcerting descoloca <b>sin que nadie lo haya buscado</b>; provocative está <b>calculado</b> para que el otro responda. Uno es un tropiezo, el otro un plan.",
+      "root": "dis- (deshacer) + concertare (concertar, poner de acuerdo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "provocative",
+      "pos": "adj",
+      "def": "meant to stir a reaction, usually argument",
+      "disc": "Lo define <b>la intención de quien lo hace</b>: se dice o se escribe para que el otro salte. Por eso vive con <i>deliberately ___</i> y con la reacción nombrada detrás — la mano levantada, la cola en el micrófono, la carta al director.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "He wrote the lecture to be argued with, and got what he wanted: forty minutes of deliberately ___ claims and a queue at the microphone before he had sat down.",
+      "twin": "disconcerting",
+      "whyNotTwin": "provocative busca <b>la respuesta del otro</b> y se mide por ella; disconcerting solo produce <b>un instante de desconcierto</b> y nadie discute nada. Si la oración dice para qué se hizo, es provocative.",
+      "root": "pro- (adelante) + vocare (llamar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exhilarating",
+      "pos": "adj",
+      "def": "making one feel intensely alive and elated",
+      "disc": "Lo suyo es <b>el cuerpo del que lo está haciendo</b>: el frío, la velocidad, el aire. Deja a la persona <b>con ganas de repetir</b>, y ésa es su prueba en la oración — no hay nada que soltar, sólo energía que sube.",
+      "tone": "pos",
+      "axisPos": 78,
+      "ej": "There was nothing on her mind to be worked off: she came off the water shaking and laughing simply because two hours of hard rowing in a cold wind is ___.",
+      "twin": "cathartic",
+      "whyNotTwin": "exhilarating <b>levanta</b> a quien no traía nada dentro; cathartic <b>vacía</b> a quien traía algo acumulado. Si la oración no nombra nada que soltar, no puede ser catarsis.",
+      "root": "ex- (del todo) + hilaris (alegre)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cathartic",
+      "pos": "adj",
+      "def": "releasing pent-up feeling and leaving relief behind",
+      "disc": "Término de la tragedia griega: la obra <b>purga</b> lo que el espectador traía dentro. Exige por tanto <b>algo acumulado de antes</b> y un desahogo — llanto, casi siempre — y después <b>alivio</b>, no euforia.",
+      "tone": "pos",
+      "axisPos": 95,
+      "ej": "The play comforts nobody and is not meant to: it is ___ in the older sense — you weep steadily for two hours and walk out lighter than you came in.",
+      "twin": "exhilarating",
+      "whyNotTwin": "cathartic <b>saca fuera</b> una carga previa y deja alivio; exhilarating no supone carga ninguna y deja <b>excitación</b>. Se llora en la catarsis y se ríe en lo exhilarante.",
+      "root": "katharsis (purificación, purga)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

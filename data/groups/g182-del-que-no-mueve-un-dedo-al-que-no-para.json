@@ -1,0 +1,95 @@
+{
+  "id": "g182",
+  "name": "del que no mueve un dedo al que no para",
+  "axis": {
+    "lo": "deja que las cosas pasen sin intervenir",
+    "hi": "se mueve sin descanso y sin orden"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "passive",
+      "pos": "adj",
+      "def": "accepting what happens without acting or resisting",
+      "disc": "No es pereza ni indiferencia: es <b>estar presente sin intervenir</b>. Lo prueba la lista de omisiones — no propuso, no se opuso, no votó en contra —, y de ahí sus colocaciones fijas: <i>a ___ role</i>, <i>___ resistance</i>, <i>___ smoking</i>.",
+      "tone": "neg",
+      "axisPos": 4,
+      "ej": "In nine years on the board he proposed nothing, opposed nothing and voted with the chair every time: a wholly ___ presence.",
+      "twin": "frenetic",
+      "whyNotTwin": "son los dos extremos del eje: passive <b>no hace nada</b> y deja que le hagan; frenetic <b>hace demasiado a la vez</b> y sin orden. Entre los dos está todo el grupo.",
+      "root": "pati (padecer, sufrir la acción de otro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inquisitive",
+      "pos": "adj",
+      "def": "eager to find things out, often about other people",
+      "disc": "Su energía va toda a <b>averiguar</b>, y con frecuencia averigua <b>lo que no le han contado</b>: cuánto pagaron los vecinos, qué hay en el cajón. De ahí que roce lo indiscreto y que su complemento típico sea <i>___ about</i> + gente o asuntos ajenos.",
+      "tone": "neu",
+      "axisPos": 45,
+      "ej": "She asked what the neighbours had paid for their house, and then what the sister-in-law did all day: ___ about other people to a degree the family had stopped apologising for.",
+      "twin": "keen",
+      "whyNotTwin": "inquisitive quiere <b>saber</b>, y va con <i>about</i>; keen quiere <b>hacer</b>, y va con <i>to</i> + infinitivo. «Keen about other people» no es inglés corriente; «keen to start» sí.",
+      "root": "in- (hacia dentro) + quaerere (buscar, preguntar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "keen",
+      "pos": "adj",
+      "def": "eager and enthusiastic about doing something",
+      "disc": "Es <b>ganas de empezar</b>, y su marco propio es <i>___ to</i> + infinitivo o <i>___ on</i> + actividad. El entusiasmo no se le reprocha a nadie: llegar una hora antes es celo, no atolondramiento.",
+      "tone": "pos",
+      "axisPos": 62,
+      "ej": "He arrived a full hour before the gate opened, ___ to start and unwilling to sit down while he waited.",
+      "twin": "inquisitive",
+      "whyNotTwin": "keen mide <b>las ganas de ponerse a algo</b>; inquisitive mide <b>las ganas de enterarse</b>. El que llega temprano quiere empezar, no preguntar.",
+      "root": "cene (valiente, agudo, en inglés antiguo)",
+      "tier": 1,
+      "sense2": {
+        "def": "sharp, said of an edge, a wind or a sense",
+        "ej": "She has a ___ eye for a forged signature and has stopped three sales this year.",
+        "note": "Sentido de filo y de agudeza, tan frecuente como el otro: a ___ blade, a ___ wind, a ___ eye. Si el sustantivo es un sentido o un instrumento, no habla de entusiasmo."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "impulsive",
+      "pos": "adj",
+      "def": "acting on a sudden urge without weighing it",
+      "disc": "Lo que reprocha es <b>que no medió pensamiento</b>: entre el impulso y el acto no hubo nada. Por eso su escena típica trae <b>el acto ya consumado</b> y las consecuencias sin prever — la dimisión entre plato y plato.",
+      "tone": "neg",
+      "axisPos": 80,
+      "ej": "He resigned between the soup and the main course, having come to the dinner with no thought of resigning and no other job to go to: ___ is the kindest word for it.",
+      "twin": "frenetic",
+      "whyNotTwin": "impulsive califica <b>una decisión que no se pensó</b>, y basta una; frenetic califica <b>un ritmo de actividad</b>, y necesita muchas cosas a la vez. Un solo acto nunca es frenetic.",
+      "root": "impellere (empujar, impulsar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "frenetic",
+      "pos": "adj",
+      "def": "wildly hurried and disordered in activity",
+      "disc": "Describe <b>el ritmo, no a la persona</b>: un periodo, una hora, una escena en la que hay demasiado que hacer y demasiada gente moviéndose. La prueba en la oración es <b>el desorden</b>: nada está donde debería.",
+      "tone": "neg",
+      "axisPos": 95,
+      "ej": "The last hour before the doors opened was ___: six people running between three rooms, and nothing where the plan said it would be.",
+      "twin": "impulsive",
+      "whyNotTwin": "frenetic se dice de <b>un tramo de tiempo lleno de movimiento</b>; impulsive, de <b>quien decide sin pensar</b>. La hora es frenetic aunque cada uno de los seis sepa exactamente lo que hace.",
+      "root": "phrenitis (delirio, inflamación de la mente)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

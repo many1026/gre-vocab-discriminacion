@@ -8061,5 +8061,165 @@
   "basis": "semantic",
   "nearMiss": "recourse",
   "note": "more ___ to decide for herself es margen concedido dentro de las reglas; recourse exigiria un fracaso previo y una instancia a la que acudir, y aqui las reglas simplemente dejan hacer"
+ },
+ "6ca6c7b8b0668dea": {
+  "w": "remarkable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disconcerting",
+  "note": "la oracion niega los dos efectos rivales — nadie se conmovio (fuera exhilarating y cathartic) y nadie se inquieto (fuera disconcerting); queda solo lo que merece mencionarse, y nada se hizo para que nadie respondiera (fuera provocative)"
+ },
+ "618dd0c1a49ddb04": {
+  "w": "disconcerting",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "remarkable",
+  "note": "faintly ___ es su colocacion propia, y la oracion niega el merito de mencion — nothing worth repeating to anybody afterwards — que es justo lo que afirma remarkable; nadie discute nada (fuera provocative) y no hay ni euforia ni desahogo"
+ },
+ "fbd41a3dded1fe76": {
+  "w": "provocative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disconcerting",
+  "note": "wrote the lecture to be argued with nombra la intencion, y la cola en el microfono nombra la respuesta buscada; disconcerting descoloca sin que nadie lo pretenda y no produce cola para discutir"
+ },
+ "8c19aaac3b1a98b9": {
+  "w": "exhilarating",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cathartic",
+  "note": "nothing on her mind to be worked off cancela la carga previa que cathartic exige; lo que queda es el cuerpo levantado y las ganas de repetir, que ni remarkable ni provocative explican"
+ },
+ "f9cd7ee87f0274bc": {
+  "w": "cathartic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exhilarating",
+  "note": "in the older sense apunta a la catarsis de la tragedia, y weep steadily ... walk out lighter es purga y alivio, no euforia; exhilarating hace reir, no llorar"
+ },
+ "7acc53d0ca8b482c": {
+  "w": "passive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "frenetic",
+  "note": "tres omisiones seguidas — proposed nothing, opposed nothing, voted with the chair — y ninguna hermana describe la ausencia de accion: keen e inquisitive son ganas, impulsive y frenetic son exceso de movimiento"
+ },
+ "f677d65ca7582549": {
+  "w": "inquisitive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "keen",
+  "note": "___ about other people no lo admite keen, que va con on y significa entusiasmo por hacer, no por enterarse; las preguntas son sobre asuntos ajenos, que es el terreno propio de inquisitive"
+ },
+ "28dcd9ce6865e759": {
+  "w": "keen",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inquisitive",
+  "note": "___ to + infinitivo es marco de keen; ni inquisitive ni impulsive rigen ese to, y llegar una hora antes es ganas de empezar, no indiscrecion ni arrebato"
+ },
+ "5988fc0fd71e5c6b": {
+  "w": "impulsive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "frenetic",
+  "note": "un solo acto sin pensar previo — no thought of resigning, no other job to go to — y frenetic necesita muchas cosas a la vez; keen no se dice como reproche"
+ },
+ "2e72153358bbacba": {
+  "w": "frenetic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impulsive",
+  "note": "califica una hora, no a una persona, y la prueba es el desorden — nothing where the plan said it would be; impulsive solo puede predicarse de quien decide"
+ },
+ "d6c05b53c53b2dfa": {
+  "w": "premeditate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "conspire",
+  "note": "rige el acto como objeto directo, marco que conspire (to + infinitivo) no admite; el contraste de la oracion es plan previo frente a arrebato, asi que improvise haria la frase incoherente"
+ },
+ "193da5d56dd3ab5f": {
+  "w": "conspire",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "premeditate",
+  "note": "el sujeto no es nadie — una tuberia, una huelga y un mes de lluvia — y solo conspire admite sujetos que no son personas; premeditate exige alguien que planee"
+ },
+ "803b50e76db271de": {
+  "w": "coin",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "improvise",
+  "note": "el objeto es the term y lo acunado queda en cuarenta codigos; improvise no rige terminos y no deja nada que dure"
+ },
+ "e5d0cfee8351be05": {
+  "w": "improvise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "coin",
+  "note": "el guion desaparecio a mitad y hubo que producir cincuenta minutos sin nada preparado; coin solo alcanza a una palabra, no a la ejecucion entera"
+ },
+ "5fc91dc0bb7ecc07": {
+  "w": "pertinent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rational",
+  "note": "___ to + el asunto es su marco, y lo que se mide es si la pregunta toca la acusacion; rational mide razones y no se dice relativo a un caso"
+ },
+ "3d7ccc22c2beaecc": {
+  "w": "rational",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pertinent",
+  "note": "a perfectly ___ explanation es colocacion fija de rational, y el contenido es la explicacion corriente que deshace el misterio; pertinent exigiria un asunto contra el que medirse"
+ },
+ "2920e97442f464c0": {
+  "w": "divergent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "radical",
+  "note": "dos encuestas que se separan, y la causa esta dicha (samples from different registers), lo que cancela la contradiccion que paradoxical necesita; radical no se predica de dos cifras"
+ },
+ "2218e4c45f4184fc": {
+  "w": "radical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "divergent",
+  "note": "did not tinker frente a rehacer el examen desde quien lo pone hasta para que sirve: profundidad de un solo cambio, que divergent (distancia entre dos cosas) no puede describir"
+ },
+ "9353010bae5d2a5a": {
+  "w": "paradoxical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "divergent",
+  "note": "una sola relacion que va al reves de lo esperado y esta documentada; divergent necesita dos cosas que se aparten, y aqui no hay dos cifras enfrentadas"
+ },
+ "225b87f20e922a1d": {
+  "w": "prime",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "premeditate",
+  "note": "la distincion es el marco — prime rige persona como objeto y vive en pasiva (had been ___d); premeditate rige el acto, y ni coin ni improvise admiten persona por objeto"
  }
 }

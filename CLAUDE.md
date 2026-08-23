@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **180 grupos, 1007/1112 palabras (90.6%)**, `run_all.py` en verde, 0 errores
+- **184 grupos, 1027/1112 palabras (92.4%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -400,6 +400,42 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   solo mide **obra** y el suyo tiene que cancelar el ingreso («nobody was paid a penny»). Sin esas dos
   negaciones cruzadas el ítem se resuelve a cara o cruz. `conducive` es el fácil: rige **`to` + el
   resultado que favorece**, marco que ninguna hermana admite — queda registrado con `--basis grammatical`.
+
+- **`remarkable` se cuela en cualquier escena rara, porque «raro» es exactamente «digno de mención».**
+  El primer cloze de `disconcerting` en g181 («She lost her thread for a moment: it is faintly ___ to be
+  greeted by name … by a man one has never met») lo llenaba: que un desconocido sepa tu nombre es de las
+  cosas que se cuentan luego. Lo que excluye a remarkable es **negarle el mérito de mención** — *the
+  explanation is dull enough … nothing in it worth repeating to anybody afterwards* —, y entonces queda
+  lo único que sigue en pie: que a ella se le fue el hilo. Regla práctica: `remarkable` se mata diciendo
+  que la cosa no se cuenta; `disconcerting` se sostiene con su colocación, *faintly ___*.
+- **`cathartic` se cuela en cualquier esfuerzo físico.** «Rowing is cathartic» es inglés corriente: el
+  ejercicio como desahogo. El cloze de `exhilarating` en g181 necesita cancelar la carga previa —
+  *there was nothing on her mind to be worked off* —, porque catarsis exige **algo acumulado que sacar**;
+  sin eso, lo que queda es el cuerpo levantado y las ganas de repetir, que es lo propio de exhilarating.
+  Al revés, `cathartic` se aísla con *in the older sense* + llanto sostenido y alivio al salir.
+- **`sensational` no puede ser hermana de `exhilarating`.** En registro corriente significa «espectacular»
+  (*the descent was sensational*), así que cualquier cloze de experiencia intensa lo llenan las dos. g181 se
+  cerró sin ella; sigue libre, pero para un grupo de **prensa y exageración**, donde su sentido GRE — lo
+  redactado para excitar al lector — sí tiene terreno propio.
+- **`keen` e `inquisitive` se separan por la preposición y por el objeto del deseo.** keen quiere **hacer**
+  y rige *___ to* + infinitivo o *___ on* + actividad; inquisitive quiere **enterarse** y rige *___ about* +
+  gente o asuntos ajenos. «Keen about other people» no es inglés corriente, y ahí es donde se corta: el cloze
+  de inquisitive de g182 pone preguntas sobre lo que pagaron los vecinos, no sobre lo que ella va a estudiar.
+- **`improvise` no llena un hueco cuyo objeto sea `the term`.** Es lo que separa a `coin` en g183: se
+  improvisa **una ejecución entera** (los cincuenta minutos que quedaban de charla), y se acuña **una sola
+  palabra que además queda** — *it now appears in the statutes of forty states*. Lo improvisado no dura;
+  lo acuñado circula como la moneda de la que viene la imagen.
+- **`conspire` se aísla con el sujeto que no es nadie, y `premeditate` con el acto por objeto directo.**
+  En g183 conviven sin pisarse porque rigen marcos distintos: *a burst main, a rail strike and the wettest
+  June ___d to* (conspire, sujetos que no son personas, siempre *to* + infinitivo) frente a *whether he ___d
+  the killing* (premeditate, objeto directo y una sola persona que planea). Nadie «conspira un asesinato».
+  El de `prime` también vive del marco — objeto persona y pasiva, *had been ___d* — y queda registrado con
+  `--basis grammatical`.
+- **Una diferencia con causa explicada ya no es una paradoja.** En g184 el cloze de `divergent` decía al
+  principio que las dos encuestas se hicieron la misma semana y preguntaron lo mismo «y aun así» daban 31 y
+  58: ese *yet* invita a `paradoxical`. La salida fue **dar la causa** — *the samples came from different
+  registers* —: con la contradicción deshecha solo queda la distancia entre dos cifras, que es divergent.
+  Al revés, `paradoxical` exige **una sola relación que va al revés de lo esperado** y está documentada.
 
 ## Qué NO hacer
 
