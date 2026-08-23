@@ -7885,5 +7885,181 @@
   "basis": "semantic",
   "nearMiss": "squander",
   "note": "se renuncia a una pretensión por declaración pública y en voz alta ante la asamblea; lo demás son bienes que se toman, se tapan o se gastan, no derechos que se declaren"
+ },
+ "8231b55c4d89f8e9": {
+  "w": "cease",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hinder",
+  "note": "hinder solo retrasa y aqui la parada es total (not one further copy, now or later); commence queda contradicho por la prohibicion de imprimir; amend no rige publication; expedite es lo contrario"
+ },
+ "e8a37005252d32a7": {
+  "w": "hinder",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cease",
+  "note": "cease exigiria que las barcazas dejaran de pasar y siguen pasando, solo mas lento; expedite queda contradicho por los dos dias; amend y commence no rigen barges"
+ },
+ "d7ac6f6130e7c2b0": {
+  "w": "amend",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "commence",
+  "note": "solo amend rige un texto con autoridad y cambia sus palabras; commence, cease, hinder y expedite no se dicen de una clausula reescrita"
+ },
+ "2d3b8f33d6946e9a": {
+  "w": "commence",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "expedite",
+  "note": "la oracion niega que exista el asunto (no case in existence, nothing to hurry along and nothing to obstruct), lo que deja fuera a expedite, hinder, cease y amend a la vez"
+ },
+ "447331dd6cf42a23": {
+  "w": "expedite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "commence",
+  "note": "already in the queue deja fuera a commence; not a word was altered deja fuera a amend; la caida de once semanas a tres deja fuera a hinder y a cease"
+ },
+ "fc4185cdc5b240a3": {
+  "w": "impetuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "wayward",
+  "note": "el arrepentimiento del fin de semana deja fuera a resolute y a mettlesome (que se admiran); wayward pide deriva sostenida, no un acto decidido en dos dias"
+ },
+ "23a3c4dd4638ecf4": {
+  "w": "wayward",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impetuous",
+  "note": "lo que se describe es no poder mantener una direccion durante un trimestre, no un arranque rapido: impetuous se ve en un solo acto; resolute y redoubtable quedan contradichos"
+ },
+ "d3561efcd4a2f496": {
+  "w": "mettlesome",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impetuous",
+  "note": "la yegua no hace nada precipitado ni desobedece, solo no se deja apagar por dos inviernos: impetuous pide un acto rash, wayward desobediencia, redoubtable miedo ajeno"
+ },
+ "1ea1f44eeae91488": {
+  "w": "assertive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resolute",
+  "note": "el hueco lo define un acto de habla en primera persona (say it out loud instead of hoping somebody notices); resolute se sostiene callado y no pide nada"
+ },
+ "add001187ef71039": {
+  "w": "resolute",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "assertive",
+  "note": "without saying another word deja fuera a assertive; nadie se retira ante ella, asi que no es redoubtable; no hay peligro ni brio, asi que no es mettlesome"
+ },
+ "29b4229c82cf0552": {
+  "w": "redoubtable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resolute",
+  "note": "lo que llena el hueco es el efecto en los demas (dos testigos pactan antes que declarar); la firmeza de resolute no hace retirarse a nadie y assertive no produce temor"
+ },
+ "3826f63213808524": {
+  "w": "suspect",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "partial",
+  "note": "se duda de la autenticidad de la firma, no de a quien favorece (partial) ni de si hay hecho que decida (subjective); credible queda contradicho por la capa de suciedad"
+ },
+ "44e4765a6e627a6c": {
+  "w": "partial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subjective",
+  "note": "not a sentence is untrue deja fuera a suspect y a fallible; keeps his own opinions out deja fuera a subjective; lo unico que falla es que solo se oyo a una parte"
+ },
+ "540f1e3dfb95a615": {
+  "w": "subjective",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fallible",
+  "note": "without either of them being wrong dice que no hay respuesta que decida, y eso deja fuera a fallible (que se equivoca en algo comprobable) y a partial (que supone un hecho contado de un lado)"
+ },
+ "01a85a53a02ef168": {
+  "w": "fallible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "suspect",
+  "note": "as anyone is at that hour lo vuelve condicion humana comun y no sospecha sobre el hombre (suspect); hay respuesta correcta que comprobar, asi que no es subjective"
+ },
+ "c3db1ea2c88e80e8": {
+  "w": "credible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "warranted",
+  "note": "lo que se juzga es un relato que se puede creer y por eso se obra; warranted juzgaria la medida y no la amenaza, y las demas no se dicen de una amenaza"
+ },
+ "fd7b880168f06852": {
+  "w": "warranted",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "credible",
+  "note": "lo que se juzga es la proporcion de una actuacion, no si se cree lo ocurrido (credible): nadie duda de que hubo tres agentes"
+ },
+ "cef0280433fe154b": {
+  "w": "duress",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impediment",
+  "note": "el marco fijo under ___ con anulacion del consentimiento no lo admite ninguna hermana: no se firma under impediment, under abeyance, under recourse ni under latitude"
+ },
+ "0d3a9f7e52ac8b10": {
+  "w": "impediment",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "duress",
+  "note": "la pobreza es la causa concreta que estorba y hay que rodear; abeyance seria el estado del asunto parado, recourse una salida a la que acudir y latitude un margen: ninguna se dice de un obstaculo"
+ },
+ "97eeca8fa4efb09a": {
+  "w": "abeyance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impediment",
+  "note": "in ___ since 1897 con el titulo no extinguido y reclamable es solo abeyance; no hay obstaculo que quitar (impediment), ni salida a la que acudir (recourse), ni margen (latitude)"
+ },
+ "21a19ec96b58890d": {
+  "w": "recourse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "latitude",
+  "note": "no ___ but the ombudsman supone que lo normal ya fracaso y solo queda una puerta; latitude no se agota ni se usa por necesidad, e impediment y abeyance no rigen ese marco"
+ },
+ "a211d7b0bb7a7ed7": {
+  "w": "latitude",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "recourse",
+  "note": "more ___ to decide for herself es margen concedido dentro de las reglas; recourse exigiria un fracaso previo y una instancia a la que acudir, y aqui las reglas simplemente dejan hacer"
  }
 }

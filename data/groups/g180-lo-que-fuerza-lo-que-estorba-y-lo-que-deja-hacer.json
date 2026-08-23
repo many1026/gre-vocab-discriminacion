@@ -1,0 +1,94 @@
+{
+  "id": "g180",
+  "name": "lo que fuerza, lo que estorba y lo que deja hacer",
+  "axis": {
+    "lo": "no se puede obrar: la voluntad esta forzada o el asunto parado",
+    "hi": "se obra con las manos libres"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "duress",
+      "pos": "n",
+      "def": "the threat that makes a person's consent worthless",
+      "disc": "Vive casi siempre en <b><i>under ___</i></b> y es palabra de tribunal: nombra <b>el estado del que firma con una amenaza encima</b>. Su consecuencia jurídica es que el consentimiento no cuenta y el acto se anula.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "She signed the transfer with two of his men standing in the room; a consent given under ___ is no consent, and the judge set the whole thing aside.",
+      "twin": "impediment",
+      "whyNotTwin": "duress supone <b>alguien que amenaza</b> y afecta a la voluntad: por eso anula lo firmado; impediment es <b>un obstáculo impersonal</b> que no anula nada — solo hace más difícil llegar.",
+      "root": "duritia (dureza, de durus)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "impediment",
+      "pos": "n",
+      "def": "something in the way that slows or prevents",
+      "disc": "Nombra <b>la causa concreta que estorba</b>, y rige <i>to</i>: <i>an ___ to the marriage</i>, <i>an ___ to trade</i>. No fuerza a nadie ni suspende nada: está ahí, y hay que rodearlo o quitarlo.",
+      "tone": "neg",
+      "axisPos": 22,
+      "ej": "Poverty is the one ___ the scheme cannot get round: it can supply the books, but not the two hours a night that a mother working nights does not have.",
+      "twin": "abeyance",
+      "whyNotTwin": "impediment es <b>la cosa que estorba</b> y sigue ahí mientras nadie la quite; abeyance es <b>el estado en que queda lo detenido</b>, y de él se sale sin quitar nada, solo reanudando.",
+      "root": "impedire (trabar los pies: in- + pes)",
+      "tier": 1,
+      "sense2": {
+        "def": "a defect that makes speech difficult",
+        "ej": "The slight ___ in his speech disappeared the moment he began to sing."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "abeyance",
+      "pos": "n",
+      "def": "a state of suspension from which something may revive",
+      "disc": "Se usa en <b><i>in ___</i></b> y dice algo muy preciso: <b>la cosa no se ha extinguido, solo está sin ejercer</b>. Un título nobiliario, una norma, un pleito: siguen existiendo, y cualquiera con derecho puede reactivarlos.",
+      "tone": "neu",
+      "axisPos": 38,
+      "ej": "The barony has been in ___ since 1897: the title has not been extinguished, nobody holds it, and any of four cousins could still claim it.",
+      "twin": "impediment",
+      "whyNotTwin": "abeyance describe <b>el asunto en pausa</b>, sin decir por qué; impediment nombra <b>el estorbo que lo causa</b>. Uno es el estado, el otro la causa — y un título en abeyance no tiene ningún obstáculo delante, solo falta quien lo reclame.",
+      "root": "abeer (quedar en espera, boca abierta)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "recourse",
+      "pos": "n",
+      "def": "the help one may turn to when other means fail",
+      "disc": "Supone siempre <b>un fracaso previo</b>: se acude a ello porque lo anterior no dio resultado. Sus marcos fijos son <i>have ___ to</i> y <i>no ___ but</i>, y lo que nombra es la salida que aún queda, no la libertad de elegir.",
+      "tone": "neu",
+      "axisPos": 68,
+      "ej": "When the bank refused a second time to reopen the file she had no ___ but the ombudsman, and it took her three years to get that far.",
+      "twin": "latitude",
+      "whyNotTwin": "recourse es <b>lo único que queda cuando ya se ha intentado lo normal</b>; latitude es <b>el margen que se tiene desde el principio</b> para hacerlo a su manera. Uno se usa por necesidad, el otro se disfruta.",
+      "root": "recurrere (volver a correr hacia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "latitude",
+      "pos": "n",
+      "def": "freedom to act or decide as one judges best",
+      "disc": "Es <b>margen concedido dentro de unas reglas</b>: alguien fija el marco y deja el resto al criterio del que ejecuta. Se mide en cantidad — <i>wide ___</i>, <i>more ___ than</i> —, nunca en un solo permiso concreto.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The rules set out what must be taught and leave the rest alone: inside those forty pages a head teacher has more ___ to decide for herself than in any system in Europe.",
+      "twin": "recourse",
+      "whyNotTwin": "latitude es <b>espacio para decidir</b> y existe aunque todo vaya bien; recourse es <b>una puerta a la que llamar</b> y solo aparece cuando algo ha fallado. Nadie ejerce su latitude por no quedarle otra.",
+      "root": "latitudo (anchura, de latus ancho)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

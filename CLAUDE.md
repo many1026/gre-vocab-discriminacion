@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **176 grupos, 985/1112 palabras (88.6%)**, `run_all.py` en verde, 0 errores
+- **180 grupos, 1007/1112 palabras (90.6%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -367,6 +367,11 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   *though he said nothing at all about what the strikers had been going through*. Y al revés,
   `egalitarian` se blinda contra `altruistic` añadiendo **voz igual**, no solo trabajo compartido
   (*no decision was taken until the last of the twenty had spoken*): repartir no es dar.
+- **`coercion` y `duress` no pueden ser hermanas.** Los dos llenan *a signature given under ___ binds nobody*: «under coercion» es inglés corriente. Lo propio de coercion es **el lado del que aprieta** (*govern by ___* — ejércitos, cárceles, alguaciles) y lo de duress **el lado del que firma** (*under ___*, *plead ___*), pero ninguna oración de consentimiento viciado — que es donde viven las dos — excluye a la otra. g180 se cerró con `duress`, y `coercion` volvió al fondo libre para un grupo de «forzar» donde no esté duress.
+- **`amend` se cuela en cualquier hueco de trámite cuyo objeto sea un papel.** El primer cloze de `expedite` en g177 («hired purely to ___ the applications already in the queue») lo admitía: enmendar solicitudes es inglés corriente. La salida es **negar el cambio de letra** — *not a word in any of them was altered* —, porque expedite solo mueve el reloj y no toca el texto.
+- **`recourse` se cuela en «margen» si el hueco no dice para qué.** *A head teacher has more ___ than in any system in Europe* lo llenan las dos (más instancias a las que acudir / más libertad). Lo que separa es el infinitivo: *more ___ to decide for herself* deja fuera a recourse, que no se ejerce para decidir sino para reclamar cuando lo normal ya falló.
+- **`suspect` (adj) se cuela en cualquier reproche a un informe.** El cloze de `partial` en g179 necesitó tres negaciones seguidas: *not a sentence in it is untrue* (fuera suspect y fallible), *keeps his own opinions out of it entirely* (fuera subjective), y solo entonces queda lo único que falla — que se oyó a una parte y no a la otra. Al revés, `fallible` se aísla con *as anyone is at that hour*: lo que es de todos no es sospechoso de nadie.
+- **`mettlesome` solo se separa de `impetuous` quitando el acto.** Cualquier escena en que el animal o el joven **haga** algo (el potro que se lanza a la cuesta) la llena impetuous, porque es exactamente un arranque. La salida en g178 fue medir el brío por lo que **no lo apagó** — dos inviernos de mala ración, y la yegua sigue saliendo al trote con la cabeza alta —: ahí no hay acto precipitado que reprochar, solo temple que aguanta.
 - **`tortuous` va en sentido figurado y `sinuous` en literal.** Los dos describen curvas, pero
   tortuous **reprocha** las vueltas (un trámite, un razonamiento) y sinuous **admira** la
   continuidad (un río, un brazo que baila): el cloze de sinuous se sostiene con *a single line,

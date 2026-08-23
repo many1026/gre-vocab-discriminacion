@@ -1,0 +1,110 @@
+{
+  "id": "g179",
+  "name": "lo que merece credito y lo que no",
+  "axis": {
+    "lo": "no se puede dar por bueno",
+    "hi": "esta justificado, y se puede obrar en consecuencia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "suspect",
+      "pos": "adj",
+      "def": "of doubtful genuineness or soundness",
+      "disc": "Como adjetivo dice que <b>la cosa quizá no sea lo que dice ser</b>: una firma, una procedencia, unas cifras. No afirma el fraude — deja la duda abierta —, y por eso se usa en informes que no quieren acusar.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "The panel found the canvas, the stretcher and the varnish all of the right date; only the signature struck them as ___, sitting as it does on top of two centuries of dirt.",
+      "twin": "partial",
+      "whyNotTwin": "suspect duda de que <b>la cosa sea auténtica</b>; partial no duda del dato — lo da por cierto — y objeta <b>a quién favorece</b>. Un informe sin una sola falsedad puede ser partial; no puede ser suspect por eso.",
+      "root": "suspicere (mirar por debajo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "partial",
+      "pos": "adj",
+      "def": "favouring one side over the other",
+      "disc": "El defecto no está en los hechos sino en <b>el reparto</b>: se oyó a una parte y no a la otra. Compatible con que todo lo escrito sea verdad, que es justo lo que lo hace difícil de rebatir.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "Not a sentence in it is untrue, and the writer keeps his own opinions out of it entirely; the trouble is that only one side was ever interviewed. It is a ___ account, and the committee has asked for another.",
+      "twin": "suspect",
+      "whyNotTwin": "partial supone <b>dos partes y una favorecida</b>; suspect supone <b>una sola cosa cuya autenticidad no está clara</b>. Uno se corrige entrevistando a la otra parte, el otro solo peritando.",
+      "root": "pars, partis (parte: tomar partido)",
+      "tier": 1,
+      "sense2": {
+        "def": "fond of something, in the phrase 'partial to'",
+        "ej": "He is ___ to a glass of port after lunch, and makes no secret of it."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "subjective",
+      "pos": "adj",
+      "def": "resting on personal feeling rather than on fact",
+      "disc": "Su marca es que <b>no hay respuesta correcta que zanje el asunto</b>: dos personas pueden discrepar cuarenta años sin que ninguna se equivoque. Por eso no es un defecto que se pueda corregir con más datos.",
+      "tone": "neu",
+      "axisPos": 40,
+      "ej": "Whether the second movement is too slow is ___: two conductors can disagree about it for forty years without either of them being wrong.",
+      "twin": "partial",
+      "whyNotTwin": "subjective dice que <b>no hay hecho que decida</b>; partial dice que <b>sí lo hay</b> y que se ha contado desde un solo lado. El gusto por un tempo es subjective; un informe con una sola fuente es partial.",
+      "root": "subiectum (lo puesto debajo: el sujeto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fallible",
+      "pos": "adj",
+      "def": "capable of being mistaken",
+      "disc": "No acusa de nada: es <b>la condición de cualquiera que pueda errar</b>, y suele decirse justo para excusar. Su terreno es el de las preguntas que <b>sí tienen respuesta</b> — por eso el fallo se puede señalar después.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The instrument is exact to a thousandth of a degree; the man who reads it at four in the morning is ___, as anyone is at that hour, and that is where the error came from.",
+      "twin": "subjective",
+      "whyNotTwin": "fallible se equivoca en algo que <b>tenía respuesta</b>, y el error se demuestra; subjective no puede equivocarse porque <b>no hay respuesta que comprobar</b>. Uno es un fallo, el otro un parecer.",
+      "root": "fallere (enganar, fallar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "credible",
+      "pos": "adj",
+      "def": "believable enough to be acted on",
+      "disc": "Califica <b>lo que se nos cuenta</b> — un testigo, una amenaza, una versión — y su prueba está en que <b>alguien obre en consecuencia</b>: se cierra la estación, se abre la investigación.",
+      "tone": "pos",
+      "axisPos": 78,
+      "ej": "The police do not act on every letter, but this one named the platform and the hour: they judged the threat ___ and closed the station.",
+      "twin": "warranted",
+      "whyNotTwin": "credible se dice de <b>lo que alguien afirma</b> y significa que se le puede creer; warranted se dice de <b>lo que alguien hace</b> y significa que las circunstancias lo justificaban. Una amenaza es credible; cerrar la estación es warranted.",
+      "root": "credere (creer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "warranted",
+      "pos": "adj",
+      "def": "justified by the circumstances",
+      "disc": "Mide <b>la proporción entre lo que se hizo y lo que había</b>, y vive sobre todo en negativo: <i>not ___ by the evidence</i>, <i>that much force was not ___</i>. Lo que juzga es una medida, no una afirmación.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "Three officers for a man already in handcuffs: whatever the inquiry decides about the paperwork, that much force was not ___.",
+      "twin": "credible",
+      "whyNotTwin": "warranted juzga <b>una actuación</b> frente a las circunstancias que la motivaban; credible juzga <b>un relato</b> frente a lo que se puede creer. Nadie duda de que hubo tres agentes: se discute si hacían falta.",
+      "root": "warant (garantia, del franco warjan proteger)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g177",
+  "name": "empezar, parar, corregir y acelerar un tramite",
+  "axis": {
+    "lo": "detiene el curso o lo hace ir mas lento",
+    "hi": "lo pone en marcha y lo hace ir mas deprisa"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "cease",
+      "pos": "v",
+      "def": "to stop something completely and for good",
+      "disc": "Es el <b>corte total y definitivo</b>: lo que cesa no continúa a menor ritmo, se acaba. Por eso convive con <i>altogether</i>, <i>for good</i> y con la orden formal — <i>___ and desist</i> —, y no con «un poco menos».",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "By the terms of the settlement the paper must ___ publication of the diaries altogether: not one further copy may be printed, now or later.",
+      "twin": "hinder",
+      "whyNotTwin": "cease <b>acaba</b> con la cosa; hinder la deja seguir, solo que <b>más despacio y con más trabajo</b>. Si al final del trayecto la barcaza llega, no ha cesado nada: la han estorbado.",
+      "root": "cessare (pararse, retirarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "hinder",
+      "pos": "v",
+      "def": "to slow down or get in the way of progress",
+      "disc": "Estorba <b>sin parar nada</b>: el proceso sigue, pero cuesta más tiempo o más esfuerzo. Su prueba está en que se pueda medir el retraso — dos días donde antes se tardaba uno.",
+      "tone": "neg",
+      "axisPos": 20,
+      "ej": "Silt washed down by the floods now ___s the barges so badly that a loaded boat takes two days over what used to take one.",
+      "twin": "cease",
+      "whyNotTwin": "hinder supone que <b>la cosa sigue ocurriendo</b> y solo va peor; cease supone que <b>ya no ocurre</b>. Lo estorbado se mide en retraso, lo cesado en una fecha final.",
+      "root": "hindrian (retener, dejar atras)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "amend",
+      "pos": "v",
+      "def": "to alter the wording of a text or rule formally",
+      "disc": "Su objeto es siempre <b>un texto con autoridad</b> — una ley, unos estatutos, un acta — y lo que cambia son <b>las palabras</b>, por el procedimiento previsto. No acelera ni frena nada: reescribe.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The society voted to ___ its constitution so that clause 4 now reads 'members' where for ninety years it read 'gentlemen'.",
+      "twin": "commence",
+      "whyNotTwin": "amend actúa sobre <b>algo que ya está escrito y en vigor</b>, y solo le cambia la letra; commence actúa sobre <b>lo que todavía no existe</b> y lo echa a andar.",
+      "root": "emendare (quitar la falta: e- + mendum)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "commence",
+      "pos": "v",
+      "def": "to begin something formal or long",
+      "disc": "El «empezar» de registro solemne: <b>obras, actuaciones judiciales, un mandato</b>. Su marca es que <b>antes no había nada</b> — nada que apurar, nada que estorbar, nada que corregir.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "The tribunal will ___ proceedings against the two directors in October; until then there is no case in existence — nothing to hurry along and nothing to obstruct.",
+      "twin": "expedite",
+      "whyNotTwin": "commence supone que <b>el asunto aún no ha nacido</b>; expedite supone que <b>ya está en marcha</b> y solo va lento. No se puede apurar un expediente que no se ha abierto.",
+      "root": "com- + initiare (dar comienzo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "expedite",
+      "pos": "v",
+      "def": "to make a process move faster",
+      "disc": "Solo se dice de <b>un trámite que ya está en curso y hace cola</b>: solicitudes, envíos, permisos. Lo que aporta se cuenta en tiempo ganado — de once semanas a tres —, nunca en calidad.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "A second clerk was hired purely to ___ the applications already in the queue: not a word in any of them was altered, and the wait fell from eleven weeks to three.",
+      "twin": "commence",
+      "whyNotTwin": "expedite necesita <b>una cola ya formada</b> a la que quitar semanas; commence necesita <b>que no haya nada todavía</b>. Uno acorta el trayecto, el otro da la salida.",
+      "root": "expedire (soltar el pie: ex- + pes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
