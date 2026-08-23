@@ -22,7 +22,8 @@ Actualiza esta sección al cerrar cada lote.
 
 - **184 grupos, 1027/1112 palabras (92.4%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
-- La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
+- **App: MVP funcionando** en `app/index.html`. Se abre con doble clic, sin servidor.
+  Dos modos (Discriminar, Reconocer), progreso en `localStorage`, feedback sobre el eje
 - Ya es repo git (`main`): cada lote se comitea al cerrar
 
 ## Anatomía

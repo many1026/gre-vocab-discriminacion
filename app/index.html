@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discriminar — GRE</title>
+<style>
+:root{
+  --ground:#14181f;
+  --surface:#1c222c;
+  --surface-2:#232b36;
+  --line:#2e3846;
+  --ink:#ece7dd;
+  --muted:#8a93a2;
+  --faint:#5b6472;
+  --lo:#6ea8c9;
+  --hi:#d98a4f;
+  --right:#86c9a0;
+  --wrong:#c97a7a;
+
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"SF Mono",Menlo,Consolas,monospace;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px 80px}
+
+/* ---------- eyebrow ---------- */
+.eyebrow{
+  display:flex;align-items:baseline;justify-content:space-between;
+  gap:16px;margin-bottom:28px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint);
+}
+.eyebrow .group-name{color:var(--muted);text-transform:none;letter-spacing:.02em}
+.eyebrow b{color:var(--ink);font-weight:500}
+
+/* ---------- start ---------- */
+.hero-word{
+  font-family:var(--serif);font-size:clamp(38px,7vw,62px);
+  line-height:1.05;letter-spacing:-.02em;margin:0 0 4px;
+}
+.hero-word .a{color:var(--lo)}
+.hero-word .b{color:var(--hi)}
+.hero-sub{color:var(--muted);font-size:17px;max-width:46ch;margin:14px 0 0}
+.stat-row{
+  display:flex;gap:28px;margin:36px 0 32px;padding:18px 0;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+}
+.stat{display:flex;flex-direction:column;gap:2px}
+.stat .n{font-family:var(--mono);font-size:22px;color:var(--ink)}
+.stat .l{font-size:12px;color:var(--faint);letter-spacing:.04em}
+
+.modes{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.mode-btn{
+  display:block;width:100%;text-align:left;cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;
+  padding:16px 18px;color:var(--ink);font-family:inherit;font-size:16px;
+  transition:border-color .15s,background .15s,transform .15s;
+}
+.mode-btn:hover{border-color:var(--lo);background:var(--surface-2)}
+.mode-btn .mt{display:block;font-weight:600;margin-bottom:3px}
+.mode-btn .md{display:block;color:var(--muted);font-size:14px;line-height:1.4}
+
+/* ---------- question ---------- */
+.sentence{
+  font-family:var(--serif);font-size:clamp(21px,3.4vw,27px);
+  line-height:1.5;margin:0 0 34px;letter-spacing:-.005em;
+}
+.blank{
+  display:inline-block;min-width:5.5ch;border-bottom:2px solid var(--hi);
+  text-align:center;color:var(--hi);font-style:italic;
+}
+.blank.filled{border-bottom-color:transparent;font-style:normal;color:var(--right)}
+.prompt-def{
+  font-family:var(--serif);font-size:clamp(22px,3.6vw,30px);
+  line-height:1.35;margin:0 0 10px;
+}
+.prompt-tag{
+  font-family:var(--mono);font-size:11px;color:var(--faint);
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:30px;
+}
+
+.options{display:flex;flex-wrap:wrap;gap:9px}
+.opt{
+  cursor:pointer;font-family:var(--serif);font-size:19px;
+  background:transparent;color:var(--ink);
+  border:1px solid var(--line);border-radius:8px;
+  padding:11px 17px;transition:border-color .12s,background .12s,color .12s;
+  display:flex;align-items:baseline;gap:9px;
+}
+.opt:hover:not(:disabled){border-color:var(--ink)}
+.opt:disabled{cursor:default}
+.opt .k{font-family:var(--mono);font-size:10px;color:var(--faint)}
+.opt.is-right{border-color:var(--right);color:var(--right)}
+.opt.is-wrong{border-color:var(--wrong);color:var(--wrong)}
+.opt.is-dim{opacity:.38}
+
+/* ---------- axis rail (signature) ---------- */
+.rail-block{margin:38px 0 30px}
+.rail-poles{
+  display:flex;justify-content:space-between;gap:20px;
+  font-size:12.5px;color:var(--muted);line-height:1.35;margin-bottom:26px;
+}
+.rail-poles span{max-width:44%}
+.rail-poles .p-lo{color:var(--lo)}
+.rail-poles .p-hi{color:var(--hi);text-align:right}
+.rail{
+  position:relative;height:2px;
+  background:linear-gradient(90deg,var(--lo),var(--hi));
+  border-radius:2px;margin-bottom:8px;
+}
+.pin{position:absolute;top:50%;transform:translate(-50%,-50%)}
+.pin .dot{
+  display:block;
+  width:9px;height:9px;border-radius:50%;background:var(--faint);
+  border:2px solid var(--ground);
+}
+.pin.right .dot{background:var(--right);width:13px;height:13px;box-shadow:0 0 0 3px rgba(134,201,160,.2)}
+.pin.chosen .dot{background:var(--wrong);width:13px;height:13px;box-shadow:0 0 0 3px rgba(201,122,122,.2)}
+.pin .lab{
+  position:absolute;left:50%;transform:translateX(-50%);
+  font-family:var(--mono);font-size:10.5px;white-space:nowrap;color:var(--faint);
+}
+.pin.up .lab{bottom:16px}
+.pin.down .lab{top:16px}
+.pin.right .lab{color:var(--right)}
+.pin.chosen .lab{color:var(--wrong)}
+.rail-spacer{height:44px}
+.loose-note{
+  font-size:13px;color:var(--faint);font-style:italic;
+  border-left:2px solid var(--line);padding-left:12px;margin:30px 0;
+}
+
+/* ---------- feedback ---------- */
+.fb{margin-top:6px;border-top:1px solid var(--line);padding-top:24px}
+.fb-word{
+  font-family:var(--serif);font-size:27px;margin:0 0 2px;
+  display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;
+}
+.fb-word .pos{font-family:var(--mono);font-size:11px;color:var(--faint)}
+.fb-def{color:var(--ink);margin:0 0 16px;font-size:16.5px}
+.fb-disc{color:var(--muted);font-size:15px;line-height:1.62;margin:0 0 20px}
+.fb-disc b{color:var(--ink);font-weight:600}
+.fb-disc i{color:var(--hi);font-style:normal;font-family:var(--mono);font-size:13.5px}
+.card{
+  background:var(--surface);border:1px solid var(--line);
+  border-left:2px solid var(--wrong);border-radius:0 8px 8px 0;
+  padding:14px 16px;margin:0 0 18px;
+}
+.card.root{border-left-color:var(--lo)}
+.card.sense2{border-left-color:var(--hi)}
+.card h4{
+  margin:0 0 6px;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:500;
+}
+.card p{margin:0;font-size:14.5px;color:var(--muted);line-height:1.6}
+.card p b{color:var(--ink);font-weight:600}
+.card p i{color:var(--hi);font-style:normal;font-family:var(--mono);font-size:13px}
+
+.next-row{display:flex;align-items:center;gap:16px;margin-top:26px}
+.btn{
+  cursor:pointer;font-family:inherit;font-size:15px;font-weight:600;
+  background:var(--ink);color:var(--ground);border:none;border-radius:8px;
+  padding:12px 24px;transition:opacity .15s;
+}
+.btn:hover{opacity:.86}
+.btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);font-weight:400}
+.btn.ghost:hover{color:var(--ink);border-color:var(--ink);opacity:1}
+.hint{font-family:var(--mono);font-size:11px;color:var(--faint)}
+
+/* ---------- summary ---------- */
+.score{font-family:var(--serif);font-size:64px;line-height:1;margin:0 0 6px}
+.score small{font-size:26px;color:var(--faint)}
+.miss-list{list-style:none;padding:0;margin:26px 0 0;border-top:1px solid var(--line)}
+.miss-list li{
+  padding:13px 0;border-bottom:1px solid var(--line);
+  display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;
+}
+.miss-list .w{font-family:var(--serif);font-size:18px;color:var(--right)}
+.miss-list .x{font-family:var(--serif);font-size:18px;color:var(--wrong);text-decoration:line-through;opacity:.75}
+.miss-list .g{font-family:var(--mono);font-size:11px;color:var(--faint);margin-left:auto}
+
+:focus-visible{outline:2px solid var(--hi);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media (max-width:560px){
+  .wrap{padding:22px 16px 60px}
+  .rail-poles{font-size:11.5px}
+  .pin .lab{font-size:9.5px}
+}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script src="../data/data.js"></script>
+<script>
+(function(){
+"use strict";
+
+var DATA = window.VOCAB;
+var app = document.getElementById('app');
+var STORE_KEY = 'gre-discriminar-v1';
+var SESSION_LEN = 12;
+
+/* ---------- progreso ---------- */
+function loadStore(){
+  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+  catch(e){ return {}; }
+}
+function saveStore(s){
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e){}
+}
+var store = loadStore();
+
+function record(word, ok){
+  var r = store[word] || {r:0,w:0,t:0};
+  if (ok) r.r++; else r.w++;
+  r.t = Date.now();
+  store[word] = r;
+  saveStore(store);
+}
+
+/* ---------- pool ---------- */
+var POOL = [];
+DATA.groups.forEach(function(g){
+  g.words.forEach(function(w){
+    POOL.push({w:w, g:g});
+  });
+});
+
+function weightOf(entry){
+  var r = store[entry.w.w];
+  if (!r) return 4;                    // sin ver: prioridad alta
+  if (r.w > r.r) return 6;             // fallada más veces de las que acertó
+  if (r.w > 0)   return 2;             // alguna vez fallada
+  return 1;                            // dominada
+}
+
+function pickQuestions(n){
+  var bag = POOL.slice();
+  var chosen = [];
+  var usedGroups = {};
+  while (chosen.length < n && bag.length){
+    var total = 0, i;
+    for (i=0;i<bag.length;i++) total += weightOf(bag[i]) * (usedGroups[bag[i].g.id] ? 0.25 : 1);
+    var t = Math.random()*total, acc = 0, hit = 0;
+    for (i=0;i<bag.length;i++){
+      acc += weightOf(bag[i]) * (usedGroups[bag[i].g.id] ? 0.25 : 1);
+      if (acc >= t){ hit = i; break; }
+    }
+    var e = bag.splice(hit,1)[0];
+    usedGroups[e.g.id] = true;
+    chosen.push(e);
+  }
+  return chosen;
+}
+
+/* ---------- helpers ---------- */
+function esc(s){
+  return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+  });
+}
+function shuffle(a){
+  a = a.slice();
+  for (var i=a.length-1;i>0;i--){
+    var j = Math.floor(Math.random()*(i+1));
+    var t=a[i]; a[i]=a[j]; a[j]=t;
+  }
+  return a;
+}
+// "___ed the crowd" -> {before, suffix, after}
+function splitEj(ej){
+  var i = ej.indexOf('___');
+  var before = ej.slice(0,i);
+  var rest = ej.slice(i+3);
+  var m = rest.match(/^[a-z]+/);
+  var suffix = m ? m[0] : '';
+  return {before:before, suffix:suffix, after:rest.slice(suffix.length)};
+}
+
+/* ---------- estado ---------- */
+var state = {view:'start', mode:null, qs:[], idx:0, answered:null, results:[]};
+
+function render(){
+  if (state.view === 'start')   return renderStart();
+  if (state.view === 'quiz')    return renderQuiz();
+  if (state.view === 'summary') return renderSummary();
+}
+
+/* ---------- pantalla inicial ---------- */
+function renderStart(){
+  var seen = Object.keys(store).length;
+  var shaky = Object.keys(store).filter(function(k){ return store[k].w > 0; }).length;
+  app.innerHTML =
+    '<h1 class="hero-word"><span class="a">platitude</span> o <span class="b">aphorism</span></h1>' +
+    '<p class="hero-sub">Las dos caben en una línea. Una se olvida al oírla y la otra se cita durante siglos. ' +
+    'Aquí los distractores son siempre las palabras con las que la confundirías.</p>' +
+    '<div class="stat-row">' +
+      '<div class="stat"><span class="n">' + DATA.meta.coveredWords + '</span><span class="l">palabras</span></div>' +
+      '<div class="stat"><span class="n">' + DATA.meta.groupCount + '</span><span class="l">grupos</span></div>' +
+      '<div class="stat"><span class="n">' + seen + '</span><span class="l">vistas</span></div>' +
+      '<div class="stat"><span class="n">' + shaky + '</span><span class="l">flojas</span></div>' +
+    '</div>' +
+    '<div class="modes">' +
+      '<button class="mode-btn" data-mode="cloze"><span class="mt">Discriminar</span>' +
+        '<span class="md">Una oración con un hueco. Las cinco opciones son del mismo grupo: solo una encaja.</span></button>' +
+      '<button class="mode-btn" data-mode="recall"><span class="mt">Reconocer</span>' +
+        '<span class="md">Una definición en inglés. Elige la palabra exacta entre sus vecinas.</span></button>' +
+    '</div>';
+
+  Array.prototype.forEach.call(app.querySelectorAll('.mode-btn'), function(b){
+    b.addEventListener('click', function(){
+      state.mode = b.getAttribute('data-mode');
+      state.qs = pickQuestions(SESSION_LEN);
+      state.idx = 0; state.answered = null; state.results = [];
+      state.view = 'quiz';
+      render();
+    });
+  });
+}
+
+/* ---------- pregunta ---------- */
+function currentOptions(){
+  var e = state.qs[state.idx];
+  return shuffle(e.g.words.map(function(w){ return w.w; }));
+}
+var cachedOpts = null;
+
+function renderQuiz(){
+  var e = state.qs[state.idx];
+  var word = e.w, group = e.g;
+  if (!state.answered) cachedOpts = currentOptions();
+  var opts = cachedOpts;
+  var ans = state.answered;
+
+  var head =
+    '<div class="eyebrow">' +
+      '<span><b>' + esc(group.id) + '</b> · <span class="group-name">' + esc(group.name) + '</span></span>' +
+      '<span>' + (state.idx+1) + ' / ' + state.qs.length + '</span>' +
+    '</div>';
+
+  var body;
+  if (state.mode === 'cloze'){
+    var p = splitEj(word.ej);
+    var blank = ans
+      ? '<span class="blank filled">' + esc(word.w + p.suffix) + '</span>'
+      : '<span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;</span>' + esc(p.suffix);
+    body = '<p class="sentence">' + esc(p.before) + blank + esc(p.after) + '</p>';
+  } else {
+    body = '<p class="prompt-def">' + esc(word.def) + '</p>' +
+           '<p class="prompt-tag">' + esc(word.pos) + '</p>';
+  }
+
+  var optHtml = opts.map(function(o,i){
+    var cls = 'opt';
+    if (ans){
+      if (o === word.w) cls += ' is-right';
+      else if (o === ans) cls += ' is-wrong';
+      else cls += ' is-dim';
+    }
+    return '<button class="' + cls + '" data-w="' + esc(o) + '"' + (ans?' disabled':'') + '>' +
+             '<span class="k">' + (i+1) + '</span>' + esc(o) +
+           '</button>';
+  }).join('');
+
+  app.innerHTML = head + body + '<div class="options">' + optHtml + '</div>' +
+                  (ans ? feedbackHtml(word, group, ans) : '');
+
+  if (!ans){
+    Array.prototype.forEach.call(app.querySelectorAll('.opt'), function(b){
+      b.addEventListener('click', function(){ answer(b.getAttribute('data-w')); });
+    });
+  } else {
+    var nb = app.querySelector('#next');
+    if (nb) nb.addEventListener('click', next);
+    nb && nb.focus();
+  }
+}
+
+function answer(pick){
+  var e = state.qs[state.idx];
+  var ok = pick === e.w.w;
+  state.answered = pick;
+  record(e.w.w, ok);
+  state.results.push({word:e.w, group:e.g, pick:pick, ok:ok});
+  render();
+}
+
+function next(){
+  state.answered = null;
+  state.idx++;
+  if (state.idx >= state.qs.length) state.view = 'summary';
+  render();
+}
+
+/* ---------- feedback: el eje ---------- */
+function railHtml(group, correct, chosen){
+  if (group.loose){
+    return '<p class="loose-note">Este grupo no tiene un eje que ordene sus palabras: comparten campo, ' +
+           'pero no son grados de una misma escala.</p>';
+  }
+  var pins = group.words.map(function(w,i){
+    var cls = 'pin ' + (i%2 ? 'down' : 'up');
+    if (w.w === correct) cls += ' right';
+    else if (w.w === chosen) cls += ' chosen';
+    return '<span class="' + cls + '" style="left:' + w.axisPos + '%">' +
+             '<span class="dot"></span><span class="lab">' + esc(w.w) + '</span>' +
+           '</span>';
+  }).join('');
+  return '<div class="rail-block">' +
+           '<div class="rail-poles">' +
+             '<span class="p-lo">' + esc(group.axis.lo) + '</span>' +
+             '<span class="p-hi">' + esc(group.axis.hi) + '</span>' +
+           '</div>' +
+           '<div class="rail">' + pins + '</div>' +
+           '<div class="rail-spacer"></div>' +
+         '</div>';
+}
+
+function feedbackHtml(word, group, pick){
+  var ok = pick === word.w;
+  var html = railHtml(group, word.w, pick);
+
+  html += '<div class="fb">';
+  html += '<p class="fb-word">' + esc(word.w) + '<span class="pos">' + esc(word.pos) + '</span></p>';
+  html += '<p class="fb-def">' + esc(word.def) + '</p>';
+  html += '<p class="fb-disc">' + word.disc + '</p>';
+
+  if (!ok){
+    var chosen = null;
+    group.words.forEach(function(w){ if (w.w === pick) chosen = w; });
+    // ¿la que elegiste es justo su hermana peligrosa?
+    if (word.twin === pick && word.whyNotTwin){
+      html += '<div class="card"><h4>' + esc(word.w) + ' frente a ' + esc(pick) + '</h4>' +
+              '<p>' + word.whyNotTwin + '</p></div>';
+    } else if (chosen && chosen.twin === word.w && chosen.whyNotTwin){
+      html += '<div class="card"><h4>' + esc(pick) + ' frente a ' + esc(word.w) + '</h4>' +
+              '<p>' + chosen.whyNotTwin + '</p></div>';
+    } else if (chosen){
+      html += '<div class="card"><h4>elegiste ' + esc(pick) + '</h4>' +
+              '<p>' + chosen.disc + '</p></div>';
+    }
+  }
+
+  if (word.polysemous && word.sense2){
+    html += '<div class="card sense2"><h4>segundo sentido</h4><p><b>' + esc(word.sense2.def) + '</b> — ' +
+            (word.sense2.note || '') + '</p></div>';
+  }
+  if (word.root){
+    html += '<div class="card root"><h4>raíz</h4><p>' + esc(word.root) + '</p></div>';
+  }
+
+  html += '<div class="next-row"><button class="btn" id="next">' +
+          (state.idx + 1 >= state.qs.length ? 'Ver resultado' : 'Siguiente') +
+          '</button><span class="hint">enter</span></div>';
+  html += '</div>';
+  return html;
+}
+
+/* ---------- resumen ---------- */
+function renderSummary(){
+  var right = state.results.filter(function(r){ return r.ok; }).length;
+  var misses = state.results.filter(function(r){ return !r.ok; });
+
+  var html = '<div class="eyebrow"><span>sesión terminada</span><span>' +
+             (state.mode === 'cloze' ? 'discriminar' : 'reconocer') + '</span></div>';
+  html += '<p class="score">' + right + '<small> / ' + state.results.length + '</small></p>';
+
+  if (misses.length){
+    html += '<p class="hero-sub">Estas se te cruzaron con una vecina. Vuelven a salir pronto.</p>';
+    html += '<ul class="miss-list">' + misses.map(function(m){
+      return '<li><span class="w">' + esc(m.word.w) + '</span>' +
+             '<span class="x">' + esc(m.pick) + '</span>' +
+             '<span class="g">' + esc(m.group.id) + '</span></li>';
+    }).join('') + '</ul>';
+  } else {
+    html += '<p class="hero-sub">Doce de doce. Sube la dificultad estudiando grupos que aún no has visto.</p>';
+  }
+
+  html += '<div class="next-row">' +
+          '<button class="btn" id="again">Otra ronda</button>' +
+          '<button class="btn ghost" id="home">Cambiar de modo</button></div>';
+  app.innerHTML = html;
+
+  app.querySelector('#again').addEventListener('click', function(){
+    state.qs = pickQuestions(SESSION_LEN);
+    state.idx = 0; state.answered = null; state.results = [];
+    state.view = 'quiz'; render();
+  });
+  app.querySelector('#home').addEventListener('click', function(){
+    state.view = 'start'; render();
+  });
+}
+
+/* ---------- teclado ---------- */
+document.addEventListener('keydown', function(ev){
+  if (state.view !== 'quiz') return;
+  if (!state.answered){
+    var n = parseInt(ev.key,10);
+    if (n >= 1 && n <= 9){
+      var btns = app.querySelectorAll('.opt');
+      if (btns[n-1]) btns[n-1].click();
+    }
+  } else if (ev.key === 'Enter' || ev.key === ' '){
+    ev.preventDefault();
+    next();
+  }
+});
+
+render();
+})();
+</script>
+</body>
+</html>
