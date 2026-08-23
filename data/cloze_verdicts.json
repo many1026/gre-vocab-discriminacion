@@ -7725,5 +7725,165 @@
   "basis": "semantic",
   "nearMiss": "sinuous",
   "note": "el expediente que vuelve cuatro veces al mismo comité son vueltas que sobran, con reproche: sinuous es curva admirada y continua, intertwined pediría dos partes enredadas y amorphous negaría que haya recorrido"
+ },
+ "1585b3add4d72335": {
+  "w": "infelicity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gaffe",
+  "note": "el hueco pide la colocación fija 'an ___ of phrasing', que solo admite un defecto de redacción; gaffe exige público y vergüenza, y frailty es carácter, no texto"
+ },
+ "714447b53baa8bfb": {
+  "w": "gaffe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "peccadillo",
+  "note": "el error no es verbal — una corona en el monumento equivocado —, así que infelicity queda fuera; y no es falta moral (peccadillo) ni queja de nadie (grievance)"
+ },
+ "07f63c32b638d251": {
+  "w": "peccadillo",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "frailty",
+  "note": "se dice de un acto fechable y se llama 'an offence', lo que excluye a frailty (disposición, no hecho); nadie lo planteó, así que tampoco es grievance"
+ },
+ "284220f21245c018": {
+  "w": "frailty",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "peccadillo",
+  "note": "lo enumerado son rasgos que se arrastran toda la vida, no actos que se cometan; 'human ___' es su colocación de manual"
+ },
+ "73e63def1acbc691": {
+  "w": "grievance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "peccadillo",
+  "note": "'lodge a formal ___ with the company' exige alguien agraviado y una instancia ante la que reclamar; ninguna de las otras se presenta ante nadie"
+ },
+ "bb297e130776ddf9": {
+  "w": "lucrative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fruitful",
+  "note": "'no book, no students, no idea' cancela fruitful, y lo único que queda es dinero contado — bastante para pagar la casa"
+ },
+ "93bbbbd4cf012dd2": {
+  "w": "fruitful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lucrative",
+  "note": "'nobody was paid a penny' cancela lucrative, y lo que se enumera son cuatro libros y una carrera nueva: producto, no ingreso"
+ },
+ "33d00c927557d763": {
+  "w": "utilitarian",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "remedial",
+  "note": "no repara ninguna carencia previa (remedial) ni produce nada; solo dice que la obra se hizo para usarla y no para mirarla"
+ },
+ "4c4f07d461e7245d": {
+  "w": "remedial",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "utilitarian",
+  "note": "hay un déficit previo — llegan sin saber leer un gráfico — y el curso vuelve a enseñar lo que debió aprenderse antes; utilitarian no repara nada"
+ },
+ "e7eb92be402d1dc0": {
+  "w": "conducive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "fruitful",
+  "note": "el hueco rige 'to' + el resultado que se favorece, marco que ninguna hermana admite; fruitful y lucrative no llevan complemento y remedial no lo rige"
+ },
+ "587159429a216a2e": {
+  "w": "unalloyed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "veritable",
+  "note": "lo que se niega es la mezcla — 'no duty, no ambition, no vanity mixed into it' —, que es justo la metáfora del metal; veritable agranda un sustantivo, no lo purifica"
+ },
+ "aea5de2d138e29e6": {
+  "w": "inviolate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unalloyed",
+  "note": "el sujeto es un santuario que pudo ser profanado y no lo fue ('not a tile taken'); unalloyed pide una cualidad abstracta y no tiene enemigo de fuera"
+ },
+ "e23117b192919e9b": {
+  "w": "unprecedented",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inviolate",
+  "note": "la prueba es el archivo de cuatrocientos años sin un caso comparable; ninguna hermana se comprueba mirando hacia atrás en el registro"
+ },
+ "571935a5d3756c99": {
+  "w": "veritable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unalloyed",
+  "note": "va pegada a un sustantivo usado en sentido exagerado ('a ___ museum of broken chairs') para decir que la palabra fuerte se queda corta"
+ },
+ "bd7b191c9da7c9ac": {
+  "w": "all-encompassing",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unprecedented",
+  "note": "la prueba es que nada queda fuera del encargo, es decir extensión; unprecedented mide si había ocurrido antes, que la oración no discute"
+ },
+ "1d2db62cd51646bc": {
+  "w": "covet",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "appropriate",
+  "note": "se queda en el deseo callado durante once años y la oficina sigue ocupada por otro; si la hubiera tomado (appropriate) no podría quedar vacante después"
+ },
+ "d718a10402a0688d": {
+  "w": "appropriate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "covet",
+  "note": "'did not so much borrow it as ___ it' pide el acto consumado de quedarse con lo ajeno, y se hace a la vista — con escudo propio —, lo que excluye a cloak"
+ },
+ "e82ff8233b2b73f2": {
+  "w": "cloak",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "appropriate",
+  "note": "'nothing was denied and nothing was destroyed' y el fin es que el nombre no aparezca en ningún papel: no se toma nada ni se gasta nada, solo se tapa"
+ },
+ "0fcc4e8d69227824": {
+  "w": "squander",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "appropriate",
+  "note": "lo dilapidado es propio y heredado, y se enumera lo que se fue vendiendo en nueve años; appropriate exige un dueño ajeno al que quitárselo"
+ },
+ "5a07351e81cddf36": {
+  "w": "abjure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "squander",
+  "note": "se renuncia a una pretensión por declaración pública y en voz alta ante la asamblea; lo demás son bienes que se toman, se tapan o se gastan, no derechos que se declaren"
  }
 }

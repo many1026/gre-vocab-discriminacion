@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **172 grupos, 965/1112 palabras (86.8%)**, `run_all.py` en verde, 0 errores
+- **176 grupos, 985/1112 palabras (88.6%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -373,6 +373,28 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   without a break or an angle*. Para `intertwined` hace falta **consecuencia mutua entre dos
   cosas** — *taking out the dead one would have killed the other* —, o tortuous se cuela: lo
   enredado son dos recorridos, lo tortuoso es uno solo.
+
+- **`infelicity` se cuela en cualquier metedura de pata que sea verbal.** El primer cloze de `gaffe`
+  en g173 («the minister congratulated the widow on her husband's promotion») lo llenaba: una frase
+  desafortunada dicha en voz alta *es* una infelicity. La salida fue quitarle las palabras al error —
+  **la corona depositada en el monumento equivocado** —: sin frase no hay infelicity, y quedan las
+  cámaras, que es lo propio de gaffe. Al revés, `infelicity` se aísla con su colocación fija,
+  *an ___ of phrasing*, que ninguna hermana admite.
+- **`frailty` se cuela en cualquier falta pequeña si no se la llama falta.** El primer cloze de
+  `peccadillo` en g173 («the missing case of wine looks like a ___: nobody was poorer for it») lo
+  admitía, porque «su una debilidad era el vino» es lectura natural. Lo que excluye a frailty es
+  **nombrar el acto como acto**: *is a ___: an offence, certainly, but not one anybody thought worth
+  raising*. frailty es disposición y no se comete; peccadillo se fecha y se cuenta.
+- **`squander` se cuela en cualquier hueco de dinero desviado.** El primer cloze de `cloak` en g176
+  («the payments were ___ed in a charitable trust») lo admitía en la lectura «malgastados en una
+  fundación». La salida es **negar el daño y nombrar el fin del disfraz**: *nothing was denied and
+  nothing was destroyed … so that the name of the man receiving them appeared on no document*.
+  cloak no quita ni gasta: solo tapa.
+- **Campo «provecho» resuelto por lo que rinde cada uno (g174).** `lucrative` solo mide **dinero
+  contable** y su cloze tiene que cancelar el producto («no book, no students, no idea»), `fruitful`
+  solo mide **obra** y el suyo tiene que cancelar el ingreso («nobody was paid a penny»). Sin esas dos
+  negaciones cruzadas el ítem se resuelve a cara o cruz. `conducive` es el fácil: rige **`to` + el
+  resultado que favorece**, marco que ninguna hermana admite — queda registrado con `--basis grammatical`.
 
 ## Qué NO hacer
 

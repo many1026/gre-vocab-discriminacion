@@ -1,0 +1,91 @@
+{
+  "id": "g176",
+  "name": "el bien ajeno y el propio: del deseo a la renuncia",
+  "axis": {
+    "lo": "acercarse a un bien que todavía no se tiene",
+    "hi": "desprenderse de un bien que ya se tenía"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "covet",
+      "pos": "v",
+      "def": "to want badly something that belongs to another",
+      "disc": "Se queda <b>en el deseo</b>: no supone ningún acto, solo las ganas — y ganas de <b>lo que es de otro</b>, que es lo que le da el tufo moral del mandamiento. De ahí <i>the most ___ed prize</i>.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "He had ___ed the corner office for eleven years without once saying so, and the day it finally fell vacant he found he no longer wanted it.",
+      "twin": "appropriate",
+      "whyNotTwin": "covet <b>no toca nada</b>: la cosa sigue donde estaba y el deseo puede no cumplirse nunca; appropriate ya se la ha <b>llevado</b> y la usa como suya.",
+      "root": "cupiditas (deseo, codicia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "appropriate",
+      "pos": "v",
+      "def": "to take something for one's own use without right",
+      "disc": "El acento está en <b>hacer propio lo ajeno</b>, y casi siempre <b>sin permiso</b>: fondos, tierras, un trabajo firmado por otro. No implica ocultación — se puede hacer a la vista de todos, con membrete.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "The survey had been paid for by the parish, and the ministry did not so much borrow it as ___ it: reprinted under its own crest, with no mention of who had done the work.",
+      "twin": "covet",
+      "whyNotTwin": "appropriate es <b>el acto consumado</b> de quedarse con la cosa; covet es <b>el deseo previo</b>, que puede durar años sin que nadie pierda nada.",
+      "root": "ad- (hacia) + proprius (propio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cloak",
+      "pos": "v",
+      "def": "to hide something by covering it with an innocent appearance",
+      "disc": "No quita ni gasta nada: <b>lo tapa</b>. Lo propio de esta palabra es que el disfraz sea <b>una cosa aceptable puesta encima</b> — una fundación, un contrato, una palabra amable —, no la simple ausencia de noticia.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Nothing was denied and nothing was destroyed: the payments were simply ___ed in a charitable trust, so that the name of the man receiving them appeared on no document.",
+      "twin": "appropriate",
+      "whyNotTwin": "appropriate <b>se queda con la cosa</b>; cloak no se queda con nada — deja el bien donde está y solo <b>impide que se vea</b> de quién es o adónde va.",
+      "root": "cloak (capa)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "squander",
+      "pos": "v",
+      "def": "to waste what one already has, little by little",
+      "disc": "Su objeto es <b>lo propio</b> — una fortuna, una ventaja, una oportunidad — y el reproche es de <b>mala administración</b>, no de robo. Suele venir con el plazo y con la lista de lo que se fue vendiendo.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Two generations had built the firm; the third ___ed it in nine years — the London house first, then the presses, then the name itself.",
+      "twin": "appropriate",
+      "whyNotTwin": "squander disipa <b>lo que ya era suyo</b> y nadie lo denuncia; appropriate se apodera de <b>lo que era de otro</b>, que es lo que lo hace reprochable ante un tercero.",
+      "root": "squander (dispersar, desparramar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abjure",
+      "pos": "v",
+      "def": "to give up a claim or belief by a solemn public declaration",
+      "disc": "Lo que suelta no es dinero sino <b>una pretensión, un juramento o una creencia</b>, y lo suelta <b>en voz alta y ante alguien</b>: la palabra viene del juramento, y sin declaración no hay abjuración.",
+      "tone": "neu",
+      "axisPos": 95,
+      "ej": "Before the assembly would seat him he was made to ___ every claim his family had ever pressed to the northern lands, and to do it aloud.",
+      "twin": "squander",
+      "whyNotTwin": "abjure pierde el bien <b>por un acto declarado y voluntario</b>, y lo que renuncia es un derecho o una creencia; squander lo pierde <b>gastándolo</b>, sin querer perderlo y sin decírselo a nadie.",
+      "root": "ab- (lejos de) + iurare (jurar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

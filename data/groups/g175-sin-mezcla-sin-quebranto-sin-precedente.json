@@ -1,0 +1,91 @@
+{
+  "id": "g175",
+  "name": "sin mezcla, sin quebranto, sin precedente",
+  "axis": {
+    "lo": "nada se le ha mezclado dentro",
+    "hi": "nada queda fuera de su alcance"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "unalloyed",
+      "pos": "adj",
+      "def": "complete and not mixed with anything else",
+      "disc": "La metáfora es la del metal: una aleación lleva otra cosa dentro, y esto <b>no lleva ninguna</b>. Rige casi siempre <b>emociones</b> — <i>___ delight, ___ pleasure</i> — y lo que niega es la reserva, el «pero», el sentimiento cruzado.",
+      "tone": "pos",
+      "axisPos": 8,
+      "ej": "What the letters record is rare: ___ pleasure in the work, with no duty, no ambition and no vanity mixed into it anywhere.",
+      "twin": "veritable",
+      "whyNotTwin": "unalloyed dice que <b>no hay nada más dentro</b>, y por eso pide emociones; veritable no habla de pureza sino de <b>tamaño</b>: afirma que la palabra exagerada se queda corta.",
+      "root": "un- (sin) + alloy (aleación)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inviolate",
+      "pos": "adj",
+      "def": "kept whole because nothing has broken or profaned it",
+      "disc": "Supone <b>algo que se podía violar y no se violó</b>: un santuario, una frontera, un juramento, una tumba. Mira <b>hacia atrás</b> — lo que se conserva entero después de que algo pasara por encima.",
+      "tone": "pos",
+      "axisPos": 28,
+      "ej": "Two centuries of war passed over that valley and the shrine came through it ___: not a tile taken, not a boundary stone moved.",
+      "twin": "unalloyed",
+      "whyNotTwin": "inviolate resiste <b>una amenaza de fuera</b> y se dice de lo que se puede profanar o romper; unalloyed no tiene enemigo: niega <b>una mezcla de dentro</b>, y su sujeto suele ser un sentimiento.",
+      "root": "in- (no) + violare (violar, profanar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "unprecedented",
+      "pos": "adj",
+      "def": "never having happened before",
+      "disc": "Es un juicio sobre <b>el registro histórico</b>, y se prueba mirando atrás y no encontrando el caso. No dice que algo sea grande ni bueno: dice que <b>no hay con qué compararlo</b>.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "Nothing in the four hundred years the archive covers gives any parallel for it: the rainfall of that August was simply ___.",
+      "twin": "inviolate",
+      "whyNotTwin": "unprecedented mira <b>lo que aparece por primera vez</b>; inviolate mira <b>lo que sigue entero desde siempre</b>. Uno se comprueba en los anales, el otro en el estado del objeto.",
+      "root": "un- + praecedere (preceder)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "veritable",
+      "pos": "adj",
+      "def": "used before a noun to insist the strong word is literally right",
+      "disc": "No aporta significado propio: <b>refuerza la metáfora del sustantivo que sigue</b> — <i>a ___ museum, a ___ army of lawyers</i>. Su trabajo es decir «no exagero, es de verdad eso».",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "By the second week the office had a ___ museum of broken chairs stacked along the corridor — forty of them, some from the previous building.",
+      "twin": "unalloyed",
+      "whyNotTwin": "veritable solo puede ir <b>delante del sustantivo</b> al que agranda; unalloyed califica una <b>cualidad sin mezcla</b> y no exagera nada: dice de qué está hecho algo, no cuánto hay.",
+      "root": "veritas (verdad)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "all-encompassing",
+      "pos": "adj",
+      "def": "wide enough to leave nothing outside it",
+      "disc": "Mide <b>extensión</b>: se comprueba buscando algo que quede fuera y no encontrándolo. Se dice de encargos, teorías y sistemas — de aquello que tiene bordes y podría haberlos tenido más estrechos.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The brief she was handed was ___: nothing that had happened in the department since 1994 lay outside it, and she was given four years to do it.",
+      "twin": "unprecedented",
+      "whyNotTwin": "all-encompassing mide <b>cuánto abarca</b> algo hoy; unprecedented mide <b>si había ocurrido antes</b>. Un encargo estrecho puede ser unprecedented, y uno rutinario puede abarcarlo todo.",
+      "root": "all + encompass (abarcar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

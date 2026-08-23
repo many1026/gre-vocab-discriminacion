@@ -1,0 +1,91 @@
+{
+  "id": "g173",
+  "name": "el tropiezo, la falta y el agravio",
+  "axis": {
+    "lo": "un tropiezo de forma que no perjudica a nadie",
+    "hi": "un daño que la víctima reclama por escrito"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "infelicity",
+      "pos": "n",
+      "def": "an ill-chosen or unhappy turn of phrase",
+      "disc": "El fallo es <b>de expresión, no de conducta</b>: una frase mal escogida que estropea un texto por lo demás correcto. Su colocación fija es <i>an ___ of phrasing</i>, y por eso vive en reseñas, traducciones y crítica de estilo — nunca en la conducta de nadie.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "The translation is faithful throughout; what spoils it is the occasional ___ of phrasing, such as the corpse that 'smiled amiably at the inspector'.",
+      "twin": "gaffe",
+      "whyNotTwin": "infelicity es un defecto <b>del texto</b> y se juzga leyendo; gaffe es un <b>traspié social ante testigos</b>, y lo que lo agrava es quién estaba delante, no cómo está redactado.",
+      "root": "in- (no) + felix (feliz, afortunado)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "gaffe",
+      "pos": "n",
+      "def": "an embarrassing blunder committed in public",
+      "disc": "Lo definitorio es <b>el público</b>: la metedura de pata que se comete delante de quien no debía oírla. No supone maldad ni provecho — supone <b>vergüenza</b> y, casi siempre, cámaras.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "It was the ___ of the tour: the minister laid his wreath at the wrong monument, and the cameras were running.",
+      "twin": "infelicity",
+      "whyNotTwin": "gaffe es un <b>hecho público</b> que abochorna a quien lo comete; infelicity es un <b>desacierto de redacción</b> que solo nota quien lee con cuidado.",
+      "root": "gaffe (francés: bichero, y de ahí 'metida de pata')",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "peccadillo",
+      "pos": "n",
+      "def": "a small offence that does no real harm",
+      "disc": "Es una <b>falta contable y menor</b>: un acto que se podría reprochar y que se perdona sin esfuerzo. La palabra siempre <b>minimiza</b> — se usa para decir que aquello, comparado con lo otro, no era nada.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "Set beside the six-figure sums the auditors found later, the missing case of wine is a ___: an offence, certainly, but not one anybody thought worth raising.",
+      "twin": "frailty",
+      "whyNotTwin": "peccadillo es <b>un acto suelto</b> que se puede fechar y contar; frailty es la <b>debilidad de carácter</b> de la que salen esos actos, y no se comete: se tiene.",
+      "root": "peccadillo (español, diminutivo de pecado)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "frailty",
+      "pos": "n",
+      "def": "a weakness of character that a person never outgrows",
+      "disc": "No es un hecho sino una <b>disposición</b>: la vanidad, la cobardía, lo que uno arrastra toda la vida. Su colocación de manual es <i>human ___</i>, y por eso aparece cuando se habla de la especie entera y no de un culpable.",
+      "tone": "neg",
+      "axisPos": 65,
+      "ej": "Novels are made out of human ___: the vanity, the cowardice and the small self-deceptions we carry about with us all our lives.",
+      "twin": "peccadillo",
+      "whyNotTwin": "frailty es <b>lo que uno es</b> y dura toda la vida; peccadillo es <b>lo que uno hizo</b> una tarde. Una explica a la otra, pero solo la segunda se puede enumerar.",
+      "root": "fragilis (quebradizo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "grievance",
+      "pos": "n",
+      "def": "a wrong one feels entitled to complain about formally",
+      "disc": "Se mira desde <b>el lado del perjudicado</b>, y casi siempre <b>se presenta</b>: <i>to lodge / file a ___</i>. Supone dos cosas que las demás no piden — alguien que se siente agraviado y una instancia ante la que reclamar.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Three of the drivers lodged a formal ___ with the company: the rota, they said, had been changed without consultation for the fourth time.",
+      "twin": "peccadillo",
+      "whyNotTwin": "grievance es <b>la queja de quien sufrió el daño</b> y existe porque se presenta ante alguien; peccadillo es <b>la falta vista desde quien la cometió</b>, y su gracia es justamente que nadie reclamó.",
+      "root": "gravis (pesado, grave)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
