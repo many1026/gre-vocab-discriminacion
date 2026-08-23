@@ -1,0 +1,91 @@
+{
+  "id": "g151",
+  "name": "sin una onda y sin una mancha",
+  "axis": {
+    "lo": "la superficie no tiene una sola onda",
+    "hi": "la superficie no tiene una sola mancha"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "placid",
+      "pos": "adj",
+      "def": "calm and not easily stirred",
+      "disc": "Sus dos sujetos de siempre son <b>el agua quieta y los animales mansos</b>: un lago, una vaca, y de ahí la persona de temperamento imperturbable. Arrastra un dejo de <b>falta de chispa</b> — plácido roza lo soso.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "A herd of ___ cows watched the train go past without one of them lifting its head.",
+      "twin": "tranquil",
+      "whyNotTwin": "placid se dice de <b>lo que podría agitarse y no se agita</b>: agua, animales, caracteres; tranquil se dice de <b>un lugar o un tiempo</b> donde no pasa nada. Uno es temperamento, el otro ambiente.",
+      "root": "placidus (apacible, que agrada)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tranquil",
+      "pos": "adj",
+      "def": "free from noise and disturbance",
+      "disc": "Califica <b>lugares y periodos</b>: un valle, una tarde, unos años sin sobresaltos. Lo que describe es la <b>ausencia de perturbación externa</b>, no el carácter de nadie.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "It is a ___ valley where the largest event of the decade was the closing of the post office.",
+      "twin": "placid",
+      "whyNotTwin": "tranquil describe <b>el entorno</b>: no hay ruido ni sobresaltos; placid describe <b>al que podría alterarse</b> y no se altera. Un valle es tranquil; una vaca es placid.",
+      "root": "tranquillus (sereno, en calma)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "serene",
+      "pos": "adj",
+      "def": "composed and unruffled in the face of trouble",
+      "disc": "Aquí <b>sí está pasando algo</b>, y la persona no se inmuta. Eso lo separa de sus vecinos: la calma es <b>una conquista</b>, no la ausencia de problemas. De ahí su uso en fórmulas de dignidad — <i>His ___ Highness</i>.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "She remained ___ through three hours of cross-examination, while her own counsel visibly did not.",
+      "twin": "placid",
+      "whyNotTwin": "serene mantiene la calma <b>bajo presión</b>, y por eso se admira; placid está en calma <b>porque nada la ha movido nunca</b>, y por eso a veces se le reprocha.",
+      "root": "serenus (despejado, sin nubes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "pristine",
+      "pos": "adj",
+      "def": "in its original condition, untouched since it was made",
+      "disc": "Lo que importa es <b>el tiempo que no ha pasado por ello</b>: nada se ha usado, restaurado ni alterado desde el origen. De ahí <i>___ condition</i> en subastas y <i>___ wilderness</i> en ecología.",
+      "tone": "pos",
+      "axisPos": 72,
+      "ej": "The dealer had a ___ copy of the first edition: uncut, unread, and still in the publisher's paper.",
+      "twin": "immaculate",
+      "whyNotTwin": "pristine dice que <b>nada lo ha tocado desde el principio</b>; immaculate dice que <b>no tiene ni una mancha ahora</b>, aunque se haya limpiado esta mañana. Uno es historia, el otro estado.",
+      "root": "pristinus (primitivo, de antes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "immaculate",
+      "pos": "adj",
+      "def": "perfectly clean, without a single mark",
+      "disc": "Literalmente <b>sin mancha</b> (<i>macula</i>). Lo que afirma es el <b>estado presente</b>, y suele impresionar precisamente porque las circunstancias no lo explican: el traje impecable de quien lleva doce horas trabajando.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The 1961 bus is ___ inside — leather polished, every ashtray emptied — though it has run this route every day since.",
+      "twin": "pristine",
+      "whyNotTwin": "immaculate se comprueba <b>mirándolo ahora</b> y es compatible con el uso diario; pristine exige que <b>nunca se haya usado</b>. Una camisa recién lavada es immaculate, no pristine.",
+      "root": "in- (sin) + macula (mancha)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

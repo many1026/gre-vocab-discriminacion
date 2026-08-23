@@ -6757,5 +6757,165 @@
   "basis": "semantic",
   "nearMiss": "portend",
   "note": "el aviso esta en la inquietud del que entra en la casa, no en una senal que cualquiera pudiera leer"
+ },
+ "8cf3fed87df22853": {
+  "w": "lament",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "grumble",
+  "note": "deplorar publicamente la decadencia del ensayo en registro alto y con objeto directo; grumble exigiria about y algo menor"
+ },
+ "947773a211cdc063": {
+  "w": "commiserate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lament",
+  "note": "'___ with the goalkeeper' es la construccion propia: la desgracia es ajena y hay que acompanarla"
+ },
+ "cf3790479e77160a": {
+  "w": "grumble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fret",
+  "note": "protesta audible y repetida sobre algo ya presente, tanto que alguien acaba comprando la maquina; fret seria rumia interna sobre algo futuro"
+ },
+ "03f402e083675120": {
+  "w": "fret",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "grumble",
+  "note": "'no use ___ing over a result' que aun no se publica: ansiedad anticipatoria, no queja por algo ya malo"
+ },
+ "cc16a026da4ed1ee": {
+  "w": "resent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fret",
+  "note": "'___ being told' con agravio concreto y culpable identificable; fret no culpa a nadie"
+ },
+ "15488062864142b3": {
+  "w": "qualm",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "apprehension",
+  "note": "'had no ___s about' es locucion fija y el reparo es moral, sobre el acto propio"
+ },
+ "b3727633b0541d5b": {
+  "w": "apprehension",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "qualm",
+  "note": "temor difuso antes de saber nada, sin dilema moral ninguno"
+ },
+ "a514999da8b8a9ca": {
+  "w": "chagrin",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vexation",
+  "note": "el premio va al estudiante que rechazo dirigir: hay humillacion propia, que es lo que vexation no tiene"
+ },
+ "152c9cb3373c5ffb": {
+  "w": "vexation",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "chagrin",
+  "note": "un tramite que se repite cada noventa dias y cuesta una tarde: fastidio por desgaste, sin ridiculo ni orgullo herido"
+ },
+ "3103e313503b2144": {
+  "w": "ire",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vexation",
+  "note": "'drew the ___ of' con demandas judiciales a la semana: colera declarada y con destinatario"
+ },
+ "62158bb3d08a53af": {
+  "w": "placid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tranquil",
+  "note": "vacas que ni levantan la cabeza al paso del tren: animal manso, sujeto tipico de placid; tranquil califica lugares"
+ },
+ "a7a4957ac9467f1e": {
+  "w": "tranquil",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "placid",
+  "note": "un valle donde el mayor suceso de la decada fue cerrar la oficina de correos: ausencia de perturbacion en un entorno"
+ },
+ "3ac4640edfbd80d2": {
+  "w": "serene",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "placid",
+  "note": "mantener la calma durante tres horas de interrogatorio mientras su propio abogado no la mantiene: compostura bajo presion, no temperamento apacible"
+ },
+ "a16af3fa652b6331": {
+  "w": "pristine",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "immaculate",
+  "note": "sin cortar, sin leer y aun en el papel del editor: nada lo ha tocado desde que se hizo, que es lo que immaculate no afirma"
+ },
+ "dbfeab2d53fdc40a": {
+  "w": "immaculate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pristine",
+  "note": "'though it has run this route every day since' contradice el nunca usado de pristine: lo que se afirma es el estado limpio de hoy"
+ },
+ "b1bb75d70e49276a": {
+  "w": "disentangle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unravel",
+  "note": "auditores separando durante dos anos dos contabilidades mezcladas: hay agente y hay paciencia"
+ },
+ "6a7e63c3ef641096": {
+  "w": "unravel",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "disentangle",
+  "note": "la coartada empieza a caerse sola en cuanto una testigo cambia su version: uso intransitivo y sin autor"
+ },
+ "96a877e20063e848": {
+  "w": "dismantle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "unravel",
+  "note": "departamento por departamento durante dieciocho meses: desmontaje planificado de una estructura que alguien monto"
+ },
+ "4754fcc3d47cdae4": {
+  "w": "sever",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dismantle",
+  "note": "'___ its ties' de un dia para otro: corte unico de un vinculo, no desmontaje por partes"
+ },
+ "e95fd98819eaad38": {
+  "w": "exorcise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sever",
+  "note": "lo que se expulsa es una infancia callada cuarenta anos, algo interior que no se corta con tijeras"
  }
 }

@@ -1,0 +1,91 @@
+{
+  "id": "g152",
+  "name": "deshacer lo que estaba armado",
+  "axis": {
+    "lo": "separa con paciencia lo que estaba enredado",
+    "hi": "se lo quita de encima para siempre"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "disentangle",
+      "pos": "verb",
+      "def": "to separate things that have become knotted together",
+      "disc": "Presupone <b>enredo</b>, no montaje: hilos, cuentas, versiones que se mezclaron sin que nadie lo planeara. El trabajo es <b>paciente</b> y el objetivo es que las partes queden intactas.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "It took the auditors two years to ___ the company's accounts from the founder's own.",
+      "twin": "unravel",
+      "whyNotTwin": "disentangle lo hace <b>alguien, a propósito</b> y con cuidado; unravel <b>pasa solo</b>: la cosa se deshace sin que nadie tire del hilo.",
+      "root": "dis- + entangle (enredar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "unravel",
+      "pos": "verb",
+      "def": "to come apart thread by thread, without anyone dismantling it",
+      "disc": "La imagen es <b>el tejido que se deshace solo</b> en cuanto cede un hilo. En el examen su sujeto suele ser una coartada, un acuerdo o un plan: empieza a fallar por un punto y <b>se cae entero</b>.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The alibi began to ___ when the second witness changed her account of the evening.",
+      "twin": "disentangle",
+      "whyNotTwin": "unravel es <b>intransitivo</b> aquí y no tiene autor: la cosa se viene abajo sola; disentangle exige <b>alguien que separe</b> con las manos.",
+      "root": "un- + ravel (deshilachar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dismantle",
+      "pos": "verb",
+      "def": "to take an organized structure apart piece by piece",
+      "disc": "Era <b>quitarle el manto</b> a algo. Se dismantle lo que <b>alguien montó</b>: una fábrica, un programa, un sistema de subsidios. La destrucción es <b>ordenada y con calendario</b>.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The programme was ___d department by department over eighteen months, and nobody noticed until it was gone.",
+      "twin": "unravel",
+      "whyNotTwin": "dismantle lo hace <b>alguien con un plan</b>, pieza por pieza; unravel <b>ocurre sin autor</b> y de golpe. Un ministerio se dismantles; una coartada se unravels.",
+      "root": "des- + mantel (manto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sever",
+      "pos": "verb",
+      "def": "to cut something off completely and at once",
+      "disc": "Es <b>un tajo</b>: no hay proceso ni piezas. Su objeto físico es un miembro o un cable; el figurado, casi siempre <b>ties, links, relations</b> — el vínculo se corta de un día para otro y con anuncio.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The bank ___ed its ties with the firm the morning the indictment was published.",
+      "twin": "dismantle",
+      "whyNotTwin": "sever corta <b>de una vez</b> y lo que corta es un vínculo; dismantle desarma <b>por partes</b> y lo que desarma es una estructura. Uno es un corte, el otro un desmontaje.",
+      "root": "separare (separar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exorcise",
+      "pos": "verb",
+      "def": "to rid oneself of something that has haunted one",
+      "disc": "Del <b>exorcismo</b>, y conserva la carga: lo que se expulsa <b>llevaba dentro mucho tiempo</b> — un recuerdo, una culpa, el fantasma de un fracaso. Es el único del grupo donde lo deshecho es <b>interior</b>.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "He wrote the memoir to ___ a childhood he had spent forty years refusing to discuss.",
+      "twin": "sever",
+      "whyNotTwin": "exorcise expulsa algo que estaba <b>dentro de uno</b> y que no se puede cortar con tijeras; sever corta <b>un vínculo externo</b> con alguien o algo.",
+      "root": "exorkizein (conjurar, expulsar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

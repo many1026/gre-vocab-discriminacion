@@ -1,0 +1,95 @@
+{
+  "id": "g150",
+  "name": "el reparo y el enfado",
+  "axis": {
+    "lo": "es un escrúpulo antes de actuar",
+    "hi": "es furia declarada"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "qualm",
+      "pos": "noun",
+      "def": "a scruple of conscience about doing something",
+      "disc": "Llega <b>antes del acto</b> y es moral: la duda sobre si está bien hacerlo. Aparece casi siempre en plural y en negativo — <i>had no ___s about</i>, no le tembló la mano.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "He had no ___s about reading letters that had been addressed to somebody else.",
+      "twin": "apprehension",
+      "whyNotTwin": "el qualm es <b>moral</b> y mira al acto propio: ¿debo hacerlo?; la apprehension es <b>temor</b> y mira a lo que viene: ¿qué me va a pasar? Uno frena la conciencia, el otro el ánimo.",
+      "root": "cwealm (dolor, malestar súbito)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "apprehension",
+      "pos": "noun",
+      "def": "uneasy anticipation of something unpleasant to come",
+      "disc": "Es <b>miedo con antelación</b>, difuso y sin certeza: la víspera de un examen, la sala de espera. Ojo con el segundo sentido, muy distinto: <i>the ___ of the suspect</i> es <b>la detención</b>.",
+      "tone": "neg",
+      "axisPos": 32,
+      "ej": "She waited outside the office with a growing sense of ___, though nobody had told her anything was wrong.",
+      "twin": "qualm",
+      "whyNotTwin": "la apprehension teme <b>lo que va a pasar</b>; el qualm duda de <b>lo que uno va a hacer</b>. La marca es si el reparo es de conciencia o de nervios.",
+      "root": "apprehendere (asir, captar)",
+      "tier": 1,
+      "sense2": {
+        "def": "the arrest of a suspect by the authorities",
+        "ej": "The ___ of the two men took place at the border and was not made public for a week.",
+        "note": "Sentido policial y sin miedo ninguno. Si la oración tiene sospechosos, agentes o fronteras, no habla de inquietud sino de una detención."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "chagrin",
+      "pos": "noun",
+      "def": "distress at having been humiliated or having failed",
+      "disc": "El golpe es <b>al amor propio</b>, y siempre con público: uno queda mal y lo sabe. Su fórmula fija es <i>to his ___</i> — para su disgusto —, y el disgusto es <b>por lo que uno mismo hizo o dejó de lograr</b>.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "To his considerable ___, the prize went to the student he had refused to supervise.",
+      "twin": "vexation",
+      "whyNotTwin": "el chagrin hiere <b>el orgullo</b> y viene de quedar en ridículo o de fracasar; la vexation es <b>fastidio</b> por algo que estorba, sin humillación ninguna.",
+      "root": "chagrin francés (pesadumbre, mortificación)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "vexation",
+      "pos": "noun",
+      "def": "irritation at something troublesome and petty",
+      "disc": "Lo que produce es <b>fastidio</b>: trámites que se repiten, retrasos, obstáculos menores. No hay herida ni furia — hay <b>desgaste</b>. En registro legal, <i>vexatious</i> es el pleito puesto solo para molestar.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The permit had to be renewed in person every ninety days, a ___ that cost him an afternoon each time.",
+      "twin": "chagrin",
+      "whyNotTwin": "la vexation la causa <b>una cosa molesta</b> y se repite; el chagrin lo causa <b>haber quedado mal</b> y se recuerda. Uno cansa, el otro escuece.",
+      "root": "vexare (zarandear, molestar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ire",
+      "pos": "noun",
+      "def": "anger, in a raised literary register",
+      "disc": "Es <b>la ira</b> sin más, pero la palabra es corta, formal y de titular: <i>drew the ___ of</i>, se ganó la ira de. A diferencia del resto del grupo, esto ya <b>no es un reparo</b>: es enfado declarado y con destinatario.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The decision drew the ___ of every landowner along the river, and two of them sued within the week.",
+      "twin": "vexation",
+      "whyNotTwin": "la ire es <b>cólera</b> y se dirige a alguien que responde de ello; la vexation es <b>fastidio</b> y puede no tener culpable. La una demanda, la otra suspira.",
+      "root": "ira (cólera)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "g149",
+  "name": "quejarse y dolerse",
+  "axis": {
+    "lo": "se duele de algo con solemnidad",
+    "hi": "guarda el agravio y no lo suelta"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "lament",
+      "pos": "verb",
+      "def": "to express grief or regret openly, in a formal register",
+      "disc": "Registro <b>alto y público</b>: se lamenta una muerte, una pérdida, la decadencia de algo. La queja tiene <b>dignidad</b> y a menudo forma — de la misma raíz sale el <i>lament</i>, el canto fúnebre.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "Every generation of critics has ___ed the decline of the essay, and every generation has gone on writing them.",
+      "twin": "grumble",
+      "whyNotTwin": "lament es <b>solemne y en voz alta</b>: se dirige a todos y suele ser por algo grande; grumble es <b>refunfuñar</b> por lo bajo y por algo pequeño. Uno pronuncia un discurso, el otro murmura en la cola.",
+      "root": "lamentum (lamento, llanto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "commiserate",
+      "pos": "verb",
+      "def": "to share in another person's misfortune by expressing sympathy",
+      "disc": "Es el único que <b>necesita a otro</b>: rige <i>with</i>, y la desgracia es ajena. <i>Com-</i> + <i>miseria</i>: sufrir junto a. Su escena típica es el vestuario del equipo perdedor.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "The two of them stayed behind to ___ with the goalkeeper, who had not spoken since the whistle.",
+      "twin": "lament",
+      "whyNotTwin": "commiserate exige <b>compañía</b> y rige <i>with</i>: la pena es de otro y uno se la acompaña; lament se puede hacer <b>a solas</b> y por algo propio o general.",
+      "root": "com- (con) + miserari (compadecerse)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "grumble",
+      "pos": "verb",
+      "def": "to complain in a low, persistent, half-audible way",
+      "disc": "La palabra <b>imita el sonido</b>: un murmullo continuo y sin destinatario claro. Rige <i>about</i>, y lo que se protesta es siempre <b>menor</b> — el café, el horario, la temperatura de la sala.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "The crew ___d about the coffee for three weeks and then someone finally bought a new machine.",
+      "twin": "fret",
+      "whyNotTwin": "grumble <b>sale hacia fuera</b> como ruido y molesta a los de al lado; fret <b>se queda dentro</b> y le da vueltas al asunto. Uno se oye, el otro no.",
+      "root": "imitativa, del neerlandés grommelen",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fret",
+      "pos": "verb",
+      "def": "to worry continuously over something one cannot fix",
+      "disc": "Originalmente <b>roer</b>: la preocupación va comiendo por dentro. Rige <i>about</i> u <i>over</i>, y lo suyo es la <b>rumia ansiosa</b> — no protesta ante nadie, se desgasta a solas.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "There is no use ___ing over a result that will not be published for another six weeks.",
+      "twin": "grumble",
+      "whyNotTwin": "fret es <b>ansiedad</b> y mira hacia delante, a algo que podría salir mal; grumble es <b>queja</b> y mira a lo que ya está mal. Uno teme, el otro protesta.",
+      "root": "fretan (roer, corroer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "resent",
+      "pos": "verb",
+      "def": "to feel lasting bitterness at something taken as unfair",
+      "disc": "Hay <b>un agravio concreto</b> y no se olvida: un ascenso que fue para otro, una corrección delante de todos. Rige objeto directo o gerundio — <i>___ being told</i> — y el rencor puede durar años en silencio.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "She ___ed being told how to run a department she had built from four people.",
+      "twin": "fret",
+      "whyNotTwin": "resent apunta a <b>alguien que te hizo algo</b> y guarda rencor; fret no culpa a nadie: solo se inquieta. Uno tiene destinatario, el otro no.",
+      "root": "re- + sentire (sentir de vuelta)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
