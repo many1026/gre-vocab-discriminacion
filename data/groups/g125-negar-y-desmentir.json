@@ -1,0 +1,110 @@
+{
+  "id": "g125",
+  "name": "negar y desmentir",
+  "axis": {
+    "lo": "le quita peso sin llegar a probar que es falso",
+    "hi": "choca de frente con lo establecido"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "discount",
+      "pos": "v",
+      "def": "to dismiss something as not worth considering",
+      "disc": "No refuta nada: <b>lo aparta</b> por poco fiable o poco importante, muchas veces sin mirarlo. Su objeto típico es un rumor, un testimonio o una posibilidad, y suele venir con el motivo de la desconfianza.",
+      "tone": "neu",
+      "axisPos": 12,
+      "ej": "Insurers routinely ___ any claim filed more than a year after the accident, without investigating it at all.",
+      "twin": "gainsay",
+      "whyNotTwin": "discount <b>no discute</b>: deja el asunto de lado por poco fiable; gainsay sí discute — contradice de frente lo que alguien afirma.",
+      "root": "dis + count (descontar, restar)",
+      "tier": 1,
+      "sense2": {
+        "def": "to reduce the price of something",
+        "ej": "The shop ___s last season's coats by half every January."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "belie",
+      "pos": "v",
+      "def": "to give a false impression of, or to contradict",
+      "disc": "El sujeto es siempre <b>una apariencia</b> — una voz serena, una fachada, unas cifras — y el objeto es lo que hay debajo. Nadie <i>belies</i> a propósito: la contradicción la produce la cosa, no una persona que argumenta.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "Her steady voice ___d the panic she had felt since the telephone call.",
+      "twin": "refute",
+      "whyNotTwin": "belie lo hace <b>una apariencia</b>, sin querer y sin argumentos: la calma de la voz desmiente el pánico; refute lo hace <b>alguien</b> que presenta pruebas contra una afirmación.",
+      "root": "be + lie (mentir sobre algo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "gainsay",
+      "pos": "v",
+      "def": "to deny or contradict, especially someone in authority",
+      "disc": "<i>Gain-</i> aquí es <b>contra</b>: decir en contra. Es la única del grupo que admite como objeto <b>a una persona</b> — <i>none dared ___ him</i> — y vive casi siempre en frases negativas o con verbos de atreverse.",
+      "tone": "neu",
+      "axisPos": 44,
+      "ej": "Few dared ___ the abbot in his own chapter house, however plainly wrong they thought him.",
+      "twin": "discount",
+      "whyNotTwin": "gainsay es <b>llevar la contraria en voz alta</b>, y su objeto puede ser una persona; discount es <b>restar valor en silencio</b>, y su objeto es siempre una cosa: un dato, un rumor, una reclamación.",
+      "root": "gegn (contra) + say",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "refute",
+      "pos": "v",
+      "def": "to prove a claim false by argument or evidence",
+      "disc": "Exige <b>pruebas</b>: no basta con negar. El objeto es una afirmación formal — una tesis, un cargo, una acusación — y el contexto es académico o judicial, donde alguien carga con la prueba.",
+      "tone": "neu",
+      "axisPos": 62,
+      "ej": "Under the rules of the tribunal the burden falls on the defence to ___ each allegation with documents of its own.",
+      "twin": "debunk",
+      "whyNotTwin": "refute trabaja contra <b>una afirmación formal</b> y con pruebas en la mano; debunk trabaja contra <b>una creencia popular o un camelo</b>, y su trabajo es más desinflar que demostrar.",
+      "root": "refutare (rechazar, repeler)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "debunk",
+      "pos": "v",
+      "def": "to expose a popular belief or claim as nonsense",
+      "disc": "Quitar el <i>bunk</i>, la <b>paparrucha</b>. Sus objetos son mitos, curas milagrosas, leyendas y reputaciones infladas: cosas que circulan y que alguien vende. Registro periodístico, con un punto de burla.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "Her column exists to ___ the wellness industry's miracle cures, one overpriced powder at a time.",
+      "twin": "refute",
+      "whyNotTwin": "debunk pincha <b>lo que la gente se cree</b> y lo hace con sorna; refute derriba <b>lo que alguien ha sostenido formalmente</b>, y lo hace con pruebas ante quien juzga.",
+      "root": "de + bunkum (paparrucha)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "contravene",
+      "pos": "v",
+      "def": "to act against a rule, law, or agreement",
+      "disc": "<i>Contra</i> + <i>venire</i>: <b>venir en contra</b>. Ya no se trata de negar una idea sino de <b>incumplir una norma escrita</b> — cláusulas, tratados, ordenanzas. El sujeto suele ser un acto, no una persona.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Building a second storey without notifying the council ___s three separate clauses of the lease.",
+      "twin": "gainsay",
+      "whyNotTwin": "contravene va contra <b>una norma</b> y por eso se comete con hechos; gainsay va contra <b>lo que alguien dice</b> y por eso se comete con palabras.",
+      "root": "contra + venire (venir en contra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

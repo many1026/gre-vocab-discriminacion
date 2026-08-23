@@ -1,0 +1,91 @@
+{
+  "id": "g126",
+  "name": "lo que aguanta",
+  "axis": {
+    "lo": "aguanta por vigor propio",
+    "hi": "no hay por dónde romperlo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "robust",
+      "pos": "adj",
+      "def": "strong and healthy, or sturdily built",
+      "disc": "Fuerza <b>presente</b>, aquí y ahora: un cuerpo, una economía, un debate, un sistema que funciona con holgura. No dice nada sobre recuperarse de un golpe — dice que hay músculo de sobra.",
+      "tone": "pos",
+      "axisPos": 15,
+      "ej": "At eighty he was still ___ enough to split his own firewood.",
+      "twin": "resilient",
+      "whyNotTwin": "robust es <b>fuerza antes del golpe</b>: aguanta porque es fuerte; resilient es <b>lo de después</b>: puede quedar destrozado y aun así volver.",
+      "root": "robur (roble, fuerza)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "resilient",
+      "pos": "adj",
+      "def": "able to recover quickly after damage or setback",
+      "disc": "De <i>resilire</i>, <b>saltar hacia atrás</b>: el rasgo no es resistir el golpe sino <b>rebotar</b> después. Por eso convive con el desastre — arrecifes arrasados, ciudades bombardeadas, gente que lo perdió todo y siguió.",
+      "tone": "pos",
+      "axisPos": 32,
+      "ej": "Flattened by the hurricane, the reef proved ___: within four years the fish were back.",
+      "twin": "robust",
+      "whyNotTwin": "resilient admite haber sido destrozado y volver; robust afirma que <b>no se rompió</b>. Si la frase dice que algo quedó arrasado, robust ya está descartada.",
+      "root": "resilire (saltar hacia atrás)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "steadfast",
+      "pos": "adj",
+      "def": "unwavering in loyalty or purpose over time",
+      "disc": "Lo que aguanta aquí es <b>la firmeza de alguien</b> — su lealtad, su propósito, su mirada — y lo que la pone a prueba es el tiempo o la presión: años de juicios, de silencio o de ruina. Se dice de personas, no de materiales.",
+      "tone": "pos",
+      "axisPos": 55,
+      "ej": "She met the accusation with a ___ gaze and did not look away once in the minute it took him to finish.",
+      "twin": "impervious",
+      "whyNotTwin": "steadfast <b>siente</b> la presión y no se mueve por lealtad; impervious ni siquiera la registra — lo de fuera no le entra.",
+      "root": "stead (lugar) + fast (firme)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "impervious",
+      "pos": "adj",
+      "def": "not letting anything through; unaffected by something",
+      "disc": "Rige <b>to</b>, siempre: <i>___ to water</i>, <i>___ to criticism</i>. La imagen es una superficie sin poros — nada la atraviesa. Aplicada a personas puede ser elogio o reproche, según lo que no les entre.",
+      "tone": "neu",
+      "axisPos": 76,
+      "ej": "Four decades of hostile reviews had left her wholly ___ to criticism; she no longer even opened the envelopes.",
+      "twin": "steadfast",
+      "whyNotTwin": "impervious describe lo que <b>no penetra</b> y pide la preposición <i>to</i>; steadfast describe a quien <b>no se mueve</b> y pide un objeto de lealtad: un amigo, una causa.",
+      "root": "in + pervius (que deja pasar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ironclad",
+      "pos": "adj",
+      "def": "so firm that it admits no exception or escape",
+      "disc": "Del buque acorazado. Su terreno son las <b>garantías, coartadas, reglas y contratos</b> sin resquicio: no aguanta un golpe, es que no se le encuentra la rendija por donde atacarlo.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The guarantee is ___: no exclusions, no small print, and no way for the company to wriggle out of it.",
+      "twin": "impervious",
+      "whyNotTwin": "ironclad se dice de <b>lo que se pacta o se alega</b> — una coartada, una cláusula — y significa que no tiene resquicio; impervious se dice de <b>lo que recibe algo desde fuera</b> y significa que no lo deja pasar.",
+      "root": "iron + clad (revestido de hierro)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

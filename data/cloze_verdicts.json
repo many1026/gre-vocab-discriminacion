@@ -5701,5 +5701,181 @@
   "basis": "semantic",
   "nearMiss": "prodigious",
   "note": "'above any defensible market value' introduce la medida justa contra la que se compara; prodigious admira la magnitud y no la reprocha"
+ },
+ "f9610a2e5b6d0ddb": {
+  "w": "derivative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hackneyed",
+  "note": "rige 'of' + la fuente copiada; hackneyed, banal, tedious y ponderous no admiten esa preposicion ni una fuente nombrada"
+ },
+ "021768ff23d0aa30": {
+  "w": "hackneyed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "banal",
+  "note": "la frase sigue diciendo lo justo, asi que no esta vacia (banal); lo que la inutiliza es la repeticion en mil carteles"
+ },
+ "ef2a6408447d4007": {
+  "w": "banal",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hackneyed",
+  "note": "hackneyed solo se dice del lenguaje, no de una cara; derivative pediria una fuente y ponderous/tedious no describen lo ordinario de un crimen"
+ },
+ "8ddc917da5489648": {
+  "w": "tedious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ponderous",
+  "note": "el cansancio viene del volumen (once mil fichas), no del peso; 'not difficult' descarta ponderous y no hay falta de originalidad que sostenga banal ni derivative"
+ },
+ "446fdfb8acb32c92": {
+  "w": "ponderous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tedious",
+  "note": "puertas que cuestan dos hombres: peso fisico, terreno exclusivo de ponderous; tedious, banal, hackneyed y derivative no describen masa"
+ },
+ "5939a09062fc47f7": {
+  "w": "discount",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gainsay",
+  "note": "'without investigating it at all' descarta refute y debunk, que exigen pruebas; 'claim' aqui es una reclamacion de dinero, no una afirmacion que gainsay pueda contradecir"
+ },
+ "2b257bc340706a73": {
+  "w": "belie",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "refute",
+  "note": "el sujeto es una apariencia que desmiente sin querer; refute y debunk necesitan a alguien que argumente, y discount/gainsay a alguien que rechace"
+ },
+ "a6112b925b9bf4d0": {
+  "w": "gainsay",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "refute",
+  "note": "el objeto es una persona (the abbot), frame que solo gainsay admite; refute y debunk piden una afirmacion, contravene una norma"
+ },
+ "fb5177fdc207f910": {
+  "w": "refute",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "debunk",
+  "note": "tribunal, carga de la prueba y documentos: refute; debunk pide un mito popular, gainsay seria mera negacion y no descarga ninguna carga"
+ },
+ "12665594de252ab6": {
+  "w": "debunk",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "refute",
+  "note": "curas milagrosas vendidas al publico y tono de burla: debunk; refute pide una tesis formal, discount solo apartaria el asunto sin desinflarlo"
+ },
+ "96940035c91d0a2b": {
+  "w": "contravene",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gainsay",
+  "note": "el objeto son clausulas de un contrato y el sujeto es un hecho, no una palabra; ninguno de los otros cinco incumple normas"
+ },
+ "9b55e0cc223174a4": {
+  "w": "robust",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resilient",
+  "note": "fuerza fisica presente para partir lena; resilient hablaria de recuperarse, y steadfast, impervious e ironclad no describen vigor"
+ },
+ "141ba43d71640710": {
+  "w": "resilient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "robust",
+  "note": "'flattened by the hurricane' contradice a robust, que afirma no haberse roto; el arrecife vuelve, que es justo resilient"
+ },
+ "22fdffe40163e3a2": {
+  "w": "steadfast",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "robust",
+  "note": "una mirada que no se aparta es firmeza de persona; robust seria vigor, impervious pediria 'to' e ironclad se dice de pactos"
+ },
+ "823e9dc3f9fb4695": {
+  "w": "impervious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resilient",
+  "note": "rige 'to' y la escena es no dejar entrar nada (ni abre los sobres), no recuperarse como resilient; steadfast pide 'in' e ironclad un pacto"
+ },
+ "15c88873b4738adc": {
+  "w": "ironclad",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "impervious",
+  "note": "garantia sin excepciones ni salida: ironclad; impervious pediria 'to', robust hablaria de vigor y steadfast de lealtad"
+ },
+ "ba991d3922de3b69": {
+  "w": "treatise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exegesis",
+  "note": "rige 'on' + un tema del mundo y es obra propia de novecientas paginas; exegesis exigiria un texto ajeno que comentar"
+ },
+ "d7ce4fc8bd9054dc": {
+  "w": "exegesis",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "treatise",
+  "note": "tres siglos de comentario sobre un salmo, en uso incontable ('most of it'); treatise es contable y no comenta versiculos"
+ },
+ "190216b15dfa7d2c": {
+  "w": "soliloquy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "digression",
+  "note": "solo en escena y pieza prevista por el autor; digression exigiria un discurso en marcha del que apartarse"
+ },
+ "fe8fe92589350105": {
+  "w": "pastiche",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "caricature",
+  "note": "'not a trace of mockery' descarta caricature; imitar el estilo de Chandler no es comentar un texto (exegesis) ni exponer un tema (treatise)"
+ },
+ "7084c227f2b1c820": {
+  "w": "caricature",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pastiche",
+  "note": "reduccion cruel a dos rasgos hinchados; pastiche imita un estilo con carino y no deforma a una persona"
+ },
+ "c12c881418ee4d7d": {
+  "w": "digression",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "soliloquy",
+  "note": "hay interlocutor que pregunta y el hablante vuelve al tema, asi que no es soliloquy; treatise y exegesis son piezas escritas, no un desvio de veinte minutos"
  }
 }

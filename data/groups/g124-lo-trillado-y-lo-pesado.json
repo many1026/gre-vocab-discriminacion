@@ -1,0 +1,91 @@
+{
+  "id": "g124",
+  "name": "lo trillado y lo pesado",
+  "axis": {
+    "lo": "no dice nada que no estuviera dicho",
+    "hi": "cansa al que tiene que aguantarlo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "derivative",
+      "pos": "adj",
+      "def": "copied from an earlier source and lacking originality",
+      "disc": "Rige <b>of</b> y con esa preposición señala <b>de quién</b> copia: <i>___ of Cézanne</i>. El reproche no es que la obra sea sosa, sino que ya existía en otro. Es el término estándar de la crítica de arte y de música.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "Their first album is frankly ___ of the Velvet Underground: the same drone, the same two chords.",
+      "twin": "hackneyed",
+      "whyNotTwin": "derivative necesita <b>una fuente concreta</b> a la que se parece y que se puede nombrar; hackneyed no copia a nadie: se gastó de tanto repetirse en boca de todos.",
+      "root": "derivare (desviar el agua de su cauce)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "hackneyed",
+      "pos": "adj",
+      "def": "worn out by constant repetition",
+      "disc": "Del <i>hackney</i>, el caballo de alquiler reventado de tanto uso. Se dice de <b>frases, imágenes y argumentos</b>, nunca de personas ni de objetos: lo que estaba vivo y se murió de tanto decirse.",
+      "tone": "neg",
+      "axisPos": 30,
+      "ej": "The phrase still says exactly what he means; it is a thousand campaign posters that have made it too ___ to use.",
+      "twin": "derivative",
+      "whyNotTwin": "hackneyed se estropea <b>por repetición</b> — antes era bueno; derivative nace ya copiado <b>de una fuente</b> anterior y nunca tuvo un momento propio.",
+      "root": "hackney (caballo de alquiler)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "banal",
+      "pos": "adj",
+      "def": "commonplace and empty of substance",
+      "disc": "No es que se haya repetido: es que <b>no hay nada dentro</b>. Sirve para comentarios huecos y también, en su uso más famoso (<i>the banality of evil</i>), para lo <b>espantosamente ordinario</b> — un registro al que hackneyed no llega.",
+      "tone": "neg",
+      "axisPos": 48,
+      "ej": "What the trial exposed was not a monster but a clerk: the ___ face of an atrocity run with forms and filing cabinets.",
+      "twin": "hackneyed",
+      "whyNotTwin": "banal describe el <b>contenido vacío</b> de cualquier cosa — un comentario, una cara, un crimen; hackneyed describe solo el <b>lenguaje</b> desgastado de tanto repetirse.",
+      "root": "banal (de uso común, del francés feudal)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tedious",
+      "pos": "adj",
+      "def": "wearisome because it goes on too long",
+      "disc": "El problema es la <b>duración</b>, no la falta de ideas: trámites, recuentos, discursos que no acaban. Algo puede ser perfectamente original y aun así ___ si dura lo suficiente.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "The work is not difficult, only ___: eleven thousand index cards, each to be checked twice against the ledger.",
+      "twin": "ponderous",
+      "whyNotTwin": "tedious cansa por <b>lo que dura</b>; ponderous cansa por <b>lo que pesa</b> — la puerta, la prosa o el chiste que avanzan arrastrando plomo.",
+      "root": "taedium (hastío)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ponderous",
+      "pos": "adj",
+      "def": "heavy and slow-moving, or laboured in style",
+      "disc": "De <i>pondus</i>, <b>peso</b>. Vale literal — portones, animales grandes, maquinaria que se mueve con esfuerzo — y figurado, para una prosa o un humor que avanzan como si arrastraran plomo.",
+      "tone": "neg",
+      "axisPos": 88,
+      "ej": "The ___ oak doors took two men to swing open.",
+      "twin": "tedious",
+      "whyNotTwin": "ponderous es <b>peso</b>: se mueve despacio porque cuesta moverlo; tedious es <b>duración</b>: no pesa nada, pero no se acaba nunca.",
+      "root": "pondus (peso)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

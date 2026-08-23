@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **123 grupos, 712/1112 palabras (64.0%)**, `run_all.py` en verde, 0 errores
+- **127 grupos, 734/1112 palabras (66.0%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -129,6 +129,19 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   resuelve por gramática y no enseña nada (le pasó a `ideologue` en g120). La salida es
   poner el hueco tras `the` o tras un plural — `the reflex of the ___` — que sirve para
   los cinco.
+- **`robust` se cuela en casi cualquier hueco de firmeza.** En g126 hubo que reescribir dos
+  cloze por su culpa: *her most ___ defender* admite `robust` («a robust defender» es
+  inglés corriente) y *her alibi was ___* también («a robust alibi»). La salida fue sacar a
+  `steadfast` del terreno del apoyo — una **mirada** que no se aparta — y a `ironclad` al de
+  la **garantía sin resquicio** («no exclusions, no small print»). Regla práctica: si el
+  hueco admite «fuerte» a secas, `robust` lo llena.
+- **`banal` no se gasta, nace vacía.** Es lo que la separa de `hackneyed`, y el cloze de
+  `hackneyed` tiene que decirlo: si la frase sigue diciendo lo justo y lo que la inutiliza
+  es la repetición, `banal` queda fuera. Un cloze de `hackneyed` que solo diga «trillado»
+  lo llenan las dos.
+- **`wander off into ___` no separa `digression` de `soliloquy`.** «Launch into a soliloquy»
+  es igual de idiomático. Hace falta **un interlocutor que pregunte y un regreso al tema**:
+  el soliloquy exige estar solo y no vuelve de ninguna parte.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.
