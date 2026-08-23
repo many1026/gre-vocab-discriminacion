@@ -7077,5 +7077,165 @@
   "basis": "semantic",
   "nearMiss": "heed",
   "note": "lo que se rompe es una regla y se rompe en publico hasta que el ayuntamiento desiste; heed invertiria el sentido, renege exige palabra dada propia y deviate rige from"
+ },
+ "53d61931bf2f9c8f": {
+  "w": "aghast",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "indignant",
+  "note": "nadie ha cometido injusticia (fuera indignant), no hay repeticion (fuera exasperated) y quien lo oye es un tecnico que no sufre el dano (fuera distressed); pedir que repitan la cifra es incredulidad"
+ },
+ "c217c9edde23d8c6": {
+  "w": "indignant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "exasperated",
+  "note": "por primera vez en once anos mata la repeticion de exasperated; hay agravio personal y protesta escrita, que aghast y distressed no producen"
+ },
+ "5ea7e2bd5689ef66": {
+  "w": "exasperated",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "indignant",
+  "note": "la cuarta vez del mismo tramite gasta la paciencia sin que nadie la agravie: indignant exige injusticia, aghast espanto"
+ },
+ "881eeea4b8f8ef3f": {
+  "w": "distressed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "hysterical",
+  "note": "termino de protocolo, y el pasajero se deja acompanar: hysterical no se detecta temprano ni se calma sentandose al lado; aghast no es estado ni va en atributivo"
+ },
+ "bbda915df188aeb5": {
+  "w": "hysterical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "distressed",
+  "note": "gritar y reir en la misma frase es perdida de control, no sufrimiento: distressed sigue pudiendo terminar una frase"
+ },
+ "ad00bb51c5f74570": {
+  "w": "languish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ossify",
+  "note": "dos anos sin que nadie lo mate ni lo salve es abandono puro; ossify pide una norma viva que se endurece, regress un estadio anterior"
+ },
+ "188c7960de1c8829": {
+  "w": "ossify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "languish",
+  "note": "la norma se sigue cumpliendo y no admite variacion, asi que no esta abandonada (languish) ni vuelve a ningun estado anterior (regress)"
+ },
+ "fc6a21c5980efd15": {
+  "w": "regress",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "languish",
+  "note": "la oracion nombra el estadio al que se vuelve (seis anos, un ano seco), que es lo unico que exige regress; languish se queda donde esta"
+ },
+ "307ddd931b646aac": {
+  "w": "debase",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "detract",
+  "note": "colocacion fija de la moneda adulterada por dentro; detract no rige objeto directo, necesita from"
+ },
+ "80cca1a906116630": {
+  "w": "detract",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "debase",
+  "note": "rige from y deja la cosa intacta: debase from es agramatical, y los otros tres no admiten ese marco"
+ },
+ "3b27242595cb9297": {
+  "w": "relish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cherish",
+  "note": "the prospect of es colocacion propia de relish; cherish the prospect no es ingles, gratify pide el deseo por objeto y enthrall exige atencion cautiva"
+ },
+ "7d254850b1c185a1": {
+  "w": "cherish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "relish",
+  "note": "el objeto es un recuerdo guardado cuarenta anos en un cajon, no una experiencia que se disfruta: relishes the postcard no dice nada"
+ },
+ "f167202db566cf37": {
+  "w": "enthrall",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "gratify",
+  "note": "doscientos adultos sin moverse una hora es atencion cautiva; gratified by no explica la inmovilidad y relished by invertiria el sujeto"
+ },
+ "7202bc43f231cfe1": {
+  "w": "gratify",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "enthrall",
+  "note": "su objeto es la vanidad, no la persona: enthrall his vanity y cherish his vanity no existen, y coddle solo rige personas"
+ },
+ "6561131ecf2ca74b": {
+  "w": "coddle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cherish",
+  "note": "es reproche por blandura excesiva con el dano explicito (nunca se le dejo esforzarse): cherish no implica blandura y gratify pediria un deseo satisfecho"
+ },
+ "9630426cd603a95d": {
+  "w": "clangor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "barrage",
+  "note": "ruido metalico continuo sin destinatario ni unidades; barrage exige blanco y cosas contables, crescendo un aumento que aqui se niega (without a pause)"
+ },
+ "d80f7cd0f0229f8a": {
+  "w": "barrage",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "crescendo",
+  "note": "andanada dirigida a una persona y contable (of questions); crescendo pediria crecimiento gradual y clangor es ruido de metal, no de voces"
+ },
+ "21d18528157a8350": {
+  "w": "crescendo",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "barrage",
+  "note": "began as a single letter … had risen by September es el crecimiento desde poco, que solo crescendo nombra; una andanada no crece, se dispara"
+ },
+ "554f5f571dff6942": {
+  "w": "dirge",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "rhapsody",
+  "note": "lento, pesado y funebre en una ceremonia que se queria alegre; rhapsody es lo contrario y clangor no puede ser lento"
+ },
+ "3ea95d8b6525ceb6": {
+  "w": "rhapsody",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dirge",
+  "note": "diez minutos de entusiasmo sin un solo juicio; barrage seria critica recibida y dirge duelo"
  }
 }

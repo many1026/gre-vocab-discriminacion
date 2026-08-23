@@ -1,0 +1,95 @@
+{
+  "id": "g157",
+  "name": "espanto, agravio y descontrol",
+  "axis": {
+    "lo": "el golpe que deja quieto y callado",
+    "hi": "el desborde que otros tienen que sujetar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "aghast",
+      "pos": "adj",
+      "def": "struck speechless by what one has just seen or heard",
+      "disc": "Es una <b>reacción de un instante</b>, no un estado: vive con verbos de mirar y de quedarse — <i>stared/sat/watched ___</i>. Y no exige que a uno le hayan hecho nada: basta con enterarse. Solo va de atributo; <i>an aghast man</i> no es inglés.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "Told how much of the coast the storm had taken overnight, the surveyor sat back ___ and asked the clerk to repeat the figure.",
+      "twin": "indignant",
+      "whyNotTwin": "aghast es <b>espanto ante lo que se ve o se oye</b>, y deja sin habla; indignant es <b>enfado moral por un agravio</b>, y hace hablar. Si nadie ha cometido una injusticia, no cabe indignant.",
+      "root": "gæstan (asustar, en inglés antiguo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "indignant",
+      "pos": "adj",
+      "def": "angry at treatment one considers unjust",
+      "disc": "Necesita <b>un agravio y alguien agraviado</b>: se ha tratado a uno como no merecía. Por eso se construye con <i>___ at</i> y desemboca en protesta — la carta, la queja, la reclamación.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "Asked for identification in her own building for the first time in eleven years, she was ___, and wrote to the managing agent that same afternoon.",
+      "twin": "exasperated",
+      "whyNotTwin": "indignant reacciona a <b>una injusticia</b>, aunque ocurra una sola vez; exasperated reacciona a <b>la repetición</b>, sin que nadie le haya faltado. Uno reclama, el otro se rinde.",
+      "root": "in- (no) + dignus (digno)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "exasperated",
+      "pos": "adj",
+      "def": "worn out of patience by something repeated",
+      "disc": "Lo suyo es <b>la paciencia gastada</b>, y la gasta la repetición: la cuarta vez, el mismo formulario, la misma pregunta. No hay horror ni agravio, solo desgaste.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "For the fourth time that morning she explained which box to tick, and by the end she no longer sounded patient — she sounded ___.",
+      "twin": "indignant",
+      "whyNotTwin": "exasperated lo produce <b>la repetición</b> y no supone injusticia ninguna; indignant lo produce <b>el trato injusto</b> y basta una vez. El contador de veces es la firma de exasperated.",
+      "root": "ex- + asper (áspero)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "distressed",
+      "pos": "adj",
+      "def": "suffering and visibly upset, but still able to function",
+      "disc": "Es <b>el estado del que lo está pasando mal</b>, y es la palabra técnica de protocolos y avisos — <i>a ___ passenger</i>, <i>a ___ animal</i>. Se nota desde fuera, pero el que lo sufre <b>sigue respondiendo</b>.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "Cabin crew are trained to spot a ___ passenger early — someone gripping the armrest and breathing too fast — and simply to sit with them.",
+      "twin": "hysterical",
+      "whyNotTwin": "distressed <b>sufre y se le nota</b>, pero contesta si le hablan; hysterical <b>ya no se domina</b> y hay que calmarlo antes de poder hablarle. A uno se le acompaña; al otro hay que sujetarlo.",
+      "root": "districtus (partido en dos, atormentado)",
+      "tier": 1,
+      "sense2": {
+        "def": "deliberately aged so as to look worn",
+        "ej": "The table was sold as ___ oak, the dents put in at the workshop.",
+        "note": "Sentido de mueble y de tela (___ denim), y también el financiero: ___ debt es deuda de un emisor en apuros. Si el sujeto no es persona ni animal, sospecha de este."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "hysterical",
+      "pos": "adj",
+      "def": "unable to control one's own reaction",
+      "disc": "Lo definitorio es <b>la pérdida del gobierno de uno mismo</b>: la emoción sale sin freno y hasta se contradice — grito y risa en la misma frase. Por eso siempre aparece <b>alguien que intenta calmarlo</b>.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Nobody could get a word in: he was by then ___, shouting and laughing in the same breath.",
+      "twin": "distressed",
+      "whyNotTwin": "hysterical ha <b>perdido el control</b> y su reacción ya no guarda proporción con nada; distressed sufre <b>sin dejar de gobernarse</b>. Si el que habla puede terminar una frase, es distressed.",
+      "root": "hystera (útero), por la teoría antigua del mal",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

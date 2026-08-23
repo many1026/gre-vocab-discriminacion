@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **156 grupos, 884/1112 palabras (79.5%)**, `run_all.py` en verde, 0 errores
+- **160 grupos, 904/1112 palabras (81.3%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -276,6 +276,24 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   que g135): quedan registrados con `--basis grammatical`. Los otros dos sí separan por contenido:
   `heed` pide un **aviso** como objeto directo y vive del contrafáctico («had anyone ___ed it»), y
   `flout` pide una **regla ajena rota en público**, delante de quien debería hacerla cumplir.
+- **`distressed` se cuela en cualquier hueco de espanto si el que recibe la noticia sufre el daño.**
+  El primer cloze de `aghast` en g157 («Told how much of the coast the storm had taken, she sat back
+  ___») lo llenaba igual de bien: si a ella le duele la pérdida, está distressed. La salida fue poner
+  a **alguien que no sufre el daño** — un topógrafo al que le leen la cifra — y hacerle **pedir que
+  la repitan**: eso es incredulidad ante la magnitud, no sufrimiento. Regla práctica para `aghast`:
+  quien lo siente tiene que ser **espectador**, no víctima, y nadie debe haber cometido injusticia
+  (o entra `indignant`) ni haber repetido nada (o entra `exasperated`).
+- **`gratify` se cuela en «no le des lo que pide».** El primer cloze de `coddle` en g159 («told the
+  tutors not to ___ her: no extra time, no second reading») lo llenaba gratify, porque lo enumerado
+  son justamente cosas que ella querría. Lo que excluye a gratify es **nombrar el daño de la
+  blandura** — *a student who is never once allowed to struggle never learns how* —: gratify satisface
+  un deseo y no perjudica a nadie; coddle sobreprotege y por eso se reprocha. Al revés, `gratify` se
+  aísla poniéndole por objeto **la vanidad y no la persona**: *___ his vanity* no lo llenan ni
+  enthrall ni coddle, que solo rigen personas.
+- **Campo «librar de culpa» inviable de raíz**: solo quedan libres `exculpate` y `exonerate`, que
+  además son sinónimos verdaderos («exonerated by the inquiry» / «exculpated by the inquiry»), y los
+  dos verbos de achacar que podrían acompañarlos, `ascribe` y `attribute`, tampoco se separan entre
+  sí. No llega a cinco ni sumándolos todos.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

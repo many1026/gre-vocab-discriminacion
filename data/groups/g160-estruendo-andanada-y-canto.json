@@ -1,0 +1,95 @@
+{
+  "id": "g160",
+  "name": "lo que se oye: estruendo, andanada y canto",
+  "axis": {
+    "lo": "ruido que nadie compuso ni dirigió",
+    "hi": "pieza compuesta para decir algo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "clangor",
+      "pos": "noun",
+      "def": "a loud, continuous din of metal on metal",
+      "disc": "El sonido es <b>metálico y sostenido</b>: campanas, yunques, armas. Sale de un sitio y se oye desde lejos, pero <b>no va dirigido a nadie</b> — es el subproducto de algo que está ocurriendo.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "You could hear the ___ of the bell foundry three streets away — hammer on iron, all day, without a pause.",
+      "twin": "barrage",
+      "whyNotTwin": "clangor es <b>ruido que sale de una fuente</b> y no apunta a nadie; barrage es <b>una descarga dirigida contra alguien</b> y se cuenta por unidades: tantas preguntas, tantas cartas.",
+      "root": "clangere (resonar, sonar el metal)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "barrage",
+      "pos": "noun",
+      "def": "a rapid volley of things aimed at one target",
+      "disc": "Viene de la artillería y conserva las dos señas: <b>hay un blanco</b> y <b>las piezas se cuentan</b>. De ahí su colocación fija con lo que llega en cantidad — <i>a ___ of questions, of complaints, of criticism</i>.",
+      "tone": "neg",
+      "axisPos": 28,
+      "ej": "She got through the statement, and then faced the usual ___ of questions about her expenses.",
+      "twin": "clangor",
+      "whyNotTwin": "barrage necesita <b>alguien que lo recibe</b> y cosas contables que se lanzan; clangor es <b>puro ruido</b>, sin blanco ni unidades. Nadie recibe un clangor de preguntas.",
+      "root": "barrer (cerrar el paso, hacer barrera)",
+      "tier": 1,
+      "sense2": {
+        "def": "a dam built across a river to control its flow",
+        "ej": "The ___ across the estuary holds back the spring tide.",
+        "note": "Sentido de ingeniería, todavía vivo en inglés británico. Los dos sentidos salen de «barrera»: la de fuego y la de agua."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "crescendo",
+      "pos": "noun",
+      "def": "a gradual rise in volume or intensity to a peak",
+      "disc": "No nombra un sonido sino <b>su aumento</b>, y por eso pide un verbo de subida: <i>rise/build to a ___</i>. Lo que importa es <b>que empezó pequeño</b>; sin ese antes, la palabra no tiene sentido.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "What began in June as a single letter of complaint had risen by September to a ___ the minister could no longer ignore.",
+      "twin": "barrage",
+      "whyNotTwin": "crescendo es <b>el crecer</b>, y exige un punto de partida menor; barrage llega <b>entero y de golpe</b>. Una andanada no crece: se dispara.",
+      "root": "crescere (crecer), por el italiano musical",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dirge",
+      "pos": "noun",
+      "def": "a slow song of mourning for the dead",
+      "disc": "Es <b>una pieza con función</b>: se canta o se toca <b>en el duelo</b>, y su marca es la lentitud. Fuera del entierro se usa en burla, para lo que suena tan lento y tan triste que parece un funeral.",
+      "tone": "neg",
+      "axisPos": 75,
+      "ej": "They had meant the ceremony as a celebration, but the organist chose something so slow and heavy that the whole thing sounded like a ___.",
+      "twin": "rhapsody",
+      "whyNotTwin": "dirge es <b>duelo, y lento</b>; rhapsody es <b>entusiasmo desbordado</b>, y su problema es que no para de elogiar. Están en los dos extremos del ánimo.",
+      "root": "dirige (primera palabra del oficio latino de difuntos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "rhapsody",
+      "pos": "noun",
+      "def": "an outpouring of unrestrained enthusiasm",
+      "disc": "Lo suyo es <b>el elogio sin frenos</b>: el que la produce se entrega y no juzga nada. En música nombra la pieza de forma libre, y de ahí viene el matiz — <b>va donde la lleva el entusiasmo</b>, sin plan.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "His review of the 1978 recording is not criticism at all but a ___: ten minutes of undisguised delight, and not one judgement anywhere in it.",
+      "twin": "dirge",
+      "whyNotTwin": "rhapsody <b>desborda de entusiasmo</b> y por eso pierde el juicio; dirge <b>llora a un muerto</b> y por eso va lenta. Ni el ánimo ni la ocasión coinciden.",
+      "root": "rhapsōidia (canto cosido, del rapsoda)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

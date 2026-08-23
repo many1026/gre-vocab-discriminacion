@@ -1,0 +1,95 @@
+{
+  "id": "g159",
+  "name": "el gusto: sentirlo, guardarlo, darlo",
+  "axis": {
+    "lo": "el placer lo siente el sujeto",
+    "hi": "el sujeto se lo produce a otro"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "relish",
+      "pos": "verb",
+      "def": "to take open pleasure in something, often something others would dread",
+      "disc": "El que disfruta es <b>el sujeto</b>, y su objeto típico es <b>una situación, no una cosa</b>: <i>___ the prospect of</i>, <i>___ the fight</i>. Le da sabor a lo que a otro le amargaría — de ahí su parentesco con el condimento.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "She did not hide that she ___ed the prospect of telling the board exactly what the audit had found.",
+      "twin": "cherish",
+      "whyNotTwin": "relish disfruta <b>una experiencia</b>, mientras pasa o por anticipado; cherish <b>guarda y protege</b> algo que ya se tiene, durante años. <i>Cherish the prospect</i> no es inglés.",
+      "root": "relais (lo que queda, el regusto)",
+      "tier": 1,
+      "sense2": {
+        "def": "a spiced condiment served alongside food",
+        "ej": "There was a jar of tomato ___ on every table.",
+        "note": "Sentido de sustantivo. Ambos vienen de «lo que da sabor»: el condimento al plato, el gusto a la ocasión."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "cherish",
+      "pos": "verb",
+      "def": "to hold something dear and keep it safe over time",
+      "disc": "Lo que marca es <b>la duración y el cuidado</b>: se cherish lo que se conserva — una carta, una amistad, una esperanza. No dice que produzca placer ahora, dice que <b>se le da valor y se le protege</b>.",
+      "tone": "pos",
+      "axisPos": 26,
+      "ej": "Forty years later he still ___es the postcard she sent from Lisbon; it lives in the drawer with his passport.",
+      "twin": "coddle",
+      "whyNotTwin": "cherish <b>valora y conserva</b> lo que quiere, y es un elogio; coddle <b>protege de más</b> a una persona y por eso le hace daño — es un reproche al que lo hace.",
+      "root": "cher (caro, querido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "enthrall",
+      "pos": "verb",
+      "def": "to hold someone's attention completely",
+      "disc": "Su efecto se comprueba en <b>el cuerpo del que escucha</b>: no se mueve, no habla, no se va. Etimológicamente es <b>dejar preso</b> (<i>thrall</i>, siervo), y esa es la imagen: la atención queda cautiva, no meramente contenta.",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "Two hundred adults sat without moving for an hour, ___ed by a man doing card tricks.",
+      "twin": "gratify",
+      "whyNotTwin": "enthrall <b>retiene la atención entera</b> y se mide en que nadie se levanta; gratify <b>satisface un deseo</b> y deja al otro seguir con lo suyo. Uno captura, el otro complace.",
+      "root": "en- + thrall (siervo, cautivo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "gratify",
+      "pos": "verb",
+      "def": "to satisfy a desire or feed someone's vanity",
+      "disc": "Su objeto propio no es la persona sino <b>lo que la persona quiere</b>: <i>___ his vanity</i>, <i>___ a whim</i>, <i>___ the demand</i>. Cuando el objeto es alguien, suele venir en pasiva y con matiz de <b>amor propio satisfecho</b>.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The seating plan was designed to ___ his vanity, and it worked: he spent the evening telling people where he had been placed.",
+      "twin": "enthrall",
+      "whyNotTwin": "gratify le da a alguien <b>lo que deseaba</b> — un capricho, un halago —; enthrall le <b>secuestra la atención</b> aunque no deseara nada. La vanidad se gratify, nunca se enthrall.",
+      "root": "gratus (agradable) + facere (hacer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "coddle",
+      "pos": "verb",
+      "def": "to treat someone with excessive care, to their detriment",
+      "disc": "Siempre es <b>reproche</b>, y lo que se reprocha es <b>el exceso de blandura</b>: se le quitan al otro las dificultades que necesitaba. Por eso la oración suele traer <b>el daño que la blandura causa</b>: el que nunca tuvo que esforzarse no aprendió a hacerlo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The head of department told the tutors not to ___ her: a student who is never once allowed to struggle never learns how.",
+      "twin": "cherish",
+      "whyNotTwin": "coddle <b>sobreprotege a una persona</b> y la deja peor preparada; cherish <b>tiene en alta estima</b> y no implica blandura ninguna. Coddle solo admite personas por objeto; cherish admite cosas.",
+      "root": "quizá de caudle (caldo caliente para convalecientes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

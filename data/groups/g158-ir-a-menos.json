@@ -1,0 +1,91 @@
+{
+  "id": "g158",
+  "name": "ir a menos: apagarse, endurecerse, rebajar",
+  "axis": {
+    "lo": "decae solo, porque nadie lo atiende",
+    "hi": "pierde valor porque algo se lo quita"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "languish",
+      "pos": "verb",
+      "def": "to be left unattended and lose strength or momentum",
+      "disc": "Lo decisivo es <b>el abandono</b>: nadie lo mata, nadie lo salva, se queda ahí. Sus escenarios fijos son <b>el cajón, la comisión y la cárcel</b> — <i>___ in committee</i>, <i>___ in jail for six years</i>. Podría revivir si alguien lo retomara.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "The bill ___ed in committee for two years: nobody voted it down and nobody brought it back.",
+      "twin": "ossify",
+      "whyNotTwin": "languish <b>se apaga por falta de atención</b> y sigue siendo capaz de revivir; ossify <b>se endurece</b> y ya no puede cambiar aunque se le preste toda la atención del mundo.",
+      "root": "languere (estar débil)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ossify",
+      "pos": "verb",
+      "def": "to harden into a fixed form that can no longer change",
+      "disc": "Literalmente <b>convertirse en hueso</b>. No habla de decadencia sino de <b>rigidez</b>: la práctica sigue viva y se cumple a rajatabla, pero ya nadie puede alterarla ni recuerda para qué era. Se dice de reglas, doctrinas y jerarquías.",
+      "tone": "neg",
+      "axisPos": 28,
+      "ej": "Institutions of that kind begin by improvising and end by ___ing: what was once a decision becomes a form to be signed, and no one may vary it.",
+      "twin": "languish",
+      "whyNotTwin": "ossify deja la cosa <b>viva pero rígida</b> — se aplica a diario y no admite cambio; languish la deja <b>parada y sin uso</b>. Si la regla se sigue cumpliendo, no está languishing.",
+      "root": "os, ossis (hueso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "regress",
+      "pos": "verb",
+      "def": "to return to an earlier and less developed stage",
+      "disc": "Exige <b>un estadio anterior al que se vuelve</b>, y por eso la oración suele nombrarlo: la edad, el curso, el punto de partida. Es el término de psicología y de estadística — no dice «empeorar» a secas, dice <b>hacia atrás</b>.",
+      "tone": "neg",
+      "axisPos": 48,
+      "ej": "Under enough stress a child will simply ___: a six-year-old who had been dry for a year starts wetting the bed again.",
+      "twin": "languish",
+      "whyNotTwin": "regress <b>retrocede a un punto conocido</b> de su propia historia; languish <b>se queda donde está</b>, sin avanzar ni volver. Sin un estado anterior nombrado, no hay regress.",
+      "root": "re- (atrás) + gradi (andar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "debase",
+      "pos": "verb",
+      "def": "to lower the value or quality of something by altering it",
+      "disc": "Su escena de origen es <b>la moneda</b>: meter cobre en la plata. De ahí pasa a la dignidad y al lenguaje, pero conserva la mecánica — <b>la cosa misma se adultera</b>, y el que la adultera suele sacar provecho.",
+      "tone": "neg",
+      "axisPos": 70,
+      "ej": "Successive emperors ___d the coinage until the silver denarius was mostly copper.",
+      "twin": "detract",
+      "whyNotTwin": "debase <b>altera la cosa por dentro</b> y la deja peor de lo que era; detract <b>no la toca</b>: le resta mérito desde fuera y siempre con <i>from</i>.",
+      "root": "de- (abajo) + base (bajo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "detract",
+      "pos": "verb",
+      "def": "to take away from the merit of something, without altering it",
+      "disc": "Va <b>siempre con <i>from</i></b> y casi siempre en negativo: <i>nothing ___s from</i>. La cosa juzgada queda intacta — lo que baja es <b>el crédito que se le concede</b>, y por eso se usa para pesar un defecto contra un logro.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Nothing in the weak final act ___s from what the first hour of the play achieves.",
+      "twin": "debase",
+      "whyNotTwin": "detract rige <b><i>from</i></b> y deja la cosa como estaba: solo le rebaja el mérito ante quien juzga; debase toma la cosa <b>como objeto directo</b> y la empeora de verdad.",
+      "root": "de- (quitar) + trahere (tirar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
