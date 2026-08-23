@@ -1,0 +1,91 @@
+{
+  "id": "g167",
+  "name": "medirse contra el modelo",
+  "axis": {
+    "lo": "reproduce lo que ya existe",
+    "hi": "lo deja atrás o se lo traga"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "mimic",
+      "pos": "v",
+      "def": "copy the observable features of something, often to mock it",
+      "disc": "Reproduce <b>lo que se ve y se oye</b>: la tos, el andar, la pausa antes del apellido. No hay admiración ni ambición de igualar un mérito — por eso sirve para la burla y para el material que imita la veta del roble.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "He could ___ the headmaster's cough, his walk and the pause before he said anyone's surname; the staff room laughed and the boy was expelled anyway.",
+      "twin": "emulate",
+      "whyNotTwin": "mimic copia <b>rasgos observables</b> y no supone respeto ninguno; emulate persigue <b>el logro</b> de un modelo admirado. Nadie emula una tos: no es un mérito que igualar.",
+      "root": "mimos (imitador, actor de mimo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "emulate",
+      "pos": "v",
+      "def": "strive to match the achievement of a model one admires",
+      "disc": "Lo que se persigue es <b>el resultado</b>, no la forma: se puede emular un sistema sin copiar ni una de sus piezas. Trae dentro <b>admiración y esfuerzo</b>, y el listón está en llegar a la misma altura, no en superarla.",
+      "tone": "pos",
+      "axisPos": 25,
+      "ej": "Three provinces set out to ___ the Danish scheme — not to copy its machinery, which none of them could afford, but to reach the same numbers by other means.",
+      "twin": "mimic",
+      "whyNotTwin": "emulate va a por <b>el logro ajeno</b> y admite medios propios; mimic va a por <b>la apariencia</b> y por eso exige parecerse. Aquí se dice expresamente que no se copió ni una pieza.",
+      "root": "aemulus (rival, el que compite)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "transcend",
+      "pos": "v",
+      "def": "go beyond the limits of the category one belongs to",
+      "disc": "Lo que se rebasa es <b>una categoría, no un rival</b>: el género, la etiqueta, la condición. Por eso su objeto típico es un marco — <i>___ the genre</i>, <i>___ politics</i> — y no una persona ni una obra concreta a la que ganarle.",
+      "tone": "pos",
+      "axisPos": 55,
+      "ej": "The novel is shelved under crime because it has to be shelved somewhere; in fact it ___s the genre, and most of the people who love it have never read another crime novel.",
+      "twin": "eclipse",
+      "whyNotTwin": "transcend rebasa <b>un marco</b> y no deja a nadie en la sombra; eclipse rebasa <b>a otro</b> y lo apaga. Un libro trasciende su género; a su autora la eclipsa su hija.",
+      "root": "trans- (más allá) + scandere (subir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "eclipse",
+      "pos": "v",
+      "def": "outshine someone so completely that they are forgotten",
+      "disc": "Exige <b>dos partes y una sola luz</b>: lo que crece deja a oscuras a lo que había. Su prueba está siempre en lo que le pasa al otro — pasa a ser nota a pie de página, se deja de tocar, se cataloga bajo el nombre del que vino después.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "The daughter has so completely ___d her that the archive is catalogued under the daughter's name, and the mother's own plays survive in it as a footnote.",
+      "twin": "transcend",
+      "whyNotTwin": "eclipse <b>disminuye al otro</b>: alguien queda a la sombra; transcend no tiene víctima, solo un límite rebasado. Emular tampoco vale aquí: quien emula iguala a su modelo, no lo reduce a una nota al pie.",
+      "root": "ekleipsis (abandono, desaparición)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "subsume",
+      "pos": "v",
+      "def": "absorb something into a larger category or body",
+      "disc": "El objeto <b>no queda por debajo sino dentro</b>: las tres oficinas siguen existiendo, pero ya solo como parte de otra cosa que las nombra. Rige <b>into</b> y <b>under</b>, y su registro es administrativo y taxonómico.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "The three regional offices were ___d into a single directorate, and the word 'region' now survives only in the name of a corridor.",
+      "twin": "eclipse",
+      "whyNotTwin": "subsume <b>se lo lleva dentro</b>: lo absorbido pasa a formar parte del que absorbe; eclipse lo deja fuera y a oscuras, existiendo aparte pero sin que nadie lo mire.",
+      "root": "sub- (debajo) + sumere (tomar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

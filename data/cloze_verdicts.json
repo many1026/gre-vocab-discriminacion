@@ -7397,5 +7397,173 @@
   "basis": "semantic",
   "nearMiss": "endow",
   "note": "designar al elegido en un congreso, sin que nadie lo vote, no entrega ni fondos ni instrucciones: endow daria un capital y dictate o prescribe, ordenes"
+ },
+ "0f5b116ffc6f4e97": {
+  "w": "ascetic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stern",
+  "note": "stern juzga a otro y exige; aqui no hay nadie a quien mandar, solo comodidades entregadas y la medida es la de una orden religiosa. pedantic/lax/complacent/self-indulgent no describen una vida despojada"
+ },
+ "ccabbd048c70b7c6": {
+  "w": "pedantic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "stern",
+  "note": "la oracion niega expresamente el fondo (never once for its findings): un lector stern devolveria el informe por sus conclusiones, no por un punto y coma"
+ },
+ "dd39f025eb084fa5": {
+  "w": "stern",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ascetic",
+  "note": "severidad hacia otra persona, sin voz alta y sin segunda oportunidad; ascetic seria privacion propia y aqui no se renuncia a nada. pedantic exigiria minucias de forma, que no aparecen"
+ },
+ "4c0057fffc321518": {
+  "w": "complacent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "lax",
+  "note": "the office worked as hard as ever cierra la puerta a lax, que es dejadez en el cumplimiento; lo que falta aqui es ver el peligro, no trabajar"
+ },
+ "b9c0b52646ceee64": {
+  "w": "lax",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "complacent",
+  "note": "hay norma escrita y el inspector sabe que los sitios son peligrosos, asi que no esta ciego: no es complacent sino incumplimiento consentido"
+ },
+ "7d1ec8a910755186": {
+  "w": "self-indulgent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "complacent",
+  "note": "el director pelea contra todas las notas por conservar SUS recuerdos: se concede un gusto a costa de la obra. complacent seria darlo por bueno sin pelear"
+ },
+ "9ff8568243c9eafb": {
+  "w": "ad hoc",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "makeshift",
+  "note": "tres jueces nombrados para esa sola pregunta y disueltos con ella: alcance de un caso, no medios prestados. makeshift exigiria materiales impropios, y aqui el comite es de jueces"
+ },
+ "364309e85a488f4a": {
+  "w": "makeshift",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ad hoc",
+  "note": "not one object made for the purpose es la firma de makeshift; y took every case in the district niega el caso unico de ad hoc. auxiliary pediria un quirofano principal en funcionamiento"
+ },
+ "473f421b9c6a769a": {
+  "w": "auxiliary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "makeshift",
+  "note": "revisada cada primavera durante veinte anos al lado de la principal: equipo previsto y permanente, lo contrario del apano. fledgling e indefinite no dicen nada de una bomba de reserva"
+ },
+ "e5477acdae2e9753": {
+  "w": "fledgling",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "makeshift",
+  "note": "estatuto, personal jurado y sello propio niegan el apano; lo unico que falta es tiempo detras (not one year of accounts). ad hoc no vale: la tesoreria es permanente"
+ },
+ "4ab637c664193e01": {
+  "w": "indefinite",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "makeshift",
+  "note": "no review date, no end date: lo que falta es plazo, no materiales ni antiguedad. ad hoc hablaria del alcance de un caso, y aqui la suspension ya dura"
+ },
+ "fd5d3356fd489e97": {
+  "w": "mimic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "emulate",
+  "note": "tos, andar y pausa son rasgos observables imitados para la burla; nadie emula una tos, porque emulate persigue un merito admirado"
+ },
+ "17d4a1d2f10a01da": {
+  "w": "emulate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "mimic",
+  "note": "not to copy its machinery excluye a mimic expresamente: lo que se persigue son las cifras del modelo por medios propios"
+ },
+ "51743251102f5ad9": {
+  "w": "transcend",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eclipse",
+  "note": "el objeto es una categoria (the genre), no un rival: eclipse necesita alguien que quede en la sombra, y un genero no se apaga"
+ },
+ "f656401c2a003b02": {
+  "w": "eclipse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "transcend",
+  "note": "la madre queda reducida a nota al pie y el archivo lleva el nombre de la hija: hay victima. emulate solo igualaria a la madre, y transcend no rige personas"
+ },
+ "dc1ba8eb47fb3c3a": {
+  "w": "subsume",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "eclipse",
+  "note": "las oficinas quedan dentro de la direccion nueva (___d into), no a oscuras al lado: eso es absorcion en una categoria mayor, no superacion"
+ },
+ "770caebb9b94dc98": {
+  "w": "bridle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "retaliate",
+  "note": "se ofende ante una palabra y no hace nada: retaliate exige un dano previo y una devolucion, y discomfit/antagonize/polarize son transitivos y piden victima"
+ },
+ "f09a0e9e8eaa3875": {
+  "w": "retaliate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "bridle",
+  "note": "hay dano previo y devolucion medida (one for one): bridle solo se erizaria, sin cancelar ningun visado"
+ },
+ "470f7915b7c8175a": {
+  "w": "discomfit",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "antagonize",
+  "note": "la prueba son las orejas rojas y la respuesta dada al aire, no la hostilidad: more than it damaged him descarta el dano que dejaria enemigo"
+ },
+ "3be7e346ee3d3150": {
+  "w": "antagonize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "discomfit",
+  "note": "los tres votan en contra y pierde por tres, o sea que quedan hostiles, no avergonzados; polarize necesitaria dos bandos y aqui los tres estaban del mismo lado"
+ },
+ "cfc8a7359377ca6c": {
+  "w": "polarize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "antagonize",
+  "note": "nobody left in the middle es la particion en dos bandos; antagonize solo se gana enemigos, no parte a un cuerpo por la mitad"
  }
 }

@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **164 grupos, 924/1112 palabras (83.1%)**, `run_all.py` en verde, 0 errores
+- **168 grupos, 945/1112 palabras (85.0%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -314,6 +314,28 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   salida fue quitar la tarea y dejar solo **el organismo a lo largo del tiempo** — jardinear hasta el
   anochecer, enfermar dos veces en diez años —, donde alacrity no tiene a qué responder. Al revés,
   alacrity se aísla **cronometrando el sí**: el abrigo puesto antes de que acabe la frase.
+- **`complacent` se cuela en cualquier hueco de dejadez, y `lax` en cualquier hueco de descuido.**
+  En g165 hubo que blindar los dos por separado. Lo que los separa es **de qué falla cada uno**:
+  `lax` supone **una norma escrita y alguien encargado de aplicarla** (el fallo es de cumplimiento),
+  `complacent` supone **una racha de éxito mal leída** (el fallo es de vigilancia). El cloze de
+  complacent necesita negar la pereza — *the office worked as hard as ever* —, o entra lax; el de
+  lax necesita decir que **sí veían el peligro** — *every inspector knew which sites were dangerous* —,
+  o entra complacent. Y `ascetic` se aísla nombrando **comodidades entregadas y una orden religiosa
+  como vara de medir**: sin eso, *a stern household* también es inglés corriente.
+- **`ad hoc` y `makeshift` no se separan por «arreglo provisional».** *Government by makeshift
+  committee* y *by ad hoc committee* son las dos inglés corriente. Lo que separa en g166 es qué mide
+  cada una: `ad hoc` mide el **alcance** (vale para este caso y para ninguno más, aunque esté hecho
+  con todo el rigor — por eso su cloze pone **tres jueces nombrados** para esa sola pregunta), y
+  `makeshift` mide los **medios** (*not one object in the room made for the purpose*). El cloze de
+  makeshift necesita además **negar el caso único** — el quirófano improvisado *took every case in
+  the district* durante seis semanas —, o ad hoc se cuela. `auxiliary` es el fácil: es permanente y
+  está revisado, y por eso ni es apaño ni es provisional.
+- **`eclipse` se separa de `emulate` y de `transcend` por la víctima.** Un cloze de «llegó más lejos
+  que su modelo» lo llenan las tres. `eclipse` exige que **al otro le pase algo**: la madre queda
+  como nota a pie de página y el archivo se cataloga con el nombre de la hija. `transcend` no tiene
+  víctima — rebasa **un marco** (*___ the genre*), no una persona —, y `emulate` iguala al modelo sin
+  reducirlo. Al revés, `emulate` se aísla **negando la copia**: *not to copy its machinery … but to
+  reach the same numbers by other means* deja fuera a mimic, que va a por la apariencia.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

@@ -1,0 +1,91 @@
+{
+  "id": "g166",
+  "name": "el arreglo que no es el definitivo",
+  "axis": {
+    "lo": "durará una tarde y se deshace",
+    "hi": "nadie ha dicho cuándo dejará de durar"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "ad hoc",
+      "pos": "adj",
+      "def": "formed for one particular case only, with no general rule behind it",
+      "disc": "Literalmente <b>para esto</b>. Lo que afirma es que <b>no había procedimiento previo</b> y que lo montado <b>no servirá para el caso siguiente</b>: el comité que se forma por una pregunta y se disuelve con ella. No dice nada sobre los materiales ni sobre la calidad.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The charter provided for no standing procedure, so each question went to a committee of three judges appointed for that question alone and dissolved with it — a decade of government by ___ committee.",
+      "twin": "makeshift",
+      "whyNotTwin": "ad hoc habla del <b>alcance</b>: vale para este caso y para ninguno más, aunque esté bien hecho; makeshift habla de <b>los medios</b>: se hizo con lo que había a mano porque faltaba lo propio.",
+      "root": "ad hoc (para esto, en latín)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "makeshift",
+      "pos": "adj",
+      "def": "assembled from whatever was at hand, in place of the proper thing",
+      "disc": "Su firma son <b>los materiales impropios</b>: las mesas de comedor que hacen de quirófano, la lámpara de leer sujeta a una silla. Supone siempre que <b>existe la cosa buena y falta</b>, y que esto la sustituye mientras tanto.",
+      "tone": "neu",
+      "axisPos": 25,
+      "ej": "With the ward flooded, the clinic ran for six weeks from a ___ theatre that took every case in the district: two dining tables pushed together, a reading lamp clamped to a chair, not one object in the room made for the purpose.",
+      "twin": "ad hoc",
+      "whyNotTwin": "makeshift es un <b>sustituto material</b> de algo que falta; ad hoc es una <b>solución hecha a medida</b> de un caso único, y puede estar construida con todo el rigor del mundo.",
+      "root": "make + shift (arreglárselas)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "auxiliary",
+      "pos": "adj",
+      "def": "kept alongside the main one, ready to take over if it fails",
+      "disc": "No es provisional ni improvisado: es <b>permanente y subordinado</b>. Existe una cosa principal y esta vive a su lado, revisada y lista, para el día en que la principal falle. De ahí <i>___ verb</i>, <i>___ power</i>, <i>___ troops</i>.",
+      "tone": "neu",
+      "axisPos": 45,
+      "ej": "The main pump has never once failed, and the ___ one has been serviced every spring for twenty years in case it does.",
+      "twin": "makeshift",
+      "whyNotTwin": "auxiliary es <b>equipo propio, previsto y mantenido</b>, que espera su turno; makeshift es <b>lo que se improvisó</b> porque el equipo propio no estaba. Una bomba de reserva no es un apaño.",
+      "root": "auxilium (ayuda, socorro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fledgling",
+      "pos": "adj",
+      "def": "newly formed and not yet established",
+      "disc": "Del <b>pollo que aún no vuela</b>. Lo que afirma es <b>la edad</b>, no la calidad de los medios: la institución está bien constituida — tiene estatuto, personal y sello — y lo único que le falta es <b>tiempo detrás</b>.",
+      "tone": "neu",
+      "axisPos": 65,
+      "ej": "Four months after the founding, the ___ treasury had its charter, its staff sworn in and a stamp of its own — and not one year of accounts behind it.",
+      "twin": "makeshift",
+      "whyNotTwin": "fledgling dice que <b>acaba de nacer</b> y que va a durar; makeshift dice que <b>se armó con lo que había</b> y que se desmontará cuando llegue lo bueno. Lo nuevo puede estar impecablemente hecho.",
+      "root": "fledge (echar plumas para volar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "indefinite",
+      "pos": "adj",
+      "def": "with no end date and no limit set to it",
+      "disc": "Lo que le falta no es solidez sino <b>plazo</b>: nadie ha fijado cuándo termina ni qué haría que terminase. Por eso su terreno propio son las <b>suspensiones, detenciones y aplazamientos</b>, donde lo grave es justamente que no haya fecha.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The suspension was ___: no review date, no end date, and nobody at the ministry would say what would have to happen for it to be lifted.",
+      "twin": "makeshift",
+      "whyNotTwin": "indefinite mide <b>el plazo</b> — no lo hay —; makeshift mide <b>el material</b> — es prestado. Una suspensión sin fecha puede estar perfectamente reglamentada, y un apaño de dos mesas puede tener fecha de retirada.",
+      "root": "in- (no) + definire (fijar límites)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

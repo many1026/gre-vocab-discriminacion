@@ -1,0 +1,91 @@
+{
+  "id": "g168",
+  "name": "provocar la hostilidad y responder a ella",
+  "axis": {
+    "lo": "reacciona al agravio que ha recibido",
+    "hi": "abre el enfrentamiento y lo extiende a todos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "bridle",
+      "pos": "v",
+      "def": "show sudden offence at something said",
+      "disc": "De la <b>brida</b>: el caballo que levanta la cabeza y echa el cuello atrás. Es <b>intransitivo</b> y pide <b>at</b>: se hace <i>at a word</i>, <i>at the suggestion</i>, <i>at the tone</i>. La ofensa se ve en el cuerpo antes de que haya ninguna respuesta.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "She ___d at the word 'assistant' — she had run the department for nine years — and the rest of the meeting went badly.",
+      "twin": "retaliate",
+      "whyNotTwin": "bridle es <b>el respingo</b>: se ofende y se le nota, pero todavía no ha hecho nada; retaliate ya ha <b>devuelto el golpe</b>, y exige un agravio previo, no una palabra mal elegida.",
+      "root": "bridle (brida, freno del caballo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "retaliate",
+      "pos": "v",
+      "def": "return a harm in kind after receiving one",
+      "disc": "Va siempre <b>en segundo lugar</b>: hay un daño previo y esto es la devolución, medida y reconocible como tal — visado por visado, arancel por arancel. Es <b>intransitivo</b> y se apoya en <i>against</i> o en <i>by</i> + gerundio.",
+      "tone": "neg",
+      "axisPos": 28,
+      "ej": "Within a week the ministry had ___d: every visa held by the other side's journalists was cancelled, one for one.",
+      "twin": "bridle",
+      "whyNotTwin": "retaliate <b>devuelve un daño</b> y por eso necesita que haya habido otro antes; bridle solo se eriza ante una palabra, y no le hace nada a nadie.",
+      "root": "re- (de vuelta) + talis (tal, semejante)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "discomfit",
+      "pos": "v",
+      "def": "leave someone embarrassed and off balance",
+      "disc": "Lo que produce es <b>la pérdida de la compostura</b>, no el daño ni el odio: el rubor, la respuesta dada al aire en vez de a quien preguntó. La víctima queda incómoda, no enemistada.",
+      "tone": "neg",
+      "axisPos": 50,
+      "ej": "The question ___ed him more than it damaged him: he had an answer ready, but he gave it to the floor rather than to her, and his ears stayed red for a page and a half of the transcript.",
+      "twin": "antagonize",
+      "whyNotTwin": "discomfit deja al otro <b>avergonzado</b>, y suele acabar ahí; antagonize lo deja <b>enemistado</b>, dispuesto a votar en contra. Aquí se dice que el daño fue menor que la incomodidad.",
+      "root": "des- + conficere (deshacer, derrotar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "antagonize",
+      "pos": "v",
+      "def": "turn someone into an active opponent",
+      "disc": "El resultado es <b>un enemigo donde había un aliado</b>, y casi siempre se dice de quien <b>no podía permitírselo</b>: el que necesitaba esos tres votos y se los ganó en contra. Rige persona o grupo, nunca una idea.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "He had one committee left to get through and no votes to spare, so naturally he ___d the only three members who had ever voted with him, and lost by exactly three.",
+      "twin": "discomfit",
+      "whyNotTwin": "antagonize crea <b>hostilidad activa</b> — el ofendido actúa contra él —; discomfit solo crea <b>bochorno</b>. Polarize tampoco vale: aquí los tres se van al mismo lado, no se parte nada en dos.",
+      "root": "anti- (contra) + agon (lucha, certamen)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "polarize",
+      "pos": "v",
+      "def": "split a group into two opposed camps with nobody left between",
+      "disc": "Su objeto es <b>un cuerpo entero</b> — la profesión, el país, el claustro — y lo que le hace es <b>partirlo en dos</b>. La prueba está en el centro: lo que definitivamente desaparece es la posición intermedia.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "The ruling ___d the profession within a week: two open letters, four resignations, and nobody left in the middle willing to put a name to anything.",
+      "twin": "antagonize",
+      "whyNotTwin": "polarize <b>parte a un grupo en dos bandos</b> y se comprueba en la desaparición del centro; antagonize se lo gana en contra <b>a uno solo</b>, o a varios, pero todos del mismo lado.",
+      "root": "polos (eje, polo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
