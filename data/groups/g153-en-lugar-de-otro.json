@@ -1,0 +1,94 @@
+{
+  "id": "g153",
+  "name": "el que está en lugar de otro",
+  "axis": {
+    "lo": "representa a los demás por parecérseles",
+    "hi": "ocupa el sitio de otro en un trato"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "archetype",
+      "pos": "noun",
+      "def": "the original model that later versions of a type imitate",
+      "disc": "Lo suyo es <b>ser el primero</b>: de él descienden las copias. No lo elogia — un archetype puede ser mediocre y seguir siendo el molde. Su prueba es que se pueda decir <i>todos los demás vienen de él</i>.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "Hammett drew him first, and every hard-boiled detective since is a variation on him: he is the ___ the genre has been rewriting for ninety years.",
+      "twin": "paragon",
+      "whyNotTwin": "archetype es el <b>original del que salen las copias</b>; paragon es el <b>mejor ejemplar</b>, aunque haya llegado el último. Uno se mide por la descendencia, el otro por la perfección.",
+      "root": "arche (origen) + typos (molde)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "paragon",
+      "pos": "noun",
+      "def": "a perfect example of a quality, held up as a standard",
+      "disc": "Siempre <b>elogia</b>, y arrastra su colocación fija: <i>a ___ of virtue</i>, <i>of thrift</i>, <i>of patience</i>. Lo que representa no es un tipo de persona sino <b>una cualidad</b>, llevada al punto en que sirve de vara para medir a los demás.",
+      "tone": "pos",
+      "axisPos": 22,
+      "ej": "Nobody claimed she invented the style of plain living; she simply did it better than anyone else in the ministry, and the obituaries made her the ___ of public thrift.",
+      "twin": "archetype",
+      "whyNotTwin": "paragon dice que <b>nadie lo hace mejor</b>; archetype dice que <b>fue el primero</b> y los demás lo copian. Aquí se dice expresamente que ella no inventó nada, y eso deja fuera a archetype.",
+      "root": "parakonan (probar en la piedra de toque)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "surrogate",
+      "pos": "noun",
+      "def": "a person or thing that fills the place of another",
+      "disc": "Ocupa el <b>hueco afectivo o funcional</b> que dejó el original, y por eso se pega a los nombres de parentesco: <i>a ___ father</i>, <i>a ___ mother</i>. No hay encargo ni poderes de por medio: nadie lo nombró, simplemente hace de lo que falta.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "The sergeant was twenty years older than any of them, and half the platoon had grown up without a father: he became the ___ father they wrote to from the front.",
+      "twin": "proxy",
+      "whyNotTwin": "surrogate <b>hace de</b> lo que falta, sin que nadie lo haya designado; proxy <b>está autorizado</b> a actuar en nombre de alguien que sigue existiendo. Uno sustituye una ausencia, el otro ejerce un poder prestado.",
+      "root": "surrogare (poner a uno en lugar de otro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intermediary",
+      "pos": "noun",
+      "def": "a go-between who carries dealings between two parties",
+      "disc": "Está <b>entre dos</b> y no es ninguna de las dos: lleva y trae, y no habla en nombre de nadie. Por eso el negociador neutral, el banco corresponsal y la embajada que presta el canal son intermediarios y no representantes.",
+      "tone": "neu",
+      "axisPos": 75,
+      "ej": "The two governments had not spoken directly since 1974; every proposal crossed through a Swiss diplomat who carried it in both directions and spoke for neither side, the only ___ either would accept.",
+      "twin": "proxy",
+      "whyNotTwin": "intermediary <b>no representa a ninguna de las partes</b>: transporta el trato entre las dos; proxy actúa <b>por una de ellas</b> y con su autoridad. Que la oración diga <i>spoke for neither side</i> deja fuera a proxy.",
+      "root": "intermedius (que está en medio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "proxy",
+      "pos": "noun",
+      "def": "someone authorized to act or vote in another's place",
+      "disc": "Trae <b>autoridad delegada</b>, y su terreno de origen es la junta de accionistas: la fórmula fija es <i>by ___</i> — votar, casarse o comparecer sin estar presente. De ahí el segundo uso, técnico: una medida que se usa <i>como</i> otra que no se puede medir.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "She was in hospital on the day of the meeting, so her shares were voted by ___.",
+      "twin": "surrogate",
+      "whyNotTwin": "proxy supone un <b>encargo formal</b> y una fórmula fija (<i>by ___</i>); surrogate no lo tiene: es el que <b>hace las veces</b> de lo que falta, sin poderes de nadie.",
+      "root": "procuratia (procuración, encargo)",
+      "tier": 1,
+      "sense2": {
+        "def": "a measurable stand-in for something that cannot be measured directly",
+        "ej": "With no thermometers before 1850, the rings of these pines are the best ___ we have for summer temperature."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

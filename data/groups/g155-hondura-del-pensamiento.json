@@ -1,0 +1,91 @@
+{
+  "id": "g155",
+  "name": "lo que resbala por encima y lo que va al fondo",
+  "axis": {
+    "lo": "sale fluido y no toca fondo",
+    "hi": "llega a la raíz del asunto"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "glib",
+      "pos": "adj",
+      "def": "fluent and quick but shallow and unconvincing",
+      "disc": "Lo que acusa es la <b>velocidad</b>: la respuesta estaba lista antes de la pregunta, y por eso no puede haber pensado nada. Se dice de respuestas, frases y de quien las suelta. Siempre reprocha.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "He had an answer ready before the question was finished, and it was too ___ to be worth much: three clean sentences that explained nothing.",
+      "twin": "sophisticated",
+      "whyNotTwin": "glib es <b>tersura sin contenido</b> — suena bien y no dice nada; sophisticated es <b>complejidad de verdad</b>, que cuesta seguir. Uno se aplaude en el momento, el otro no se entiende de una pasada.",
+      "root": "de glibbery (resbaladizo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "sophisticated",
+      "pos": "adj",
+      "def": "highly developed and complex in its workings",
+      "disc": "Su terreno son los <b>sistemas y los aparatos</b>: un modelo, un método, una red. Mide <b>cuántas variables maneja</b>, no cuánta verdad alcanza. De ahí el otro uso, el mundano: la persona sophisticated es la que ya ha visto de todo.",
+      "tone": "pos",
+      "axisPos": 45,
+      "ej": "The bank's ___ pricing model takes in weather, shipping rates and four kinds of political risk; the one it replaced used a single interest rate.",
+      "twin": "subtle",
+      "whyNotTwin": "sophisticated mide <b>cuánta maquinaria hay dentro</b>; subtle mide <b>lo poco que se nota una diferencia</b>. Un modelo con cuarenta variables es sophisticated; una diferencia de una décima es subtle.",
+      "root": "sophisticare (refinar, adulterar con arte)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "subtle",
+      "pos": "adj",
+      "def": "so slight or fine that it is easily missed",
+      "disc": "Habla del <b>tamaño de la diferencia</b>, no de su importancia: lo subtle está en el límite de lo que se percibe, y suele hacer falta un experto para notarlo. Por eso convive con <i>only the trained ear</i>, <i>barely</i>, <i>almost imperceptible</i>.",
+      "tone": "pos",
+      "axisPos": 62,
+      "ej": "The difference between the two takes is so ___ that only the engineer heard it: a fraction of a second more air before the voice comes in.",
+      "twin": "profound",
+      "whyNotTwin": "subtle es una diferencia <b>tan pequeña que casi nadie la nota</b>; profound es una que <b>lo cambia todo</b>. Que solo el ingeniero la oyera deja fuera a profound: lo profundo no pasa desapercibido.",
+      "root": "subtilis (tejido fino, de trama apretada)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "cerebral",
+      "pos": "adj",
+      "def": "appealing to the intellect rather than the emotions",
+      "disc": "No mide hondura sino <b>de qué parte del lector tira</b>: lo cerebral se piensa, no se siente. Es una etiqueta ambivalente — respeta la inteligencia de la obra y a la vez le reprocha la <b>frialdad</b>.",
+      "tone": "neu",
+      "axisPos": 78,
+      "ej": "Nothing in the film asks you to feel anything: every scene is an argument about time, and the audience comes out thinking rather than moved — a ___ picture, and proud of it.",
+      "twin": "profound",
+      "whyNotTwin": "cerebral dice <b>a qué apela</b>: al intelecto y no al sentimiento; profound dice <b>hasta dónde llega</b>. Una película fría y llena de argumentos es cerebral aunque no descubra nada.",
+      "root": "cerebrum (cerebro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "profound",
+      "pos": "adj",
+      "def": "reaching to the root of a matter; very great in degree",
+      "disc": "Lo que afirma es que el asunto quedó <b>tocado en la raíz</b>: después de eso, el campo entero entiende otra cosa. También vale como <b>intensificador</b> — <i>a ___ silence</i>, <i>a ___ effect</i> — donde solo significa hondo o completo.",
+      "tone": "pos",
+      "axisPos": 95,
+      "ej": "The paper runs to nine pages and changed what the whole field takes a species to be: a ___ result that its author never followed up.",
+      "twin": "cerebral",
+      "whyNotTwin": "profound dice que <b>llegó al fondo</b> y movió los cimientos; cerebral solo dice que <b>se dirige a la cabeza</b>. Un resultado que cambia lo que la disciplina entiende por especie es profundo, no meramente intelectual.",
+      "root": "pro- + fundus (fondo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

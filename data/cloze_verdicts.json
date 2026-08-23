@@ -6917,5 +6917,165 @@
   "basis": "semantic",
   "nearMiss": "sever",
   "note": "lo que se expulsa es una infancia callada cuarenta anos, algo interior que no se corta con tijeras"
+ },
+ "c82b126b2a8f1c89": {
+  "w": "archetype",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "paragon",
+  "note": "paragon es el mejor ejemplar, no el original del que salen las copias; el genero no reescribe un paragon. surrogate, proxy e intermediary exigen a alguien a quien sustituir o entre quienes mediar"
+ },
+ "37ed158d804f69b0": {
+  "w": "paragon",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "archetype",
+  "note": "la oracion dice expresamente que ella no invento nada, lo que deja fuera a archetype; nadie la designo ni media entre nadie, asi que proxy, surrogate e intermediary tampoco"
+ },
+ "690523b9ef0cff62": {
+  "w": "surrogate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "proxy",
+  "note": "surrogate father es la colocacion fija; proxy father e intermediary father no son ingles, y nadie lo nombro para nada. archetype y paragon no ocupan huecos afectivos"
+ },
+ "331f4aad23815675": {
+  "w": "proxy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "surrogate",
+  "note": "by proxy es formula fija del voto en ausencia; no existe vote by surrogate ni by intermediary, y archetype y paragon no actuan por nadie"
+ },
+ "88794db31eb9a8f5": {
+  "w": "intermediary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "proxy",
+  "note": "spoke for neither side excluye a proxy y a surrogate, que representan a una de las partes; archetype y paragon no llevan mensajes"
+ },
+ "e92275ca9bb00125": {
+  "w": "multifaceted",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "versatile",
+  "note": "versatile cuenta usos, y una escasez de vivienda no se usa para nada: lo que enumera la oracion son caras del mismo problema. resourceful e ingenious piden persona o invento; apt no cabe"
+ },
+ "74094bd90151607d": {
+  "w": "versatile",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "multifaceted",
+  "note": "lo que enumera son usos sucesivos del mismo material, no caras de un asunto: multifaceted material no es ingles. resourceful solo se dice de personas e ingenious de lo discurrido"
+ },
+ "e333b585e6b9386e": {
+  "w": "apt",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resourceful",
+  "note": "el merito es la velocidad de aprendizaje, no salir de un apuro: resourceful no dice nada de aprender. versatile y multifaceted hablan de variedad, ingenious de inventos"
+ },
+ "264c8e260502b57d": {
+  "w": "resourceful",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ingenious",
+  "note": "sin instrucciones y sin contactos, el merito es apanarse con lo que hay: ingenious califica lo discurrido, no a quien se maneja. versatile y multifaceted contarian usos o caras"
+ },
+ "baefe72160dcde40": {
+  "w": "ingenious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "resourceful",
+  "note": "el sujeto es el diseno, no una persona, y resourceful solo se dice de personas; no electronics anywhere descarta multifaceted y versatile, que exigirian muchas caras o muchos usos"
+ },
+ "b2f6b9bc4895f9c1": {
+  "w": "glib",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sophisticated",
+  "note": "la respuesta estaba lista antes de la pregunta y no explicaba nada: sophisticated y profound exigen contenido, subtle una diferencia fina y cerebral un apelar al intelecto"
+ },
+ "1dae1ea3d6350b33": {
+  "w": "sophisticated",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "subtle",
+  "note": "lo que se pondera es la maquinaria del modelo, cuarenta variables frente a una; subtle mide diferencias imperceptibles, profound raices y cerebral frialdad intelectual"
+ },
+ "96b40aa0949638ce": {
+  "w": "subtle",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "profound",
+  "note": "que solo el ingeniero la oyera excluye a profound, que es lo que lo cambia todo; una diferencia no es sophisticated ni cerebral, y glib es lo contrario del oido fino"
+ },
+ "1436ea49fc7ea99b": {
+  "w": "cerebral",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "profound",
+  "note": "nothing asks you to feel anything y thinking rather than moved es la definicion de cerebral; la oracion no afirma hondura alguna, asi que profound no tiene apoyo, y sophisticated pediria elaboracion tecnica"
+ },
+ "987f896df92d82e2": {
+  "w": "profound",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "cerebral",
+  "note": "cambio lo que la disciplina entiende por especie, o sea la raiz; cerebral solo diria a que apela, subtle lo haria imperceptible y sophisticated pide maquinaria, no nueve paginas"
+ },
+ "38e182e84578ab1b": {
+  "w": "adhere",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "heed",
+  "note": "solo adhere rige to, y el objeto es una norma sostenida desde 1430; heed exige un aviso puntual como objeto directo, deviate pide from y renege pide on"
+ },
+ "1c7fc675c538561f": {
+  "w": "deviate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "renege",
+  "note": "solo deviate rige from, y lo que se abandona es una ruta trazada; renege pide on y un compromiso, adhere pide to, y flout y heed llevan objeto directo"
+ },
+ "26d5f755caa97718": {
+  "w": "renege",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "deviate",
+  "note": "solo renege rige on, y su objeto es un acuerdo firmado; deviate pediria from, adhere to, y flout no se dice de la palabra dada sino de la regla ajena"
+ },
+ "306faf0fd5fff1f9": {
+  "w": "heed",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "flout",
+  "note": "el condicional contrafactico invierte el sentido con flout, que seria desoir la advertencia; adhere, deviate y renege no admiten un aviso como objeto directo"
+ },
+ "66bf0dbde286b6cb": {
+  "w": "flout",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "heed",
+  "note": "lo que se rompe es una regla y se rompe en publico hasta que el ayuntamiento desiste; heed invertiria el sentido, renege exige palabra dada propia y deviate rige from"
  }
 }

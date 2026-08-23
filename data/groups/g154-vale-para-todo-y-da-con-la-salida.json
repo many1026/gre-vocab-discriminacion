@@ -1,0 +1,94 @@
+{
+  "id": "g154",
+  "name": "vale para todo y da con la salida",
+  "axis": {
+    "lo": "abarca muchos lados o muchos usos",
+    "hi": "resuelve con agudeza el caso que tiene delante"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "multifaceted",
+      "pos": "adj",
+      "def": "having many different sides or aspects at once",
+      "disc": "Su sujeto típico es un <b>asunto</b>, no una herramienta: una crisis, un problema, una carrera. Dice que hay <b>varias caras que tirar a la vez</b>, no que sirva para varias cosas. Por eso suele venir seguido de la lista de esas caras.",
+      "tone": "neu",
+      "axisPos": 6,
+      "ej": "The housing shortage is ___ — land prices, planning law, migration and interest rates all pull at once — and no single ministry can answer for it.",
+      "twin": "versatile",
+      "whyNotTwin": "multifaceted describe <b>algo que tiene muchos lados</b> (un problema, una obra); versatile describe <b>algo que sirve para muchos usos</b>. Una escasez de vivienda tiene caras, no usos.",
+      "root": "multi- (muchos) + facette (cara de una piedra tallada)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "versatile",
+      "pos": "adj",
+      "def": "able to be used for or adapted to many purposes",
+      "disc": "Mide <b>el número de trabajos distintos</b> que una misma cosa o persona puede hacer. No dice nada de la calidad ni del ingenio: un material versatile puede ser tosco y seguir sirviendo para cinco cosas.",
+      "tone": "pos",
+      "axisPos": 26,
+      "ej": "Bamboo is the most ___ material on the site: scaffolding on Monday, flooring on Tuesday, and firewood at the end of the job.",
+      "twin": "multifaceted",
+      "whyNotTwin": "versatile cuenta <b>usos</b>: lo mismo sirve para esto y para aquello; multifaceted cuenta <b>caras de un asunto</b>. Un material no tiene facetas que atender, tiene aplicaciones.",
+      "root": "versare (dar la vuelta a algo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "apt",
+      "pos": "adj",
+      "def": "quick to learn; also exactly fitting the case",
+      "disc": "En este campo es el <b>que aprende deprisa</b>, y su colocación fija es <i>an ___ pupil</i>. Ojo con sus otras dos vidas: <i>an ___ comparison</i> (que viene justo al caso) y <i>___ to</i> + verbo (propenso a).",
+      "tone": "pos",
+      "axisPos": 50,
+      "ej": "The smith had never had so ___ a pupil: the boy had the whole trade by the end of one summer.",
+      "twin": "resourceful",
+      "whyNotTwin": "apt mide <b>la velocidad con que alguien aprende</b> lo que le enseñan; resourceful mide <b>cómo se las arregla cuando no le enseñan nada</b>. Uno absorbe, el otro improvisa.",
+      "root": "aptus (ajustado, adecuado)",
+      "tier": 1,
+      "sense2": {
+        "def": "likely or inclined to do something",
+        "ej": "The old boiler is ___ to cut out whenever the temperature drops below freezing."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "resourceful",
+      "pos": "adj",
+      "def": "good at finding a way out of difficulties",
+      "disc": "Solo se dice de <b>personas</b>, y lo que elogia es que se apañe con lo que hay: sin instrucciones, sin contactos, sin material. La escena típica es alguien <b>soltado en una situación</b> del que se espera que vuelva con el asunto resuelto.",
+      "tone": "pos",
+      "axisPos": 74,
+      "ej": "The posting went to the most ___ of the three: the one you could drop in a town where she knew nobody, with no instructions and no contacts, and who came back with the permits signed.",
+      "twin": "ingenious",
+      "whyNotTwin": "resourceful se dice de <b>quien sale del apuro</b> con lo que tenga a mano; ingenious se dice de <b>lo que alguien discurre</b> — un mecanismo, un método, una solución. Uno califica a la persona en la situación, el otro a la invención.",
+      "root": "resource (recurso) + -ful",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ingenious",
+      "pos": "adj",
+      "def": "cleverly contrived, showing inventive skill",
+      "disc": "Califica <b>lo inventado</b>, no al inventor en apuros: un dispositivo, un truco, un argumento. Lo que admira es que la solución sea <b>más lista que costosa</b>. No confundir con <i>ingenuous</i>, que significa cándido.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "The design is frankly ___: three brass cams that jam one another, no electronics anywhere, and four pounds of metal in the whole lock.",
+      "twin": "resourceful",
+      "whyNotTwin": "ingenious describe <b>el objeto o el plan</b> que salió de la cabeza de alguien; resourceful describe <b>a la persona</b> apañándose en un aprieto. Un cerrojo puede ser ingenious; nunca resourceful.",
+      "root": "ingenium (talento natural, invención)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

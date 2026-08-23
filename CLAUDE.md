@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **152 grupos, 864/1112 palabras (77.7%)**, `run_all.py` en verde, 0 errores
+- **156 grupos, 884/1112 palabras (79.5%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -243,6 +243,39 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   documentary lo **encuentra escrito** y se puede enseñar (un recibo firmado), circumstantial **no
   existe como dato** — hay que inferirlo del barro y la llave. El cloze de documentary necesita además
   negar la inferencia explícitamente («nothing reconstructed or inferred») o circumstantial se cuela.
+- **`archetype` y `paragon` se separan por el origen, no por la calidad.** Los dos son «el ejemplo
+  que representa a los demás», y *the ___ of public thrift* lo llenan las dos. Lo que separa en g153
+  es **quién fue primero**: archetype es el molde del que descienden las copias («every detective
+  since is a variation on him»), paragon es el mejor ejemplar aunque haya llegado el último. El cloze
+  de paragon necesita negar la prioridad expresamente — *nobody claimed she invented the style* — o
+  archetype se cuela. Y el de intermediary necesita **no hablar por ninguna de las partes** («carried
+  it in both directions and spoke for neither side»), o lo llena `proxy`.
+- **`competent` y `proficient` no pueden ser hermanas.** «Competent in Mandarin» y «proficient in
+  Mandarin» son las dos inglés corriente, y ni el nivel ni el marco las separan: competent es llegar
+  al mínimo exigible, proficient es el nivel alcanzado con práctica, pero ninguna oración natural
+  excluye a la otra. g154 se cerró con cinco que sí tienen dominio propio (`multifaceted` → caras de
+  un asunto, `versatile` → usos sucesivos, `apt` → *an ___ pupil*, `resourceful` → persona en apuro,
+  `ingenious` → lo discurrido). Las dos siguen libres, pero cada una para un grupo sin la otra —
+  y `apt` tampoco puede convivir con `proficient`: *never had so proficient a pupil* también es inglés.
+- **`metaphorical` y `figurative` son inseparables en «no literal».** Cualquier cloze de sentido no
+  literal lo llenan las dos («in the figurative sense» / «in the metaphorical sense»), así que el
+  campo del lenguaje figurado no se puede armar con las dos dentro. `figurative` sí tiene dominio
+  propio en el sentido **artístico** — pintura que representa figuras reconocibles, opuesta a
+  `abstract` —, y por ahí entra sin metaphorical al lado. `allegorical` (correspondencia sostenida
+  en toda la obra) y `allusive` (remite a otro texto que el lector debe reconocer) sí discriminan.
+- **`cataclysmic`, `catastrophic` y `calamitous` son tres sinónimos verdaderos.** Los tres llenan
+  *the ___ failure of the scheme*: la escala, el daño y el registro coinciden. El campo «desastre
+  adj» no se puede armar con más de uno de ellos dentro; `harrowing` (lo que se pasa mal viéndolo o
+  viviéndolo) y `blighted` (arruinado poco a poco) sí tienen terreno propio, pero son solo dos.
+- **El artículo vuelve a delatar en adjetivos, no solo en sustantivos.** El primer cloze de
+  `ingenious` en g154 decía *an ___ arrangement of three brass cams*, y ese `an` reducía las cinco
+  opciones a las dos que empiezan por vocal (`apt`, `ingenious`). Se reescribió con el hueco de
+  atributo — *The design is frankly ___* —, que sirve para los cinco.
+- **En g156 tres cloze se sostienen en la preposición y está bien.** `adhere to`, `deviate from` y
+  `renege on` rigen marcos distintos, y eso *es* lo que hay que aprender de esos verbos (mismo caso
+  que g135): quedan registrados con `--basis grammatical`. Los otros dos sí separan por contenido:
+  `heed` pide un **aviso** como objeto directo y vive del contrafáctico («had anyone ___ed it»), y
+  `flout` pide una **regla ajena rota en público**, delante de quien debería hacerla cumplir.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

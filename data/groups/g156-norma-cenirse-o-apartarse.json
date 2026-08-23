@@ -1,0 +1,91 @@
+{
+  "id": "g156",
+  "name": "ceñirse a la norma o apartarse de ella",
+  "axis": {
+    "lo": "se atiene a lo establecido",
+    "hi": "lo incumple a la vista de todos"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "adhere",
+      "pos": "verb",
+      "def": "to keep strictly to a rule, plan or standard",
+      "disc": "Rige <b>to</b> y su objeto es una <b>norma que se sostiene en el tiempo</b>: un reglamento, un horario, unos principios. No es obedecer una orden suelta: es no haberse movido de ahí en años. Literalmente, pegarse.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "Whatever else the order changed after the war, it ___d to the same timetable of prayers it had used since 1430.",
+      "twin": "heed",
+      "whyNotTwin": "adhere se <b>ciñe a una regla permanente</b> y va con <i>to</i>; heed <b>hace caso a un aviso concreto</b> y lleva objeto directo. Uno es una práctica sostenida, el otro un acto de atención.",
+      "root": "ad- + haerere (quedarse pegado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "heed",
+      "pos": "verb",
+      "def": "to pay attention to a warning or piece of advice",
+      "disc": "Su objeto es siempre <b>algo que alguien dijo para prevenir</b>: <i>___ the warning</i>, <i>___ the advice</i>, <i>___ the call</i>. Casi siempre aparece en negativo o en condicional contrafáctico, porque la palabra vive de la desgracia que se pudo evitar.",
+      "tone": "pos",
+      "axisPos": 20,
+      "ej": "The geologist's warning sat on the mayor's desk for two years; had anyone ___ed it, the village would still be standing.",
+      "twin": "adhere",
+      "whyNotTwin": "heed atiende <b>un aviso puntual</b> y lo lleva como objeto directo; adhere se atiene <b>a una norma</b> y necesita <i>to</i>. Nadie <i>adheres a warning</i>.",
+      "root": "hedan (cuidar, atender)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "deviate",
+      "pos": "verb",
+      "def": "to depart from an established route or procedure",
+      "disc": "Rige <b>from</b>, y lo que abandona es <b>una vía trazada</b>: una ruta, un protocolo, un guion, una media estadística. Es la más <b>neutra</b> del lado del incumplimiento: apartarse puede estar justificado, y la palabra no juzga.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "The captain would not ___ from the published route even to take on water, and the ship reached port four days late.",
+      "twin": "renege",
+      "whyNotTwin": "deviate se aparta de <b>un trazado</b> — ruta, procedimiento, norma técnica — y va con <i>from</i>; renege se vuelve atrás de <b>algo que prometió</b> y va con <i>on</i>. Uno abandona un camino, el otro rompe una palabra dada.",
+      "root": "de- + via (fuera del camino)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "renege",
+      "pos": "verb",
+      "def": "to go back on a promise or an agreement",
+      "disc": "Rige <b>on</b>, y su objeto es siempre un <b>compromiso adquirido</b>: un acuerdo, una promesa, un trato. Exige que antes haya habido palabra dada — por eso no se puede renege sobre una regla que uno nunca aceptó.",
+      "tone": "neg",
+      "axisPos": 80,
+      "ej": "He ___d on the settlement three weeks after signing it, and the families were back in court by the autumn.",
+      "twin": "deviate",
+      "whyNotTwin": "renege incumple <b>lo que uno mismo prometió</b>, y por eso siempre acusa; deviate solo se aparta de <b>un trazado</b> y puede ser inocente. Un acuerdo firmado se renege, no se deviate.",
+      "root": "re- + negare (negar lo dicho)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "flout",
+      "pos": "verb",
+      "def": "to break a rule openly and with contempt",
+      "disc": "Lo que añade es <b>el desprecio a la vista de todos</b>: no se incumple a escondidas, se incumple delante de quien debería hacerla cumplir. Su objeto es la <b>regla o la convención</b>, nunca una promesa. No confundir con <i>flaunt</i>, que es exhibir.",
+      "tone": "neg",
+      "axisPos": 95,
+      "ej": "The parking rule was ___ed so openly — lorries on the pavement in front of the town hall, every market day — that the council quietly stopped printing it.",
+      "twin": "renege",
+      "whyNotTwin": "flout rompe <b>una regla ajena</b> y lo hace <b>en público</b>, para que se vea; renege rompe <b>un compromiso propio</b>, y suele hacerse por carta. Uno desafía a la autoridad, el otro deja tirado a quien confió.",
+      "root": "probablemente de flouten (tocar la flauta, burlarse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
