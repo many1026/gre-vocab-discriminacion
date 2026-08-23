@@ -1,0 +1,95 @@
+{
+  "id": "g172",
+  "name": "el contorno y su tamaño",
+  "axis": {
+    "lo": "no hay contorno que describir",
+    "hi": "el contorno se enreda sobre sí mismo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "amorphous",
+      "pos": "adj",
+      "def": "having no definite shape or structure",
+      "disc": "Literalmente <b>sin forma</b>. Sirve para la masa que no la tiene y, sobre todo, para el <b>grupo o el plan sin estructura</b>: sin cargos, sin límites, sin nadie que responda. Lo que niega no es el orden, sino <b>el contorno</b>.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "The protest was ___ by the time it reached the bridge: no stewards, no agreed route, and nobody who could say who had called it.",
+      "twin": "sinuous",
+      "whyNotTwin": "amorphous dice que <b>no hay contorno que describir</b>; sinuous describe un contorno <b>perfectamente definido</b>, solo que curvo. Lo sinuoso tiene forma; lo amorfo, ninguna.",
+      "root": "a- (sin) + morphe (forma)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "diminutive",
+      "pos": "adj",
+      "def": "very small in size",
+      "disc": "Mide <b>el tamaño y nada más</b>, y casi siempre con una nota de sorpresa: lo diminuto resulta más capaz de lo que su tamaño anunciaba. En gramática nombra además el sufijo del cariño — <i>-ito</i>, <i>-let</i>.",
+      "tone": "neu",
+      "axisPos": 26,
+      "ej": "Her ___ figure at the lectern — she barely cleared the microphone — misled the hall for about four seconds.",
+      "twin": "sinuous",
+      "whyNotTwin": "las dos se dicen de una <b>figura</b>, y ahí se confunden: diminutive mide <b>el tamaño</b>, sinuous mide <b>el trazado</b>. Una línea sinuosa puede ser enorme, y una figura diminuta puede ser recta como un palo.",
+      "root": "diminuere (disminuir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sinuous",
+      "pos": "adj",
+      "def": "curving smoothly, with no angles or breaks",
+      "disc": "Es la curva <b>que se admira</b>: un río, un brazo que baila, una línea sin un solo ángulo. Lo que exige es <b>continuidad</b> — si el trazado tiene esquinas o cortes, ya no es sinuous.",
+      "tone": "neu",
+      "axisPos": 56,
+      "ej": "The dancer's arm moved in a single ___ line from shoulder to fingertip, without a break or an angle anywhere in it.",
+      "twin": "tortuous",
+      "whyNotTwin": "sinuous es una curva <b>suave y admirada</b>; tortuous es una vuelta <b>que exaspera</b>, con recodos y marcha atrás. Un río es sinuous; un trámite, tortuous.",
+      "root": "sinus (curva, pliegue)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "intertwined",
+      "pos": "adj",
+      "def": "wound into each other so that neither can be taken out alone",
+      "disc": "Exige <b>dos cosas, no una</b>: raíces, hilos, dos contabilidades. Su prueba es la <b>consecuencia mutua</b> — tocar una es tocar la otra —, y por eso una sola cosa nunca puede estar intertwined consigo misma.",
+      "tone": "neu",
+      "axisPos": 76,
+      "ej": "The roots of the two trees were so ___ beneath the path that taking out the dead one would have killed the other as well.",
+      "twin": "tortuous",
+      "whyNotTwin": "intertwined necesita <b>dos recorridos metidos el uno en el otro</b>; tortuous describe <b>uno solo</b> que da vueltas. Lo enredado se separa en dos; lo tortuoso, no.",
+      "root": "inter- (entre) + twine (retorcer hilos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tortuous",
+      "pos": "adj",
+      "def": "full of twists and turns; needlessly complicated",
+      "disc": "En el GRE aparece casi siempre <b>en sentido figurado</b>: un razonamiento, una prosa o un trámite que dan vueltas y vuelven sobre lo andado. No confundir con <i>torturous</i> (que tortura): lo tortuoso <b>cansa por el recorrido</b>, no por el dolor.",
+      "tone": "neg",
+      "axisPos": 95,
+      "ej": "Getting the permit took eighteen months of ___ negotiation: the file went back to a committee that had already seen it twice, and twice more after that.",
+      "twin": "sinuous",
+      "whyNotTwin": "tortuous carga con <b>el reproche</b>: tantas vueltas sobran; sinuous no reprocha nada — describe una curva continua, y suele decirse con admiración.",
+      "root": "torquere (torcer)",
+      "tier": 1,
+      "sense2": {
+        "def": "winding, said of a road or a river",
+        "ej": "The ___ road up to the monastery has forty-one hairpin bends and no barrier on the outside edge.",
+        "note": "Sentido literal, el que explica al figurado: el camino que no va derecho. Si el sustantivo es un camino o un cauce, es este; si es un argumento o un trámite, el otro."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

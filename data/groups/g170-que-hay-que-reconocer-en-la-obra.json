@@ -1,0 +1,99 @@
+{
+  "id": "g170",
+  "name": "qué hay que reconocer en la obra",
+  "axis": {
+    "lo": "no hay nada que reconocer: solo mirar",
+    "hi": "hay que reconocer algo que está fuera de la obra"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "aesthetic",
+      "pos": "adj",
+      "def": "concerned with beauty and appearance rather than use or truth",
+      "disc": "Marca <b>el terreno del juicio</b>, no el veredicto: decir que una objeción es ___ es decir que va <b>sobre cómo se ve</b> y no sobre si sirve, si es barato o si es cierto. De ahí su pareja de oposición habitual, <i>utilitarian</i>.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The objection to the new bridge was purely ___: nobody doubted that it was safe or that it was cheap — they simply thought it ugly.",
+      "twin": "abstract",
+      "whyNotTwin": "las dos entran en la fórmula <i>purely ___</i> y ahí se confunden: aesthetic acota el juicio a <b>la belleza</b>; abstract lo acota a <b>la teoría</b>, al caso que todavía no tiene nombre ni fecha.",
+      "root": "aisthetikos (que se percibe por los sentidos)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abstract",
+      "pos": "adj",
+      "def": "made of shapes and colours that stand for no object at all",
+      "disc": "En crítica de arte nombra <b>el cuadro sin objeto</b>: forma y color, nada que se pueda señalar y nombrar. Fuera del museo conserva el mismo esquema — <b>lo separado de todo caso concreto</b> —, y es ahí donde compite con <i>aesthetic</i> en <i>purely ___</i>.",
+      "tone": "neu",
+      "axisPos": 24,
+      "ej": "After 1948 he stopped painting rooms and faces altogether: the late canvases are ___ — six bands of grey, and nothing in them you could point to and name.",
+      "twin": "figurative",
+      "whyNotTwin": "abstract dice que <b>no hay nada que reconocer</b>; figurative dice que <b>sí lo hay</b>: una silla, una cara. Son los dos polos del mismo eje y no se solapan nunca.",
+      "root": "abs- (de) + trahere (tirar): sacado de lo concreto",
+      "tier": 1,
+      "sense2": {
+        "def": "considered apart from any particular case; theoretical",
+        "ej": "In the ___ everyone agrees with the principle; the trouble starts with the first case that tests it.",
+        "note": "Sentido GRE frecuente y ajeno a la pintura: lo que se discute sin bajar a un caso con nombre y fecha. Fíjate en si el sustantivo es una obra (sentido pictórico) o un argumento (este)."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "figurative",
+      "pos": "adj",
+      "def": "showing recognisable objects and people",
+      "disc": "En pintura es <b>lo contrario de abstract</b>: se ve una silla y es una silla. Su otro sentido — el del lenguaje no literal — es donde se vuelve intercambiable con <i>metaphorical</i>; en el terreno del cuadro esa confusión no existe.",
+      "tone": "neu",
+      "axisPos": 46,
+      "ej": "The third room is given over to the ___ painters who kept working through the years when a recognisable chair was thought a provocation — a chair that, in their canvases, stood for nothing but itself.",
+      "twin": "abstract",
+      "whyNotTwin": "figurative pone <b>cosas reconocibles</b> en la tela; abstract no pone ninguna. Y que la silla se reconozca no la hace allegorical: para eso tendría que <b>estar en lugar de otra cosa</b>.",
+      "root": "figura (forma, figura)",
+      "tier": 1,
+      "sense2": {
+        "def": "not literal; using a word for something it merely resembles",
+        "ej": "He meant it in the ___ sense: nobody actually set fire to anything.",
+        "note": "Sentido GRE frecuente. Aquí es sinónimo verdadero de metaphorical, y por eso esa palabra no puede ser su hermana: ninguna oración de sentido no literal separa a las dos."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "allegorical",
+      "pos": "adj",
+      "def": "in which each part stands for something else, point by point",
+      "disc": "No basta con que la obra <b>signifique</b> algo: la alegoría exige una <b>correspondencia sostenida y pieza por pieza</b> — esta hermana es esta virtud, este jardín es la Iglesia —, y el lector que no la ve se queda sin la obra.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "Not one line of it is a metaphor standing on its own: the poem is ___ from first to last — the seven sisters are the seven virtues, the locked garden is the Church, and a reader who misses the correspondence misses the poem.",
+      "twin": "allusive",
+      "whyNotTwin": "allegorical monta un <b>sistema dentro de la obra</b>: cada elemento tiene su equivalente; allusive <b>señala hacia fuera</b>, a otro texto que el lector debe reconocer. Uno se descifra, el otro se identifica.",
+      "root": "allos (otro) + agoreuein (hablar en público): decir una cosa por otra",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "allusive",
+      "pos": "adj",
+      "def": "constantly referring to other works the reader is expected to know",
+      "disc": "Lo que la define es <b>el texto de al lado</b>: la frase funciona solo si el lector reconoce de dónde sale. De ahí que sus ediciones lleven notas, y que la nota no explique lo que el autor quiso decir, sino <b>a qué está citando</b>.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "His prose is so ___ that the annotated edition runs to twice the length: half the sentences are quoting something the reader is expected to place.",
+      "twin": "allegorical",
+      "whyNotTwin": "allusive <b>remite a otra obra</b> y no organiza nada por dentro; allegorical no cita a nadie: monta <b>dentro del propio texto</b> una equivalencia que se sostiene de principio a fin.",
+      "root": "ad- (hacia) + ludere (jugar): jugar con algo que está aparte",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

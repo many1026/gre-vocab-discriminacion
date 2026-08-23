@@ -1,0 +1,91 @@
+{
+  "id": "g171",
+  "name": "el sitio que se le da al otro",
+  "axis": {
+    "lo": "los demás sobran",
+    "hi": "los demás primero, y a costa propia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "elitist",
+      "pos": "adj",
+      "def": "keeping what is best for a chosen few",
+      "disc": "Es un <b>reproche</b>, casi nunca una descripción neutra: dice que el criterio de admisión <b>no lo fija el mérito sino la procedencia</b>. Su prueba en la oración son los números pequeños y la lista cerrada de dónde salen los admitidos.",
+      "tone": "neg",
+      "axisPos": 5,
+      "ej": "The scheme was ___ by design: forty places a year, and the panel took its candidates from the six schools it already knew.",
+      "twin": "egalitarian",
+      "whyNotTwin": "elitist reserva lo bueno para <b>unos pocos elegidos</b>; egalitarian reparte <b>lo mismo a todos</b>. Son los dos polos del eje, y todo lo que prueba a uno excluye al otro.",
+      "root": "élite (lo elegido) < eligere (elegir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "conciliatory",
+      "pos": "adj",
+      "def": "meant to end a quarrel by giving ground",
+      "disc": "Supone <b>un conflicto ya abierto</b> y una <b>concesión medible</b>: una disculpa, una exigencia retirada, un tono elegido a propósito. No dice nada sobre lo que el hablante siente — es una <b>maniobra</b>, y puede ser fría.",
+      "tone": "pos",
+      "axisPos": 44,
+      "ej": "Six weeks into the strike he opened in a deliberately ___ register: an apology for the leaked memo and an offer to drop two of the union's three demands, though he said nothing at all about what the strikers had been going through.",
+      "twin": "empathetic",
+      "whyNotTwin": "conciliatory <b>cede algo</b> para cerrar un conflicto que ya existe; empathetic solo <b>entiende lo que el otro siente</b>, y puede no ceder nada ni haber conflicto alguno.",
+      "root": "conciliare (reunir, poner de acuerdo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "empathetic",
+      "pos": "adj",
+      "def": "able to feel what another person is feeling",
+      "disc": "Lo suyo es <b>la precisión, no la bondad</b>: acierta con lo que le pasa al otro, incluso con lo que el otro no ha dicho. Es una <b>capacidad</b>, no una conducta: se puede ser empático y no hacer nada al respecto.",
+      "tone": "pos",
+      "axisPos": 62,
+      "ej": "What makes her ___ is not sympathy but accuracy: she hears in a caller's pause the exact thing he has not worked up to saying.",
+      "twin": "altruistic",
+      "whyNotTwin": "empathetic <b>siente lo del otro</b> y ahí termina; altruistic <b>paga un precio</b> por el otro. Se puede sentir todo y no mover un dedo, y se puede dar sin sentir nada.",
+      "root": "en- (dentro) + pathos (sentimiento)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "egalitarian",
+      "pos": "adj",
+      "def": "holding that everyone should count the same",
+      "disc": "Es un <b>principio de reparto</b>, no un sacrificio: nadie cede nada por nadie, simplemente <b>no hay rangos</b>. Se prueba en la oración con los turnos compartidos y los títulos que no existen.",
+      "tone": "pos",
+      "axisPos": 78,
+      "ej": "The commune was ___ to the point of inconvenience: the doctor took her turn at the latrines like everyone else, no one's name carried a title, and no decision was taken until the last of the twenty had spoken.",
+      "twin": "elitist",
+      "whyNotTwin": "egalitarian nivela <b>hacia todos</b>; elitist selecciona <b>hacia unos pocos</b>. Y ojo: nivelar no es dar — por eso egalitarian no es altruistic, que exige un coste propio.",
+      "root": "égal (igual) < aequalis",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "altruistic",
+      "pos": "adj",
+      "def": "acting for another's good at one's own cost",
+      "disc": "Exige las <b>dos mitades</b>: alguien gana y el que actúa pierde. Por eso su prueba en la oración es siempre la misma — <b>nada a cambio y nadie mirando</b>: si hay público o hay premio, la palabra ya no vale.",
+      "tone": "pos",
+      "axisPos": 95,
+      "ej": "Donating a kidney to a stranger whose name she never asked for was ___ in the strictest sense: nobody was watching, and there was nothing whatever in it for her.",
+      "twin": "empathetic",
+      "whyNotTwin": "altruistic se demuestra con <b>el coste pagado</b>; empathetic, con <b>el acierto sobre lo que el otro siente</b>. Un donante puede no saber nada del que recibe, y sigue siendo altruistic.",
+      "root": "autrui (los otros) < alter (otro)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

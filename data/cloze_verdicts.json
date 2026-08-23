@@ -7565,5 +7565,165 @@
   "basis": "semantic",
   "nearMiss": "antagonize",
   "note": "nobody left in the middle es la particion en dos bandos; antagonize solo se gana enemigos, no parte a un cuerpo por la mitad"
+ },
+ "4a28f1000ae74f9a": {
+  "w": "adverse",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "debilitating",
+  "note": "el contraste con 'favourable' pide el antónimo directo de favorable; un fallo judicial no debilita, no arruina despacio ni hace sufrir al que lo oye"
+ },
+ "82f761981f1e0776": {
+  "w": "debilitating",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "harrowing",
+  "note": "'nothing dramatic ever happened' y la fuerza que mengua cada invierno excluyen a harrowing (sufrimiento) y a calamitous (destrozo fechado); un dolor no es adverse ni blighted"
+ },
+ "48eb90d8bb1f9afb": {
+  "w": "harrowing",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "debilitating",
+  "note": "'account' que hace parar la sesión mide el sufrimiento del que escucha; un testimonio no resta fuerzas (debilitating), no se arruina despacio (blighted) ni se salda en pérdidas (calamitous)"
+ },
+ "9c2428bc80ecf557": {
+  "w": "blighted",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "calamitous",
+  "note": "veinte años de ventanas tapiadas es ruina lenta y en pie: calamitous exigiría una fecha y un saldo, debilitating un sujeto que pierde fuerzas y harrowing a alguien que lo pase mal"
+ },
+ "3a06f200e77b77d0": {
+  "w": "calamitous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "debilitating",
+  "note": "'both firms had gone under, the name sold off for scrap' es destrucción total, no pérdida de fuerzas (debilitating) ni deterioro lento (blighted); una fusión no es adverse ni harrowing"
+ },
+ "5e56c84edb40467f": {
+  "w": "aesthetic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abstract",
+  "note": "'they simply thought it ugly' acota el juicio a la belleza; 'purely abstract' significaría teórico y choca con un puente concreto, y las otras tres solo se dicen de obras que representan algo"
+ },
+ "653f7884b2ebb10b": {
+  "w": "abstract",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "figurative",
+  "note": "'nothing you could point to and name' excluye a figurative (silla reconocible), a allegorical y a allusive (los dos exigen algo a lo que remitir); un lienzo no es aesthetic"
+ },
+ "7f1ae126f898bc3c": {
+  "w": "figurative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abstract",
+  "note": "'a recognisable chair' excluye a abstract y 'stood for nothing but itself' excluye a allegorical y a allusive; aesthetic no describe lo que hay pintado"
+ },
+ "34459d9ba7b02a14": {
+  "w": "allegorical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "allusive",
+  "note": "la cláusula de rechazo 'not one line is a metaphor standing on its own' deja fuera a figurative, que nombra lo no literal suelto; la correspondencia punto por punto es interna, así que no es allusive, y hay cosas reconocibles, así que no es abstract"
+ },
+ "825fb557116f3e91": {
+  "w": "allusive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "allegorical",
+  "note": "'half the sentences are quoting something the reader is expected to place' remite fuera de la obra: allegorical monta el sistema dentro, figurative no cita a nadie y abstract no tendría qué anotar"
+ },
+ "f873cf595b8fb216": {
+  "w": "elitist",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "egalitarian",
+  "note": "cuarenta plazas y seis colegios conocidos es reserva para unos pocos: egalitarian es lo contrario, y conciliatory, empathetic y altruistic no dicen nada sobre a quién se admite"
+ },
+ "470f3627b4697264": {
+  "w": "conciliatory",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "empathetic",
+  "note": "'said nothing about what the strikers had been going through' excluye a empathetic; hay conflicto abierto y concesión medida, no reparto igualitario (egalitarian) ni entrega sin ganancia (altruistic)"
+ },
+ "ce84a23444021c0a": {
+  "w": "empathetic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "altruistic",
+  "note": "'not sympathy but accuracy' sobre lo que el otro no ha dicho es puro acierto sobre el sentir ajeno: no se cede nada (conciliatory), no se paga nada (altruistic) y no se reparte nada (egalitarian)"
+ },
+ "87ece7b1418d143d": {
+  "w": "egalitarian",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "altruistic",
+  "note": "turnos iguales, ningún título y esperar a que hablen los veinte es ausencia de rango, no sacrificio por otro (altruistic) ni maniobra para cerrar un conflicto (conciliatory); elitist es el polo opuesto"
+ },
+ "f99c443dbcbd8b22": {
+  "w": "altruistic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "empathetic",
+  "note": "'nobody was watching, nothing whatever in it for her' exige coste propio y beneficio ajeno: empathetic no cuesta nada, egalitarian reparte sin dar y conciliatory supone un conflicto que aquí no existe"
+ },
+ "13f7a11d8a4d0237": {
+  "w": "amorphous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sinuous",
+  "note": "sin responsables, sin ruta y sin convocante no hay contorno que describir; sinuous y tortuous exigen un trazado definido, intertwined exige dos cosas y diminutive mide tamaño"
+ },
+ "b7c3a71a558d027d": {
+  "w": "diminutive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sinuous",
+  "note": "'she barely cleared the microphone' mide estatura, que es lo único que diminutive nombra: sinuous describiría el trazado de la figura, no su tamaño, y las otras tres no se dicen de una persona en un atril"
+ },
+ "ffdbc33ad808a7d7": {
+  "w": "sinuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tortuous",
+  "note": "'a single line, without a break or an angle' es la curva continua: tortuous exige recodos y reproche, intertwined exige dos recorridos y amorphous negaría la línea; diminutive no viene al caso"
+ },
+ "8a0931d9e240aa72": {
+  "w": "intertwined",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tortuous",
+  "note": "'taking out the dead one would have killed the other' es consecuencia mutua entre dos cosas: tortuous y sinuous describen un solo recorrido, amorphous niega la forma y diminutive el tamaño"
+ },
+ "9f05f1176a11b00d": {
+  "w": "tortuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sinuous",
+  "note": "el expediente que vuelve cuatro veces al mismo comité son vueltas que sobran, con reproche: sinuous es curva admirada y continua, intertwined pediría dos partes enredadas y amorphous negaría que haya recorrido"
  }
 }

@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **168 grupos, 945/1112 palabras (85.0%)**, `run_all.py` en verde, 0 errores
+- **172 grupos, 965/1112 palabras (86.8%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -341,6 +341,38 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.
   Quedan libres para un grupo futuro `miscreant`, `reprobate` y `libertine`, pero son solo
   tres: hacen falta dos personajes reprobables más.
+- **De los tres sinónimos de desastre solo entra uno, y el que entra es `calamitous`.** g169 lo
+  resolvió dejando fuera a `cataclysmic` y `catastrophic` (siguen libres, pero nunca juntos ni
+  con calamitous). Lo que hace viable el campo es que los otros cuatro miden cosas distintas:
+  `adverse` solo va **en contra** (su prueba en la oración es el antónimo *favourable*, y su
+  objeto típico es un fallo o unas condiciones), `debilitating` **quita fuerzas sin destruir**,
+  `harrowing` mide **el sufrimiento del que lo cuenta o lo oye** (*a ___ account*), y `blighted`
+  arruina **despacio y dejando la cosa en pie**. El cloze de calamitous necesita decir que no
+  quedó nada — *both firms had gone under, the name sold off for scrap* —, o debilitating se cuela.
+- **`figurative` en el sentido no literal se traga cualquier cloze de `allegorical`.** La primera
+  versión en g170 («The poem is ___ from the first line: the seven sisters are the seven
+  virtues…») la llenaba figurative, porque la alegoría *es* lenguaje no literal: es un par de
+  inclusión, `figurative` ⊃ `allegorical`. La salida es la cláusula de rechazo de la regla 3,
+  negando la figura suelta: *Not one line of it is a metaphor standing on its own: the poem is
+  ___ from first to last*. Por eso `figurative` entra en el grupo solo por su **sentido pictórico**
+  (figuras reconocibles, opuesto a `abstract`), con el otro sentido registrado en `sense2`.
+- **`aesthetic` y `abstract` chocan en la fórmula `purely ___`.** *A purely aesthetic objection* y
+  *a purely abstract objection* son las dos inglés corriente. Lo que separa es qué acota cada una:
+  aesthetic acota a **la belleza** (el cloze tiene que decir que lo seguro y lo barato no se
+  discuten, *only that it was ugly*), abstract acota a **la teoría**, al caso que aún no tiene
+  nombre ni fecha.
+- **`empathetic` se cuela en cualquier hueco de tono amable.** El primer cloze de `conciliatory` en
+  g171 («opened in a deliberately ___ register: an apology and an offer to drop two demands») lo
+  llenaba igual de bien. Lo que excluye a empathetic es **negar que se hable del sentir ajeno**:
+  *though he said nothing at all about what the strikers had been going through*. Y al revés,
+  `egalitarian` se blinda contra `altruistic` añadiendo **voz igual**, no solo trabajo compartido
+  (*no decision was taken until the last of the twenty had spoken*): repartir no es dar.
+- **`tortuous` va en sentido figurado y `sinuous` en literal.** Los dos describen curvas, pero
+  tortuous **reprocha** las vueltas (un trámite, un razonamiento) y sinuous **admira** la
+  continuidad (un río, un brazo que baila): el cloze de sinuous se sostiene con *a single line,
+  without a break or an angle*. Para `intertwined` hace falta **consecuencia mutua entre dos
+  cosas** — *taking out the dead one would have killed the other* —, o tortuous se cuela: lo
+  enredado son dos recorridos, lo tortuoso es uno solo.
 
 ## Qué NO hacer
 

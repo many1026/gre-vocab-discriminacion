@@ -1,0 +1,91 @@
+{
+  "id": "g169",
+  "name": "del estorbo a la ruina",
+  "axis": {
+    "lo": "solo empuja en contra",
+    "hi": "no queda nada de lo que había"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "adverse",
+      "pos": "adj",
+      "def": "working against what someone wants; unfavourable",
+      "disc": "Se dice de <b>lo que empuja en contra</b> desde fuera: el viento, las condiciones, un fallo judicial, los efectos secundarios de un fármaco. No afirma daño ni destrozo — solo que la cosa va <b>en la dirección contraria</b> a la que conviene, y por eso su antónimo natural es <i>favourable</i>.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "Every ___ ruling was appealed within the week, and every favourable one was reprinted in the members' newsletter.",
+      "twin": "debilitating",
+      "whyNotTwin": "adverse dice solo que <b>va en contra</b>, y puede no dejar ninguna huella; debilitating dice que <b>le quita fuerzas</b> a quien lo sufre. Un fallo es adverse; una enfermedad es debilitating.",
+      "root": "ad- (hacia) + vertere (volver): vuelto en contra",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "debilitating",
+      "pos": "adj",
+      "def": "steadily draining someone's strength",
+      "disc": "Lo suyo es <b>la fuerza que se va</b>, no el golpe: una enfermedad, un dolor, una huelga que deja al servicio sin poder funcionar. Se mide en <b>lo que el sujeto ya no puede hacer</b>, y admite años de duración sin que ocurra nada dramático ni se pierda nada de golpe.",
+      "tone": "neg",
+      "axisPos": 40,
+      "ej": "Three years of ___ back pain had left her working two mornings a week: nothing dramatic ever happened, she simply had less strength each winter.",
+      "twin": "harrowing",
+      "whyNotTwin": "debilitating <b>gasta las fuerzas</b> del que lo padece; harrowing <b>hace sufrir</b> al que lo pasa o al que lo escucha, aunque no le quite un gramo de fuerza.",
+      "root": "debilis (débil, sin fuerza)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "harrowing",
+      "pos": "adj",
+      "def": "extremely distressing to undergo or to hear about",
+      "disc": "Su terreno es <b>el relato y la experiencia</b>: <i>a ___ account</i>, <i>a ___ ordeal</i>. Lo que mide es <b>el sufrimiento del que lo vive o lo oye</b>, no el tamaño del destrozo: una sola noche puede ser harrowing sin que se rompa nada.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "Her ___ account of the crossing — nine days, and no water after the fourth — was read aloud to the committee, several of whom asked for the session to be paused.",
+      "twin": "debilitating",
+      "whyNotTwin": "harrowing califica <b>lo que se pasa mal</b> viviéndolo o contándolo; debilitating califica <b>lo que resta capacidad</b>. Un testimonio es harrowing y nunca debilitating.",
+      "root": "harrow (la grada que desgarra la tierra)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "blighted",
+      "pos": "adj",
+      "def": "spoiled little by little by something that spreads over it",
+      "disc": "Viene de la <b>plaga que seca la cosecha</b>, y de ahí el barrio, la carrera o la generación que se echan a perder <b>despacio y desde dentro</b>. Lo arruinado <b>sigue en pie</b>: las casas están, pero con las ventanas tapiadas.",
+      "tone": "neg",
+      "axisPos": 76,
+      "ej": "Twenty years after the mill closed, the ___ streets behind the station still had more boarded windows than lit ones.",
+      "twin": "calamitous",
+      "whyNotTwin": "blighted arruina <b>poco a poco</b> y deja la cosa en pie, marchita; calamitous <b>acaba con ella</b>, y la ruina cabe en una fecha.",
+      "root": "blight (tizón, la plaga que arrasa el cultivo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "calamitous",
+      "pos": "adj",
+      "def": "bringing ruin on a large scale",
+      "disc": "Nombra <b>el desenlace, no el proceso</b>: una decisión, una crecida, una campaña que terminan en ruina. Es el adjetivo del <b>saldo final</b> — esto se perdió, esto ya no existe —, y por eso lo que califica suele venir seguido de la cuenta de los daños.",
+      "tone": "neg",
+      "axisPos": 95,
+      "ej": "In hindsight the merger was ___: within two years both firms had gone under, the name was sold off for scrap and the pension fund went with it.",
+      "twin": "blighted",
+      "whyNotTwin": "calamitous cabe <b>en una fecha y en una cifra</b>: esto se perdió entero; blighted no tiene fecha — es la ruina que va ganando terreno año tras año sin llevarse nunca la última pieza.",
+      "root": "calamitas (desastre, plaga del campo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
