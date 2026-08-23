@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **135 grupos, 776/1112 palabras (69.8%)**, `run_all.py` en verde, 0 errores
+- **139 grupos, 796/1112 palabras (71.6%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -176,6 +176,28 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   rigen, y sus cloze quedan registrados con `--basis grammatical`. Es honesto y está bien: la
   subcategorización *es* lo que hay que aprender de esos dos verbos. Distinto sería resolver
   el ítem por la categoría gramatical, que es lo que prohíbe la regla 2.
+- **`condone`, `countenance` y `sanction` se pisan en «aprobar lo indebido».** Los tres llenan
+  *the government would not ___ kidnapping*, así que el contenido moral no separa nada. Lo que
+  sí separa en g136 es **el tiempo y el soporte**: `condone` mira **hacia atrás** — perdona una
+  falta ya cometida y extingue el agravio (la *condonation* del divorcio antiguo); `countenance`
+  respalda **lo que aún no ha ocurrido** y no admite delitos por objeto, solo ideas y planes;
+  `sanction` deja **papel** — un órgano con potestad, por escrito, con condiciones. El cloze de
+  countenance necesita además decir que el sujeto **no tiene poder** («no power to start it or
+  stop it»), o `sanction` se cuela.
+- **`brook` se cuela en cualquier hueco de «no soportar».** El primer cloze de `abide` en g136
+  («could not ___ the sound of cutlery») lo llenaba igual de bien. Dos anclas lo excluyen a la
+  vez: que el objeto sea **sensorial y menudo** (brook rige abstractos de oposición o demora —
+  *no dissent*, *no delay*) y que quien lo sufre **no pueda impedirlo** (brook negado significa
+  «no lo permitiría», y supone poder). Al revés, el cloze propio de brook se sostiene con un
+  **sujeto que no es nadie**: un rescate, un plazo, una química que no admite demora.
+- **`evasive` se cuela en «la reseña que no se moja».** El primer cloze de `tepid` en g139
+  decía «nobody attacked the book and nobody recommended it», y eso es exactamente esquivar el
+  veredicto. `tepid` necesita que **el juicio se haya dado entero** y solo falte calor —
+  «polite, three paragraphs each, delivering their verdict in full» —, porque lo suyo es la
+  temperatura, no la evasión.
+- **Campo «codicia» bloqueado**: solo quedan tres adjetivos libres (`avaricious`, `rapacious`,
+  `acquisitive`). `covet` es verbo, `affluent` es tener dinero y no desearlo, y no existen en la
+  lista *venal*, *mercenary* ni *covetous*.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

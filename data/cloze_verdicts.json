@@ -6213,5 +6213,165 @@
   "basis": "grammatical",
   "nearMiss": "engender",
   "note": "solo render admite objeto mas atributo — '___ the contract void'; engender y precipitate dejarian 'void' sin construccion, ensue no lleva objeto y stem from pide 'from'."
+ },
+ "1402786ef639fe78": {
+  "w": "brook",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abide",
+  "note": "el sujeto es una situación, no una persona: una química o un plazo no admite demora, pero no puede aprobar ni perdonar nada; abide, condone, countenance y sanction exigen un agente humano"
+ },
+ "da4efb1b6a639a52": {
+  "w": "abide",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "brook",
+  "note": "aversión sensorial de quien no tiene ningún poder para impedirla — brook exige poder disallow y objeto abstracto (no delay, no dissent); condone pide una falta, countenance una propuesta, sanction una potestad"
+ },
+ "08740cb8ab0cbde4": {
+  "w": "condone",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "countenance",
+  "note": "perdón retroactivo de una falta ya cometida, con extinción del agravio — countenance respalda lo que aún no ocurre y nunca significa perdonar; sanction autoriza de antemano"
+ },
+ "c07852c2a970c927": {
+  "w": "countenance",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "condone",
+  "note": "respaldo tácito de quien no tiene potestad ('no power to start it or stop it' mata a sanction) sobre un procedimiento que no es falta ninguna (mata a condone)"
+ },
+ "e03c9a82d92c5121": {
+  "w": "sanction",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "countenance",
+  "note": "permiso formal por escrito, con condiciones y fecha de revisión — countenance es tácito y no se otorga en papel; condone pide una falta previa"
+ },
+ "e530d74f23de491a": {
+  "w": "deportment",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decorum",
+  "note": "se califica en el colegio junto al latín y lo que se penaliza es el cuerpo — encorvarse, entrar deprisa; decorum es de la ocasión, propriety de la moral, tact una destreza, comity de instituciones"
+ },
+ "900aceb8daec6588": {
+  "w": "tact",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decorum",
+  "note": "es lo que hace falta TENER para decir algo hiriente sin herir ('it took ___'); decorum y propriety se guardan o se cuestionan, no se emplean como habilidad ante una persona concreta"
+ },
+ "30eb6b655b6c1697": {
+  "w": "decorum",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "propriety",
+  "note": "la gravedad del oficio se pierde cuando el organista improvisa — no hay nada moralmente incorrecto, así que propriety queda fuera; un servicio no tiene cuerpo (deportment) ni es institución (comity)"
+ },
+ "d08e1d4ba98fbc37": {
+  "w": "propriety",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decorum",
+  "note": "marco fijo 'the ___ of doing X was raised' con conflicto de interés y sin ilegalidad; nadie discute «the decorum of sitting on the panel», y tact/comity/deportment no se predican de una conducta cuestionada"
+ },
+ "d2c0dda8dc574f64": {
+  "w": "comity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tact",
+  "note": "deferencia recíproca entre tribunales de distintos países sin obligación legal — cortesía de cuerpos, no de personas: tact es de individuos y decorum/propriety/deportment no se dan a cambio de nada"
+ },
+ "45dbcbdb9d0e3598": {
+  "w": "replenish",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inundate",
+  "note": "único transitivo restaurador: devuelve el acuífero al nivel de 1998 — inundate desborda y no repone, abound y proliferate son intransitivos, outstrip pide dos magnitudes"
+ },
+ "de1a929b6d647d6f": {
+  "w": "abound",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "proliferate",
+  "note": "marco propio 'el lugar + ___s in + criaturas', estado y no aumento — proliferate pone de sujeto lo que se multiplica, replenish es transitivo, outstrip compara e inundate abruma"
+ },
+ "418f8de5602b546a": {
+  "w": "proliferate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "abound",
+  "note": "registro del tratado de no proliferación: 'would not ___ beyond the five states' describe un proceso prohibible — abound describe un estado y rige in/with, nunca beyond"
+ },
+ "5cc9c49c6ff06bab": {
+  "w": "outstrip",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "inundate",
+  "note": "comparativo puro, demanda contra oferta — inundate necesita alguien que no da abasto, no una magnitud; abound y proliferate son intransitivos y replenish repone"
+ },
+ "9e162ce746b267bd": {
+  "w": "inundate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "outstrip",
+  "note": "pasiva con with y un receptor que no da abasto (oficina de dos personas) — outstrip sería 'outstripped BY', y replenish/abound/proliferate no admiten ese marco"
+ },
+ "4967e6e9c0983c73": {
+  "w": "tepid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ambivalent",
+  "note": "falta de calor con veredicto entregado en pleno — ambivalent exigiría dos sentimientos fuertes y contrarios, evasive exigiría esquivar la pregunta (aquí se contesta), tentative e irresolute no se predican de una reseña ya publicada"
+ },
+ "6f8d89810c14ed33": {
+  "w": "ambivalent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tepid",
+  "note": "dos sentimientos nombrados y de igual fuerza sobre algo YA firmado — tepid pide poca temperatura, no dos; tentative queda fuera porque el contrato está cerrado, e irresolute porque no hay decisión pendiente"
+ },
+ "580bb08d98c85d91": {
+  "w": "irresolute",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tentative",
+  "note": "parálisis visible en el momento de actuar — baja tres escalones y vuelve; tentative califica planes y fechas, no a quien está de pie en un rellano, y ambivalent pediría dos sentimientos nombrados"
+ },
+ "3c4cfba98db3354e": {
+  "w": "tentative",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "irresolute",
+  "note": "una fecha provisional que se fijará cuando llegue el informe — irresolute solo se dice de personas, ambivalent de sentimientos, tepid de acogidas y evasive de respuestas"
+ },
+ "5f1714f861664639": {
+  "w": "evasive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tentative",
+  "note": "se pregunta dos veces quién firmó y se contesta con generalidades: hay respuesta y es esquiva a propósito — tentative sería provisional, no desviada; tepid y ambivalent miden temperatura de sentimientos"
  }
 }

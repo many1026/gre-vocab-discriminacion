@@ -1,0 +1,91 @@
+{
+  "id": "g137",
+  "name": "las formas y el trato",
+  "axis": {
+    "lo": "cómo se comporta un cuerpo",
+    "hi": "cómo se tratan dos instituciones"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "deportment",
+      "pos": "n",
+      "def": "the way a person stands, moves and carries themselves",
+      "disc": "Es lo <b>visible del cuerpo</b>: el porte, la postura, cómo se entra en una habitación. Era asignatura de colegio y se calificaba junto al latín. No juzga si algo está bien o mal, solo cómo se lleva uno.",
+      "tone": "neu",
+      "axisPos": 8,
+      "ej": "The school reported on three things every term — Latin, arithmetic and ___ — and she was marked down for slouching at her desk and for entering a room too fast.",
+      "twin": "decorum",
+      "whyNotTwin": "deportment está en <b>el cuerpo de una persona</b> y se puede corregir con un libro sobre la cabeza; decorum está en <b>la ocasión</b> y consiste en no romper su gravedad.",
+      "root": "deporter (llevarse, conducirse)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tact",
+      "pos": "n",
+      "def": "skill in handling people without causing offence",
+      "disc": "Es una <b>destreza</b>, no una norma: saber decir lo difícil sin herir. Por eso se <i>tiene</i> y se <i>necesita</i> — <i>it took ___</i>, <i>with great ___</i> —, mientras que las demás del grupo se <i>guardan</i> o se <i>observan</i>.",
+      "tone": "pos",
+      "axisPos": 28,
+      "ej": "It took ___ to tell a man of eighty that his life's translation had been superseded, and she managed it in two sentences without wounding him.",
+      "twin": "decorum",
+      "whyNotTwin": "tact es <b>habilidad de alguien</b> ante otra persona concreta y se mide por lo que consigue; decorum es <b>norma de la ocasión</b> y se cumple aunque no haya nadie a quien cuidar.",
+      "root": "tactus (tacto, contacto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "decorum",
+      "pos": "n",
+      "def": "behaviour that fits the gravity of an occasion",
+      "disc": "Lo que pide <b>la ceremonia</b>: silencios, tiempos, tono de voz. Se mide contra la solemnidad del acto — un funeral, un juicio, un oficio —, no contra la moral. Su verbo natural es <i>keep</i> o <i>preserve</i>.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The service kept its ___ until the organist began improvising; after that it was a concert, and people turned round in their pews to watch.",
+      "twin": "propriety",
+      "whyNotTwin": "decorum lo fija <b>la ocasión</b>: lo mismo que está bien en una boda desentona en un velatorio; propriety lo fija <b>el código moral</b> y no cambia con el acto.",
+      "root": "decorus (conveniente, decoroso)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "propriety",
+      "pos": "n",
+      "def": "conformity with accepted standards of what is correct",
+      "disc": "Es lo <b>correcto</b>, y se discute: la fórmula típica es <i>the ___ of doing X was questioned</i>. Vive donde hay conflicto de interés, dinero o decoro moral, y su negativo — <i>impropriety</i> — es acusación seria aunque nada sea ilegal.",
+      "tone": "neu",
+      "axisPos": 68,
+      "ej": "He broke no rule and no law, but the ___ of his sitting on the panel that awarded his own department the grant was raised at the next meeting.",
+      "twin": "decorum",
+      "whyNotTwin": "propriety se <b>cuestiona</b> — se pregunta si algo era correcto o no; decorum se <b>guarda o se rompe</b> en el momento. Nadie discute «the decorum of sitting on the panel».",
+      "root": "proprietas (lo propio, lo que corresponde)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "comity",
+      "pos": "n",
+      "def": "courtesy that states or courts extend to one another",
+      "disc": "El extremo institucional: cortesía entre <b>cuerpos</b>, no entre personas. Sus dos colocaciones fijas son <i>the ___ of nations</i> y la <i>judicial ___</i>, la deferencia con que un tribunal reconoce lo resuelto por otro sin estar obligado a ello.",
+      "tone": "pos",
+      "axisPos": 92,
+      "ej": "Neither treaty nor statute required it: the French court deferred to the Belgian judgment out of ___, and expected the same deference in return.",
+      "twin": "tact",
+      "whyNotTwin": "comity es de <b>instituciones</b> y funciona por reciprocidad — se da esperando lo mismo; tact es de <b>una persona</b> ante otra y no espera nada a cambio.",
+      "root": "comitas (afabilidad)",
+      "tier": 3,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

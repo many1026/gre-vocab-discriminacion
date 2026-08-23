@@ -1,0 +1,91 @@
+{
+  "id": "g138",
+  "name": "cuando algo se multiplica",
+  "axis": {
+    "lo": "se repone lo que faltaba",
+    "hi": "hay más de lo que se puede atender"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "replenish",
+      "pos": "v",
+      "def": "to fill up again a supply that has been used",
+      "disc": "Mira <b>al nivel anterior</b>: no crea abundancia, devuelve lo que había. Es transitivo y su objeto es una <b>reserva</b> — un acuífero, una despensa, unas existencias, unas fuerzas.",
+      "tone": "pos",
+      "axisPos": 15,
+      "ej": "The March rains ___ed an aquifer that four dry summers had drawn down, bringing it back to the level it held in 1998.",
+      "twin": "abound",
+      "whyNotTwin": "replenish es <b>transitivo y restaurador</b>: alguien o algo repone una reserva hasta donde estaba; abound es <b>intransitivo y estático</b>: describe que ya hay de sobra, sin decir cómo llegó.",
+      "root": "re + plenus (lleno otra vez)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "abound",
+      "pos": "v",
+      "def": "to exist in large numbers in a place",
+      "disc": "Intransitivo, y su marco propio es <b>el lugar como sujeto</b> seguido de <i>in</i> o <i>with</i>: <i>the estuary ___s in birds</i>. Describe un <b>estado</b>, no un aumento: no dice que haya llegado a haber muchos, dice que los hay.",
+      "tone": "neu",
+      "axisPos": 35,
+      "ej": "The estuary ___s in wading birds: sixty species in a single morning's count, and that in a bad year.",
+      "twin": "proliferate",
+      "whyNotTwin": "abound pone al <b>lugar de sujeto</b> y lo llena — el estuario abounds in birds; proliferate pone a <b>lo que se multiplica</b> de sujeto y cuenta un aumento en el tiempo.",
+      "root": "abundare (desbordar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "proliferate",
+      "pos": "v",
+      "def": "to increase rapidly in number by multiplying",
+      "disc": "Lo suyo es la <b>copia que hace copias</b>: células, armas nucleares, franquicias. Registro técnico — <i>cell proliferation</i>, <i>nuclear proliferation</i> — y siempre implica <b>aumento en el tiempo</b>, no cantidad quieta.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "The whole point of the treaty was to ensure that nuclear weapons would not ___ beyond the five states that already held them in 1968.",
+      "twin": "abound",
+      "whyNotTwin": "proliferate cuenta un <b>proceso</b> — se pasa de pocos a muchos, y por eso puede prohibirse por tratado; abound cuenta un <b>estado</b>, y un estado no se prohíbe.",
+      "root": "proles + ferre (llevar descendencia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "outstrip",
+      "pos": "v",
+      "def": "to grow larger or faster than something else",
+      "disc": "Necesita <b>dos magnitudes</b> y deja a una detrás: <i>demand ___ped supply</i>, <i>costs ___ped revenue</i>. No dice que haya mucho, dice que hay <b>más que lo otro</b>.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "Demand for the vaccine ___ped supply within a week, and by Friday the clinics were rationing doses by age.",
+      "twin": "inundate",
+      "whyNotTwin": "outstrip es <b>comparativo</b>: mide una cantidad contra otra y la adelanta; inundate es <b>abrumador</b>: mide una cantidad contra la capacidad de atenderla y la sepulta.",
+      "root": "out + strip (dejar atrás corriendo)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "inundate",
+      "pos": "v",
+      "def": "to overwhelm someone with more than they can handle",
+      "disc": "Literalmente <b>inundar</b>, y en figurado casi siempre en pasiva con <i>with</i>: <i>___d with requests</i>, <i>___d with applications</i>. Lo definitorio es que el receptor <b>no da abasto</b>.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "One paragraph in a national paper, and the two-person office was ___d with applications it had no staff to read.",
+      "twin": "outstrip",
+      "whyNotTwin": "inundate exige <b>alguien que se ahoga</b> — la oficina de dos personas; outstrip no necesita víctima: basta con que una curva pase a la otra.",
+      "root": "in + unda (ola encima)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

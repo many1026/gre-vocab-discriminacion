@@ -1,0 +1,103 @@
+{
+  "id": "g136",
+  "name": "hasta dónde se aguanta",
+  "axis": {
+    "lo": "no se admite ni un gramo",
+    "hi": "se autoriza por escrito"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "brook",
+      "pos": "v",
+      "def": "to allow something to happen or be said",
+      "disc": "Vive casi solo en la fórmula <b>___ no + sustantivo abstracto</b>: <i>brook no delay</i>, <i>brook no dissent</i>, <i>brook no interference</i>. El sujeto no tiene que ser una persona: una situación, un plazo o una química pueden no admitir demora. Nunca se usa en afirmativa corriente.",
+      "tone": "neu",
+      "axisPos": 5,
+      "ej": "A rescue at that altitude ___s no hesitation: the window is twenty minutes wide and then the cloud closes.",
+      "twin": "abide",
+      "whyNotTwin": "brook admite un <b>sujeto que no es nadie</b> — la situación misma no da margen — y pide la fórmula <i>no + abstracto</i>; abide necesita <b>una persona</b> a quien algo le repugna.",
+      "root": "brooken (digerir, tragar)",
+      "tier": 2,
+      "sense2": {
+        "def": "a small stream (noun)",
+        "ej": "The path crosses a brook twice before it reaches the mill."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "abide",
+      "pos": "v",
+      "def": "to put up with something one finds distasteful",
+      "disc": "En este sentido aparece <b>siempre negada</b> — <i>cannot ___</i>, <i>could not ___</i> — y lo que no se soporta suele ser <b>menudo y sensorial</b>: un ruido, un olor, una manía. No hay moral ni autoridad de por medio: es aversión personal.",
+      "tone": "neu",
+      "axisPos": 20,
+      "ej": "The lodger could not ___ the smell of boiled cabbage in the stairwell, but he had no say in the matter and stayed four years anyway.",
+      "twin": "brook",
+      "whyNotTwin": "abide nombra el <b>asco de alguien</b> ante algo trivial; brook nombra el <b>margen que una situación no deja</b>. Un ruido no se brooks, y un plazo no puede no abide nada.",
+      "root": "abidan (esperar, permanecer)",
+      "tier": 1,
+      "sense2": {
+        "def": "to comply with a rule or decision (abide by)",
+        "ej": "Both sides agreed in advance to abide by whatever the arbitrator decided."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "condone",
+      "pos": "v",
+      "def": "to forgive or overlook an offence already committed",
+      "disc": "Mira <b>hacia atrás</b>: hubo una falta y se la deja pasar. Es término del derecho de familia — la <i>condonation</i> perdonaba el adulterio y extinguía la causa de divorcio. Su objeto es siempre <b>un acto malo ya hecho</b>, nunca una idea ni un plan.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "Under the old divorce law, the wronged spouse who took the other back was held to have ___d the adultery: in the eyes of the court it was forgiven, and it could not be pleaded years later.",
+      "twin": "countenance",
+      "whyNotTwin": "condone <b>perdona lo que ya pasó</b> y borra el agravio; countenance <b>da el visto bueno</b> a algo que todavía no ha ocurrido. Uno absuelve, el otro respalda.",
+      "root": "condonare (perdonar del todo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "countenance",
+      "pos": "v",
+      "def": "to give approval or support to something",
+      "disc": "De <i>countenance</i>, <b>la cara</b>: prestar el rostro a algo es respaldarlo. No hace falta poder formal — basta con dejarse ver al lado. Rige <b>ideas, propuestas y planes</b>, no delitos: se countenances lo que aún puede no hacerse.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "He had no power to start the inquiry or to stop it, but by agreeing to chair the panel he ___d a proceeding he privately thought worthless.",
+      "twin": "condone",
+      "whyNotTwin": "countenance <b>respalda con la propia presencia</b> algo que no es una falta; condone exige <b>una falta ya cometida</b> que se perdona. Nadie condones una investigación.",
+      "root": "continentia (porte, semblante)",
+      "tier": 2,
+      "sense2": {
+        "def": "a person's face or expression (noun)",
+        "ej": "His countenance gave nothing away when the verdict was read."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "sanction",
+      "pos": "v",
+      "def": "to authorize something officially and formally",
+      "disc": "El extremo alto: <b>permiso formal de una institución</b>, con acta, condiciones y fecha. Ojo con el contrasentido: como sustantivo y en plural, <i>sanctions</i> son <b>castigos</b>. La misma palabra autoriza y penaliza.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The trial was not a rogue operation: the ethics board had ___ed it in writing, with conditions attached and a date fixed for review.",
+      "twin": "countenance",
+      "whyNotTwin": "sanction deja <b>papel</b>: viene de un cuerpo con potestad y se pone por escrito; countenance es respaldo <b>tácito</b>, de quien no tiene nada que otorgar.",
+      "root": "sancire (hacer sagrado, ratificar)",
+      "tier": 1,
+      "sense2": {
+        "def": "a penalty imposed to enforce a rule (noun, usually plural)",
+        "ej": "The council voted new sanctions against the two banks that had ignored the ruling."
+      },
+      "contrast": true,
+      "polysemous": true
+    }
+  ]
+}

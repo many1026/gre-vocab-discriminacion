@@ -1,0 +1,91 @@
+{
+  "id": "g139",
+  "name": "cuando nadie se compromete",
+  "axis": {
+    "lo": "no se siente casi nada",
+    "hi": "no se suelta la respuesta"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "tepid",
+      "pos": "adj",
+      "def": "lacking warmth or enthusiasm",
+      "disc": "Literalmente <b>tibio</b>, y de ahí la falta de entusiasmo. Lo que califica es la <b>acogida</b>: <i>a ___ response</i>, <i>___ applause</i>, <i>___ reviews</i>. Marca <b>poca intensidad</b>, no sentimientos encontrados: no hay calor de ningún signo.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "The reviews were ___: polite, three paragraphs each, delivering their verdict in full, and not one of them warm enough to sell a single copy.",
+      "twin": "ambivalent",
+      "whyNotTwin": "tepid es <b>ausencia de las dos temperaturas</b>: ni ataque ni elogio; ambivalent es <b>las dos a la vez y fuertes</b>. Uno tiene el termómetro plano, el otro lo tiene en los dos extremos.",
+      "root": "tepidus (tibio)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ambivalent",
+      "pos": "adj",
+      "def": "having two opposing feelings at the same time",
+      "disc": "<i>Ambo</i> + <i>valere</i>: <b>los dos valen</b>. Rige <b>about</b> o <b>toward</b>, y describe sentimientos, no decisiones: se puede estar ambivalent sobre algo <b>ya resuelto y firmado</b>, porque lo que sigue partido es el ánimo.",
+      "tone": "neu",
+      "axisPos": 35,
+      "ej": "She had signed the contract weeks before and was ___ about it still: glad of the money, dreading the travel, in equal measure.",
+      "twin": "tepid",
+      "whyNotTwin": "ambivalent pide <b>dos sentimientos nombrados</b> tirando en direcciones contrarias; tepid pide que <b>no haya ninguno</b> digno de mención.",
+      "root": "ambo + valere (los dos valen)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "irresolute",
+      "pos": "adj",
+      "def": "unable to bring oneself to decide or act",
+      "disc": "Se dice de <b>una persona en el momento de actuar</b>, y se ve por fuera: empieza, se para, vuelve atrás. No es que sienta dos cosas — es que <b>no ejecuta</b>.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "He stood ___ at the top of the stairs for a full minute, went down three steps, and came back up to the landing.",
+      "twin": "tentative",
+      "whyNotTwin": "irresolute es un <b>defecto de la persona</b>: la parálisis está en él; tentative es una <b>condición del plan</b>: lo provisional está en la cosa, y quien lo propone puede ser muy decidido.",
+      "root": "in + resolutus (no resuelto)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tentative",
+      "pos": "adj",
+      "def": "provisional and open to being changed later",
+      "disc": "Del latín <i>tentare</i>, <b>tantear</b>. Califica <b>cosas, no personas</b>: <i>a ___ date</i>, <i>a ___ agreement</i>, <i>a ___ conclusion</i>. No dice nada del carácter de nadie: dice que <b>aún no es definitivo</b> y que se fijará después.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "Pencil the date in as ___: it holds only until the surveyor's report comes back, and then we fix it properly.",
+      "twin": "irresolute",
+      "whyNotTwin": "tentative se predica de <b>una fecha o un acuerdo</b> que espera confirmación; irresolute se predica de <b>alguien</b> que no consigue moverse. Una fecha no es irresolute y una persona no se pencils in.",
+      "root": "tentare (tantear)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "evasive",
+      "pos": "adj",
+      "def": "avoiding giving a direct answer",
+      "disc": "Aquí sí hay decisión tomada: la de <b>no contestar</b>. Su escena es el <b>interrogatorio</b> — se pregunta, y la respuesta se va por otro lado. Colocación fija: <i>___ answers</i>, <i>___ about the details</i>.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Every answer was ___: asked twice who had signed the order, he talked about procurement policy in general and the difficulty of the times.",
+      "twin": "tentative",
+      "whyNotTwin": "evasive esquiva <b>a propósito</b> una pregunta que ya tiene respuesta; tentative no la esquiva: es que <b>todavía no la hay</b> y por eso lo dicho es provisional.",
+      "root": "evadere (escaparse)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}
