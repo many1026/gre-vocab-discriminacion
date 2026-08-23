@@ -1,0 +1,91 @@
+{
+  "id": "g131",
+  "name": "maneras de alargar el discurso",
+  "axis": {
+    "lo": "se ciñe a lo ya dicho",
+    "hi": "no hay plan ninguno"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "recapitulate",
+      "pos": "v",
+      "def": "sum up the main points already covered",
+      "disc": "<b>Volver a los encabezados</b> (<i>capitulum</i>): se repasa lo tratado en orden y en menos tiempo del que costó. Por eso su compañía natural son <b>el resumen, el recuento y la lista de hallazgos</b> antes de pasar a otra cosa.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "Let me ___ in two minutes what took us the whole morning: three findings, in the order we reached them.",
+      "twin": "reiterate",
+      "whyNotTwin": "recapitulate <b>comprime varios puntos</b> en un repaso ordenado; reiterate <b>repite uno solo</b>, entero y sin resumir, para que esta vez se oiga.",
+      "root": "re- + capitulum (encabezado)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "reiterate",
+      "pos": "v",
+      "def": "say something again for emphasis",
+      "disc": "<b>De nuevo, otra vez</b> (<i>re-</i> + <i>iterum</i>): lo dicho se vuelve a decir igual, porque la primera vez no bastó. Rige objetos de una sola pieza — <b>una advertencia, una exigencia, una postura</b> — y suena a comunicado oficial.",
+      "tone": "neu",
+      "axisPos": 28,
+      "ej": "The minister ___d the warning she had given in June, word for word, and the markets ignored it a second time.",
+      "twin": "recapitulate",
+      "whyNotTwin": "reiterate insiste en <b>lo mismo tal cual</b>, palabra por palabra; recapitulate no insiste: <b>recoge y ordena</b> lo ya expuesto para cerrar una parte.",
+      "root": "re- + iterum (otra vez)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "expatiate",
+      "pos": "v",
+      "def": "speak or write at length on one subject",
+      "disc": "De <i>spatiari</i>, <b>pasearse a sus anchas</b> por un tema. La extensión es grande pero <b>el tema es uno solo</b>, y siempre llega con su preposición: <i>___ on</i>, <i>___ upon</i>. Nada de repetirse: cada minuto agrega algo.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "In the third chapter he ___s on drainage for forty pages: one subject, not a sentence repeated, and no sign of stopping.",
+      "twin": "ramble",
+      "whyNotTwin": "expatiate se alarga <b>dentro de un tema</b> y avanza; ramble se alarga <b>saltando de tema</b> y no llega a ninguna parte. Uno profundiza, el otro se pierde.",
+      "root": "ex- + spatiari (pasearse)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "extemporize",
+      "pos": "v",
+      "def": "speak or perform without preparation",
+      "disc": "<i>Ex tempore</i>: <b>sacado del momento</b>. Lo que falta es el <b>guion</b> — se perdieron las notas, cayó el orador previsto, el músico llena el hueco — y el mérito está en que no se note.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "His notes were still on the train, so he had to ___: forty minutes, no script, and nobody in the hall could tell.",
+      "twin": "ramble",
+      "whyNotTwin": "extemporize dice <b>de dónde no salió</b> el discurso — no había papel — y puede ser impecable; ramble dice <b>cómo salió</b>: sin rumbo, y siempre se nota.",
+      "root": "ex tempore (del momento)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ramble",
+      "pos": "v",
+      "def": "talk on and on without direction or point",
+      "disc": "El verbo de <b>pasear sin destino</b>, aplicado al habla: se cambia de asunto por asociación y no se vuelve. Su firma es la <b>lista de cosas inconexas</b> y el oyente esperando el punto que no llega.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Twenty minutes in, the toast had begun to ___: a cousin's boat, a lawsuit, the weather in 1974, and no sign of the bride.",
+      "twin": "expatiate",
+      "whyNotTwin": "ramble <b>abandona el asunto</b> una y otra vez; expatiate <b>no lo suelta</b>: por larga que sea la parrafada, sigue hablando de lo mismo.",
+      "root": "romblen (vagar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

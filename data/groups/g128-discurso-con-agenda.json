@@ -1,0 +1,91 @@
+{
+  "id": "g128",
+  "name": "discurso con agenda",
+  "axis": {
+    "lo": "solo quiere enseñarte una lección",
+    "hi": "quiere encender a la multitud"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "didactic",
+      "pos": "adj",
+      "def": "meant to instruct, often with a moral lesson",
+      "disc": "El propósito es <b>enseñar</b> (<i>didaskein</i>), y en el examen casi siempre con reproche: el texto se detiene a explicar la moraleja en vez de dejar que el lector la saque. Su terreno son <b>manuales, fábulas y novelas con lección</b>.",
+      "tone": "neg",
+      "axisPos": 12,
+      "ej": "Each chapter stops to spell out the lesson for the reader, in the ___ manner of a primer written for schoolchildren.",
+      "twin": "tendentious",
+      "whyNotTwin": "didactic quiere que <b>aprendas</b> algo que da por sabido y cierto; tendentious quiere que <b>te inclines</b> hacia una tesis discutida. Uno da clase, el otro hace campaña.",
+      "root": "didaskein (enseñar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "tendentious",
+      "pos": "adj",
+      "def": "presenting material with a slant toward one conclusion",
+      "disc": "Del alemán <i>tendenziös</i>, escrito <b>con tendencia</b>. No miente: <b>selecciona</b>. Se dice de resúmenes, reseñas y revisiones de la evidencia que citan solo lo que confirma la conclusión a la que ya habían llegado.",
+      "tone": "neg",
+      "axisPos": 38,
+      "ej": "Half the relevant trials go unmentioned and the ones that survive all point the same way: the summary of the evidence is ___, though every sentence in it is true.",
+      "twin": "polemical",
+      "whyNotTwin": "tendentious es <b>sesgo en la selección</b>: los hechos que estorban no aparecen; polemical es <b>combate abierto</b> contra la posición de otro. Uno esconde, el otro ataca de frente.",
+      "root": "tendere (tender hacia)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "chauvinistic",
+      "pos": "adj",
+      "def": "aggressively convinced that one's own group is superior",
+      "disc": "De <b>Nicolas Chauvin</b>, soldado napoleónico de patriotismo delirante. El sesgo no es hacia una tesis sino hacia <b>los propios</b> — el país, el sexo, el gremio — y se sostiene sin argumento, por pertenencia.",
+      "tone": "neg",
+      "axisPos": 58,
+      "ej": "Nothing built abroad could possibly match what his own countrymen built: an assumption so ___ that even his own delegation winced.",
+      "twin": "tendentious",
+      "whyNotTwin": "chauvinistic es lealtad ciega a <b>los míos</b>, y no necesita ni hechos ni adversario; tendentious es un manejo tramposo de <b>los hechos</b> a favor de una tesis cualquiera.",
+      "root": "Chauvin (soldado de Napoleón)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "polemical",
+      "pos": "adj",
+      "def": "written to attack another's position",
+      "disc": "De <i>polemos</i>, <b>guerra</b>. Exige un <b>adversario identificable</b> al que se responde punto por punto. El texto no expone: refuta. Su hábitat son el panfleto, la carta abierta y la reseña demoledora.",
+      "tone": "neg",
+      "axisPos": 74,
+      "ej": "The pamphlet answers a rival's case point by point and never sets out one of its own: it is ___ in the strict sense.",
+      "twin": "tendentious",
+      "whyNotTwin": "polemical necesita <b>alguien enfrente</b> a quien refutar; tendentious puede sesgar en soledad, sin nombrar a nadie, solo eligiendo qué citar.",
+      "root": "polemos (guerra)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "incendiary",
+      "pos": "adj",
+      "def": "likely to stir up violence or public fury",
+      "disc": "Literalmente <b>lo que prende fuego</b> (<i>incendere</i>), y de ahí el discurso que enciende a una multitud. Lo que lo define no es la tesis sino <b>el efecto en la calle</b>: se mide por lo que la gente hace después de oírlo.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "The speech was ___: within the hour the crowd outside had torn down the fence and set fire to the gates.",
+      "twin": "polemical",
+      "whyNotTwin": "incendiary se juzga por <b>lo que provoca</b> — gente en la calle, vidrios rotos —; polemical se juzga por <b>cómo argumenta</b> contra un rival, y puede quedarse en la página sin mover a nadie.",
+      "root": "incendere (incendiar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

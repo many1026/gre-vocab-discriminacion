@@ -5877,5 +5877,165 @@
   "basis": "semantic",
   "nearMiss": "soliloquy",
   "note": "hay interlocutor que pregunta y el hablante vuelve al tema, asi que no es soliloquy; treatise y exegesis son piezas escritas, no un desvio de veinte minutos"
+ },
+ "a67bfd7a166a8d68": {
+  "w": "didactic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tendentious",
+  "note": "el ancla es el primer escolar que deletrea la leccion; tendentious pide una tesis discutida, polemical un rival al que refutar, incendiary una multitud y chauvinistic el propio pais"
+ },
+ "384548797cf5b18e": {
+  "w": "tendentious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "polemical",
+  "note": "seleccion sesgada con todas las frases verdaderas; polemical exigiria un adversario nombrado, didactic una leccion que ensenar, incendiary un efecto en la calle"
+ },
+ "afae1a3478150bf7": {
+  "w": "chauvinistic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tendentious",
+  "note": "la superioridad de los propios sin argumento; no hay presentacion de evidencia (tendentious), ni rival refutado (polemical), ni multitud encendida (incendiary)"
+ },
+ "5868d41d1fc07ecd": {
+  "w": "polemical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tendentious",
+  "note": "responder punto por punto a la causa de un rival sin exponer la propia; tendentious sesga en solitario y sin adversario, incendiary se mide por lo que provoca"
+ },
+ "502556404fc97374": {
+  "w": "incendiary",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "polemical",
+  "note": "la multitud quema las puertas una hora despues; los demas describen como argumenta el texto, no lo que la gente hace al oirlo"
+ },
+ "5256d152ded95a91": {
+  "w": "droll",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "facetious",
+  "note": "cara de palo y ninguna sonrisa, efecto gracioso sin victima; facetious exige un asunto grave tratado en broma, satirical un vicio que denunciar, irreverent algo sagrado, bawdy sexo"
+ },
+ "68070c81620a634d": {
+  "w": "satirical",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "irreverent",
+  "note": "cada chiste cae sobre un abuso documentado y el fin es exponer; irreverent solo quita solemnidad, droll no tiene blanco, facetious no tiene proposito"
+ },
+ "468504218bc9767f": {
+  "w": "facetious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "droll",
+  "note": "la colocacion fija 'don't be ___' mas una pregunta seria contestada con un chiste; droll seria elogio del ingenio seco, irreverent pediria algo sagrado"
+ },
+ "e74425c5380e5fe8": {
+  "w": "irreverent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "satirical",
+  "note": "trata sin solemnidad lo que la institucion tiene por sagrado, sin denunciar abuso alguno (satirical) ni hablar del cuerpo (bawdy)"
+ },
+ "bdba067e1968eed5": {
+  "w": "bawdy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "irreverent",
+  "note": "innuendo y anatomia en canciones de taberna; irreverent necesitaria algo venerado, satirical un vicio que exponer, droll sequedad de tono"
+ },
+ "4f53ffb37af31cc0": {
+  "w": "dowdy",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "slovenly",
+  "note": "limpio y planchado pero de otra decada, el reparo es de moda; slovenly exige desorden, y decadent, prurient y sordid son juicios morales"
+ },
+ "90d45af43fd746eb": {
+  "w": "slovenly",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dowdy",
+  "note": "el descuido en el trabajo — entradas desordenadas, fechas ausentes —; dowdy solo se dice del vestir y no de un cuaderno, los demas piden falta moral"
+ },
+ "568f63930d1e95aa": {
+  "w": "decadent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sordid",
+  "note": "banquetes que se comen la renta de una provincia, caida desde un esplendor previo; sordid es bajeza mezquina sin esplendor, slovenly es desorden y no lujo"
+ },
+ "f8dc43a44b7f1b0e": {
+  "w": "prurient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sordid",
+  "note": "el apetito de mirar el dormitorio ajeno, y la colocacion es 'a ___ curiosity'; sordid califica el hecho y no la curiosidad, y no hay dinero sucio"
+ },
+ "82416f70a22f4dcc": {
+  "w": "sordid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "decadent",
+  "note": "pagos, firma falsificada y un testigo comprado; decadent pediria lujo en descomposicion, prurient deseo sexual, slovenly desorden"
+ },
+ "3ef3b82fd02d801e": {
+  "w": "recapitulate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "reiterate",
+  "note": "comprimir en dos minutos lo de toda la manana y enumerar los hallazgos en orden; reiterate repite una sola pieza tal cual, y expatiate, extemporize y ramble no rigen ese objeto"
+ },
+ "c33c5055d750eaa2": {
+  "w": "reiterate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "recapitulate",
+  "note": "repetir la misma advertencia palabra por palabra contradice el resumen de recapitulate; expatiate y ramble son intransitivos y no valen aqui"
+ },
+ "bf16a69173720d13": {
+  "w": "expatiate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ramble",
+  "note": "cuarenta paginas escritas sobre un solo tema sin repetir una frase; ramble salta de tema, reiterate repite, recapitulate resume, extemporize exige no haber preparado nada"
+ },
+ "459b48ae7a8ba353": {
+  "w": "extemporize",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ramble",
+  "note": "se perdieron las notas, no hay guion y no se nota; ramble no es algo que uno 'tenga que' hacer y siempre se nota, expatiate pediria tema y preposicion"
+ },
+ "f9499440e9cc6841": {
+  "w": "ramble",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "expatiate",
+  "note": "el barco de un primo, un pleito y el clima de 1974 sin llegar a la novia; expatiate no suelta el tema, reiterate repetiria lo mismo, recapitulate resumiria"
  }
 }

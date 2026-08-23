@@ -1,0 +1,91 @@
+{
+  "id": "g129",
+  "name": "humor y burla",
+  "axis": {
+    "lo": "gracia que no incomoda a nadie",
+    "hi": "chiste que cruza la línea"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "droll",
+      "pos": "adj",
+      "def": "amusing in a dry, understated, slightly odd way",
+      "disc": "La gracia está en <b>la rareza contada sin énfasis</b>: cara de palo, voz plana, ninguna señal de que haya un chiste. No tiene víctima ni intención de ofender — por eso es el extremo inocente del grupo.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "He tells the whole story deadpan, without a flicker of a smile, and the effect is ___ rather than hilarious.",
+      "twin": "facetious",
+      "whyNotTwin": "droll es <b>humor logrado</b> por la sequedad del tono, y cae bien; facetious es <b>humor fuera de lugar</b>, y molesta porque llega cuando tocaba hablar en serio.",
+      "root": "drôle (gracioso, en francés)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "satirical",
+      "pos": "adj",
+      "def": "using ridicule to expose vice or folly",
+      "disc": "La burla tiene <b>blanco y propósito</b>: cada chiste señala un abuso real para dejarlo a la vista. Sin ese fin correctivo es solo comedia — la sátira quiere <b>que algo cambie</b> después de la risa.",
+      "tone": "neu",
+      "axisPos": 45,
+      "ej": "Every joke in the piece lands on a documented abuse at the ministry: the aim is not to amuse but to expose, which is what makes it ___.",
+      "twin": "irreverent",
+      "whyNotTwin": "satirical apunta a <b>un vicio concreto</b> para denunciarlo; irreverent solo <b>le quita solemnidad</b> a lo venerado, sin denunciar nada ni pedir reforma.",
+      "root": "satura (plato variado, mezcla)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "facetious",
+      "pos": "adj",
+      "def": "joking about something that deserves to be taken seriously",
+      "disc": "El problema no es el chiste sino <b>el momento</b>: alguien pregunta en serio y recibe una broma. Aparece casi siempre como reproche — <i>don't be ___</i> — y describe la respuesta, no a la persona.",
+      "tone": "neg",
+      "axisPos": 60,
+      "ej": "'Don't be ___,' the judge said: she had asked for the defendant's address, not for a joke about the postal service.",
+      "twin": "droll",
+      "whyNotTwin": "facetious se define por <b>llegar en mal momento</b> a un asunto grave; droll se define por <b>cómo se cuenta</b>, y no depende de que el tema sea serio.",
+      "root": "facetia (broma, chiste)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "irreverent",
+      "pos": "adj",
+      "def": "showing no respect for what others hold sacred",
+      "disc": "Le falta <b>reverencia</b>: trata sin solemnidad aquello ante lo que se supone que hay que bajar la voz — el fundador, el himno, el santo, el clásico. No acusa a nadie de nada; simplemente <b>no se descubre la cabeza</b>.",
+      "tone": "neu",
+      "axisPos": 74,
+      "ej": "He calls the founder 'the old fraud' and the anthem 'that dirge': the biography is ___ about everything the college holds sacred.",
+      "twin": "satirical",
+      "whyNotTwin": "irreverent mide la <b>falta de respeto</b> hacia lo venerado y puede ser puro juego; satirical mide el <b>ataque con blanco</b>, y su chiste siempre acusa a alguien de algo.",
+      "root": "in- + revereri (venerar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "bawdy",
+      "pos": "adj",
+      "def": "humorously indecent about sex",
+      "disc": "Obscenidad <b>alegre y de taberna</b>: canciones de marineros, comedia isabelina, chistes de doble sentido. No es lascivia sombría — es risa franca sobre el cuerpo, y por eso suele describir <b>canciones, coplas y comedias</b>.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The tavern songs are ___ — all innuendo and anatomy — and the printed editions quietly leave three verses out.",
+      "twin": "irreverent",
+      "whyNotTwin": "bawdy es indecencia <b>sobre el sexo</b>, y su terreno es el cuerpo; irreverent es falta de respeto <b>a lo sagrado</b>, y puede ser perfectamente casta.",
+      "root": "bawd (alcahueta)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

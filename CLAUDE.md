@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **127 grupos, 734/1112 palabras (66.0%)**, `run_all.py` en verde, 0 errores
+- **131 grupos, 754/1112 palabras (67.8%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -142,6 +142,23 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
 - **`wander off into ___` no separa `digression` de `soliloquy`.** «Launch into a soliloquy»
   es igual de idiomático. Hace falta **un interlocutor que pregunte y un regreso al tema**:
   el soliloquy exige estar solo y no vuelve de ninguna parte.
+- **`facetious` solo se separa de `droll` por la colocación fija.** Cualquier cloze del tipo
+  «su ___ respuesta — algo sobre la máquina de café — no satisfizo a nadie» lo llena `droll`
+  igual de bien: una respuesta de humor seco también deja a todos insatisfechos si la
+  pregunta era grave. La salida en g129 fue el reproche hecho: **«Don't be ___»** más una
+  pregunta seria contestada con un chiste. «Don't be droll» no es inglés.
+- **`slovenly` se cuela en cualquier hueco de institución dejada.** El primer cloze de
+  `decadent` en g130 («no army worth the name, nobody left who remembered why the rules
+  existed») lo llenaba `slovenly`: eso es desidia administrativa, no decadencia. `decadent`
+  necesita **lujo que se está comiendo un patrimonio previo** — banquetes de nueve horas que
+  se comen la renta de una provincia —, porque lo suyo es la caída desde una altura, no el
+  desorden.
+- **`extemporize` y `expatiate` comparten la preposición `on`.** «Expatiate on drainage for
+  an hour» y «extemporize on drainage for an hour» son las dos inglés corriente, así que la
+  longitud y el tema no separan nada. Lo que sí separa es **el soporte**: `expatiate` vale
+  para lo escrito (cuarenta páginas), y `extemporize` no puede serlo — sin guion previo no
+  hay páginas. `improvise` queda libre pero es sinónimo verdadero de `extemporize` en el
+  sentido de hablar sin preparación: no pueden ser hermanas.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

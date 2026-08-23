@@ -1,0 +1,91 @@
+{
+  "id": "g130",
+  "name": "lo que rebaja: de la ropa a la moral",
+  "axis": {
+    "lo": "el reparo es solo de apariencia",
+    "hi": "el reparo es moral"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "dowdy",
+      "pos": "adj",
+      "def": "dull and unfashionable in dress",
+      "disc": "El reproche es <b>de moda, no de higiene</b>: la ropa puede estar impecable y aun así ser deslucida, apagada, de otra década. Describe <b>prendas y a quien las lleva</b>, y nunca al trabajo ni al carácter.",
+      "tone": "neg",
+      "axisPos": 8,
+      "ej": "Her suit was clean and carefully pressed, and hopelessly ___: nobody had worn that collar since the seventies.",
+      "twin": "slovenly",
+      "whyNotTwin": "dowdy es estar <b>pasado de moda</b> con todo en orden; slovenly es el <b>desorden</b> mismo — manchas, arrugas, cosas a medio hacer. Una prenda puede ser dowdy recién planchada.",
+      "root": "dowd (mujer mal vestida)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "slovenly",
+      "pos": "adj",
+      "def": "untidy and careless, in appearance or in work",
+      "disc": "El descuido <b>se extiende de la persona a lo que hace</b>: tanto la camisa por fuera como el registro de laboratorio a medio llenar. Su marca es la <b>desidia visible</b> — nada está donde debería.",
+      "tone": "neg",
+      "axisPos": 25,
+      "ej": "The lab notebook was ___: entries out of order, half the dates missing, and three pages of pencil that had smudged.",
+      "twin": "dowdy",
+      "whyNotTwin": "slovenly juzga el <b>descuido</b> y alcanza al trabajo, a la casa y a la prosa; dowdy juzga solo <b>el gusto al vestir</b> y no puede decirse de un cuaderno.",
+      "root": "sloven (persona descuidada)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "decadent",
+      "pos": "adj",
+      "def": "self-indulgent and in moral decline from a former standard",
+      "disc": "Supone <b>una altura anterior desde la cual se cayó</b> (<i>de-cadere</i>, caer): imperios tardíos, cortes de banquete perpetuo, un arte que ya solo se refina. El lujo es el síntoma; la <b>decadencia</b> es el diagnóstico.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "By its last century the court had grown ___: nine-hour banquets that ate a province's revenue, and not one general left worth the name.",
+      "twin": "sordid",
+      "whyNotTwin": "decadent es caída <b>desde arriba y con lujo</b>: hace falta un esplendor previo que se está gastando; sordid es sordidez <b>de abajo</b>, mezquina y sin ningún esplendor que perder.",
+      "root": "de- + cadere (caer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prurient",
+      "pos": "adj",
+      "def": "having or arousing an excessive interest in sexual matters",
+      "disc": "Es el <b>apetito de mirar</b>, no el acto: describe la <b>curiosidad, el interés y el morbo</b> del público o del lector. Vocabulario de tribunales y de crítica de prensa — <i>a ___ interest</i>, <i>___ curiosity</i>.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "The coverage lingered on the couple's bedroom arrangements to feed a ___ curiosity that had nothing to do with the charges.",
+      "twin": "sordid",
+      "whyNotTwin": "prurient está en <b>quien mira</b> y siempre es sexual; sordid está en <b>el hecho mirado</b> y suele ser cuestión de dinero sucio, no de deseo.",
+      "root": "prurire (picar, escocer)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "sordid",
+      "pos": "adj",
+      "def": "morally squalid, marked by greed and petty dishonesty",
+      "disc": "De <i>sordes</i>, <b>suciedad</b>. Lo que ensucia aquí son los <b>pagos, los sobornos y las mezquindades</b> que salen a la luz cuando se quita el barniz. Su colocación fija es <i>the ___ details</i>.",
+      "tone": "neg",
+      "axisPos": 90,
+      "ej": "Strip away the romance and what remains is ___: a string of payments, a forged signature, and a witness bought for two hundred pounds.",
+      "twin": "decadent",
+      "whyNotTwin": "sordid es <b>bajeza mezquina</b> — dinero, mentira, trato sucio —; decadent es <b>lujo en descomposición</b>, y necesita una grandeza previa. Un soborno de doscientas libras no tiene nada de decadent.",
+      "root": "sordes (suciedad)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}
