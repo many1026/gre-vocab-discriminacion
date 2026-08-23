@@ -1,0 +1,91 @@
+{
+  "id": "g132",
+  "name": "lo que se ve venir",
+  "axis": {
+    "lo": "alguien lo supo antes de tiempo",
+    "hi": "ya no hay manera de esquivarlo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "prescient",
+      "pos": "adj",
+      "def": "knowing what will happen before it happens",
+      "disc": "Califica a <b>quien predice</b> — la analista, el memo, la advertencia — y supone <b>razonamiento</b>: se vio en los datos lo que nadie más leyó. Rige <b>about</b>: <i>___ about the collapse</i>.",
+      "tone": "pos",
+      "axisPos": 12,
+      "ej": "She was ___ enough to sell every mortgage bond eighteen months before anyone else on the desk saw a problem.",
+      "twin": "prophetic",
+      "whyNotTwin": "prescient califica a <b>quien sabía antes</b> y supone que lo dedujo; prophetic califica a <b>un texto o una frase</b> que, releída después, resultó cierta — pudo acertar de casualidad.",
+      "root": "prae + scire (saber antes)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "prophetic",
+      "pos": "adj",
+      "def": "of a prophet, or foretelling in the manner of a prophecy",
+      "disc": "Vive en el registro de <b>la profecía</b>: libros sagrados, visiones, frases que se leen después como anuncio. Colocaciones: <i>a ___ book</i>, <i>a ___ vision</i>, <i>___ words</i>.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "The sect reveres the book as ___ and is still waiting for the year its last chapter names.",
+      "twin": "prescient",
+      "whyNotTwin": "prophetic pertenece al mundo del <b>profeta y la revelación</b>; prescient al de la <b>previsión razonada</b>. Un informe de riesgos puede ser prescient; prophetic solo lo sería en boca de sus fieles.",
+      "root": "prophetes (el que habla en nombre del dios)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "foreseeable",
+      "pos": "adj",
+      "def": "able to be predicted or expected in advance",
+      "disc": "Dos usos fijos y casi nada más: <b>the ___ future</b>, que es el horizonte hasta donde alcanza la vista, y el jurídico <b>___ harm / risk / consequence</b>, lo que una persona prudente habría anticipado.",
+      "tone": "neu",
+      "axisPos": 52,
+      "ej": "The plant will stay shut for the ___ future: nobody is even pretending that a buyer will appear.",
+      "twin": "ineluctable",
+      "whyNotTwin": "foreseeable dice que <b>se podía anticipar</b> y deja abierto si ocurre; ineluctable dice que <b>no se puede esquivar</b> aunque se anticipe. Uno habla de la vista, el otro de la salida.",
+      "root": "fore + see (ver de antemano)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "imminent",
+      "pos": "adj",
+      "def": "about to happen at any moment",
+      "disc": "Mide <b>tiempo, no certeza</b>: lo inminente está encima. Va con amenazas y sucesos — <i>___ collapse</i>, <i>___ danger</i>, <i>___ arrival</i> — y se desinfla en cuanto el plazo se alarga.",
+      "tone": "neu",
+      "axisPos": 72,
+      "ej": "The barometer had been dropping since noon, and by six the storm was so ___ that the crew cut the nets loose rather than spend ten minutes hauling them in.",
+      "twin": "ineluctable",
+      "whyNotTwin": "imminent dice <b>cuándo</b>: dentro de un momento. ineluctable dice <b>si hay escapatoria</b>: ninguna. Un desenlace puede ser ineluctable y tardar un siglo en llegar.",
+      "root": "in + minere (colgar encima)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "ineluctable",
+      "pos": "adj",
+      "def": "impossible to escape or avoid",
+      "disc": "Registro <b>lógico y fatal</b>: <i>the ___ logic</i>, <i>an ___ conclusion</i>, <i>the ___ fact</i>. No dice cuándo llega, dice que <b>no hay puerta</b> por donde salir.",
+      "tone": "neu",
+      "axisPos": 92,
+      "ej": "He had granted every premise an hour earlier, and now the ___ logic of the proof marched him to a conclusion he detested.",
+      "twin": "imminent",
+      "whyNotTwin": "ineluctable niega <b>la salida</b>; imminent anuncia <b>la hora</b>. La lógica de una demostración no puede ser imminent, y una tormenta que llega en diez minutos todavía se esquiva.",
+      "root": "in + eluctari (zafarse luchando)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    }
+  ]
+}

@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **131 grupos, 754/1112 palabras (67.8%)**, `run_all.py` en verde, 0 errores
+- **135 grupos, 776/1112 palabras (69.8%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -159,6 +159,23 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   para lo escrito (cuarenta páginas), y `extemporize` no puede serlo — sin guion previo no
   hay páginas. `improvise` queda libre pero es sinónimo verdadero de `extemporize` en el
   sentido de hablar sin preparación: no pueden ser hermanas.
+- **`prescient` y `prophetic` no se separan por «acertó antes».** «Her 1997 memo was eerily
+  prescient» y «…was eerily prophetic» son las dos inglés corriente: cualquier cloze de texto
+  releído después lo llenan las dos. Lo que sí separa en g132 es el **soporte**: prescient
+  nombra una **capacidad de una persona que la lleva a actuar** — *___ enough to sell every
+  bond* —, y prophetic un **texto de profecía todavía sin cumplir** — la secta que espera el
+  año que nombra el último capítulo. Un libro no es *prescient enough to* nada, y una decisión
+  de venta no es prophetic.
+- **`tangible` se traga cualquier hueco de «no se nota».** *No ___ difference*, *no ___ change*,
+  *no ___ effect*: «no tangible difference» es tan idiomático como con `discernible`, así que
+  ese marco no discrimina. La salida en g134 fue llevar a `discernible` al **límite del ojo**
+  — la orilla lejana en la niebla, «a darker grey against the grey» —, donde tangible queda
+  fuera porque una orilla no se toca.
+- **En verbos causales la estructura argumental es la distinción, no un atajo.** En g135
+  `ensue` (intransitivo puro) y `render` (objeto + atributo) solo se separan por el marco que
+  rigen, y sus cloze quedan registrados con `--basis grammatical`. Es honesto y está bien: la
+  subcategorización *es* lo que hay que aprender de esos dos verbos. Distinto sería resolver
+  el ítem por la categoría gramatical, que es lo que prohíbe la regla 2.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

@@ -1,0 +1,97 @@
+{
+  "id": "g135",
+  "name": "quién causa y quién resulta",
+  "axis": {
+    "lo": "el sujeto del verbo es lo causado",
+    "hi": "el sujeto del verbo es la causa"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "ensue",
+      "pos": "v",
+      "def": "to happen afterwards as a result",
+      "disc": "<b>Intransitivo puro</b>: no lleva objeto y no nombra la causa — lo que ensue es la consecuencia misma. Sujetos típicos: <i>chaos</i>, <i>silence</i>, <i>a lawsuit</i>, <i>an argument</i>.",
+      "tone": "neu",
+      "axisPos": 6,
+      "ej": "He mentioned the will at dinner knowing exactly what would ___: two hours of argument and a door slammed hard enough to crack the frame.",
+      "twin": "stem from",
+      "whyNotTwin": "ensue no dice <b>de dónde</b> viene: solo que vino después. stem from señala el origen con la preposición <i>from</i> y lo obliga a nombrarlo.",
+      "root": "en + sequi (seguir detrás)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "stem from",
+      "pos": "v",
+      "def": "to have its origin in something",
+      "disc": "Va del <b>efecto hacia atrás</b>: el sujeto es el problema y lo que viene tras <i>from</i> es la raíz. Encabeza explicaciones de auditoría, de diagnóstico y de conflicto.",
+      "tone": "neu",
+      "axisPos": 22,
+      "ej": "The complaints seem to ___ a single misread instruction in the 2019 handbook, copied forward every year since.",
+      "twin": "ensue",
+      "whyNotTwin": "las dos ponen el efecto de sujeto, pero stem from <b>nombra la causa</b> detrás de <i>from</i>; ensue la calla y se limita a decir que aquello ocurrió a continuación.",
+      "root": "stem (tallo: seguir el tallo hasta la raíz)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "engender",
+      "pos": "v",
+      "def": "to give rise to a feeling or a state of affairs",
+      "disc": "Su objeto es casi siempre <b>abstracto y lento</b>: <i>___ trust</i>, <i>___ loyalty</i>, <i>___ resentment</i>, <i>___ debate</i>. No dispara un suceso: <b>cría</b> una disposición.",
+      "tone": "neu",
+      "axisPos": 60,
+      "ej": "Ten years of missed deadlines will ___ a suspicion that no memo is going to undo.",
+      "twin": "precipitate",
+      "whyNotTwin": "engender <b>cría despacio</b> un estado de ánimo o una condición; precipitate <b>dispara de golpe</b> un suceso con fecha. Diez años engender; una sola frase precipitate.",
+      "root": "generare (engendrar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "precipitate",
+      "pos": "v",
+      "def": "to trigger an event suddenly, before its time",
+      "disc": "Objeto <b>puntual y con fecha</b>: <i>___ a crisis</i>, <i>___ a war</i>, <i>___ a run on the bank</i>. Lleva dentro la caída de cabeza (<i>praeceps</i>): adelanta lo que iba a tardar.",
+      "tone": "neu",
+      "axisPos": 80,
+      "ej": "A single sentence in the minister's speech was enough to ___ a run on the bank before the markets closed.",
+      "twin": "engender",
+      "whyNotTwin": "precipitate necesita <b>un suceso</b> que ocurra de golpe; engender necesita <b>un estado</b> que se vaya formando. Nadie engenders una corrida bancaria en una tarde.",
+      "root": "prae + caput (de cabeza)",
+      "tier": 1,
+      "sense2": {
+        "def": "hasty and ill-considered, as an adjective",
+        "ej": "The board's ___ decision to sell cost it the only asset anyone wanted."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "render",
+      "pos": "v",
+      "def": "to cause something to be in a particular state",
+      "disc": "El único del grupo que pide <b>objeto y atributo a la vez</b>: <i>___ it useless</i>, <i>___ the treaty void</i>, <i>___ him unrecognizable</i>. No cuenta de dónde viene nada: deja algo <b>en un estado</b>.",
+      "tone": "neu",
+      "axisPos": 96,
+      "ej": "One missing signature was enough to ___ the whole contract void.",
+      "twin": "engender",
+      "whyNotTwin": "render deja el objeto <b>en un estado</b> y necesita el adjetivo detrás; engender <b>trae al mundo</b> algo que antes no existía y se basta con el objeto.",
+      "root": "reddere (devolver, dejar hecho)",
+      "tier": 1,
+      "sense2": {
+        "def": "to give or provide something formally",
+        "ej": "The court will ___ its verdict on Thursday."
+      },
+      "contrast": true,
+      "polysemous": true
+    }
+  ]
+}

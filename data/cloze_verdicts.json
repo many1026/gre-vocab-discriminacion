@@ -6037,5 +6037,181 @@
   "basis": "semantic",
   "nearMiss": "expatiate",
   "note": "el barco de un primo, un pleito y el clima de 1974 sin llegar a la novia; expatiate no suelta el tema, reiterate repetiria lo mismo, recapitulate resumiria"
+ },
+ "5f5a41634c098991": {
+  "w": "prescient",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prophetic",
+  "note": "solo prescient nombra una capacidad de la persona que la lleva a actuar — '___ enough to sell'; prophetic califica un texto o una visión, no una destreza para decidir. foreseeable, imminent e ineluctable se dicen del suceso, no de quien lo prevé."
+ },
+ "f6e18def80a6dbc6": {
+  "w": "prophetic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prescient",
+  "note": "la profecía está sin cumplir — el año todavía no llega —, y prescient exige foreknowledge ya demostrada. Un libro que una secta venera y espera solo puede ser prophetic; foreseeable, imminent e ineluctable no califican escrituras."
+ },
+ "e9dd3b77efe3ef8f": {
+  "w": "foreseeable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ineluctable",
+  "note": "'for the ___ future' es colocación fija de foreseeable; 'the imminent future' y 'the ineluctable future' no son inglés, y prescient/prophetic califican a quien predice, no al horizonte."
+ },
+ "cf59d28293e7eb6d": {
+  "w": "imminent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ineluctable",
+  "note": "el ancla es el reloj — 'by six', 'ten minutes' —, y solo imminent mide tiempo. ineluctable niega la salida sin decir cuándo; foreseeable habla de predecibilidad, que no justifica cortar las redes."
+ },
+ "c7f50196dfd37a6a": {
+  "w": "ineluctable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "imminent",
+  "note": "'the ___ logic of the proof' es colocación propia de ineluctable; una lógica no puede ser imminent ni foreseeable, y prescient/prophetic piden un sujeto que hable o prevea."
+ },
+ "a4c49d4c52182054": {
+  "w": "macabre",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "repugnant",
+  "note": "'a ___ sense of humour' con ataúdes es el terreno propio de macabre — la muerte como tema. repugnant rige 'to' y condena; aquí el chiste se presenta como habito profesional. sadistic exigiria una victima, y la broma es sobre ellos mismos."
+ },
+ "ebcef16d1b9f3a52": {
+  "w": "repugnant",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "macabre",
+  "note": "el marco '___ to every principle' es exclusivo de repugnant; ni macabre, ni invidious, ni base, ni malevolent, ni sadistic rigen 'to' con una norma detras."
+ },
+ "5c55cfaa6517c940": {
+  "w": "invidious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "base",
+  "note": "'___ comparison' mas 'would poison' es el efecto tipico de invidious — resentimiento en quien sale peor. base juzga el motivo y aqui no hay ninguno; malevolent exigiria mala intencion, y la frase dice 'any comparison'."
+ },
+ "b615c061a359f7d7": {
+  "w": "base",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "invidious",
+  "note": "'the motive was ___' con el motivo explicitado como querer despacho y coche es el terreno de base — bajeza del movil. malevolent exigiria desear el mal ajeno, no un ascenso; repugnant necesita norma y 'to'."
+ },
+ "37475a0749a526b5": {
+  "w": "malevolent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "sadistic",
+  "note": "la frase da voluntad — 'wished the whole village gone' —, no placer, asi que sadistic queda fuera; macabre califica el tema de la muerte y no puede desear nada; base juzga moviles humanos."
+ },
+ "612122fbc52b415a": {
+  "w": "sadistic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "malevolent",
+  "note": "el argumento de la defensa es 'took no pleasure', que solo refuta a sadistic; contra la etiqueta malevolent la ausencia de placer no probaria nada, porque malevolent solo pide querer el dano."
+ },
+ "fd5fcbbe0c357ecd": {
+  "w": "turbid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pellucid",
+  "note": "solo turbid se dice del agua cargada de sedimento, y el sedimento es lo que atasca los filtros; pellucid es el polo contrario, y discernible/explicable/coherent/tangible no califican liquidos."
+ },
+ "1c4621a89dd1a35e": {
+  "w": "discernible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "tangible",
+  "note": "la prueba que da la frase es visual — un gris mas oscuro contra el gris —, y a una orilla lejana no se la puede tocar, asi que tangible queda fuera; coherent, explicable y pellucid no se dicen de una orilla."
+ },
+ "7f7fd7f2ec70fc62": {
+  "w": "explicable",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "coherent",
+  "note": "el guion trae la causa — cambiaba los rollos —, y solo explicable pide causa. discernible hablaria de si el hueco se percibe, que nadie discute; coherent necesita partes que encajen, y un hueco no tiene partes."
+ },
+ "7bea313ef1ce461b": {
+  "w": "coherent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "pellucid",
+  "note": "el fallo que nombra la frase es la contradiccion entre capitulos, no la oscuridad, y la premisa dice que cada capitulo estaba bien escrito — asi que pellucid ya se cumplia; explicable y tangible no se dicen de un libro entero."
+ },
+ "99f143afa98ffcc1": {
+  "w": "pellucid",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "turbid",
+  "note": "contar monedas en el fondo desde la barca es el uso literal de pellucid; turbid es justo lo contrario, y coherent/explicable/discernible/tangible no califican una laguna."
+ },
+ "5cb5b0904c6c09a2": {
+  "w": "tangible",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "discernible",
+  "note": "'___ assets' es termino contable y la frase monta el contraste con los intangibles — software y marcas —; 'discernible assets' no existe como termino, y coherent/explicable/pellucid/turbid no califican activos."
+ },
+ "2bfaacac5ce24c67": {
+  "w": "stem from",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "ensue",
+  "note": "las quejas son posteriores a una instruccion de 2019 copiada desde entonces, asi que engender y precipitate invierten la causalidad; ensue no admite objeto y render pediria atributo detras."
+ },
+ "01447e4c9f676e77": {
+  "w": "engender",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "precipitate",
+  "note": "el objeto es una disposicion abstracta que se forma en diez anos, y precipitate pide un suceso repentino con fecha; render necesita atributo, ensue no lleva objeto y stem from invierte la direccion."
+ },
+ "e56bdb2177eccfa7": {
+  "w": "ensue",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "stem from",
+  "note": "ensue es el unico intransitivo del grupo y el hueco cierra la oracion antes de los dos puntos: engender, precipitate y render exigen objeto, y stem from exige complemento tras 'from'."
+ },
+ "91c0c7a6112f8282": {
+  "w": "precipitate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "engender",
+  "note": "el objeto es un suceso puntual con reloj — una corrida bancaria antes del cierre —, terreno de precipitate; engender solo cria disposiciones, render pide atributo y ensue no admite objeto."
+ },
+ "26fc91b49a3100b4": {
+  "w": "render",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "grammatical",
+  "nearMiss": "engender",
+  "note": "solo render admite objeto mas atributo — '___ the contract void'; engender y precipitate dejarian 'void' sin construccion, ensue no lleva objeto y stem from pide 'from'."
  }
 }
