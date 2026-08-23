@@ -6717,5 +6717,45 @@
   "basis": "semantic",
   "nearMiss": "surmount",
   "note": "«___ over the government's» es la preposicion propia de prevail y el marco es un pleito que se gana al final, no un obstaculo que se pasa"
+ },
+ "da4f5f8834cc0ba5": {
+  "w": "antedate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prefigure",
+  "note": "la capilla es dos siglos anterior y nada mas: anterioridad pura, sin parecido ni anuncio"
+ },
+ "36f44f36f0060c0e": {
+  "w": "prefigure",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "antedate",
+  "note": "'is already ___d in a sketch' con la misma diagonal y el mismo rincon vacio: hay semejanza, y antedate no admite esa pasiva"
+ },
+ "169c50ed043f4626": {
+  "w": "presage",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "portend",
+  "note": "una caida de pedidos que anuncia un cambio en como se gestiona el sector: desenlace neutro e inferencia analitica, no augurio grave"
+ },
+ "bcc85c77a0be17e9": {
+  "w": "portend",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "presage",
+  "note": "cometa y muerte de reyes es el registro del augurio, con desenlace de la maxima gravedad"
+ },
+ "7108c4cad7365ace": {
+  "w": "forebode",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "portend",
+  "note": "el aviso esta en la inquietud del que entra en la casa, no en una senal que cualquiera pudiera leer"
  }
 }

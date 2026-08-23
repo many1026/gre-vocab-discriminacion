@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **147 grupos, 839/1112 palabras (75.4%)**, `run_all.py` en verde, 0 errores
+- **148 grupos, 844/1112 palabras (75.9%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -105,8 +105,10 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
 - **Sinónimos verdaderos no pueden ser hermanos.** `hamper`/`hinder`/`impede` no tienen firma
   colocacional que los separe: como hermanos no producen cloze únicos. Necesitan un grupo
   diseñado por dominios (`occlude`→conducto, `inhibit`→proceso, `circumscribe`→alcance).
-- **Campo "presagiar" bloqueado**: solo quedan 4 verbos libres (`presage`, `portend`,
-  `forebode`, `prefigure`) y `harbinger` es sustantivo.
+- ~~Campo "presagiar" bloqueado~~ **resuelto en g148**: los 4 verbos proféticos (`presage`,
+  `portend`, `forebode`, `prefigure`) llegaron a cinco al sumarles `antedate`, que no
+  presagia nada — solo es anterior — y entra como polo de contraste del eje. `harbinger`
+  sigue suelto: es sustantivo.
 - **`placate`/`mollify`/`appease` son tres sinónimos verdaderos.** Ninguna oración separa a
   dos de ellos: lo que calma un enojo sirve para los tres. Están en `data/parked.json`; el
   campo "calmar" se cerró con los cinco que sí tienen dominio propio (`lull` → falsa

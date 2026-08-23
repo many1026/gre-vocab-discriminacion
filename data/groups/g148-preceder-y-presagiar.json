@@ -1,0 +1,91 @@
+{
+  "id": "g148",
+  "name": "preceder y presagiar",
+  "axis": {
+    "lo": "solo vino antes en el tiempo",
+    "hi": "hace presentir una desgracia"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "antedate",
+      "pos": "verb",
+      "def": "to come earlier in time than something else",
+      "disc": "El único del grupo <b>sin profecía ninguna</b>: dice solo que una cosa es anterior a otra. Registro de historiador y de arqueólogo, y sirve para desmontar atribuciones — si la capilla antedates la catedral, el arquitecto no pudo ser aquel.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "The chapel ___s the cathedral by two centuries and was left standing when the rest was pulled down.",
+      "twin": "prefigure",
+      "whyNotTwin": "antedate solo afirma <b>anterioridad</b>: pasó antes; prefigure añade <b>parecido</b>: lo anterior ya contenía la forma de lo que vendría.",
+      "root": "ante (antes) + date (fecha)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": true,
+      "polysemous": false
+    },
+    {
+      "w": "prefigure",
+      "pos": "verb",
+      "def": "to show in advance the shape of what will come",
+      "disc": "No anuncia: <b>ensaya la forma</b>. Los bocetos prefiguran el cuadro, una revuelta prefigura la revolución. La relación es de <b>semejanza</b>, y solo se ve mirando hacia atrás.",
+      "tone": "neu",
+      "axisPos": 32,
+      "ej": "Everything the mural would become is already ___d in a sketch from two years earlier: the same diagonal, the same empty corner.",
+      "twin": "antedate",
+      "whyNotTwin": "prefigure exige que <b>se parezcan</b>: lo primero es un ensayo de lo segundo; antedate se conforma con que <b>lo primero sea más viejo</b>, aunque no tengan nada que ver.",
+      "root": "prae (antes) + figura (forma)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "presage",
+      "pos": "verb",
+      "def": "to be a sign of what is going to happen",
+      "disc": "<b>Percibir de antemano</b> (<i>prae</i> + <i>sagire</i>). Es el más <b>analítico</b> del trío profético: un indicio del que se deduce un desenlace concreto, y ese desenlace no tiene por qué ser trágico.",
+      "tone": "neu",
+      "axisPos": 55,
+      "ej": "Nobody saw that the small fall in orders ___d a change in how the whole industry would be run.",
+      "twin": "portend",
+      "whyNotTwin": "presage admite <b>cualquier desenlace</b>, incluso banal o bueno, y funciona como inferencia; portend exige que lo anunciado sea <b>grave</b> y llega con aire de augurio.",
+      "root": "prae + sagire (percibir agudamente)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "portend",
+      "pos": "verb",
+      "def": "to be an omen of something momentous, usually bad",
+      "disc": "<b>Extender delante</b> como una señal (<i>por-</i> + <i>tendere</i>). Su registro es el del <b>presagio</b>: cometas, eclipses, pájaros. Lo anunciado siempre es de peso — la caída de un reino, no un mal día.",
+      "tone": "neg",
+      "axisPos": 75,
+      "ej": "The comet was taken to ___ the death of kings; in the event it coincided with an unusually good harvest.",
+      "twin": "presage",
+      "whyNotTwin": "portend anuncia <b>algo grave</b> y viene del mundo de los augurios; presage anuncia <b>lo que sea</b> y viene del de las inferencias.",
+      "root": "por- + tendere (extender delante)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "forebode",
+      "pos": "verb",
+      "def": "to give, or to feel, a presentiment of coming evil",
+      "disc": "Es el único donde el aviso puede estar <b>dentro de quien lo siente</b>: no hace falta señal en el cielo, basta una inquietud. De ahí <i>foreboding</i>, ese mal presentimiento que no se sabe justificar.",
+      "tone": "neg",
+      "axisPos": 92,
+      "ej": "Something in the quiet of the house ___d trouble before he had even put the key down.",
+      "twin": "portend",
+      "whyNotTwin": "forebode se juega en <b>la inquietud del que percibe</b>; portend se juega en <b>la señal misma</b>, que cualquiera puede leer. Uno lo presiente, el otro lo anuncia.",
+      "root": "fore (antes) + bode (anunciar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}
