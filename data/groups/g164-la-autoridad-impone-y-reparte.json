@@ -1,0 +1,99 @@
+{
+  "id": "g164",
+  "name": "lo que hace la autoridad: imponer, fijar, repartir, dotar, ungir",
+  "axis": {
+    "lo": "lo impone quien tiene la fuerza y el otro acata",
+    "hi": "lo confiere una ceremonia y queda para siempre"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "dictate",
+      "pos": "verb",
+      "def": "to impose terms that the other side cannot refuse",
+      "disc": "Supone <b>desequilibrio de fuerza</b>: uno pone las condiciones y el otro las acata. Su objeto típico es <i>terms</i>, y su otro sentido — decir algo en voz alta para que lo escriban — comparte la idea: <b>el texto sale entero de uno solo</b>.",
+      "tone": "neg",
+      "axisPos": 10,
+      "ej": "With the fleet already inside the harbour, the admiral could ___ whatever terms he pleased, and the city's envoys signed them unread.",
+      "twin": "prescribe",
+      "whyNotTwin": "dictate impone <b>porque puede</b>, y lo que impone son condiciones a quien no está en situación de negarlas; prescribe fija <b>lo que debe hacerse</b>, y su autoridad es la de la norma o la del médico, no la de la flota.",
+      "root": "dictare (decir repetidamente, imponer diciendo)",
+      "tier": 1,
+      "sense2": {
+        "def": "to say something aloud for another person to write down",
+        "ej": "She ___d the whole letter from memory while the clerk typed.",
+        "note": "Mismo esquema — la palabra sale de uno solo — pero aquí no hay nadie sometido: solo alguien que escribe al oído."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "prescribe",
+      "pos": "verb",
+      "def": "to lay down authoritatively what must be done or taken",
+      "disc": "Dos escenas y una misma idea: <b>el médico que receta</b> y <b>el reglamento que fija</b>. Lo que sale de ahí es una <b>instrucción concreta y por escrito</b> — una dosis, un plazo, un procedimiento — que hay que cumplir tal cual.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "The doctor ___d a fortnight in bed and half the usual dose, and sent a copy of the sheet to the employer.",
+      "twin": "dictate",
+      "whyNotTwin": "prescribe deja <b>una instrucción numerada que alguien debe seguir</b> — la dosis, el plazo —; dictate deja <b>condiciones aceptadas por la fuerza</b>, y no rige dosis ni tratamientos.",
+      "root": "praescribere (escribir delante, fijar de antemano)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "dispense",
+      "pos": "verb",
+      "def": "to deal out portions of something to those entitled to it",
+      "disc": "Reparte <b>en porciones y a quien le toca</b>: justicia, consejo, medicamentos, sopa. Lleva implícita <b>una ventanilla</b> — alguien administra y alguien recibe su parte. Ojo con <i>___ with</i>, que significa lo contrario: prescindir.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "For thirty years the same magistrate ___d justice in that room, two mornings a week, to whoever the constables had brought in.",
+      "twin": "prescribe",
+      "whyNotTwin": "prescribe <b>dice lo que hay que hacer</b> y se queda en la instrucción; dispense <b>entrega la cosa misma</b> — la ración, la medicina, la justicia — a quien le corresponde.",
+      "root": "dispendere (pesar por partes, repartir)",
+      "tier": 1,
+      "sense2": {
+        "def": "to do without something, in the form 'dispense with'",
+        "ej": "The court ___d with the reading of the charges and saved an hour.",
+        "note": "La preposición invierte el sentido: en vez de repartir algo, se renuncia a ello."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "endow",
+      "pos": "verb",
+      "def": "to give a permanent fund or a lasting quality to someone",
+      "disc": "Lo que da <b>queda para siempre</b>: un capital cuyos intereses pagan una cátedra, o una cualidad con la que se nace (<i>___ed with perfect pitch</i>). Rige <i>with</i> cuando lo entregado es una cualidad y no dinero.",
+      "tone": "pos",
+      "axisPos": 70,
+      "ej": "A shipowner's widow ___ed the chair in 1873, and it has paid a salary every year since without anyone touching the capital.",
+      "twin": "dispense",
+      "whyNotTwin": "dispense <b>reparte y se agota</b>: cada porción entregada ya no está. endow <b>deja un fondo intacto</b> del que se vive indefinidamente.",
+      "root": "dotare (dotar, dar dote)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "anoint",
+      "pos": "verb",
+      "def": "to formally mark someone out as the chosen successor",
+      "disc": "Viene del <b>óleo sobre la frente</b>: lo que confiere no es dinero ni una orden, sino <b>la condición de elegido</b>. En prensa se usa con ironía para el heredero designado <b>sin que nadie lo vote</b>.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "He had been ___ed at a party conference nine years earlier, and by the time the leadership fell vacant nobody remembered that no one had ever voted for him.",
+      "twin": "endow",
+      "whyNotTwin": "endow entrega <b>un fondo o una cualidad</b>: hay algo que pasa de una mano a otra. anoint no entrega nada — <b>señala a la persona</b> como la elegida, y todo el efecto está en el señalamiento.",
+      "root": "inunguere (untar con aceite)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

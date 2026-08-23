@@ -20,7 +20,7 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **160 grupos, 904/1112 palabras (81.3%)**, `run_all.py` en verde, 0 errores
+- **164 grupos, 924/1112 palabras (83.1%)**, `run_all.py` en verde, 0 errores
 - Banco TC/SE auténtico: **24/150 ítems**
 - La app todavía **no existe**; `data/data.js` ya está listo para que la consuma
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -294,6 +294,26 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   además son sinónimos verdaderos («exonerated by the inquiry» / «exculpated by the inquiry»), y los
   dos verbos de achacar que podrían acompañarlos, `ascribe` y `attribute`, tampoco se separan entre
   sí. No llega a cinco ni sumándolos todos.
+- **`accord`, `compromise` y `consensus` se pisan en «acuerdo».** Los tres llenan *the ___ held for a
+  decade*, así que la duración y las partes no separan nada. Lo que separa en g161 son **tres negaciones
+  explícitas**: el cloze de consensus dice que *nadie llegó con una exigencia* (sin exigencias no hay
+  renuncia, y sin renuncia no hay compromise) y que *no se firmó nada* (sin papel no hay accord); el de
+  compromise enumera **lo que cada lado soltó** y añade que *nunca se puso por escrito*; el de accord se
+  apoya en el instrumento — *initialled … in Lisbon*, noventa páginas, anexos firmados por separado. Sin
+  esas negaciones el ítem se resuelve a cara o cruz. `detente` es el fácil del grupo: no se firma, no se
+  concede nada y **exige enemistad previa**, que ninguna de las otras tres supone.
+- **`remote from` y `divorced from` comparten preposición.** *Remote from ordinary experience* es inglés
+  corriente, así que un cloze de «alejado de la realidad» lo llenan las dos. Lo que excluye a remote es
+  que los dos términos **estuvieran unidos y se hayan separado por un acto**: *pay has been entirely ___
+  from performance: the two are calculated in different offices* — «pay is remote from performance» no es
+  inglés, porque remote mide distancia de grado, no un vínculo cortado. Y `estranged` no compite ahí:
+  solo rige personas.
+- **`alacrity` se cuela en cualquier hueco de energía si hay algo que hacer.** El primer cloze de
+  `vitality` en g163 («At eighty-one she had more ___ than the students: three flights of stairs, and she
+  was the first one in the room») lo admitía: subir primero es prontitud en responder a una tarea. La
+  salida fue quitar la tarea y dejar solo **el organismo a lo largo del tiempo** — jardinear hasta el
+  anochecer, enfermar dos veces en diez años —, donde alacrity no tiene a qué responder. Al revés,
+  alacrity se aísla **cronometrando el sí**: el abrigo puesto antes de que acabe la frase.
 - **Los sustantivos de persona sí discriminan bien.** Al revés que los adjetivos de calma
   o los verbos de estorbar, cada tipo humano trae su escena propia (el martinet y la
   hebilla, el recluse y el correo sin recoger), y esa escena excluye sola a los hermanos.

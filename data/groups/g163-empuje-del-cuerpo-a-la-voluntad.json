@@ -1,0 +1,99 @@
+{
+  "id": "g163",
+  "name": "el empuje: del cuerpo a la voluntad",
+  "axis": {
+    "lo": "energía que se le ve al cuerpo",
+    "hi": "firmeza que sostiene una decisión en el tiempo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "vitality",
+      "pos": "noun",
+      "def": "the energy and liveliness of a living thing",
+      "disc": "Es <b>energía de organismo</b>, y por eso se predica de cuerpos, de barrios y de lenguas vivas: lo que la tiene <b>está vivo y se le nota</b>. No dice nada de lo que uno cree ni de lo que se propone hacer.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "At eighty-one she still had the ___ of a woman half her age: she gardened until dark, and had been ill perhaps twice in a decade.",
+      "twin": "alacrity",
+      "whyNotTwin": "vitality es <b>energía del organismo</b>, se ve en el cuerpo y no hace falta que nadie proponga nada; alacrity solo aparece <b>cuando hay algo que aceptar o que hacer</b>, y mide lo rápido que llega el sí.",
+      "root": "vita (vida)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "alacrity",
+      "pos": "noun",
+      "def": "brisk and cheerful readiness to do something",
+      "disc": "Vive casi solo en <b>with ___</b>, y mide <b>el tiempo entre la propuesta y el sí</b>: la disposición se nota porque la respuesta llega antes de lo esperado. Suele traer ironía — se acepta demasiado deprisa.",
+      "tone": "pos",
+      "axisPos": 30,
+      "ej": "Offered the chance to leave the meeting and telephone the ministry, he took it with such ___ that his coat was on before the sentence had finished.",
+      "twin": "vitality",
+      "whyNotTwin": "alacrity es <b>la prontitud de una respuesta concreta</b>: hay una oferta y hay un sí inmediato. vitality es <b>un caudal de energía</b> que está ahí aunque no ocurra nada.",
+      "root": "alacer (vivo, presto)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fervor",
+      "pos": "noun",
+      "def": "intense heat of feeling, especially religious or political",
+      "disc": "Es <b>temperatura del sentimiento</b>, y se manifiesta hacia fuera: gente que llora, que canta, que no se va a casa. No afirma que la creencia sea firme ni que vaya a durar — solo que <b>ahora quema</b>.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The early meetings had a ___ that embarrassed the founders' grandchildren: people wept at the readings, and two of them gave away their farms.",
+      "twin": "conviction",
+      "whyNotTwin": "fervor es <b>el calor con que se siente</b>, y se ve desde fuera; conviction es <b>la firmeza con que se cree</b>, y puede decirse en voz baja. Hay conviction sin fervor y fervor sin conviction.",
+      "root": "fervere (hervir)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "conviction",
+      "pos": "noun",
+      "def": "a firmly held belief, or the firmness with which it is held",
+      "disc": "Dos cosas a la vez: <b>la creencia</b> (<i>a matter of ___</i>) y <b>la firmeza que se oye</b> al sostenerla (<i>he said it without ___</i>). Es la única del grupo que se mide <b>en la voz de quien habla</b>: convence o no convence.",
+      "tone": "pos",
+      "axisPos": 70,
+      "ej": "The alibi was plausible enough on paper, but he told it with so little ___ that the panel asked to hear the whole thing a second time.",
+      "twin": "fervor",
+      "whyNotTwin": "conviction mide <b>si el que habla se lo cree</b>, y por eso se juzga en un relato sobrio; fervor mide <b>el calor del sentimiento</b>, que pide una causa y no un dato.",
+      "root": "convincere (vencer con pruebas, convencer)",
+      "tier": 1,
+      "sense2": {
+        "def": "a formal finding of guilt in a court of law",
+        "ej": "The ___ was quashed on appeal once the tapes were found.",
+        "note": "Sentido jurídico, muy frecuente en textos de derecho: nada que ver con la firmeza de una creencia."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "resolve",
+      "pos": "noun",
+      "def": "firm determination to carry something through",
+      "disc": "Mira <b>al futuro y a la acción</b>: no es lo que se cree, sino lo que se ha decidido hacer y <b>no se abandona</b> cuando cuesta. De ahí <i>to stiffen someone's ___</i> y <i>her ___ never weakened</i>.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "Three winters on, her ___ had not weakened once: the tobacco was still in the drawer where she had left it, unopened.",
+      "twin": "conviction",
+      "whyNotTwin": "conviction es <b>creer algo</b>; resolve es <b>haber decidido hacer algo y sostenerlo</b>. Se puede tener la conviction de que fumar mata sin tener el resolve de dejarlo.",
+      "root": "resolvere (desatar, decidir)",
+      "tier": 1,
+      "sense2": {
+        "def": "to settle a dispute or a difficulty",
+        "ej": "The two departments ___d the dispute quietly, before the auditors arrived.",
+        "note": "Sentido verbal: aquí no hay determinación ninguna, solo un asunto que queda cerrado."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

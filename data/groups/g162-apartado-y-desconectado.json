@@ -1,0 +1,95 @@
+{
+  "id": "g162",
+  "name": "fuera: sin enterarse, sin trato, sin centro",
+  "axis": {
+    "lo": "está delante y no registra lo que pasa",
+    "hi": "está lejos de cualquier sitio habitado"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "oblivious",
+      "pos": "adj",
+      "def": "completely unaware of what is happening around one",
+      "disc": "El que lo es <b>está presente</b>: no está lejos ni excluido, simplemente <b>no registra</b> lo que ocurre a su lado. Rige <i>to</i> — <i>___ to the noise</i> — y casi siempre tiene un punto cómico o de reproche.",
+      "tone": "neu",
+      "axisPos": 10,
+      "ej": "She went on annotating the score, ___ to the argument going on two feet behind her.",
+      "twin": "remote",
+      "whyNotTwin": "oblivious es <b>no enterarse de lo que se tiene al lado</b>: la distancia es de atención, y el sujeto está ahí mismo. remote es <b>estar lejos</b>, y no dice nada de lo que uno percibe.",
+      "root": "oblivisci (olvidar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "estranged",
+      "pos": "adj",
+      "def": "no longer on speaking terms with someone once close",
+      "disc": "Pide <b>dos personas que se trataban</b> y una ruptura sin trámite: no hay divorcio ni expulsión, hay silencio. Vive en predicado — <i>the two brothers have been ___ for years</i> — y en <i>her ___ husband</i>, donde lo que dice es que no se hablan, no que se hayan divorciado.",
+      "tone": "neg",
+      "axisPos": 35,
+      "ej": "He and his brother have been ___ for eleven years, and neither can now say which of them stopped writing first.",
+      "twin": "divorced",
+      "whyNotTwin": "estranged solo vale entre <b>personas</b> que se trataban, y funciona sin complemento; divorced separa <b>una cosa de otra</b> — un plan de los hechos — y arrastra siempre su <i>from</i>.",
+      "root": "extraneare (volver extraño)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "divorced",
+      "pos": "adj",
+      "def": "entirely severed from something it should be connected to",
+      "disc": "Fuera del juzgado su vida entera es la colocación <b>___ from</b>: una política <i>divorced from</i> los hechos, una teoría <i>divorced from</i> la práctica. El sujeto es <b>una cosa</b>, y lo que se afirma es que <b>se cortó un vínculo que debería existir</b>.",
+      "tone": "neg",
+      "axisPos": 55,
+      "ej": "Since the reorganisation, pay has been entirely ___ from performance: the two are calculated in different offices and never compared.",
+      "twin": "estranged",
+      "whyNotTwin": "divorced corta <b>el vínculo entre dos cosas que deberían ir unidas</b>, y siempre lleva <i>from</i>; estranged enfría <b>el trato entre dos personas</b> y no necesita complemento.",
+      "root": "divortium (separación, camino que se bifurca)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "fringe",
+      "pos": "adj",
+      "def": "at the outer edge of a group, far from its mainstream",
+      "disc": "Es <b>posición dentro de un colectivo</b>: el que está en el margen sigue perteneciendo, pero el centro no le hace caso. Colocaciones fijas: <i>a ___ candidate</i>, <i>a ___ theory</i>, <i>the ___ of the party</i>.",
+      "tone": "neg",
+      "axisPos": 72,
+      "ej": "For thirty years his was a ___ view that no journal in the field would print; then the ice cores proved him right.",
+      "twin": "remote",
+      "whyNotTwin": "fringe sitúa <b>dentro de un grupo, en su borde</b>: hay un centro que lo ignora. remote sitúa <b>en el mapa</b>, lejos de todo, y no supone grupo alguno.",
+      "root": "fimbria (borde, franja del tejido)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "remote",
+      "pos": "adj",
+      "def": "far away from any settled or frequented place",
+      "disc": "Distancia física de todo, y de ahí el <b>sentido de probabilidad</b>: <i>a ___ chance</i> es la que queda lejísimos de ocurrir. Aplicado a una persona, el que trata a todos <b>a distancia</b>, sin llegar a enfadarse con nadie.",
+      "tone": "neu",
+      "axisPos": 90,
+      "ej": "The weather station is so ___ that the supply boat calls once a month and the crew is changed by helicopter.",
+      "twin": "fringe",
+      "whyNotTwin": "remote se mide en <b>kilómetros</b>: no hay nadie alrededor. fringe se mide <b>respecto a un centro</b>: hay un grupo, y el que ocupa su franja exterior sigue dentro de él.",
+      "root": "removere (apartar, llevar lejos)",
+      "tier": 1,
+      "sense2": {
+        "def": "very slight, said of a possibility",
+        "ej": "There is only a ___ chance that the ferry runs in weather like this.",
+        "note": "Mismo esquema de lejanía, pero medido en probabilidad: lo que está lejos de ocurrir."
+      },
+      "contrast": false,
+      "polysemous": true
+    }
+  ]
+}

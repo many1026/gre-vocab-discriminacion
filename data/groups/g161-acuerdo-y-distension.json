@@ -1,0 +1,99 @@
+{
+  "id": "g161",
+  "name": "el visto bueno, el trato y el deshielo",
+  "axis": {
+    "lo": "uno solo, desde arriba, da su visto bueno",
+    "hi": "dos que eran enemigos dejan de serlo"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "approbation",
+      "pos": "noun",
+      "def": "formal approval or praise from someone in authority",
+      "disc": "Es la aprobación que <b>baja de arriba</b>: un superior, un jurado, una academia dan por bueno lo que otro ha hecho. Aquí no hay dos partes negociando — hay <b>uno que juzga y otro que espera</b>, y por eso se dice siempre <i>de alguien</i>: <i>the ___ of her supervisor</i>.",
+      "tone": "pos",
+      "axisPos": 10,
+      "ej": "She sent the chapter to press without waiting for her supervisor's ___, and was told afterwards that it would not have been given.",
+      "twin": "consensus",
+      "whyNotTwin": "approbation la da <b>uno que está por encima</b>, y recae sobre el trabajo de otro; consensus lo forma <b>un cuerpo entre iguales</b>, y recae sobre una posición que ese cuerpo adopta.",
+      "root": "approbare (dar por bueno, aprobar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "consensus",
+      "pos": "noun",
+      "def": "general agreement reached by a body without dissent",
+      "disc": "Exige <b>un cuerpo entero</b> — un comité, una sala, una disciplina — y que <b>nadie se oponga</b>. No se vota ni se firma: se constata al final, y muchas veces nadie recuerda quién lo propuso. De ahí <i>the scientific ___</i>.",
+      "tone": "neu",
+      "axisPos": 30,
+      "ej": "No one arrived with a demand, nothing was signed and nothing was put to a vote: over four hours the twelve of them talked themselves into a single position, and the ___ held for a decade.",
+      "twin": "compromise",
+      "whyNotTwin": "consensus es que <b>todos acaban queriendo lo mismo</b>; compromise es que <b>nadie consigue lo que quería</b> y aun así se cierra el trato. Uno converge, el otro reparte pérdidas.",
+      "root": "consentire (sentir lo mismo)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "compromise",
+      "pos": "noun",
+      "def": "a settlement in which each side gives up part of its demand",
+      "disc": "Lo define <b>la renuncia mutua</b>: sin dos exigencias incompatibles y sin que cada lado suelte algo, no hay compromise. Es el resultado que <b>no gusta a ninguna de las dos partes</b>, y por eso suele durar. No necesita papel alguno.",
+      "tone": "neu",
+      "axisPos": 50,
+      "ej": "The union gave up the wage claim and the company gave up the redundancies; the ___, which neither side would defend in public, was never written down at all.",
+      "twin": "accord",
+      "whyNotTwin": "compromise nombra <b>lo que cada parte perdió</b>; accord nombra <b>el documento que las dos firmaron</b>. Hay accord sin que nadie renuncie a nada, y compromise sin un solo papel.",
+      "root": "compromittere (someterse los dos a un arbitraje)",
+      "tier": 1,
+      "sense2": {
+        "def": "to expose something to danger or discredit",
+        "ej": "The leak ___d every agent whose name appeared in the file.",
+        "note": "Sentido verbal que el GRE usa mucho: aquí no hay acuerdo ninguno, solo daño — un sistema comprometido es un sistema en peligro."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "accord",
+      "pos": "noun",
+      "def": "a formal, usually written agreement between two parties",
+      "disc": "Es <b>el instrumento</b>: se negocia, se rubrica, se ratifica y se rompe. Lleva nombre de ciudad y anexos numerados (<i>the Helsinki ___s</i>). Lo que afirma es que <b>existe un texto</b>, no que las partes se lleven bien.",
+      "tone": "neu",
+      "axisPos": 70,
+      "ej": "The two governments initialled the ___ in Lisbon in March; the text ran to ninety pages and each annex was signed separately.",
+      "twin": "compromise",
+      "whyNotTwin": "accord es <b>el papel firmado</b>, con fecha y lugar; compromise es <b>el contenido de la renuncia</b>, haya papel o no lo haya.",
+      "root": "ad cor (traer a un mismo corazón)",
+      "tier": 1,
+      "sense2": {
+        "def": "one's own initiative, in the phrase 'of one's own accord'",
+        "ej": "She resigned of her own ___, before anyone had suggested that she should.",
+        "note": "Colocación fija: aquí no hay acuerdo entre dos partes, sino ausencia de presión externa."
+      },
+      "contrast": false,
+      "polysemous": true
+    },
+    {
+      "w": "detente",
+      "pos": "noun",
+      "def": "an easing of tension between hostile powers",
+      "disc": "No es un acuerdo: es que <b>la hostilidad baja de temperatura</b>. Se reconoce por <b>lo que deja de ocurrir</b> — vuelven los embajadores, cesan los sobrevuelos — y no por lo que se firma. Presupone enemistad previa, cosa que ninguna de sus vecinas exige.",
+      "tone": "pos",
+      "axisPos": 90,
+      "ej": "Nothing was signed and no border moved, but the ambassadors went back to both capitals and the overflights stopped: after nine years, a ___.",
+      "twin": "accord",
+      "whyNotTwin": "detente es <b>el enfriamiento de la hostilidad</b>, y puede no dejar rastro escrito; accord es <b>el texto</b> que dos partes firman, aunque sigan detestándose.",
+      "root": "détente (aflojamiento de la cuerda del arco)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

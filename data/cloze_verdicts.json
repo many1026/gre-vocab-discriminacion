@@ -7237,5 +7237,165 @@
   "basis": "semantic",
   "nearMiss": "dirge",
   "note": "diez minutos de entusiasmo sin un solo juicio; barrage seria critica recibida y dirge duelo"
+ },
+ "003ad7a975b3f158": {
+  "w": "approbation",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "consensus",
+  "note": "solo approbation se dice 'del supervisor': es visto bueno que baja de una autoridad sobre el trabajo de otro; consensus, accord y compromise necesitan dos o mas partes, y detente exige hostilidad previa"
+ },
+ "eeca21fb4e2515e1": {
+  "w": "consensus",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "compromise",
+  "note": "nadie llego con una exigencia (no hay compromise), no se firmo nada (no hay accord), no hay autoridad que apruebe (no hay approbation) ni enemistad previa (no hay detente)"
+ },
+ "6d6060ffb08c6e5e": {
+  "w": "compromise",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "accord",
+  "note": "cada parte suelta algo, lo que descarta consensus; y no se puso por escrito, lo que descarta accord; detente no se 'defiende en publico' ni cierra un pleito laboral"
+ },
+ "87d8f0484a568ac0": {
+  "w": "accord",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "compromise",
+  "note": "'initialled ... in Lisbon', noventa paginas y anexos firmados por separado nombran el instrumento; consensus no se rubrica, detente no se firma y compromise nombraria la renuncia, no el texto"
+ },
+ "c92eef62d6b7bf7c": {
+  "w": "detente",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "accord",
+  "note": "nada se firmo (fuera accord), ninguna frontera se movio (fuera compromise), no hay cuerpo deliberante (fuera consensus) y no hay autoridad que apruebe (fuera approbation)"
+ },
+ "221b333ccd4d84e9": {
+  "w": "oblivious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "remote",
+  "note": "solo oblivious rige 'to' con este sentido y solo ella describe a alguien presente que no registra lo que pasa a dos pies de distancia"
+ },
+ "88d7a260355af64a": {
+  "w": "estranged",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "divorced",
+  "note": "'he and his brother have been ___' solo lo admite estranged: divorced entre hermanos no es ingles, remote y fringe no se predican de una relacion y oblivious pide 'to'"
+ },
+ "8f79779715e6d436": {
+  "w": "divorced",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "estranged",
+  "note": "'pay ___ from performance' es la colocacion de divorced (vinculo cortado entre dos cosas); estranged solo vale entre personas y 'pay is remote from performance' no es ingles"
+ },
+ "8a9b54e785bf585d": {
+  "w": "fringe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "remote",
+  "note": "'a ___ view that no journal would print' situa dentro de la disciplina, en su margen; remote no califica opiniones, divorced pediria 'from' y estranged pide personas"
+ },
+ "529d26cd9ba19dea": {
+  "w": "remote",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fringe",
+  "note": "la distancia es de mapa — barco de suministro una vez al mes, relevo en helicoptero —; fringe pide un grupo con centro, divorced pide 'from' y oblivious pide 'to'"
+ },
+ "24d411ddc5e7b265": {
+  "w": "vitality",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "alacrity",
+  "note": "jardin hasta el anochecer y casi nunca enferma es energia de organismo; alacrity exige una oferta que se acepta deprisa, fervor un sentimiento y conviction o resolve una creencia o una decision"
+ },
+ "f7b31a4b6e867050": {
+  "w": "alacrity",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "vitality",
+  "note": "el abrigo puesto antes de que acabe la frase mide el tiempo entre la propuesta y el si; vitality no responde a ninguna oferta y fervor, conviction y resolve no se miden en segundos"
+ },
+ "625b1edefe079273": {
+  "w": "fervor",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "conviction",
+  "note": "llorar en las lecturas y regalar la granja es calor de sentimiento; conviction seria la firmeza de una creencia dicha, vitality no explica el llanto y alacrity mide prontitud"
+ },
+ "e0fc8997f11ec78f": {
+  "w": "conviction",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "fervor",
+  "note": "una coartada sobria no se cuenta con fervor ni con alacrity; lo que falta es que el que habla se lo crea, y por eso el tribunal la pide otra vez"
+ },
+ "3ea0378ea6ad6b3d": {
+  "w": "resolve",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "conviction",
+  "note": "no hay creencia ninguna en juego, solo una decision sostenida tres inviernos; conviction seria creer algo, fervor un sentimiento y alacrity la rapidez del si"
+ },
+ "22b503fe5357b5b2": {
+  "w": "dictate",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prescribe",
+  "note": "la flota dentro del puerto es desequilibrio de fuerza y el objeto es 'terms'; prescribe fija instrucciones, no condiciones impuestas, y dispense, endow y anoint no rigen terminos"
+ },
+ "bb2265a8fc669931": {
+  "w": "prescribe",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dictate",
+  "note": "'media dosis' y la hoja para el empleador son el registro medico de prescribe; dictate no rige dosis, dispense entregaria el farmaco y no el reposo"
+ },
+ "6c33d7790c47ae20": {
+  "w": "dispense",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "prescribe",
+  "note": "'___ justice' es colocacion fija de dispense — reparte a quien le toca, dos mananas por semana —; prescribe solo dejaria la instruccion y dictate impondria condiciones"
+ },
+ "714995c1f0fd3c13": {
+  "w": "endow",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "dispense",
+  "note": "un capital que sigue intacto y paga sueldo desde 1873 es endow; dispense se agota al repartir, prescribe no entrega dinero y anoint no entrega nada"
+ },
+ "2fda37f2dc6eb7d7": {
+  "w": "anoint",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "endow",
+  "note": "designar al elegido en un congreso, sin que nadie lo vote, no entrega ni fondos ni instrucciones: endow daria un capital y dictate o prescribe, ordenes"
  }
 }
