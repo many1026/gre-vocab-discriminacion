@@ -360,6 +360,25 @@ def check_tc_bank(universe: set[str], report: Report) -> dict[str, int]:
         if kind == "SE" and len(options) != 6:
             report.fail("R11 banco", f"{iid}: SE lleva 6 opciones, tiene {len(options)}.")
 
+        # TC de varios huecos: el examen reparte las opciones en una columna por hueco, y
+        # cada columna se resuelve por separado. Sin ese reparto el ítem no se puede pintar
+        # ni corregir hueco a hueco, así que aquí se exige explícito.
+        n_blanks = expected_answers.get(kind, 1)
+        if kind in {"TC2", "TC3"}:
+            columns = item.get("optionGroups", [])
+            if len(columns) != n_blanks:
+                report.fail("R11 banco", f"{iid}: {kind} necesita {n_blanks} columnas en 'optionGroups', tiene {len(columns)}.")
+            else:
+                for pos, column in enumerate(columns, start=1):
+                    if len(column) != 3:
+                        report.fail("R11 banco", f"{iid}: la columna {pos} lleva 3 opciones, tiene {len(column)}.")
+                flat = [opt for column in columns for opt in column]
+                if flat != options:
+                    report.fail("R11 banco", f"{iid}: 'options' debe ser la concatenación de 'optionGroups', en orden.")
+                for pos, (column, answer) in enumerate(zip(columns, answers), start=1):
+                    if answer not in column:
+                        report.fail("R11 banco", f"{iid}: la respuesta '{answer}' no está en la columna {pos}.")
+
         if not item.get("signal", {}).get("relation"):
             report.fail("R11 banco", f"{iid}: falta signal.relation; es la respuesta del paso 1.")
         if item.get("blankTone") not in VALID_TONES:

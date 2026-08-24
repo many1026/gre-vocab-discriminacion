@@ -23,7 +23,9 @@ Actualiza esta sección al cerrar cada lote.
 - **186 grupos, 1037/1112 palabras (93.3%)**, `run_all.py` en verde, 0 errores
 - Grupos `loose`: **2** (g183, g184). g185 y g186 **no** son loose: los dos ejes se defienden palabra
   por palabra (escala de daño; apetito de bienes)
-- Banco TC/SE auténtico: **24/150 ítems**
+- Banco TC/SE auténtico: **36/150 ítems** (TC1=24, TC2=2, SE=10). Los TC de dos huecos
+  llevan `optionGroups`: una columna de 3 opciones por hueco, como en el examen. R11 exige
+  que `options` sea la concatenación en orden y que cada respuesta caiga en su columna
 - **App: MVP funcionando** en `app/index.html`. Se abre con doble clic, sin servidor.
   Dos modos (Discriminar, Reconocer), progreso en `localStorage`, feedback sobre el eje
 - Ya es repo git (`main`): cada lote se comitea al cerrar
@@ -82,6 +84,13 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
 4. **Dos bancos de oraciones distintos.** El `ej` discriminante puede ser artificioso — su
    trabajo es enseñar la distinción. El banco TC/SE (`tc_bank.json`) va en registro auténtico,
    con palabras señal, y alimenta el modo "Leer la oración" y el Simulacro.
+5. **La unicidad se mide distinto en cada banco.** En un `ej` de grupo la oración compite
+   contra **todos** los hermanos, y por eso hay que blindarla tanto. En el banco TC/SE compite
+   solo contra **las cinco o seis opciones impresas**: basta con que ninguna otra de esas
+   funcione. Eso permite huecos que un sinónimo ausente también llenaría — y cuando ese
+   sinónimo es de los que el alumno debe tener presentes, se nombra en el `trapNote`
+   («fíjate en que poise y aplomb no están entre las opciones»), que es exactamente la
+   disciplina que pide el examen real.
 
 ## Reglas duras (las verifica `scripts/validate.py`)
 
