@@ -20,7 +20,9 @@ no "¿esto es más elegante o más completo?".**
 
 Actualiza esta sección al cerrar cada lote.
 
-- **184 grupos, 1027/1112 palabras (92.4%)**, `run_all.py` en verde, 0 errores
+- **186 grupos, 1037/1112 palabras (93.3%)**, `run_all.py` en verde, 0 errores
+- Grupos `loose`: **2** (g183, g184). g185 y g186 **no** son loose: los dos ejes se defienden palabra
+  por palabra (escala de daño; apetito de bienes)
 - Banco TC/SE auténtico: **24/150 ítems**
 - **App: MVP funcionando** en `app/index.html`. Se abre con doble clic, sin servidor.
   Dos modos (Discriminar, Reconocer), progreso en `localStorage`, feedback sobre el eje
@@ -198,9 +200,39 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   veredicto. `tepid` necesita que **el juicio se haya dado entero** y solo falte calor —
   «polite, three paragraphs each, delivering their verdict in full» —, porque lo suyo es la
   temperatura, no la evasión.
-- **Campo «codicia» bloqueado**: solo quedan tres adjetivos libres (`avaricious`, `rapacious`,
-  `acquisitive`). `covet` es verbo, `affluent` es tener dinero y no desearlo, y no existen en la
-  lista *venal*, *mercenary* ni *covetous*.
+- ~~Campo «codicia» bloqueado~~ **resuelto en g186**: los tres adjetivos de codicia (`avaricious`,
+  `rapacious`, `acquisitive`) llegaron a cinco al sumarles los dos que **no desean nada**:
+  `content` (renuncia expresa: podría haber más y no lo quiere) y `affluent` (solo informa de que
+  hay mucho, y entra como polo de contraste, igual que `antedate` en g148). Eso convierte el campo
+  en un eje real —**del que ya tiene bastante al que se lo arranca a otro**— porque los tres de
+  arriba se ordenan por lo que hace la mano: `acquisitive` la extiende y **paga** (colecciones,
+  no dinero), `avaricious` la cierra y **no suelta** (la casa sin calentar con la cuenta llena),
+  `rapacious` la mete **en el bolsillo ajeno** (siempre hay víctima). `covet` sigue libre pero es
+  verbo, y no existen en la lista *venal*, *mercenary* ni *covetous*.
+- **`avaricious` y `rapacious` se separan por el hoarding, no por el dinero.** Los dos llenan
+  *the tenants called him ___*: doblar la renta es igual de bien avaricia que rapiña. Lo que separa
+  en g186 es **negar el atesoramiento** — *nothing was hoarded: the rents went out on horses as fast
+  as they came in* —, porque avaricious exige que el dinero entre y no vuelva a salir; lo que queda
+  entonces es la víctima (el campo de la viuda, las dos familias en la calle), que es lo propio de
+  rapacious. Al revés, `avaricious` se aísla con *never took a penny that was not his own* (fuera
+  rapacious) y con que **no compra nada**, solo retiene (fuera acquisitive).
+- **De los tres sinónimos de desastre el segundo turno le tocó a `catastrophic` (g185).** `calamitous`
+  está en g169 y `catastrophic` en g185; **`cataclysmic` sigue libre y no puede convivir con ninguno
+  de los dos**. La regla vieja se mantiene: nunca más de uno de los tres en el mismo grupo.
+- **`innocuous` se cuela en cualquier tarea fácil e indiscutida.** El primer cloze de `irksome` en g185
+  («nothing was hard to work out and nothing was ever in dispute: nine boxes, the same nine figures,
+  every Friday for eleven years») lo llenaba: una obligación que no cuesta nada y no perjudica a nadie
+  *es* inofensiva. Lo que excluye a innocuous es **hacer que alguien pague el precio**: *the clerks drew
+  lots every Friday to decide who would have to sit down with it*. innocuous significa que no pasa nada;
+  irksome significa que alguien pone la paciencia.
+- **`irksome` y `nettlesome` se separan por el aburrimiento, y hay que decirlo en las dos oraciones.**
+  `irksome` es **una tarea fácil que hay que repetir** y cansa por repetirse (*duty, chore, restriction*);
+  `nettlesome` es **un asunto que pincha y no se deja zanjar** (*issue, question*), y por eso su cloze
+  necesita negar el tedio en voz alta — *nobody finds the seabed question dull — quite the opposite* —,
+  o irksome se cuela. «A nettlesome chore» y «an irksome question» no son colocaciones corrientes.
+- **`invasive` se ancla en su colocación técnica.** *Minimally ___* solo lo admite invasive: «minimally
+  innocuous / irksome / catastrophic» no son inglés. Y la prueba de la oración tiene que ser **anatómica**
+  (incisión de dos milímetros frente a tórax abierto), no de magnitud del daño, o catastrophic se acerca.
 - **`conspire` no puede ser hermana de `collude`.** En el sentido humano son el mismo verbo: los
   tres licitadores que se reparten los contratos igual «colluded» que «conspired», y cualquier
   cloze de acuerdo secreto lo llenan las dos. Lo único propio de conspire es el **sujeto que no
@@ -437,6 +469,21 @@ Tamaño razonable: **4–5 grupos (~22–26 palabras)**.
   58: ese *yet* invita a `paradoxical`. La salida fue **dar la causa** — *the samples came from different
   registers* —: con la contradicción deshecha solo queda la distancia entre dos cifras, que es divergent.
   Al revés, `paradoxical` exige **una sola relación que va al revés de lo esperado** y está documentada.
+
+- **Tres campos descartados en el lote de g185–g186 por eje falso, no por falta de palabras.** Quedan
+  anotados para no volver a intentarlos igual:
+  - **Verbos de efecto sobre el público** (`enchant`, `croon`, `invigorate`, `confound`, `alienate`).
+    El eje «atraer → expulsar» no ordena la mitad de abajo: mover `croon` treinta puntos, por encima o
+    por debajo de `invigorate`, no cambia nada. Son cinco verbos del mismo campo sin dimensión que los
+    gradúe; si se arman, van `loose`.
+  - **Adjetivos de lo impropio** (`unseemly`, `indecorous`, `odious`, `abject`, `laudable`). Dos
+    problemas a la vez: `unseemly`/`indecorous` son casi sinónimos (*unseemly haste* / *indecorous
+    haste*), y `abject` no está en la dimensión del reproche — describe la degradación del propio
+    sujeto (*abject apology*, *abject poverty*), no lo que merece.
+  - **Adjetivos de fase y tiempo** (`dwindling`, `convalescent`, `recrudescent`, `valedictory`,
+    `temporal`). El campo es un cajón de sastre: nadie confunde `valedictory` con `dwindling`, así que
+    ni siquiera como distractores se sostienen. Un grupo `loose` necesita que las cinco sean confundibles
+    entre sí; que compartan tema no basta.
 
 ## Qué NO hacer
 

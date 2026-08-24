@@ -8221,5 +8221,85 @@
   "basis": "grammatical",
   "nearMiss": "premeditate",
   "note": "la distincion es el marco — prime rige persona como objeto y vive en pasiva (had been ___d); premeditate rige el acto, y ni coin ni improvise admiten persona por objeto"
+ },
+ "a1593885f800c8b8": {
+  "w": "innocuous",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "irksome",
+  "note": "el frasco no cuesta nada a nadie — ni daño ni molestia — y el técnico que lo bebió volvió a trabajar; irksome exige una carga que alguien paga, nettlesome un asunto que resiste, invasive una entrada en el cuerpo y catastrophic una ruina"
+ },
+ "d1dce33492d828ef": {
+  "w": "irksome",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "nettlesome",
+  "note": "se niega toda dificultad y toda disputa (fuera nettlesome) pero los oficinistas sortean quién lo hace, o sea que cuesta algo (fuera innocuous, que no cuesta nada); no hay cuerpo invadido ni ruina"
+ },
+ "6c1af33f8aa7a761": {
+  "w": "nettlesome",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "irksome",
+  "note": "se niega expresamente el aburrimiento (fuera irksome, que cansa por repetición) y el asunto pincha y no se deja zanjar; nada de esto es inofensivo, ni entra en ningún sitio, ni arruina nada"
+ },
+ "2562aa7bb9f578d0": {
+  "w": "invasive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "catastrophic",
+  "note": "la colocación técnica 'minimally ___' solo la admite invasive; 'minimally innocuous/irksome/nettlesome/catastrophic' no son inglés, y la prueba es anatómica (incisión, tórax abierto), no de ruina"
+ },
+ "5f854dec6597c9a8": {
+  "w": "catastrophic",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "invasive",
+  "note": "no queda nada — el pueblo no dañado sino borrado y cuatro aldeas sin reconstruir —, y eso descarta a invasive (que se extiende dejando la cosa en pie) y a los tres leves"
+ },
+ "ea9dd7d8d34de696": {
+  "w": "content",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "affluent",
+  "note": "el marco fijo '___ with' + lo que ya se tiene solo lo admite content ('affluent with' no es inglés) y la escena es una renuncia: rechazó la cátedra dos veces; ninguna de las tres codiciosas encaja"
+ },
+ "412d427e65e36688": {
+  "w": "affluent",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "content",
+  "note": "lo que se mide es dinero contable (renta media cuádruple, jardines de media hectárea) y el sujeto son tres calles, no personas: acquisitive, avaricious y rapacious describen apetito o conducta, y unas calles no están content"
+ },
+ "4223afadf8bb1c2e": {
+  "w": "acquisitive",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "avaricious",
+  "note": "pagó el precio íntegro de las cuatro mil piezas (fuera rapacious, que arrebata) y regaló la colección a la ciudad, 'not a mean man' (fuera avaricious, que no suelta); affluent no contrasta con 'mean' ni explica el estante vacío"
+ },
+ "f12137c27f53452f": {
+  "w": "avaricious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "acquisitive",
+  "note": "'never took a penny that was not his own' deja fuera a rapacious y no compra nada, solo retiene (fuera acquisitive); 'affluent enough to leave the house unheated' no significa nada: la riqueza no deja la casa sin calentar"
+ },
+ "7a901d9bc773aad6": {
+  "w": "rapacious",
+  "verdict": "unique",
+  "alsoFits": [],
+  "basis": "semantic",
+  "nearMiss": "avaricious",
+  "note": "'nothing was hoarded' y el dinero sale tan rápido como entra desmontan a avaricious y a acquisitive, y queda lo único que sigue en pie: el campo de la viuda y las dos familias en la calle, es decir, la víctima"
  }
 }

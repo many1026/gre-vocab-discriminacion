@@ -1,0 +1,91 @@
+{
+  "id": "g185",
+  "name": "de lo que no hace daño a lo que no deja nada",
+  "axis": {
+    "lo": "no hace daño ninguno",
+    "hi": "no deja nada en pie"
+  },
+  "loose": false,
+  "words": [
+    {
+      "w": "innocuous",
+      "pos": "adj",
+      "def": "harmless, incapable of doing any injury",
+      "disc": "Afirma que <b>no puede hacer daño</b>, y por eso suele aparecer al lado de algo que <i>parece</i> peligroso: el frasco con etiqueta roja, el bulto que resultó ser nada. Sirve igual para palabras — un comentario ___ es el que no ofende a nadie.",
+      "tone": "neu",
+      "axisPos": 6,
+      "ej": "The red triangle on the label is a legal formality: the solution inside is entirely ___, and the technician who swallowed a mouthful of it in 1974 went back to work the same afternoon.",
+      "twin": "irksome",
+      "whyNotTwin": "innocuous dice que <b>no pasa nada</b>: ni daño ni molestia. irksome ya cobra un precio — el tiempo y la paciencia del que tiene que aguantarlo.",
+      "root": "in- (no) + nocere (dañar)",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "irksome",
+      "pos": "adj",
+      "def": "tedious and wearisome to have to do",
+      "disc": "Lo suyo es <b>la lata de tener que hacerlo</b>, no la dificultad. Sus sustantivos de siempre son <i>duty, chore, task, restriction</i>: cosas fáciles que hay que repetir y que cansan justamente por repetirse.",
+      "tone": "neg",
+      "axisPos": 24,
+      "ej": "Nothing in the form was hard to work out and nothing in it was ever in dispute — nine boxes, the same nine figures — and yet the clerks drew lots every Friday to decide who would have to sit down with it. No duty in the office was more ___.",
+      "twin": "nettlesome",
+      "whyNotTwin": "irksome <b>cansa</b> y se despacha con paciencia; nettlesome <b>pincha y no se deja resolver</b>. Una obligación repetida es irksome; una cuestión que nadie logra zanjar es nettlesome.",
+      "root": "irk (fastidiar, hartar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "nettlesome",
+      "pos": "adj",
+      "def": "irritating and troublesome to deal with",
+      "disc": "De <i>nettle</i>, la ortiga: <b>pica al tocarlo</b>. Califica <b>asuntos y preguntas</b> — <i>a ___ issue, a ___ question</i> — que irritan a quien los toca y siguen sin resolverse. No hay aburrimiento en él: hay escozor.",
+      "tone": "neg",
+      "axisPos": 38,
+      "ej": "Nobody finds the seabed question dull — quite the opposite: it pricks two delegations into a quarrel every time it is raised, and four conferences have failed to settle it. It is the single most ___ item on the agenda.",
+      "twin": "irksome",
+      "whyNotTwin": "nettlesome supone <b>un asunto que resiste y escuece</b>; irksome supone <b>una tarea fácil que hay que repetir</b>. Lo nettlesome nunca aburre: por eso irrita.",
+      "root": "nettle (ortiga; como verbo, picar o irritar)",
+      "tier": 2,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "invasive",
+      "pos": "adj",
+      "def": "entering or spreading where it does not belong",
+      "disc": "Dos terrenos fijos: <b>la especie que invade un ecosistema</b> y <b>el procedimiento que entra en el cuerpo</b>, cuya colocación técnica es <i>minimally ___ surgery</i>. En los dos casos el daño viene de <b>meterse donde no lo llaman</b>, no de la magnitud.",
+      "tone": "neg",
+      "axisPos": 66,
+      "ej": "Surgeons call the new technique minimally ___: a two-millimetre incision instead of an opened chest, and the patient walks out the same afternoon.",
+      "twin": "catastrophic",
+      "whyNotTwin": "invasive daña <b>entrando y extendiéndose</b>, y lo dañado sigue en pie mientras tanto; catastrophic no deja nada que siga en pie.",
+      "root": "in- (dentro) + vadere (ir): entrar en lo ajeno",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    },
+    {
+      "w": "catastrophic",
+      "pos": "adj",
+      "def": "bringing sudden and total ruin",
+      "disc": "Marca el <b>final</b>: lo que describe no se recupera, y el daño llega <b>de golpe</b>. Cuidado en el examen — <i>cataclysmic</i> y <i>calamitous</i> dicen lo mismo, así que un ítem bien hecho nunca las enfrenta entre sí: la pista está en el resto de la oración.",
+      "tone": "neg",
+      "axisPos": 94,
+      "ej": "When the dam went, the loss was ___: the town below it was not damaged but erased, and none of the four villages downstream was ever rebuilt.",
+      "twin": "invasive",
+      "whyNotTwin": "catastrophic exige <b>ruina total y de golpe</b>; invasive describe algo que <b>se mete y se extiende</b>, y que puede llevar años sin acabar con nada.",
+      "root": "kata- (abajo) + strephein (volver): el vuelco final del drama",
+      "tier": 1,
+      "sense2": null,
+      "contrast": false,
+      "polysemous": false
+    }
+  ]
+}

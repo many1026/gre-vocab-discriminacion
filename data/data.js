@@ -1,8 +1,8 @@
 window.VOCAB = {
  "meta": {
   "totalWords": 1112,
-  "coveredWords": 1027,
-  "groupCount": 184
+  "coveredWords": 1037,
+  "groupCount": 186
  },
  "groups": [
   {
@@ -21824,6 +21824,222 @@ window.VOCAB = {
      "gmGroup": "Group 21",
      "groupId": "g184",
      "ejHash": "9353010bae5d2a5a"
+    }
+   ]
+  },
+  {
+   "id": "g185",
+   "name": "de lo que no hace daño a lo que no deja nada",
+   "axis": {
+    "lo": "no hace daño ninguno",
+    "hi": "no deja nada en pie"
+   },
+   "loose": false,
+   "words": [
+    {
+     "w": "innocuous",
+     "pos": "adj",
+     "def": "harmless, incapable of doing any injury",
+     "disc": "Afirma que <b>no puede hacer daño</b>, y por eso suele aparecer al lado de algo que <i>parece</i> peligroso: el frasco con etiqueta roja, el bulto que resultó ser nada. Sirve igual para palabras — un comentario ___ es el que no ofende a nadie.",
+     "tone": "neu",
+     "axisPos": 6,
+     "ej": "The red triangle on the label is a legal formality: the solution inside is entirely ___, and the technician who swallowed a mouthful of it in 1974 went back to work the same afternoon.",
+     "twin": "irksome",
+     "whyNotTwin": "innocuous dice que <b>no pasa nada</b>: ni daño ni molestia. irksome ya cobra un precio — el tiempo y la paciencia del que tiene que aguantarlo.",
+     "root": "in- (no) + nocere (dañar)",
+     "tier": 1,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 8",
+     "groupId": "g185",
+     "ejHash": "a1593885f800c8b8"
+    },
+    {
+     "w": "irksome",
+     "pos": "adj",
+     "def": "tedious and wearisome to have to do",
+     "disc": "Lo suyo es <b>la lata de tener que hacerlo</b>, no la dificultad. Sus sustantivos de siempre son <i>duty, chore, task, restriction</i>: cosas fáciles que hay que repetir y que cansan justamente por repetirse.",
+     "tone": "neg",
+     "axisPos": 24,
+     "ej": "Nothing in the form was hard to work out and nothing in it was ever in dispute — nine boxes, the same nine figures — and yet the clerks drew lots every Friday to decide who would have to sit down with it. No duty in the office was more ___.",
+     "twin": "nettlesome",
+     "whyNotTwin": "irksome <b>cansa</b> y se despacha con paciencia; nettlesome <b>pincha y no se deja resolver</b>. Una obligación repetida es irksome; una cuestión que nadie logra zanjar es nettlesome.",
+     "root": "irk (fastidiar, hartar)",
+     "tier": 2,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 18",
+     "groupId": "g185",
+     "ejHash": "d1dce33492d828ef"
+    },
+    {
+     "w": "nettlesome",
+     "pos": "adj",
+     "def": "irritating and troublesome to deal with",
+     "disc": "De <i>nettle</i>, la ortiga: <b>pica al tocarlo</b>. Califica <b>asuntos y preguntas</b> — <i>a ___ issue, a ___ question</i> — que irritan a quien los toca y siguen sin resolverse. No hay aburrimiento en él: hay escozor.",
+     "tone": "neg",
+     "axisPos": 38,
+     "ej": "Nobody finds the seabed question dull — quite the opposite: it pricks two delegations into a quarrel every time it is raised, and four conferences have failed to settle it. It is the single most ___ item on the agenda.",
+     "twin": "irksome",
+     "whyNotTwin": "nettlesome supone <b>un asunto que resiste y escuece</b>; irksome supone <b>una tarea fácil que hay que repetir</b>. Lo nettlesome nunca aburre: por eso irrita.",
+     "root": "nettle (ortiga; como verbo, picar o irritar)",
+     "tier": 2,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 8",
+     "groupId": "g185",
+     "ejHash": "6c1af33f8aa7a761"
+    },
+    {
+     "w": "invasive",
+     "pos": "adj",
+     "def": "entering or spreading where it does not belong",
+     "disc": "Dos terrenos fijos: <b>la especie que invade un ecosistema</b> y <b>el procedimiento que entra en el cuerpo</b>, cuya colocación técnica es <i>minimally ___ surgery</i>. En los dos casos el daño viene de <b>meterse donde no lo llaman</b>, no de la magnitud.",
+     "tone": "neg",
+     "axisPos": 66,
+     "ej": "Surgeons call the new technique minimally ___: a two-millimetre incision instead of an opened chest, and the patient walks out the same afternoon.",
+     "twin": "catastrophic",
+     "whyNotTwin": "invasive daña <b>entrando y extendiéndose</b>, y lo dañado sigue en pie mientras tanto; catastrophic no deja nada que siga en pie.",
+     "root": "in- (dentro) + vadere (ir): entrar en lo ajeno",
+     "tier": 1,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 5",
+     "groupId": "g185",
+     "ejHash": "2562aa7bb9f578d0"
+    },
+    {
+     "w": "catastrophic",
+     "pos": "adj",
+     "def": "bringing sudden and total ruin",
+     "disc": "Marca el <b>final</b>: lo que describe no se recupera, y el daño llega <b>de golpe</b>. Cuidado en el examen — <i>cataclysmic</i> y <i>calamitous</i> dicen lo mismo, así que un ítem bien hecho nunca las enfrenta entre sí: la pista está en el resto de la oración.",
+     "tone": "neg",
+     "axisPos": 94,
+     "ej": "When the dam went, the loss was ___: the town below it was not damaged but erased, and none of the four villages downstream was ever rebuilt.",
+     "twin": "invasive",
+     "whyNotTwin": "catastrophic exige <b>ruina total y de golpe</b>; invasive describe algo que <b>se mete y se extiende</b>, y que puede llevar años sin acabar con nada.",
+     "root": "kata- (abajo) + strephein (volver): el vuelco final del drama",
+     "tier": 1,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 33",
+     "groupId": "g185",
+     "ejHash": "5f854dec6597c9a8"
+    }
+   ]
+  },
+  {
+   "id": "g186",
+   "name": "del que no quiere más al que arranca lo ajeno",
+   "axis": {
+    "lo": "ya tiene bastante y no pide más",
+    "hi": "se lo quita a otros"
+   },
+   "loose": false,
+   "words": [
+    {
+     "w": "content",
+     "pos": "adj",
+     "def": "satisfied with what one has and wanting no more",
+     "disc": "Va casi siempre <b>predicativo y con complemento</b>: <i>___ with</i> + lo que ya se tiene, o <i>___ to</i> + infinitivo. Lo que afirma es una <b>renuncia</b>: podría haber más y no se quiere. El sustantivo <i>content</i> se acentúa en la otra sílaba y no tiene que ver.",
+     "tone": "pos",
+     "axisPos": 5,
+     "ej": "She had turned down the London chair twice and was perfectly ___ with the two rooms and the twelve students she already had.",
+     "twin": "affluent",
+     "whyNotTwin": "content habla de <b>lo que se quiere</b> — nada más —; affluent habla de <b>lo que se tiene</b>, y no dice si se quiere más. Un hombre puede ser affluent y no estar content.",
+     "root": "contentus (contenido dentro de sus límites, que se basta)",
+     "tier": 1,
+     "sense2": {
+      "def": "what a thing holds, or the subject matter (noun)",
+      "ej": "The ___s of the safe were listed in the inventory: nine deeds and a service revolver.",
+      "note": "El sustantivo se acentúa en la primera sílaba y el adjetivo en la segunda. Si lleva artículo y plural, es el sustantivo y no habla de conformidad."
+     },
+     "contrast": false,
+     "polysemous": true,
+     "gmGroup": "Group 36",
+     "groupId": "g186",
+     "ejHash": "ea9dd7d8d34de696"
+    },
+    {
+     "w": "affluent",
+     "pos": "adj",
+     "def": "having a great deal of money and property",
+     "disc": "El único del grupo que <b>no dice nada del apetito</b>: solo informa de que hay mucho. Por eso vive con <b>zonas y grupos</b> — <i>an ___ suburb, the ___ West</i> — y se mide contando: ingresos, casas, coches. Ocupa la parte baja del eje porque en la palabra <b>no hay nada que alargue la mano</b>.",
+     "tone": "neu",
+     "axisPos": 22,
+     "ej": "The three streets behind the cathedral are the most ___ in the county: the average household income is four times the national figure, and not one of the gardens is under half an acre.",
+     "twin": "content",
+     "whyNotTwin": "affluent se comprueba <b>contando</b> lo que hay; content se comprueba <b>preguntando</b> si quiere más. Ninguna de las dos implica la otra.",
+     "root": "affluere (fluir hacia, correr en abundancia)",
+     "tier": 1,
+     "sense2": null,
+     "contrast": true,
+     "polysemous": false,
+     "gmGroup": "Group 33",
+     "groupId": "g186",
+     "ejHash": "412d427e65e36688"
+    },
+    {
+     "w": "acquisitive",
+     "pos": "adj",
+     "def": "eager to acquire and accumulate more possessions",
+     "disc": "Va tras <b>las cosas</b>, no tras el dinero: colecciones, terrenos, empresas. Se dice de personas y de épocas — <i>an ___ society</i>, <i>the ___ instinct</i> — y <b>no supone deshonestidad</b>: se paga lo que valen y se quiere una más.",
+     "tone": "neu",
+     "axisPos": 55,
+     "ej": "He paid the full asking price for every one of the four thousand objects and left the whole collection to the city: not a mean man, only an intensely ___ one, who never once let a shelf stay empty.",
+     "twin": "avaricious",
+     "whyNotTwin": "acquisitive quiere <b>tener más cosas</b> y las paga; avaricious quiere <b>el dinero mismo</b> y no lo suelta. El coleccionista que se gasta la herencia es acquisitive, y justo por eso no es avaricious.",
+     "root": "acquirere (adquirir, añadir a lo que ya se tiene)",
+     "tier": 2,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 18",
+     "groupId": "g186",
+     "ejHash": "4223afadf8bb1c2e"
+    },
+    {
+     "w": "avaricious",
+     "pos": "adj",
+     "def": "greedy for money and unwilling to part with any",
+     "disc": "Los dos rasgos van juntos: <b>ama el dinero y no lo gasta</b>. De ahí que su escena típica sea la del que <b>tiene y no usa</b> — la casa sin calentar con la cuenta llena —, y nunca la del que compra.",
+     "tone": "neg",
+     "axisPos": 76,
+     "ej": "He never took a penny that was not his own and never once gave one away: ___ enough to leave the house unheated through two winters while eighty thousand pounds sat in an account in his own name.",
+     "twin": "acquisitive",
+     "whyNotTwin": "avaricious <b>guarda</b>: el dinero entra y no vuelve a salir; acquisitive <b>gasta</b> con tal de llevarse la pieza. Lo que uno acumula son libras; lo que el otro acumula son cosas.",
+     "root": "avarus (ávido de dinero)",
+     "tier": 1,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 2",
+     "groupId": "g186",
+     "ejHash": "f12137c27f53452f"
+    },
+    {
+     "w": "rapacious",
+     "pos": "adj",
+     "def": "seizing by force what belongs to others",
+     "disc": "Palabra de <b>ave de presa</b>. Lo decisivo es que <b>hay una víctima</b>: rentas, cosechas, tierras que eran de alguien. Sus sustantivos de siempre son <i>landlord, creditor, army</i>, y <b>no dice nada de si lo arrebatado se guarda o se despilfarra</b>.",
+     "tone": "neg",
+     "axisPos": 94,
+     "ej": "Nothing was hoarded — the rents went out on horses and a new wing as fast as they came in — but the ledgers record a widow's field taken for a debt she had already settled and two families put on the road in December: even his own factor called him ___.",
+     "twin": "avaricious",
+     "whyNotTwin": "rapacious mira <b>a quién se lo quita</b>; avaricious mira <b>lo que retiene</b>. Un hombre que despilfarra lo arrebatado sigue siendo rapacious y ya no es avaricious.",
+     "root": "rapere (arrebatar); de ahí el ave rapaz",
+     "tier": 1,
+     "sense2": null,
+     "contrast": false,
+     "polysemous": false,
+     "gmGroup": "Group 11",
+     "groupId": "g186",
+     "ejHash": "7a901d9bc773aad6"
     }
    ]
   }
