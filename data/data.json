@@ -3,8 +3,8 @@
   "totalWords": 1112,
   "coveredWords": 1037,
   "groupCount": 186,
-  "tcCount": 129,
-  "seCount": 30
+  "tcCount": 140,
+  "seCount": 33
  },
  "groups": [
   {
@@ -26228,6 +26228,361 @@
     "perfunctory",
     "exhaustive",
     "contentious"
+   ]
+  },
+  {
+   "id": "tc100",
+   "text": "Having taken the seat by nine votes, she could afford to be ___: her first act was to keep on two of her opponent's staff.",
+   "signal": {
+    "word": "her first act was",
+    "relation": "causa"
+   },
+   "clue": "to keep on two of her opponent's staff",
+   "blankTone": "pos",
+   "predictionHint": "generoso con el vencido, sin necesidad de serlo",
+   "options": [
+    "magnanimous",
+    "vindictive",
+    "parsimonious",
+    "obsequious",
+    "aloof"
+   ],
+   "answer": [
+    "magnanimous"
+   ],
+   "why": "Conservar en el puesto a la gente del rival es generosidad desde la victoria. <b>magnanimous</b>.",
+   "trapNote": "vindictive es lo contrario y es la reacción que uno esperaría tras ganar por nueve votos: la oración construye la sorpresa precisamente ahí. parsimonious mide el dinero y obsequious el halago — ejes que la pista no toca.",
+   "type": "TC1",
+   "targets": [
+    "magnanimous",
+    "parsimonious",
+    "obsequious",
+    "aloof"
+   ]
+  },
+  {
+   "id": "tc101",
+   "text": "What began as a working rule of thumb had, by the third decade, begun to ___: nobody could remember why it existed, and nobody was willing to be the one to drop it.",
+   "signal": {
+    "word": "What began as",
+    "relation": "contraste"
+   },
+   "clue": "nobody could remember why it existed",
+   "blankTone": "neg",
+   "predictionHint": "endurecerse y volverse rígido con el tiempo",
+   "options": [
+    "ossify",
+    "evolve",
+    "dissolve",
+    "adapt",
+    "circulate"
+   ],
+   "answer": [
+    "ossify"
+   ],
+   "why": "Una regla práctica que nadie recuerda por qué existe y nadie se atreve a quitar se ha vuelto hueso. <b>ossify</b>, de <i>os</i>, hueso.",
+   "trapNote": "evolve y adapt van en la dirección contraria — implican que la regla cambió con las circunstancias, y lo que dice la pista es que se quedó fija. dissolve la haría desaparecer, y lo que ocurre es que sigue ahí, intocable.",
+   "type": "TC1",
+   "targets": [
+    "ossify"
+   ]
+  },
+  {
+   "id": "tc102",
+   "text": "The novel is a ___ and makes no secret of it: a chapter in the manner of Dickens, another borrowed wholesale from the Gothic, and a detective who has clearly wandered in from Conan Doyle.",
+   "signal": {
+    "word": "and makes no secret of it",
+    "relation": "continuación"
+   },
+   "clue": "a chapter in the manner of Dickens, another borrowed wholesale from the Gothic",
+   "blankTone": "neu",
+   "predictionHint": "obra hecha de estilos ajenos, y a la vista",
+   "options": [
+    "pastiche",
+    "forgery",
+    "memoir",
+    "treatise",
+    "parable"
+   ],
+   "answer": [
+    "pastiche"
+   ],
+   "why": "Capítulos al modo de otros autores, declarados sin disimulo, es la definición del <b>pastiche</b>.",
+   "trapNote": "forgery es la trampa fina: también vive de imitar a otro, pero una falsificación <b>oculta</b> que lo es, y la oración dice justo lo contrario — «makes no secret of it». Es la palabra «secret» la que decide entre las dos.",
+   "type": "TC1",
+   "targets": [
+    "pastiche",
+    "treatise"
+   ]
+  },
+  {
+   "id": "tc103",
+   "text": "The salesman's whole manner was calculated to ___: he asked after her mother, admired the garden, and had the contract out of his bag before she had thought to ask the price.",
+   "signal": {
+    "word": "before she had thought to ask the price",
+    "relation": "causa"
+   },
+   "clue": "he asked after her mother, admired the garden",
+   "blankTone": "neg",
+   "predictionHint": "engatusar con encanto para que el otro se descuide",
+   "options": [
+    "beguile",
+    "intimidate",
+    "instruct",
+    "exasperate",
+    "browbeat"
+   ],
+   "answer": [
+    "beguile"
+   ],
+   "why": "Encanto empleado para que ella no repare en lo que importa — el precio — es engatusar. <b>beguile</b>.",
+   "trapNote": "intimidate y browbeat consiguen lo mismo por la fuerza, y la escena no tiene nada de amenazante: pregunta por la madre y elogia el jardín. Cuando el medio es agradable y el fin interesado, la palabra es beguile.",
+   "type": "TC1",
+   "targets": [
+    "beguile"
+   ]
+  },
+  {
+   "id": "tc104",
+   "text": "Rather than renegotiate the treaty, the government chose to ___ it outright: a note in March announcing that it no longer considered itself bound, and that was the end of the matter.",
+   "signal": {
+    "word": "Rather than renegotiate",
+    "relation": "contraste"
+   },
+   "clue": "it no longer considered itself bound",
+   "blankTone": "neu",
+   "predictionHint": "anular un acuerdo por decisión unilateral",
+   "options": [
+    "abrogate",
+    "ratify",
+    "amend",
+    "extend",
+    "invoke"
+   ],
+   "answer": [
+    "abrogate"
+   ],
+   "why": "Declararse no obligado por un tratado, sin negociar nada, es abolirlo de un lado. <b>abrogate</b>.",
+   "trapNote": "amend es la trampa: también actúa sobre el texto, pero enmendar es lo que se hace <i>renegociando</i>, que el «Rather than» descarta. ratify y extend lo mantendrían en vigor.",
+   "type": "TC1",
+   "targets": [
+    "abrogate",
+    "amend"
+   ]
+  },
+  {
+   "id": "tc105",
+   "text": "What the diaries record is not heroism but ___: eleven months of it, most of them dull, and no single moment she could point to afterwards as the one that had cost her most.",
+   "signal": {
+    "word": "not heroism but",
+    "relation": "contraste"
+   },
+   "clue": "eleven months of it, most of them dull",
+   "blankTone": "pos",
+   "predictionHint": "entereza sostenida, sin gesto heroico",
+   "options": [
+    "fortitude",
+    "bravado",
+    "ingenuity",
+    "resignation",
+    "exuberance"
+   ],
+   "answer": [
+    "fortitude"
+   ],
+   "why": "Once meses aguantando, casi todos aburridos y sin un momento culminante, es entereza y no heroísmo. <b>fortitude</b>.",
+   "trapNote": "resignation es la trampa buena: también dura y también es callada, pero resignarse es dejar de resistir, y el diario registra a alguien que aguanta. bravado sería el gesto vistoso que la oración descarta con «not heroism».",
+   "type": "TC1",
+   "targets": [
+    "fortitude",
+    "bravado"
+   ]
+  },
+  {
+   "id": "se031",
+   "text": "After forty pages of commentary one returns to the original with relief: the argument there is ___ where its expositors are merely long.",
+   "signal": {
+    "word": "where its expositors are merely long",
+    "relation": "contraste"
+   },
+   "clue": "one returns to the original with relief",
+   "blankTone": "pos",
+   "predictionHint": "de una claridad transparente",
+   "options": [
+    "lucid",
+    "limpid",
+    "turbid",
+    "prolix",
+    "tendentious",
+    "arcane"
+   ],
+   "answer": [
+    "lucid",
+    "limpid"
+   ],
+   "why": "El alivio al volver al original, frente a comentaristas que solo son largos, señala claridad. <b>lucid</b> y <b>limpid</b>.",
+   "trapNote": "prolix describe a los comentaristas, no al original: es la trampa de coger el adjetivo de la mitad equivocada. turbid y arcane van al revés, y tendentious cambia de eje — hablaría del sesgo, no de la claridad.",
+   "type": "SE",
+   "targets": [
+    "lucid",
+    "limpid",
+    "turbid",
+    "prolix",
+    "tendentious",
+    "arcane"
+   ]
+  },
+  {
+   "id": "se032",
+   "text": "Twice caught out by the same supplier, the buyers had grown ___: every clause was read twice, and nothing was signed on the day it arrived.",
+   "signal": {
+    "word": "Twice caught out by the same supplier",
+    "relation": "causa"
+   },
+   "clue": "every clause was read twice, and nothing was signed on the day it arrived",
+   "blankTone": "neu",
+   "predictionHint": "cautos por experiencia, atentos al riesgo",
+   "options": [
+    "wary",
+    "circumspect",
+    "impetuous",
+    "credulous",
+    "cavalier",
+    "brazen"
+   ],
+   "answer": [
+    "wary",
+    "circumspect"
+   ],
+   "why": "Leerlo todo dos veces y no firmar en caliente después de dos escarmientos es cautela aprendida. <b>wary</b> y <b>circumspect</b>.",
+   "trapNote": "impetuous, credulous y cavalier describen justo lo que dejaron de ser: son la trampa de quedarse con la primera mitad de la frase — el escarmiento — en vez de con la conducta que produjo.",
+   "type": "SE",
+   "targets": [
+    "wary",
+    "circumspect",
+    "impetuous",
+    "cavalier",
+    "brazen"
+   ]
+  },
+  {
+   "id": "se033",
+   "text": "In the decade after the patent expired the small workshops began to ___: nine of them in 1904, and something over two hundred by 1913.",
+   "signal": {
+    "word": "after the patent expired",
+    "relation": "causa"
+   },
+   "clue": "nine of them in 1904, and something over two hundred by 1913",
+   "blankTone": "neu",
+   "predictionHint": "multiplicarse deprisa",
+   "options": [
+    "proliferate",
+    "burgeon",
+    "dwindle",
+    "stagnate",
+    "consolidate",
+    "falter"
+   ],
+   "answer": [
+    "proliferate",
+    "burgeon"
+   ],
+   "why": "De nueve a más de doscientos en nueve años es multiplicación rápida. <b>proliferate</b> y <b>burgeon</b>.",
+   "trapNote": "consolidate es la trampa fina: también describe un sector que cambia tras caducar una patente, pero consolidarse es agruparse en menos unidades, y aquí el número crece. dwindle, stagnate y falter invierten la dirección.",
+   "type": "SE",
+   "targets": [
+    "proliferate",
+    "burgeon",
+    "falter"
+   ]
+  },
+  {
+   "id": "tc106",
+   "text": "Her early canvases were dismissed as ___ by critics who had not looked long enough to see what was new in them; only after her death did the same journals call them ___, since everything the decade went on to do is already there in the 1911 pictures.",
+   "signal": {
+    "word": "only after her death",
+    "relation": "contraste"
+   },
+   "clue": "everything the decade went on to do is already there in the 1911 pictures",
+   "blankTone": "neu",
+   "predictionHint": "primero: derivativas, sin nada propio. segundo: que se adelantaron a lo que vino después",
+   "optionGroups": [
+    [
+     "derivative",
+     "masterly",
+     "opaque"
+    ],
+    [
+     "prescient",
+     "slight",
+     "decorative"
+    ]
+   ],
+   "answer": [
+    "derivative",
+    "prescient"
+   ],
+   "why": "El desprecio de quien no miró bien pide <b>derivative</b>; que la década entera ya estuviera en los cuadros de 1911 pide lo contrario: <b>prescient</b>.",
+   "trapNote": "slight y decorative repetirían el desdén del primer hueco y anularían el «only after her death», que existe para marcar el cambio de juicio. <i>seminal</i> habría valido igual de bien y no está impresa. En TC de dos huecos el giro temporal obliga a que las columnas se opongan.",
+   "type": "TC2",
+   "options": [
+    "derivative",
+    "masterly",
+    "opaque",
+    "prescient",
+    "slight",
+    "decorative"
+   ],
+   "targets": [
+    "derivative",
+    "opaque",
+    "prescient",
+    "slight"
+   ]
+  },
+  {
+   "id": "tc107",
+   "text": "The report is ___ about the cause and ___ about the remedy: nine pages establish exactly how the fire started, and a single paragraph suggests that procedures be reviewed in due course.",
+   "signal": {
+    "word": "and",
+    "relation": "contraste"
+   },
+   "clue": "nine pages establish exactly how the fire started",
+   "blankTone": "neu",
+   "predictionHint": "primero: minucioso. segundo: despachado por encima",
+   "optionGroups": [
+    [
+     "exhaustive",
+     "evasive",
+     "tentative"
+    ],
+    [
+     "perfunctory",
+     "thorough",
+     "emphatic"
+    ]
+   ],
+   "answer": [
+    "exhaustive",
+    "perfunctory"
+   ],
+   "why": "Nueve páginas para la causa piden <b>exhaustive</b>; un párrafo de trámite para el remedio, <b>perfunctory</b>. El «and» aquí une dos mitades que se oponen en los hechos.",
+   "trapNote": "thorough en el segundo hueco sería casi un sinónimo del primero, y la oración dejaría de contrastar nada: la gracia del ítem es que el mismo informe hace una cosa muy bien y la otra de cualquier manera. Lee siempre los dos huecos como un par, no por separado.",
+   "type": "TC2",
+   "options": [
+    "exhaustive",
+    "evasive",
+    "tentative",
+    "perfunctory",
+    "thorough",
+    "emphatic"
+   ],
+   "targets": [
+    "exhaustive",
+    "evasive",
+    "tentative",
+    "perfunctory",
+    "thorough"
    ]
   }
  ]
