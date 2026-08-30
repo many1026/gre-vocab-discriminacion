@@ -23,18 +23,22 @@ Actualiza esta sección al cerrar cada lote.
 - **186 grupos, 1037/1112 palabras (93.3%)**, `run_all.py` en verde, 0 errores
 - Grupos `loose`: **2** (g183, g184). g185 y g186 **no** son loose: los dos ejes se defienden palabra
   por palabra (escala de daño; apetito de bienes)
-- Banco TC/SE auténtico: **50/150 ítems** (TC1=24, TC2=2, SE=24). Los TC de dos huecos
+- Banco TC/SE auténtico: **109/150 ítems** (TC1=83, TC2=2, SE=24). Los TC de dos huecos
   llevan `optionGroups`: una columna de 3 opciones por hueco, como en el examen. R11 exige
   que `options` sea la concatenación en orden y que cada respuesta caiga en su columna
 - **App** en `app/index.html`. Se abre con doble clic, sin servidor. Progreso en
   `localStorage`, feedback sobre el eje. Motor anti-interferencia completo: Leitner
   0·1·3·7·16, matriz de confusión **por par y dirigida**, contrastivo forzado hasta cerrar
   cada par, "dominado" solo si el grupo no tiene pares abiertos (nunca por promedio),
-  repaso diario mixto y sesión de sábado. **Los 6 formatos**: Discriminar, Reconocer,
-  Contrastivo, Escribir, Equivalencia (SE) y Ordenar por intensidad — ver `ESTADO.md`
-- **Los ítems SE son la salida de las palabras que ningún cloze separa.** Cuando un par sea
-  de sinónimos verdaderos, no fuerces un grupo: escribe un SE. 16 de las 75 huérfanas ya se
-  estudian así (cobertura efectiva 1053/1112, 94.7%)
+  repaso diario mixto y sesión de sábado. **7 formatos**: Discriminar, Reconocer, Contrastivo,
+  Escribir, Equivalencia (SE), Ordenar por intensidad y Leer la oración (TC) — ver `ESTADO.md`
+- **Cobertura efectiva 1112/1112 (100%)**: 1037 en grupos + 75 solo en el banco. El informe
+  dice 93.3% porque solo cuenta grupos, y está bien que lo haga
+- **El banco es la salida de lo que los grupos no pueden contener.** Sinónimos verdaderos →
+  un ítem **SE**; huérfana suelta sin campo ni pareja → un ítem **TC1**, que no necesita campo
+  semántico ni POS uniforme. **No fuerces un grupo para colocar una palabra**: escribe el ítem.
+  El bloque D quedó agotado por esta vía, con los 8 campos posibles documentados en
+  `docs/trampas.md`
 - Ya es repo git (`main`): cada lote se comitea al cerrar
 
 ## Anatomía

@@ -1,5 +1,5 @@
 ========================================================================
-CORRIDA COMPLETA  2026-08-30 10:06:26
+CORRIDA COMPLETA  2026-08-30 09:50:49
 modo: parcial (backfill en curso)
 ========================================================================
 
@@ -227,7 +227,7 @@ Distribución de tier:
   tier 2: 163
   tier 3: 1
 
-Banco TC/SE auténtico: 109 ítems (SE=24, TC1=83, TC2=2) — meta 150
+Banco TC/SE auténtico: 65 ítems (SE=24, TC1=39, TC2=2) — meta 150
 
 Cloze que se resuelven solo por gramática (11):
   g097/dissident

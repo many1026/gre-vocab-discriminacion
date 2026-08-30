@@ -292,3 +292,54 @@ reales en circulación, no solo las 2 correctas.
 **Verificación:** `run_all.py` verde (R11 pasa), 0 problemas estructurales en los 14, y los 12
 ítems que entraron en una sesión se renderizaron, se respondieron y mostraron su `why` y su
 `trapNote`.
+
+## 13. Bloques D y E — cobertura efectiva 100% (30 ago)
+
+### D: agotado por la vía de los grupos, y se puede demostrar
+
+Las 75 palabras sin grupo **no forman ningún campo nuevo de 5 del mismo POS**. Los ocho campos
+que formarían están todos registrados como bloqueados en `docs/trampas.md`, cada uno con su
+razón: inclinación (n), cansancio (n), librar de culpa (v), calmar (v), lo impropio (adj), fase
+y tiempo (adj), efecto sobre el público (v) y personas reprobables (n) — esta última por faltar
+dos personajes, no por defecto de diseño. Las 36 restantes son un cajón de sastre sin cinco del
+mismo POS entre ellas.
+
+Se descartó también **ampliar grupos existentes** (todos tienen sitio: 637 plazas libres). El
+caso más prometedor, meter `miscreant`/`reprobate`/`libertine` en g120 «tipos difíciles de
+tratar», rompe su eje: g120 va de *apartarse de todos* a *imponer su norma a todos*, y esos tres
+no están en esa dimensión — infringen, que es otra cosa. Cada ampliación cuesta además rejuzgar
+todos los cloze del grupo (el hash incluye a los hermanos) para colocar una o dos palabras.
+
+### E: el banco absorbe lo que los grupos no pueden
+
+**Banco de 50 → 109 ítems** (TC1=83, TC2=2, SE=24), en cuatro tandas. La clave: **TC1 no
+necesita campo semántico ni POS uniforme** — la palabra es la respuesta única entre cinco
+opciones impresas. Es el vehículo natural para una huérfana suelta.
+
+| | |
+|---|---|
+| En grupos | 1037 |
+| Solo en el banco | 75 |
+| Sin aparecer en ningún sitio | **0** |
+| **Cobertura efectiva** | **1112/1112 (100%)** |
+
+El informe seguirá diciendo 93.3%: ese número solo cuenta grupos, y es correcto que lo haga.
+
+Varios ítems aprovechan la ocasión para enseñar distinciones que `trampas.md` documenta y que
+ningún grupo puede contener: `ennui` frente a `lassitude` (no querer / no poder), `coercion`
+frente a `duress` (quien aprieta / quien firma), `thorough` frente a `exhaustive`, `competent`
+frente a `proficient`, `cataclysmic` frente a sus dos sinónimos, `metaphorical` frente a
+`figurative`, `ascribe` frente a `attribute`. La palabra ausente se nombra en el `trapNote`,
+que es justo la disciplina que pide el examen.
+
+### El modo «Leer la oración» (séptimo formato)
+
+Al terminar las tandas, los 83 TC1 **no los mostraba nadie** — el mismo fallo que el banco
+entero tenía antes del bloque C. Se añadió el modo: oración con un hueco, cinco opciones y, al
+responder, la señal, la relación lógica y la pista subrayadas. Sin él, la cobertura del 100%
+habría sido de papel.
+
+**Verificación** (Chromium): 12 ítems TC ejercitados, todos con 5 opciones correctas,
+acierto/fallo bien marcados y las tarjetas de señal y trampa presentes; y el repaso del día sale
+con **siete formatos** mezclados (cara a cara, equivalencia, leer la oración, intensidad,
+discriminar, reconocer, escribir) y 0 grupos consecutivos.

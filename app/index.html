@@ -323,6 +323,18 @@ function recordOrder(ladder, seq){
 /* Equivalencia: solo se abre un par cuando la elegida y la correcta son hermanas.
    La matriz de confusión vive dentro del grupo — un par entre grupos distintos no
    tendría contrastivo que lo cerrara con sentido. */
+// TC: una sola respuesta. Mismo criterio de pares que SE — solo si son hermanas.
+function recordTC(item, pick){
+  var right = item.answer[0];
+  var ok = pick === right;
+  if (ENTRY[right]) record(right, ok, null);
+  if (!ok && ENTRY[pick] && ENTRY[right] && ENTRY[pick].g.id === ENTRY[right].g.id){
+    openPair(right, pick);
+    saveStore(store);
+  }
+  return ok;
+}
+
 function recordSE(item, picks){
   var ok = picks.length === 2 && picks.every(function(p){ return item.answer.indexOf(p) >= 0; });
   item.answer.forEach(function(w){ if (ENTRY[w]) record(w, ok, null); });
@@ -385,6 +397,13 @@ DATA.groups.forEach(function(g){
 // contrario de lo que pide SE (dos que dejan la oración con el mismo sentido).
 var SE_POOL = (DATA.tcBank || []).filter(function(i){
   return i.type === 'SE' && i.options && i.answer && i.answer.length === 2;
+});
+
+// Text Completion de un hueco: la vía por la que se estudian las palabras que no
+// están en ningún grupo — no necesitan campo semántico ni hermanas, solo cinco
+// opciones impresas entre las que una encaja.
+var TC_POOL = (DATA.tcBank || []).filter(function(i){
+  return i.type === 'TC1' && i.options && i.answer && i.answer.length === 1;
 });
 
 // Ordenar por intensidad: hace falta un eje real y cuatro posiciones distintas.
@@ -460,6 +479,10 @@ function seItem(it){
   return {kind:'se', se:it, w:null, other:null,
           g:{id:'se·' + it.id, name:'equivalencia', loose:true, words:[]}};
 }
+function tcItem(it){
+  return {kind:'tc', se:it, w:null, other:null,
+          g:{id:'tc·' + it.id, name:'una oración, un hueco', loose:true, words:[]}};
+}
 function orderItem(g){
   return {kind:'order', w:null, other:null, g:g, ladder:pickLadder(g)};
 }
@@ -471,6 +494,7 @@ function pickQuestions(n, mode){
   var items = [], taken = {};
 
   if (mode === 'se')    return shuffle(SE_POOL).slice(0, n).map(seItem);
+  if (mode === 'tc')    return shuffle(TC_POOL).slice(0, n).map(tcItem);
   if (mode === 'order') return shuffle(ORDER_POOL).slice(0, n).map(orderItem);
 
   if (mode === 'mixed' || mode === 'saturday'){
@@ -483,6 +507,9 @@ function pickQuestions(n, mode){
     // el repaso mezcla formatos, no solo grupos: entran equivalencia y escala
     shuffle(SE_POOL).slice(0, Math.min(2, SE_POOL.length)).forEach(function(it){
       items.push(seItem(it));
+    });
+    shuffle(TC_POOL).slice(0, Math.min(2, TC_POOL.length)).forEach(function(it){
+      items.push(tcItem(it));
     });
     if (ORDER_POOL.length) items.push(orderItem(ORDER_POOL[Math.floor(Math.random()*ORDER_POOL.length)]));
   }
@@ -586,6 +613,11 @@ function renderStart(){
         '<span class="md">Una definición en inglés. Elige la palabra exacta entre sus vecinas.</span></button>' +
       '<button class="mode-btn" data-mode="type"><span class="mt">Escribir</span>' +
         '<span class="md">La definición, y la palabra la produces tú. Sin opciones donde apoyarte.</span></button>' +
+      (TC_POOL.length ?
+      '<button class="mode-btn" data-mode="tc"><span class="mt">Leer la oración</span>' +
+        '<span class="md">Text Completion en registro de examen: la señal, la pista y cinco opciones. ' +
+        'Es donde se estudian las palabras que no están en ningún grupo. ' +
+        TC_POOL.length + ' ítems.</span></button>' : '') +
       (SE_POOL.length ?
       '<button class="mode-btn" data-mode="se"><span class="mt">Equivalencia</span>' +
         '<span class="md">Las <b>dos</b> que dejan la oración con el mismo sentido, como en el examen. ' +
@@ -605,13 +637,13 @@ function currentOptions(){
   var e = state.qs[state.idx];
   // En contrastivo solo salen las dos palabras del par: cara a cara, sin dónde esconderse.
   if (e.kind === 'contrast') return shuffle([e.w.w, e.other]);
-  if (e.kind === 'se')       return shuffle(e.se.options.slice());
+  if (e.kind === 'se' || e.kind === 'tc') return shuffle(e.se.options.slice());
   return shuffle(e.g.words.map(function(w){ return w.w; }));
 }
 var cachedOpts = null;
 
 var KIND_LABEL = {cloze:'discriminar', recall:'reconocer', contrast:'cara a cara',
-                  type:'escribir', se:'equivalencia', order:'intensidad'};
+                  type:'escribir', se:'equivalencia', order:'intensidad', tc:'leer la oración'};
 
 function nextRow(){
   return '<div class="next-row"><button class="btn" id="next">' +
@@ -712,6 +744,35 @@ function seView(e, done){
   return body + '<div class="options">' + optHtml + '</div>' + fb;
 }
 
+/* --- Text Completion: una oración, un hueco, cinco opciones impresas --- */
+function tcView(e, done){
+  var it = e.se, pick = state.answered, right = it.answer[0];
+  var body = blankHtml(it.text, done ? right : null);
+
+  var optHtml = cachedOpts.map(function(o, i){
+    var cls = 'opt';
+    if (done){
+      if (o === right) cls += ' is-right';
+      else if (o === pick) cls += ' is-wrong';
+      else cls += ' is-dim';
+    }
+    return '<button class="' + cls + '" data-w="' + esc(o) + '"' + (done?' disabled':'') + '>' +
+             '<span class="k">' + (i+1) + '</span>' + esc(o) + '</button>';
+  }).join('');
+
+  var fb = '';
+  if (done){
+    fb = '<div class="fb">' +
+         '<p class="fb-word">' + esc(right) + '</p>' +
+         '<p class="fb-disc">' + it.why + '</p>' +
+         '<div class="card"><h4>la señal</h4><p>«' + esc(it.signal.word) + '» — ' +
+           esc(it.signal.relation) + '. La pista: <i>' + esc(it.clue) + '</i></p></div>' +
+         (it.trapNote ? '<div class="card"><h4>la trampa</h4><p>' + it.trapNote + '</p></div>' : '') +
+         nextRow() + '</div>';
+  }
+  return body + '<div class="options">' + optHtml + '</div>' + fb;
+}
+
 /* --- ordenar por intensidad: colocar cuatro palabras sobre el eje --- */
 function orderView(e, done){
   var g = e.g, picks = state.picks;
@@ -756,6 +817,7 @@ function renderQuiz(){
   if (!done && !cachedOpts && e.kind !== 'order' && e.kind !== 'type') cachedOpts = currentOptions();
 
   var view = e.kind === 'se'    ? seView(e, done)
+           : e.kind === 'tc'    ? tcView(e, done)
            : e.kind === 'order' ? orderView(e, done)
            : e.kind === 'type'  ? typeView(e, done)
            :                      choiceView(e, done);
@@ -802,6 +864,12 @@ function answer(pick){
     if (state.picks.length < 2) return render();
     var okSE = recordSE(e.se, state.picks);
     return finish({w:{w:e.se.answer.join(' + ')}, g:e.g, kind:'se'}, okSE, state.picks.join(' + '));
+  }
+
+  if (e.kind === 'tc'){
+    state.answered = pick;
+    var okTC = recordTC(e.se, pick);
+    return finish({w:{w:e.se.answer[0]}, g:e.g, kind:'tc'}, okTC, pick);
   }
 
   if (e.kind === 'order'){
@@ -897,7 +965,7 @@ function renderSummary(){
   var misses = state.results.filter(function(r){ return !r.ok; });
 
   var MODE_LABEL = {cloze:'discriminar', recall:'reconocer', type:'escribir', se:'equivalencia',
-                    order:'intensidad', mixed:'repaso del día', saturday:'sábado'};
+                    order:'intensidad', tc:'leer la oración', mixed:'repaso del día', saturday:'sábado'};
   var html = '<div class="eyebrow"><span>sesión terminada</span><span>' +
              esc(MODE_LABEL[state.mode] || state.mode) + '</span></div>';
   html += '<p class="score">' + right + '<small> / ' + state.results.length + '</small></p>';

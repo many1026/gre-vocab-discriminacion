@@ -391,3 +391,30 @@ ser hermanas. **Antes de proponer un campo, busca aquí sus palabras.**
     `temporal`). El campo es un cajón de sastre: nadie confunde `valedictory` con `dwindling`, así que
     ni siquiera como distractores se sostienen. Un grupo `loose` necesita que las cinco sean confundibles
     entre sí; que compartan tema no basta.
+
+---
+
+## Cierre del backfill por grupos (30 ago 2026)
+
+- **El bloque D se dio por agotado, y la salida es el banco.** Las 75 palabras que quedaron sin
+  grupo no forman ningún campo nuevo de 5 del mismo POS: los ocho que formarían están todos
+  arriba, cada uno con su razón. Las 36 restantes son un cajón de sastre.
+- **Ampliar un grupo existente casi nunca compensa.** Hay 637 plazas libres (ningún grupo llega
+  a 9), pero cada palabra añadida invalida los veredictos de **todos** los cloze del grupo,
+  porque el hash incluye a los hermanos. Y el eje manda: meter `miscreant`, `reprobate` y
+  `libertine` en g120 parecía natural por ser tipos humanos, pero el eje de g120 va de
+  **apartarse de todos** a **imponer su norma a todos**, y esos tres no están en esa dimensión
+  — infringen. Compartir «tema» no basta, igual que en los grupos `loose`.
+- **Regla nueva: si una palabra no cabe en un grupo, escribe un ítem del banco, no fuerces un
+  grupo.** Sinónimos verdaderos → **SE** (las dos son la respuesta, que es como aparecen en el
+  examen). Huérfana suelta, sin pareja ni campo → **TC1**, que no necesita campo semántico ni
+  POS uniforme: basta con cinco opciones impresas donde solo una encaje. Así se cerró la
+  cobertura efectiva al 100% sin fabricar un solo ítem ambiguo.
+- **El `trapNote` es donde viven las distinciones que ningún grupo puede contener.** `ennui` vs
+  `lassitude` (no querer / no poder), `coercion` vs `duress` (quien aprieta / quien firma),
+  `thorough` vs `exhaustive`, `competent` vs `proficient`, `cataclysmic` vs sus dos sinónimos,
+  `metaphorical` vs `figurative`, `ascribe` vs `attribute`. Se nombra la palabra **ausente** de
+  las opciones y se explica por qué habría valido: es exactamente la disciplina del examen.
+- **Un ítem nuevo no sirve de nada si ningún modo lo consume.** Pasó dos veces: el banco entero
+  estuvo fuera de `data.json` hasta el bloque C, y los 83 TC1 no los mostraba nadie hasta que se
+  añadió el modo «Leer la oración». Al añadir material al banco, comprueba que la app lo usa.
