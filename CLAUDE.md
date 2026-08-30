@@ -26,8 +26,12 @@ Actualiza esta sección al cerrar cada lote.
 - Banco TC/SE auténtico: **36/150 ítems** (TC1=24, TC2=2, SE=10). Los TC de dos huecos
   llevan `optionGroups`: una columna de 3 opciones por hueco, como en el examen. R11 exige
   que `options` sea la concatenación en orden y que cada respuesta caiga en su columna
-- **App: MVP funcionando** en `app/index.html`. Se abre con doble clic, sin servidor.
-  Dos modos (Discriminar, Reconocer), progreso en `localStorage`, feedback sobre el eje
+- **App** en `app/index.html`. Se abre con doble clic, sin servidor. Progreso en
+  `localStorage`, feedback sobre el eje. Motor anti-interferencia completo: Leitner
+  0·1·3·7·16, matriz de confusión **por par y dirigida**, contrastivo forzado hasta cerrar
+  cada par, "dominado" solo si el grupo no tiene pares abiertos (nunca por promedio),
+  repaso diario mixto y sesión de sábado. Formatos: Discriminar, Reconocer, Contrastivo.
+  **Faltan** Escribir, Equivalencia (SE) y Ordenar por intensidad — ver `ESTADO.md`
 - Ya es repo git (`main`): cada lote se comitea al cerrar
 
 ## Anatomía
@@ -39,7 +43,7 @@ data/groups/gNNN-slug.json      un archivo por grupo, editable a mano  ← aquí
 data/field_map.json             plan de campos semánticos con candidatos verificados
 data/cloze_verdicts.json        veredictos de unicidad, indexados por hash
 data/data.json / data.js        dataset ensamblado que consume la app
-tc_bank.json                    banco TC/SE auténtico (meta 150)
+data/tc_bank.json               banco TC/SE auténtico (meta 150; hoy 36, sin usar aún en la app)
 reports/latest.txt              informe de la última corrida
 reports/status.json             estado legible por máquina: qué falta
 app/index.html                  la app, un solo archivo, se abre con doble clic
