@@ -91,12 +91,14 @@ muestra el eje semántico en el feedback. Pero contra lo que pide el spec:
 | 1 | Distractores siempre del mismo grupo | ✅ `currentOptions()` usa `e.g.words` |
 | 2 | Nunca mostrar el nombre del grupo en la pregunta | ✅ **arreglado en el bloque A** (era la violación grave) |
 | 3 | Nunca dos ítems seguidos del mismo grupo | ✅ **arreglado en el bloque A** (antes solo ×0.25) |
-| 4 | El repaso mezcla grupos **y formatos** | ❌ un modo por sesión, elegido a mano |
+| 4 | El repaso mezcla grupos **y formatos** | ✅ **bloque B** — "Repaso del día" |
 | 5 | Matriz de confusión por par | ✅ **arreglado en el bloque A** (antes se descartaba el `pick`) |
-| 6 | Pares confundidos → contrastivo automático | ❌ — bloque B |
-| 7 | Dominado solo al resolver todos los pares | ❌ — bloque B |
-| 8 | Leitner 0·1·3·7·16 | ❌ hay un `weightOf()` heurístico, no cajas — bloque B |
-| 9 | Sesión de sábado mezclada | ❌ — bloque B |
+| 6 | Pares confundidos → contrastivo automático | ✅ **bloque B** |
+| 7 | Dominado solo al resolver todos los pares | ✅ **bloque B** |
+| 8 | Leitner 0·1·3·7·16 | ✅ **bloque B** |
+| 9 | Sesión de sábado mezclada | ✅ **bloque B** |
+
+**Las 9 están cumplidas.**
 
 La #2 es el hallazgo grave: **cada sesión que estudies hoy te está regalando la categoría
 mientras contestas**, que es literalmente la interferencia asociativa que el proyecto combate.
@@ -203,3 +205,40 @@ Tres arreglos en `app/index.html`:
 
 Ya puedes estudiar. Cada sesión que hagas desde ahora alimenta la matriz de pares que el
 bloque B convierte en contrastivo forzado.
+
+## 10. Bloque B — el motor anti-interferencia (29 ago)
+
+**Decisión de alcance:** el formato **Contrastivo** se movió del bloque C al B. La restricción 6
+dice que los pares confundidos entran automáticamente a contrastivo forzado; sin el formato no
+hay a dónde entrar, así que el consumidor de la matriz viaja con la matriz. En C quedan los
+otros tres: Escribir, Equivalencia y Ordenar por intensidad.
+
+- **Leitner 0·1·3·7·16.** Cada palabra lleva `box` y `due`. Acertar sube una caja y aleja el
+  repaso; fallar devuelve a la caja 0 y la palabra vuelve enseguida. `weightOf()` pondera por
+  días de retraso, así que lo más vencido sale primero.
+- **Contrastivo forzado.** Un par que fallaste queda **abierto** hasta que lo aciertes **dos
+  veces** cara a cara, con solo esas dos palabras en pantalla. Los pares abiertos ocupan hasta
+  un tercio del repaso del día y entran los primeros. El acierto abona las dos direcciones:
+  lo que se resuelve es el par, no la palabra.
+- **Dominado por pares (regla 7).** Un grupo se domina cuando **todas** sus palabras están en
+  caja ≥3 **y** no le queda ningún par abierto. Nunca por promedio de aciertos.
+- **Repaso del día y sesión de sábado.** El repaso mezcla formatos y grupos. Los sábados la
+  portada cambia sola: 18 ítems, todo mezclado, sin filtrar por vencimiento.
+
+**Un fallo encontrado al verificar, y corregido:** la cola de pares ordenaba por "más
+confundido primero", así que un par con un acierto ya hecho se hundía bajo los recién fallados
+y **no se cerraba nunca**. Ahora los pares a medio cerrar van delante. Sin ese arreglo, la
+restricción 6 se cumplía de boquilla y ningún grupo llegaría jamás a dominado.
+
+**Verificación** (Chromium, ~150 ítems ejercitados):
+
+| Comprobación | Resultado |
+|---|---|
+| Leitner tras acertar | caja 0 → 1, `due` exactamente +1 día |
+| Reparto de cajas tras 6 sesiones | box0: 71 · box1: 8 · box2: 23 |
+| Contrastivos por sesión | 6 de 18, **siempre los primeros**, siempre 2 opciones |
+| Cierre de pares | 6 → 12 → 12 → 18 → 18 → 24 a lo largo de 6 sesiones |
+| **Regla 7** | 5 palabras en caja 4 con 100% de aciertos y 1 par abierto → **0 dominados**; cerrado ese par sin tocar el promedio → **1 dominado** |
+| Repaso del día (forzando miércoles) | 12 ítems, 3 formatos mezclados, contrastivos primero |
+| Sesión de sábado (hoy lo es) | 18 ítems, aparece sola en la portada |
+| Grupos consecutivos repetidos | **0** en todas las sesiones |
