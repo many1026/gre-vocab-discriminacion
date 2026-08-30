@@ -215,22 +215,39 @@ var app = document.getElementById('app');
 var STORE_KEY = 'gre-discriminar-v1';
 var SESSION_LEN = 12;
 
-/* ---------- progreso ---------- */
+/* ---------- progreso ----------
+   store = { words:{palabra:{r,w,t}}, pairs:{"objetivo>elegida":n} }
+   La matriz de pares es dirigida a propósito: elegir alleviate cuando tocaba
+   assuage no es el mismo error que el inverso, y el contrastivo forzado
+   necesita saber en qué dirección se cae. */
 function loadStore(){
-  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
-  catch(e){ return {}; }
+  var raw;
+  try { raw = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+  catch(e){ raw = {}; }
+  if (!raw.words) raw = {words:raw, pairs:{}};   // migra el formato plano anterior
+  if (!raw.pairs) raw.pairs = {};
+  return raw;
 }
 function saveStore(s){
   try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e){}
 }
 var store = loadStore();
 
-function record(word, ok){
-  var r = store[word] || {r:0,w:0,t:0};
+function record(word, ok, pick){
+  var r = store.words[word] || {r:0,w:0,t:0};
   if (ok) r.r++; else r.w++;
   r.t = Date.now();
-  store[word] = r;
+  store.words[word] = r;
+  if (!ok && pick){
+    var k = word + '>' + pick;
+    store.pairs[k] = (store.pairs[k] || 0) + 1;
+  }
   saveStore(store);
+}
+
+// cuántas veces se han cruzado dos palabras, en cualquier dirección
+function pairCount(a, b){
+  return (store.pairs[a + '>' + b] || 0) + (store.pairs[b + '>' + a] || 0);
 }
 
 /* ---------- pool ---------- */
@@ -242,7 +259,7 @@ DATA.groups.forEach(function(g){
 });
 
 function weightOf(entry){
-  var r = store[entry.w.w];
+  var r = store.words[entry.w.w];
   if (!r) return 4;                    // sin ver: prioridad alta
   if (r.w > r.r) return 6;             // fallada más veces de las que acertó
   if (r.w > 0)   return 2;             // alguna vez fallada
@@ -253,16 +270,28 @@ function pickQuestions(n){
   var bag = POOL.slice();
   var chosen = [];
   var usedGroups = {};
+  var lastGroup = null;
   while (chosen.length < n && bag.length){
-    var total = 0, i;
-    for (i=0;i<bag.length;i++) total += weightOf(bag[i]) * (usedGroups[bag[i].g.id] ? 0.25 : 1);
-    var t = Math.random()*total, acc = 0, hit = 0;
+    // Peso 0 al grupo del ítem anterior: dos ítems seguidos del mismo grupo
+    // convierten el segundo en un ejercicio de eliminación, no de recuerdo.
+    var w = new Array(bag.length), total = 0, i;
     for (i=0;i<bag.length;i++){
-      acc += weightOf(bag[i]) * (usedGroups[bag[i].g.id] ? 0.25 : 1);
-      if (acc >= t){ hit = i; break; }
+      w[i] = (bag[i].g.id === lastGroup) ? 0
+           : weightOf(bag[i]) * (usedGroups[bag[i].g.id] ? 0.25 : 1);
+      total += w[i];
     }
+    if (total <= 0) break;          // antes sesión corta que repetir grupo
+    var t = Math.random()*total, acc = 0, hit = -1;
+    for (i=0;i<bag.length;i++){
+      if (w[i] <= 0) continue;
+      acc += w[i];
+      hit = i;
+      if (acc >= t) break;
+    }
+    if (hit < 0) break;
     var e = bag.splice(hit,1)[0];
     usedGroups[e.g.id] = true;
+    lastGroup = e.g.id;
     chosen.push(e);
   }
   return chosen;
@@ -303,8 +332,8 @@ function render(){
 
 /* ---------- pantalla inicial ---------- */
 function renderStart(){
-  var seen = Object.keys(store).length;
-  var shaky = Object.keys(store).filter(function(k){ return store[k].w > 0; }).length;
+  var seen = Object.keys(store.words).length;
+  var shaky = Object.keys(store.words).filter(function(k){ return store.words[k].w > 0; }).length;
   app.innerHTML =
     '<h1 class="hero-word"><span class="a">platitude</span> o <span class="b">aphorism</span></h1>' +
     '<p class="hero-sub">Las dos caben en una línea. Una se olvida al oírla y la otra se cita durante siglos. ' +
@@ -347,9 +376,14 @@ function renderQuiz(){
   var opts = cachedOpts;
   var ans = state.answered;
 
+  // El nombre del grupo NO se muestra mientras la pregunta está abierta: decirte
+  // "aliviar o reducir algo doloroso" antes de que elijas te regala la categoría,
+  // que es justo la interferencia que esto combate. Aparece al responder.
   var head =
     '<div class="eyebrow">' +
-      '<span><b>' + esc(group.id) + '</b> · <span class="group-name">' + esc(group.name) + '</span></span>' +
+      '<span>' + (ans
+        ? '<b>' + esc(group.id) + '</b> · <span class="group-name">' + esc(group.name) + '</span>'
+        : (state.mode === 'cloze' ? 'discriminar' : 'reconocer')) + '</span>' +
       '<span>' + (state.idx+1) + ' / ' + state.qs.length + '</span>' +
     '</div>';
 
@@ -395,7 +429,7 @@ function answer(pick){
   var e = state.qs[state.idx];
   var ok = pick === e.w.w;
   state.answered = pick;
-  record(e.w.w, ok);
+  record(e.w.w, ok, pick);
   state.results.push({word:e.w, group:e.g, pick:pick, ok:ok});
   render();
 }
