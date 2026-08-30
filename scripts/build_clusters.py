@@ -84,6 +84,10 @@ def build() -> tuple[dict[str, Any], list[dict[str, Any]]]:
     verdicts_path = DATA_DIR / "cloze_verdicts.json"
     verdicts = load_json(verdicts_path) if verdicts_path.exists() else {}
 
+    # El banco TC/SE viaja con el dataset: la app lo necesita para Equivalencia.
+    tc_path = DATA_DIR / "tc_bank.json"
+    tc_items = load_json(tc_path).get("items", []) if tc_path.exists() else []
+
     groups: list[dict[str, Any]] = []
     pending: list[dict[str, Any]] = []
 
@@ -117,9 +121,12 @@ def build() -> tuple[dict[str, Any], list[dict[str, Any]]]:
             "totalWords": len(words),
             "coveredWords": len(covered),
             "groupCount": len(groups),
+            "tcCount": len(tc_items),
+            "seCount": sum(1 for i in tc_items if i.get("type") == "SE"),
         },
         "groups": groups,
         "formConfusions": confusions,
+        "tcBank": tc_items,
     }
     return dataset, pending
 

@@ -2,7 +2,9 @@ window.VOCAB = {
  "meta": {
   "totalWords": 1112,
   "coveredWords": 1037,
-  "groupCount": 186
+  "groupCount": 186,
+  "tcCount": 36,
+  "seCount": 10
  },
  "groups": [
   {
@@ -22253,6 +22255,1189 @@ window.VOCAB = {
    "note": "<b>complacent</b> mira hacia dentro: se conforma consigo mismo y baja la guardia. <b>complaisant</b> mira hacia fuera: cede para agradar a otro. El GRE usa complacent con mucha más frecuencia.",
    "aEj": "Two good quarters made the board ___ just as the market turned.",
    "bEj": "A ___ host, he agreed to every change his guests proposed."
+  }
+ ],
+ "tcBank": [
+  {
+   "id": "tc001",
+   "type": "TC1",
+   "text": "Although her prose is admirably clear, it is also ___: three pages regularly do the work of one.",
+   "signal": {
+    "word": "Although",
+    "relation": "contraste"
+   },
+   "clue": "three pages regularly do the work of one",
+   "blankTone": "neg",
+   "predictionHint": "un defecto de exceso de palabras, compatible con que el texto igual se entienda",
+   "options": [
+    "verbose",
+    "prolix",
+    "abstruse",
+    "laconic",
+    "cogent"
+   ],
+   "answer": [
+    "verbose"
+   ],
+   "why": "\"Although … clear\" avisa que el hueco es un defecto que <i>convive</i> con la claridad. La pista cuantifica palabras de sobra, que es exactamente verbose.",
+   "trapNote": "prolix es la trampa: también significa palabras de sobra, pero añade que el lector se pierde — y la oración acaba de decir que la prosa es clara. abstruse y turgid caen por lo mismo. laconic y cogent son elogios de concisión, o sea la dirección contraria.",
+   "targets": [
+    "verbose",
+    "prolix",
+    "abstruse",
+    "laconic",
+    "cogent"
+   ]
+  },
+  {
+   "id": "tc002",
+   "type": "TC1",
+   "text": "Presented as a neutral summary of the evidence, the report proved on closer reading to be thoroughly ___.",
+   "signal": {
+    "word": "proved on closer reading",
+    "relation": "contraste"
+   },
+   "clue": "Presented as a neutral summary",
+   "blankTone": "neg",
+   "predictionHint": "lo contrario de neutral: inclinado hacia una tesis",
+   "options": [
+    "tendentious",
+    "exhaustive",
+    "cogent",
+    "perfunctory",
+    "tenable"
+   ],
+   "answer": [
+    "tendentious"
+   ],
+   "why": "El armazón \"presented as X … proved to be ___\" opone apariencia y realidad, así que el hueco debe negar \"neutral\". tendentious es precisamente sesgado hacia una conclusión.",
+   "trapNote": "Las otras cuatro miden ejes que la oración no puso en juego: exhaustive y perfunctory miden <b>esfuerzo</b>, cogent y tenable miden <b>solidez</b>. Ninguno de los dos es lo opuesto de neutral. Este es el error más caro en TC: elegir una palabra negativa cualquiera en vez de la que niega la pista.",
+   "targets": [
+    "tendentious",
+    "exhaustive",
+    "cogent",
+    "perfunctory",
+    "tenable"
+   ]
+  },
+  {
+   "id": "se001",
+   "type": "SE",
+   "text": "The airline's offer of a voucher did little to ___ passengers who had spent eleven hours on the tarmac.",
+   "signal": {
+    "word": "did little to",
+    "relation": "causa"
+   },
+   "clue": "eleven hours on the tarmac",
+   "blankTone": "pos",
+   "predictionHint": "calmar a alguien que está furioso con razón",
+   "options": [
+    "placate",
+    "mollify",
+    "enervate",
+    "galvanize",
+    "forestall",
+    "incite"
+   ],
+   "answer": [
+    "placate",
+    "mollify"
+   ],
+   "why": "SE pide las <b>dos</b> palabras que dejan la oración con el mismo sentido. placate y mollify son intercambiables aquí: aplacar a alguien enojado.",
+   "trapNote": "Fíjate en que propitiate <i>no</i> está entre las opciones. Habría sido una tercera respuesta válida, y un ítem de SE con tres sinónimos es un ítem defectuoso — el examen los evita. Cuando veas tres candidatos plausibles, sospecha de tu lectura antes que del ítem. enervate (debilitar) y galvanize (espolear) apuntan a otro eje, incite es lo contrario, y forestall toma un suceso como objeto, no personas.",
+   "targets": [
+    "placate",
+    "mollify",
+    "enervate",
+    "galvanize",
+    "forestall",
+    "incite",
+    "propitiate"
+   ]
+  },
+  {
+   "id": "tc003",
+   "type": "TC1",
+   "text": "Critics dismissed the movement as ___, a fashion that would be forgotten within a season; forty years on, its influence is visible in every major museum.",
+   "signal": {
+    "word": "; forty years on",
+    "relation": "contraste"
+   },
+   "clue": "a fashion that would be forgotten within a season",
+   "blankTone": "neg",
+   "predictionHint": "de vida brevísima, que no va a durar",
+   "options": [
+    "ephemeral",
+    "perennial",
+    "derivative",
+    "austere",
+    "prosaic"
+   ],
+   "answer": [
+    "ephemeral"
+   ],
+   "why": "La aposición inmediatamente después del hueco lo <b>define</b>: \"a fashion that would be forgotten within a season\". Ese aprendiz de definición es la pista más fiable de todo el TC, porque no depende de inferencia.",
+   "trapNote": "perennial es el opuesto exacto y es la trampa favorita del GRE cuando el contraste va al final: si lees \"forty years on, its influence is visible\" y saltas el punto y coma, eliges perennial. <b>La aposición manda sobre la cláusula que viene después</b> — esa segunda cláusula describe lo que los críticos NO acertaron, no el hueco.",
+   "targets": [
+    "ephemeral",
+    "perennial",
+    "derivative",
+    "austere",
+    "prosaic"
+   ]
+  },
+  {
+   "id": "tc004",
+   "type": "TC1",
+   "text": "His colleagues were careful never to accuse him outright; they merely ___ed his motives and let the reporters do the rest.",
+   "signal": {
+    "word": "merely",
+    "relation": "contraste"
+   },
+   "clue": "never to accuse him outright",
+   "blankTone": "neg",
+   "predictionHint": "algo más débil que una acusación: poner en duda sin afirmar",
+   "options": [
+    "impugn",
+    "exonerate",
+    "corroborate",
+    "vilify",
+    "lionize"
+   ],
+   "answer": [
+    "impugn"
+   ],
+   "why": "\"never to accuse him outright\" más \"merely\" acotan el hueco por arriba: tiene que ser <b>más débil</b> que una acusación. Sembrar duda sobre un motivo es exactamente impugn, y el objeto \"his motives\" lo confirma.",
+   "trapNote": "vilify es la trampa por <b>intensidad</b>: es una campaña frontal y sostenida, justo lo que la oración dice que no hicieron. Cuando la oración pone un techo (\"never outright\", \"merely\", \"stopped short of\"), la respuesta nunca es la palabra más fuerte del campo.",
+   "targets": [
+    "impugn",
+    "exonerate",
+    "corroborate",
+    "vilify",
+    "lionize"
+   ]
+  },
+  {
+   "id": "se002",
+   "type": "SE",
+   "text": "Reviewers ___ the novel, calling it the most self-indulgent debut in a decade.",
+   "signal": {
+    "word": "calling it",
+    "relation": "reformulación"
+   },
+   "clue": "the most self-indulgent debut in a decade",
+   "blankTone": "neg",
+   "predictionHint": "destrozar, atacar con dureza",
+   "options": [
+    "excoriate",
+    "lambaste",
+    "extol",
+    "acclaim",
+    "canonize",
+    "condone"
+   ],
+   "answer": [
+    "excoriate",
+    "lambaste"
+   ],
+   "why": "El gerundio \"calling it…\" reformula el hueco: lo que sigue es el contenido del ataque. excoriate y lambaste dejan la oración con el mismo sentido; se diferencian en registro, no en dirección.",
+   "trapNote": "Fíjate en que extol, acclaim y canonize son <b>tres</b> palabras intercambiables entre sí. Ahí está la lección de SE: si tres opciones significan lo mismo, <b>ninguna de las tres es respuesta</b>, porque el ítem pide exactamente dos. Ese trío está puesto para tentarte a que sientas que \"van juntas\". condone (tolerar) no encaja con el desprecio de la oración.",
+   "targets": [
+    "excoriate",
+    "lambaste",
+    "extol",
+    "acclaim",
+    "canonize",
+    "condone"
+   ]
+  },
+  {
+   "id": "tc005",
+   "type": "TC1",
+   "text": "The mediator had expected posturing; what she found instead was ___ refusal, since no offer, however generous, produced any movement at all.",
+   "signal": {
+    "word": "instead",
+    "relation": "contraste"
+   },
+   "clue": "no offer, however generous, produced any movement at all",
+   "blankTone": "neg",
+   "predictionHint": "una negativa que nada consigue ablandar",
+   "options": [
+    "implacable",
+    "tractable",
+    "conciliatory",
+    "amenable",
+    "tentative"
+   ],
+   "answer": [
+    "implacable"
+   ],
+   "why": "La cláusula con \"however generous\" es la pista: no dice que la postura sea firme, dice que <b>nada</b> la mueve. Esa es la definición exacta de implacable — no se puede aplacar.",
+   "trapNote": "tractable, conciliatory y amenable forman un bloque en la dirección contraria, y tentative describe indecisión, no firmeza. Pero la lección fina está en otro lado: una postura firme en una negociación sería <b>intransigent</b>; que <i>ninguna oferta</i> la mueva es <b>implacable</b>. Si la oración enumera intentos fallidos, pide implacable.",
+   "targets": [
+    "implacable",
+    "tractable",
+    "conciliatory",
+    "amenable",
+    "tentative"
+   ]
+  },
+  {
+   "id": "tc006",
+   "type": "TC1",
+   "text": "The editor cut the passage not because it was wrong but because it was ___: the chart on the opposite page had already made the point.",
+   "signal": {
+    "word": "not because … but because",
+    "relation": "contraste"
+   },
+   "clue": "the chart on the opposite page had already made the point",
+   "blankTone": "neg",
+   "predictionHint": "repetía algo que ya estaba dicho en otro lado",
+   "options": [
+    "redundant",
+    "tangential",
+    "fallacious",
+    "abstruse",
+    "trenchant"
+   ],
+   "answer": [
+    "redundant"
+   ],
+   "why": "Los dos puntos introducen la explicación del hueco, y ahí está el <b>original que se repite</b>: el gráfico ya había hecho el mismo punto. Sin ese original identificable no habría redundancia.",
+   "trapNote": "tangential es la trampa de lectura rápida: describe algo que <i>se sale</i> del tema, pero el pasaje sí era del tema — solo que ya estaba dicho. Regla práctica: para elegir redundant tienes que poder señalar <b>qué repite</b>. Si no puedes, la palabra es superfluous o tangential.",
+   "targets": [
+    "redundant",
+    "tangential",
+    "fallacious",
+    "abstruse",
+    "trenchant"
+   ]
+  },
+  {
+   "id": "se003",
+   "type": "SE",
+   "text": "Given the size of the endowment, the trustees' refusal to fund even one scholarship struck the faculty as ___.",
+   "signal": {
+    "word": "Given the size of",
+    "relation": "contraste"
+   },
+   "clue": "Given the size of the endowment",
+   "blankTone": "neg",
+   "predictionHint": "tacaño hasta lo injustificable, teniendo el dinero",
+   "options": [
+    "parsimonious",
+    "miserly",
+    "munificent",
+    "lavish",
+    "judicious",
+    "equitable"
+   ],
+   "answer": [
+    "parsimonious",
+    "miserly"
+   ],
+   "why": "\"Given the size of the endowment\" arma el contraste: hay dinero de sobra y aun así no dan nada. parsimonious y miserly dejan la oración con el mismo sentido.",
+   "trapNote": "munificent y lavish van en dirección contraria. La trampa real es <b>judicious</b>: si lees \"refusal to fund\" como prudencia financiera, parece un elogio razonable. Pero \"struck the faculty as\" te dice de quién es el juicio, y la facultad no lo está aprobando. <b>Cuando la oración nombra quién juzga, la valencia del hueco es la de esa persona, no la tuya.</b>",
+   "targets": [
+    "parsimonious",
+    "miserly",
+    "munificent",
+    "lavish",
+    "judicious",
+    "equitable"
+   ]
+  },
+  {
+   "id": "tc007",
+   "type": "TC1",
+   "text": "Her review was ___ where her predecessor's had been perfunctory: every line of every ledger, and the discrepancy flagged on the fourth day.",
+   "signal": {
+    "word": "where … had been",
+    "relation": "contraste"
+   },
+   "clue": "every line of every ledger",
+   "blankTone": "pos",
+   "predictionHint": "atenta a cada detalle, lo contrario de hecha por encima",
+   "options": [
+    "meticulous",
+    "cursory",
+    "tendentious",
+    "byzantine",
+    "laconic"
+   ],
+   "answer": [
+    "meticulous"
+   ],
+   "why": "\"where her predecessor's had been perfunctory\" arma el contraste, y \"every line of every ledger\" define el hueco como exhaustividad en el detalle.",
+   "trapNote": "cursory es sinónimo de perfunctory, o sea de la palabra que la oración acaba de poner del <b>otro</b> lado del contraste. Cuando una oración nombra explícitamente el término opuesto, ese término <b>y todos sus sinónimos</b> quedan eliminados de un golpe. Es la eliminación más barata que existe en TC y casi nadie la usa.",
+   "targets": [
+    "meticulous",
+    "cursory",
+    "tendentious",
+    "byzantine",
+    "laconic"
+   ]
+  },
+  {
+   "id": "tc008",
+   "type": "TC1",
+   "text": "Readers long assumed the treatise was ___ because it was hard going; in fact its author had simply never learned to write a clear sentence.",
+   "signal": {
+    "word": "in fact",
+    "relation": "contraste"
+   },
+   "clue": "had simply never learned to write a clear sentence",
+   "blankTone": "neg",
+   "predictionHint": "difícil porque el contenido lo es de verdad, que es lo que los lectores creyeron",
+   "options": [
+    "abstruse",
+    "opaque",
+    "lucid",
+    "pithy",
+    "trenchant"
+   ],
+   "answer": [
+    "abstruse"
+   ],
+   "why": "\"in fact\" corrige una suposición: no era complejidad real, era mala redacción. El hueco recoge lo que los lectores <b>creyeron</b>, que es dificultad legítima — abstruse.",
+   "trapNote": "opaque es la trampa perfecta porque es lo que el texto <i>realmente</i> era. Regla general y muy rentable: <b>cuando la oración trae una corrección (\"in fact\", \"actually\", \"in reality\"), el hueco casi siempre está del lado equivocado</b> — recoge la creencia falsa, no la verdad que viene después.",
+   "targets": [
+    "abstruse",
+    "opaque",
+    "lucid",
+    "pithy",
+    "trenchant"
+   ]
+  },
+  {
+   "id": "se004",
+   "type": "SE",
+   "text": "The inspection was ___: fifteen minutes for a building no one had examined in a decade.",
+   "signal": {
+    "word": "fifteen minutes for",
+    "relation": "reformulación"
+   },
+   "clue": "fifteen minutes for a building no one had examined in a decade",
+   "blankTone": "neg",
+   "predictionHint": "hecha por encima, a la carrera",
+   "options": [
+    "cursory",
+    "perfunctory",
+    "exhaustive",
+    "painstaking",
+    "scrupulous",
+    "punctilious"
+   ],
+   "answer": [
+    "cursory",
+    "perfunctory"
+   ],
+   "why": "Los dos puntos reformulan el hueco con una cifra: quince minutos para diez años sin revisar. cursory y perfunctory dejan la oración con el mismo sentido.",
+   "trapNote": "Cuatro de las seis opciones apuntan al lado contrario. <b>Cuando la mayoría de las opciones va en una dirección, la respuesta suele estar en la minoría</b> — el examen las pone para que el bloque grande te arrastre. Y fíjate en algo más: painstaking, scrupulous y punctilious ni siquiera son intercambiables entre sí (esfuerzo, moral y forma), así que no podrían ser pareja aunque encajaran.",
+   "targets": [
+    "cursory",
+    "perfunctory",
+    "exhaustive",
+    "painstaking",
+    "scrupulous",
+    "punctilious"
+   ]
+  },
+  {
+   "id": "tc009",
+   "type": "TC1",
+   "text": "The committee's objection was not ___ but strategic: they had nothing against the foreign partner and everything against losing control of the board.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "they had nothing against the foreign partner",
+   "blankTone": "neg",
+   "predictionHint": "rechazo a lo extranjero, que es justo lo que la oración niega",
+   "options": [
+    "xenophobic",
+    "myopic",
+    "cosmopolitan",
+    "parochial",
+    "captious"
+   ],
+   "answer": [
+    "xenophobic"
+   ],
+   "why": "\"they had nothing against the foreign partner\" define el hueco <b>por negación</b>: lo que la objeción no era es hostilidad hacia lo de fuera.",
+   "trapNote": "parochial tienta porque \"losing control of the board\" suena a defensa de intereses de grupo — y lo es. Pero ese es el lado <i>strategic</i>, o sea lo que la objeción <b>sí</b> era. En el marco \"not X but Y\", el hueco es <b>X</b>, y la mitad Y está ahí para decirte qué <i>no</i> poner. Elegir parochial describe bien la situación y falla el ítem.",
+   "targets": [
+    "xenophobic",
+    "myopic",
+    "cosmopolitan",
+    "parochial",
+    "captious"
+   ]
+  },
+  {
+   "id": "tc010",
+   "type": "TC1",
+   "text": "The rules were not ___ so much as simply forgotten: nothing had ever been hidden, and everyone who once knew them had died.",
+   "signal": {
+    "word": "not … so much as",
+    "relation": "contraste"
+   },
+   "clue": "nothing had ever been hidden",
+   "blankTone": "neu",
+   "predictionHint": "secreto o guardado a propósito, que es lo que la oración descarta",
+   "options": [
+    "arcane",
+    "obscure",
+    "lucid",
+    "redundant",
+    "germane"
+   ],
+   "answer": [
+    "arcane"
+   ],
+   "why": "\"nothing had ever been hidden\" niega el componente de <b>secreto</b>, y ese componente es exactamente lo que arcane añade sobre las demás.",
+   "trapNote": "obscure es la trampa por ser <i>casi</i> correcta: las reglas sí eran poco conocidas. Pero el marco \"not X so much as Y\" pide la palabra que la oración <b>rechaza</b>, y lo que rechaza es el secreto, no la falta de conocimiento. obscure no implica secreto, así que no habría nada que rechazar y la frase perdería sentido.",
+   "targets": [
+    "arcane",
+    "obscure",
+    "lucid",
+    "redundant",
+    "germane"
+   ]
+  },
+  {
+   "id": "se005",
+   "type": "SE",
+   "text": "By the third hour of questioning the witness had turned openly ___, and twice had to be warned by the judge.",
+   "signal": {
+    "word": "and twice had to be warned",
+    "relation": "causa"
+   },
+   "clue": "twice had to be warned by the judge",
+   "blankTone": "neg",
+   "predictionHint": "hostil de forma abierta, hasta el punto de que un juez interviene",
+   "options": [
+    "truculent",
+    "belligerent",
+    "phlegmatic",
+    "sanguine",
+    "candid",
+    "voluble"
+   ],
+   "answer": [
+    "truculent",
+    "belligerent"
+   ],
+   "why": "Las advertencias del juez fijan el grado: hostilidad abierta, no simple mal humor. truculent y belligerent dejan la oración con el mismo sentido.",
+   "trapNote": "phlegmatic y sanguine parecen pareja porque las dos apuntan a \"calma\", pero <b>no significan lo mismo</b>: phlegmatic es impasible y sanguine es optimista. Ahí está la lección: en SE la prueba no es <i>¿las dos encajan?</i> sino <b>¿las dos oraciones resultantes significan lo mismo?</b> Dos palabras de la misma dirección pero de distinto significado nunca son la respuesta.",
+   "targets": [
+    "truculent",
+    "belligerent",
+    "phlegmatic",
+    "sanguine",
+    "candid",
+    "voluble"
+   ]
+  },
+  {
+   "id": "tc011",
+   "type": "TC1",
+   "text": "The committee did not doubt her sincerity; what it wanted was a document that would ___ a claim she had so far only repeated.",
+   "signal": {
+    "word": "what it wanted was",
+    "relation": "contraste"
+   },
+   "clue": "a claim she had so far only repeated",
+   "blankTone": "pos",
+   "predictionHint": "respaldar con pruebas algo que hasta ahora solo se ha afirmado",
+   "options": [
+    "substantiate",
+    "corroborate",
+    "speculate",
+    "abrogate",
+    "reiterate"
+   ],
+   "answer": [
+    "substantiate"
+   ],
+   "why": "\"a claim she had so far only repeated\" dice que hubo afirmación y no prueba. Lo que falta es que <b>ella</b> aporte respaldo: eso es substantiate.",
+   "trapNote": "corroborate es la trampa fina. Exigiría una <b>segunda fuente independiente</b>, y la oración no menciona ninguna: el comité le pide un documento <i>a ella</i>, no a otro testigo. <b>substantiate y corroborate se distinguen por quién aporta la prueba</b>, y esa información está en el sujeto de la oración, nunca en el hueco.",
+   "targets": [
+    "substantiate",
+    "corroborate",
+    "speculate",
+    "abrogate",
+    "reiterate"
+   ]
+  },
+  {
+   "id": "tc012",
+   "type": "TC1",
+   "text": "What the movement needed was not someone to ___ it from a safe distance but someone willing to lose an election for it.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "someone willing to lose an election for it",
+   "blankTone": "pos",
+   "predictionHint": "aplaudir sin arriesgar nada, que es lo que la oración descarta",
+   "options": [
+    "acclaim",
+    "champion",
+    "deify",
+    "subvert",
+    "supplant"
+   ],
+   "answer": [
+    "acclaim"
+   ],
+   "why": "La oración opone aplaudir desde lejos con pelear asumiendo un costo. El hueco es la versión barata: acclaim, que solo requiere sumarse al aplauso.",
+   "trapNote": "champion es exactamente lo que el movimiento <b>sí</b> necesitaba — defender la causa pagando un precio. Es el mismo mecanismo de tc009 con otras palabras: <b>cuando reconoces la palabra correcta para la segunda mitad de un \"not X but Y\", esa es precisamente la que NO va en el hueco.</b>",
+   "targets": [
+    "acclaim",
+    "champion",
+    "deify",
+    "subvert",
+    "supplant"
+   ]
+  },
+  {
+   "id": "se006",
+   "type": "SE",
+   "text": "A single leaked memo was enough to ___ years of carefully built public reassurance.",
+   "signal": {
+    "word": "A single … was enough to",
+    "relation": "causa"
+   },
+   "clue": "years of carefully built public reassurance",
+   "blankTone": "neg",
+   "predictionHint": "echar abajo la credibilidad construida durante años",
+   "options": [
+    "undermine",
+    "undercut",
+    "corroborate",
+    "bolster",
+    "buttress",
+    "extol"
+   ],
+   "answer": [
+    "undermine",
+    "undercut"
+   ],
+   "why": "\"leaked\" fija la dirección negativa y \"was enough to\" fija el efecto: dañar lo construido. undermine y undercut dejan la oración con el mismo sentido.",
+   "trapNote": "bolster y buttress son <b>otra pareja perfecta</b> dentro del mismo ítem, y apuntan en la dirección contraria. El examen las pone juntas para que sientas que \"van bien juntas\" y te saltes la comprobación de dirección. Regla: <b>un SE suele traer dos parejas válidas por significado y solo una válida por contexto</b> — la palabra que decide aquí es \"leaked\".",
+   "targets": [
+    "undermine",
+    "undercut",
+    "corroborate",
+    "bolster",
+    "buttress",
+    "extol"
+   ]
+  },
+  {
+   "id": "tc013",
+   "type": "TC1",
+   "text": "Colleagues mistook his silence for indifference; in truth he was ___, and had simply decided that his children would not hear about the pain.",
+   "signal": {
+    "word": "in truth",
+    "relation": "contraste"
+   },
+   "clue": "had simply decided that his children would not hear about the pain",
+   "blankTone": "pos",
+   "predictionHint": "aguanta un dolor real y calla a propósito",
+   "options": [
+    "stoic",
+    "stolid",
+    "phlegmatic",
+    "nonchalant",
+    "morose"
+   ],
+   "answer": [
+    "stoic"
+   ],
+   "why": "\"had simply decided\" introduce una <b>elección</b>, y \"the pain\" confirma que hay sufrimiento real. Callar un dolor a propósito es exactamente stoic.",
+   "trapNote": "stolid y phlegmatic son las trampas, y fallan por razones distintas: phlegmatic diría que <b>no siente nada</b> — pero la oración dice que hay dolor. stolid diría que <b>no se le nota</b> sin que medie decisión — pero la oración dice \"decided\". <b>Cuando el hueco convive con un verbo de voluntad, la respuesta es la palabra que implica elección</b>, no la que implica temperamento.",
+   "targets": [
+    "stoic",
+    "stolid",
+    "phlegmatic",
+    "nonchalant",
+    "morose"
+   ]
+  },
+  {
+   "id": "tc014",
+   "type": "TC1",
+   "text": "The prose is ___ rather than merely decorated: every clause doubles back on the one before, and the reader loses the sentence twice before its end.",
+   "signal": {
+    "word": "rather than merely",
+    "relation": "contraste"
+   },
+   "clue": "every clause doubles back on the one before",
+   "blankTone": "neg",
+   "predictionHint": "complicado en su estructura, no solo adornado",
+   "options": [
+    "baroque",
+    "ornate",
+    "unadorned",
+    "laconic",
+    "pithy"
+   ],
+   "answer": [
+    "baroque"
+   ],
+   "why": "\"rather than merely decorated\" rechaza el adorno de superficie por su nombre llano, y \"every clause doubles back\" describe una <b>estructura</b> enredada. Eso es baroque, no ornate.",
+   "trapNote": "ornate es la palabra que la oración <b>acaba de descartar</b> al decir \"merely decorated\". Es el mismo movimiento de tc007: la oración nombra el término débil para eliminarlo. Cuando veas \"rather than merely X\", busca la palabra que significa <b>X más algo</b>, no la que significa X.",
+   "targets": [
+    "baroque",
+    "ornate",
+    "unadorned",
+    "laconic",
+    "pithy"
+   ]
+  },
+  {
+   "id": "se007",
+   "type": "SE",
+   "text": "Support that had seemed solid in June proved ___ by August, when the same delegates voted the other way without explanation.",
+   "signal": {
+    "word": "had seemed solid … proved",
+    "relation": "contraste"
+   },
+   "clue": "the same delegates voted the other way without explanation",
+   "blankTone": "neg",
+   "predictionHint": "que cambia de lealtad de un momento a otro",
+   "options": [
+    "fickle",
+    "capricious",
+    "immutable",
+    "steadfast",
+    "resolute",
+    "obdurate"
+   ],
+   "answer": [
+    "fickle",
+    "capricious"
+   ],
+   "why": "\"the same delegates voted the other way\" es cambio de lealtad sin razón declarada. fickle y capricious dejan la oración con el mismo sentido.",
+   "trapNote": "immutable, steadfast y resolute forman un trío en la dirección contraria — y ya sabes por se002 que <b>un trío intercambiable nunca contiene la respuesta</b>. Pero fíjate en obdurate: apunta hacia \"firme\", como el trío, y sin embargo <b>no es intercambiable con ellos</b> (obdurate es duro de corazón, no leal). Es un distractor de sexta posición: parece del bloque grande y ni siquiera pertenece a él.",
+   "targets": [
+    "fickle",
+    "capricious",
+    "immutable",
+    "steadfast",
+    "resolute",
+    "obdurate"
+   ]
+  },
+  {
+   "id": "tc015",
+   "type": "TC1",
+   "text": "The collapse of the first bridge had a ___ effect on the profession: no engineer since has signed off on a design without a second review.",
+   "signal": {
+    "word": ":",
+    "relation": "reformulación"
+   },
+   "clue": "no engineer since has signed off on a design without a second review",
+   "blankTone": "pos",
+   "predictionHint": "un efecto bueno, aunque venga de algo desastroso",
+   "options": [
+    "salutary",
+    "salubrious",
+    "deleterious",
+    "pernicious",
+    "benign"
+   ],
+   "answer": [
+    "salutary"
+   ],
+   "why": "Los dos puntos reformulan el hueco: el resultado fue una mejora duradera de la práctica. Que el origen sea un desastre no cambia el signo del <b>efecto</b>.",
+   "trapNote": "<b>salutary casi nunca describe algo agradable</b>: describe algo desagradable con buen resultado. Si la oración te da un desastre seguido de una mejora, no busques una palabra positiva suave — busca la que significa \"sirvió de escarmiento\". salubrious comparte raíz y solo sirve para el aire, el clima o un lugar.",
+   "targets": [
+    "salutary",
+    "salubrious",
+    "deleterious",
+    "pernicious",
+    "benign"
+   ]
+  },
+  {
+   "id": "tc016",
+   "type": "TC1",
+   "text": "What made the practice so hard to stop was not that it was ___ but that it was invisible: by the time any regulator noticed, it had been standard for a decade.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "it had been standard for a decade",
+   "blankTone": "neg",
+   "predictionHint": "dañino de forma rápida y aparatosa, que es lo que la oración descarta",
+   "options": [
+    "virulent",
+    "insidious",
+    "detrimental",
+    "benign",
+    "salutary"
+   ],
+   "answer": [
+    "virulent"
+   ],
+   "why": "La oración opone el hueco a \"invisible\". Lo contrario de invisible en este campo es el daño <b>rápido y visible</b>, que es virulent.",
+   "trapNote": "insidious es la trampa perfecta porque significa <b>exactamente lo que la oración describe</b>: dañino sin que se note. Pero el marco \"not X but Y\" pide la palabra que se <i>descarta</i>. Es la tercera vez que aparece este mecanismo (tc009, tc012). Regla: <b>si una opción describe la situación a la perfección, sospecha de que sea la mitad Y y no la mitad X.</b>",
+   "targets": [
+    "virulent",
+    "insidious",
+    "detrimental",
+    "benign",
+    "salutary"
+   ]
+  },
+  {
+   "id": "se008",
+   "type": "SE",
+   "text": "The prose is competent and utterly ___: correct in every particular and memorable in none.",
+   "signal": {
+    "word": ":",
+    "relation": "reformulación"
+   },
+   "clue": "correct in every particular and memorable in none",
+   "blankTone": "neg",
+   "predictionHint": "sin ningún mérito que la distinga, aunque no tenga errores",
+   "options": [
+    "pedestrian",
+    "prosaic",
+    "vacuous",
+    "trenchant",
+    "scintillating",
+    "cogent"
+   ],
+   "answer": [
+    "pedestrian",
+    "prosaic"
+   ],
+   "why": "Los dos puntos dan las dos mitades del hueco: competencia sin mérito. pedestrian y prosaic dejan la oración con el mismo sentido.",
+   "trapNote": "vacuous parece del mismo bloque y <b>no es intercambiable</b>: significa vacío de contenido, y la oración dice \"correct in every particular\", o sea que la prosa sí dice cosas. Es el mismo distractor de sexta posición que viste en se007 con obdurate: apunta en la dirección correcta y aun así no pertenece a la pareja.",
+   "targets": [
+    "pedestrian",
+    "prosaic",
+    "vacuous",
+    "trenchant",
+    "scintillating",
+    "cogent"
+   ]
+  },
+  {
+   "id": "tc017",
+   "type": "TC1",
+   "text": "The commission's report was meant to ___ public anger over the collapse; by declining to name a single official, it succeeded only in giving the anger a second occasion.",
+   "signal": {
+    "word": "was meant to",
+    "relation": "contraste"
+   },
+   "clue": "it succeeded only in giving the anger a second occasion",
+   "blankTone": "pos",
+   "predictionHint": "bajarle la temperatura a un enojo que ya existe",
+   "options": [
+    "assuage",
+    "exacerbate",
+    "corroborate",
+    "forestall",
+    "repudiate"
+   ],
+   "answer": [
+    "assuage"
+   ],
+   "why": "El contraste va entre lo que el informe <b>pretendía</b> y lo que <b>consiguió</b>. Si acabó dándole al enojo una segunda ocasión, el hueco tiene que ser lo contrario: rebajarlo.",
+   "trapNote": "exacerbate es la trampa de dirección, y es la que más cae: describe lo que <i>pasó</i>, no lo que se <i>pretendía</i>. Con la estructura «was meant to … succeeded only in», el hueco va siempre del lado de la intención. forestall serviría si el enojo aún no existiera, y la oración dice que ya estaba ahí.",
+   "targets": [
+    "assuage",
+    "exacerbate",
+    "corroborate",
+    "forestall",
+    "repudiate"
+   ]
+  },
+  {
+   "id": "tc018",
+   "type": "TC1",
+   "text": "The talks broke down not because the two sides remained far apart — by March they differed over a single clause — but because the union's negotiators had become so ___ that they refused to carry any revised text back to their members.",
+   "signal": {
+    "word": "not because … but because",
+    "relation": "causa"
+   },
+   "clue": "they refused to carry any revised text back to their members",
+   "blankTone": "neg",
+   "predictionHint": "que no cede ni un milímetro, aunque quede poquísimo que discutir",
+   "options": [
+    "intransigent",
+    "amenable",
+    "tractable",
+    "querulous",
+    "indolent"
+   ],
+   "answer": [
+    "intransigent"
+   ],
+   "why": "El «not because … but because» descarta la explicación fácil — la distancia entre las partes — y manda buscar la causa en el <b>carácter</b> de los negociadores. Negarse a llevar el texto a votación es exactamente no ceder.",
+   "trapNote": "amenable y tractable son la dirección contraria: describen a quien sí se deja convencer. querulous e indolent tientan porque suenan a reproche, pero ninguno explica una <i>negativa firme</i>: quejarse no es negarse, y aquí no hubo pereza sino decisión.",
+   "targets": [
+    "intransigent",
+    "amenable",
+    "tractable",
+    "querulous",
+    "indolent"
+   ]
+  },
+  {
+   "id": "tc019",
+   "type": "TC1",
+   "text": "Cheap sensors, which twenty years ago were specialist laboratory equipment, are now so ___ that a single office building may hold several thousand of them without anyone having thought to count.",
+   "signal": {
+    "word": "twenty years ago … now",
+    "relation": "contraste"
+   },
+   "clue": "a single office building may hold several thousand of them",
+   "blankTone": "neu",
+   "predictionHint": "que están por todas partes, en cantidades que ya nadie lleva",
+   "options": [
+    "ubiquitous",
+    "obsolete",
+    "rudimentary",
+    "sporadic",
+    "dormant"
+   ],
+   "answer": [
+    "ubiquitous"
+   ],
+   "why": "«twenty years ago … now» pide el contraste con «specialist equipment»: de raros a corrientes. La pista lo cuantifica — varios miles en un solo edificio.",
+   "trapNote": "sporadic es lo contrario: aparecen de vez en cuando. obsolete tienta porque es lo que suele pasarle a la tecnología con los años, pero contradice el «now» de la oración — lo obsoleto no se instala por miles. rudimentary habla de lo <i>simples</i> que son, no de cuántos hay.",
+   "targets": [
+    "ubiquitous",
+    "obsolete",
+    "rudimentary",
+    "sporadic",
+    "dormant"
+   ]
+  },
+  {
+   "id": "tc020",
+   "type": "TC1",
+   "text": "The inquiry concluded that the licensing office had been not ___ but simply overwhelmed: no inspector was ever shown to have taken money, and there were eleven of them for four thousand sites.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "no inspector was ever shown to have taken money",
+   "blankTone": "neg",
+   "predictionHint": "corrupto, de los que se dejan comprar",
+   "options": [
+    "venal",
+    "inept",
+    "indolent",
+    "obdurate",
+    "scrupulous"
+   ],
+   "answer": [
+    "venal"
+   ],
+   "why": "La pista dice exactamente qué se descartó: que alguien <b>cobrara</b>. Ese es el reproche que la oración niega, y solo una de las cinco opciones lo nombra.",
+   "trapNote": "inept e indolent son la trampa de sentido: los dos son reproches y los dos encajarían con una oficina que falla. Pero la oración ya dice por qué falló — <i>overwhelmed</i>, once inspectores para cuatro mil sitios — y la pista habla de dinero, no de torpeza ni de pereza. scrupulous es el elogio contrario.",
+   "targets": [
+    "venal",
+    "inept",
+    "indolent",
+    "obdurate",
+    "scrupulous"
+   ]
+  },
+  {
+   "id": "tc021",
+   "type": "TC1",
+   "text": "What the press reported as a scandal the department's own auditors regarded as ___: three separate inquiries over twenty years had described the same arrangement in nearly the same words.",
+   "signal": {
+    "word": "What the press reported as a scandal",
+    "relation": "contraste"
+   },
+   "clue": "three separate inquiries over twenty years had described the same arrangement",
+   "blankTone": "neg",
+   "predictionHint": "no un episodio suelto, sino algo instalado desde hace mucho",
+   "options": [
+    "endemic",
+    "fortuitous",
+    "nascent",
+    "clandestine",
+    "transient"
+   ],
+   "answer": [
+    "endemic"
+   ],
+   "why": "«scandal» supone un hecho aislado, y los auditores lo ven al revés. Veinte años y tres informes describiendo lo mismo con las mismas palabras es la definición de algo <b>instalado</b>.",
+   "trapNote": "transient y nascent van los dos contra la pista: uno dice que se pasa pronto y el otro que acaba de empezar, y la oración documenta veinte años. clandestine tienta porque la corrupción se esconde, pero lo que la oración subraya no es el secreto sino la <i>repetición</i>: tres informes lo contaron. fortuitous lo haría casual, y tres veces seguidas no es casualidad.",
+   "targets": [
+    "endemic",
+    "fortuitous",
+    "nascent",
+    "clandestine",
+    "transient"
+   ]
+  },
+  {
+   "id": "tc022",
+   "type": "TC1",
+   "text": "What the crew remembered afterwards was not their captain's seamanship, which several of them thought ordinary, but her ___: for nine hours she gave orders in the voice she used at dinner.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "for nine hours she gave orders in the voice she used at dinner",
+   "blankTone": "pos",
+   "predictionHint": "la calma que no se altera aunque la situación sea grave",
+   "options": [
+    "equanimity",
+    "alacrity",
+    "bravado",
+    "deference",
+    "antipathy"
+   ],
+   "answer": [
+    "equanimity"
+   ],
+   "why": "La prueba está en la <b>voz</b>: nueve horas de emergencia y el mismo tono de la cena. Eso no es valor ni rapidez — es que nada la mueve.",
+   "trapNote": "bravado es la trampa fina: suena a temple, pero significa lo contrario — valentía <i>exhibida</i>, y la oración insiste en que no había nada que exhibir. alacrity mediría lo rápido que respondió, y aquí lo que se mide son nueve horas iguales. Fíjate en que poise y aplomb <b>no</b> están entre las opciones: habrían sido respuestas igual de buenas, y el examen no pone dos.",
+   "targets": [
+    "equanimity",
+    "alacrity",
+    "bravado",
+    "deference",
+    "antipathy",
+    "poise",
+    "aplomb"
+   ]
+  },
+  {
+   "id": "tc023",
+   "type": "TC1",
+   "text": "For thirty years the paper has chosen to ___ the term altogether, preferring circumlocutions that every reader understands and no editor has to defend.",
+   "signal": {
+    "word": "preferring",
+    "relation": "reformulación"
+   },
+   "clue": "preferring circumlocutions that every reader understands",
+   "blankTone": "neu",
+   "predictionHint": "evitar algo a propósito, por decisión y no por descuido",
+   "options": [
+    "eschew",
+    "coin",
+    "embellish",
+    "champion",
+    "construe"
+   ],
+   "answer": [
+    "eschew"
+   ],
+   "why": "«preferring X» reformula el hueco: si prefieren el rodeo, es que <b>renuncian</b> a la palabra. Y «has chosen to» avisa de que es una decisión tomada, no una omisión.",
+   "trapNote": "champion es la dirección contraria: defenderla. coin sería inventarla, y la oración habla de un término que ya existe y que esquivan. embellish y construe operan sobre la palabra sin evitarla — adornarla o interpretarla no es dejar de usarla.",
+   "targets": [
+    "eschew",
+    "coin",
+    "embellish",
+    "champion",
+    "construe"
+   ]
+  },
+  {
+   "id": "tc024",
+   "type": "TC1",
+   "text": "Reviewers who described the twelve-year-old's first novel as ___ were not, on reflection, paying it much of a compliment: it is a competent book that would have drawn no attention whatever from a writer of thirty.",
+   "signal": {
+    "word": "not … much of a compliment",
+    "relation": "reformulación"
+   },
+   "clue": "would have drawn no attention whatever from a writer of thirty",
+   "blankTone": "neu",
+   "predictionHint": "notable solo por la edad de quien lo hizo",
+   "options": [
+    "precocious",
+    "derivative",
+    "mawkish",
+    "inscrutable",
+    "pedestrian"
+   ],
+   "answer": [
+    "precocious"
+   ],
+   "why": "La pista mide el libro contra <b>la edad del autor</b>, no contra otros libros: lo único que lo hace notable es que lo escribió alguien de doce años. Ese es justo el elogio ambiguo que pide el hueco.",
+   "trapNote": "pedestrian y derivative describen bien el libro — «competent», sin mérito propio —, pero son reproches directos, y la oración dice que los reseñistas <i>creían</i> estar elogiando. mawkish e inscrutable nombran rasgos que la oración nunca menciona.",
+   "targets": [
+    "precocious",
+    "derivative",
+    "mawkish",
+    "inscrutable",
+    "pedestrian"
+   ]
+  },
+  {
+   "id": "tc025",
+   "type": "TC2",
+   "text": "Far from the (i) ___ figure of the official biographies — a man who, we are assured, never once raised his voice — the general who emerges from these letters is (ii) ___, quarrelling with his own staff in language the 1883 editors quietly removed.",
+   "signal": {
+    "word": "Far from",
+    "relation": "contraste"
+   },
+   "clue": "quarrelling with his own staff in language the 1883 editors quietly removed",
+   "blankTone": "neu",
+   "predictionHint": "(i) el retrato oficial: alguien a quien nada altera; (ii) lo que muestran las cartas: alguien que salta",
+   "optionGroups": [
+    [
+     "imperturbable",
+     "mercurial",
+     "obscure"
+    ],
+    [
+     "taciturn",
+     "irascible",
+     "magnanimous"
+    ]
+   ],
+   "options": [
+    "imperturbable",
+    "mercurial",
+    "obscure",
+    "taciturn",
+    "irascible",
+    "magnanimous"
+   ],
+   "answer": [
+    "imperturbable",
+    "irascible"
+   ],
+   "why": "«Far from» monta el contraste entre <b>dos retratos del mismo hombre</b>. La pista está en la segunda mitad: si en las cartas se pelea con su estado mayor, el retrato oficial tenía que decir lo que dice el guion — que nunca alzaba la voz.",
+   "trapNote": "En los ítems de dos huecos, resuelve primero el hueco que tenga pista literal: aquí es el (ii). mercurial en (i) rompe el contraste, porque el hueco (i) es lo que las biografías <b>negaban</b> que fuera. taciturn en (ii) es la trampa buena — encaja con «never raised his voice», pero eso es el retrato oficial, no el de las cartas.",
+   "targets": [
+    "imperturbable",
+    "mercurial",
+    "obscure",
+    "taciturn",
+    "irascible",
+    "magnanimous"
+   ]
+  },
+  {
+   "id": "tc026",
+   "type": "TC2",
+   "text": "Because the case for the early dating rests entirely on a single inscription, most specialists still regard it as (i) ___; the excavator, however, writes as though the question were (ii) ___.",
+   "signal": {
+    "word": "however",
+    "relation": "contraste"
+   },
+   "clue": "rests entirely on a single inscription",
+   "blankTone": "neu",
+   "predictionHint": "(i) lo que se sostiene con una sola prueba: provisional, a la espera; (ii) lo contrario, y en boca del excavador: cerrado, sin nada que discutir",
+   "optionGroups": [
+    [
+     "tentative",
+     "spurious",
+     "germane"
+    ],
+    [
+     "incontrovertible",
+     "dubious",
+     "tangential"
+    ]
+   ],
+   "options": [
+    "tentative",
+    "spurious",
+    "germane",
+    "incontrovertible",
+    "dubious",
+    "tangential"
+   ],
+   "answer": [
+    "tentative",
+    "incontrovertible"
+   ],
+   "why": "Una sola inscripción como toda prueba obliga al hueco (i): la datación se sostiene <b>provisionalmente</b>. El «however» invierte entonces la actitud del excavador, que escribe como si no quedara nada por discutir.",
+   "trapNote": "En los ítems de dos huecos, el «however» te da (ii) en cuanto tengas (i): son opuestos por construcción. spurious en (i) es demasiado fuerte — la oración no dice que la datación sea <i>falsa</i>, sino que está poco apoyada. dubious en (ii) repetiría la duda que el «however» acaba de contradecir.",
+   "targets": [
+    "tentative",
+    "spurious",
+    "germane",
+    "incontrovertible",
+    "dubious",
+    "tangential"
+   ]
+  },
+  {
+   "id": "se009",
+   "type": "SE",
+   "text": "Faced with a deficit it had spent three years denying, the ministry moved to ___ spending on the very programmes its own manifesto had promised to expand.",
+   "signal": {
+    "word": "Faced with",
+    "relation": "causa"
+   },
+   "clue": "a deficit it had spent three years denying",
+   "blankTone": "neu",
+   "predictionHint": "recortar el gasto, por obligación y a regañadientes",
+   "options": [
+    "curtail",
+    "curb",
+    "augment",
+    "amplify",
+    "jeopardize",
+    "forgo"
+   ],
+   "answer": [
+    "curtail",
+    "curb"
+   ],
+   "why": "SE pide las <b>dos</b> que dejan la oración con el mismo sentido. curtail y curb son intercambiables con «spending»: recortar. El déficit da la causa y la dirección.",
+   "trapNote": "augment y amplify van al revés, que es exactamente lo que el manifiesto prometía — la oración vive de esa ironía, y por eso tientan. forgo también es renunciar, pero renunciar es dejar de gastar <i>del todo</i>, y un recorte no es un cese. jeopardize no rige «spending»: se pone en peligro un programa, no el gasto.",
+   "targets": [
+    "curtail",
+    "curb",
+    "augment",
+    "amplify",
+    "jeopardize",
+    "forgo",
+    "abate"
+   ]
+  },
+  {
+   "id": "se010",
+   "type": "SE",
+   "text": "The chairman, ___ at the best of times, became almost unstoppable once the formal agenda had been set aside.",
+   "signal": {
+    "word": "at the best of times",
+    "relation": "continuación"
+   },
+   "clue": "became almost unstoppable once the formal agenda had been set aside",
+   "blankTone": "neg",
+   "predictionHint": "que ya habla de más incluso cuando se contiene",
+   "options": [
+    "garrulous",
+    "loquacious",
+    "taciturn",
+    "morose",
+    "candid",
+    "imperious"
+   ],
+   "answer": [
+    "garrulous",
+    "loquacious"
+   ],
+   "why": "«at the best of times … became almost unstoppable» es una <b>continuación</b>, no un contraste: el hueco ya tiene que ser hablador, y la segunda mitad lo lleva al extremo.",
+   "trapNote": "taciturn y morose van al revés, y solo funcionarían con un «although» que la oración no tiene. voluble <b>no</b> está entre las opciones y habría sido una tercera respuesta buena: cuando te salgan tres candidatos, sospecha de tu lectura antes que del ítem. candid e imperious describen otros rasgos del mismo personaje, no su cantidad de palabras.",
+   "targets": [
+    "garrulous",
+    "loquacious",
+    "taciturn",
+    "morose",
+    "candid",
+    "imperious",
+    "voluble"
+   ]
   }
  ]
 };

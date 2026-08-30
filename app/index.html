@@ -46,6 +46,11 @@ body{
 }
 .eyebrow .group-name{color:var(--muted);text-transform:none;letter-spacing:.02em}
 .eyebrow b{color:var(--ink);font-weight:500}
+.quit{
+  background:none;border:none;cursor:pointer;padding:0 0 0 10px;
+  font:inherit;color:var(--faint);text-decoration:underline;
+}
+.quit:hover{color:var(--ink)}
 
 /* ---------- start ---------- */
 .hero-word{
@@ -109,6 +114,22 @@ body{
 .opt.is-right{border-color:var(--right);color:var(--right)}
 .opt.is-wrong{border-color:var(--wrong);color:var(--wrong)}
 .opt.is-dim{opacity:.38}
+.opt.is-picked{border-color:var(--ink);background:var(--surface-2)}
+
+/* ---------- escribir ---------- */
+.type-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.type-in{
+  flex:1 1 240px;font-family:var(--serif);font-size:21px;
+  background:var(--surface);color:var(--ink);
+  border:1px solid var(--line);border-radius:8px;padding:12px 15px;
+}
+.type-in:focus{outline:none;border-color:var(--ink)}
+.typed-back{font-family:var(--serif);font-size:23px;margin:4px 0 0}
+.typed-back.is-right{color:var(--right)}
+.typed-back.is-wrong{color:var(--wrong)}
+
+/* polos del eje mostrados sin riel, en el ejercicio de intensidad */
+.rail-poles.rail-poles-solo{margin-bottom:22px}
 
 /* ---------- axis rail (signature) ---------- */
 .rail-block{margin:38px 0 30px}
@@ -279,6 +300,44 @@ function recordContrast(target, other, ok, pick){
   }
 }
 
+function openPair(target, pick){
+  var k = target + '>' + pick;
+  var p = store.pairs[k] || {n:0, ok:0};
+  p.n++; p.ok = 0;
+  store.pairs[k] = p;
+}
+
+// Ordenar por intensidad: si invirtió dos, ese par se abre — son hermanas del mismo grupo.
+function recordOrder(ladder, seq){
+  var ok = seq.every(function(w, i){ return w === ladder[i].w; });
+  ladder.forEach(function(w){ record(w.w, ok, null); });
+  if (!ok){
+    for (var i = 0; i < seq.length; i++){
+      if (seq[i] !== ladder[i].w){ openPair(ladder[i].w, seq[i]); break; }
+    }
+    saveStore(store);
+  }
+  return ok;
+}
+
+/* Equivalencia: solo se abre un par cuando la elegida y la correcta son hermanas.
+   La matriz de confusión vive dentro del grupo — un par entre grupos distintos no
+   tendría contrastivo que lo cerrara con sentido. */
+function recordSE(item, picks){
+  var ok = picks.length === 2 && picks.every(function(p){ return item.answer.indexOf(p) >= 0; });
+  item.answer.forEach(function(w){ if (ENTRY[w]) record(w, ok, null); });
+  if (!ok){
+    picks.forEach(function(p){
+      if (item.answer.indexOf(p) >= 0) return;
+      item.answer.forEach(function(a){
+        if (ENTRY[p] && ENTRY[a] && ENTRY[p].g.id === ENTRY[a].g.id) openPair(a, p);
+      });
+    });
+    saveStore(store);
+  }
+  return ok;
+}
+
 // pares que ya se confundieron y todavía no se han resuelto, del más confundido al menos
 function openPairs(){
   var out = [];
@@ -319,6 +378,23 @@ DATA.groups.forEach(function(g){
     POOL.push(e);
     ENTRY[w.w] = e;
   });
+});
+
+// Sentence Equivalence: solo del banco auténtico. No se pueden fabricar desde los
+// grupos — cada `ej` está construido para que encaje UNA sola palabra, que es lo
+// contrario de lo que pide SE (dos que dejan la oración con el mismo sentido).
+var SE_POOL = (DATA.tcBank || []).filter(function(i){
+  return i.type === 'SE' && i.options && i.answer && i.answer.length === 2;
+});
+
+// Ordenar por intensidad: hace falta un eje real y cuatro posiciones distintas.
+var ORDER_POOL = DATA.groups.filter(function(g){
+  if (g.loose || g.words.length < 4) return false;
+  var seen = {};
+  return g.words.filter(function(w){
+    if (seen[w.axisPos]) return false;
+    seen[w.axisPos] = 1; return true;
+  }).length >= 4;
 });
 
 function weightOf(entry){
@@ -363,10 +439,29 @@ function drawByWeight(n, mode, skipWords, ignoreDue){
     if (hit < 0) break;
     var e = bag.splice(hit, 1)[0];
     usedGroups[e.g.id] = true;
-    chosen.push({kind: mode === 'mixed' ? (Math.random() < 0.5 ? 'cloze' : 'recall') : mode,
+    chosen.push({kind: mode === 'mixed' ? MIXED_KINDS[Math.floor(Math.random()*MIXED_KINDS.length)] : mode,
                  w: e.w, g: e.g, other: null});
   }
   return chosen;
+}
+
+var MIXED_KINDS = ['cloze', 'recall', 'type'];
+
+// cuatro palabras del grupo con posiciones distintas, ya ordenadas de menor a mayor
+function pickLadder(g){
+  var seen = {};
+  var uniq = g.words.filter(function(w){
+    if (seen[w.axisPos]) return false;
+    seen[w.axisPos] = 1; return true;
+  });
+  return shuffle(uniq).slice(0, 4).sort(function(a, b){ return a.axisPos - b.axisPos; });
+}
+function seItem(it){
+  return {kind:'se', se:it, w:null, other:null,
+          g:{id:'se·' + it.id, name:'equivalencia', loose:true, words:[]}};
+}
+function orderItem(g){
+  return {kind:'order', w:null, other:null, g:g, ladder:pickLadder(g)};
 }
 
 /* mode: 'cloze' | 'recall' | 'mixed' | 'saturday'
@@ -374,6 +469,10 @@ function drawByWeight(n, mode, skipWords, ignoreDue){
    (restricción 6) y ocupan hasta un tercio de la sesión. */
 function pickQuestions(n, mode){
   var items = [], taken = {};
+
+  if (mode === 'se')    return shuffle(SE_POOL).slice(0, n).map(seItem);
+  if (mode === 'order') return shuffle(ORDER_POOL).slice(0, n).map(orderItem);
+
   if (mode === 'mixed' || mode === 'saturday'){
     openPairs().slice(0, Math.ceil(n/3)).forEach(function(p){
       var e = ENTRY[p.target];
@@ -381,8 +480,14 @@ function pickQuestions(n, mode){
       taken[p.target] = true;
       items.push({kind:'contrast', w:e.w, g:e.g, other:p.other});
     });
+    // el repaso mezcla formatos, no solo grupos: entran equivalencia y escala
+    shuffle(SE_POOL).slice(0, Math.min(2, SE_POOL.length)).forEach(function(it){
+      items.push(seItem(it));
+    });
+    if (ORDER_POOL.length) items.push(orderItem(ORDER_POOL[Math.floor(Math.random()*ORDER_POOL.length)]));
   }
-  var rest = drawByWeight(n - items.length,
+
+  var rest = drawByWeight(Math.max(0, n - items.length),
                           mode === 'saturday' ? 'mixed' : mode,
                           taken,
                           mode === 'saturday');   // el sábado no filtra por vencimiento
@@ -424,7 +529,13 @@ function splitEj(ej){
 }
 
 /* ---------- estado ---------- */
-var state = {view:'start', mode:null, qs:[], idx:0, answered:null, results:[]};
+var state = {view:'start', mode:null, qs:[], idx:0, answered:null, picks:[], done:false, results:[]};
+
+// todo lo que es de la pregunta actual y no debe sobrevivir a la siguiente
+function resetItem(){
+  state.answered = null; state.picks = []; state.done = false;
+  cachedOpts = null; stableShuffle = null;
+}
 
 function render(){
   if (state.view === 'start')   return renderStart();
@@ -436,7 +547,8 @@ function render(){
 function startSession(mode){
   state.mode = mode;
   state.qs = pickQuestions(mode === 'saturday' ? SATURDAY_LEN : SESSION_LEN, mode);
-  state.idx = 0; state.answered = null; state.results = [];
+  state.idx = 0; state.results = [];
+  resetItem();
   state.view = 'quiz';
   render();
 }
@@ -472,6 +584,15 @@ function renderStart(){
         '<span class="md">Una oración con un hueco. Las cinco opciones son del mismo grupo: solo una encaja.</span></button>' +
       '<button class="mode-btn" data-mode="recall"><span class="mt">Reconocer</span>' +
         '<span class="md">Una definición en inglés. Elige la palabra exacta entre sus vecinas.</span></button>' +
+      '<button class="mode-btn" data-mode="type"><span class="mt">Escribir</span>' +
+        '<span class="md">La definición, y la palabra la produces tú. Sin opciones donde apoyarte.</span></button>' +
+      (SE_POOL.length ?
+      '<button class="mode-btn" data-mode="se"><span class="mt">Equivalencia</span>' +
+        '<span class="md">Las <b>dos</b> que dejan la oración con el mismo sentido, como en el examen. ' +
+        SE_POOL.length + ' ítems por ahora.</span></button>' : '') +
+      (ORDER_POOL.length ?
+      '<button class="mode-btn" data-mode="order"><span class="mt">Intensidad</span>' +
+        '<span class="md">Cuatro palabras del grupo, colocadas sobre su eje de menor a mayor.</span></button>' : '') +
     '</div>';
 
   Array.prototype.forEach.call(app.querySelectorAll('.mode-btn'), function(b){
@@ -484,82 +605,225 @@ function currentOptions(){
   var e = state.qs[state.idx];
   // En contrastivo solo salen las dos palabras del par: cara a cara, sin dónde esconderse.
   if (e.kind === 'contrast') return shuffle([e.w.w, e.other]);
+  if (e.kind === 'se')       return shuffle(e.se.options.slice());
   return shuffle(e.g.words.map(function(w){ return w.w; }));
 }
 var cachedOpts = null;
 
-var KIND_LABEL = {cloze:'discriminar', recall:'reconocer', contrast:'cara a cara'};
+var KIND_LABEL = {cloze:'discriminar', recall:'reconocer', contrast:'cara a cara',
+                  type:'escribir', se:'equivalencia', order:'intensidad'};
 
-function renderQuiz(){
-  var e = state.qs[state.idx];
-  var word = e.w, group = e.g;
-  if (!state.answered) cachedOpts = currentOptions();
-  var opts = cachedOpts;
-  var ans = state.answered;
+function nextRow(){
+  return '<div class="next-row"><button class="btn" id="next">' +
+         (state.idx + 1 >= state.qs.length ? 'Ver resultado' : 'Siguiente') +
+         '</button><span class="hint">enter</span></div>';
+}
 
-  // El nombre del grupo NO se muestra mientras la pregunta está abierta: decirte
-  // "aliviar o reducir algo doloroso" antes de que elijas te regala la categoría,
-  // que es justo la interferencia que esto combate. Aparece al responder.
-  var head =
-    '<div class="eyebrow">' +
-      '<span>' + (ans
-        ? '<b>' + esc(group.id) + '</b> · <span class="group-name">' + esc(group.name) + '</span>'
-        : esc(KIND_LABEL[e.kind] || 'discriminar')) + '</span>' +
-      '<span>' + (state.idx+1) + ' / ' + state.qs.length + '</span>' +
-    '</div>';
+// El nombre del grupo NO se muestra mientras la pregunta está abierta: decirte
+// "aliviar o reducir algo doloroso" antes de que elijas te regala la categoría,
+// que es justo la interferencia que esto combate. Aparece al responder.
+function headHtml(e, done){
+  return '<div class="eyebrow"><span>' +
+    (done && e.g && e.g.name
+      ? '<b>' + esc(e.g.id) + '</b> · <span class="group-name">' + esc(e.g.name) + '</span>'
+      : esc(KIND_LABEL[e.kind] || '')) +
+    '</span><span>' + (state.idx+1) + ' / ' + state.qs.length +
+    ' <button class="quit" id="quit">salir</button></span></div>';
+}
 
-  var body;
-  if (e.kind === 'cloze' || e.kind === 'contrast'){
-    var p = splitEj(word.ej);
-    var blank = ans
-      ? '<span class="blank filled">' + esc(word.w + p.suffix) + '</span>'
-      : '<span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;</span>' + esc(p.suffix);
-    body = (e.kind === 'contrast'
-             ? '<p class="prompt-tag">esta la confundiste con <b>' + esc(e.other) + '</b></p>' : '') +
-           '<p class="sentence">' + esc(p.before) + blank + esc(p.after) + '</p>';
-  } else {
-    body = '<p class="prompt-def">' + esc(word.def) + '</p>' +
-           '<p class="prompt-tag">' + esc(word.pos) + '</p>';
-  }
+function blankHtml(ej, filled){
+  var p = splitEj(ej);
+  var mid = filled
+    ? '<span class="blank filled">' + esc(filled + p.suffix) + '</span>'
+    : '<span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;</span>' + esc(p.suffix);
+  return '<p class="sentence">' + esc(p.before) + mid + esc(p.after) + '</p>';
+}
 
-  var optHtml = opts.map(function(o,i){
+/* --- opción única: cloze, reconocer, contrastivo --- */
+function choiceView(e, done){
+  var word = e.w, ans = state.answered;
+  var body = (e.kind === 'cloze' || e.kind === 'contrast')
+    ? (e.kind === 'contrast'
+        ? '<p class="prompt-tag">esta la confundiste con <b>' + esc(e.other) + '</b></p>' : '') +
+      blankHtml(word.ej, done ? word.w : null)
+    : '<p class="prompt-def">' + esc(word.def) + '</p>' +
+      '<p class="prompt-tag">' + esc(word.pos) + '</p>';
+
+  var optHtml = cachedOpts.map(function(o, i){
     var cls = 'opt';
-    if (ans){
+    if (done){
       if (o === word.w) cls += ' is-right';
       else if (o === ans) cls += ' is-wrong';
       else cls += ' is-dim';
     }
-    return '<button class="' + cls + '" data-w="' + esc(o) + '"' + (ans?' disabled':'') + '>' +
-             '<span class="k">' + (i+1) + '</span>' + esc(o) +
-           '</button>';
+    return '<button class="' + cls + '" data-w="' + esc(o) + '"' + (done?' disabled':'') + '>' +
+             '<span class="k">' + (i+1) + '</span>' + esc(o) + '</button>';
   }).join('');
 
-  app.innerHTML = head + body + '<div class="options">' + optHtml + '</div>' +
-                  (ans ? feedbackHtml(word, group, ans) : '');
+  return body + '<div class="options">' + optHtml + '</div>' +
+         (done ? feedbackHtml(word, e.g, ans) : '');
+}
 
-  if (!ans){
+/* --- escribir: producir la palabra sin verla (generation effect) --- */
+function typeView(e, done){
+  var word = e.w;
+  var body = '<p class="prompt-def">' + esc(word.def) + '</p>' +
+             '<p class="prompt-tag">' + esc(word.pos) + ' · ' + word.w.length + ' letras</p>';
+  if (!done){
+    return body + '<div class="type-row">' +
+           '<input id="typed" class="type-in" autocomplete="off" autocapitalize="off" ' +
+           'autocorrect="off" spellcheck="false" placeholder="escríbela">' +
+           '<button class="btn" id="send">Comprobar</button></div>';
+  }
+  var typed = state.answered || '';
+  var ok = typed.toLowerCase().trim() === word.w.toLowerCase();
+  return body +
+    '<p class="typed-back ' + (ok ? 'is-right' : 'is-wrong') + '">' +
+      (typed ? esc(typed) : '<i>en blanco</i>') +
+      (ok ? '' : ' → <b>' + esc(word.w) + '</b>') + '</p>' +
+    feedbackHtml(word, e.g, typed);
+}
+
+/* --- equivalencia (SE): las DOS que dejan la oración con el mismo sentido --- */
+function seView(e, done){
+  var it = e.se, picks = state.picks;
+  var body = blankHtml(it.text, null) +
+    '<p class="prompt-tag">elige <b>dos</b> · ' + picks.length + '/2 marcadas</p>';
+
+  var optHtml = cachedOpts.map(function(o, i){
+    var cls = 'opt';
+    if (done){
+      if (it.answer.indexOf(o) >= 0) cls += ' is-right';
+      else if (picks.indexOf(o) >= 0) cls += ' is-wrong';
+      else cls += ' is-dim';
+    } else if (picks.indexOf(o) >= 0) cls += ' is-picked';
+    return '<button class="' + cls + '" data-w="' + esc(o) + '"' + (done?' disabled':'') + '>' +
+             '<span class="k">' + (i+1) + '</span>' + esc(o) + '</button>';
+  }).join('');
+
+  var fb = '';
+  if (done){
+    fb = '<div class="fb">' +
+         '<p class="fb-word">' + esc(it.answer.join('  ·  ')) + '</p>' +
+         '<p class="fb-disc">' + it.why + '</p>' +
+         (it.trapNote ? '<div class="card"><h4>la trampa</h4><p>' + it.trapNote + '</p></div>' : '') +
+         nextRow() + '</div>';
+  }
+  return body + '<div class="options">' + optHtml + '</div>' + fb;
+}
+
+/* --- ordenar por intensidad: colocar cuatro palabras sobre el eje --- */
+function orderView(e, done){
+  var g = e.g, picks = state.picks;
+  var body = '<p class="prompt-def">Ordénalas de menor a mayor sobre el eje del grupo.</p>' +
+             '<div class="rail-poles rail-poles-solo">' +
+               '<span class="p-lo">' + esc(g.axis.lo) + '</span>' +
+               '<span class="p-hi">' + esc(g.axis.hi) + '</span></div>' +
+             '<p class="prompt-tag">' + (picks.length ? esc(picks.join(' → ')) : 'toca la más baja primero') + '</p>';
+
+  var optHtml = shuffleStable(e.ladder).map(function(w, i){
+    var cls = 'opt';
+    var at = picks.indexOf(w.w);
+    if (done){
+      cls += (picks[e.ladder.indexOf(w)] === w.w) ? ' is-right' : ' is-wrong';
+    } else if (at >= 0) cls += ' is-picked';
+    return '<button class="' + cls + '" data-w="' + esc(w.w) + '"' + (done || at >= 0 ? ' disabled' : '') + '>' +
+             '<span class="k">' + (at >= 0 ? at+1 : i+1) + '</span>' + esc(w.w) + '</button>';
+  }).join('');
+
+  var fb = '';
+  if (done){
+    var ok = picks.every(function(p, i){ return p === e.ladder[i].w; });
+    fb = '<div class="fb">' +
+         '<p class="fb-word">' + (ok ? 'orden correcto' : 'el orden real') + '</p>' +
+         railHtml(g, null, null) +
+         '<p class="fb-disc">' + esc(e.ladder.map(function(w){ return w.w; }).join(' → ')) + '</p>' +
+         nextRow() + '</div>';
+  }
+  return body + '<div class="options">' + optHtml + '</div>' + fb;
+}
+
+// mismo barajado durante toda la pregunta: no se reordena al tocar una opción
+var stableShuffle = null;
+function shuffleStable(arr){
+  if (!stableShuffle || stableShuffle.length !== arr.length) stableShuffle = shuffle(arr);
+  return stableShuffle;
+}
+
+function renderQuiz(){
+  var e = state.qs[state.idx];
+  var done = state.done;
+  if (!done && !cachedOpts && e.kind !== 'order' && e.kind !== 'type') cachedOpts = currentOptions();
+
+  var view = e.kind === 'se'    ? seView(e, done)
+           : e.kind === 'order' ? orderView(e, done)
+           : e.kind === 'type'  ? typeView(e, done)
+           :                      choiceView(e, done);
+
+  app.innerHTML = headHtml(e, done) + view;
+
+  // se puede abandonar a media sesión: lo ya respondido queda guardado
+  var qb = app.querySelector('#quit');
+  if (qb) qb.addEventListener('click', function(){
+    state.view = state.results.length ? 'summary' : 'start';
+    render();
+  });
+
+  if (!done){
     Array.prototype.forEach.call(app.querySelectorAll('.opt'), function(b){
       b.addEventListener('click', function(){ answer(b.getAttribute('data-w')); });
     });
+    var input = app.querySelector('#typed');
+    if (input){
+      input.focus();
+      app.querySelector('#send').addEventListener('click', function(){ answer(input.value); });
+      input.addEventListener('keydown', function(ev){
+        if (ev.key === 'Enter'){ ev.preventDefault(); answer(input.value); }
+      });
+    }
   } else {
     var nb = app.querySelector('#next');
-    if (nb) nb.addEventListener('click', next);
-    nb && nb.focus();
+    if (nb){ nb.addEventListener('click', next); nb.focus(); }
   }
+}
+
+function finish(e, ok, pick){
+  state.done = true;
+  state.results.push({word:e.w, group:e.g, pick:pick, ok:ok, kind:e.kind});
+  render();
 }
 
 function answer(pick){
   var e = state.qs[state.idx];
-  var ok = pick === e.w.w;
+
+  if (e.kind === 'se'){
+    if (state.picks.indexOf(pick) >= 0) state.picks.splice(state.picks.indexOf(pick), 1);
+    else state.picks.push(pick);
+    if (state.picks.length < 2) return render();
+    var okSE = recordSE(e.se, state.picks);
+    return finish({w:{w:e.se.answer.join(' + ')}, g:e.g, kind:'se'}, okSE, state.picks.join(' + '));
+  }
+
+  if (e.kind === 'order'){
+    state.picks.push(pick);
+    if (state.picks.length < e.ladder.length) return render();
+    var okOrd = recordOrder(e.ladder, state.picks);
+    return finish({w:{w:e.ladder.map(function(w){ return w.w; }).join(' → ')}, g:e.g, kind:'order'},
+                  okOrd, state.picks.join(' → '));
+  }
+
+  var ok = e.kind === 'type'
+    ? String(pick).toLowerCase().trim() === e.w.w.toLowerCase()
+    : pick === e.w.w;
   state.answered = pick;
-  if (e.kind === 'contrast') recordContrast(e.w.w, e.other, ok, pick);
-  else record(e.w.w, ok, pick);
-  state.results.push({word:e.w, group:e.g, pick:pick, ok:ok});
-  render();
+  if (e.kind === 'contrast')  recordContrast(e.w.w, e.other, ok, pick);
+  else if (e.kind === 'type') record(e.w.w, ok, null);   // sin par: no eligió una hermana
+  else                        record(e.w.w, ok, pick);
+  finish(e, ok, pick);
 }
 
 function next(){
-  state.answered = null;
+  resetItem();
   state.idx++;
   if (state.idx >= state.qs.length) state.view = 'summary';
   render();
@@ -622,9 +886,7 @@ function feedbackHtml(word, group, pick){
     html += '<div class="card root"><h4>raíz</h4><p>' + esc(word.root) + '</p></div>';
   }
 
-  html += '<div class="next-row"><button class="btn" id="next">' +
-          (state.idx + 1 >= state.qs.length ? 'Ver resultado' : 'Siguiente') +
-          '</button><span class="hint">enter</span></div>';
+  html += nextRow();
   html += '</div>';
   return html;
 }
@@ -634,7 +896,8 @@ function renderSummary(){
   var right = state.results.filter(function(r){ return r.ok; }).length;
   var misses = state.results.filter(function(r){ return !r.ok; });
 
-  var MODE_LABEL = {cloze:'discriminar', recall:'reconocer', mixed:'repaso del día', saturday:'sábado'};
+  var MODE_LABEL = {cloze:'discriminar', recall:'reconocer', type:'escribir', se:'equivalencia',
+                    order:'intensidad', mixed:'repaso del día', saturday:'sábado'};
   var html = '<div class="eyebrow"><span>sesión terminada</span><span>' +
              esc(MODE_LABEL[state.mode] || state.mode) + '</span></div>';
   html += '<p class="score">' + right + '<small> / ' + state.results.length + '</small></p>';
@@ -671,11 +934,13 @@ function renderSummary(){
 /* ---------- teclado ---------- */
 document.addEventListener('keydown', function(ev){
   if (state.view !== 'quiz') return;
-  if (!state.answered){
+  if (!state.done){
+    // en "escribir" el input necesita los dígitos; ahí no hay atajos numéricos
+    if (document.activeElement && document.activeElement.id === 'typed') return;
     var n = parseInt(ev.key,10);
     if (n >= 1 && n <= 9){
-      var btns = app.querySelectorAll('.opt');
-      if (btns[n-1]) btns[n-1].click();
+      var all = app.querySelectorAll('.opt');
+      if (all[n-1] && !all[n-1].disabled) all[n-1].click();
     }
   } else if (ev.key === 'Enter' || ev.key === ' '){
     ev.preventDefault();

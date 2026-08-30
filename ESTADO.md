@@ -73,16 +73,16 @@ Son ~3 lotes en el mejor caso y bastantes más si hay que abrir campos nuevos.
 `app/index.html` es un MVP funcional: abre con doble clic, guarda progreso en `localStorage`,
 muestra el eje semántico en el feedback. Pero contra lo que pide el spec:
 
-**Formatos: 2 de 6.**
+**Formatos: 6 de 6** (eran 2 al empezar la auditoría).
 
 | Formato | Estado |
 |---|---|
 | Cloze ("Discriminar") | ✅ |
 | Reconocer (def → palabra) | ✅ |
-| Escribir (producción) | ❌ |
-| Equivalencia (SE) | ❌ |
-| Contrastivo forzado | ❌ |
-| Ordenar por intensidad | ❌ |
+| Contrastivo forzado | ✅ bloque B |
+| Escribir (producción) | ✅ bloque C |
+| Equivalencia (SE) | ✅ bloque C — limitado a los 10 ítems SE del banco |
+| Ordenar por intensidad | ✅ bloque C |
 
 **Restricciones anti-interferencia: 1 de 9 cumplida.**
 
@@ -242,3 +242,33 @@ restricción 6 se cumplía de boquilla y ningún grupo llegaría jamás a domina
 | Repaso del día (forzando miércoles) | 12 ítems, 3 formatos mezclados, contrastivos primero |
 | Sesión de sábado (hoy lo es) | 18 ítems, aparece sola en la portada |
 | Grupos consecutivos repetidos | **0** en todas las sesiones |
+
+## 11. Bloque C — los tres formatos que faltaban (30 ago)
+
+- **Escribir.** La definición en inglés, el POS y el número de letras; la palabra la produces tú
+  en un input. No abre pares de confusión: no elegiste una hermana, así que no hay par que abrir.
+- **Equivalencia (SE).** Las **dos** opciones que dejan la oración con el mismo sentido, con el
+  contador `1/2` y opciones que se marcan y desmarcan. Al responder muestra el `why` y el
+  `trapNote` del banco.
+- **Ordenar por intensidad.** Cuatro palabras del mismo grupo con `axisPos` distintos; se tocan
+  de menor a mayor con los polos del eje a la vista. Al fallar abre **el par exacto que
+  invertiste** — son hermanas, así que el contrastivo lo puede cerrar.
+
+También: `data.json` ahora incluye el banco TC/SE (`tcBank`), que antes no llegaba a la app; y
+se puede **abandonar una sesión a medias** ("salir" en la cabecera) — antes había que terminar
+los 12 ítems o recargar. Lo encontré probando, no leyendo el código.
+
+**Límite honesto:** Equivalencia vive de los **10 ítems SE** del banco. No se pueden fabricar
+desde los grupos: cada `ej` está construido para que encaje una sola palabra, que es justo lo
+contrario de lo que pide SE. Hasta que el banco crezca, el modo se agota en una sesión.
+
+**Verificación** (Chromium, los tres formatos y el repaso mixto):
+
+| Comprobación | Resultado |
+|---|---|
+| Escribir | acierto/fallo bien marcados, muestra la correcta al fallar, **0 pares creados** |
+| Equivalencia | 6 opciones, contador 0/2→1/2, marca las 2 correctas y las 2 falladas, trampa visible |
+| — su regla de pares | de 3 fallos abrió **1** par: el único entre hermanas del mismo grupo |
+| Intensidad | 4 palabras del mismo grupo, polos visibles; al invertir dos abrió ese par exacto (`decry>denounce`) |
+| Repaso del día | 12 ítems con **los 6 formatos** mezclados, 0 grupos consecutivos |
+| Salir a media sesión | vuelve a la portada y conserva lo respondido |
