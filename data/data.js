@@ -3,8 +3,8 @@ window.VOCAB = {
   "totalWords": 1112,
   "coveredWords": 1037,
   "groupCount": 186,
-  "tcCount": 36,
-  "seCount": 10
+  "tcCount": 50,
+  "seCount": 24
  },
  "groups": [
   {
@@ -23437,6 +23437,482 @@ window.VOCAB = {
     "candid",
     "imperious",
     "voluble"
+   ]
+  },
+  {
+   "id": "se011",
+   "type": "SE",
+   "text": "Weeks after the fever broke he was still sunk in ___: he could dress and eat, but anything past that demanded an effort he could not summon.",
+   "signal": {
+    "word": "still",
+    "relation": "continuación"
+   },
+   "clue": "anything past that demanded an effort he could not summon",
+   "blankTone": "neg",
+   "predictionHint": "falta de energía que persiste, no tristeza ni aburrimiento",
+   "options": [
+    "lassitude",
+    "torpor",
+    "alacrity",
+    "acumen",
+    "animosity",
+    "decorum"
+   ],
+   "answer": [
+    "lassitude",
+    "torpor"
+   ],
+   "why": "La pista describe esfuerzo que no está disponible, no un estado de ánimo. <b>lassitude</b> y <b>torpor</b> son las dos que nombran esa falta de fuerzas.",
+   "trapNote": "Fíjate en que <i>languor</i> y <i>ennui</i> no están entre las opciones. ennui sería hastío, que es otra cosa: aquí no está aburrido, está sin fuerzas. alacrity es lo contrario (prontitud), y acumen, animosity y decorum apuntan a ejes que la oración ni menciona.",
+   "targets": [
+    "lassitude",
+    "torpor",
+    "alacrity",
+    "acumen",
+    "animosity",
+    "decorum"
+   ]
+  },
+  {
+   "id": "se012",
+   "type": "SE",
+   "text": "The new evidence did not merely cast doubt on the conviction; it served to ___ him completely, and the state dropped the case that afternoon.",
+   "signal": {
+    "word": "not merely … ; it",
+    "relation": "continuación"
+   },
+   "clue": "the state dropped the case that afternoon",
+   "blankTone": "pos",
+   "predictionHint": "dejarlo libre de culpa, no solo sembrar dudas",
+   "options": [
+    "exculpate",
+    "exonerate",
+    "denounce",
+    "castigate",
+    "impugn",
+    "vilify"
+   ],
+   "answer": [
+    "exculpate",
+    "exonerate"
+   ],
+   "why": "El «not merely … it» sube la apuesta: no basta con dudar, hace falta limpiarlo del todo. <b>exculpate</b> y <b>exonerate</b> son las dos que dicen exactamente eso.",
+   "trapNote": "<i>absolve</i> y <i>vindicate</i> habrían servido y no están impresas — en SE eso es normal y no es motivo para dudar de tu lectura. Las otras cuatro van todas en dirección contraria: acusar, censurar o difamar a alguien no hace que el estado retire el caso.",
+   "targets": [
+    "exculpate",
+    "exonerate",
+    "denounce",
+    "castigate",
+    "impugn",
+    "vilify"
+   ]
+  },
+  {
+   "id": "se013",
+   "type": "SE",
+   "text": "Her ___ for eighteenth-century woodwind music was not a passing enthusiasm: she had been collecting the recordings for thirty years.",
+   "signal": {
+    "word": "not a passing enthusiasm",
+    "relation": "contraste"
+   },
+   "clue": "she had been collecting the recordings for thirty years",
+   "blankTone": "neu",
+   "predictionHint": "una inclinación estable del gusto, no un capricho",
+   "options": [
+    "penchant",
+    "predilection",
+    "aversion",
+    "apathy",
+    "qualm",
+    "decorum"
+   ],
+   "answer": [
+    "penchant",
+    "predilection"
+   ],
+   "why": "Treinta años coleccionando fija un gusto duradero. <b>penchant</b> y <b>predilection</b> son las dos que nombran esa inclinación estable.",
+   "trapNote": "<i>proclivity</i>, <i>propensity</i> y <i>affinity</i> también valdrían y ninguna está impresa: cuando el hueco pide «gusto por algo», ten presente que el examen puede imprimir cualquiera de esas cinco. aversion y apathy van al revés, y qualm sería un reparo.",
+   "targets": [
+    "penchant",
+    "predilection",
+    "aversion",
+    "apathy",
+    "qualm",
+    "decorum"
+   ]
+  },
+  {
+   "id": "se014",
+   "type": "SE",
+   "text": "What the report documents is not a series of isolated lapses but a ___ toward cutting corners whenever a deadline came into view.",
+   "signal": {
+    "word": "not … but",
+    "relation": "contraste"
+   },
+   "clue": "whenever a deadline came into view",
+   "blankTone": "neg",
+   "predictionHint": "una tendencia de conducta que se repite, no un hecho aislado",
+   "options": [
+    "propensity",
+    "proclivity",
+    "aversion",
+    "probity",
+    "temerity",
+    "panacea"
+   ],
+   "answer": [
+    "propensity",
+    "proclivity"
+   ],
+   "why": "El «not … but» opone lo aislado a lo sistemático, y el «whenever» confirma que se repite. <b>propensity</b> y <b>proclivity</b> son las dos que nombran una tendencia de conducta.",
+   "trapNote": "probity es la trampa de tono: es una virtud (integridad) y la oración necesita un defecto. aversion invertiría el sentido — tendría aversión a cortar por lo sano, que es lo contrario de lo que hizo. Y ojo: <i>penchant</i> y <i>predilection</i> no están aquí porque van con gustos, no con conductas reprochables.",
+   "targets": [
+    "propensity",
+    "proclivity",
+    "aversion",
+    "probity",
+    "temerity",
+    "panacea"
+   ]
+  },
+  {
+   "id": "se015",
+   "type": "SE",
+   "text": "The silt does not block the channel outright, but it does ___ the passage of the deeper-draft vessels, which now wait for high tide.",
+   "signal": {
+    "word": "does not … but",
+    "relation": "contraste"
+   },
+   "clue": "which now wait for high tide",
+   "blankTone": "neg",
+   "predictionHint": "dificultar el paso sin cerrarlo del todo",
+   "options": [
+    "impede",
+    "hinder",
+    "preclude",
+    "expedite",
+    "abet",
+    "obviate"
+   ],
+   "answer": [
+    "impede",
+    "hinder"
+   ],
+   "why": "La oración distingue entre bloquear del todo y estorbar: los barcos siguen pasando, solo que esperan. <b>impede</b> y <b>hinder</b> son las dos que dicen estorbar sin impedir.",
+   "trapNote": "preclude y obviate son la trampa: significan impedir <i>por completo</i>, que es justo lo que «does not block the channel outright» descarta. Es el error más caro en TC/SE — acertar el eje y pasarse de grado. expedite y abet van en la dirección opuesta.",
+   "targets": [
+    "impede",
+    "hinder",
+    "preclude",
+    "expedite",
+    "abet",
+    "obviate"
+   ]
+  },
+  {
+   "id": "se016",
+   "type": "SE",
+   "text": "Rather than dismantle the argument, the second study went on to ___ it, supplying the field data the original author had never been able to gather.",
+   "signal": {
+    "word": "Rather than",
+    "relation": "contraste"
+   },
+   "clue": "supplying the field data the original author had never been able to gather",
+   "blankTone": "pos",
+   "predictionHint": "reforzar algo que ya existía, dándole apoyo",
+   "options": [
+    "buttress",
+    "bolster",
+    "refute",
+    "undercut",
+    "supplant",
+    "recant"
+   ],
+   "answer": [
+    "buttress",
+    "bolster"
+   ],
+   "why": "«Rather than dismantle» fija la dirección, y aportar los datos que faltaban es apuntalar. <b>buttress</b> y <b>bolster</b> son las dos que significan reforzar lo que ya está en pie.",
+   "trapNote": "supplant es la trampa elegante: también actúa sobre el argumento, pero es <i>sustituirlo</i>, y aquí el segundo estudio lo apoya en vez de ocupar su lugar. <i>corroborate</i> y <i>substantiate</i> habrían valido y no están impresas.",
+   "targets": [
+    "buttress",
+    "bolster",
+    "refute",
+    "undercut",
+    "supplant",
+    "recant"
+   ]
+  },
+  {
+   "id": "se017",
+   "type": "SE",
+   "text": "The fashion proved entirely ___: the magazines that announced it in March had stopped mentioning it by the end of the summer.",
+   "signal": {
+    "word": "the magazines that announced it in March",
+    "relation": "causa"
+   },
+   "clue": "had stopped mentioning it by the end of the summer",
+   "blankTone": "neu",
+   "predictionHint": "que dura muy poco",
+   "options": [
+    "ephemeral",
+    "evanescent",
+    "entrenched",
+    "perennial",
+    "prosaic",
+    "arcane"
+   ],
+   "answer": [
+    "ephemeral",
+    "evanescent"
+   ],
+   "why": "De marzo al final del verano es un lapso corto y explícito. <b>ephemeral</b> y <b>evanescent</b> son las dos que nombran lo que dura poco.",
+   "trapNote": "<i>transitory</i>, <i>transient</i> y <i>fleeting</i> también valdrían y no están impresas: en SE lo que importa es que entre las seis haya un solo par. entrenched y perennial son lo contrario; prosaic y arcane cambian de eje (calidad y oscuridad, no duración).",
+   "targets": [
+    "ephemeral",
+    "evanescent",
+    "entrenched",
+    "perennial",
+    "prosaic",
+    "arcane"
+   ]
+  },
+  {
+   "id": "se018",
+   "type": "SE",
+   "text": "Three rounds of mediation left the union exactly where it started: its negotiators remained ___ on the question of weekend shifts.",
+   "signal": {
+    "word": "exactly where it started",
+    "relation": "causa"
+   },
+   "clue": "its negotiators remained",
+   "blankTone": "neg",
+   "predictionHint": "que no se mueve de su posición pese a la presión",
+   "options": [
+    "obdurate",
+    "intransigent",
+    "amenable",
+    "conciliatory",
+    "diffident",
+    "voluble"
+   ],
+   "answer": [
+    "obdurate",
+    "intransigent"
+   ],
+   "why": "Tres rondas sin avanzar solo se explica si nadie cede. <b>obdurate</b> e <b>intransigent</b> son las dos que dicen inflexible ante la presión.",
+   "trapNote": "amenable y conciliatory explicarían un acuerdo, no un bloqueo. diffident (tímido) y voluble (hablador) sí describen carácter, pero ninguno de los dos explica por qué la negociación no avanzó — y en TC/SE la palabra tiene que explicar la pista, no solo sonar a persona.",
+   "targets": [
+    "obdurate",
+    "intransigent",
+    "amenable",
+    "conciliatory",
+    "diffident",
+    "voluble"
+   ]
+  },
+  {
+   "id": "se019",
+   "type": "SE",
+   "text": "The paper is ___ by design: the author writes for the two dozen specialists who already share his notation, and makes no concession to anyone else.",
+   "signal": {
+    "word": "makes no concession to anyone else",
+    "relation": "causa"
+   },
+   "clue": "the two dozen specialists who already share his notation",
+   "blankTone": "neu",
+   "predictionHint": "difícil de entender salvo para iniciados",
+   "options": [
+    "abstruse",
+    "recondite",
+    "lucid",
+    "cogent",
+    "derivative",
+    "tendentious"
+   ],
+   "answer": [
+    "abstruse",
+    "recondite"
+   ],
+   "why": "Escribir solo para quien ya domina la notación produce un texto cerrado al resto. <b>abstruse</b> y <b>recondite</b> son las dos que nombran esa dificultad.",
+   "trapNote": "lucid y cogent son elogios y van al revés. derivative (poco original) y tendentious (sesgado) son defectos reales de un artículo, pero ninguno habla de dificultad: el eje equivocado es la trampa más común del examen.",
+   "targets": [
+    "abstruse",
+    "recondite",
+    "lucid",
+    "cogent",
+    "derivative",
+    "tendentious"
+   ]
+  },
+  {
+   "id": "se020",
+   "type": "SE",
+   "text": "The transfers were ___ enough that the auditors needed four months to notice them, and another two to work out where the money had gone.",
+   "signal": {
+    "word": "enough that",
+    "relation": "causa"
+   },
+   "clue": "the auditors needed four months to notice them",
+   "blankTone": "neg",
+   "predictionHint": "hechos a escondidas, de modo que cuesta detectarlos",
+   "options": [
+    "clandestine",
+    "surreptitious",
+    "overt",
+    "flagrant",
+    "perfunctory",
+    "lucrative"
+   ],
+   "answer": [
+    "clandestine",
+    "surreptitious"
+   ],
+   "why": "Que hagan falta cuatro meses para verlas implica que se hicieron a ocultas. <b>clandestine</b> y <b>surreptitious</b> son las dos que lo dicen.",
+   "trapNote": "lucrative es la trampa de contexto: uno espera que un desfalco sea rentable y la palabra «suena» bien, pero no explica por qué tardaron cuatro meses, que es lo único que da la pista. overt y flagrant son lo contrario.",
+   "targets": [
+    "clandestine",
+    "surreptitious",
+    "overt",
+    "flagrant",
+    "perfunctory",
+    "lucrative"
+   ]
+  },
+  {
+   "id": "se021",
+   "type": "SE",
+   "text": "The reasoning is ___: each step sounds inevitable as you read it, and the whole thing collapses the moment you ask what the second premise is doing there.",
+   "signal": {
+    "word": "and",
+    "relation": "continuación"
+   },
+   "clue": "each step sounds inevitable as you read it",
+   "blankTone": "neg",
+   "predictionHint": "que parece válido y no lo es",
+   "options": [
+    "specious",
+    "spurious",
+    "cogent",
+    "incontrovertible",
+    "arcane",
+    "prolix"
+   ],
+   "answer": [
+    "specious",
+    "spurious"
+   ],
+   "why": "La oración pide las dos caras a la vez: convence al leerlo y no se sostiene. <b>specious</b> y <b>spurious</b> llevan dentro esa apariencia engañosa.",
+   "trapNote": "<i>fallacious</i> no está impresa y es la que más se echa de menos: sería correcta en el fondo, pero se queda en «falso» sin decir que <i>parecía</i> bueno. cogent e incontrovertible son elogios; arcane y prolix son defectos de otro eje.",
+   "targets": [
+    "specious",
+    "spurious",
+    "cogent",
+    "incontrovertible",
+    "arcane",
+    "prolix"
+   ]
+  },
+  {
+   "id": "se022",
+   "type": "SE",
+   "text": "Nothing was ever put in writing, but there was a ___ understanding that the junior partners would not take clients with them when they left.",
+   "signal": {
+    "word": "but",
+    "relation": "contraste"
+   },
+   "clue": "Nothing was ever put in writing",
+   "blankTone": "neu",
+   "predictionHint": "acordado sin decirlo, no escrito",
+   "options": [
+    "tacit",
+    "implicit",
+    "overt",
+    "conspicuous",
+    "spurious",
+    "onerous"
+   ],
+   "answer": [
+    "tacit",
+    "implicit"
+   ],
+   "why": "El contraste con «nothing in writing» pide justo lo no dicho. <b>tacit</b> e <b>implicit</b> nombran un acuerdo que se sobrentiende.",
+   "trapNote": "overt y conspicuous son lo contrario y se leen rápido como «claro», que es la trampa de descuido. onerous (gravoso) describiría la carga del pacto y spurious su falsedad: la oración pregunta por su <i>forma</i>, no por su peso ni por su validez.",
+   "targets": [
+    "tacit",
+    "implicit",
+    "overt",
+    "conspicuous",
+    "spurious",
+    "onerous"
+   ]
+  },
+  {
+   "id": "se023",
+   "type": "SE",
+   "text": "By 1890 the motif was so ___ in provincial architecture that builders no longer thought of it as a choice; it simply appeared on every façade.",
+   "signal": {
+    "word": "so … that",
+    "relation": "causa"
+   },
+   "clue": "it simply appeared on every façade",
+   "blankTone": "neu",
+   "predictionHint": "presente en todas partes",
+   "options": [
+    "ubiquitous",
+    "pervasive",
+    "anomalous",
+    "nascent",
+    "ephemeral",
+    "ornate"
+   ],
+   "answer": [
+    "ubiquitous",
+    "pervasive"
+   ],
+   "why": "«Every façade» es extensión total. <b>ubiquitous</b> y <b>pervasive</b> son las dos que la nombran.",
+   "trapNote": "ornate es la trampa de contexto: hablamos de fachadas del XIX y la palabra encaja con el tema, pero la pista mide <i>cuántas</i>, no <i>cómo</i> son. anomalous y nascent van al revés, y ephemeral cambia el eje a la duración.",
+   "targets": [
+    "ubiquitous",
+    "pervasive",
+    "anomalous",
+    "nascent",
+    "ephemeral",
+    "ornate"
+   ]
+  },
+  {
+   "id": "se024",
+   "type": "SE",
+   "text": "Asked twice whether he had approved the payment, the minister chose to ___, answering at length about procedures without ever saying yes or no.",
+   "signal": {
+    "word": "without ever saying yes or no",
+    "relation": "reformulación"
+   },
+   "clue": "answering at length about procedures without ever saying yes or no",
+   "blankTone": "neg",
+   "predictionHint": "hablar para no responder, esquivando sin mentir del todo",
+   "options": [
+    "equivocate",
+    "prevaricate",
+    "capitulate",
+    "recant",
+    "elucidate",
+    "demur"
+   ],
+   "answer": [
+    "equivocate",
+    "prevaricate"
+   ],
+   "why": "Responder largo sin decir ni sí ni no es la definición de andarse por las ramas. <b>equivocate</b> y <b>prevaricate</b> son las dos que lo dicen.",
+   "trapNote": "demur es la trampa fina: también es una respuesta que no da el sí, pero demur es <i>objetar</i> abiertamente, y aquí lo característico es que no se opone a nada. capitulate y recant serían rendirse o retractarse — las dos exigen tomar postura, que es lo que el ministro evita. elucidate es aclarar, lo contrario.",
+   "targets": [
+    "equivocate",
+    "prevaricate",
+    "capitulate",
+    "recant",
+    "elucidate",
+    "demur"
    ]
   }
  ]

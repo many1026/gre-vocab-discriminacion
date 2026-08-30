@@ -23,15 +23,18 @@ Actualiza esta sección al cerrar cada lote.
 - **186 grupos, 1037/1112 palabras (93.3%)**, `run_all.py` en verde, 0 errores
 - Grupos `loose`: **2** (g183, g184). g185 y g186 **no** son loose: los dos ejes se defienden palabra
   por palabra (escala de daño; apetito de bienes)
-- Banco TC/SE auténtico: **36/150 ítems** (TC1=24, TC2=2, SE=10). Los TC de dos huecos
+- Banco TC/SE auténtico: **50/150 ítems** (TC1=24, TC2=2, SE=24). Los TC de dos huecos
   llevan `optionGroups`: una columna de 3 opciones por hueco, como en el examen. R11 exige
   que `options` sea la concatenación en orden y que cada respuesta caiga en su columna
 - **App** en `app/index.html`. Se abre con doble clic, sin servidor. Progreso en
   `localStorage`, feedback sobre el eje. Motor anti-interferencia completo: Leitner
   0·1·3·7·16, matriz de confusión **por par y dirigida**, contrastivo forzado hasta cerrar
   cada par, "dominado" solo si el grupo no tiene pares abiertos (nunca por promedio),
-  repaso diario mixto y sesión de sábado. Formatos: Discriminar, Reconocer, Contrastivo.
-  **Faltan** Escribir, Equivalencia (SE) y Ordenar por intensidad — ver `ESTADO.md`
+  repaso diario mixto y sesión de sábado. **Los 6 formatos**: Discriminar, Reconocer,
+  Contrastivo, Escribir, Equivalencia (SE) y Ordenar por intensidad — ver `ESTADO.md`
+- **Los ítems SE son la salida de las palabras que ningún cloze separa.** Cuando un par sea
+  de sinónimos verdaderos, no fuerces un grupo: escribe un SE. 16 de las 75 huérfanas ya se
+  estudian así (cobertura efectiva 1053/1112, 94.7%)
 - Ya es repo git (`main`): cada lote se comitea al cerrar
 
 ## Anatomía

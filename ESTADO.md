@@ -272,3 +272,23 @@ contrario de lo que pide SE. Hasta que el banco crezca, el modo se agota en una 
 | Intensidad | 4 palabras del mismo grupo, polos visibles; al invertir dos abrió ese par exacto (`decry>denounce`) |
 | Repaso del día | 12 ítems con **los 6 formatos** mezclados, 0 grupos consecutivos |
 | Salir a media sesión | vuelve a la portada y conserva lo respondido |
+
+## 12. Bloque E, primer lote — el banco TC/SE (30 ago)
+
+Banco de **36 → 50 ítems**; los SE, que son los que alimentan Equivalencia, de **10 → 24**.
+
+El criterio de este lote: **priorizar palabras sin grupo**. Los sinónimos verdaderos que ningún
+cloze separa (`lassitude`/`torpor`, `penchant`/`predilection`, `propensity`/`proclivity`,
+`exculpate`/`exonerate`, `impede`/`hinder`, `buttress`/`bolster`) son exactamente lo que SE
+pide. Es la decisión 2 del checkpoint puesta a trabajar: donde el grupo falla, el banco entra.
+
+**Efecto en cobertura:** 16 de las 75 palabras sin grupo ya se ejercitan en la app a través del
+banco. Cobertura efectiva **1053/1112 (94.7%)**, aunque el informe siga diciendo 93.3% — ese
+número solo cuenta grupos. Quedan **59** palabras que no aparecen todavía en ningún sitio.
+
+Todas las opciones de los 14 ítems nuevos salen del dataset, así que cada ítem pone 6 palabras
+reales en circulación, no solo las 2 correctas.
+
+**Verificación:** `run_all.py` verde (R11 pasa), 0 problemas estructurales en los 14, y los 12
+ítems que entraron en una sesión se renderizaron, se respondieron y mostraron su `why` y su
+`trapNote`.
