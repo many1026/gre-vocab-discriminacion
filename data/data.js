@@ -3,8 +3,8 @@ window.VOCAB = {
   "totalWords": 1112,
   "coveredWords": 1037,
   "groupCount": 186,
-  "tcCount": 119,
-  "seCount": 27
+  "tcCount": 129,
+  "seCount": 30
  },
  "groups": [
   {
@@ -25903,6 +25903,331 @@ window.VOCAB = {
     "draconian",
     "prudent",
     "tentative"
+   ]
+  },
+  {
+   "id": "tc093",
+   "text": "The plain brick front does much to ___ the extravagance of everything behind it: a domed hall, a marble stair, and a ballroom that seats four hundred.",
+   "signal": {
+    "word": "the extravagance of everything behind it",
+    "relation": "contraste"
+   },
+   "clue": "a domed hall, a marble stair, and a ballroom that seats four hundred",
+   "blankTone": "neu",
+   "predictionHint": "dar una impresión falsa de lo que hay detrás",
+   "options": [
+    "belie",
+    "announce",
+    "explain",
+    "justify",
+    "exaggerate"
+   ],
+   "answer": [
+    "belie"
+   ],
+   "why": "Una fachada sobria delante de un interior fastuoso desmiente lo que promete. <b>belie</b>: contradecir la impresión que uno da.",
+   "trapNote": "announce es la trampa de dirección: sería lo que la fachada haría si <i>anunciara</i> el lujo, y aquí lo oculta. Ojo también con el segundo sentido de belie, «demostrar que algo es falso» (<i>the figures belie his claim</i>), que no es el de esta oración.",
+   "type": "TC1",
+   "targets": [
+    "belie"
+   ]
+  },
+  {
+   "id": "tc094",
+   "text": "The post was a ___ in all but name: a salary, an office he visited twice a year, and no duty that anybody in the department could name.",
+   "signal": {
+    "word": "in all but name",
+    "relation": "reformulación"
+   },
+   "clue": "no duty that anybody in the department could name",
+   "blankTone": "neu",
+   "predictionHint": "un cargo que se cobra sin trabajo que hacer",
+   "options": [
+    "sinecure",
+    "sacrifice",
+    "apprenticeship",
+    "ordeal",
+    "vocation"
+   ],
+   "answer": [
+    "sinecure"
+   ],
+   "why": "Sueldo, despacho de adorno y ninguna obligación es la definición del cargo sin función. <b>sinecure</b> — del latín <i>sine cura</i>, sin cuidado.",
+   "trapNote": "ordeal y sacrifice invierten el tono: describirían un puesto penoso, y este no cuesta nada. apprenticeship y vocation implican trabajo y entrega, que es lo que la pista niega.",
+   "type": "TC1",
+   "targets": [
+    "sinecure"
+   ]
+  },
+  {
+   "id": "tc095",
+   "text": "The memo's purpose was not to explain the shortfall but to ___ it: eleven pages of methodology, and the one figure that mattered buried in a footnote.",
+   "signal": {
+    "word": "not to explain … but to",
+    "relation": "contraste"
+   },
+   "clue": "the one figure that mattered buried in a footnote",
+   "blankTone": "neg",
+   "predictionHint": "enturbiar algo a propósito para que no se entienda",
+   "options": [
+    "obfuscate",
+    "elucidate",
+    "quantify",
+    "rectify",
+    "disclose"
+   ],
+   "answer": [
+    "obfuscate"
+   ],
+   "why": "Once páginas de método y el dato clave en una nota al pie es oscurecer con material, no explicar. <b>obfuscate</b>.",
+   "trapNote": "elucidate y disclose son exactamente lo que el «not to explain but» descarta. quantify es la trampa fina: el memorándum sí está lleno de cifras, pero cuantificar no explica el propósito — el dato que importa está escondido, no calculado.",
+   "type": "TC1",
+   "targets": [
+    "obfuscate",
+    "elucidate"
+   ]
+  },
+  {
+   "id": "tc096",
+   "text": "The plan was ___ from the start: one man, an open rowing boat, and a stretch of ocean that has drowned better sailors with far better equipment.",
+   "signal": {
+    "word": "from the start",
+    "relation": "causa"
+   },
+   "clue": "a stretch of ocean that has drowned better sailors with far better equipment",
+   "blankTone": "neu",
+   "predictionHint": "idealista hasta lo insensato, condenado de antemano",
+   "options": [
+    "quixotic",
+    "prudent",
+    "lucrative",
+    "methodical",
+    "derivative"
+   ],
+   "answer": [
+    "quixotic"
+   ],
+   "why": "Un hombre solo contra un mar que ha ahogado a marinos mejor equipados es empresa de idealista sin posibilidades. <b>quixotic</b>, de don Quijote.",
+   "trapNote": "prudent y methodical son lo contrario y son la trampa de tono: el plan tiene una <i>forma</i> deliberada, pero la pista mide sus posibilidades, no su método. lucrative y derivative cambian de eje.",
+   "type": "TC1",
+   "targets": [
+    "quixotic",
+    "prudent",
+    "lucrative",
+    "derivative"
+   ]
+  },
+  {
+   "id": "tc097",
+   "text": "Three emergency loans failed to ___ the outflow: depositors were still queueing at the branch doors a week after the guarantee had been announced.",
+   "signal": {
+    "word": "failed to",
+    "relation": "contraste"
+   },
+   "clue": "depositors were still queueing at the branch doors a week after",
+   "blankTone": "neu",
+   "predictionHint": "cortar una hemorragia, detener una salida",
+   "options": [
+    "stanch",
+    "accelerate",
+    "audit",
+    "justify",
+    "precipitate"
+   ],
+   "answer": [
+    "stanch"
+   ],
+   "why": "Lo que se hace con una fuga de dinero es taponarla, y la imagen viene de la sangre. <b>stanch</b>.",
+   "trapNote": "accelerate y precipitate van en la dirección contraria — empeorarían la fuga —, y son la trampa cuando uno lee «failed to» sin fijarse. audit y justify son cosas que se hacen <i>con</i> las cuentas, no con una salida de fondos.",
+   "type": "TC1",
+   "targets": [
+    "stanch",
+    "precipitate"
+   ]
+  },
+  {
+   "id": "se028",
+   "text": "The work itself was simple enough; it was the ___ conditions that emptied the camp within a month — sixteen-hour shifts, no shelter, and a two-hour walk at either end of the day.",
+   "signal": {
+    "word": "it was the",
+    "relation": "causa"
+   },
+   "clue": "sixteen-hour shifts, no shelter, and a two-hour walk at either end of the day",
+   "blankTone": "neg",
+   "predictionHint": "que imponen una carga muy pesada",
+   "options": [
+    "arduous",
+    "onerous",
+    "salubrious",
+    "congenial",
+    "temperate",
+    "nominal"
+   ],
+   "answer": [
+    "arduous",
+    "onerous"
+   ],
+   "why": "Jornadas de dieciséis horas, sin techo y con cuatro horas de camino son condiciones que pesan. <b>arduous</b> y <b>onerous</b>.",
+   "trapNote": "salubrious, congenial y temperate son elogios del entorno y contradicen la pista entera. nominal diría que las condiciones son insignificantes, y lo que hicieron fue vaciar el campamento.",
+   "type": "SE",
+   "targets": [
+    "arduous",
+    "onerous",
+    "salubrious",
+    "congenial",
+    "nominal"
+   ]
+  },
+  {
+   "id": "se029",
+   "text": "The letter did nothing to ___ his account: it merely repeated, in his own handwriting, what he had already told the inquiry twice.",
+   "signal": {
+    "word": "it merely repeated",
+    "relation": "reformulación"
+   },
+   "clue": "what he had already told the inquiry twice",
+   "blankTone": "neu",
+   "predictionHint": "respaldar algo con una prueba independiente",
+   "options": [
+    "substantiate",
+    "corroborate",
+    "undermine",
+    "retract",
+    "embellish",
+    "refute"
+   ],
+   "answer": [
+    "substantiate",
+    "corroborate"
+   ],
+   "why": "Repetir uno mismo lo ya dicho no aporta apoyo externo, que es justo lo que el hueco nombra. <b>substantiate</b> y <b>corroborate</b>.",
+   "trapNote": "undermine, refute y retract van en la dirección contraria: la carta no contradice nada, simplemente no añade nada. Es la trampa de leer «did nothing to» y buscar un verbo negativo — el negativo ya está en la frase.",
+   "type": "SE",
+   "targets": [
+    "substantiate",
+    "corroborate",
+    "undermine",
+    "embellish",
+    "refute"
+   ]
+  },
+  {
+   "id": "se030",
+   "text": "He was famously ___ at the table and impossible to reach the rest of the week: three hours of talk over dinner, and then a month of unanswered letters.",
+   "signal": {
+    "word": "and impossible to reach the rest of the week",
+    "relation": "contraste"
+   },
+   "clue": "three hours of talk over dinner",
+   "blankTone": "pos",
+   "predictionHint": "sociable y animado en compañía",
+   "options": [
+    "gregarious",
+    "convivial",
+    "taciturn",
+    "reclusive",
+    "morose",
+    "brusque"
+   ],
+   "answer": [
+    "gregarious",
+    "convivial"
+   ],
+   "why": "Tres horas de charla en la mesa describen a alguien que disfruta de la compañía. <b>gregarious</b> y <b>convivial</b>.",
+   "trapNote": "taciturn, reclusive y morose describen la <i>segunda</i> mitad de la frase — el mes sin contestar cartas —, y ahí está la trampa: el hueco va con «at the table», no con el resto de la semana.",
+   "type": "SE",
+   "targets": [
+    "gregarious",
+    "convivial",
+    "taciturn",
+    "morose"
+   ]
+  },
+  {
+   "id": "tc098",
+   "text": "Although the survey was ___ in its scope — every household in four counties — its conclusions turned out to rest on a strikingly ___ base: the twelve interviews the author had conducted herself.",
+   "signal": {
+    "word": "Although",
+    "relation": "contraste"
+   },
+   "clue": "the twelve interviews the author had conducted herself",
+   "blankTone": "neu",
+   "predictionHint": "primero: amplísimo. segundo: estrecho, mucho menor de lo que promete",
+   "optionGroups": [
+    [
+     "comprehensive",
+     "cursory",
+     "tentative"
+    ],
+    [
+     "narrow",
+     "exhaustive",
+     "robust"
+    ]
+   ],
+   "answer": [
+    "comprehensive",
+    "narrow"
+   ],
+   "why": "«Every household in four counties» fija el primer hueco por amplitud: <b>comprehensive</b>. El «Although» exige que el segundo lo desmienta, y doce entrevistas propias son una base estrecha: <b>narrow</b>.",
+   "trapNote": "exhaustive y robust en el segundo hueco romperían el «Although»: repetirían el primero en vez de oponerse, y la oración dejaría de decir nada. En TC de dos huecos, la conjunción manda sobre las dos columnas a la vez.",
+   "type": "TC2",
+   "options": [
+    "comprehensive",
+    "cursory",
+    "tentative",
+    "narrow",
+    "exhaustive",
+    "robust"
+   ],
+   "targets": [
+    "cursory",
+    "tentative",
+    "exhaustive",
+    "robust"
+   ]
+  },
+  {
+   "id": "tc099",
+   "text": "What the new wing offers is not scholarship but ___: the labels are ___, the dates approximate, and the whole arrangement designed to move visitors through in forty minutes.",
+   "signal": {
+    "word": "not scholarship but",
+    "relation": "contraste"
+   },
+   "clue": "the whole arrangement designed to move visitors through in forty minutes",
+   "blankTone": "neg",
+   "predictionHint": "primero: espectáculo, no estudio. segundo: hechas por encima",
+   "optionGroups": [
+    [
+     "spectacle",
+     "erudition",
+     "polemic"
+    ],
+    [
+     "perfunctory",
+     "exhaustive",
+     "contentious"
+    ]
+   ],
+   "answer": [
+    "spectacle",
+    "perfunctory"
+   ],
+   "why": "El «not scholarship but» y los cuarenta minutos de recorrido piden <b>spectacle</b>; las fechas aproximadas y las cartelas de paso, <b>perfunctory</b>.",
+   "trapNote": "erudition en el primero sería repetir «scholarship», que la oración acaba de descartar. exhaustive en el segundo contradice las fechas aproximadas: los dos huecos tienen que apuntar en la misma dirección, porque después del «but» la frase ya no cambia de rumbo.",
+   "type": "TC2",
+   "options": [
+    "spectacle",
+    "erudition",
+    "polemic",
+    "perfunctory",
+    "exhaustive",
+    "contentious"
+   ],
+   "targets": [
+    "perfunctory",
+    "exhaustive",
+    "contentious"
    ]
   }
  ]
