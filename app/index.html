@@ -116,6 +116,16 @@ body{
 .opt.is-dim{opacity:.38}
 .opt.is-picked{border-color:var(--ink);background:var(--surface-2)}
 
+/* ---------- TC de dos huecos: una columna por hueco ---------- */
+.tc2-cols{display:flex;gap:26px;flex-wrap:wrap}
+.tc2-col{flex:1 1 200px;min-width:0}
+.tc2-head{
+  display:block;font-family:var(--mono);font-size:10.5px;color:var(--faint);
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px;
+}
+.tc2-col .options{flex-direction:column;align-items:stretch}
+.tc2-col .opt{justify-content:flex-start}
+
 /* ---------- escribir ---------- */
 .type-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .type-in{
@@ -335,6 +345,21 @@ function recordTC(item, pick){
   return ok;
 }
 
+/* TC de dos huecos: cada columna se corrige por separado, como en el examen,
+   pero el ítem solo cuenta como acertado si las dos caen. */
+function recordTC2(item, picks){
+  var ok = true;
+  item.answer.forEach(function(right, i){
+    var hit = picks[i] === right;
+    if (!hit) ok = false;
+    if (ENTRY[right]) record(right, hit, null);
+    if (!hit && ENTRY[picks[i]] && ENTRY[right] &&
+        ENTRY[picks[i]].g.id === ENTRY[right].g.id) openPair(right, picks[i]);
+  });
+  saveStore(store);
+  return ok;
+}
+
 function recordSE(item, picks){
   var ok = picks.length === 2 && picks.every(function(p){ return item.answer.indexOf(p) >= 0; });
   item.answer.forEach(function(w){ if (ENTRY[w]) record(w, ok, null); });
@@ -404,6 +429,12 @@ var SE_POOL = (DATA.tcBank || []).filter(function(i){
 // opciones impresas entre las que una encaja.
 var TC_POOL = (DATA.tcBank || []).filter(function(i){
   return i.type === 'TC1' && i.options && i.answer && i.answer.length === 1;
+});
+
+// TC de dos huecos: una columna de opciones por hueco, como en el examen.
+var TC2_POOL = (DATA.tcBank || []).filter(function(i){
+  return i.type === 'TC2' && i.optionGroups && i.optionGroups.length === 2 &&
+         i.answer && i.answer.length === 2;
 });
 
 // Ordenar por intensidad: hace falta un eje real y cuatro posiciones distintas.
@@ -483,6 +514,10 @@ function tcItem(it){
   return {kind:'tc', se:it, w:null, other:null,
           g:{id:'tc·' + it.id, name:'una oración, un hueco', loose:true, words:[]}};
 }
+function tc2Item(it){
+  return {kind:'tc2', se:it, w:null, other:null,
+          g:{id:'tc·' + it.id, name:'una oración, dos huecos', loose:true, words:[]}};
+}
 function orderItem(g){
   return {kind:'order', w:null, other:null, g:g, ladder:pickLadder(g)};
 }
@@ -494,7 +529,11 @@ function pickQuestions(n, mode){
   var items = [], taken = {};
 
   if (mode === 'se')    return shuffle(SE_POOL).slice(0, n).map(seItem);
-  if (mode === 'tc')    return shuffle(TC_POOL).slice(0, n).map(tcItem);
+  if (mode === 'tc'){
+    // el modo de lectura mezcla los de un hueco y los de dos, como el examen
+    var pool = TC_POOL.map(tcItem).concat(TC2_POOL.map(tc2Item));
+    return shuffle(pool).slice(0, n);
+  }
   if (mode === 'order') return shuffle(ORDER_POOL).slice(0, n).map(orderItem);
 
   if (mode === 'mixed' || mode === 'saturday'){
@@ -511,6 +550,7 @@ function pickQuestions(n, mode){
     shuffle(TC_POOL).slice(0, Math.min(2, TC_POOL.length)).forEach(function(it){
       items.push(tcItem(it));
     });
+    if (TC2_POOL.length) items.push(tc2Item(TC2_POOL[Math.floor(Math.random()*TC2_POOL.length)]));
     if (ORDER_POOL.length) items.push(orderItem(ORDER_POOL[Math.floor(Math.random()*ORDER_POOL.length)]));
   }
 
@@ -617,7 +657,8 @@ function renderStart(){
       '<button class="mode-btn" data-mode="tc"><span class="mt">Leer la oración</span>' +
         '<span class="md">Text Completion en registro de examen: la señal, la pista y cinco opciones. ' +
         'Es donde se estudian las palabras que no están en ningún grupo. ' +
-        TC_POOL.length + ' ítems.</span></button>' : '') +
+        (TC_POOL.length + TC2_POOL.length) + ' ítems, ' + TC2_POOL.length +
+        ' de ellos con dos huecos.</span></button>' : '') +
       (SE_POOL.length ?
       '<button class="mode-btn" data-mode="se"><span class="mt">Equivalencia</span>' +
         '<span class="md">Las <b>dos</b> que dejan la oración con el mismo sentido, como en el examen. ' +
@@ -643,7 +684,8 @@ function currentOptions(){
 var cachedOpts = null;
 
 var KIND_LABEL = {cloze:'discriminar', recall:'reconocer', contrast:'cara a cara',
-                  type:'escribir', se:'equivalencia', order:'intensidad', tc:'leer la oración'};
+                  type:'escribir', se:'equivalencia', order:'intensidad',
+                  tc:'leer la oración', tc2:'dos huecos'};
 
 function nextRow(){
   return '<div class="next-row"><button class="btn" id="next">' +
@@ -773,6 +815,51 @@ function tcView(e, done){
   return body + '<div class="options">' + optHtml + '</div>' + fb;
 }
 
+/* --- TC de dos huecos: una columna de opciones por hueco --- */
+function blanks2Html(text, fills){
+  var parts = text.split('___'), out = esc(parts[0]);
+  for (var i = 1; i < parts.length; i++){
+    var f = fills && fills[i-1];
+    out += f ? '<span class="blank filled">' + esc(f) + '</span>'
+             : '<span class="blank">&nbsp;&nbsp;&nbsp;&nbsp;</span>';
+    out += esc(parts[i]);
+  }
+  return '<p class="sentence">' + out + '</p>';
+}
+
+function tc2View(e, done){
+  var it = e.se, picks = state.picks;
+  var body = blanks2Html(it.text, done ? it.answer : picks);
+
+  var cols = it.optionGroups.map(function(col, ci){
+    var opts = col.map(function(o){
+      var cls = 'opt';
+      if (done){
+        if (o === it.answer[ci]) cls += ' is-right';
+        else if (o === picks[ci]) cls += ' is-wrong';
+        else cls += ' is-dim';
+      } else if (picks[ci] === o) cls += ' is-picked';
+      return '<button class="' + cls + '" data-w="' + esc(o) + '" data-col="' + ci + '"' +
+             (done?' disabled':'') + '>' + esc(o) + '</button>';
+    }).join('');
+    return '<div class="tc2-col"><span class="tc2-head">' +
+           (ci === 0 ? 'primer hueco' : 'segundo hueco') + '</span>' +
+           '<div class="options">' + opts + '</div></div>';
+  }).join('');
+
+  var fb = '';
+  if (done){
+    fb = '<div class="fb">' +
+         '<p class="fb-word">' + esc(it.answer.join('  ·  ')) + '</p>' +
+         '<p class="fb-disc">' + it.why + '</p>' +
+         '<div class="card"><h4>la señal</h4><p>«' + esc(it.signal.word) + '» — ' +
+           esc(it.signal.relation) + '. La pista: <i>' + esc(it.clue) + '</i></p></div>' +
+         (it.trapNote ? '<div class="card"><h4>la trampa</h4><p>' + it.trapNote + '</p></div>' : '') +
+         nextRow() + '</div>';
+  }
+  return body + '<div class="tc2-cols">' + cols + '</div>' + fb;
+}
+
 /* --- ordenar por intensidad: colocar cuatro palabras sobre el eje --- */
 function orderView(e, done){
   var g = e.g, picks = state.picks;
@@ -814,10 +901,12 @@ function shuffleStable(arr){
 function renderQuiz(){
   var e = state.qs[state.idx];
   var done = state.done;
-  if (!done && !cachedOpts && e.kind !== 'order' && e.kind !== 'type') cachedOpts = currentOptions();
+  if (!done && !cachedOpts && e.kind !== 'order' && e.kind !== 'type' && e.kind !== 'tc2')
+    cachedOpts = currentOptions();
 
   var view = e.kind === 'se'    ? seView(e, done)
            : e.kind === 'tc'    ? tcView(e, done)
+           : e.kind === 'tc2'   ? tc2View(e, done)
            : e.kind === 'order' ? orderView(e, done)
            : e.kind === 'type'  ? typeView(e, done)
            :                      choiceView(e, done);
@@ -833,7 +922,9 @@ function renderQuiz(){
 
   if (!done){
     Array.prototype.forEach.call(app.querySelectorAll('.opt'), function(b){
-      b.addEventListener('click', function(){ answer(b.getAttribute('data-w')); });
+      b.addEventListener('click', function(){
+        answer(b.getAttribute('data-w'), b.getAttribute('data-col'));
+      });
     });
     var input = app.querySelector('#typed');
     if (input){
@@ -855,8 +946,15 @@ function finish(e, ok, pick){
   render();
 }
 
-function answer(pick){
+function answer(pick, col){
   var e = state.qs[state.idx];
+
+  if (e.kind === 'tc2'){
+    state.picks[+col] = pick;
+    if (state.picks[0] == null || state.picks[1] == null) return render();
+    var okTC2 = recordTC2(e.se, state.picks);
+    return finish({w:{w:e.se.answer.join(' + ')}, g:e.g, kind:'tc2'}, okTC2, state.picks.join(' + '));
+  }
 
   if (e.kind === 'se'){
     if (state.picks.indexOf(pick) >= 0) state.picks.splice(state.picks.indexOf(pick), 1);

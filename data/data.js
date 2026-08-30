@@ -3,8 +3,8 @@ window.VOCAB = {
   "totalWords": 1112,
   "coveredWords": 1037,
   "groupCount": 186,
-  "tcCount": 109,
-  "seCount": 24
+  "tcCount": 119,
+  "seCount": 27
  },
  "groups": [
   {
@@ -25576,6 +25576,333 @@ window.VOCAB = {
     "tentative",
     "polemical",
     "whimsical"
+   ]
+  },
+  {
+   "id": "tc086",
+   "text": "Students of that generation would ___ him to a degree he found embarrassing: they copied his handwriting, adopted his hesitations, and quoted his asides back to him as though they were scripture.",
+   "signal": {
+    "word": "as though they were scripture",
+    "relation": "continuación"
+   },
+   "clue": "they copied his handwriting, adopted his hesitations",
+   "blankTone": "neu",
+   "predictionHint": "reverenciar a alguien casi como a un santo",
+   "options": [
+    "venerate",
+    "tolerate",
+    "resent",
+    "deride",
+    "humour"
+   ],
+   "answer": [
+    "venerate"
+   ],
+   "why": "Copiar la letra, los titubeos y citar como escritura es devoción, no simple aprecio. <b>venerate</b>.",
+   "trapNote": "humoured y tolerated rebajan el grado justo donde la pista lo sube; resented lo invierte. El detalle de «scripture» es el que fija el registro religioso — con él, cualquier verbo de aprecio moderado se queda corto.",
+   "type": "TC1",
+   "targets": [
+    "venerate",
+    "resent",
+    "deride"
+   ]
+  },
+  {
+   "id": "tc087",
+   "text": "There is a kind of assistant whose agreement is worthless precisely because it is unconditional: the ___ subordinate who has never once been heard to finish a sentence with a reservation.",
+   "signal": {
+    "word": "precisely because it is unconditional",
+    "relation": "causa"
+   },
+   "clue": "never once been heard to finish a sentence with a reservation",
+   "blankTone": "neg",
+   "predictionHint": "servil hasta el punto de no discrepar jamás",
+   "options": [
+    "obsequious",
+    "candid",
+    "truculent",
+    "diffident",
+    "meticulous"
+   ],
+   "answer": [
+    "obsequious"
+   ],
+   "why": "Un acuerdo incondicional y sin una sola reserva describe la adulación servil. <b>obsequious</b>.",
+   "trapNote": "diffident es la trampa fina: el tímido también calla, pero por apuro, no por halagar — y la pista dice que sí habla, solo que nunca objeta. <i>servile</i> y <i>subservient</i> habrían valido y no están impresas: obsequious añade el halago activo que las otras dos no exigen.",
+   "type": "TC1",
+   "targets": [
+    "obsequious",
+    "candid",
+    "truculent",
+    "diffident",
+    "meticulous"
+   ]
+  },
+  {
+   "id": "tc088",
+   "text": "Two hours in that heat will ___ even a trained runner: it is not the distance that defeats people on this course but the air.",
+   "signal": {
+    "word": "not the distance that defeats people … but the air",
+    "relation": "reformulación"
+   },
+   "clue": "it is not the distance that defeats people on this course but the air",
+   "blankTone": "neg",
+   "predictionHint": "dejar sin fuerzas, agotar",
+   "options": [
+    "enervate",
+    "invigorate",
+    "acclimatize",
+    "exhilarate",
+    "vindicate"
+   ],
+   "answer": [
+    "enervate"
+   ],
+   "why": "Lo que derrota a la gente es el aire: le quita las fuerzas. <b>enervate</b>.",
+   "trapNote": "Cuidado con enervate: por su forma parece «poner de los nervios», y significa lo contrario — <b>quitar</b> el nervio. invigorate y exhilarate son sus antónimos y la trampa exacta del ítem.",
+   "type": "TC1",
+   "targets": [
+    "enervate",
+    "invigorate"
+   ]
+  },
+  {
+   "id": "tc089",
+   "text": "The problem was never the rules but the man enforcing them: ___ on any point that touched his own department, and remarkably flexible on every other.",
+   "signal": {
+    "word": "and remarkably flexible on every other",
+    "relation": "contraste"
+   },
+   "clue": "remarkably flexible on every other",
+   "blankTone": "neg",
+   "predictionHint": "que no cede en absoluto en ese punto",
+   "options": [
+    "intractable",
+    "amenable",
+    "impartial",
+    "diffident",
+    "conciliatory"
+   ],
+   "answer": [
+    "intractable"
+   ],
+   "why": "El contraste con «remarkably flexible» exige el extremo opuesto: alguien con quien no se puede negociar. <b>intractable</b>.",
+   "trapNote": "amenable y conciliatory son lo que la oración dice del <i>resto</i> de los asuntos, y colocarlas en el hueco borra el contraste. impartial sería un elogio, y la frase entera está construida como reproche.",
+   "type": "TC1",
+   "targets": [
+    "amenable",
+    "diffident",
+    "conciliatory"
+   ]
+  },
+  {
+   "id": "tc090",
+   "text": "What the paper earned him was not criticism but ___: three societies withdrew his membership, and the journal that had published it printed an apology.",
+   "signal": {
+    "word": "not criticism but",
+    "relation": "contraste"
+   },
+   "clue": "three societies withdrew his membership",
+   "blankTone": "neg",
+   "predictionHint": "deshonra pública, mucho más que reproche",
+   "options": [
+    "opprobrium",
+    "acclaim",
+    "scrutiny",
+    "indifference",
+    "levity"
+   ],
+   "answer": [
+    "opprobrium"
+   ],
+   "why": "Expulsiones y una disculpa pública son deshonra, no crítica. <b>opprobrium</b> es el oprobio que cae sobre alguien.",
+   "trapNote": "scrutiny es la trampa de grado: examinar a fondo un artículo es lo que <i>precede</i> al escándalo, no lo que describen las expulsiones. El «not criticism but» avisa de que hace falta subir, no matizar.",
+   "type": "TC1",
+   "targets": [
+    "opprobrium",
+    "acclaim",
+    "levity"
+   ]
+  },
+  {
+   "id": "se025",
+   "text": "His replies in the witness box were so ___ that the barrister had to put the same question four times to get a fact out of him.",
+   "signal": {
+    "word": "so … that",
+    "relation": "causa"
+   },
+   "clue": "the barrister had to put the same question four times",
+   "blankTone": "neu",
+   "predictionHint": "de muy pocas palabras",
+   "options": [
+    "laconic",
+    "taciturn",
+    "voluble",
+    "prolix",
+    "candid",
+    "evasive"
+   ],
+   "answer": [
+    "laconic",
+    "taciturn"
+   ],
+   "why": "Tener que repetir la pregunta cuatro veces para sacar un dato describe a alguien de respuestas mínimas. <b>laconic</b> y <b>taciturn</b> son las dos.",
+   "trapNote": "evasive es la trampa buena: también explicaría las cuatro preguntas, pero esquivar es no querer contestar, y aquí acaba dando el dato — solo que con las mínimas palabras. voluble y prolix son lo contrario.",
+   "type": "SE",
+   "targets": [
+    "laconic",
+    "taciturn",
+    "voluble",
+    "prolix",
+    "candid",
+    "evasive"
+   ]
+  },
+  {
+   "id": "se026",
+   "text": "Two generations were enough to ___ a fortune built up over a century and a half: neither the father nor the son ever earned a shilling of their own.",
+   "signal": {
+    "word": "Two generations were enough to",
+    "relation": "causa"
+   },
+   "clue": "neither the father nor the son ever earned a shilling of their own",
+   "blankTone": "neg",
+   "predictionHint": "gastar sin medida hasta acabar con ello",
+   "options": [
+    "squander",
+    "dissipate",
+    "husband",
+    "bequeath",
+    "amass",
+    "insure"
+   ],
+   "answer": [
+    "squander",
+    "dissipate"
+   ],
+   "why": "Una fortuna de siglo y medio liquidada en dos generaciones por quienes nada ganaron es derroche. <b>squandered</b> y <b>dissipated</b>.",
+   "trapNote": "bequeathed es la trampa de contexto: también va con herencias y generaciones, pero legar es transmitir, no gastar. husbanded y amassed van en la dirección contraria — administrar con tino y acumular.",
+   "type": "SE",
+   "targets": [
+    "squander"
+   ]
+  },
+  {
+   "id": "se027",
+   "text": "She defended the proposal with a ___ that surprised a committee used to hearing her weigh both sides for twenty minutes before saying anything at all.",
+   "signal": {
+    "word": "that surprised a committee used to hearing her weigh both sides",
+    "relation": "contraste"
+   },
+   "clue": "weigh both sides for twenty minutes before saying anything at all",
+   "blankTone": "neu",
+   "predictionHint": "un ardor y una convicción impropios de su costumbre",
+   "options": [
+    "zeal",
+    "fervour",
+    "detachment",
+    "reticence",
+    "levity",
+    "candour"
+   ],
+   "answer": [
+    "zeal",
+    "fervour"
+   ],
+   "why": "Lo que sorprende es el contraste con su costumbre de sopesar sin pronunciarse: defendió con ardor. <b>zeal</b> y <b>fervour</b>.",
+   "trapNote": "detachment y reticence son exactamente su costumbre, no la sorpresa: colocarlas deshace el contraste que la oración construye. candour sería franqueza, que no es lo mismo que entusiasmo — se puede ser franco con toda la frialdad del mundo.",
+   "type": "SE",
+   "targets": [
+    "levity"
+   ]
+  },
+  {
+   "id": "tc091",
+   "text": "The second report was ___ where the first had been evasive: it named the three officials responsible and set out, in an annexe nobody had asked for, the exact ___ each of them had been given to act without consulting anyone.",
+   "signal": {
+    "word": "where the first had been evasive",
+    "relation": "contraste"
+   },
+   "clue": "it named the three officials responsible",
+   "blankTone": "pos",
+   "predictionHint": "primero: franco, lo contrario de evasivo. segundo: el margen de decisión que se les había dado",
+   "optionGroups": [
+    [
+     "candid",
+     "circumspect",
+     "tendentious"
+    ],
+    [
+     "latitude",
+     "probity",
+     "decorum"
+    ]
+   ],
+   "answer": [
+    "candid",
+    "latitude"
+   ],
+   "why": "El «where the first had been evasive» fija el primer hueco por contraste: <b>candid</b>. En el segundo, lo que permite actuar sin consultar es el margen concedido: <b>latitude</b>.",
+   "trapNote": "circumspect es la trampa del primero: cauto suena a virtud, pero es vecino de evasivo, que es lo que la oración opone. En el segundo, probity y decorum son cualidades de los funcionarios, y el hueco pide lo que se les <i>dio</i>, no lo que eran.",
+   "type": "TC2",
+   "options": [
+    "candid",
+    "circumspect",
+    "tendentious",
+    "latitude",
+    "probity",
+    "decorum"
+   ],
+   "targets": [
+    "candid",
+    "circumspect",
+    "tendentious",
+    "latitude",
+    "probity",
+    "decorum"
+   ]
+  },
+  {
+   "id": "tc092",
+   "text": "Far from being the ___ gesture his opponents claimed, the withdrawal of the subsidy proved the most ___ measure of the decade: every exemption granted since 1971 fell with it, in a single afternoon.",
+   "signal": {
+    "word": "Far from being",
+    "relation": "contraste"
+   },
+   "clue": "every exemption granted since 1971 fell with it, in a single afternoon",
+   "blankTone": "neu",
+   "predictionHint": "primero: simbólico y sin efecto. segundo: de alcance enorme",
+   "optionGroups": [
+    [
+     "cosmetic",
+     "draconian",
+     "prudent"
+    ],
+    [
+     "sweeping",
+     "tentative",
+     "belated"
+    ]
+   ],
+   "answer": [
+    "cosmetic",
+    "sweeping"
+   ],
+   "why": "El «Far from being» exige que el primer hueco sea lo que la medida <i>no</i> fue, y la pista prueba lo contrario de un gesto vacío: <b>cosmetic</b>. El segundo lo remata con la escala: <b>sweeping</b>.",
+   "trapNote": "draconian en el primer hueco destruiría el ítem: sería casi un sinónimo del segundo, y entonces el «Far from being» no opondría nada. En TC de dos huecos, comprueba siempre que las dos respuestas no digan lo mismo — la oración tiene que ir a alguna parte.",
+   "type": "TC2",
+   "options": [
+    "cosmetic",
+    "draconian",
+    "prudent",
+    "sweeping",
+    "tentative",
+    "belated"
+   ],
+   "targets": [
+    "draconian",
+    "prudent",
+    "tentative"
    ]
   }
  ]
