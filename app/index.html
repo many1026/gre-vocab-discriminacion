@@ -60,6 +60,11 @@ body{
 .hero-word .a{color:var(--lo)}
 .hero-word .b{color:var(--hi)}
 .hero-sub{color:var(--muted);font-size:17px;max-width:46ch;margin:14px 0 0}
+.countdown{
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 18px;
+}
+.countdown b{color:var(--hi);font-weight:500}
 .stat-row{
   display:flex;flex-wrap:wrap;gap:18px 28px;margin:36px 0 32px;padding:18px 0;
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
@@ -252,6 +257,12 @@ var DAY = 86400000;
 var BOXES = [0, 1, 3, 7, 16];   // días hasta el próximo repaso, por caja
 var PAIR_CLEARED = 2;           // aciertos contrastivos seguidos para cerrar un par
 var MASTERY_BOX = 3;            // caja mínima (7 días) para considerar asentada una palabra
+var EXAM_DATE = new Date(2026, 9, 23);   // 23 de octubre de 2026
+
+function daysToExam(){
+  var hoy = new Date(); hoy.setHours(0,0,0,0);
+  return Math.round((EXAM_DATE - hoy) / DAY);
+}
 
 /* ---------- progreso ----------
    store = { words:{palabra:{r,w,t,box,due}}, pairs:{"objetivo>elegida":{n,ok}} }
@@ -636,7 +647,12 @@ function renderStart(){
               : 'Sin pares pendientes ahora mismo.')) +
     '</span></button>';
 
-  app.innerHTML =
+  var faltan = daysToExam();
+  var cuenta = faltan > 0
+    ? '<p class="countdown"><b>' + faltan + '</b> día' + (faltan === 1 ? '' : 's') + ' para el examen</p>'
+    : (faltan === 0 ? '<p class="countdown"><b>Hoy es el examen.</b> Suerte.</p>' : '');
+
+  app.innerHTML = cuenta +
     '<h1 class="hero-word"><span class="a">platitude</span> o <span class="b">aphorism</span></h1>' +
     '<p class="hero-sub">Las dos caben en una línea. Una se olvida al oírla y la otra se cita durante siglos. ' +
     'Aquí los distractores son siempre las palabras con las que la confundirías.</p>' +

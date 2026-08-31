@@ -23,15 +23,15 @@ Actualiza esta sección al cerrar cada lote.
 - **186 grupos, 1037/1112 palabras (93.3%)**, `run_all.py` en verde, 0 errores
 - Grupos `loose`: **2** (g183, g184). g185 y g186 **no** son loose: los dos ejes se defienden palabra
   por palabra (escala de daño; apetito de bienes)
-- Banco TC/SE auténtico: **109/150 ítems** (TC1=83, TC2=2, SE=24). Los TC de dos huecos
+- Banco TC/SE auténtico: **150/150 ítems, meta alcanzada** (TC1=105, TC2=10, SE=35). Los TC de dos huecos
   llevan `optionGroups`: una columna de 3 opciones por hueco, como en el examen. R11 exige
   que `options` sea la concatenación en orden y que cada respuesta caiga en su columna
 - **App** en `app/index.html`. Se abre con doble clic, sin servidor. Progreso en
   `localStorage`, feedback sobre el eje. Motor anti-interferencia completo: Leitner
   0·1·3·7·16, matriz de confusión **por par y dirigida**, contrastivo forzado hasta cerrar
   cada par, "dominado" solo si el grupo no tiene pares abiertos (nunca por promedio),
-  repaso diario mixto y sesión de sábado. **7 formatos**: Discriminar, Reconocer, Contrastivo,
-  Escribir, Equivalencia (SE), Ordenar por intensidad y Leer la oración (TC) — ver `ESTADO.md`
+  repaso diario mixto y sesión de sábado. **8 formatos**: Discriminar, Reconocer, Contrastivo,
+  Escribir, Equivalencia (SE), Ordenar por intensidad, Leer la oración (TC1) y dos huecos (TC2) — ver `ESTADO.md`
 - **Cobertura efectiva 1112/1112 (100%)**: 1037 en grupos + 75 solo en el banco. El informe
   dice 93.3% porque solo cuenta grupos, y está bien que lo haga
 - **El banco es la salida de lo que los grupos no pueden contener.** Sinónimos verdaderos →
@@ -50,12 +50,18 @@ data/groups/gNNN-slug.json      un archivo por grupo, editable a mano  ← aquí
 data/field_map.json             plan de campos semánticos con candidatos verificados
 data/cloze_verdicts.json        veredictos de unicidad, indexados por hash
 data/data.json / data.js        dataset ensamblado que consume la app
-data/tc_bank.json               banco TC/SE auténtico (meta 150; hoy 36, sin usar aún en la app)
+data/tc_bank.json               banco TC/SE auténtico (150/150, todo consumido por la app)
 reports/latest.txt              informe de la última corrida
 reports/status.json             estado legible por máquina: qué falta
 app/index.html                  la app, un solo archivo, se abre con doble clic
+scripts/build_standalone.py     empaqueta app + datos en app/gre-movil.html (para el móvil)
 docs/trampas.md                 campos que ya fallaron; se lee al armar grupos, no siempre
+PLAN.md                         plan día a día hasta el examen, con checklist y tracking
+README.md · BACKLOG.md          cómo usarlo y qué quedó fuera
 ```
+
+Publicada en **https://many1026.github.io/gre-vocab-discriminacion/** (GitHub Pages,
+se actualiza en cada push).
 
 `data.js` existe además de `data.json` porque `fetch()` sobre `file://` está bloqueado por
 CORS: la app tiene que abrir desde el sistema de archivos sin servidor.

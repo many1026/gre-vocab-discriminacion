@@ -3,8 +3,8 @@
   "totalWords": 1112,
   "coveredWords": 1037,
   "groupCount": 186,
-  "tcCount": 140,
-  "seCount": 33
+  "tcCount": 150,
+  "seCount": 35
  },
  "groups": [
   {
@@ -26583,6 +26583,333 @@
     "tentative",
     "perfunctory",
     "thorough"
+   ]
+  },
+  {
+   "id": "tc108",
+   "text": "The editorial did not merely disagree with the ruling: it went on to ___ the three judges by name for a decision it called an insult to every family in the county.",
+   "signal": {
+    "word": "did not merely disagree",
+    "relation": "contraste"
+   },
+   "clue": "an insult to every family in the county",
+   "blankTone": "neg",
+   "predictionHint": "reprender con dureza y en público",
+   "options": [
+    "castigate",
+    "commend",
+    "paraphrase",
+    "uphold",
+    "summarize"
+   ],
+   "answer": [
+    "castigate"
+   ],
+   "why": "El «not merely disagree» sube el tono, y llamar insulto a una sentencia nombrando a los jueces es vituperio. <b>castigate</b>.",
+   "trapNote": "commend y uphold van al revés. <i>excoriate</i> y <i>lambaste</i> habrían valido y no están impresas: son el mismo golpe con más fuerza, y castigate basta cuando el reproche es severo pero razonado.",
+   "type": "TC1",
+   "targets": [
+    "castigate"
+   ]
+  },
+  {
+   "id": "tc109",
+   "text": "The move was ___ rather than considered: he resigned in the middle of the meeting, and spent the following week finding out whether it could be undone.",
+   "signal": {
+    "word": "rather than considered",
+    "relation": "contraste"
+   },
+   "clue": "spent the following week finding out whether it could be undone",
+   "blankTone": "neg",
+   "predictionHint": "hecho en un arranque, sin pensarlo",
+   "options": [
+    "impetuous",
+    "calculated",
+    "timid",
+    "methodical",
+    "belated"
+   ],
+   "answer": [
+    "impetuous"
+   ],
+   "why": "Dimitir a media reunión y pasar la semana siguiente intentando deshacerlo es un arranque, no una decisión. <b>impetuous</b>.",
+   "trapNote": "calculated y methodical son exactamente lo que el «rather than considered» descarta. belated es la trampa temporal: sugiere que llegó tarde, cuando el problema es que llegó demasiado pronto.",
+   "type": "TC1",
+   "targets": [
+    "impetuous"
+   ]
+  },
+  {
+   "id": "tc110",
+   "text": "The heat made the whole household ___: the shutters stayed closed until five, and what little work got done was done after dark.",
+   "signal": {
+    "word": "The heat made the whole household",
+    "relation": "causa"
+   },
+   "clue": "the shutters stayed closed until five",
+   "blankTone": "neg",
+   "predictionHint": "sin ganas de moverse ni trabajar",
+   "options": [
+    "indolent",
+    "frenetic",
+    "punctual",
+    "gregarious",
+    "industrious"
+   ],
+   "answer": [
+    "indolent"
+   ],
+   "why": "Persianas cerradas hasta las cinco y trabajo solo de noche describen la desgana del calor. <b>indolent</b>.",
+   "trapNote": "industrious y frenetic son lo contrario y son la trampa de leer solo «what little work got done was done after dark» — sí trabajan, pero lo mínimo y a deshora. Lo que mide la pista es la falta de ganas, no la ausencia total de trabajo.",
+   "type": "TC1",
+   "targets": [
+    "indolent",
+    "frenetic",
+    "gregarious",
+    "industrious"
+   ]
+  },
+  {
+   "id": "tc111",
+   "text": "Forty years at the same desk had left him ___: a misfiled folder could produce ten minutes of shouting, and the juniors drew lots to decide who would go in and ask him anything.",
+   "signal": {
+    "word": "and the juniors drew lots",
+    "relation": "continuación"
+   },
+   "clue": "a misfiled folder could produce ten minutes of shouting",
+   "blankTone": "neg",
+   "predictionHint": "que salta a la mínima, de enfado fácil",
+   "options": [
+    "irascible",
+    "phlegmatic",
+    "affable",
+    "taciturn",
+    "diffident"
+   ],
+   "answer": [
+    "irascible"
+   ],
+   "why": "Diez minutos de gritos por una carpeta mal archivada es cólera con gatillo corto. <b>irascible</b>.",
+   "trapNote": "phlegmatic y affable son lo contrario. taciturn es la trampa fina: también explicaría que nadie quiera acercarse, pero el taciturno <i>calla</i>, y aquí grita durante diez minutos.",
+   "type": "TC1",
+   "targets": [
+    "irascible",
+    "phlegmatic",
+    "taciturn",
+    "diffident"
+   ]
+  },
+  {
+   "id": "tc112",
+   "text": "Her library was frankly ___: theology next to detective novels, a shelf of Persian poetry, and three feet of manuals on the maintenance of diesel engines.",
+   "signal": {
+    "word": "theology next to detective novels",
+    "relation": "continuación"
+   },
+   "clue": "theology next to detective novels",
+   "blankTone": "neu",
+   "predictionHint": "hecha de fuentes muy variadas, sin un solo criterio",
+   "options": [
+    "eclectic",
+    "specialized",
+    "derivative",
+    "meagre",
+    "pristine"
+   ],
+   "answer": [
+    "eclectic"
+   ],
+   "why": "Teología, novela negra, poesía persa y motores diésel en la misma estantería es variedad deliberada. <b>eclectic</b>.",
+   "trapNote": "specialized es el contrario exacto. meagre es la trampa de cantidad: la lista podría leerse como desorden de aficionado, pero tres pies de manuales y una estantería entera de poesía no son escasez — son amplitud.",
+   "type": "TC1",
+   "targets": [
+    "eclectic",
+    "derivative",
+    "pristine"
+   ]
+  },
+  {
+   "id": "tc113",
+   "text": "For thirty years the town held her up as a ___ of civic thrift, which is what made the discovery of the second account so difficult for everyone to explain.",
+   "signal": {
+    "word": "which is what made the discovery",
+    "relation": "contraste"
+   },
+   "clue": "the discovery of the second account",
+   "blankTone": "pos",
+   "predictionHint": "el ejemplo perfecto de una virtud",
+   "options": [
+    "paragon",
+    "hypocrite",
+    "novice",
+    "dilettante",
+    "martinet"
+   ],
+   "answer": [
+    "paragon"
+   ],
+   "why": "Una ciudad no ensalza durante treinta años a nadie salvo por virtud ejemplar, y ahí está el golpe del final. <b>paragon</b>.",
+   "trapNote": "hypocrite es lo que resulta ser <i>después</i> del hallazgo, no lo que el pueblo veía en ella durante treinta años: el hueco va con la primera mitad. <i>archetype</i> no valdría — es el molde del que descienden las copias, no el mejor ejemplar.",
+   "type": "TC1",
+   "targets": [
+    "paragon",
+    "hypocrite",
+    "dilettante",
+    "martinet"
+   ]
+  },
+  {
+   "id": "se034",
+   "text": "What offended the older members was not the substance of his remarks but the breach of ___: one does not say such things at a memorial, whatever one privately believes.",
+   "signal": {
+    "word": "not the substance … but",
+    "relation": "contraste"
+   },
+   "clue": "one does not say such things at a memorial",
+   "blankTone": "neu",
+   "predictionHint": "las formas debidas, lo que corresponde en una ocasión",
+   "options": [
+    "decorum",
+    "propriety",
+    "candour",
+    "levity",
+    "brevity",
+    "veracity"
+   ],
+   "answer": [
+    "decorum",
+    "propriety"
+   ],
+   "why": "El «not the substance but» separa el fondo de la forma, y lo que se rompe en un funeral es la corrección debida. <b>decorum</b> y <b>propriety</b>.",
+   "trapNote": "candour y veracity van con el fondo — con si lo dicho era sincero o cierto —, que es justo la mitad que la oración descarta. levity nombraría el tono concreto, no la norma que se infringe.",
+   "type": "SE",
+   "targets": [
+    "decorum",
+    "propriety",
+    "levity",
+    "brevity",
+    "veracity"
+   ]
+  },
+  {
+   "id": "se035",
+   "text": "The remark seemed ___ enough at the time — something about the weather on the way in — and it was only afterwards that anyone thought to ask why he had mentioned the road at all.",
+   "signal": {
+    "word": "and it was only afterwards",
+    "relation": "contraste"
+   },
+   "clue": "something about the weather on the way in",
+   "blankTone": "neu",
+   "predictionHint": "inofensivo, sin nada detrás",
+   "options": [
+    "innocuous",
+    "benign",
+    "incendiary",
+    "portentous",
+    "cryptic",
+    "damning"
+   ],
+   "answer": [
+    "innocuous",
+    "benign"
+   ],
+   "why": "Un comentario sobre el tiempo no levanta ninguna sospecha en el momento: parece inofensivo. <b>innocuous</b> y <b>benign</b>.",
+   "trapNote": "incendiary, portentous y damning describen lo que el comentario resultó ser <i>después</i>, y esa es la trampa: el hueco va con «at the time», antes de que nadie sospechara. cryptic tampoco sirve — si hubiera sonado enigmático, habrían preguntado en el acto.",
+   "type": "SE",
+   "targets": [
+    "innocuous",
+    "benign",
+    "incendiary"
+   ]
+  },
+  {
+   "id": "tc114",
+   "text": "The first volume is ___ to the point of tedium — every land grant listed, every witness named — while the second is so ___ that whole decades pass in a paragraph.",
+   "signal": {
+    "word": "while",
+    "relation": "contraste"
+   },
+   "clue": "every land grant listed, every witness named",
+   "blankTone": "neu",
+   "predictionHint": "primero: minucioso hasta cansar. segundo: hecho tan por encima que se salta décadas",
+   "optionGroups": [
+    [
+     "scrupulous",
+     "perfunctory",
+     "tendentious"
+    ],
+    [
+     "cursory",
+     "exhaustive",
+     "discursive"
+    ]
+   ],
+   "answer": [
+    "scrupulous",
+    "cursory"
+   ],
+   "why": "Cada concesión y cada testigo listados piden <b>scrupulous</b>; décadas enteras en un párrafo piden lo contrario, <b>cursory</b>.",
+   "trapNote": "exhaustive en el segundo hueco repetiría el primero y desharía el «while», que existe para oponer los dos volúmenes. Y perfunctory en el primero haría lo mismo al revés: las dos columnas tienen una respuesta obvia <i>si se lee la otra mitad</i>, y ninguna si se leen por separado.",
+   "type": "TC2",
+   "options": [
+    "scrupulous",
+    "perfunctory",
+    "tendentious",
+    "cursory",
+    "exhaustive",
+    "discursive"
+   ],
+   "targets": [
+    "scrupulous",
+    "perfunctory",
+    "tendentious",
+    "cursory",
+    "exhaustive"
+   ]
+  },
+  {
+   "id": "tc115",
+   "text": "Although the forensic evidence against him was ___, the jury acquitted in under an hour — a verdict that says less about the case than about how thoroughly the prosecutor had managed to ___ the town over the preceding year.",
+   "signal": {
+    "word": "Although",
+    "relation": "contraste"
+   },
+   "clue": "the jury acquitted in under an hour",
+   "blankTone": "neu",
+   "predictionHint": "primero: prueba que no admite discusión. segundo: poner a la gente en contra propia",
+   "optionGroups": [
+    [
+     "incontrovertible",
+     "circumstantial",
+     "scant"
+    ],
+    [
+     "alienate",
+     "persuade",
+     "placate"
+    ]
+   ],
+   "answer": [
+    "incontrovertible",
+    "alienate"
+   ],
+   "why": "El «Although» exige que la prueba fuera fuerte para que la absolución sorprenda: <b>incontrovertible</b>. Y lo que explica el veredicto no es el caso sino el fiscal: <b>alienate</b>.",
+   "trapNote": "circumstantial y scant en el primer hueco explicarían la absolución por sí solas, y entonces la segunda mitad — «says less about the case than about…» — no tendría nada que explicar. La oración avisa de dónde está la causa; el primer hueco tiene que dejarle sitio.",
+   "type": "TC2",
+   "options": [
+    "incontrovertible",
+    "circumstantial",
+    "scant",
+    "alienate",
+    "persuade",
+    "placate"
+   ],
+   "targets": [
+    "incontrovertible",
+    "circumstantial",
+    "scant",
+    "alienate",
+    "placate"
    ]
   }
  ]
