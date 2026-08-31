@@ -65,6 +65,65 @@ body{
   color:var(--faint);margin:0 0 18px;
 }
 .countdown b{color:var(--hi);font-weight:500}
+.streak{
+  font-family:var(--mono);font-size:12px;color:var(--muted);margin:-10px 0 22px;
+}
+.streak b{color:var(--hi);font-size:15px}
+
+/* ---------- misión de hoy ---------- */
+.mission{
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  padding:20px 20px 18px;margin:0 0 28px;
+}
+.mission.is-complete{border-color:var(--right)}
+.mission.slim{margin-top:26px;padding:16px 18px 14px}
+.mission-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:12px}
+.mission-title{font-family:var(--serif);font-size:20px;color:var(--ink)}
+.mission-count{font-family:var(--mono);font-size:13px;color:var(--faint)}
+.bar{height:5px;border-radius:3px;background:var(--surface-2);overflow:hidden;margin-bottom:16px}
+.bar i{display:block;height:100%;background:var(--hi);transition:width .35s ease}
+.mission.is-complete .bar i{background:var(--right)}
+.tasks{list-style:none;margin:0 0 18px;padding:0}
+.tasks li{
+  display:flex;align-items:baseline;gap:10px;padding:5px 0;
+  font-size:15.5px;color:var(--muted);
+}
+.tasks .tick{font-family:var(--mono);font-size:12px;color:var(--faint);width:12px}
+.tasks li.done{color:var(--faint)}
+.tasks li.done .tick{color:var(--right)}
+.tasks li.now{color:var(--ink);font-weight:500}
+.tasks li.now .tick{color:var(--hi)}
+.btn.go{width:100%;justify-content:center;text-align:center}
+.mission-meta{font-size:13px;color:var(--faint);margin:14px 0 0}
+.mission-done{font-size:15px;color:var(--muted);margin:0 0 16px}
+
+/* ---------- otros modos, plegados ---------- */
+.otros{margin:0 0 26px}
+.otros summary{
+  cursor:pointer;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--faint);padding:6px 0;
+  list-style:none;
+}
+.otros summary::-webkit-details-marker{display:none}
+.otros summary::before{content:'+';display:inline-block;width:14px;color:var(--faint)}
+.otros[open] summary::before{content:'–'}
+.otros summary:hover{color:var(--ink)}
+.otros[open] summary{margin-bottom:14px}
+
+/* ---------- hitos ---------- */
+.hitos-block,.hitos-nuevos{margin-top:30px;padding-top:20px;border-top:1px solid var(--line)}
+.hitos-head{
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--faint);margin:0 0 12px;
+}
+.hitos{display:flex;flex-wrap:wrap;gap:8px}
+.hito{
+  font-size:13px;padding:5px 11px;border-radius:20px;
+  border:1px solid var(--line);color:var(--muted);
+}
+.hito.is-done{border-color:var(--right);color:var(--right)}
+.hito.is-next{border-style:dashed;color:var(--faint)}
+.hito.is-new{border-color:var(--hi);color:var(--hi);font-weight:500}
 .stat-row{
   display:flex;flex-wrap:wrap;gap:18px 28px;margin:36px 0 32px;padding:18px 0;
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
@@ -264,6 +323,53 @@ function daysToExam(){
   return Math.round((EXAM_DATE - hoy) / DAY);
 }
 
+/* ---------- el plan, dentro de la app ----------
+   Las fases salen de PLAN.md, y esas fechas no son arbitrarias: con cajas
+   0·1·3·7·16 una palabra tarda unos 27 días en asentarse, así que la primera
+   pasada tiene que estar cerrada el 20 de septiembre o no llega a tiempo.
+   'daily' se resuelve a la sesión de sábado cuando toca. */
+var FASES = [
+  {hasta: '2026-09-20', nombre: 'Primera pasada',
+   meta: 'que las 1112 hayan pasado al menos una vez',
+   tareas: [['daily',1], ['cloze',2], ['recall',1], ['type',1]]},
+  {hasta: '2026-10-11', nombre: 'Cerrar los pares',
+   meta: 'que no te quede ningún par abierto',
+   tareas: [['daily',2], ['order',1], ['tc',1]]},
+  {hasta: '2026-10-20', nombre: 'Registro de examen',
+   meta: 'leer los 150 ítems del banco',
+   tareas: [['daily',1], ['tc',2], ['se',1]]},
+  {hasta: '2026-10-22', nombre: 'Recta final',
+   meta: 'llegar descansado; nada nuevo',
+   tareas: [['daily',1]]},
+  {hasta: '2026-12-31', nombre: 'Examen',
+   meta: 'hoy no se estudia',
+   tareas: []}
+];
+
+function dayStamp(d){
+  d = d || new Date();
+  var m = d.getMonth() + 1, day = d.getDate();
+  return d.getFullYear() + '-' + (m < 10 ? '0' : '') + m + '-' + (day < 10 ? '0' : '') + day;
+}
+function faseDeHoy(){
+  var hoy = dayStamp();
+  for (var i = 0; i < FASES.length; i++) if (hoy <= FASES[i].hasta) return FASES[i];
+  return FASES[FASES.length - 1];
+}
+// 'daily' es el repaso del día, que los sábados es la sesión de sábado
+function modoReal(m){ return m === 'daily' ? (isSaturday() ? 'saturday' : 'mixed') : m; }
+
+function misionDeHoy(){
+  return faseDeHoy().tareas.map(function(t){
+    var modo = modoReal(t[0]);
+    return {modo: modo, pide: t[1], hechas: Math.min(store.daily.done[modo] || 0, t[1])};
+  });
+}
+function misionCumplida(){
+  var m = misionDeHoy();
+  return m.length > 0 && m.every(function(t){ return t.hechas >= t.pide; });
+}
+
 /* ---------- progreso ----------
    store = { words:{palabra:{r,w,t,box,due}}, pairs:{"objetivo>elegida":{n,ok}} }
 
@@ -287,12 +393,72 @@ function loadStore(){
   Object.keys(raw.pairs).forEach(function(k){         // v2: el par era un contador suelto
     if (typeof raw.pairs[k] === 'number') raw.pairs[k] = {n:raw.pairs[k], ok:0};
   });
+  // v3: misión diaria, racha e hitos
+  if (!raw.daily || raw.daily.day !== dayStamp()) raw.daily = {day: dayStamp(), done: {}, items: 0};
+  if (!raw.streak) raw.streak = {current: 0, best: 0, last: null};
+  if (!raw.hitos) raw.hitos = {};
   return raw;
 }
 function saveStore(s){
   try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e){}
 }
 var store = loadStore();
+
+// Una sesión terminada cuenta para la misión. La racha sube una sola vez al día,
+// y solo cuando la misión entera está cumplida.
+function registrarSesion(modo, nItems){
+  if (store.daily.day !== dayStamp()) store.daily = {day: dayStamp(), done: {}, items: 0};
+  store.daily.done[modo] = (store.daily.done[modo] || 0) + 1;
+  store.daily.items += nItems;
+  if (misionCumplida() && store.streak.last !== dayStamp()){
+    var ayer = dayStamp(new Date(Date.now() - DAY));
+    store.streak.current = (store.streak.last === ayer) ? store.streak.current + 1 : 1;
+    store.streak.last = dayStamp();
+    if (store.streak.current > store.streak.best) store.streak.best = store.streak.current;
+  }
+  saveStore(store);
+}
+
+/* ---------- hitos ----------
+   Se calculan sobre las métricas reales, no sobre tiempo de uso: no hay forma de
+   desbloquearlos sin haber aprendido algo. */
+var HITOS = [
+  {id:'v1',    txt:'Primera sesión',              test:function(m){ return m.vistas >= 1; }},
+  {id:'v100',  txt:'100 palabras vistas',         test:function(m){ return m.vistas >= 100; }},
+  {id:'v500',  txt:'500 palabras vistas',         test:function(m){ return m.vistas >= 500; }},
+  {id:'v1000', txt:'1000 palabras vistas',        test:function(m){ return m.vistas >= 1000; }},
+  {id:'vall',  txt:'Las 1112, todas vistas',      test:function(m){ return m.vistas >= 1112; }},
+  {id:'p1',    txt:'Primer par cerrado',          test:function(m){ return m.cerrados >= 1; }},
+  {id:'p25',   txt:'25 pares cerrados',           test:function(m){ return m.cerrados >= 25; }},
+  {id:'p100',  txt:'100 pares cerrados',          test:function(m){ return m.cerrados >= 100; }},
+  {id:'g1',    txt:'Primer grupo dominado',       test:function(m){ return m.dominados >= 1; }},
+  {id:'g25',   txt:'25 grupos dominados',         test:function(m){ return m.dominados >= 25; }},
+  {id:'g75',   txt:'75 grupos dominados',         test:function(m){ return m.dominados >= 75; }},
+  {id:'gall',  txt:'Los 186 grupos dominados',    test:function(m){ return m.dominados >= 186; }},
+  {id:'r3',    txt:'3 días seguidos',             test:function(m){ return m.racha >= 3; }},
+  {id:'r7',    txt:'Una semana entera',           test:function(m){ return m.racha >= 7; }},
+  {id:'r14',   txt:'Dos semanas seguidas',        test:function(m){ return m.racha >= 14; }},
+  {id:'r30',   txt:'Treinta días sin fallar uno', test:function(m){ return m.racha >= 30; }}
+];
+
+function metricas(){
+  return {
+    vistas:    Object.keys(store.words).length,
+    cerrados:  Object.keys(store.pairs).filter(function(k){ return store.pairs[k].ok >= PAIR_CLEARED; }).length,
+    abiertos:  openPairs().length,
+    dominados: DATA.groups.filter(function(g){ return groupMastery(g).mastered; }).length,
+    racha:     store.streak.current
+  };
+}
+// devuelve los recién desbloqueados y los deja marcados
+function revisarHitos(){
+  var m = metricas(), nuevos = [];
+  HITOS.forEach(function(h){
+    if (!store.hitos[h.id] && h.test(m)){ store.hitos[h.id] = dayStamp(); nuevos.push(h); }
+  });
+  if (nuevos.length) saveStore(store);
+  return nuevos;
+}
 
 function record(word, ok, pick){
   var r = store.words[word] || {r:0,w:0,t:0,box:0,due:0};
@@ -607,7 +773,8 @@ function splitEj(ej){
 }
 
 /* ---------- estado ---------- */
-var state = {view:'start', mode:null, qs:[], idx:0, answered:null, picks:[], done:false, results:[]};
+var state = {view:'start', mode:null, qs:[], idx:0, answered:null, picks:[], done:false,
+             results:[], nuevosHitos:null};
 
 // todo lo que es de la pregunta actual y no debe sobrevivir a la siguiente
 function resetItem(){
@@ -625,7 +792,7 @@ function render(){
 function startSession(mode){
   state.mode = mode;
   state.qs = pickQuestions(mode === 'saturday' ? SATURDAY_LEN : SESSION_LEN, mode);
-  state.idx = 0; state.results = [];
+  state.idx = 0; state.results = []; state.nuevosHitos = null;
   resetItem();
   state.view = 'quiz';
   render();
@@ -648,20 +815,71 @@ function renderStart(){
     '</span></button>';
 
   var faltan = daysToExam();
+  var fase = faseDeHoy();
   var cuenta = faltan > 0
-    ? '<p class="countdown"><b>' + faltan + '</b> día' + (faltan === 1 ? '' : 's') + ' para el examen</p>'
-    : (faltan === 0 ? '<p class="countdown"><b>Hoy es el examen.</b> Suerte.</p>' : '');
+    ? '<p class="countdown"><b>' + faltan + '</b> día' + (faltan === 1 ? '' : 's') +
+      ' · ' + esc(fase.nombre) + '</p>'
+    : (faltan === 0 ? '<p class="countdown"><b>Hoy es el examen.</b> Suerte.</p>'
+                    : '<p class="countdown">examen pasado</p>');
 
-  app.innerHTML = cuenta +
-    '<h1 class="hero-word"><span class="a">platitude</span> o <span class="b">aphorism</span></h1>' +
-    '<p class="hero-sub">Las dos caben en una línea. Una se olvida al oírla y la otra se cita durante siglos. ' +
-    'Aquí los distractores son siempre las palabras con las que la confundirías.</p>' +
+  // --- misión de hoy: una casilla por sesión, en el orden en que conviene hacerlas
+  var casillas = [];
+  misionDeHoy().forEach(function(t){
+    for (var i = 0; i < t.pide; i++) casillas.push({modo: t.modo, hecha: i < t.hechas});
+  });
+  var hechas = casillas.filter(function(c){ return c.hecha; }).length;
+  var siguiente = null;
+  for (var i = 0; i < casillas.length; i++) if (!casillas[i].hecha){ siguiente = casillas[i]; break; }
+  var pct = casillas.length ? Math.round(100 * hechas / casillas.length) : 100;
+
+  var listaHtml = casillas.map(function(c, i){
+    var cls = c.hecha ? 'done' : (c === siguiente ? 'now' : '');
+    return '<li class="' + cls + '"><span class="tick">' + (c.hecha ? '✓' : '·') + '</span>' +
+           esc(MODE_NAME[c.modo] || c.modo) + '</li>';
+  }).join('');
+
+  var mision;
+  if (!casillas.length){
+    mision = '<div class="mission"><p class="mission-done">Hoy no toca estudiar. ' +
+             esc(fase.meta) + '.</p></div>';
+  } else if (siguiente){
+    mision =
+      '<div class="mission">' +
+        '<div class="mission-head"><span class="mission-title">Misión de hoy</span>' +
+          '<span class="mission-count">' + hechas + ' / ' + casillas.length + '</span></div>' +
+        '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
+        '<ul class="tasks">' + listaHtml + '</ul>' +
+        '<button class="btn go" data-mode="' + siguiente.modo + '">' +
+          (hechas ? 'Seguir' : 'Empezar') + ': ' + esc(MODE_NAME[siguiente.modo]) + '</button>' +
+        '<p class="mission-meta">Meta de la fase: ' + esc(fase.meta) + '.</p>' +
+      '</div>';
+  } else {
+    mision =
+      '<div class="mission is-complete">' +
+        '<div class="mission-head"><span class="mission-title">Misión cumplida</span>' +
+          '<span class="mission-count">' + hechas + ' / ' + casillas.length + '</span></div>' +
+        '<div class="bar"><i style="width:100%"></i></div>' +
+        '<p class="mission-done">Ya has hecho lo de hoy. Lo que venga de más es ganancia.</p>' +
+        '<button class="btn go ghost" data-mode="' + modoReal('daily') + '">Una sesión extra</button>' +
+      '</div>';
+  }
+
+  // --- racha
+  var st = store.streak;
+  var rachaHtml = st.current > 0
+    ? '<p class="streak"><b>' + st.current + '</b> día' + (st.current === 1 ? '' : 's') +
+      ' seguido' + (st.current === 1 ? '' : 's') +
+      (st.best > st.current ? ' · tu mejor racha: ' + st.best : '') + '</p>'
+    : (st.best > 0 ? '<p class="streak">racha rota · tu mejor fue de ' + st.best + '</p>' : '');
+
+  app.innerHTML = cuenta + rachaHtml + mision +
     '<div class="stat-row">' +
       '<div class="stat"><span class="n">' + due + '</span><span class="l">toca hoy</span></div>' +
       '<div class="stat"><span class="n">' + open + '</span><span class="l">pares abiertos</span></div>' +
       '<div class="stat"><span class="n">' + mastered + '</span><span class="l">grupos dominados</span></div>' +
       '<div class="stat"><span class="n">' + seen + '</span><span class="l">vistas</span></div>' +
     '</div>' +
+    '<details class="otros"><summary>o elige tú la sesión</summary>' +
     '<div class="modes">' + daily +
       '<button class="mode-btn" data-mode="cloze"><span class="mt">Discriminar</span>' +
         '<span class="md">Una oración con un hueco. Las cinco opciones son del mismo grupo: solo una encaja.</span></button>' +
@@ -682,11 +900,30 @@ function renderStart(){
       (ORDER_POOL.length ?
       '<button class="mode-btn" data-mode="order"><span class="mt">Intensidad</span>' +
         '<span class="md">Cuatro palabras del grupo, colocadas sobre su eje de menor a mayor.</span></button>' : '') +
-    '</div>';
+    '</div></details>' +
+    hitosHtml();
 
-  Array.prototype.forEach.call(app.querySelectorAll('.mode-btn'), function(b){
+  Array.prototype.forEach.call(app.querySelectorAll('[data-mode]'), function(b){
     b.addEventListener('click', function(){ startSession(b.getAttribute('data-mode')); });
   });
+}
+
+/* ---------- hitos: los conseguidos, y el siguiente a la vista ---------- */
+function hitosHtml(){
+  var m = metricas();
+  var hechos = HITOS.filter(function(h){ return store.hitos[h.id]; });
+  var pendientes = HITOS.filter(function(h){ return !store.hitos[h.id]; });
+  if (!hechos.length && !pendientes.length) return '';
+
+  var chips = hechos.slice(-6).map(function(h){
+    return '<span class="hito is-done">' + esc(h.txt) + '</span>';
+  }).join('');
+  var prox = pendientes.length
+    ? '<span class="hito is-next">siguiente: ' + esc(pendientes[0].txt) + '</span>' : '';
+
+  return '<div class="hitos-block">' +
+    '<p class="hitos-head">' + hechos.length + ' de ' + HITOS.length + ' hitos</p>' +
+    '<div class="hitos">' + chips + prox + '</div></div>';
 }
 
 /* ---------- pregunta ---------- */
@@ -702,6 +939,10 @@ var cachedOpts = null;
 var KIND_LABEL = {cloze:'discriminar', recall:'reconocer', contrast:'cara a cara',
                   type:'escribir', se:'equivalencia', order:'intensidad',
                   tc:'leer la oración', tc2:'dos huecos'};
+
+var MODE_NAME = {mixed:'Repaso del día', saturday:'Sesión de sábado', cloze:'Discriminar',
+                 recall:'Reconocer', type:'Escribir', tc:'Leer la oración',
+                 se:'Equivalencia', order:'Intensidad'};
 
 function nextRow(){
   return '<div class="next-row"><button class="btn" id="next">' +
@@ -1007,7 +1248,12 @@ function answer(pick, col){
 function next(){
   resetItem();
   state.idx++;
-  if (state.idx >= state.qs.length) state.view = 'summary';
+  if (state.idx >= state.qs.length){
+    state.view = 'summary';
+    // solo cuenta para la misión la sesión terminada entera, no la abandonada
+    registrarSesion(state.mode, state.results.length);
+    state.nuevosHitos = revisarHitos();
+  }
   render();
 }
 
@@ -1100,6 +1346,32 @@ function renderSummary(){
   if (stillOpen){
     html += '<p class="hero-sub">Quedan <b>' + stillOpen + '</b> pares abiertos. ' +
             'El repaso del día los pone primero.</p>';
+  }
+
+  // avance de la misión y hitos recién desbloqueados
+  var cas = [];
+  misionDeHoy().forEach(function(t){
+    for (var i = 0; i < t.pide; i++) cas.push(i < t.hechas);
+  });
+  var hechas = cas.filter(Boolean).length;
+  if (cas.length){
+    var falta = cas.length - hechas;
+    html += '<div class="mission slim">' +
+      '<div class="mission-head"><span class="mission-title">' +
+        (falta ? 'Misión de hoy' : '¡Misión cumplida!') + '</span>' +
+        '<span class="mission-count">' + hechas + ' / ' + cas.length + '</span></div>' +
+      '<div class="bar"><i style="width:' + Math.round(100*hechas/cas.length) + '%"></i></div>' +
+      '<p class="mission-meta">' + (falta
+        ? 'Te queda' + (falta === 1 ? '' : 'n') + ' ' + falta + ' sesi' + (falta === 1 ? 'ón' : 'ones') + '.'
+        : (store.streak.current > 1
+            ? 'Llevas ' + store.streak.current + ' días seguidos.'
+            : 'Racha empezada. Vuelve mañana para que cuente.')) + '</p></div>';
+  }
+  if (state.nuevosHitos && state.nuevosHitos.length){
+    html += '<div class="hitos-nuevos"><p class="hitos-head">desbloqueado</p><div class="hitos">' +
+      state.nuevosHitos.map(function(h){
+        return '<span class="hito is-new">' + esc(h.txt) + '</span>';
+      }).join('') + '</div></div>';
   }
 
   html += '<div class="next-row">' +

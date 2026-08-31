@@ -1,11 +1,15 @@
 # Plan de estudio — del 30 de agosto al 23 de octubre de 2026
 
 **Examen: viernes 23 de octubre.** Hoy, día 0, quedan **54 días**.
-La app te lo recuerda en la portada.
 
-> Este archivo es para marcar casillas. Ábrelo cada domingo, apunta las cuatro
-> cifras de la semana y marca lo que hiciste. Si una semana se tuerce, lo verás
-> en la tabla antes de que sea tarde.
+> **La app ya lleva este plan dentro.** Al abrirla te dice la fase en la que estás,
+> qué sesiones tocan hoy y cuántas llevas, y encadena la racha de días cumplidos.
+> No hace falta que consultes este archivo a diario: basta con hacer lo que ponga
+> la **Misión de hoy**.
+>
+> Este documento es el mapa completo — el porqué de las fases y la tabla de
+> tracking semanal, que sigue mereciendo la pena rellenar a mano: escribir la
+> cifra hace que la mires.
 
 ---
 

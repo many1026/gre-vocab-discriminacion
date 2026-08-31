@@ -35,8 +35,21 @@ o Drive y abre al tocarlo.
 > El progreso se guarda en el navegador de cada dispositivo. Lo que estudies en el
 > móvil no se mezcla con lo del portátil: elige uno como el oficial.
 
-**El plan de estudio hasta el examen está en [`PLAN.md`](PLAN.md)**, con checklist
-semanal y una tabla para llevar el registro.
+## Qué hago hoy
+
+Ábrela y te lo dice. La portada muestra la **misión del día**: la fase del plan en
+la que estás, las sesiones que tocan hoy, cuántas llevas y cuál es la siguiente.
+Un botón, y a estudiar.
+
+- **Racha**: los días seguidos en que cumpliste la misión entera. Se rompe si
+  fallas un día, pero guarda tu récord.
+- **Hitos**: 16 desbloqueables, calculados sobre métricas reales (palabras vistas,
+  pares cerrados, grupos dominados, racha). No hay forma de conseguirlos sin haber
+  aprendido algo.
+- Si quieres saltarte la misión, *o elige tú la sesión* despliega los ocho modos.
+
+Las fases y sus fechas salen de [`PLAN.md`](PLAN.md), que además trae la tabla de
+tracking semanal y qué hacer cuando una métrica se tuerce.
 
 ## Los ocho formatos
 

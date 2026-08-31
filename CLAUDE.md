@@ -30,7 +30,8 @@ Actualiza esta sección al cerrar cada lote.
   `localStorage`, feedback sobre el eje. Motor anti-interferencia completo: Leitner
   0·1·3·7·16, matriz de confusión **por par y dirigida**, contrastivo forzado hasta cerrar
   cada par, "dominado" solo si el grupo no tiene pares abiertos (nunca por promedio),
-  repaso diario mixto y sesión de sábado. **8 formatos**: Discriminar, Reconocer, Contrastivo,
+  repaso diario mixto y sesión de sábado. **Misión diaria** derivada de PLAN.md (fase, sesiones
+  que tocan hoy, racha de días y 16 hitos sobre métricas reales). **8 formatos**: Discriminar, Reconocer, Contrastivo,
   Escribir, Equivalencia (SE), Ordenar por intensidad, Leer la oración (TC1) y dos huecos (TC2) — ver `ESTADO.md`
 - **Cobertura efectiva 1112/1112 (100%)**: 1037 en grupos + 75 solo en el banco. El informe
   dice 93.3% porque solo cuenta grupos, y está bien que lo haga
